@@ -14,7 +14,7 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 *   **Morandi-Core:** Språket skal reflektere objektets essens. Ingenting eksisterer uten absolutt funksjon.
 
 ### II. Arkivet
-*   [`verdensbiblioteket/`](./verdensbiblioteket/) — Ni grunntekster fra ni arkiver (Landauer, Jesus, Poincaré, Nash, Sokrates, Hamsun, Bjørneboe, Nygårdshaug og en flamsk–norsk handelsavtale fra 1728).
+*   [`verdensbiblioteket/`](./verdensbiblioteket/) — Ti grunntekster fra ti arkiver (Landauer, Jesus, Poincaré, Nash, Sokrates, Hamsun, Bjørneboe, Nygårdshaug, en flamsk–norsk handelsavtale fra 1728 og Fridtjof Nansens feltdokumenter fra Østen, Kaukasus og steppene mot Turkestan).
 *   [`01_BOKER_UNDER_ARBEID/`](./01_BOKER_UNDER_ARBEID/) — Filosofien bak fail-closed arkitektur (*Kuttflaten*, *Fysikk for Metafysikk*, *Realiseringsgrammatikk*, *De Tre Lerretene* og *Autorisert Virkelighet*).
 *   [`02_UTDRAG_OG_KILDETEKSTER/`](./02_UTDRAG_OG_KILDETEKSTER/) — Grunnlagstekster, forord og nordisk industriell refleksjon over verkstedgulvet.
 *   [`TILMEGSELV/`](./TILMEGSELV/) — Syv kapitler om det subtraktive sinn, formens gravitasjon og porten som tenker.
