@@ -18,5 +18,20 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 *   [`02_UTDRAG_OG_KILDETEKSTER/`](./02_UTDRAG_OG_KILDETEKSTER/) — Grunnlagstekster, forord og nordisk industriell refleksjon over verkstedgulvet.
 *   [`TILMEGSELV/`](./TILMEGSELV/) — Syv kapitler om det subtraktive sinn, formens gravitasjon og porten som tenker.
 *   [`04_ILLUSTRASJONER_OG_PLANSJER/`](./04_ILLUSTRASJONER_OG_PLANSJER/BILDER/) — Litiske studier og geometri.
+*   [`morandi/`](./morandi/) — Tre studier i beholderens ro: *Enstendig*, *Pop-Art* og *Maksimalistisk Minimalisme*.
+
+### III. Morandi-studier
+
+#### I. Enstendig
+![Studie I: Enstendig](./morandi/morandi_01_enstendig.jpg)
+*Monolitisk beholder på taus horisontlinje.*
+
+#### II. Pop-Art
+![Studie II: Pop-Art](./morandi/morandi_02_popart.jpg)
+*Silketrykk, raster og skarpe fargeplan mot ubleket kartong.*
+
+#### III. Maksimalistisk Minimalisme
+![Studie III: Maksimalistisk Minimalisme](./morandi/morandi_03_maksimalistisk_minimalisme.jpg)
+*Tetthet av loddlinjer, polyedre og sylindre samlet i én monokrom stillhet.*
 
 │ — [ Blad skåret ut ved bokryggen ] —
