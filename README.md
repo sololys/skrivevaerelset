@@ -63,4 +63,8 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 [![Studie VIII: Kisel-Veven](./morandi/kisel_veven_tableau.png)](https://sololys.github.io/skrivevaerelset/verdensbiblioteket/veven.html)
 *Jacquard-hullkort og Cook–Levin-tableau vevd i sinober, oker, indigo og sorte bit-registre ([Åpne det interaktive optiske hullkort-orgelet og subtraktive lydtempelet](https://sololys.github.io/skrivevaerelset/verdensbiblioteket/veven.html)).*
 
+#### IX. Verkstedets Tilstandsrom — De Fem Søylene (Pentaptyk)
+![Studie IX: Verkstedets Tilstandsrom](./morandi/verkstedets_tilstandsrom_de_fem_soylene.png)
+*De fem søylene slått sammen på ett arkivblad: I. HOLD (Stasen), II. Π_K (Ambolten i tømmerfjøset), III. GRACE (Oljelerretet), IV. OPEN (Lakkseglet ved solnedgangens vei) og V. KILL (Bruddflaten i granitt).*
+
 │ — [ Blad skåret ut ved bokryggen ] —
