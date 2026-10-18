@@ -38,4 +38,20 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 ![Studie III: Maksimalistisk Minimalisme](./morandi/morandi_03_maksimalistisk_minimalisme.jpg)
 *Tetthet av loddlinjer, polyedre og sylindre samlet i én monokrom stillhet.*
 
+#### IV. Det Pikselerte Stilleben
+![Studie IV: Det Pikselerte Stilleben](./morandi/morandi_04_pikselert_stilleben.jpg)
+*Fire keramiske beholdere i skrått morgenlys der kalkflaten møter diskrete registerkorn.*
+
+#### V. Morandi-Registeret (OPEN / HOLD / KILL)
+![Studie V: Morandi-Registeret](./morandi/morandi_05_register_open_hold_kill.jpg)
+*Skyvelære, granittkube, ubrent leire og sprukket kalkstein på verkstedbordet.*
+
+#### VI. Fokuspunktet
+![Studie VI: Fokuspunktet](./morandi/fokuspunktet_ku_paa_avstand.jpg)
+*Som en ku på avstand. Enkelt. Virkelig. Alt nok.*
+
+#### VII. Materiens Vekt i Tømmerfjøset
+![Studie VII: Tømmerfjøset](./morandi/sellanraa_fjoset_bruda.png)
+*Kua med bjella («Bruda»), høygaffelen, melkespannet og kornsekken i morgensola.*
+
 │ — [ Blad skåret ut ved bokryggen ] —
