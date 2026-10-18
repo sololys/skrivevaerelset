@@ -69,9 +69,9 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 ![Studie VII: Tømmerfjøset](./morandi/sellanraa_fjoset_bruda.png)
 *Kua med bjella («Bruda»), høygaffelen, melkespannet og kornsekken i morgensola.*
 
-#### VIII. Kisel-Veven — SoundSystem is a Tempel
+#### VIII. Kisel-Veven — Jacquard & Cook–Levin-tableau
 [![Studie VIII: Kisel-Veven](./morandi/kisel_veven_tableau.png)](https://sololys.github.io/skrivevaerelset/verdensbiblioteket/veven.html)
-*Jacquard-hullkort og Cook–Levin-tableau vevd i sinober, oker, indigo og sorte bit-registre ([Åpne det interaktive optiske hullkort-orgelet og subtraktive lydtempelet](https://sololys.github.io/skrivevaerelset/verdensbiblioteket/veven.html)).*
+*Jacquard-hullkort og Cook–Levin-tableau vevd i sinober, oker, indigo og sorte bit-registre ([Åpne det interaktive optiske hullkort- og registerbordet](https://sololys.github.io/skrivevaerelset/verdensbiblioteket/veven.html)).*
 
 #### IX. Verkstedets Tilstandsrom — De Fem Søylene (Pentaptyk)
 ![Studie IX: Verkstedets Tilstandsrom](./morandi/verkstedets_tilstandsrom_de_fem_soylene.png)
