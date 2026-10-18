@@ -1,3 +1,5 @@
+![Realiseringsgrammatikk og Epistemisk Styring: Fra Forslag til Konsekvens](./morandi/Formell_arkitektur_for_cyber-fysiske_systemer.png)
+
 *Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
 
 ---
@@ -14,6 +16,7 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 *   **Morandi-Core:** Språket skal reflektere objektets essens. Ingenting eksisterer uten absolutt funksjon.
 
 ### II. Arkivet
+*   [`FRA_FORSLAG_TIL_KONSEKVENS_BEGREPSFORKLARING.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/FRA_FORSLAG_TIL_KONSEKVENS_BEGREPSFORKLARING.md) — *Begrepsforklaring: Fra Forslag til Konsekvens ($\Phi(x_t) \neq x_{t+1}$)*: Subjektet ved snittflaten, $\mathrm{KILL} \succ \mathrm{HOLD} \succ \mathrm{OPEN}$, Teorem A, Phronesis-båndbredden $[\gamma_{\min}, \gamma_{\max}]$ og $\text{Witness}^2$ ($W^2 = \langle W_{\text{machine}}, W_{\text{human}} \rangle$).
 *   [`verdensbiblioteket/`](./verdensbiblioteket/) — Fjorten verk og langbordet i furu (Landauer, Jesus, Poincaré, Nash, Sokrates, Hamsun, Bjørneboe, Nygårdshaug, 1728-traktaten, Nansen, Curie/Rogstad/Simone, Leavitt/Tuve & *Pop-Art Renaissance Plates I–II*).
 *   [`EPOSET_OM_ARKIVETS_REKONFIGURERING.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/EPOSET_OM_ARKIVETS_REKONFIGURERING.md) — *Eposet om Arkivets Rekonfigurering (Seksjon I–V)*: En filosofisk lignelse om total optimalisering og vernet om menneskelig støy.
 *   [`THE_PROMETHEAN_DELUSION.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/THE_PROMETHEAN_DELUSION.md) — *The Promethean Delusion: Why Reality is Admitted, Not Generated* (EN / NO).
