@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisel-Veven &amp; SoundSystem is a Tempel — Skriveværelset</title>
+    <style>
+        :root {
+            --paper: #e6e1d6;
+            --card-bg: #dfd9cc;
+            --ink: #121211;
+            --ash: #6e695f;
+            --copper: #6e3b26;
+            --red-cand: #d62818;
+            --ochre-gate: #c86d14;
+            --indigo-hold: #16224f;
+            --green-bit: #1d8a34;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--paper);
+            color: var(--ink);
+            font-family: 'Garamond', 'Baskerville', 'Georgia', serif;
+            line-height: 1.65;
+            margin: 0;
+            padding: 4vw 6vw 6vw 6vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        main {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .colophon {
+            font-style: italic;
+            color: var(--ash);
+            border-bottom: 1px solid var(--ash);
+            padding-bottom: 1.25rem;
+            margin-bottom: 2.5rem;
+            font-size: 0.95em;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .colophon a {
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid var(--ash);
+        }
+
+        .tag {
+            font-size: 0.78rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--ash);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        h1, h2, h3 {
+            font-weight: normal;
+            margin: 0 0 1rem 0;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+        }
+
+        p {
+            margin: 0 0 1.25rem 0;
+            text-align: justify;
+        }
+
+        .loom-frame {
+            background-color: var(--card-bg);
+            border: 1px solid var(--ash);
+            padding: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .canvas-wrap {
+            position: relative;
+            width: 100%;
+            border: 1px solid var(--ink);
+            background-color: #101540;
+            cursor: crosshair;
+            overflow: hidden;
+        }
+
+        canvas#loomCanvas {
+            width: 100%;
+            height: auto;
+            display: block;
+            image-rendering: pixelated;
+        }
+
+        .controls-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--ash);
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        button {
+            background-color: var(--paper);
+            color: var(--ink);
+            border: 1px solid var(--ink);
+            padding: 0.55rem 1rem;
+            font-family: inherit;
+            font-size: 0.92rem;
+            cursor: pointer;
+            transition: background-color 0.15s ease, color 0.15s ease;
+        }
+
+        button:hover {
+            background-color: var(--ink);
+            color: var(--paper);
+        }
+
+        button.active {
+            background-color: var(--ink);
+            color: var(--paper);
+        }
+
+        .telemetry-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+            gap: 0.85rem;
+            margin-top: 1.25rem;
+        }
+
+        .meter-card {
+            background-color: var(--paper);
+            border: 1px solid var(--ash);
+            padding: 0.85rem 1rem;
+        }
+
+        .meter-label {
+            font-size: 0.75rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--ash);
+            display: block;
+        }
+
+        .meter-val {
+            font-size: 1.25rem;
+            margin: 0.25rem 0 0.4rem 0;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .meter-bar-bg {
+            width: 100%;
+            height: 6px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--ash);
+        }
+
+        .meter-bar-fill {
+            height: 100%;
+            width: 0%;
+            transition: width 0.08s linear;
+        }
+
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.25rem;
+            margin: 2rem 0;
+        }
+
+        .legend-item {
+            border-left: 3px solid var(--ink);
+            padding-left: 1rem;
+        }
+
+        .swatch {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border: 1px solid var(--ink);
+            margin-right: 0.45rem;
+            vertical-align: middle;
+        }
+
+        .cut-mark {
+            color: var(--ash);
+            font-style: italic;
+            margin: 3rem 0;
+            text-align: center;
+            font-size: 0.95em;
+        }
+
+        blockquote {
+            margin: 2rem 0;
+            padding: 0.5rem 0 0.5rem 1.5rem;
+            border-left: 2px solid var(--copper);
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div class="colophon">
+        <span>Studie VIII — Kisel-Veven, Hullkortet og det Akustiske Tempelet</span>
+        <span>
+            <a href="../">Tilbake til Skriveværelset</a> ·
+            <a href="./">Verdensbiblioteket</a>
+        </span>
+    </div>
+
+    <header>
+        <span class="tag">Jacquard-vev · Cook–Levin-tableau · Subtraktiv Dub-akustikk</span>
+        <h1>Kisel-Veven — SoundSystem is a Tempel</h1>
+        <p>
+            Før koden ble skjerm, var den en vevstol. I 1801 lot Joseph Marie Jacquard hullkort i tre styre hvilke tråder som skulle løftes og hvilke som skulle holdes nede. Hundre og seksti år senere slo Rolf Landauer fast at et hull i et hullkort er en fysisk tilstand med en termodynamisk pris.
+        </p>
+        <p>
+            På denne platen løper tiden på skrå nedover fra venstre mot høyre som et <em>Cook–Levin-tableau</em> (<code>SPACE UNFOLDS AS TIME</code>). Og når du setter nåla ned i veven under, fungerer hele billedflaten som et optisk hullkort-orgel og et subtraktivt lydanlegg: de dype indigobassengene bærer orgelpunktet i brystkassen, oker-membranen styrer høypass- og lavpasskuttet, og de hvite og grønne bit-registrene i de sorte søylene slår an overtonene i D-moll.
+        </p>
+    </header>
+
+    <section class="loom-frame">
+        <span class="tag">Interaktivt Optisk Hullkort &amp; Subtraktivt Lydbord (Klikk eller dra lesehodet i veven)</span>
+        <div class="canvas-wrap" id="canvasWrap">
+            <canvas id="loomCanvas" width="805" height="774"></canvas>
+        </div>
+
+        <div class="controls-bar">
+            <div class="btn-group">
+                <button type="button" id="playBtn">Start Hullkort-Vev &amp; SoundSystem</button>
+                <button type="button" id="gateBtn" class="active">Π_K Subtraktivt Filter: AKTIV (Dub-kutt)</button>
+                <button type="button" id="dirBtn">Lese-akse: Horisontalt snitt (Σ_t)</button>
+            </div>
+            <span class="tag" id="statusLabel" style="margin: 0;">PORTSTATUS: 0.00 V DC STASE (STILLE)</span>
+        </div>
+
+        <div class="telemetry-grid">
+            <div class="meter-card">
+                <span class="meter-label">I. Sinoberrødt Kandidatfelt (Φ)</span>
+                <div class="meter-val" id="valRed">0.0 %</div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" id="barRed" style="background-color: var(--red-cand);"></div></div>
+            </div>
+            <div class="meter-card">
+                <span class="meter-label">II. Oker Membran &amp; Filter (Π_K)</span>
+                <div class="meter-val" id="valOchre">0.0 %</div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" id="barOchre" style="background-color: var(--ochre-gate);"></div></div>
+            </div>
+            <div class="meter-card">
+                <span class="meter-label">III. Indigo Basseng (HOLD / 36.7 Hz)</span>
+                <div class="meter-val" id="valIndigo">0.0 %</div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" id="barIndigo" style="background-color: var(--indigo-hold);"></div></div>
+            </div>
+            <div class="meter-card">
+                <span class="meter-label">IV. Hullkort-Vitner (Hvite/Grønne Bit)</span>
+                <div class="meter-val" id="valBits">0 stifter</div>
+                <div class="meter-bar-bg"><div class="meter-bar-fill" id="barBits" style="background-color: var(--green-bit);"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <h2>De Fire Trådene i Veven</h2>
+
+    <div class="legend-grid">
+        <div class="legend-item" style="border-left-color: #d62818;">
+            <h3><span class="swatch" style="background:#ff0000;"></span>1. Det Sinoberrøde Kandidatfeltet (Φ)</h3>
+            <p>
+                De tette røde feltene er rå, ufiltrert eksitasjon — kandidater som ennå ikke har passert porten. Hvis det subtraktive filteret (<code>Π_K</code>) kobles ut, velter denne energien inn som rå sagtakket støy. Når porten er aktiv, holdes det røde feltet tilbake til fordel for rommets grunnstruktur.
+            </p>
+        </div>
+
+        <div class="legend-item" style="border-left-color: #c86d14;">
+            <h3><span class="swatch" style="background:#e07a10;"></span>2. Oker-Diagonalen (Membranen Π_K)</h3>
+            <p>
+                Det flettede beltet i oker og rav danner selve kuttflaten som skiller de røde kandidatene fra de blå kamrene. I lydtempelet styrer tettheten av oker-tråden resonansfrekvensen i filteret — som hånden på faderen ved King Tubbys miksepult i Kingston eller spjeldene i et kirkeorgel.
+            </p>
+        </div>
+
+        <div class="legend-item" style="border-left-color: #16224f;">
+            <h3><span class="swatch" style="background:#101540;"></span>3. Indigo-Kamrene (HOLD &amp; Stående Bass)</h3>
+            <p>
+                De dype, teksturerte feltene i preussisk blått og nattindigo er rommets akustiske katedral. Ved 36,7 Hz (D1 — en 16-fots orgelpipe) er bølgelengden i luft over ni meter; her hviler grunntonen stødig uten å jage.
+            </p>
+        </div>
+
+        <div class="legend-item" style="border-left-color: #1d8a34;">
+            <h3><span class="swatch" style="background:#121211;"></span>4. De Sorte Hullkort-Søylene (Vitnet W)</h3>
+            <p>
+                Se nøye på de smale, vertikale sorte stavene som står plantet langs kantene av hvert felt: inne i dem lyser små grupper av <strong>hvite og grønne enkeltpiksler</strong> i par. Det er veverens hullkort og partikkelens små regnskapsbøker (<em>little ledger books</em>). Hver gang lesehodet krysser en hvit eller grønn stift, utløses en krystallklar harmonisk streng i D-moll.
+            </p>
+        </div>
+    </div>
+
+    <blockquote>
+        «Et ekte SoundSystem er ikke underholdning — det er akustisk arkitektur i tre, kobber og lufttrykk. Når du skjærer bort støyen med filteret, står grunntonen og rommets ekko igjen som et tempel.»
+    </blockquote>
+
+    <div class="cut-mark">
+        │ — [ Blad skåret ut ved bokryggen ] —
+    </div>
+</main>
+
+<script>
+const canvas = document.getElementById('loomCanvas');
+const ctx = canvas.getContext('2d', { willReadFrequently: true });
+const playBtn = document.getElementById('playBtn');
+const gateBtn = document.getElementById('gateBtn');
+const dirBtn = document.getElementById('dirBtn');
+const statusLabel = document.getElementById('statusLabel');
+
+let img = new Image();
+let offCanvas = document.createElement('canvas');
+let offCtx = offCanvas.getContext('2d', { willReadFrequently: true });
+let imgLoaded = false;
+
+let scanPos = 180;
+let isPlaying = false;
+let gateActive = true;
+let diagonalMode = false;
+let animId = null;
+
+// WebAudio SoundSystem Temple nodes
+let audioCtx = null;
+let subOsc = null;
+let subGain = null;
+let noiseOsc = null;
+let noiseGain = null;
+let dubFilter = null;
+let masterGain = null;
+let lastChimeTime = 0;
+
+// D minor pentatonic / Bach-Dub harmonic series (Hz)
+const scaleFreqs = [146.83, 174.61, 220.00, 261.63, 293.66, 349.23, 440.00, 523.25, 587.33, 659.25];
+
+img.onload = () => {
+    canvas.width = img.width;
+    canvas.height = img.height;
+    offCanvas.width = img.width;
+    offCanvas.height = img.height;
+    offCtx.drawImage(img, 0, 0);
+    imgLoaded = true;
+    analyzeAndDraw();
+};
+img.src = '../morandi/kisel_veven_tableau.png';
+
+function initAudio() {
+    if (audioCtx) return;
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AudioContext();
+
+    masterGain = audioCtx.createGain();
+    masterGain.gain.value = 0.32;
+    masterGain.connect(audioCtx.destination);
+
+    // Subtractive Dub Filter (Pi_K)
+    dubFilter = audioCtx.createBiquadFilter();
+    dubFilter.type = 'lowpass';
+    dubFilter.frequency.value = 240;
+    dubFilter.Q.value = 4.2;
+    dubFilter.connect(masterGain);
+
+    // 16-foot & 32-foot Organ / SoundSystem Sub-Bass (D1 = 36.71 Hz, D2 = 73.42 Hz)
+    subOsc = audioCtx.createOscillator();
+    subOsc.type = 'triangle';
+    subOsc.frequency.value = 73.42;
+    subGain = audioCtx.createGain();
+    subGain.gain.value = 0.0;
+    subOsc.connect(subGain);
+    subGain.connect(dubFilter);
+    subOsc.start();
+
+    // Candidate Raw Harmonic Saw (Phi - suppressed when Pi_K is active)
+    noiseOsc = audioCtx.createOscillator();
+    noiseOsc.type = 'sawtooth';
+    noiseOsc.frequency.value = 110.0;
+    noiseGain = audioCtx.createGain();
+    noiseGain.gain.value = 0.0;
+    noiseOsc.connect(noiseGain);
+    noiseGain.connect(dubFilter);
+    noiseOsc.start();
+}
+
+function triggerBitChime(isWhiteBit, xRatio) {
+    if (!audioCtx || !isPlaying) return;
+    const now = audioCtx.currentTime;
+    if (now - lastChimeTime < 0.09) return;
+    lastChimeTime = now;
+
+    const osc = audioCtx.createOscillator();
+    const g = audioCtx.createGain();
+    const idx = Math.min(scaleFreqs.length - 1, Math.floor(xRatio * scaleFreqs.length));
+    const freq = isWhiteBit ? scaleFreqs[idx] * 1.5 : scaleFreqs[idx];
+
+    osc.type = isWhiteBit ? 'sine' : 'triangle';
+    osc.frequency.setValueAtTime(freq, now);
+
+    g.gain.setValueAtTime(0.001, now);
+    g.gain.exponentialRampToValueAtTime(gateActive ? 0.14 : 0.06, now + 0.015);
+    g.gain.exponentialRampToValueAtTime(0.0001, now + 0.55);
+
+    osc.connect(g);
+    g.connect(masterGain);
+    osc.start(now);
+    osc.stop(now + 0.58);
+}
+
+function analyzeAndDraw() {
+    if (!imgLoaded) return;
+
+    ctx.drawImage(offCanvas, 0, 0);
+
+    const w = canvas.width;
+    const h = canvas.height;
+    const yLine = Math.floor(scanPos) % h;
+
+    let redCount = 0;
+    let ochreCount = 0;
+    let indigoCount = 0;
+    let bitCount = 0;
+    let sampleCount = 0;
+    let hitPins = [];
+
+    const rowData = offCtx.getImageData(0, yLine, w, 1).data;
+
+    for (let x = 0; x < w; x += 2) {
+        const idx = x * 4;
+        const r = rowData[idx];
+        const g = rowData[idx + 1];
+        const b = rowData[idx + 2];
+        sampleCount++;
+
+        // Classify pixel into the 4 loom domains
+        if (r > 210 && g > 210 && b > 210) {
+            bitCount++;
+            hitPins.push({ x, white: true });
+        } else if (g > 170 && r < 90 && b < 90) {
+            bitCount++;
+            hitPins.push({ x, white: false });
+        } else if (r > 200 && g < 60 && b < 60) {
+            redCount++;
+        } else if (r > 160 && g > 75 && b < 65) {
+            ochreCount++;
+        } else if (b > 65 && r < 70) {
+            indigoCount++;
+        }
+    }
+
+    const redPct = (redCount / sampleCount) * 100;
+    const ochrePct = (ochreCount / sampleCount) * 100;
+    const indigoPct = (indigoCount / sampleCount) * 100;
+    const bitPct = Math.min(100, (bitCount / 14) * 100);
+
+    document.getElementById('valRed').textContent = redPct.toFixed(1) + ' %';
+    document.getElementById('barRed').style.width = Math.min(100, redPct * 1.6) + '%';
+
+    document.getElementById('valOchre').textContent = ochrePct.toFixed(1) + ' %';
+    document.getElementById('barOchre').style.width = Math.min(100, ochrePct * 1.8) + '%';
+
+    document.getElementById('valIndigo').textContent = indigoPct.toFixed(1) + ' %';
+    document.getElementById('barIndigo').style.width = Math.min(100, indigoPct * 1.6) + '%';
+
+    document.getElementById('valBits').textContent = bitCount + ' stifter';
+    document.getElementById('barBits').style.width = bitPct + '%';
+
+    // Draw the optical pickup bar (Sigma_t)
+    ctx.fillStyle = 'rgba(230, 225, 214, 0.22)';
+    ctx.fillRect(0, yLine - 4, w, 9);
+
+    ctx.strokeStyle = '#e6e1d6';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(0, yLine);
+    ctx.lineTo(w, yLine);
+    ctx.stroke();
+
+    // Highlight active white/green bit pins along the pickup line
+    for (const pin of hitPins) {
+        ctx.fillStyle = pin.white ? '#ffffff' : '#39ff5a';
+        ctx.beginPath();
+        ctx.arc(pin.x, yLine, 5.5, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = '#121211';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+    }
+
+    // Update WebAudio SoundSystem if running
+    if (audioCtx && isPlaying) {
+        const now = audioCtx.currentTime;
+        // Sub-bass breathes with Indigo stasis & Ochre membrane
+        const targetSub = 0.28 + (indigoPct / 100) * 0.45;
+        subGain.gain.setTargetAtTime(targetSub, now, 0.05);
+
+        if (gateActive) {
+            // Pi_K active: cut raw red candidate buzz, modulate warm dub filter with ochre membrane
+            noiseGain.gain.setTargetAtTime(0.015, now, 0.04);
+            const cutoff = 130 + ochrePct * 9.5;
+            dubFilter.frequency.setTargetAtTime(cutoff, now, 0.05);
+            dubFilter.Q.setTargetAtTime(4.8, now, 0.05);
+        } else {
+            // Gate bypassed: raw candidate sawtooth leaks through
+            noiseGain.gain.setTargetAtTime(0.18 + (redPct / 100) * 0.25, now, 0.04);
+            dubFilter.frequency.setTargetAtTime(1400, now, 0.05);
+            dubFilter.Q.setTargetAtTime(1.0, now, 0.05);
+        }
+
+        if (hitPins.length > 0 && Math.random() < 0.42) {
+            const chosen = hitPins[Math.floor(Math.random() * hitPins.length)];
+            triggerBitChime(chosen.white, chosen.x / w);
+        }
+    }
+}
+
+function stepLoop() {
+    if (!isPlaying) return;
+    scanPos = (scanPos + (diagonalMode ? 1.4 : 0.85)) % canvas.height;
+    analyzeAndDraw();
+    animId = requestAnimationFrame(stepLoop);
+}
+
+playBtn.addEventListener('click', () => {
+    initAudio();
+    if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+    isPlaying = !isPlaying;
+    if (isPlaying) {
+        playBtn.textContent = 'Stans Vev & Sett i 0.00 V DC Stase';
+        playBtn.classList.add('active');
+        statusLabel.textContent = gateActive
+            ? 'PORTSTATUS: OPEN — Π_K DUB-FILTER & HULLKORT AKTIV'
+            : 'PORTSTATUS: RÅ KANDIDATSTRØM (UFILTRERT Φ)';
+        stepLoop();
+    } else {
+        playBtn.textContent = 'Start Hullkort-Vev & SoundSystem';
+        playBtn.classList.remove('active');
+        statusLabel.textContent = 'PORTSTATUS: 0.00 V DC STASE (STILLE)';
+        if (subGain && noiseGain && audioCtx) {
+            subGain.gain.setTargetAtTime(0.0, audioCtx.currentTime, 0.04);
+            noiseGain.gain.setTargetAtTime(0.0, audioCtx.currentTime, 0.04);
+        }
+        if (animId) cancelAnimationFrame(animId);
+    }
+});
+
+gateBtn.addEventListener('click', () => {
+    gateActive = !gateActive;
+    if (gateActive) {
+        gateBtn.textContent = 'Π_K Subtraktivt Filter: AKTIV (Dub-kutt)';
+        gateBtn.classList.add('active');
+        if (isPlaying) statusLabel.textContent = 'PORTSTATUS: OPEN — Π_K DUB-FILTER & HULLKORT AKTIV';
+    } else {
+        gateBtn.textContent = 'Π_K Subtraktivt Filter: ÅPEN (Rå kandidatstøy)';
+        gateBtn.classList.remove('active');
+        if (isPlaying) statusLabel.textContent = 'PORTSTATUS: RÅ KANDIDATSTRØM (UFILTRERT Φ)';
+    }
+    analyzeAndDraw();
+});
+
+dirBtn.addEventListener('click', () => {
+    diagonalMode = !diagonalMode;
+    dirBtn.textContent = diagonalMode
+        ? 'Hastighet: Hurtig puls (11.2 Hz)'
+        : 'Lese-akse: Horisontalt snitt (Σ_t)';
+});
+
+function setScanFromEvent(e) {
+    const rect = canvas.getBoundingClientRect();
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    const relY = Math.max(0, Math.min(1, (clientY - rect.top) / rect.height));
+    scanPos = relY * canvas.height;
+    analyzeAndDraw();
+}
+
+let dragging = false;
+canvas.addEventListener('mousedown', (e) => { dragging = true; setScanFromEvent(e); });
+window.addEventListener('mousemove', (e) => { if (dragging) setScanFromEvent(e); });
+window.addEventListener('mouseup', () => { dragging = false; });
+canvas.addEventListener('touchstart', (e) => { dragging = true; setScanFromEvent(e); }, { passive: true });
+canvas.addEventListener('touchmove', (e) => { if (dragging) setScanFromEvent(e); }, { passive: true });
+window.addEventListener('touchend', () => { dragging = false; });
+</script>
+</body>
+</html>
