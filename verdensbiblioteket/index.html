@@ -243,6 +243,26 @@
             padding-bottom: 1px;
         }
 
+        .card-figure {
+            margin: 1.5rem 0;
+            display: none;
+        }
+
+        .card-figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid var(--ash);
+        }
+
+        .card-figure-caption {
+            margin-top: 0.6rem;
+            font-size: 0.85em;
+            color: var(--ash);
+            font-style: italic;
+            text-align: center;
+        }
+
         .cut-mark {
             color: var(--ash);
             font-style: italic;
@@ -278,6 +298,10 @@
         <p class="muted" id="author"></p>
         <div class="excerpt" id="excerpt"></div>
         <p id="description"></p>
+        <div class="card-figure" id="cardFigure">
+            <img id="cardImage" src="" alt="">
+            <div class="card-figure-caption" id="cardImageCaption"></div>
+        </div>
         <div class="feast-box" id="feastBox">
             <span class="feast-title">Servering ved langbordet</span>
             <p id="feastText" style="margin: 0;"></p>
@@ -352,6 +376,8 @@ const books = [
         author: "Rolf Landauer, 1961 (IBM Journal of Research and Development, 5(3), 183–191)",
         excerpt: "«Information is not a disembodied abstract entity; it is always tied to a physical representation. It is engraved on a stone tablet, a spin, a charge, a hole in a punched card, a mark on paper, or some other equivalent. This ties the handling of information to all the possibilities and restrictions of our real physical world.»",
         description: "Grunnteksten som beviser at logisk irreversibilitet krever fysisk varmeavgivelse. Å slette én bit informasjon (RESTORE TO ONE) koster minst k_B T ln 2 i termodynamisk arbeid. Tanken er aldri gratis; enhver avgjørelse som skjærer bort alternativer betaler en fysisk pris.",
+        image: "../morandi/morandi_04_pikselert_stilleben.jpg",
+        imageCaption: "Det Pikselerte Stilleben — Fire keramiske beholdere i skrått morgenlys der kalkflaten møter diskrete registerkorn.",
         feast: "Rolf Landauer serveres en rykende varm Zürich-espresso i tykt porselen og mørkt rugbrød med smør — med et kalibrert kvikksølvtermometer ved koppen, slik at han med et tilfreds nikk kan lese av nøyaktig hvor mange joule varme som avgis til bordplaten før han drikker.",
         availability: "Tidsskriftarkiv og vitenskapelig særtrykk. Digitalt tilgjengelig i akademiske arkiver."
     },
@@ -379,6 +405,8 @@ const books = [
         author: "John Forbes Nash Jr., 1950 / 1951",
         excerpt: "«An equilibrium point is an n-tuple such that each player's mixed strategy maximizes his pay-off if the strategies of the others are held fixed. Thus each player's strategy is optimal against those of the others.»",
         description: "En doktoravhandling på bare 27 maskinskrevne sider som definerte grensen for strategisk interaksjon: punktet der ingen enkeltaktør kan vinne på å bryte ut alene, og der uregulerte egeninteresser kan låse et helt system i et suboptimalt fellesrom.",
+        image: "../morandi/fokuspunktet_ku_paa_avstand.jpg",
+        imageCaption: "Fikspunkt-kua ved veiens forsvinningspunkt — «Som en ku på avstand. Enkelt. Virkelig. Alt nok.»",
         feast: "John Nash serveres ettermiddagste fra Princeton, kjølig ingefærøl og et kakestykke skåret med kirurgisk presisjon slik at ingen gjest ved bordet kan øke sitt utbytte ved å bytte tallerken med sidemannen.",
         availability: "Originalmanuskript i Princeton University Archives; publisert i PNAS (1950) og Annals of Mathematics (1951)."
     },
@@ -397,6 +425,8 @@ const books = [
         author: "Knut Hamsun",
         excerpt: "«Det var i den tid jeg gikk omkring og sultet i Kristiania, denne forunderlige by som ingen forlater før han har fått merker av den...» — «Den lange, lange sti over myrene og inn i skogene hvem har trakket opp den? Mannen, mennesket, den første som var her. Det var ingen sti før ham.»",
         description: "Spennet mellom to ytterpunkter i menneskets tilstand: fra det utsultede, feberaktige nervemenneskets hallusinasjoner på asfalten i Sult, til Isak Sellanraas tause, fysiske rydding av stein, myr og tømmer i Markens Grøde.",
+        image: "../morandi/sellanraa_fjoset_bruda.png",
+        imageCaption: "Kua i låven på Sellanraa — «Bruda» med bjella, høygaffelen, sinkbøtta og kornsekken i morgensola.",
         feast: "Knut Hamsun slipper endelig å tygge på fliser og blyantstumper fra Kristiania: foran ham settes et mektig fat fra Sellanraa med nystekt gårdskake, fjellsmør, speket lammelår, rømmegrøt og beksvart kokekaffe fra kjelen.",
         availability: "Førsteutgaver og manuskripter i Nasjonalbiblioteket; allment tilgjengelig i lese- og hjemlånsutgaver."
     },
@@ -460,6 +490,8 @@ const books = [
         author: "ReismannPoint Systems AS, 2026",
         excerpt: "«A bit is not born as 1. It is authorized to 1 exclusively through structural projection (Π_K) and consequence-gate authorization (Ω). Reality is not generated locally; reality is admitted locally through structural projection. Space unfolds as time. The bit becomes 1.»",
         description: "To plansjer i krysningspunktet mellom høyrenessansens geometriske kobberstikk og silketrykkets kvantiserte fargeblokker: Plate I fastsetter de seks aksiomatiske lovene ([R, Π_K] ≠ 0, Δ_K ≤ τ_K, Cook–Levin VERIFY ∈ P, Landauer Q ≥ k_B T ln 9, 0.00 V DC stase og monoton vitnekjede), mens Plate II viser den femleddede sekvensen fra stase (x_0) til bevitnet konsekvens (W).",
+        image: "../morandi/morandi_05_register_open_hold_kill.jpg",
+        imageCaption: "Morandi-Registeret (OPEN / HOLD / KILL) — «Stillness is dynamic. It has found a form that no longer requires explanation.»",
         feast: "Ved husets egen plass midt på langbordet serveres kystens klare kildevann, brød, olivenolje, nytrukket kaffe i tung keramikk — og et ekstra stykke av svoren fra pattegrisen mens porten står trygt i 0.00 V DC stase.",
         availability: "Direkte visning i Verdensbiblioteket via sololys_popart_renaissance_plates.html."
     }
@@ -475,6 +507,15 @@ function render() {
     el("counter").textContent = "Verk " + (index + 1) + " av " + books.length;
     for (const key of ["library", "title", "author", "excerpt", "description"]) {
         el(key).textContent = b[key];
+    }
+    if (b.image) {
+        el("cardFigure").style.display = "block";
+        el("cardImage").src = b.image;
+        el("cardImage").alt = b.title;
+        el("cardImageCaption").textContent = b.imageCaption || "";
+    } else {
+        el("cardFigure").style.display = "none";
+        el("cardImage").src = "";
     }
     el("feastText").textContent = b.feast;
     if (served.has(index)) {
