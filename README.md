@@ -21,10 +21,14 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 *   [`02_UTDRAG_OG_KILDETEKSTER/`](./02_UTDRAG_OG_KILDETEKSTER/) — Grunnlagstekster, forord og nordisk industriell refleksjon over verkstedgulvet.
 *   [`TILMEGSELV/`](./TILMEGSELV/) — Syv kapitler om det subtraktive sinn, formens gravitasjon og porten som tenker.
 *   [`04_ILLUSTRASJONER_OG_PLANSJER/`](./04_ILLUSTRASJONER_OG_PLANSJER/BILDER/) — Litiske studier og geometri.
-*   [`morandi/`](./morandi/) — Tre studier i beholderens ro: *Enstendig*, *Pop-Art* og *Maksimalistisk Minimalisme*.
+*   [`morandi/`](./morandi/) — Ni studier i beholderens ro, fjøsets tyngde, hullkort-veven og solnedgangens symbolske vei.
 *   [Skriveværelsets Wiki](https://github.com/sololys/skrivevaerelset/wiki) — Komplett arkivkatalog og langbordets topologi.
 
-### III. Morandi-studier
+### III. Hovedfrise & Morandi-studier
+
+#### 0. Hovedfrise — Kua ved Solnedgangens Symbolske Vei
+![Hovedfrise: Kua ved solnedgangens symbolske vei](./morandi/kua_ved_solnedgangens_symbolske_vei.png)
+*Fikspunktet på steingrunnen mellom tømmerlåven, Morandi-krukkene, skifertavlen ($W \circ \Omega \circ \Pi_K \circ \Phi$), den sorte solformørkelsen og vitne-arkaden ved norskekysten.*
 
 #### I. Enstendig
 ![Studie I: Enstendig](./morandi/morandi_01_enstendig.jpg)
