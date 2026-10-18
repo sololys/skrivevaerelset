@@ -20,13 +20,14 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 *   [`VERKSTEDETS_TILSTANDSROM_DE_FEM_SOYLENE.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/VERKSTEDETS_TILSTANDSROM_DE_FEM_SOYLENE.md) — *Verkstedets Tilstandsrom (De Fem Søylene)*: Stasen (`HOLD`), Ambolten (`Π_K`), Oljelerretet (`GRACE`), Lakkseglet (`OPEN`) og Bruddflaten (`KILL`).
 *   [`HOTELLET_MED_DE_31_DORENE_OG_GUD_SOM_LEKER_GJEMSEL.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/HOTELLET_MED_DE_31_DORENE_OG_GUD_SOM_LEKER_GJEMSEL.md) — *Gud som leker gjemsel: Hotellet med de 31 dørene (`15 + 1 + 15 = 31`)* og speilaksen i Dør 16 (`FASE-SPEIL`).
 *   [`DE_TRE_AKSIOMENE_OG_2PLUS1_PROJISERT_VIRKELIGHET.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DE_TRE_AKSIOMENE_OG_2PLUS1_PROJISERT_VIRKELIGHET.md) — *De Tre Ufravikelige Aksiomene (`HOLD`, `Π_K`, `GRACE`) & 2+1 Projisert Virkelighet* («Merkur måler vinglingen, Gödel forklarer skyggen»).
+*   [`SKRIBENTENS_LOV_OG_KOMPLEKSITETSKOLLAPS.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/SKRIBENTENS_LOV_OG_KOMPLEKSITETSKOLLAPS.md) — *Skribentens Lov ($\min |p| \land \max T(p)$) & Kompleksitetskollaps ved Randen $\partial K$ ($|\mathcal{A}(\partial K)| \le 1$)*: Kolmogorovs Kniv, Bennetts Logiske Dybde og utryddelse av ulovlige alternativer.
 *   [`143_OMSORGSPROTOKOLLEN_DEN_ASYMMETRISKE_KJAERLIGHETEN.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/143_OMSORGSPROTOKOLLEN_DEN_ASYMMETRISKE_KJAERLIGHETEN.md) — *Omsorgsprotokollen v2.2: Den Asymmetriske Kjærligheten* ([Zenodo DOI `10.5281/zenodo.23451783`](https://doi.org/10.5281/zenodo.23451783)).
 *   [`187_ASYMMETRIEN_MELLOM_BOLGE_OG_LOV.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/187_ASYMMETRIEN_MELLOM_BOLGE_OG_LOV.md) — *Asymmetrien mellom Bølge og Lov v2.0: Det som er mangfoldighet i $\mathcal{NP}$, blir paradoks når det krever eksistens i $\mathcal{P}$* ([Zenodo DOI `10.5281/zenodo.23452575`](https://doi.org/10.5281/zenodo.23452575)).
 *   [`01_BOKER_UNDER_ARBEID/`](./01_BOKER_UNDER_ARBEID/) — Filosofien bak fail-closed arkitektur (*Kuttflaten*, *Fysikk for Metafysikk*, *Realiseringsgrammatikk*, *De Tre Lerretene* og *Autorisert Virkelighet*).
 *   [`02_UTDRAG_OG_KILDETEKSTER/`](./02_UTDRAG_OG_KILDETEKSTER/) — Grunnlagstekster, forord og nordisk industriell refleksjon over verkstedgulvet.
 *   [`TILMEGSELV/`](./TILMEGSELV/) — Syv kapitler om det subtraktive sinn, formens gravitasjon og porten som tenker.
 *   [`04_ILLUSTRASJONER_OG_PLANSJER/`](./04_ILLUSTRASJONER_OG_PLANSJER/BILDER/) — Litiske studier og geometri.
-*   [`morandi/`](./morandi/) — Tretten studier i beholderens ro, fjøsets tyngde, hullkort-veven, 2+1 projisert virkelighet og solnedgangens symbolske vei.
+*   [`morandi/`](./morandi/) — Tjue studier i beholderens ro, fjøsets tyngde, hullkort-veven, 2+1 projisert virkelighet, Kompleksitetskollaps og Skribentens Lov.
 *   [Skriveværelsets Wiki](https://github.com/sololys/skrivevaerelset/wiki) — Komplett arkivkatalog og langbordets topologi.
 
 ### III. Hovedfrise & Morandi-studier
@@ -80,4 +81,10 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Rei
 ![Studie XI.b: De Tre Ufravikelige Aksiomene](./morandi/ieee_omni_ky_tre_aksiomer_arkitektur_diagram.png)
 *Den bilaterale speilsymmetrien omkring Dør 16 (`FASE-SPEIL`, $R = 2\Pi_K - I$) og de tre konstitusjonelle kjerneaksiomene (`HOLD`, $\Pi_K$, `GRACE`).*
 
+#### XII. Morandi Serie III — Kompleksitetskollaps (CDC) & Skribentens Lov (Hexaptyk — Morandi 14–20)
+![Studie XII.a: Morandi Serie III Hexaptyk](./morandi/morandi_20_kompleksitetskollaps_og_skribentens_lov_hexaptyk.png)
+![Studie XII.b: IEEE Kompleksitetskollaps & Skribentens Lov](./morandi/ieee_kompleksitetskollaps_skribentens_lov_diagram.png)
+*Seks Morandi-studier i subtraktiv tyngde: I. Kolmogorovs Kniv ($K(x) = \min |p|$), II. Bennetts Logiske Dybde ($D(x) = T(p^*)$), III. Blad skåret ut ved bokryggen ($\Delta_K \equiv 0$), IV. Kompleksitetskollaps ved randen $\partial K$ ($\lim_{x\to\partial K} |\mathcal{A}(x)| \in \{0,1\}$), V. Oraklenes fall og spøkelser i $\mathcal{NP}$ ($0.00\text{ V DC}$), og VI. Skribentens Lov på ambolten ($\min |p| \land \max T(p^*)$).*
+
 │ — [ Blad skåret ut ved bokryggen ] —
+
