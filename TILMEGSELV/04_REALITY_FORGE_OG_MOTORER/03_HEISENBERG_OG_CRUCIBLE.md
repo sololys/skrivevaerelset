@@ -1,12 +1,17 @@
 # UTE I KULDEN // LEVEL 01 OG DEN TAKTILE TILBAKESTILLINGEN
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *Stanken av diesel, frosten på fjellet og menneskets fysiske arbeidsplikt*
 
-│ — [ Blad skåret ut ved bokryggen ] —
+```text
+========================================================================================
+KAMMER 04: KLIMAKS // DEN MANUELLE INNVILGELSEN:
+  Lokus         : Fjellet, Risør (Det Fennoskandiske Skjold)
+  Myndighet     : Level 01 Supreme Human Authority (Biologisk Vitne)
+  Spenning      : 0.00 V DC (Trippet Crowbar) -> 5.00 V DC (Mekanisk Inngrep)
+  Innsats       : Menneskekroppens termodynamiske friksjon
+========================================================================================
+```
+
+---
 
 ## 1. Silisiumets Avmakt
 

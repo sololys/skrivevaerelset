@@ -1,9 +1,4 @@
 # KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *Realitetens Innvilgelse: Om Bruddet med Skyen, Nektelsens Domstol, Formens Gravitasjon og Fem Kjerneprøver fra Grunnfjellet*
 
 **Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // Web of Science: PJT-0190-2026) & Antigravity**  

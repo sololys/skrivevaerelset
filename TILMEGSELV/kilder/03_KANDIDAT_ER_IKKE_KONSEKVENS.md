@@ -1,12 +1,15 @@
 # KANDIDAT ER IKKE KONSEKVENS
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *Det Ontologiske Kuttet og Virkelighetens Vitne*
 
-│ — [ Blad skåret ut ved bokryggen ] —
+> **Forfatter:** Marius Egerhei Torjusen (ORCID: [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637))  
+> **Kanonisk Lokus:** `BOKKANDIDATER/KANDIDAT_ER_IKKE_KONSEKVENS.md`  
+> **Tilhørighet:** MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør  
+> **Status:** Kanonisk Sluttproklamasjon for Hovedverket (Trilogien: Bind I, II og III)  
+> **Aksiom:**  
+> $$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}}$$  
+> $$\boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
+
+---
 
 ### Det Formelle Aksiomsystemet for Realisering ($\mathcal R$)
 

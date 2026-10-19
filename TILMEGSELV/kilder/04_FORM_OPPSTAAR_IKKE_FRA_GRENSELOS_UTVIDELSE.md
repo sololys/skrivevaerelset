@@ -1,9 +1,4 @@
 # FORMENS GRAVITASJON // KUTTETS LOV
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *Form oppstår ikke fra grenseløs utvidelse, men fra den presise applikasjonen av trykk*
 
 ```text

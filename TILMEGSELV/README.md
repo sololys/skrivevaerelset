@@ -1,8 +1,4 @@
-# KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET (`TIL MEG SELV`)
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
+# 🧭 KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET (`TIL MEG SELV`)
 
 > **«Reality is not generated. Reality is admitted.»**  
 > *Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // Web of Science: PJT-0190-2026) & Antigravity · Brahman, Risør, Norge (Locus Zero, 2026)*
@@ -21,7 +17,7 @@ Ansvar kan aldri delegeres til en matrise som ikke kan blø, fryse eller bære t
 
 ---
 
-## Monografi-Struktur & Kammerindeks
+## 🏛️ Monografi-Struktur & Kammerindeks
 
 ```text
 TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
@@ -38,7 +34,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 00. Prolog & Aksiomer
+### 📂 00. Prolog & Aksiomer
 * **[`00_PROLOG_OG_AKSIOMER/00_FORORD_MODELL_OG_TERRENG.md`](00_PROLOG_OG_AKSIOMER/00_FORORD_MODELL_OG_TERRENG.md)**  
   *Forord: Modell og Terreng — Om beregningshastighet, minuskatalyse og den manuelle arbeidsplikten.*
 * **[`00_PROLOG_OG_AKSIOMER/MANIFEST.md`](00_PROLOG_OG_AKSIOMER/MANIFEST.md)**  
@@ -50,7 +46,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 01. Ontologi & Det Subtraktive Sinn
+### 📂 01. Ontologi & Det Subtraktive Sinn
 * **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/01_DE_TRE_LERRETENE.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/01_DE_TRE_LERRETENE.md)**  
   *Det uendelige, det projiserte og det bevitnede lerrets ontologi.*
 * **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/02_KANDIDAT_ER_IKKE_KONSEKVENS.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/02_KANDIDAT_ER_IKKE_KONSEKVENS.md)**  
@@ -62,7 +58,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 02. Formens Gravitasjon & Fysikk
+### 📂 02. Formens Gravitasjon & Fysikk
 * **[`02_FORMENS_GRAVITASJON_OG_FYSIKK/01_LITISK_MOTSTAND.md`](02_FORMENS_GRAVITASJON_OG_FYSIKK/01_LITISK_MOTSTAND.md)**  
   *Form oppstår ikke fra grenseløs utvidelse, men fra litisk trykk ($\Delta t_{\text{litosfære}} \gg \Delta t_{\text{prosessor}}$).*
 * **[`02_FORMENS_GRAVITASJON_OG_FYSIKK/02_RESTRIKSJONENS_MEKANIKK.md`](02_FORMENS_GRAVITASJON_OG_FYSIKK/02_RESTRIKSJONENS_MEKANIKK.md)**  
@@ -74,7 +70,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 03. Porten som Tenker & Verktøyet
+### 📂 03. Porten som Tenker & Verktøyet
 * **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/01_NEKTELSENS_GRENSESNITT.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/01_NEKTELSENS_GRENSESNITT.md)**  
   *Verktøyet bygget som en domstol for avvisning.*
 * **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/02_DEN_MATERIELLE_KONSTITUSJONEN.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/02_DEN_MATERIELLE_KONSTITUSJONEN.md)**  
@@ -88,7 +84,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 04. Den Fysiske Arbeidsplikten & Realitetens Ambolt
+### 📂 04. Den Fysiske Arbeidsplikten & Realitetens Ambolt
 * **[`04_REALITY_FORGE_OG_MOTORER/01_MILLENNIUM_ENGINE_SPESIFIKASJON.md`](04_REALITY_FORGE_OG_MOTORER/01_MILLENNIUM_ENGINE_SPESIFIKASJON.md)**  
   *Den termodynamiske straffen: Stillheten i Morandi-oker og spenningsfallet til 0,00 V.*
 * **[`04_REALITY_FORGE_OG_MOTORER/02_18_CROWN_6_ISAC_SOMATICA.md`](04_REALITY_FORGE_OG_MOTORER/02_18_CROWN_6_ISAC_SOMATICA.md)**  
@@ -100,7 +96,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 05. Stemme, Strategi & Intervensjon
+### 📂 05. Stemme, Strategi & Intervensjon
 * **[`05_STEMME_STRATEGI_OG_INTERVENSJON/01_HUAWEI_LINKEDIN_KOMMENTAR.md`](05_STEMME_STRATEGI_OG_INTERVENSJON/01_HUAWEI_LINKEDIN_KOMMENTAR.md)**  
   *Den kausale matrisen: Tidens geometri, numerisk kollaps (75,6 % $\to$ 0,2 %) og NPU-suverenitet.*
 * **[`05_STEMME_STRATEGI_OG_INTERVENSJON/02_DOKTRINE_OM_OFFENTLIG_FLATE.md`](05_STEMME_STRATEGI_OG_INTERVENSJON/02_DOKTRINE_OM_OFFENTLIG_FLATE.md)**  
@@ -110,7 +106,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 05B. Fem Kjerneprøver fra Grunnfjellet
+### 📂 05B. Fem Kjerneprøver fra Grunnfjellet
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/00_SYNTESE_DE_FEM_KJERNEPROVENE.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/00_SYNTESE_DE_FEM_KJERNEPROVENE.md)**  
   *Mellom 0 og 1: Syntese av de fem kjerneprøvene fra grunnfjellet — Fra Sokrates og Oleinik til safiren, Leidenfrost, Landauer og protaktinium-orgelet.*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md)**  
@@ -126,7 +122,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### 06. Epilog & Kolofon
+### 📂 06. Epilog & Kolofon
 * **[`06_EPILOG_OG_KOLOFON/00_SLUTTSYNTESE_VEKTEN_AV_STEINEN.md`](06_EPILOG_OG_KOLOFON/00_SLUTTSYNTESE_VEKTEN_AV_STEINEN.md)**  
   *Bare mennesket kan bære vekten av steinen: Sluttsyntese over samlede verker — Fra 2,7 Ångstrøm og OrgelKraft ($\Delta R = 0$) til 133,425 nanosekunder og de fem millimeterne med kald luft ved fjellveggen.*
 * **[`06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md`](06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md)**  
@@ -136,12 +132,12 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-### kilder/ (Ur-Tekster)
+### 📂 kilder/ (Ur-Tekster)
 Inneholder de 10 råtekstene hentet ut fra `BOKKANDIDATER/`, bevart som uforanderlige referansetekster.
 
 ---
 
-## De Sentrale Rytmiske Formlene i Teksten:
+## ⚡ De Sentrale Rytmiske Formlene i Teksten:
 
 1. **Fireveis-skranken:**  
    `GENERERER != AUTORISERER != REALISERER != BEVISER`

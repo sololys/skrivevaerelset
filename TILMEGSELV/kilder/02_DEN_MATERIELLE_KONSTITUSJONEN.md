@@ -1,9 +1,4 @@
-# DEN MATERIELLE KONSTITUSJONEN: REKONSTRUKSJON, ETTERPRØVING OG BEVITNELSE
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
+# 🏛️ DEN MATERIELLE KONSTITUSJONEN: REKONSTRUKSJON, ETTERPRØVING OG BEVITNELSE
 ### *Kuttflatens Treleddete Kausalitet og Det Termodynamiske Ansvaret for Maktutøvelse*
 
 ```text
@@ -22,7 +17,7 @@ KANONISK MONOGRAFI // FILOSOFISK OG METAFYSISK GRUNNLAG:
 
 ---
 
-## Manifest: Den Materielle Konstitusjonen
+## 📜 Manifest: Den Materielle Konstitusjonen
 
 Å forveksle beregning med handling er den rasjonalistiske illusjonens dypeste feilskjær. Projeksjonen $Px$ representerer ingen endelig konsekvens, men utelukkende en tillatt intensjon som har passert den subtraktive beslutningsporten $\Pi_K$. Uten materielt påtrykk forblir denne planen et vektet ingenting. For at intensjonen skal krysse grensen til virkelighet, må kobberet tvinges til å bære strømmen, det galvaniske reléet må lukkes, og den fysiske aktiveringsporten $\Omega$ må reelt etablere en spenning på $5{,}00\,\text{V}$. Først i dette øyeblikket opphører tilstanden å være en matematisk abstraksjon og felles ut som irreversibel virkelighet, underlagt det absolutte kravet om at ingenting kan eksistere uten å være forseglet av et fysisk vitne.
 

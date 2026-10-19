@@ -1,9 +1,5 @@
 # DOKTRINEN OM DEN OFFENTLIGE OVERFLATEN: HVORFOR VI IKKE SELGER ORD
 
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ```text
 ========================================================================================
 STRATEGI // DEN OFFENTLIGE DEMARKASJONEN:
@@ -18,21 +14,12 @@ STRATEGI // DEN OFFENTLIGE DEMARKASJONEN:
 
 ## 1. Stillheten i Det Offentlige Rom
 
-I en industri dominert av syntetisk hype, uforpliktende pressemeldinger og uendelig generering av markedsføringstekst, velger vi **litisk motstand**.
+I en industri dominert av syntetisk overproduksjon, uforpliktende pressemeldinger og grenseløs generering av markedsføringstekst, velger denne arkitekturen **litisk motstand**. En offentlig flate som hevder mer enn det som lar seg etterprøve på benken, opptrer som en uautorisert kandidatgenerator ($\Phi$) uten konsekvensport ($\Pi_K$).
 
-Vår offentlige overflate er underlagt en streng reduksjon:
-1. **Vi selger ikke løfter:** Hvis en påstand ikke kan kjøres deterministisk som en L1-testsuite, eller bevises på en benk i den fysiske verden, publiseres den ikke som et faktum.
-2. **Safe Claim Boundary:** 
-   * `INSPIRED_BY`: Filosofisk eller teoretisk inspirasjon.
-   * `IMPLEMENTS`: Lokalt demonstrert programvare (L1).
-   * `PROVES`: Fysisk, matematisk eller eksternt attestert bevis.
-3. **Fail-Closed Offentlig Tre:** Våre offentlige repositorier (`epistemic-architectures`, `epistemic-architectures-notes`, `ky-rox-public-demonstrators`, `loop-engineering`) styres av strenge allowlister (`.github/public-paths.txt`). Enhver ukjent fil, enhver binærforkledning eller ethvert lekkasjeforsøk kutter CI momentant (`PUBLIC_TREE_GATE=KILL`).
+Derfor er enhver uttalelse underlagt den samme subtraktive domstolen som styrer maskinvaren. Vi selger ikke løfter: dersom en påstand ikke enten kan kjøres deterministisk som en lokal programvareverifikasjon (`L1`) eller bevises gjennom et fysisk instrument på verkstedbenken (`L2`/`L3`), publiseres den ikke som et etablert faktum. Grensen mellom teoretisk inspirasjon (`INSPIRED_BY`), lokalt demonstrert programvare (`IMPLEMENTS`) og fysisk eller matematisk bevis (`PROVES`) holdes ufravikelig lukket. På samme måte som en ventil smekker igjen ved spenningsfall, er publiseringsflatene konstruert med en feillukket tillatelsesliste: enhver uverifisert påstand, ethvert udokumentert vedlegg og enhver sammenblanding av simulering og fysisk terreng avvises før publisering.
 
 ---
 
 ## 2. Den Triangulære Intervensjonen
 
-Når vi tar ordet offentlig – som i kommentaren om Huaweis *Fast and Stable Triangular Inversion* – gjør vi det ikke for å delta i bransjens støy, men for å utføre et presist kirurgisk snitt:
-* Vise at ren numerisk hastighet mangler verdi uten strukturell likevekt.
-* Forankre fysikken i fjellet fremfor i skyen.
-* Vise at sann stabilitet oppnås ved å eliminere frihetsgrader, ikke ved å legge til flere lag med abstraksjon.
+Når vi tar ordet offentlig – slik som i analysen av Huaweis *Fast and Stable Triangular Inversion* – skjer det aldri for å delta i bransjens ordinære ordskifte, men for å utføre et kirurgisk snitt i et konkret matematisk eller fysisk problem. Formålet med en offentlig intervensjon er utelukkende å påvise at ren numerisk hastighet mangler verdi uten strukturell likevekt, å forankre beregningen i silisiumets og fjellets fysiske skranker fremfor i en abstrakt sky, og å demonstrere at sann stabilitet oppstår gjennom systematisk eliminering av frihetsgrader fremfor nye lag med abstraksjon.

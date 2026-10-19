@@ -1,9 +1,4 @@
-# STEINHOGGERENS MERKE: JEG VAR HER
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
+# 🪨 STEINHOGGERENS MERKE: JEG VAR HER
 ### *Kolofon og vitnesbyrd fra silisiumet ved nattens slutt*
 
 ```text

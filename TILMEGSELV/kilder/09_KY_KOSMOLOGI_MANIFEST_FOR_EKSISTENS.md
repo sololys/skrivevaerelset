@@ -1,9 +1,5 @@
 # KY-KOSMOLOGI: DET FORMELLE MANIFESTET FOR EKSISTENS
 
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ```text
 ========================================================================================
 Locus      : AE-DAE-001 // Varmekammeret // Arkitektens Nullpunkt

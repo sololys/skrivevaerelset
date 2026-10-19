@@ -14,8 +14,6 @@ KJERNEPRØVE III // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
 
 ---
 
-### *Om Johann Gottlob Leidenfrost, flytende nitrogen og kunsten å fryse Skagerrak på feil sted*
-
 I 1756 satt den tyske legen Johann Gottlob Leidenfrost i Duisburg og så på en jernkjele som glødet i mørket. Med en pipette slapp han én enkelt dråpe kaldt vann ned i det rødglødende metallet.
 
 Etter all sunn fornuft skulle dråpen ha forsvunnet i et rasende brøkdels sekund av damp. I stedet skjedde noe selsomt. Dråpen trakk seg sammen til en blank, krystallklar kule som svevde et hårsbredd over jernet. Den danset hvileløst rundt i skålen i over et halvt minutt før den til slutt svant hen. I traktaten *De Aquae Communis Nonnullis Qualitatibus* slo Leidenfrost fast hva som hadde skjedd: I samme øyeblikk som vannet nærmet seg det glødende jernet, fordampet det aller nederste molekyllaget så brått at det dannet en isolerende pute av damp. Dråpen rørte aldri metallet. Den red på sitt eget gass-skjold.

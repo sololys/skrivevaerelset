@@ -14,9 +14,6 @@ KJERNEPRØVE V // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
 
 ---
 
-
-### *Om protaktinium i tjuesyv døgn, soppen ved femti watt og steinen som nekter å skylde noen noe.*
-
 Hvis du går inn i en gammel steinkirke langs kysten og ser opp mot galleriet, ser du en maskin som ble bygget for å løse et bølgeproblem.
 
 Et pipeorgel har ingen høyttalermembran som forsøker å etterligne alle verdens lyder på én gang. I stedet består det av hundrevis av hule sylindre i tinn, bly og treverk, der hver eneste pipe er skåret til en nøyaktig lengde $L$. Når belgen slipper luft inn gjennom ventilen i foten, oppstår det et kaotisk brus av alle mulige frekvenser ved spalten. Men pipen selv er nådeløs. Den slipper bare frem den stående bølgen som passer eksakt mellom veggene sine – bølgetallet $k_z = n\pi / L$. Alt annet slukkes i sylinderen før det når rommet.
@@ -29,17 +26,25 @@ I **Atom-Orgelet** (`OrgelKraft™` $\otimes$ `SPEC-250`) er alle disse adskilte
 
 ---
 
-## I. Tjuesyv døgn i grunnfjellet
+## I. Tjuesyv døgn i grunnfjellet og Fermis geometriske dom
 
 Nederst i orgelet, dypt nede i det skurte grunnfjellet av anortositt, står basunen som bærer hele verket: **`T-POD`** – en underkritisk smeltesaltsylinder med thorium og bly.
 
-Ordet *kjernekraft* får gjerne folk til å tenke på en kjedereaksjon som hele tiden vil løpe løpsk – et villdyr ved $k_{\text{eff}} = 1{,}000$ som bare holdes i sjakk fordi datamaskiner og kontrollstaver står på bremsen hvert eneste sekund. Men en maskin som må overtales til ikke å eksplodere, er ikke trygg; den er bare midlertidig høflig.
+Ordet *kjernekraft* får gjerne folk til å tenke på en kjedereaksjon som hele tiden vil løpe løpsk – et villdyr ved $k_{\text{eff}} = 1{,}000$ som bare holdes i sjakk fordi datamaskiner og kontrollstaver står på bremsen hvert eneste sekund. Men en maskin som må overtales til ikke å eksplodere, er ikke trygg; den er bare midlertidig høflig. En reaktors sikkerhet avgjøres ikke av styringsprogramvare, men av beholderens form.
 
-I `T-POD` er geometrien og saltet ($\text{LiF–BeF}_2\text{–ThF}_4$) låst til en effektiv multiplikasjonsfaktor på nøyaktig **$k_{\text{eff}} = 0{,}960$**.
+Når hurtige spallasjonsnøytroner ($\sim\text{MeV}$) fra det flytende blymålet trer inn i fluoridsaltet ($\text{LiF–BeF}_2\text{–ThF}_4$), bremses de ned til termisk likevekt etter Enrico Fermis aldersligning:
 
-Det betyr at kjernen til enhver tid mangler fire prosent på å kunne holde seg selv i live. Den er en pipe uten egen pust. Den forsterker et innkommende nøytronsignal med nøyaktig tjuefem ganger ($M_{\text{sub}} = \frac{1}{1 - 0{,}960} = 25{,}0\times$), men bare så lenge det eksterne spallasjonsvitnet ($W = 1$) aktivt skyter protoner mot det flytende blybadet i midten. I det øyeblikket spenningen på strålerøret faller til $0{,}00\text{ V DC}$, mister bølgeligningen sin reelle løsning. Bølgetallet blir rent imaginært ($k = i\kappa$), og nøytronfluksen dør ut av seg selv på noen få mikrosekunder. Og skulle kjølingen svikte helt, smelter en frossen saltplugg i bunnen av karet uten at en eneste motor trenger å røre seg, slik at tyngdekraften ($F = m\cdot g$) tømmer hele saltet ned i flate anortosittrenner der $k_{\text{eff}}$ faller under $0{,}50$.
+$$\nabla^2 q(\mathbf{r}, \tau_F) = \frac{\partial q(\mathbf{r}, \tau_F)}{\partial \tau_F} \implies k_{\text{eff}} = k_\infty \cdot \frac{e^{-B_g^2 \tau_F}}{1 + L^2 B_g^2}$$
 
-Men det vakreste i denne kjellerpipen er ikke blyet eller saltpluggen. Det er hva som skjer når en kjerne av naturlig thorium-232 ($^{232}_{90}\text{Th}$) faktisk fanger et nøytron.
+Her angir $\tau_F$ nøytronenes Fermi-alder ($\text{cm}^2$) – et mål på den romlige spredningen under nedbremsing – mens $L$ er diffusjonslengden og $B_g^2$ er den geometriske bucklingen, som uttrykker reaktorkarets krumning. Denne ligningen binder kjernefysikken direkte til rommets topologi. I det sylindriske hovedkaret er overflaten liten i forhold til volumet. Den geometriske krumningen $B_g^2$ holdes lav, nøytronlekkasjen begrenses, og systemet hviler i en kontrollert, subkritisk driftstilstand ved nøyaktig **$k_{\text{eff}} = 0{,}960$** (`OPEN` ved $W = 1$).
+
+Det betyr at kjernen til enhver tid mangler fire prosent på å kunne holde seg selv i live. Den er en pipe uten egen pust. Den forsterker et innkommende nøytronsignal med nøyaktig tjuefem ganger ($M_{\text{sub}} = \frac{1}{1 - 0{,}960} = 25{,}0\times$), men bare så lenge det eksterne spallasjonsvitnet ($W = 1$) aktivt skyter protoner mot det flytende blybadet i midten. I det øyeblikket spenningen på strålerøret faller til $0{,}00\text{ V DC}$, mister bølgeligningen sin reelle løsning. Bølgetallet blir rent imaginært ($k = i\kappa$), og nøytronfluksen dør ut av seg selv på noen få mikrosekunder.
+
+Dersom kjølingen svikter, endres ikke kjemien, men geometrien. Når den aktivt kjølte frysepluggen i bunnen av reaktoren smelter uten at en eneste motor trenger å røre seg, tømmer tyngdekraften ($F = m\cdot g$) saltet ned i et bredt, flatt oppsamlingskar av anortositt (`KILL`). I det væskesøylen brer seg utover, reduseres høyden $H$ til et tynt sjikt. Fordi den geometriske bucklingen i et flatt sjikt skaleres etter relasjonen $B_g^2 \approx (\pi / H)^2$, vokser eksponenten kvadratisk idet høyden minker. Følgen er at lekkasjefaktoren $e^{-B_g^2 \tau_F}$ går mot null: nøytronene unnslipper saltet før de rekker å bremse ned, og multiplikasjonsfaktoren $k_{\text{eff}}$ faller under $0{,}50$. Kjernereaksjonen kveles av ren geometri.
+
+Dette prinsippet markerer slutten på en epoke som startet i desember 1942. Under oppstarten av verdens første kjernereaktor, Chicago Pile-1, stolte ikke Enrico Fermi på elektromekaniske releer og signalkabler alene. Som siste skanse plasserte han fysikeren Norman Hilberry (*Safety Control Rod Axe Man*, `SCRAM`) med en fysisk øks ved tauet som holdt nødkontrollstaven oppe. I `T-POD` er Fermis øksemann erstattet av faststoff- og gravitasjonsfysikk: først kuttes spallasjonsstrålen elektronisk til $0{,}00\text{ V DC}$ på mikrosekunder; deretter sørger smeltepunktet i saltpluggen og tyngdekraften for at selve romformen avbryter reaksjonen uten et eneste mekanisk ledd som kan kile seg fast.
+
+Men det dypeste tidsankeret i denne kjellerpipen er hva som skjer når en kjerne av naturlig thorium-232 ($^{232}_{90}\text{Th}$) faktisk fanger et nøytron.
 
 Den blir ikke straks til spaltbart uran. Først blir den til thorium-233, som etter tjueto minutter sender ut et elektron og forvandles til grunnstoff nummer 91: **protaktinium-233 ($^{233}_{91}\text{Pa}$)**.
 

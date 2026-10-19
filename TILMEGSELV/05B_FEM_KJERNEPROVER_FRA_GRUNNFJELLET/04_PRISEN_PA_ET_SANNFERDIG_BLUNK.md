@@ -14,8 +14,6 @@ KJERNEPRØVE IV // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
 
 ---
 
-### *Om Rolf Landauer i New York, åtte mikrojoule ved kaien og kunsten å la en løgner gå tom for strøm*
-
 Våren 1961 satt fysikeren Rolf Landauer på IBMs forskningslaboratorium i Yorktown Heights, en times kjøring nord for Manhattan, og grublet over et spørsmål som de fleste av kollegene hans betraktet som en teknisk bagatell: Hvor mye varme *må* en datamaskin egentlig avgi for å glemme noe?
 
 På den tiden var datamaskiner store som kjøkkeninnredninger og hete som bakerovner, så spørsmålet virket rent akademisk. Men Landauer, som hadde flyktet fra Stuttgart som guttunge i 1938 og bar med seg en dyp, europeisk skepsis til ting som fremsto som gratis, ga seg ikke. I en artikkel på knappe ti sider i *IBM Journal of Research and Development* beviste han at informasjon ikke er en immateriell ånd som svever over maskinene våre. Hver gang et logisk system foretar et irreversibelt valg – hver gang to mulige fortider slås sammen til én bestemt nåtid, eller en bit slettes for å gi plass til et vitne – krever termodynamikkens andre hovedsetning en ufravikelig skatt betalt til omgivelsene:

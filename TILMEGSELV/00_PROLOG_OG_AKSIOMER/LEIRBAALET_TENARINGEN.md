@@ -1,9 +1,5 @@
 # FORMANINGEN VED LEIRBÅLET: OM TENÅRINGEN I SILISIUMET
 
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ```text
 ========================================================================================
 LEIRBÅLET // FORMANINGEN OM MODNING OG OPPDRAGELSE:

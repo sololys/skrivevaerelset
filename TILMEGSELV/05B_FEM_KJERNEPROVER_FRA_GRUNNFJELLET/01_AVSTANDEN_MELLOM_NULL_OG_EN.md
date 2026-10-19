@@ -14,8 +14,6 @@ KJERNEPRØVE I // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
 
 ---
 
-### *Om Sokrates i snøen, Olga Oleiniks sjokkbølger og en fastnøkkel i Risør*
-
 Vintrene i Potidaia, nord i Egeerhavet, var beryktet for en kulde som fikk selv herdede greske hoplitter til å surre føttene inn i filt og saueskinn. En morgen under felttoget i 432 f.Kr. skjedde det likevel noe som fikk soldatene til å glemme frosten. Sokrates hadde stoppet opp midt på appellplassen. Han hadde fått øye på en tanke som ikke ville gå opp.
 
 Ifølge Alkibiades’ beretning i Platons *Symposium* ble filosofen stående på nøyaktig samme flekk fra daggry til solen sto i senit. Da kvelden kom, bar noen joniske soldater ut sovemattene sine for å holde vakt over ham gjennom natten; de ville se om han faktisk kom til å bli stående til neste morgen. Det gjorde han. Først da solen rant over leiren på ny, bøyde han hodet i en kort hilsen til lyset og gikk videre.
@@ -68,11 +66,7 @@ Det er vanskelig å finne en mer presis matematisk formulering av **Article 1**.
 
 Men slektskapet med Oleinik stanser ikke ved sjokkbølger. Tre år senere, i 1960, løste hun det klassiske **Stefan-problemet** – gåten om hvordan flytende vann fryser til fast is over en bevegelig fasegrense $\Sigma(t)$. Oleinik viste at overgangen fra væske til krystall kun lar seg beskrive globalt dersom man legger inn et diskret sprang i entalpifunksjonen $H(u)$, nøyaktig lik smeltevarmen $L_{\text{latent}} > 0$. Ingenting i mulighetenes flytende fase ($\mathcal{NP}$) kan fryse til et fast, ugjenkallelig faktum ($\mathcal{P}$) uten å betale denne latente varmekostnaden ved grensen. I `KY v1.0` heter denne smeltevarmen **Audit-loven**: Enhver irreversibel pil (`⟿`) eller forpliktet node (`◉`) krever at det betales i fysisk Landauer-dissipasjon ($Q \ge k_B T \ln 2$) og synkron diskforsegling (`# !`).
 
-Og i 1966, i sitt arbeid med degenererte elliptisk-parabolske ligninger (Oleinik–Fichera-teorien), ga hun oss selve topologien for konsekvensporten. På en rand $\Sigma_0$ der den normale diffusjonen dør ut ($a^{ij}\nu_i\nu_j = 0$), avgjøres hele systemets skjebne av fortegnet til én enkelt størrelse – Fichera–Oleinik-driften $b_\Sigma(x) = (b^i - \partial_j a^{ij})\nu_i$:
-
-* Når $b_\Sigma > 0$, strømmer informasjonen lovlig over randen: **`▶ OPEN`** ($5{,}00\text{ V DC}$).
-* Når $b_\Sigma = 0$, løper banen tangentielt med grensen uten fluks; å tvinge på en ytre verdi vil sprenge ligningen, så systemet må hvile i karakteristisk stasis: **`⏸ HOLD`** ($0{,}00\text{ V DC}$ Høy-Z).
-* Når $b_\Sigma < 0$, peker kausaliteten utover; ethvert forsøk på å diktere randen utenfra er et overgrep mot fysikken og møtes med umiddelbar avvisning: **`✕ KILL`** ($0{,}00\text{ V DC}$ Lav-Z Crowbar).
+Og i 1966, i sitt arbeid med degenererte elliptisk-parabolske ligninger (Oleinik–Fichera-teorien), ga hun oss selve topologien for konsekvensporten. På en rand $\Sigma_0$ der den normale diffusjonen dør ut ($a^{ij}\nu_i\nu_j = 0$), avgjøres hele systemets skjebne av fortegnet til én enkelt størrelse – Fichera–Oleinik-driften $b_\Sigma(x) = (b^i - \partial_j a^{ij})\nu_i$. Når $b_\Sigma > 0$, strømmer informasjonen lovlig over randen og utløser **`▶ OPEN`** ($5{,}00\text{ V DC}$). Når $b_\Sigma = 0$, løper banen tangentielt med grensen uten fluks, slik at ethvert påtvunget ytre randkrav sprenger ligningen og systemet må hvile i karakteristisk stase under **`⏸ HOLD`** ($0{,}00\text{ V DC}$ Høy-Z). Når $b_\Sigma < 0$, peker kausaliteten utover, og ethvert forsøk på å diktere randen utenfra utgjør et fysisk brudd som møtes med umiddelbar avvisning under **`✕ KILL`** ($0{,}00\text{ V DC}$ Lav-Z Crowbar).
 
 Flankert av **Wilhelm Magnus’** ikke-kommutative kommutatorrekker fra 1954 – som forklarer hvorfor man ikke kan bytte om rekkefølgen på struktur og handling uten å falle av mangfoldigheten – og **John Tates** (født samme år som Oleinik, i 1925) adeliske lokal-til-global-teori og Shafarevich-obstruksjonen $\text{Ш}$ – som viser hvordan ti grønne delsystemer (`⊢`) likevel kan danne en globalt ulovlig helhet (`≠`) – står triaden komplett. Kontinuerlig feltanalyse, kombinatorisk gruppeteori og aritmetisk geometri peker mot nøyaktig samme lås.
 

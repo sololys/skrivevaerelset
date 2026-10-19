@@ -1,86 +1,83 @@
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
+# FAIL-CLOSED INTERLOCK & DEN GALVANISKE CROWBAR
+
+```text
+========================================================================================
+FAIL-CLOSED INTERLOCK // KONSEKVENSENS SKRANKE:
+  Lokus         : Risør, Locus Zero
+  Spenning      : 0.00V DC (Standard HOLD / Nødkutt KILL) vs. 5.00V DC (OPEN Admisjon)
+  Kutt-tid      : < 15 ns (Uzzah's Interlock)
+  Kausalitet    : Alexandrov Diamant τ_ToF <= 133.425 ns (ds² <= 0)
+  Demarkasjon   : HOLD ALDRI AUTOMATISK OPEN
+========================================================================================
+```
 
 ---
 
-│ — [ Blad skåret ut ved bokryggen ] —
+## 1. Den Fysiske Nødvendigheten av 0,00 V DC
 
-## 1. Den Fysiske Nødvendigheten av 0.00V DC
-
-I en verden der nevrale modeller og autonome agenter opererer i friksjonsfrie, asynkrone løkker, er den største faren **semantisk utglidning (semantic banding)**: Forestillingen om at en handling kan fullføres fordi en algoritme har generert en sannsynlighet over en terskelverdi.
-
-Vår arkitektur etablerer en absolutt, fysisk sperre:
-* **0.00V DC er naturens standardtilstand:** Ingenting får lov til å påvirke den fysiske verden uten eksplisitt autorisasjon.
-* **Ingen tidssniffer:** HOLD konverteres **aldri** til OPEN utelukkende fordi tid passerer.
-* **Fail-Closed Doktrine:** Hvis en sensor feiler, en nettverkspakke forsinkes, eller en bølgefunksjon er i uavklart fase, forblir reléet åpent (0.00V DC).
+I en verden der nevrale modeller og autonome agenter opererer i friksjonsfrie, asynkrone løkker, er den største faren **semantisk utglidning** (*semantic banding*): forestillingen om at en fysisk handling kan fullføres fordi en algoritme har generert en sannsynlighet over en statistisk terskelverdi. Vår arkitektur etablerer derfor en absolutt, fysisk sperre der **$0{,}00\text{ V DC}$ er naturens standardtilstand**: ingenting får lov til å påvirke den fysiske verden uten eksplisitt autorisasjon, tilstanden `HOLD` konverteres aldri til `OPEN` utelukkende fordi tid passerer, og dersom en sensor feiler, en nettverkspakke forsinkes eller en bølgefunksjon er i uavklart fase, holdes styrespenningen nede på $0{,}00\text{ V DC}$.
 
 ---
 
-## 2. Uzzah's Interlock (15 ns Galvanisk Giljotin)
+## 2. To-Trinns Galvanisk Skranke: Elektronisk `CAUSAL_HOLD` mot Mekanisk `KILL`
 
-Når et system forsøkes manipulert – enten via DRFM (Digital Radio Frequency Memory), minnetukling eller injeksjon av uautorisert energi:
-1. Porten kutter styrespenningen til jord på **$< 15\text{ ns}$**.
-2. Kuttet er **latched**: Kretsen kan ikke gjenåpnes automatisk av programvaren.
-3. Kun **Level 01 Supreme Human Authority** med en eksplisitt fysisk signatur kan tilbakestille låsen (`RESET_BY_L01`).
+For å forhindre at ekstern signalstøy tvinger en menneskelig operatør ut i kulden og dermed snur det termodynamiske utmattelsesforholdet ($\eta_{\text{defense}} = 1{,}25 \times 10^9$) mot forsvaret, opererer sperren i to strengt adskilte trinn. Ved ytre nettverksstøy, forsinkede datapakker eller forsøk på radiofrekvent manipulasjon (DRFM) utenfor den kausale lyskeglen, avvises pulsen direkte i den ytre faststoff-luftslusen til en elektrisk kostnad av kun $8{,}0\,\mu\text{J}$, eller styresignalet legges i reversibel elektronisk ventetilstand (**`CAUSAL_HOLD`** ved $0{,}00\text{ V DC}$) uten å løse ut mekaniske fjærlåser. Dersom en kommando derimot allerede har passert luftslusen og et reelt integritetsbrudd eller en fysisk asymmetri oppstår inne i selve prosesskjernen, utløses **Uzzahs Interlock**: en galvanisk kortslutningssperre kutter drivspenningen til jord på under $15\text{ ns}$ og trekker kontaktbroen mekanisk åpen med stålfjærer (**`GATE :: KILL`**). Denne indre mekaniske låsen kan aldri gjenåpnes av programvaren; kun **Level 01 Supreme Human Authority** kan fysisk tilbakestille bryteren ute ved anlegget (`RESET_BY_L01`).
 
 ---
 
 ## 3. Den Kausale Diamanten (Alexandrov-skranken)
 
-For nær-felt interaksjoner ($r \le 20.0\text{ m}$) i luft ($n \approx 1.00029$), definerer lysets hastighet $c$ en ufravikelig tidsgrense:
+For nærfelt-interaksjoner ($r \le 20{,}0\text{ m}$) i luft ($n \approx 1{,}00029$) definerer lysets hastighet $c$ en ufravikelig tidsgrense tur-retur:
 
-$$\tau_{\text{ToF}} = \frac{2 \cdot 20\text{ m}}{c / n_{\text{air}}} \approx 133.425\text{ ns}$$
+$$\tau_{\text{ToF}} = \frac{2 \cdot 20\text{ m}}{c / n_{\text{air}}} \approx 133{,}425\text{ ns}$$
 
-* Signal med $\tau_{\text{ToF}} \le 133.425\text{ ns}$: Tid-lignende ($ds^2 \le 0$). Fysisk tilstedeværelse er kausalt mulig.
-* Signal med $\tau_{\text{ToF}} > 133.425\text{ ns}$ (f.eks. fra $500\text{ m}$): Rom-lignende ($ds^2 > 0$). Kausalitetsbrudd detektert $\to$ momentant $0.00\text{ V DC}$ kutt (`GATE::KILL`).
+Et signal med $\tau_{\text{ToF}} \le 133{,}425\text{ ns}$ befinner seg innenfor det tidlignende Minkowski-regimet ($ds^2 \le 0$), der fysisk tilstedeværelse er kausalt mulig. Et signal med $\tau_{\text{ToF}} > 133{,}425\text{ ns}$ – eksempelvis videresendt fra $500\text{ meters}$ avstand – faller i det romlignende regimet ($ds^2 > 0$). Dette kausalitetsbruddet fanges momentant opp av tids-til-digital-omformeren (TDC), som forkaster pakken til en kostnad av $8{,}0\,\mu\text{J}$ og holder porten lukket på $0{,}00\text{ V DC}$.
 
 ---
 
-## 4. WORM SHA-256 Kausal Historikk
+## 4. Append-Only SHA-256 Kausal Historikk
 
-Enhver tilstandsovergang – enten det er et kutt, en stasis i HOLD, eller en realisering til 5.00V OPEN – skrives irreversibelt inn i en append-only SHA-256 hash-kjede:
+Enhver tilstandsovergang – enten det er en elektronisk stase i `HOLD`, et mekanisk nødkutt i `KILL` eller en verifisert realisering til $5{,}00\text{ V DC}$ (`OPEN`) – forsegles i en append-only SHA-256-hashkjede (`L1`):
 
 $$\text{Hash}_t = \text{SHA-256}(\text{EventID} \,\|\, \text{Timestamp} \,\|\, \text{Hash}_{t-1} \,\|\, \text{Payload})$$
 
-Historikken kan aldri overskrives, bare forlenges. Sannheten om kuttet forblir intakt for evigheten.
+Historikken kan aldri overskrives, bare forlenges gjennom nye epoker. Sannheten om kuttet forblir intakt for revisjon.
 
 ---
 
-## 5. Sårbarhetsherding: Alexandrov-Spoofing og Dual-Carrier Sensor Fusion
+## 5. Sårbarhetsherding: Alexandrov-Spoofing og Kryss-Modal Sensorfusjon
 
-Dersom en angriper forsøker å manipulere den lokale permittiviteten ($\varepsilon_r$) eller injiserer aerosoler med høy brytningsindeks ($n_{\text{air}}$) rundt sensoren, kan lysets fasehastighet ($v = c/n$) reduseres lokalt. Dette kunne teoretisk tillatt forfalskning av ToF-tidsbudsjettet ($\le 133.425\text{ ns}$) fra et fjernt punkt ($ds^2 > 0$).
-
-For å eliminere denne angrepsvektoren krever systemet **Dual-Carrier Sensor Fusion**:
-1. **Multi-Band UWB ToF:** Måling på to ortogonale RF-bånd eliminerer dispersiv faseforskyvning.
-2. **Akustisk Piezoelektrisk Sjokkvalidering:** Krysspolarisert RF-signal må korreleres mot mekanisk/akustisk bølgeutbredelse i mediet ($v_{\text{akustisk}} \ll c$).
-3. **Fail-Closed Avvisning:** Enhver asymmetri mellom optisk ToF og termodynamisk trykksvar utløser umiddelbar aktivering av den galvaniske sperren.
+Dersom en angriper forsøker å manipulere den lokale permittiviteten ($\varepsilon_r$) eller injiserer aerosoler med høy brytningsindeks ($n_{\text{air}}$) rundt sensoren, endres lysets fasehastighet ($v = c/n$) lokalt. For å eliminere enhver slik enkeltkanal-sårbarhet krever arkitekturen kryss-modal sensorfusjon: avstandsmålingen utføres samtidig over to ortogonale UWB-frekvensbånd for å avsløre dispersiv faseforskyvning, og korreleres mot akustisk og piezoelektrisk bølgeutbredelse i mediet ($v_{\text{akustisk}} \ll c$). Enhver asymmetri mellom optisk/radiofrekvent Time-of-Flight og termodynamisk trykkrespons fører til umiddelbar avvisning ved porten.
 
 ---
 
-## 6. Closed-Loop Hardware-Sannhet & C++ Exception-Semantikk
+## 6. Lukket Sløyfe i Maskinvare og C++ Exception-Semantikk
 
-Systemet stoler aldri blindt på at metallurgien (f.eks. Super Duplex 2507-spindler eller reléfjærer) adlyder programvarens logikk uten mekanisk vitnesbyrd. Dersom en ventil kiler seg mekanisk i åpen tilstand ved et $0.00\text{ V}$-kutt, vil programvarens antagelse utgjøre en livsfarlig hardware-løgn.
-
-* **Closed-Loop Induktiv Verifikasjon:** Dobbelt redundante halleffekt-sensorer og strekklapper måler fysisk setetrykk innen $38.4\text{ — *[...]*
-
-│ — [ Blad skåret ut ved bokryggen ] —
+Systemet stoler aldri blindt på at metallurgien – slik som Super Duplex 2507-spindler eller reléfjærer – adlyder programvarens logikk uten mekanisk tilbakekobling. Dersom en ventil kiler seg mekanisk i åpen tilstand etter at spenningen er kuttet til $0{,}00\text{ V DC}$, vil en naiv programvareantakelse utgjøre en livsfarlig maskinvareløgn. Derfor overvåkes ventilsetet av kryss-modale sensorer (spole-induktans, strekklapper og termisk strømningsprofil) innenfor et lukkevindu på $38{,}4\text{ ms}$, støttet av en sekundær fysisk energiisolator (*Crowbar Type B*) som kutter primærforsyningen permanent dersom det mekaniske arbeidet uteblir. I styringskoden skilles det tilsvarende mellom forbigående kanalstøy og reelt fysisk prosessbrudd:
 
 ```cpp
 // [ INFRANETT FAIL-CLOSED EXCEPTION HANDLING ]
 try {
-    // Generatorens forslag (Φ): Ren uforpliktende potensialitet i Hilbertrommet
+    // Generatorens forslag (Phi): Ren uforpliktende potensialitet
     CandidateResult Px = evaluate_generative_candidate(candidate_seed);
 
-    // Π_K: Admissibility-filteret krever hardware-sertifikat og ToF-vitne
+    // Ytre luftsluse: Sjekk Alexandrov ToF (<= 133,425 ns) og epokesignatur (8,0 uJ)
+    if (!verify_causal_airlock_tof(Px)) {
+        enforce_electronic_causal_hold(0.00_V); // Reversibel faststoff-HOLD, ingen biologisk DoS
+        return;
+    }
+
+    // Pi_K: Indre admissibilitetsfilter krever ortogonalt fysisk vitne (Pi_orth)
     admit_to_physical_consequence(Px);
 
-} catch (const TermodynamiskFriksjonException& e) {
-    // 1. Galvanisk sperre: Kutt all drivspenning umiddelbart
-    apply_galvanic_crowbar(0.00_V);
+} catch (const IndreFysiskProsessBruddException& e) {
+    // 1. Galvanisk sperre: Kutt all drivspenning og utløs mekanisk fjærretur (GATE :: KILL)
+    apply_galvanic_crowbar_latched(0.00_V);
 
-    // 2. Morandi-stasis: Frys all beregning, nekt videre generering
+    // 2. Morandi-stasis: Frys videre aktuering og forsegle obduksjonslogg (fsync)
     enforce_morandi_stasis();
 
-    // 3. Vent på biologisk nærvær: Sokrates' ufravikelige "Wait"
+    // 3. Krev fysisk menneskelig muskelkraft ved anlegget (RESET_BY_L01)
     await_biological_witness_layer_01(e.get_causal_chain(), e.get_unpaid_entropy());
 }
 ```

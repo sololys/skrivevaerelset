@@ -1,25 +1,14 @@
 # KANDIDAT ER IKKE KONSEKVENS
+### *Det Ontologiske Kuttet og Virkelighetens Vitne*
 
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
+$$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}} \qquad \boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
 
 ---
 
-### *Det Ontologiske Kuttet og Virkelighetens Vitne*
-
-│ — [ Blad skåret ut ved bokryggen ] —
-
 ### Det Formelle Aksiomsystemet for Realisering ($\mathcal R$)
 
-Realiseringsgrammatikken defineres over fire rom:
-* **$\Sigma$:** Mengden av mulige systemtilstander.
-* **$C$:** Kandidatrommet (genererte hypoteser, forslag eller utkast).
-* **$D = \{\mathrm{ALLOW}, \mathrm{HOLD}, \mathrm{KILL}\}$:** Admissibilitetens domsrom.
-* **$\mathcal E$:** Evidensrommet (persistente attestasjoner og vitnesbyrd).
+Realiseringsgrammatikken defineres over fire strengt adskilte rom: mengden av mulige systemtilstander ($\Sigma$), kandidatrommet av genererte hypoteser og utkast ($C$), admissibilitetens treverdige domsrom ($D = \{\mathrm{ALLOW}, \mathrm{HOLD}, \mathrm{KILL}\}$) og evidensrommet av persistente attestasjoner ($\mathcal E$). Systemet konstitueres gjennom kvadrupelen $\mathcal R = (\Phi, \Pi_K, \Omega, W)$ med følgende funksjonssignaturer:
 
-Systemet defineres ved kvadrupelen av operasjonelle funksjoner:
-$$\boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
-
-med signaturer:
 $$\begin{aligned}
 \Phi &: \Sigma \rightarrow C && \text{(Kandidatgenerator)} \\
 \Pi_K &: C \times \Sigma \rightarrow D && \text{(Admissibilitetsdom)} \\
@@ -27,29 +16,27 @@ $$\begin{aligned}
 W &: C \times \Sigma \times \Sigma \rightarrow \mathcal E && \text{(Persistent evidensfunksjon)}
 \end{aligned}$$
 
-At overgangsoperatoren $\Omega$ er **partiell** ($\rightharpoonup$), er et fundamentalt designvalg: $\Omega$ er ikke total over $C \times \Sigma$. Den er utelukkende definert i de tilfellene der en overgang faktisk autoriseres og finner sted i miljøet.
+At overgangsoperatoren $\Omega$ er **partiell** ($\rightharpoonup$), er et fundamentalt arkitektonisk skille: $\Omega$ er ikke total over $C \times \Sigma$, men utelukkende definert i de tilfellene der en overgang faktisk autoriseres og utføres i det fysiske miljøet.
 
 ---
 
 ### Kjerneinvarianter for Trygg Realisering
 
-Enhver gyldig instans av $\mathcal R$ må tilfredsstille følgende tre invarianter:
+Enhver gyldig instans av $\mathcal R$ er bundet av tre ufravikelige invarianter. Gjennom **autorisasjonsintegritet ($I_{\mathrm{auth}}$)** kan ingen tilstandsendring realiseres med mindre den eksplisitt er dømt som tillatt av porten:
 
-1. **Autorisasjonsintegritet ($I_{\mathrm{auth}}$):**
-   $$\boxed{\Omega(c, \sigma) = \sigma' \implies \Pi_K(c, \sigma) = \mathrm{ALLOW}}$$
-   Ingen tilstandsendring kan realiseres med mindre den eksplisitt er dømt som $\mathrm{ALLOW}$.
+$$\boxed{\Omega(c, \sigma) = \sigma' \implies \Pi_K(c, \sigma) = \mathrm{ALLOW}}$$
 
-2. **Etterprøvbarhet ($I_{\mathrm{trace}}$):**
-   $$\boxed{\Omega(c, \sigma) = \sigma' \implies \exists e \in \mathcal E \;:\; \mathrm{Verify}(e, c, \sigma, \sigma')}$$
-   Enhver realisert overgang etterlater en uavhengig verifiserbar evidens.
+Gjennom **etterprøvbarhet ($I_{\mathrm{trace}}$)** må enhver realisert overgang etterlate et uavhengig verifiserbart vitnesbyrd i evidensrommet:
 
-3. **Ikke-triviell gating ($I_{\mathrm{gate}}$):**
-   $$\boxed{\exists c, \sigma \;:\; c \in \Phi(\sigma) \;\land\; \Pi_K(c, \sigma) \neq \mathrm{ALLOW}}$$
-   Systemklassen krever at kandidatproduksjon ikke er trivielt identisk med realisering. Systemet må beviselig kunne produsere minst én kandidat som stoppes eller holdes tilbake.
+$$\boxed{\Omega(c, \sigma) = \sigma' \implies \exists e \in \mathcal E \;:\; \mathrm{Verify}(e, c, \sigma, \sigma')}$$
+
+Gjennom **ikke-triviell gating ($I_{\mathrm{gate}}$)** kreves det at kandidatproduksjon aldri er trivielt identisk med realisering; systemet må beviselig kunne produsere minst én kandidat som stanses eller holdes tilbake av skranken:
+
+$$\boxed{\exists c, \sigma \;:\; c \in \Phi(\sigma) \;\land\; \Pi_K(c, \sigma) \neq \mathrm{ALLOW}}$$
 
 ---
 
-### Separasjonsaksiomene ($S_1 - S_4$)
+### Separasjonsaksiomene ($S_1 - S_4$) og Minimalitetsteoremet
 
 For å forhindre at komponentene matematisk foldes sammen til én enkelt ugjennomsiktig operator ($\Omega'$), måles minimaliteten på **kausale roller**. Systemet må tilfredsstille fire ufravikelige separasjonsaksiomer:
 
@@ -60,20 +47,9 @@ S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet 
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 
----
-
-### Minimalitetsteoremet om Funksjonelle Roller
-
 $$\boxed{\text{Enhver ikke-triviell, gated og etterprøvbar realiseringsarkitektur som tilfredsstiller } S_1 - S_4 \text{ må realisere fire distinkte funksjonelle roller.}}$$
 
-Minimaliteten bevises ved at eliminering av en hvilken som helst rolle bryter systemets kausale egenskaper:
-* $\neg \Phi \implies$ **Ingen kandidatproduksjon:** $\Omega$ og $\Pi_K$ har intet definisjonsområde; systemet forblir i statisk lammelse.
-* $\neg \Pi_K \implies$ **Ingen separat autorisasjon:** $I_{\mathrm{auth}}$ og $S_1/S_3$ kollapser; forslag flyter uhemmet inn i aktuering.
-* $\neg \Omega \implies$ **Ingen realisert tilstandsendring:** Systemet reduseres til et orakel uten operasjonell virkning i verden.
-* $\neg W \implies$ **Ingen uavhengig etterprøvbarhet:** $I_{\mathrm{trace}}$ brytes; det er umulig å etterprøve om $I_{\mathrm{auth}}$ faktisk ble respektert i sanntid.
-
-> **Kjerneinnsikten:**  
-> *«Generasjon, autorisasjon, realisering og attestasjon er fire kausalt forskjellige roller; en arkitektur som krever eksplisitt gating og uavhengig etterprøvbarhet må bevare skillet mellom dem.»*
+Minimaliteten bevises direkte ved at fjerning av en hvilken som helst rolle kollapser systemets kausale struktur. Uten $\Phi$ ($\neg \Phi$) opphører all kandidatproduksjon, slik at $\Omega$ og $\Pi_K$ mister sitt definisjonsområde i statisk lammelse. Uten $\Pi_K$ ($\neg \Pi_K$) bortfaller den separate autorisasjonen, $I_{\mathrm{auth}}$ og $S_1/S_3$ kollapser, og ufiltrerte forslag flyter direkte inn i fysisk aktuering. Uten $\Omega$ ($\neg \Omega$) finnes ingen realisert tilstandsendring, og systemet reduseres til et passivt orakel uten virkning i terrenget. Uten $W$ ($\neg W$) brytes $I_{\mathrm{trace}}$, og det blir umulig å etterprøve i ettertid om autorisasjonsgrensen faktisk ble respektert i sanntid. Generasjon, autorisasjon, realisering og attestasjon utgjør dermed fire kausalt udelelige roller.
 
 ---
 

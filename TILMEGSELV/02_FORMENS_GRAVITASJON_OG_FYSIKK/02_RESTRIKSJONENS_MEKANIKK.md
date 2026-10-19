@@ -1,12 +1,21 @@
-# RESTRIKSJONENS MEKANIKK
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
+# ⚙️ RESTRIKSJONENS MEKANIKK
 ### *Det litiske trykket som formgivende prinsipp*
 
-│ — [ Blad skåret ut ved bokryggen ] —
+```text
+========================================================================================
+KANONISK IDENTIFIKASJON & ATTRIBUSJON:
+  Verk              : Sovereign Book Compendium // Hovedverket
+  Bind              : Bind I (Kuttflaten) & Bind II (Codex Geocybernetica)
+  Forfatter         : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
+  Tilhørighet       : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
+  Dokumentklasse    : Teoretisk Monografi & Fysisk Formgivningsprinsipp
+  Demarkasjon       : INSPIRED_BY != IMPLEMENTS != PROVES
+  Kjerneaksiom      : "Dynamics generates possibilities; admissibility determines existence."
+  Kuttoperatør      : T_{KY} = Ω ∘ Π_K ∘ Φ
+========================================================================================
+```
+
+---
 
 > ### *«Fjellet representerer ikke en kalkulatorisk feil som kan optimaliseres bort; det utgjør den absolutte begrensningen som forhindrer konseptuell fordampning.»*
 

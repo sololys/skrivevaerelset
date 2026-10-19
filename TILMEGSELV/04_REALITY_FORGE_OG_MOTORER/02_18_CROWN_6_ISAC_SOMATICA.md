@@ -1,12 +1,17 @@
 # 2,7 ÅNGSTRØM // DET GEOMETRISKE KUTTET
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *KcsA-kanalen, spedbarnets brystkasse og nitrogenmolekylets nådeløse lås*
 
-│ — [ Blad skåret ut ved bokryggen ] —
+```text
+========================================================================================
+KAMMER 04: ISOMORFI // GEOMETRIENS UKRENKELIGHET:
+  Lokus         : K-POD Reaktoren & Neonatal Intensivovervåkning
+  Terskel       : 2.7 Ångstrøm (18-crown-6 kationfelle & KcsA kaliumfilter)
+  Prinsipp      : Poka-Yoke som geofysisk naturlov
+  Demarkasjon   : INSPIRED_BY != IMPLEMENTS != PROVES
+========================================================================================
+```
+
+---
 
 ## 1. Geometri som Domsmyndighet
 
@@ -23,7 +28,11 @@ Dette er **Poka-Yoke som naturlov**. Porten diskriminerer ikke fordi den mener n
 
 ---
 
-│ — [ Blad skåret ut ved bokryggen ] —
+## 2. K-POD: Nitrogenets Nektelse
+
+I K-POD-reaktoren på verkstedbenken i Risør står vi overfor den mest gjenstridige kjemiske bindingen i biosfæren: Dinitrogen ($\text{N}\equiv\text{N}$). Trippelbindingen holder atomene sammen med en voldsom kraft på $945\text{ kJ/mol}$.
+
+Industrien har løst dette med Haber-Bosch: Rå makt. Brenne fossilt metan for å presse gassen opp i 450 grader og 200 atmosfærer. Det er den generative metodens svar: *Mer energi, mer støy, overkjør motstanden.*
 
 Vår arkitektur gjør det motsatte. Vi bruker minuskatalyse.
 
@@ -41,9 +50,7 @@ Flytt blikket fra reaktoren til et annet rom: Et prematurt spedbarn ligger i en 
 
 Inne i det lille hjertet pumper cellene sine ioner. Hver repolarisering i sinusknuten styres av de samme KcsA-kanalene. De samme $2{,}7\text{ \AA}$.
 
-ISAC-radaren over kuvøsen berører ikke barnet. Den sender 77 GHz millimeterbølger gjennom luften og — *[...]*
-
-│ — [ Blad skåret ut ved bokryggen ] —
+ISAC-radaren over kuvøsen berører ikke barnet. Den sender 77 GHz millimeterbølger gjennom luften og fanger mikrobevegelsen. Gjetter algoritmen her, er det et overgrep.
 
 Radaren nekter å glatte ut kurven for å berolige skjermen:
 * Bølgen treffer overflaten. Faseskiftet må korrelere nøyaktig med hjertets mekaniske systole ($0{,}05\text{ mm}$).

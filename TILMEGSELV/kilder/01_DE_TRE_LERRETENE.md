@@ -1,9 +1,4 @@
 # DE TRE LERRETENE
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ## *Et Filosofisk og Kausalt Manifest om Bruddet, Asynkroniteten og Banens Ensomhet*
 
 **Marius Egerhei Torjusen**  
@@ -73,9 +68,10 @@ Når et 200 000-tonns stålskip pløyer gjennom vinternatten i Nordsjøen, er de
 
 Rundt skroget prøver den biologiske groen – rur, skjell, slim og alger – uavlatelig å hekte seg fast. I den digitale sfæren kalles denne groen for *parasittisk avhengighet*: bakgrunnsprosesser, telemetri, skysynkronisering og lånt oppetid. Men langs stålplatene fordamper en iskald film av flytende nitrogen. Hver gang en organisme forsøker å bite seg fast, sjokkfryses den og pulveriseres bort i brenningene. Skroget forblir metallisk rent.
 
-Når navlestrengen kappes – når 230V landstrøm forsvinner eller fiberkabelen rives over: 1. Et — *[...]*
-
-│ — [ Blad skåret ut ved bokryggen ] —
+Når navlestrengen kappes – når 230V landstrøm forsvinner eller fiberkabelen rives over:
+1. Et uherdet system forsøker å skrive til minne det ikke lenger har strøm til å opprettholde. Det genererer *torn writes*, minnekorrupsjon og krasjer i uverifiserbar tilstand.
+2. Det herdede systemet utløser en hardware-crowbar. Pilotspenningen faller til nøyaktig $0.00\text{ V}$. Super Duplex 2507-ventilene smekker igjen med mekanisk fjærretur på $38.4\text{ ms}$. 
+3. Tilstanden forsegles deterministisk via `fsync()` i en lokal append-only write-ahead logg.
 
 Å falle til ro ved $0.00\text{ V}$ er ikke en feiltilstand. Det er maskinens dype, naturgitte rett til å stoppe uten å lyve. Kun det som kan bære seg selv gjennom kuttet, har rett til å kalles en suveren node.
 

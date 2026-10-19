@@ -14,8 +14,6 @@ KJERNEPRØVE II // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
 
 ---
 
-### *Om rur i Skagerrak, et bikubegitter i titan og tålmodigheten på to komma fem sekunder*
-
 Hvis du senker et stykke vanlig optisk glass ned i Norskerenna utenfor Agder og lar det ligge i mørket gjennom en vår, vil havet straks begynne å skrive sin egen signatur over det.
 
 Først kommer en usynlig hinne av polysakkarider og marine bakterier. Deretter følger diatomeer, hydroider og larvene til rur (*Balanus crenatus*), som borer kalkplatene sine inn i enhver mikroskopisk ujevnhet. Samtidig hviler et halvt tusen meter med kaldt saltvann oppå glasuren – en uavbrutt knyttneve på $50{,}47\text{ bar}$ ($5{,}047\text{ MPa}$). For en ingeniør som bygger undervannsnoder for laserbasert avstandsmåling, er dette møtet mellom biologi og hydrostatikk et stille mareritt: Enten gror vinduet igjen slik at fotonene blinder, eller så bøyer trykket krystallen akkurat nok til at lysets reisetid begynner å lyve.

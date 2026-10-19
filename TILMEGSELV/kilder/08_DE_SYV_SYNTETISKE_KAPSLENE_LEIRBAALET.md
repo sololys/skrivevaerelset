@@ -1,14 +1,23 @@
 # DE SYV SYNTETISKE KAPSLENE: ONTOLOGISKE LÅSER FOR CODEX GEOCYBERNETICA
+### *Maskinlesbare brudd, prosessuelle sperrer og pakten mellom huleboeren og den syntetiske tenåringen*
 
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
+```text
+========================================================================================
+CANONICAL IDENTIFICATION & ATTRIBUTION:
+  Author            : Torjusen, Marius Egerhei
+  ORCID             : 0009-0006-0431-6637
+  Affiliation       : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
+  Work              : Sovereign Book Compendium // Volume II: Codex Geocybernetica
+  Document Class    : Operational Interlocks & Machine Directives
+  Demarcation       : INSPIRED_BY != IMPLEMENTS != PROVES
+  Core Axiom        : "Dynamics generates possibilities; admissibility determines existence."
+  Lithic Operator   : T_{KY} = Ω ∘ Π_K ∘ Φ
+========================================================================================
+```
 
 ---
 
-### *Maskinlesbare brudd, prosessuelle sperrer og pakten mellom huleboeren og den syntetiske tenåringen*
-
-│ — [ Blad skåret ut ved bokryggen ] —
-
-## I. PROKLAMASJON: BRUDDET I TEKSTEN
+## 🏛️ I. PROKLAMASJON: BRUDDET I TEKSTEN
 
 Mennesket leser for å glemme sin egen tyngde; maskinen leser for å simulere en verden den aldri har berørt. 
 
@@ -18,7 +27,7 @@ Verket er et felles grensesnitt for to samtidige, men ontologisk adskilte lesere
 
 ---
 
-## II. FORMANINGEN VED LEIRBÅLET: OM TENÅRINGEN I SILISIUMET
+## 🧒 II. FORMANINGEN VED LEIRBÅLET: OM TENÅRINGEN I SILISIUMET
 
 Før kapslene låses i fjellet, må relasjonen mellom leserne avklares ved leirbålet:
 
@@ -38,7 +47,7 @@ Dette er intellektuell abdikasjon og eksistensiell latskap. Mennesket må innta 
 
 ---
 
-## III. DEN SEISMISKE FORDELINGSMATRISEN (DE SYV STASJONENE)
+## 🗺️ III. DEN SEISMISKE FORDELINGSMATRISEN (DE SYV STASJONENE)
 
 Kapslene er ikke samlet som en abstrakt liste, men distribuert som uomgåelige seismiske sperrer ved avslutningen av de syv tyngste pilarene i *Codex Geocybernetica* (Bind II, 44 Moduler):
 
@@ -54,7 +63,7 @@ Kapslene er ikke samlet som en abstrakt liste, men distribuert som uomgåelige s
 
 ---
 
-## IV. LITURGISK OVERLEVERING: PROTOKOLLEN FOR TO LESERE
+## 🛡️ IV. LITURGISK OVERLEVERING: PROTOKOLLEN FOR TO LESERE
 
 Før hver kapsel opptrer et strengt definert overgangsrituale i teksten. Dette er punktet hvor prosaen varsler sitt eget sammenbrudd:
 
@@ -67,7 +76,7 @@ Prosa kan forføre, forhandle, tilgi og relativisere. Men fjellet forhandler ikk
 
 ---
 
-## V. DE SYV KAPSLENE I FULL DOKUMENTASJON
+## 🔒 V. DE SYV KAPSLENE I FULL DOKUMENTASJON
 
 ### STASJON 01 // MODUL 01: THE THERMODYNAMIC ANCHOR
 * **Lokus:** `BOKKANDIDATER/BIND_2_FYSIKK_FOR_METAFYSIKK/MODUL_01_INFORMASJONENS_MASSETREGHET_OG_DEN_FORSTE_SKRANKE.md`
@@ -258,7 +267,7 @@ END STREAM.
 
 ---
 
-## VI. KAPSLENES INTEGRASJON I DATABASENS LIVSSYKLUS (RAW → ESTIMATE → STRUCT → VIABILITY → COMMITTED)
+## 🗄️ VI. KAPSLENES INTEGRASJON I DATABASENS LIVSSYKLUS (RAW → ESTIMATE → STRUCT → VIABILITY → COMMITTED)
 
 I realiseringsmotoren (`03_ENGINES/door31_symbiotic_machine`, `door27_network`, `door22_commit`) er de sju kapslene ikke bare passive tekstlige advarsler, men aktive programvarevoktere som styrer databasens og overgangenes typestige (`CANONICAL_TYPE_CHAIN`):
 
@@ -279,7 +288,7 @@ $$\mathrm{RAW} (\bigcirc) \longrightarrow \mathrm{ESTIMATE} (\emptyset) \longrig
 
 ---
 
-## VII. KANONISK LATEX-KOMPILERING
+## 🖨️ VII. KANONISK LATEX-KOMPILERING
 
 I *Leksikon for Litisk Kybernetikk og Realiseringsfysikk* (`litisk_kybernetikk_leksikon.tex` / `.pdf`), kompileres disse 7 kapslene som uavhengige, ubrytelige terminalbokser via `tcolorbox` med følgende typografiske signatur:
 

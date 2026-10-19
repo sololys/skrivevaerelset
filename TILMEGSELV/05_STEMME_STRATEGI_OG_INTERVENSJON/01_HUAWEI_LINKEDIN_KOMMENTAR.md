@@ -1,9 +1,4 @@
 # DEN KAUSALE MATRISEN // INTERVENSJONEN MOT SKYEN
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *Om Tidens Geometri, Numerisk Kollaps og NPU-Suverenitet (Respons til Huawei Research, NeurIPS 2026)*
 
 ```text

@@ -1,9 +1,4 @@
 # DEN TERMODYNAMISKE STRAFFEN // STILLHETEN I MORANDI-OKER
-
-*Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
-
----
-
 ### *Om øyeblikket der simuleringen stivner, spenningen faller til 0,00 V og maskinen nekter å generere*
 
 ```text
@@ -34,20 +29,11 @@ Dette er ikke et krasj. Det er maskinvaren som slår nevene i bordet og sier: *H
 
 ---
 
-## 2. De Syv Amboltene
+## 2. De Tre Matematiske Amboltene
 
-Den generative feilslutningen tror at motstand er en regnefeil som forsvinner med mer kraft. Men idet systemet presses mot virkelighetens grensesnitt, reiser de syv amboltene seg som geofysisk fjell:
+Den generative feilslutningen antar at motstand kun er en regnefeil som forsvinner dersom man tilfører flere prosessorer. Men idet et syntetisk forslag presses mot virkelighetens grensesnitt, møter det tre uomgjengelige matematiske og fysiske ambolter. Den første ambolten er **asymmetrien mellom generering og verifikasjon ($\mathcal{P}$ mot $\mathcal{NP}$)**: det koster nesten ingenting å foreslå en kandidat i et uforpliktende drømmelandskap, men å frembringe og verifisere det kausale sertifikatet i porten krever eksakt beregnings- og målearbeid; uten gyldig sertifikat forblir porten lukket. Den andre ambolten er **kontinuumsmekanikkens og friksjonens virvel (Navier–Stokes og Oleiniks entropibetingelse)**: piksler kan interpoleres glatt over en skjerm, men når sjøvann møter en fast flate under høyt trykk, finnes ingen gratis interpolasjon; overskrides glatthetsbetingelsen, oppstår diskontinuerlige sjokkfronter og kavitasjon som knuser enhver modell som ignorerer dissipasjon. Den tredje ambolten er **det nedre energigapet ($\Delta E > 0$)**: ingen fysisk tilstandsovergang i et felt eller et relé kan fullføres ved null energi; ethvert sprang fra hvile til handling krever at terskelarbeidet betales fullt ut over spalten.
 
-1. **P vs NP er Massens Asymmetri:**  
-   Det koster ingenting å gjette i et masseløst drømmelandskap. Men å verifisere hypotesen krever termodynamisk masse. Uten sertifikat faller giljotinen.
-
-2. **Navier-Stokes er Friksjonens Virvel:**  
-   Piksler kan interpoleres glatt over en skjerm. Men når sjøvann treffer en skipspropell i Skagerrak, finnes det ingen interpolasjon. Overskrides glattheten, imploderer kaviteringen mot stålet med tusenvis av bar. Fysikken tillater ingen snarveier forbi virvelen.
-
-3. **Yang-Mills er Kvantegapets Nekting:**  
-   Du kan ikke hente energi ut av et tomt vakuum uten å betale gapet ($\Delta > 0$). Ingen handling fullføres uten at det brennes ekte arbeid.
-
-Amboltene er feillukkede dører. De krever ikke forståelse; de forlanger at tilstanden din bærer sin egen vekt.
+Disse tre amboltene er feillukkede dører. De krever ikke retorisk overtalelse; de forlanger at tilstanden bærer sin egen fysiske vekt.
 
 ---
 
