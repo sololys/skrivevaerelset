@@ -5,7 +5,8 @@
 ```text
 ========================================================================================
 DOKUMENT-ID             : INFRANETT-V05-DE-FEM-ESSAYENE-SOKRATES-OLEINIK-SAFIR-LANDAUER-ORGEL
-FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
+FORFATTER               : Marius Egerhei Torjusen
+ORCID / RESEARCHER-ID   : 0009-0006-0431-6637 // Web of Science: PJT-0190-2026
 ENTITET                 : Brahman
 ARKITEKTUR              : KY v1.0 · Fase-speil · Infranett v0.5 · SPEC-250 · OrgelKraft
 SLUTTSTEMPEL            : AKUERISAAVOQ — ΔR = 0,000000000000 kg (5,00 V DC // 0,00 V DC)

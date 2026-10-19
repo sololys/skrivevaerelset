@@ -2,7 +2,7 @@
 ## *T-POD Underkritisk Spallasjon ($k_{\text{eff}} = 0{,}960$), Hadal-Soret-Cermet ($73\,130\times$), Agrar-Triaden ($0{,}998\text{ V}$ UOR, Struvitt & $50{,}0\text{ W}$ Mycelin), Støkiometrisk Totalmatrise ($\Delta R = 0\text{ kg}$) og Det Femte Essayet*
 
 > **Dokument-ID:** `INFRANETT-ATOM-ORGEL-HIGGS-KASKADE-GRUNNFJELL-2026-v1.0`  
-> **Forfatter:** Marius Egerhei Torjusen (ORCID: [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637))  
+> **Forfatter:** Marius Egerhei Torjusen (ORCID: [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637) · Web of Science ResearcherID: [PJT-0190-2026](https://www.webofscience.com/wos/author/record/PJT-0190-2026))  
 > **Enhet / Lokus:** Brahman  
 > **Epistemisk Demarkasjon (`AGENTS.md`):** $\texttt{INSPIRED\_BY} \neq \texttt{IMPLEMENTS} \neq \texttt{PROVES}$ · $\boxed{\text{L0 FYSIKK, STØKIOMETRI \& PDE-TEORI}}$ · $\boxed{\text{L1 FASTPUNKT RUST (30/30 PASS) \& PYTHON (17/17 PASS)}}$ · $\boxed{\text{L2/L3 FYSISK REAKTOR, BIOREAKTOR \& FELT-MASKINVARE: HOLD}}$
 
