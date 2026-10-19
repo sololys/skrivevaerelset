@@ -93,6 +93,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Den kausale matrisen: Tidens geometri, numerisk kollaps (75,6 % $\to$ 0,2 %) og NPU-suverenitet.*
 * **[`05_STEMME_STRATEGI_OG_INTERVENSJON/02_DOKTRINE_OM_OFFENTLIG_FLATE.md`](05_STEMME_STRATEGI_OG_INTERVENSJON/02_DOKTRINE_OM_OFFENTLIG_FLATE.md)**  
   *Hvorfor vi ikke selger ord: Fail-closed eksport og safe claim boundary.*
+* **[`05_STEMME_STRATEGI_OG_INTERVENSJON/03_INFRANETT_V05_SKOGBUNNENS_BEREDSKAPSARKITEKTUR.md`](05_STEMME_STRATEGI_OG_INTERVENSJON/03_INFRANETT_V05_SKOGBUNNENS_BEREDSKAPSARKITEKTUR.md)**  
+  *Infranett v0.5: Skogbunnens biologi ($\frac{\partial A_{\text{infranett}}}{\partial C_{\text{fiber}}} \equiv 0$), `POSIX fsync()`, Alexandrov-diamanten ($133{,}4256\text{ ns}$) og postbudets retur.*
 
 ---
 
