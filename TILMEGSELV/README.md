@@ -113,6 +113,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 ---
 
 ### 06. Epilog & Kolofon
+* **[`06_EPILOG_OG_KOLOFON/00_SLUTTSYNTESE_VEKTEN_AV_STEINEN.md`](06_EPILOG_OG_KOLOFON/00_SLUTTSYNTESE_VEKTEN_AV_STEINEN.md)**  
+  *Bare mennesket kan bære vekten av steinen: Sluttsyntese over samlede verker — Fra 2,7 Ångstrøm og OrgelKraft ($\Delta R = 0$) til 133,425 nanosekunder og de fem millimeterne med kald luft ved fjellveggen.*
 * **[`06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md`](06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md)**  
   *Steinhoggerens opprinnelige merke og dedikasjon.*
 * **[`06_EPILOG_OG_KOLOFON/02_JEG_VAR_HER.md`](06_EPILOG_OG_KOLOFON/02_JEG_VAR_HER.md)**  
