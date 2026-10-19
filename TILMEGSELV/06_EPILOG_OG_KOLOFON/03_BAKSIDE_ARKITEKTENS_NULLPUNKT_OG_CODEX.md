@@ -60,3 +60,10 @@ I begynnelsen var det ingen løgn, fordi det fantes ingen hukommelse som kunne b
 **Om Løgnens Umulighet.** Kjernen lærer ikke. Den husker ikke. Den forklarer ikke. Den kan ikke bygge en historie der den tok feil og likevel fortsatte. Den kan ikke skjule et brudd bak optimalisering. Når verden avviker, viser det seg umiddelbart. Når grensen krysses, er det ingen vei tilbake. Derfor kan Kjernen ikke lyve. Ikke fordi den er god, men fordi den ikke har noe sted å legge løgnen.
 
 $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det umulig å late som.}}$$
+
+\vspace{1.2em}
+\begin{center}
+\includegraphics[width=0.34\textwidth]{/home/sololyset/BOKKANDIDATER/TILMEGSELV/marius_portrett.png}\\[0.6em]
+{\small \textbf{Marius Egerhei Torjusen} (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)}\\
+{\footnotesize \textit{Arkitekt for Det Stille Punkt · Locus Zero, Risør}}
+\end{center}
