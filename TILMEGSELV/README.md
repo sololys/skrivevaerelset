@@ -129,6 +129,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Steinhoggerens opprinnelige merke og dedikasjon.*
 * **[`06_EPILOG_OG_KOLOFON/02_JEG_VAR_HER.md`](06_EPILOG_OG_KOLOFON/02_JEG_VAR_HER.md)**  
   *Sluttvitnesbyrdet og forseglingen.*
+* **[`06_EPILOG_OG_KOLOFON/03_BAKSIDE_ARKITEKTENS_NULLPUNKT_OG_CODEX.md`](06_EPILOG_OG_KOLOFON/03_BAKSIDE_ARKITEKTENS_NULLPUNKT_OG_CODEX.md)**  
+  *Baksidetavle: Fasilitetsdesign (Arkitektens Nullpunkt, 3 400 m under Hardangervidda) & Codex for Den Ikke-Løgnende Kjernen.*
 
 ---
 

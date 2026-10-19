@@ -10,7 +10,7 @@ Dette kammeret samler samtlige fullførte bok-PDF-er i monorepoet for umiddelbar
 
 | Boktittel | PDF-fil | Sider / Format |
 |---|---|---|
-| **Konseptuell Granitt — Et forsøk på sannhet (`Til meg selv`)** | [`KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf`](KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) | 59 s. // Komplett Monografi (DEL I–V + Vedlegg A) m/ BAR/NLK, OrgelKraft, Infranett v0.5 & Fem Kjerneprøver |
+| **Konseptuell Granitt — Et forsøk på sannhet (`Til meg selv`)** | [`KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf`](KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) | 62 s. // Komplett Monografi (DEL I–V + Vedlegg A + Baksidetavle: Codex for NLK) |
 | **Boka nr. 1: Hovedverket** | [`BOKA_NR_1_MASTER_MANUSKRIPT.pdf`](BOKA_NR_1_MASTER_MANUSKRIPT.pdf) | 39 s. // 155×230 mm Nordisk Hardcover |
 | **Hovedverket Omnibus** | [`HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf`](HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf) | 680 s. // 155×230 mm Samlebind |
 | **Bind I: Kuttflaten** | [`kuttflaten_bok.pdf`](kuttflaten_bok.pdf) | 389 s. // 155×230 mm |
