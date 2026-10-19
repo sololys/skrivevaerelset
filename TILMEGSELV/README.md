@@ -74,7 +74,19 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 
 ---
 
-│ — [ Blad skåret ut ved bokryggen ] —
+### 03. Porten som Tenker & Verktøyet
+* **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/01_NEKTELSENS_GRENSESNITT.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/01_NEKTELSENS_GRENSESNITT.md)**  
+  *Verktøyet bygget som en domstol for avvisning.*
+* **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/02_DEN_MATERIELLE_KONSTITUSJONEN.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/02_DEN_MATERIELLE_KONSTITUSJONEN.md)**  
+  *Treleddet: Kandidaten kan rekonstrueres, dommen kan etterprøves, konsekvensen må bevitnes.*
+* **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/03_FAIL_CLOSED_INTERLOCK.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/03_FAIL_CLOSED_INTERLOCK.md)**  
+  *Den galvaniske 0.00V crowbar, Uzzah's 15 ns giljotin og Alexandrov-diamanten.*
+* **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/04_EN_MODELL_AV_EN_GRENSE_ER_IKKE_GRENSEN.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/04_EN_MODELL_AV_EN_GRENSE_ER_IKKE_GRENSEN.md)**  
+  *En modell av en fysisk grense er ikke den fysiske grensen: Simplex/SOTIF-blindhet, 6G ISAC-entropi, 8 000 Monte Carlo-kjøringer og det fysiske vitnets triadiske forankring ($W \not\equiv \text{software log}$).*
+* **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/05_BANEN_OG_PUNKTET_BAR_NLK_OG_DE_400_SYKLUSENE.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/05_BANEN_OG_PUNKTET_BAR_NLK_OG_DE_400_SYKLUSENE.md)**  
+  *En bane eksisterer alltid før punktet: Syntesen mellom `BAR` og `NLK`, Weyl-invarianten $\Psi_2$, de 400 klokkesyklusene ($\odot \prec 1$ mot $1 \prec \odot$) og $898\,900\text{ N}$ i fjellet.*
+
+---
 
 ### 04. Den Fysiske Arbeidsplikten & Realitetens Ambolt
 * **[`04_REALITY_FORGE_OG_MOTORER/01_MILLENNIUM_ENGINE_SPESIFIKASJON.md`](04_REALITY_FORGE_OG_MOTORER/01_MILLENNIUM_ENGINE_SPESIFIKASJON.md)**  
