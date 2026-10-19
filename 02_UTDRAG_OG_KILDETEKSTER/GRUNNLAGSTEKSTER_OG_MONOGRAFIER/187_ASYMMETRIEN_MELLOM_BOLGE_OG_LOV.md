@@ -4,7 +4,7 @@
 > *«Det som er mangfoldighet i $\mathcal{NP}$, blir paradoks når det krever eksistens i $\mathcal{P}$.»*
 
 * **Forfatter:** Marius Egerhei Torjusen (ORCID: [`0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637))
-* **Institusjon:** ReismannPoint Systems // Brahman Ventures · Lokus Zero, Risør, Norway
+* **Institusjon:** Brahman
 * **Zenodo Concept DOI:** [`10.5281/zenodo.23424505`](https://doi.org/10.5281/zenodo.23424505) · **v1.0 DOI:** [`10.5281/zenodo.23424506`](https://doi.org/10.5281/zenodo.23424506)
 * **Dato:** 18. oktober 2026 · **Utgave:** Versjon 2.0 (Tospråklig NO/EN Omni-Syntese)
 * **Epistemisk Demarkasjon (`AGENTS.md`):** `INSPIRED_BY != IMPLEMENTS != PROVES` · `GENERATION != AUTHORIZATION != WITNESSED CONSEQUENCE`

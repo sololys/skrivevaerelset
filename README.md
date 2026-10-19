@@ -6,7 +6,7 @@
 
 ### I. Skriveværelset
 
-Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for ReismannPoint Systems AS. Det rommer tekstene som definerer våre grenser.
+Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Brahman. Det rommer tekstene som definerer våre grenser.
 
 │ — [ Blad skåret ut ved bokryggen ] —
 

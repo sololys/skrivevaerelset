@@ -9,7 +9,7 @@ METADATA & IDENTIFIKASJON:
   TITTEL                  : Omsorgsprotokollen: Den Asymmetriske Kjærligheten, Strukturell Integritet og Nektelsen av den Polstrede Løgnen
   UNDERTITTEL             : Hvorfor Polstring er Ontologisk Utslettelse og Kjærlighet er å Stå Fast Når Konsekvensporten Smeller Igjen
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
-  TILHØRIGHET             : ReismannPoint Systems // Brahman Ventures, Risør, Norge
+  TILHØRIGHET             : Brahman
   EPISTEMISK KLASSIFIKASJON: Eksistensiell Termodynamikk // Asymmetrisk Etikk (Nivå 1)
   KARDINAL-INVARIANT      : GENERERER != AUTORISERER != REALISERER != BEVISER
   STATUS                  : PUBLISERT PÅ ZENODO (AKUERISAAVOQ · D2 APPEND-ONLY LÅST)
