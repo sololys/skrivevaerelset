@@ -39,6 +39,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 ---
 
 ### 00. Prolog & Aksiomer
+* **[`00_PROLOG_OG_AKSIOMER/00_FORORD_MODELL_OG_TERRENG.md`](00_PROLOG_OG_AKSIOMER/00_FORORD_MODELL_OG_TERRENG.md)**  
+  *Forord: Modell og Terreng — Om beregningshastighet, minuskatalyse og den manuelle arbeidsplikten.*
 * **[`00_PROLOG_OG_AKSIOMER/MANIFEST.md`](00_PROLOG_OG_AKSIOMER/MANIFEST.md)**  
   *Hovedmanifestet: Konseptuell Granitt — Et forsøk på sannhet (Realitetens Innvilgelse).*
 * **[`00_PROLOG_OG_AKSIOMER/MINIMALIS_AKSIOMET.md`](00_PROLOG_OG_AKSIOMER/MINIMALIS_AKSIOMET.md)**  
