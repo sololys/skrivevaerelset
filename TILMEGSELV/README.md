@@ -57,6 +57,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Demarkasjonen: Forskjellen på masse-løst NP-skum og en fysisk handling.*
 * **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/03_SUBTRAKSJONENS_DOMSTOL.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/03_SUBTRAKSJONENS_DOMSTOL.md)**  
   *Genereringens feilslutning: Hjernen som aktiv eliminasjonsarkitektur.*
+* **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/04_REVERSIBLE2_HVOR_RETUREN_OPPHORER.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/04_REVERSIBLE2_HVOR_RETUREN_OPPHORER.md)**  
+  *Hvor returen opphører: Reversible² ($\text{Rev}^1$ vs. $\text{Rev}^2$), Point-of-No-Return og forbudet mot anti-reversibilitet (`ANTI_REVERSIBLE_VIOLATION`).*
 
 ---
 
