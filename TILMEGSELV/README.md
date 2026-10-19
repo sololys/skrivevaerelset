@@ -95,6 +95,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 ---
 
 ### 05B. Fem Kjerneprøver fra Grunnfjellet
+* **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/00_SYNTESE_DE_FEM_KJERNEPROVENE.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/00_SYNTESE_DE_FEM_KJERNEPROVENE.md)**  
+  *Mellom 0 og 1: Syntese av de fem kjerneprøvene fra grunnfjellet — Fra Sokrates og Oleinik til safiren, Leidenfrost, Landauer og protaktinium-orgelet.*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md)**  
   *Kjerneprøve I: Avstanden mellom null og én — Om Sokrates i snøen, Olga Oleiniks sjokkbølger og en fastnøkkel i Risør.*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/02_SAFIREN_PA_FEM_HUNDRE_METERS_DYP.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/02_SAFIREN_PA_FEM_HUNDRE_METERS_DYP.md)**  
