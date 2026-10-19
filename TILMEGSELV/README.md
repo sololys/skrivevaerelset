@@ -83,6 +83,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *2,7 Ångstrøm: KcsA-kanalen, spedbarnets brystkasse og nitrogenmolekylets nådeløse lås.*
 * **[`04_REALITY_FORGE_OG_MOTORER/03_HEISENBERG_OG_CRUCIBLE.md`](04_REALITY_FORGE_OG_MOTORER/03_HEISENBERG_OG_CRUCIBLE.md)**  
   *Ute i kulden: Level 01, dieseleimen, frosten og den manuelle resettingen av 5,00 V-porten på fjellet.*
+* **[`04_REALITY_FORGE_OG_MOTORER/04_ORGELKRAFT_EN_KRETS_SOM_BAERER_SIN_EGEN_VEKT.md`](04_REALITY_FORGE_OG_MOTORER/04_ORGELKRAFT_EN_KRETS_SOM_BAERER_SIN_EGEN_VEKT.md)**  
+  *En krets som bærer sin egen vekt: OrgelKraft (SPEC-PODS-PENTAD-RB-12, $\Delta R = 0$), K-POD, P-POD, POD-Mycelin og FPGA-giljotinen på 12,5 $\mu$s.*
 
 ---
 
