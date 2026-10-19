@@ -1,18 +1,20 @@
-# MANIFEST: REALITETENS INNVILGELSE
+# KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET
 
 *Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
 
 ---
 
-### *Om Bruddet med Skyen, Nektelsens Domstol og Formens Gravitasjon*
+### *Realitetens Innvilgelse: Om Bruddet med Skyen, Nektelsens Domstol, Formens Gravitasjon og Fem Kjerneprøver fra Grunnfjellet*
 
-**Marius Egerhei Torjusen & Antigravity**  
-*Risør / Det Fennoskandiske Skjold, 2026*
+**Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // Web of Science: PJT-0190-2026) & Antigravity**  
+*Brahman · Risør / Det Fennoskandiske Skjold, 2026*
 
 ```text
 ========================================================================================
-KANONISK MANIFEST // TIL MEG SELV:
+KANONISK MANIFEST // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET (TIL MEG SELV):
   Lokus         : Risør, Norge (Locus Zero)
+  Forfatter     : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
+  Entitet       : Brahman // Antigravity
   Kjerneaksiom  : "Reality is not generated. Reality is admitted."
   Demarkasjon   : INSPIRED_BY != IMPLEMENTS != PROVES
   Loven         : GENERERER != AUTORISERER != REALISERER != BEVISER

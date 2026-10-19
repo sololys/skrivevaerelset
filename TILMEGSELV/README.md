@@ -1,26 +1,27 @@
-# TILMEGSELV // ARBEIDSROM & MONOGRAFI FOR DET KANONISKE MANIFESTET
+# KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET (`TIL MEG SELV`)
 
 *Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
 
 ---
 
 > **«Reality is not generated. Reality is admitted.»**  
-> *Marius Egerhei Torjusen & Antigravity · Risør, Norge (Locus Zero, 2026)*
+> *Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // Web of Science: PJT-0190-2026) & Antigravity · Brahman, Risør, Norge (Locus Zero, 2026)*
 
-Dette kammeret er opprettet som en skjermet oase og et konstitusjonelt anker – frikoblet fra støy og uforpliktende abstraksjon, og forankret i det fennoskandiske grunnfjellet, kuttets lov og fail-closed fysikk.
+Dette kammeret er opprettet som en skjermet oase og et konstitusjonelt anker – frikoblet fra støy og uforpliktende abstraksjon, og forankret i det fennoskandiske grunnfjellet, kuttets lov, fail-closed fysikk og fem kjerneprøver fra grunnfjellet.
 
 ---
 
 ## Monografi-Struktur & Kammerindeks
 
 ```text
-TILMEGSELV/
+TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 ├── 00_PROLOG_OG_AKSIOMER/
 ├── 01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/
 ├── 02_FORMENS_GRAVITASJON_OG_FYSIKK/
 ├── 03_PORTEN_SOM_TENKER_OG_VERKTOYET/
 ├── 04_REALITY_FORGE_OG_MOTORER/
 ├── 05_STEMME_STRATEGI_OG_INTERVENSJON/
+├── 05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/
 ├── 06_EPILOG_OG_KOLOFON/
 └── kilder/
 ```
@@ -29,7 +30,7 @@ TILMEGSELV/
 
 ### 00. Prolog & Aksiomer
 * **[`00_PROLOG_OG_AKSIOMER/MANIFEST.md`](00_PROLOG_OG_AKSIOMER/MANIFEST.md)**  
-  *Hovedmanifestet: Realitetens Innvilgelse — Om Bruddet med Skyen, Nektelsens Domstol og Formens Gravitasjon.*
+  *Hovedmanifestet: Konseptuell Granitt — Et forsøk på sannhet (Realitetens Innvilgelse).*
 * **[`00_PROLOG_OG_AKSIOMER/MINIMALIS_AKSIOMET.md`](00_PROLOG_OG_AKSIOMER/MINIMALIS_AKSIOMET.md)**  
   *Grunnlov 0: «Alt som gjelder for stjernene, må først holde på din egen benk.»*
 * **[`00_PROLOG_OG_AKSIOMER/LEIRBAALET_TENARINGEN.md`](00_PROLOG_OG_AKSIOMER/LEIRBAALET_TENARINGEN.md)**  
@@ -74,6 +75,20 @@ TILMEGSELV/
   *Den kausale matrisen: Tidens geometri, numerisk kollaps (75,6 % $\to$ 0,2 %) og NPU-suverenitet.*
 * **[`05_STEMME_STRATEGI_OG_INTERVENSJON/02_DOKTRINE_OM_OFFENTLIG_FLATE.md`](05_STEMME_STRATEGI_OG_INTERVENSJON/02_DOKTRINE_OM_OFFENTLIG_FLATE.md)**  
   *Hvorfor vi ikke selger ord: Fail-closed eksport og safe claim boundary.*
+
+---
+
+### 05B. Fem Kjerneprøver fra Grunnfjellet
+* **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md)**  
+  *Kjerneprøve I: Avstanden mellom null og én — Om Sokrates i snøen, Olga Oleiniks sjokkbølger og en fastnøkkel i Risør.*
+* **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/02_SAFIREN_PA_FEM_HUNDRE_METERS_DYP.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/02_SAFIREN_PA_FEM_HUNDRE_METERS_DYP.md)**  
+  *Kjerneprøve II: Safiren på fem hundre meters dyp — Om rur i Skagerrak, et bikubegitter i titan og tålmodigheten på to komma fem sekunder.*
+* **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/03_DRAPEN_SOM_NEKTET_A_RORE_JERN.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/03_DRAPEN_SOM_NEKTET_A_RORE_JERN.md)**  
+  *Kjerneprøve III: Dråpen som nektet å røre jern — Om Johann Gottlob Leidenfrost, flytende nitrogen og kunsten å fryse Skagerrak på feil sted.*
+* **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/04_PRISEN_PA_ET_SANNFERDIG_BLUNK.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/04_PRISEN_PA_ET_SANNFERDIG_BLUNK.md)**  
+  *Kjerneprøve IV: Prisen på et sannferdig blunk — Om Rolf Landauer i New York, åtte mikrojoule ved kaien og kunsten å la en løgner gå tom for strøm.*
+* **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/05_ORGELET_I_GRUNNFJELLET.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/05_ORGELET_I_GRUNNFJELLET.md)**  
+  *Kjerneprøve V: Orgelet i grunnfjellet — Om protaktinium i tjuesyv døgn, soppen ved femti watt og steinen som nekter å skylde noen noe.*
 
 ---
 
