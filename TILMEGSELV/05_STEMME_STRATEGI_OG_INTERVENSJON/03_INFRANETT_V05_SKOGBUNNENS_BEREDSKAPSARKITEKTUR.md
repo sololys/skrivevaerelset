@@ -36,17 +36,65 @@ Ingen tilstand får endres i arbeidsminnet, og ingen kvittering får sendes til 
 
 ---
 
-## II. Relativistisk Nærhetsvalidering og Laservitnet ($W_{\text{range}} \land W_{\text{laser}}$)
+## II. Det Fysiske Vitne-Alfabetet ($W_{\text{range}} \land W_{\text{optical}} \land W_{\text{mag}}$)
 
-På samme måte er maurens følehornkontakt støpt inn i relativistisk fysikk. Tradisjonelle trådløse nettverk kan bedras av reléangrep, der en inntrenger fanger opp et kryptert signal og videresender det over fiber fra den andre siden av kloden. Infranett fjerner denne angrepsflaten ved å låse adgangskontrollen til lysets hastighet i vakuum ($c = 299\,792\,458\text{ m/s}$) via Ultra-Wideband (IEEE 802.15.4z). Innenfor en sikkerhetssone på $r_{\max} = 20{,}0\text{ meter}$ definerer utsendelsen av en 256-bits kvantestøy-utfordring ($E_1$) og mottaket av svaret ($E_2$) en kausal Alexandrov-diamant med et uforhandlingsbart tidsbudsjett tur-retur:
+Kryptografi alene kjenner ingen geografi. En gyldig nøkkel beviser at avsenderen besitter en matematisk hemmelighet, men den forteller ingenting om hvor avsenderen befinner seg i det fysiske rommet. Når informasjon løsrives fra romtiden, åpnes døren for reléangrep, falske siktlinjer og elektrisk sabotasje.
+
+Infranett lukker dette gapet ved å underkaste digitale pakker et fysisk vitne-alfabet. For at en tilstandsendring skal autoriseres, må de fysiske vitnene for avstand ($W_{\text{range}}$), optisk siktlinje ($W_{\text{optical}}$) og magnetisk integritet ($W_{\text{mag}}$) være oppfylt samtidig. Systemet forankrer programvarens logikk i ufravikelige naturlover: lysets hastighet i vakuum og materie, optisk absorpsjon og dielektrisk isolasjon.
+
+Innenfor en sikkerhetssone på $r_{\max} = 20{,}0\text{ meter}$ definerer utsendelsen av en 256-bits kvantestøy-utfordring ($E_1$) og mottaket av svaret ($E_2$) en kausal Alexandrov-diamant via Ultra-Wideband (IEEE 802.15.4z) med et uforhandlingsbart tidsbudsjett tur-retur i vakuum og luft ($c = 299\,792\,458\text{ m/s}$):
 
 $$\Delta t_{\text{roundtrip}} \le \frac{40{,}0\text{ m}}{c} \approx 133{,}4256\text{ nanosekunder}$$
 
-Dersom en operatør på 500 meters avstand ($\Delta r = 1\,000\text{ m}$ tur-retur) forsøker å kapre en drivstoffventil på kaien, bruker radiosignalet $3\,335{,}64\text{ nanosekunder}$ gjennom luften. For å levere svaret innenfor fristen på $133{,}4256\text{ nanosekunder}$ måtte signalet ha reist med 25 ganger lysets hastighet. Minkowski-intervallet sprenges over i det romlignende regimet ($ds^2 = +998\,400{,}2\text{ m}^2 > 0$). For å hindre at et operativsystem ødelegger denne målingen med avbruddsstøy på flere hundre mikrosekunder, utføres tidsstemplingen med pikosekundpresisjon direkte i L1-silisiumet, styrt av en $80{,}0\text{ kHz}$ Frisch-klokke ($12{,}5\,\mu\text{s}$ vindu).
+Dersom en operatør på 500 meters avstand ($\Delta r = 1\,000\text{ m}$ tur-retur) forsøker å kapre en drivstoffventil på kaien, bruker radiosignalet $3\,335{,}64\text{ nanosekunder}$ gjennom luften. For å levere svaret innenfor fristen på $133{,}4256\text{ nanosekunder}$ måtte signalet ha reist med 25 ganger lysets hastighet; Minkowski-intervallet sprenges over i det romlignende regimet ($ds^2 = +998\,400{,}2\text{ m}^2 > 0$). For å hindre at et operativsystem ødelegger denne målingen med avbruddsstøy, utføres tidsstemplingen med pikosekundpresisjon direkte i L1-silisiumet, styrt av en $80{,}0\text{ kHz}$ Frisch-klokke ($12{,}5\,\mu\text{s}$ vindu).
 
-Fordi radiobølger kan trenge gjennom en gipsvegg, suppleres avstandsmålingen i rommet av et optisk laservitne ($W_{\text{laser}}$). En kollimert stråle på $1\,550\text{ nanometer}$ stanses fullstendig av skott og vegger. Konjunksjonen $W_{\text{range}} \land W_{\text{laser}}$ beviser ikke bare at operatøren er nærmere enn tjue meter, men at vedkommende befinner seg i nøyaktig samme fysiske rom, uten mulighet for radiofrekvent avlytting. Under vann, der radiobølger dør ut, overtar en blågrønn laser på $532\text{ nanometer}$ som måler kausalitet gjennom sjøvannets brytningsindeks ($n \approx 1{,}334$) med et tidsbudsjett på $177{,}99\text{ nanosekunder}$ gjennom herdede safirvinduer.
+### 1. Romlig innelukking gjennom bølgelengde-asymmetri
 
-I det øyeblikket en av disse fysiske skrankene brytes – enten et eksternt signal kommer ett nanosekund for sent, en laserstråle skygges for, eller en pakke mangler gyldig epokesignatur – trer frøets dvaletilstand i kraft. I maskinvarens DK-Registerport er sikkerhetsbanen fysisk overordnet både klokken og databanen ($\text{SAFETY PATH} \succ \text{CLOCK} \succ \text{DATA PATH}$). For å forhindre at ekstern støy utmatter den menneskelige operatøren, håndteres alle slike kanal- og tidsavvik i det ytre skjoldet gjennom en elektronisk hviletilstand (**`CAUSAL_HOLD`** ved $0{,}00\text{ V DC}$, $j_{\text{netto}} = 0$) til en avvisningskostnad av kun $8{,}0\,\mu\text{J}$, mens det irreversible mekaniske fjærkuttet (**`GATE :: KILL`**) kun løses ut dersom et autorisert indre prosessledd bryter sine fysiske bevaringsgrenser.
+Radiobølger og lys forholder seg ulikt til fast materie. Et Ultra-Wideband (UWB) radiosignal kan trenge gjennom en betongvegg, mens en infrarød laserstråle med bølgelengde $1550\text{ nm}$ stanses momentant av den samme flaten.
+
+En angriper som står tre meter unna på utsiden av et lukket rom, vil bestå en ren tidsmåling over radio. Tidsbruken på $\Delta t_{\text{UWB}} = 20\text{ ns}$ ligger godt innenfor det relativistiske tidsbudsjettet på $133{,}4256\text{ ns}$. Isolert sett fremstår avstanden som trygg.
+
+Infranett krever imidlertid konjunktiv validering mellom radioavstand og optisk siktlinje ($W_{\text{range}} \land W_{\text{optical}}$). Fordi betongveggen absorberer de infrarøde fotonene, uteblir det optiske vitnet, og maskinvaren registrerer tilstanden `OPTICAL_LOS_BROKEN_WALL_OCCLUSION`. Nærhet i meter er utilstrekkelig uten fysisk tilstedeværelse i samme rom. Konsekvensporten låser umiddelbart systemet i `HOLD` ved $0{,}00\text{ V DC}$.
+
+### 2. Termodynamisk avlyttingsvern i frirom
+
+Radiobølger brer seg i rommet og røper sin egen eksistens for enhver antenne innenfor rekkevidde. Under krav om streng radiotaushet (EMCON) reduseres utstrålt radioeffekt til $0{,}0\text{ W}$, og kommunikasjonen flyttes over til en kollimert friromslaser (FSO).
+
+Ved en avstand på $20\text{ meter}$ holder den Gaussiske strålemidjen en radius på $w(20\text{ m}) \approx 5{,}38\text{ mm}$. All informasjon og energi er konsentrert i denne smale sylinderen av lys.
+
+Dette geometriske tverrsnittet gjør selve kommunikasjonskanalen til en fysisk sensor. Enhver avlyttingssonde, prisme eller fremmedlegeme som føres inn i strålen for å tappe signalet, vil uunngåelig kaste skygge og bryte den optiske energibalansen hos mottakeren. Man kan ikke observere strålen uten å stjele fotoner fra den. I det øyeblikket transmisjonen faller under terskelverdien, feller systemet styrespenningen til $0{,}00\text{ V DC}$.
+
+### 3. Refraktiv kausalitet i sjøvann
+
+Lysets hastighet er kun en absolutt konstant i vakuum. Når en blågrønn laser med bølgelengde $532\text{ nm}$ forplanter seg gjennom sjøvann med brytningsindeks $n = 1{,}334$, bremses fasehastigheten ned til $v_{\text{vann}} = c / 1{,}334 \approx 2{,}247 \times 10^8\text{ m/s}$.
+
+For en maritim sikkerhetssone med radius $20{,}0\text{ meter}$ utvides det maksimale tidsbudsjettet for en tur-retur-måling tilsvarende:
+
+$$\Delta t_{\text{vann, RTT}} \le \frac{2 \times 20{,}0\text{ m}}{v_{\text{vann}}} \approx 177{,}9898\text{ ns}$$
+
+Denne utvidelsen av tidsrommet skaper en sårbarhet dersom tid måles alene. En angriper over vannflaten kunne utnyttet den høyere lyshastigheten i luft for å forfalske avstanden fra en posisjon lenger unna.
+
+Systemet lukker dette smutthullet ved å koble tidsmålingen direkte til Beer–Lamberts dempningslov:
+
+$$I = I_0 e^{-\alpha x}$$
+
+Vannmolekyler og oppløste partikler svekker lysintensiteten eksponentielt med avstanden $x$ etter en kjent absorpsjonskoeffisient $\alpha$. Et signal som ankommer innenfor tidsfristen på $177{,}9898\text{ ns}$, men uten den nøyaktige energisvekkelsen som kreves av førti meter sjøvann, avslører seg selv som et relé gjennom feil medium. Tid og termodynamisk tap må stemme overens.
+
+### 4. Dielektrisk barriere ved fysisk dokking
+
+En fysisk tilkobling er den mest direkte veien inn i et systems indre kretser. Dersom en `K-POD` kurérkapsel kobles til en stasjonær node med metalliske kontakter, oppstår en ledende bro som kan føre lynnedslag, elektromagnetiske pulser (EMP) eller bevisste overspenningsangrep rett inn i prosessorkjernen.
+
+Infranett eliminerer denne risikoen ved å forby elektrisk kontakt. Dokkingen skjer gjennom et vindu av herdet safirglass som opprettholder et absolutt galvanisk skille med lekkasjestrøm $I_{\text{galvanisk}} = 0{,}0\,\mu\text{A}$. Safirglasset er transparent for den optiske datastrømmen, men fungerer samtidig som en dielektrisk barriere som motstår spenninger på $\ge 25\text{ kV}$. Informasjonen krysser grensen båret av fotoner, mens destruktiv elektrisk energi stanses fysisk ved dørstokken.
+
+### 5. Konsekvensportens suverenitet ($\Omega_{\text{E-TOR}}$)
+
+Ingen av disse fire mekanismene beror på programvarens skjønn. De styres av konsekvensporten $\Omega_{\text{E-TOR}}$, som håndhever et strengt, deterministisk hierarki av tilstander:
+
+$$\mathbf{KILL > TRAP > HOLD > OPEN}$$
+
+Normaltilstanden i dette systemet er ikke tillit, men fravær av spenning. Tilstanden `OPEN` ved $5{,}00\text{ V DC}$ er et privilegium som kun opprettholdes så lenge den kryptografiske loggkjeden (WAL) og samtlige fysiske vitner ($W_{\text{range}} \land W_{\text{optical}} \land W_{\text{mag}}$) bekrefter hverandre uten avvik. I maskinvarens DK-Registerport er sikkerhetsbanen fysisk overordnet både klokken og databanen ($\text{SAFETY PATH} \succ \text{CLOCK} \succ \text{DATA PATH}$). For å forhindre at ekstern støy utmatter den menneskelige operatøren, håndteres alle kanal- og tidsavvik i det ytre skjoldet gjennom en elektronisk hviletilstand (**`CAUSAL_HOLD`** ved $0{,}00\text{ V DC}$, $j_{\text{netto}} = 0$) til en avvisningskostnad av kun $8{,}0\,\mu\text{J}$, mens det irreversible mekaniske fjærkuttet (**`GATE :: KILL`**) kun løses ut dersom et autorisert indre prosessledd bryter sine fysiske bevaringsgrenser.
+
+Sikkerhet oppnås ikke ved å anta at omgivelsene er vennlige, men ved å bygge en arkitektur der ethvert brudd på romtidens og fysikkens betingelser umiddelbart tømmer kretsen for energi. En bit fødes ikke som gyldig; den må autoriseres av virkeligheten for å få lov til å virke.
 
 ---
 

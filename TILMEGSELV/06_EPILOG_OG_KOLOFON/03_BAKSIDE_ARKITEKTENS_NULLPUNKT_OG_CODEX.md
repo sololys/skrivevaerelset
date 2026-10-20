@@ -63,7 +63,7 @@ $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det um
 
 \vspace{1.2em}
 \begin{center}
-\includegraphics[width=0.34\textwidth]{/home/sololyset/BOKKANDIDATER/TILMEGSELV/marius_portrett.png}\\[0.6em]
+\includegraphics[width=0.34\textwidth]{/home/sololyset/BOKKANDIDATER/TEKSTER/TILMEGSELV/marius_portrett.png}\\[0.6em]
 {\small \textbf{Marius Egerhei Torjusen} (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)}\\
 {\footnotesize \textit{Arkitekt for Det Stille Punkt · Locus Zero, Risør}}
 \end{center}
