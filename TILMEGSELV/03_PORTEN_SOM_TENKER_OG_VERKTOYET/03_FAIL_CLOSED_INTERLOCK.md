@@ -51,12 +51,18 @@ Dersom en angriper forsøker å manipulere den lokale permittiviteten ($\varepsi
 
 ---
 
-## 6. Lukket Sløyfe i Maskinvare og C++ Exception-Semantikk
+## 6. To-Faset Verifikasjon ($\Pi_K$ Pre-Commit mot $\Pi_{\text{orth}}$ In-Flight) og Friutløsende `RESET_BY_L01`
 
-Systemet stoler aldri blindt på at metallurgien – slik som Super Duplex 2507-spindler eller reléfjærer – adlyder programvarens logikk uten mekanisk tilbakekobling. Dersom en ventil kiler seg mekanisk i åpen tilstand etter at spenningen er kuttet til $0{,}00\text{ V DC}$, vil en naiv programvareantakelse utgjøre en livsfarlig maskinvareløgn. Derfor overvåkes ventilsetet av kryss-modale sensorer (spole-induktans, strekklapper og termisk strømningsprofil) innenfor et lukkevindu på $38{,}4\text{ ms}$, støttet av en sekundær fysisk energiisolator (*Crowbar Type B*) som kutter primærforsyningen permanent dersom det mekaniske arbeidet uteblir. I styringskoden skilles det tilsvarende mellom forbigående kanalstøy og reelt fysisk prosessbrudd:
+For å unngå ethvert kausalt sirkelparadoks mellom autorisasjon og fysisk utførelse (*The Pre-Commit Oracle Paradox*), skiller maskinvaren strengt mellom **Fase A (Pre-Commit Admissibilitet i $\Pi_K$)** og **Fase B (In-Flight Konsekvensbevitnelse i $\Pi_{\text{orth}}$)**.
+
+I **Fase A ($\Phi \to \Pi_K$)** – *før* styrespenningen $5{,}00\text{ V DC}$ innvilges – evaluerer porten utelukkende de fysiske og matematiske forhåndsbetingelsene: at signalet ligger innenfor Alexandrov-diamanten ($\tau_{\text{ToF}} \le 133{,}425\text{ ns}$), at kandidatbanen peker inn i det levedyktige domenet ($\dot{x}_t \in T_K(x_t)$), og at prosesskjernens hviletilstand (trykk, temperatur og kjemisk renhet) befinner seg innenfor sikkerhetsmarginene. Dersom disse forhåndskravene er oppfylt, innvilger $\Pi_K$ spenningen $5{,}00\text{ V DC}$ (`OPEN`), og aktuatoren påbegynner arbeidet.
+
+I **Fase B ($\Omega \to W$)** – *under* selve det mekaniske lukke- eller åpningsvinduet på $\Delta t_{\text{act}} \le 38{,}4\text{ ms}$ – overvåker det ortogonale vitnelaget ($\Pi_{\text{orth}}$) at metallurgien i Super Duplex 2507-spindlene og reléfjærene faktisk utfører den beordrede bevegelsen. Dersom en ventil kiler seg mekanisk, en spole brenner av eller det fysiske arbeidet ($\int V(t)I(t)\,dt$, termisk strømningsprofil $\Delta T$ og akustisk Time-of-Flight) avviker fra det autoriserte fikspunktet i løpet av disse $38{,}4\text{ ms}$, utløses sekundærsperren (*Crowbar Type B*): primærforsyningen kuttes permanent til $0{,}00\text{ V DC}$, og kontaktbroen trekkes mekanisk åpen (`GATE :: KILL`).
+
+Tilsvarende er den manuelle tilbakestillingen (**`RESET_BY_L01`**) sikret mot menneskelig feilvurdering og politisk tvang (*Tsjernobyl-vektoren*). Menneskelig muskelkraft er en *nødvendig*, men *ikke tilstrekkelig* betingelse for gjenåpning. Den manuelle bryteren er konstruert med en **mekanisk friutløsende kjerne-interlock (*trip-free mechanism*)**: så lenge de indre fysiske sensorene i prosesskjernen ($\Pi_{\text{orth}}$) registrerer et uløst brudd i trykk, temperatur eller gasskonsentrasjon, holdes låsehaken i bryterhuset mekanisk frikoblet. En operatør som forsøker å tvinge spaken tilbake i lås før den fysiske feilen i anlegget er utbedret, vil kun møte en friutløsende mekanisme (*free-trip*) der kontaktene fysisk nekter å lukke seg:
 
 ```cpp
-// [ INFRANETT FAIL-CLOSED EXCEPTION HANDLING ]
+// [ INFRANETT FAIL-CLOSED EXCEPTION HANDLING: TWO-PHASE ADMISSION & TRIP-FREE L01 ]
 try {
     // Generatorens forslag (Phi): Ren uforpliktende potensialitet
     CandidateResult Px = evaluate_generative_candidate(candidate_seed);
@@ -67,17 +73,26 @@ try {
         return;
     }
 
-    // Pi_K: Indre admissibilitetsfilter krever ortogonalt fysisk vitne (Pi_orth)
-    admit_to_physical_consequence(Px);
+    // Fase A (Pre-Commit i Pi_K): Verifiser levedyktighet (T_K) og reservoartilstand FØR 5,00 V DC
+    if (!verify_pre_commit_viability_and_core_state(Px)) {
+        enforce_electronic_causal_hold(0.00_V);
+        return;
+    }
+
+    // Fase B (In-Flight i Pi_orth): Innvilg 5,00 V DC og overvåk fysisk arbeid innenfor 38,4 ms
+    grant_actuation_voltage(5.00_V);
+    if (!verify_in_flight_orthogonal_witness(Px, 38.4_ms)) {
+        throw IndreFysiskProsessBruddException("FATAL: Aktuator-divergens innenfor 38,4 ms vindu.");
+    }
 
 } catch (const IndreFysiskProsessBruddException& e) {
-    // 1. Galvanisk sperre: Kutt all drivspenning og utløs mekanisk fjærretur (GATE :: KILL)
+    // 1. Galvanisk sperre (Crowbar Type B): Kutt drivspenning og utløs mekanisk fjærretur (GATE :: KILL)
     apply_galvanic_crowbar_latched(0.00_V);
 
-    // 2. Morandi-stasis: Frys videre aktuering og forsegle obduksjonslogg (fsync)
+    // 2. Morandi-stasis: Frys videre aktuering og forsegl obduksjonslogg (fsync)
     enforce_morandi_stasis();
 
-    // 3. Krev fysisk menneskelig muskelkraft ved anlegget (RESET_BY_L01)
-    await_biological_witness_layer_01(e.get_causal_chain(), e.get_unpaid_entropy());
+    // 3. Trip-Free L01 Reset: Krever BÅDE utbedret fysisk kjerne (Pi_orth == 1) OG menneskelig muskelkraft
+    await_trip_free_biological_reset_layer_01(e.get_causal_chain(), e.get_unpaid_entropy());
 }
 ```

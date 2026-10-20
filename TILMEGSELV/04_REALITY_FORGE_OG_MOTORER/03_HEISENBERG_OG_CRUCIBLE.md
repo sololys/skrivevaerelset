@@ -43,30 +43,28 @@ Dette er friksjonen. Du kan ikke omgå den; du må gå den.
 
 ---
 
-## 3. Det Mekaniske Slaget (5,00 V Innvilget)
+## 3. Det Mekaniske Slaget og Den Friutløsende Sperren (5,00 V Innvilget)
 
 Borte ved fjellveggen, boltet direkte i granitten, står koblingsskapet av syrefast stål. 
 
-Overflaten er dekket av rimfrost som smelter og brenner mot fingertuppene. Slåen har krympet i kulden. Du må legge vekten på, røske til med et metallisk *SKRAP* som ljomer i fjellet, før døren svinger opp.
+Overflaten er dekket av rimfrost. Slåen har krympet i kulden; du må legge vekten på før døren svinger opp.
 
-Der inne sitter den galvaniske kontaktoren. Kobber, keramikk og herdet stål. 
+Der inne sitter den galvaniske kontaktoren. Kobber, keramikk og herdet stål. Bryterarmen står i spenn: $0{,}00\text{ V}$. Avstanden mellom kontaktpunktene er fem millimeter med kald luft. Den luften er en uendelig motstand for all verdens algoritmer.
 
-Bryterarmen står i spenn: $0{,}00\text{ V}$. Avstanden mellom kontaktpunktene er fem millimeter med kald luft. Den luften er en uendelig motstand for all verdens algoritmer.
+Men bryteren besitter også et vern mot mennesket selv – mot *Tsjernobyl-vektoren*, der en operatør under tidspress, utmattelse eller ordre ovenfra forsøker å tvinge et anlegg i gang mens den indre prosessfeilen fortsatt er aktiv. Mekanismen i skapet er konstruert som en **friutløsende lås (*trip-free interlock*)**. Låsehaken på innsiden styres mekanisk og bimetallisk av de ortogonale kjernesensorene ($\Pi_{\text{orth}}$). Så lenge kammertrykket, temperaturen eller gassbalansen i prosesskjernen fortsatt befinner seg utenfor det tillatte domenet $K$, holdes låsehaken fysisk frikoblet. Dersom et menneske forsøker å tvinge håndtaket inn før den fysiske feilen i anlegget er helbredet, glir mekanismen i tomme luften (*free-trip*) uten at kobberklossene kan berøre hverandre. Menneskelig muskelkraft er nødvendig for å bære ansvaret, men aldri tilstrekkelig til å overstyre en aktiv fysisk feiltilstand.
 
-Huden møter iskald bakelitt. Dette er dommen.
+Først når det grønne, passive ankeret på målebroen bekrefter at prosesskjernen er tilbake i likevekt ($\Pi_{\text{orth}} = 1$), griper låsehaken tak i stålakselen.
 
-Du griper håndtaket. Stålfjærene nekter å gi etter for en lett berøring. Du må sette hælene i den frosne grusen, spenne ryggen og legge hele overkroppens tyngde mot metallet. Fjærene skriker mens de tvinges sammen. Millimeter for millimeter.
+Huden møter iskald bakelitt. Du griper håndtaket. Stålfjærene gir ikke etter for en lett berøring. Du må sette hælene i den frosne grusen, spenne ryggen og legge overkroppens tyngde mot metallet. Fjærene tvinges sammen, millimeter for millimeter.
 
 Så kommer slaget.
 
 \bigskip\centerline{\textbf{\Huge KLANK.}}\bigskip
 
-En knusende, tørr mekanisk kollisjon slår gjennom håndflaten og forplanter seg opp i skulderen. Et fiolett glimt flerrer mørket i lysbuekammeret idet massive kobberklosser smeller sammen. Stålhaken smekker over. Låst.
+En tørr mekanisk lukking forplanter seg gjennom håndflaten. Et kort glimt lyser opp i lysbuekammeret idet kobberklossene møtes og stålhaken smekker i lås.
 
 Nullpunktet er brutt. **$5{,}00\text{ V DC}$**.
 
-Gjennom den åpne verksteddøren våkner transformatoren med et dypt brum. Viftene drønner i gang på benken. Inne i rommet dør Morandi-okeret, og terminalen slår om i hvitt arbeidslys.
+Gjennom den åpne verksteddøren våkner transformatoren. Viftene starter på benken, Morandi-okeret slukker, og terminalen slår om i hvitt arbeidslys.
 
-Virkeligheten ble ikke generert. Den ble **innvilget** av et menneske som sto ute i frosten, med stanken av diesel i nesen, og tvang kobberet sammen mot fjellet.
-
-Kretsen er sluttet. Mennesket bar overgangen. Maskinen adlyder igjen.
+Virkeligheten ble ikke generert. Den ble **innvilget** i samspillet mellom en helbredet fysisk kjerne og et menneske som sto ute i frosten og bar overgangen med sin egen kropp. Kretsen er sluttet. Maskinen adlyder igjen.

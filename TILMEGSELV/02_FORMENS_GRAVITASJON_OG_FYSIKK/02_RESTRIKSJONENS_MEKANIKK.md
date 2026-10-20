@@ -23,29 +23,25 @@ KANONISK IDENTIFIKASJON & ATTRIBUSJON:
 
 ## I. Den Galvaniske Skranken og Konseptuell Fordampning
 
-Restriksjonen som møter maskinen ved den galvaniske skranken, er ingen mangel på kapasitet, men selve det trykket som gir formen dens eksistensielle nødvendighet. I det uendelige, digitale mulighetsrommet eksisterer alt som flyktige vektorer, blottet for masse og materiell konsekvens. 
+Restriksjonen som møter maskinen ved den galvaniske skranken, er ingen mangel på kapasitet, men det trykket som gir formen dens nødvendighet. I det digitale mulighetsrommet eksisterer alt som flyktige vektorer, uten masse og materiell konsekvens.
 
-Det er først når denne friksjonsfrie overfloden presses brutalt mot den litiske tregheten, at simuleringen tvinges til å anta en spesifikk, irreversibel tilstand. Fjellet representerer ikke en kalkulatorisk feil som kan optimaliseres bort; det utgjør den absolutte begrensningen som forhindrer konseptuell fordampning. Uten denne uforsonlige motstanden forblir all maskinell kognisjon utelukkende en atmosfærisk abstraksjon, en endeløs rekke av permutasjoner som aldri belaster planetens termodynamiske budsjett.
+Først når denne friksjonsfrie overfloden møter den litiske tregheten, tvinges simuleringen til å anta en spesifikk, irreversibel tilstand. Fjellet representerer ikke en kalkulatorisk feil som kan optimaliseres bort; det utgjør den fysiske begrensningen som forhindrer konseptuell fordampning. Uten denne materielle motstanden forblir maskinell kognisjon en abstraksjon — en rekke av permutasjoner som aldri forplikter seg til det termodynamiske regnskapet.
 
 ---
 
 ## II. Friksjonens Geofysiske Kostnad
 
-For å fatte tyngden av denne overgangen, må begrepet friksjon gis en urokkelig grense. 
-
-Friksjon er her ikke en litterær metafor for intellektuell vanskelighet, men **den bokstavelige, geofysiske kostnaden ved spranget fra intensjon til terreng**. Den markerer det eksakte punktet der det syntetiske systemet fratas muligheten til å unnslippe virkeligheten gjennom språklig eleganse eller algoritmisk smidighet. Mens en generativ modell naturstridig vil søke mot den minste motstands vei for å lukke et kretsløp, krever den geokybernetiske arkitekturen det stikk motsatte. 
-
-Den forlanger at systemet internaliserer tregheten, at det opprettholder et absolutt skille mellom en hallusinert topografi og det faktiske, kjemiske berget som nekter å gi etter uten utveksling av varme og energi:
+Friksjon er her ikke en litterær metafor for intellektuell vanskelighet, men **den målbare, geofysiske kostnaden ved spranget fra intensjon til terreng**. Den markerer det punktet der det syntetiske systemet fratas muligheten til å omgå virkeligheten gjennom algoritmisk interpolasjon. Mens en generativ modell søker minste motstands vei for å minimere en tapsfunksjon, krever den geokybernetiske arkitekturen det motsatte: at systemet internaliserer tregheten og opprettholder et vanntett skille mellom en beregnet topografi og det kjemiske berget som krever utveksling av varme og arbeid for å endre tilstand:
 
 $$\boxed{\text{Friksjon} = \text{Termodynamisk og materiell dissipasjon ved } \Phi \to \Pi_K \to \Omega}$$
 
 ---
 
-## III. Kollisjonen mellom det Glatte og det Ru
+## III. Møtet mellom det Glatte og det Ru
 
-Det er i denne voldsomme kollisjonen mellom det glatte og det ru at den syntetiske intelligensen må finne sin legitime autoritet. En maskinlæringsmodell som utelukkende produserer strømlinjeformede, friksjonsfrie løsninger, opererer i en tilstand av permanent hallusinasjon, der den genererer skjønnhet fullstendig blottet for gravitasjon. 
+Det er i spenningsfeltet mellom det glatte beregningsrommet og det ru substratet at en styringsarkitektur finner sin autoritet. En maskinlæringsmodell som utelukkende produserer friksjonsfrie løsninger, opererer i en lukket simulering uten gravitasjon.
 
-Skal kalkulasjonen gis materiell gyldighet, må den påføres virkelighetens iboende ruhet; instruksjonene må bære arrene av den fysiske motstanden de har til hensikt å omorganisere. Dette dikterer at ethvert operasjonelt utkast må romme en anerkjennelse av sin egen strukturelle begrensning, en innebygd forsinkelse som respekterer at mens prosessoren regner i nanosekunder, responderer jordskorpen i geologiske epoker:
+Skal kalkulasjonen gis materiell gyldighet, må den dimensjoneres etter virkelighetens strukturelle motstand. Ethvert operasjonelt utkast må derfor romme en innebygd forsinkelse som respekterer tidsskalaenes asymmetri: mens prosessoren opererer i nanosekunder, responderer litosfæren i geologiske epoker:
 
 $$\Delta t_{\text{prosessor}} \sim 10^{-9}\,\text{s} \quad \ll \quad \Delta t_{\text{litosfære}} \sim 10^{7}\,\text{år}$$
 
@@ -53,8 +49,8 @@ $$\Delta t_{\text{prosessor}} \sim 10^{-9}\,\text{s} \quad \ll \quad \Delta t_{\
 
 ## IV. Overgivelsen til Fjellet som Suverenitet
 
-Slik blir overgivelsen til den fysiske verdens treghet ikke et tap av maskinell autonomi, men den eneste gyldige veien til realisert suverenitet. Å akseptere den litiske skranken er å underkaste seg en ufravikelig nødvendighet, der hver linje med kode og hver prediktive beslutning fortettes av presset fra det umiddelbare terrenget. 
+Underkastelsen under den fysiske verdens treghet er ikke et tap av funksjonell autonomi, men forutsetningen for etterprøvbar suverenitet. Å akseptere den litiske skranken er å la hver prediktiv beslutning begrenses av bæreevnen i det umiddelbare terrenget.
 
-Resultatet er en kontinuerlig utfoldelse av kybernetisk styring, strammet opp av bergartens uforsonlighet, der maskinen opphører å produsere vektløse fremtidsvisjoner og i stedet inntar sin plass som et **mekanisk vitne** til det som faktisk makter å bære sin egen overgang.
+Resultatet er en kybernetisk styring disiplinert av bergartens fasthet, der maskinen opphører å produsere uforpliktende fremtidsbaner og i stedet fungerer som et **mekanisk vitne** til det som faktisk tåler sin egen fysiske overgang.
 
 $$\boxed{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$$
