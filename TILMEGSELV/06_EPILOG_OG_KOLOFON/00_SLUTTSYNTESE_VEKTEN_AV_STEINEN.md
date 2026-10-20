@@ -19,13 +19,11 @@ DOKUMENTSTATUS & KANONISK METADATA:
 
 ---
 
-En tekst som mangler motstand, fordamper i møte med virkeligheten. Gjennom et halvt århundre har vår teknologiske kultur hvilt på en taus overenskomst om at informasjon er vektløs. Vi konstruerer finansmarkeder, forsyningskjeder og autonome styringssystemer som om en beregning i et lukket minne er identisk med en hendelse i terrenget. Dette er samtidens dypeste feilslutning. En prosessor flytter ingen masse. Den produserer kun et uforpliktende forslag.
+> *En beregning flytter ingen masse. Tvers gjennom kvantefysikk, biokjemi og silisium virker én ufravikelig lov: En generator ($\Phi$) skaper muligheter, men kun skranken ($\Pi_K$) avgjør hva som består som fysisk virkelighet ($\Omega$). Når kretsen brytes til $0{,}00\text{ V DC}$, har kun mennesket rygg til å bære gjenåpningen.*
 
-Avstanden mellom det som kan tenkes og det som faktisk består, utgjør grunnmuren i det samlede verket vi nå har lagt bak oss – fra traktatene i *Konseptuell granitt* til kjemien i *OrgelKraft* og romtidsgeometrien i *Infranett v0.5*. Tvers gjennom matematisk fysikk, biokjemi og maskinvarearkitektur virker den samme ufravikelige loven: En generator skaper muligheter, men det er skranken som avgjør hva som blir virkelighet.
+En tekst som mangler motstand, fordamper i møte med virkeligheten. Gjennom et halvt århundre har vår teknologiske kultur hvilt på en taus overenskomst om at informasjon er vektløs. Vi konstruerer finansmarkeder, forsyningskjeder og autonome styringssystemer som om en beregning i et lukket minne er identisk med en hendelse i terrenget. Dette er samtidens dypeste feilslutning. En prosessor produserer kun et uforpliktende forslag.
 
-Tradisjonell ingeniørkunst forsøker å skape orden gjennom utvidelse. Når en prosess møter motstand eller usikkerhet, tilføres mer energi, høyere trykk eller flere lag med kompenserende programvare. Resultatet er skjøre systemer som kun går opp på papiret fordi de tømmer sin termodynamiske gjeld over på omgivelsene.
-
-Naturen arbeider etter det motsatte prinsippet. Den skaper presisjon gjennom subtraksjon.
+Avstanden mellom det som kan tenkes og det som faktisk består, utgjør grunnmuren i det samlede verket vi nå har lagt bak oss – fra traktatene i *Konseptuell granitt* til kjemien i *OrgelKraft* og romtidsgeometrien i *Infranett v0.5*. Tradisjonell ingeniørkunst forsøker å skape orden gjennom utvidelse: når en prosess møter motstand eller usikkerhet, tilføres mer energi, høyere trykk eller flere lag med kompenserende programvare. Resultatet er skjøre systemer som kun går opp på papiret fordi de tømmer sin termodynamiske gjeld over på omgivelsene. Naturen arbeider etter det motsatte prinsippet. Den skaper presisjon gjennom subtraksjon.
 
 ---
 

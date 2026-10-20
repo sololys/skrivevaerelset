@@ -26,7 +26,7 @@ Manifestet kartlegger overgangen fra støy til irreversibel historie som en stre
 
 $$D_0 \longrightarrow D_1 \longrightarrow D_{1.5} \longrightarrow \mathbf{\Omega} \longrightarrow D_3$$
 
-Ingen kandidat får bli virkelighet uten å bære sin egen overgang, bestå speil-rommets involusjonstest, betale termodynamikkens pris, og etterlate et uforanderlig spor.
+I én-til-én-samsvar med verkets kanoniske realiseringsgrammatikk $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ og måletuppelet $(\rho, K_\gamma)$ fra foregående kapittel gjelder identiteten $D_0 \equiv \Phi$ (kandidatrom), $D_1/D_{1.5} \equiv \Pi_K$ (reversibel admissibilitetssluse), $\mathbf{\Omega} \equiv \Omega$ (konsekvensport) og $D_3 \equiv W$ (historisk vitneforsegling). Ingen kandidat får bli virkelighet uten å bære sin egen overgang, bestå speil-rommets involusjonstest, betale termodynamikkens pris, og etterlate et uforanderlig spor.
 
 ---
 

@@ -47,7 +47,9 @@ Historikken kan aldri overskrives, bare forlenges gjennom nye epoker. Sannheten 
 
 ## 5. Sårbarhetsherding: Alexandrov-Spoofing, Kryss-Modal Sensorfusjon og Passiv Klokkereferanse
 
-Dersom en angriper forsøker å manipulere den lokale permittiviteten ($\varepsilon_r$) eller injiserer aerosoler med høy brytningsindeks ($n_{\text{air}}$) rundt sensoren, endres lysets fasehastighet ($v = c/n$) lokalt. Tilsvarende kunne en angriper forsøke termisk eller elektromagnetisk *clock glitching* (*underclocking*) for å bremse nodens lokale kvartsoscillator, slik at tids-til-digital-omformeren (TDC) teller færre klokketikk mens et videresendt angrepssignal er på vei. For å eliminere begge angrepsvektorene krever arkitekturen kryss-modal sensorfusjon og passiv klokkeverifikasjon: avstandsmålingen utføres samtidig over to ortogonale UWB-frekvensbånd korrelert mot akustisk bølgeutbredelse ($v_{\text{akustisk}} \ll c$), mens den lokale $80\text{ kHz}$ Frisch-klokken og TDC-referansen kontinuerlig kryss-sjekkes mot en uforanderlig passiv fysisk tidskonstant i substratet – den mekaniske egenfrekvensen ($42\text{ kHz}$) i det $2{,}0\text{ mm}$ tykke monokrystallinske $\text{Al}_2\text{O}_3$-safirvinduet og $^{57}\text{Fe}$ Mössbauer-resonansen. Enhver frekvensdrift mellom elektronisk klokke og krystallgitter fører til umiddelbar avvisning ved porten.
+Dersom en angriper forsøker å manipulere den lokale permittiviteten ($\varepsilon_r$) eller injiserer aerosoler med høy brytningsindeks ($n_{\text{air}}$) rundt sensoren, endres lysets fasehastighet ($v = c/n$) lokalt. For å eliminere enhver slik enkeltkanal-sårbarhet krever arkitekturen kryss-modal sensorfusjon: avstandsmålingen utføres samtidig over to ortogonale UWB-frekvensbånd for å avsløre dispersiv faseforskyvning, og korreleres mot akustisk og piezoelektrisk bølgeutbredelse i mediet ($v_{\text{akustisk}} \ll c$). Enhver asymmetri mellom optisk/radiofrekvent Time-of-Flight og termodynamisk trykkrespons fører til umiddelbar avvisning ved porten.
+
+For å forhindre at en angriper manipulerer selve tidsmålingen gjennom lokal klokke-sabotasje (*clock glitching* eller termisk frekvensdrift av referanseoscillatoren), er TDC-en og $80\text{ kHz}$ Frisch-klokken underlagt en intern kryss-modal frekvenslås. Den elektroniske klokkesyklusen kompareres kontinuerlig mot det akustiske rundløpet i safirvinduets monokrystallinske gitter ($c_{\text{akustisk}} \approx 11\,100\text{ m/s}$ i $\text{Al}_2\text{O}_3$) og den kjernefysiske $^{57}\text{Fe}$-referansen. Dersom forholdstallet mellom elektronisk klokkefrekvens og krystallens mekaniske egenfrekvens driver utover $\pm 5\text{ ppm}$, feller porten umiddelbart til $0{,}00\text{ V DC}$ (`CLOCK_DRIFT_KILL`). Man kan ikke bestikke en klokke som måles mot lydhastigheten i safir.
 
 ---
 
@@ -59,11 +61,21 @@ I **Fase A ($\Phi \to \Pi_K$)** – *før* styrespenningen $5{,}00\text{ V DC}$ 
 
 I **Fase B ($\Omega \to W$)** – *under* selve det mekaniske lukke- eller åpningsvinduet på $\Delta t_{\text{act}} \le 38{,}4\text{ ms}$ – overvåker det ortogonale vitnelaget ($\Pi_{\text{orth}}$) at metallurgien i Super Duplex 2507-spindlene og reléfjærer faktisk utfører den beordrede bevegelsen. Dersom en ventil kiler seg mekanisk, en spole brenner av eller det fysiske arbeidet ($\int V(t)I(t)\,dt$, termisk strømningsprofil $\Delta T$ og akustisk Time-of-Flight) avviker fra det autoriserte fikspunktet i løpet av disse $38{,}4\text{ ms}$, utløses sekundærsperren (*Crowbar Type B*): primærforsyningen kuttes permanent til $0{,}00\text{ V DC}$, og kontaktbroen trekkes mekanisk åpen (`GATE :: KILL`).
 
-Tilsvarende er den manuelle tilbakestillingen (**`RESET_BY_L01`**) sikret både mot menneskelig overstyring under politisk press (*Tsjernobyl-vektoren*) og mot elektrisk vranglås ved dødt anlegg (*The Dead-Lock Bootstrap Paradox*). Den friutløsende sperrehaken (*trip-free pawl*) i koblingsskapet styres direkte av passiv fluid- og termomekanisk fjærkraft (Bourdon-trykkbelg og bimetallisk anker), supplert av en manuell magnetodynamo i de første $15^\circ$ av bakelitthåndtakets vandring som leverer *read-only* målestrøm til $\Pi_{\text{orth}}$-broen før hovedkontaktene kan møtes. Dermed avhenger verifikasjonen av kjerne-hvile ved $0{,}00\text{ V DC}$ aldri av den brutte $5{,}00\text{ V}$-kjørekretsen, samtidig som spaken fysisk glir i friutløsning (*free-trip*) så lenge et indre avvik i trykk eller temperatur vedvarer:
+For å eliminere både menneskelig overstyringsfeil og elektrisk vranglås (*Dead-Lock Bootstrap*) ved $0{,}00\text{ V DC}$, er hovedbryteren konstruert som en to-trinns, mekanisk friutløsende lås (*trip-free interlock*). Så lenge kammerets passive bourdon- og bimetall-ankre registrerer overtrykk eller termisk avvik, holdes låsehaken fysisk frikoblet fra inngrep. Når *Level 01* legger kroppstyngden mot bakelitthåndtaket, konverterer de første 45 gradene av fjæroppspenningen muskelarbeidet ($\int F \cdot dx$) via en isolert aksel-magneto til en dedikert, skrivebeskyttet målepuls for den ortogonale sensorbroen ($\Pi_{\text{orth}}$). Kun dersom både de passive ankrene og den induserte $\Pi_{\text{orth}}$-sjekken bekrefter et helbredet indre rom ($\Delta_K = 0$), faller herdet stål i inngrep og tillater de siste millimeterne av slaget å lukke kobberklossene til $5{,}00\text{ V DC}$. Menneskets rygg leverer energien og bærer ansvaret, men selv ikke operatøren kan tvinge en uhelbredet kjerne i lås:
 
 ```cpp
 // [ INFRANETT FAIL-CLOSED EXCEPTION HANDLING: TWO-PHASE ADMISSION & TRIP-FREE L01 ]
 try {
+    // [ SUVERENITETSINVARIANTEN: FORBUD MOT TEKNOKRATISK INVERSJON ]
+    if (target_domain == Domain::HUMAN_JURISDICTION_L01) {
+        // Maskinen har 0,00 % juridisk og moralsk kapasitet (Authority: NONE).
+        // Pi_K og 0,00 V DC eksisterer for å lenke MASKINEN til fysikken,
+        // aldri for å umyndiggjøre mennesket under algoritmisk styring.
+        throw SovereigntyInversionException(
+            "FATAL: Forsøk på å anvende maskinell konsekvensport overfor Level 01."
+        );
+    }
+
     // Generatorens forslag (Phi): Ren uforpliktende potensialitet
     CandidateResult Px = evaluate_generative_candidate(candidate_seed);
 
