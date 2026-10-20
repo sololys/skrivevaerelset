@@ -51,6 +51,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Det uendelige, det projiserte og det bevitnede lerrets ontologi.*
 * **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/02_KANDIDAT_ER_IKKE_KONSEKVENS.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/02_KANDIDAT_ER_IKKE_KONSEKVENS.md)**  
   *Demarkasjonen: Forskjellen på masse-løst NP-skum og en fysisk handling.*
+* **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/02B_ASYMMETRIEN_MELLOM_BOLGE_OG_LOV.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/02B_ASYMMETRIEN_MELLOM_BOLGE_OG_LOV.md)**  
+  *Asymmetrien mellom bølge og lov: Nåleøyet, det låste førsteordens systemet, Klein–Gordon-utfoldelsen ($M^2 = \vert\mathbf{m}\vert^2 - m_0^2$) og oppgjøret med den kostnadsfrie tomme mengden ($\emptyset \equiv 0$).*
 * **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/03_SUBTRAKSJONENS_DOMSTOL.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/03_SUBTRAKSJONENS_DOMSTOL.md)**  
   *Genereringens feilslutning: Hjernen som aktiv eliminasjonsarkitektur.*
 * **[`01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/04_REVERSIBLE2_HVOR_RETUREN_OPPHORER.md`](01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/04_REVERSIBLE2_HVOR_RETUREN_OPPHORER.md)**  
