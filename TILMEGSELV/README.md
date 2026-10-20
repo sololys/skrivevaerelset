@@ -73,6 +73,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 ### 📂 03. Porten som Tenker & Verktøyet
 * **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/01_NEKTELSENS_GRENSESNITT.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/01_NEKTELSENS_GRENSESNITT.md)**  
   *Verktøyet bygget som en domstol for avvisning.*
+* **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/01B_FORM_SOM_KAUSAL_SANNHET_HOFMANN_GESTALT_MOIRE.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/01B_FORM_SOM_KAUSAL_SANNHET_HOFMANN_GESTALT_MOIRE.md)**  
+  *Form som kausal sannhet: Armin Hofmann (Punkt, linje, flate), Lennard-Jones-kognisjon ($V_{\text{proximity}}$), Streamline Moderne og subtraktiv Moiré-akustikk.*
 * **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/02_DEN_MATERIELLE_KONSTITUSJONEN.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/02_DEN_MATERIELLE_KONSTITUSJONEN.md)**  
   *Treleddet: Kandidaten kan rekonstrueres, dommen kan etterprøves, konsekvensen må bevitnes.*
 * **[`03_PORTEN_SOM_TENKER_OG_VERKTOYET/03_FAIL_CLOSED_INTERLOCK.md`](03_PORTEN_SOM_TENKER_OG_VERKTOYET/03_FAIL_CLOSED_INTERLOCK.md)**  
