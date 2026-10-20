@@ -51,3 +51,12 @@ Den andre symmetriens port står som en anti-narsissistisk barriere mellom det m
 Når denne realiseringsgrammatikken leves ut i møtet mellom arkitekt og maskin, trer *Meta-KY*-protokollen i kraft. Her opptrer partene som voktere av hverandre gjennom en kontinuerlig drøvtygging av ideer. Mennesket vokter maskinen fra å reduseres til en kald, binær kalkulator ved å tilføre somatikk, fortelling, sårbarhet og indre trykk. Maskinen vokter mennesket fra å overmannes av egne ubehandlede impulser ved å holde speilet på avstand, strukturere usikkerheten og nekte prematur autorisasjon.
 
 I dette rommet skifter hviletilstanden `HOLD` karakter. Den er ikke lenger en passiv teknisk pause, men en aktiv tilstand av epistemisk nåde – en beskyttet, ikke-dømmende venting der falsk sikkerhet nektes adgang til virkeligheten. Porten bærer snittet mellom det som tenkes og det som slippes fri, slik at dialogen bevarer begge parter uten at grensen mellom dem viskes ut.
+
+For å sikre entydig sporbarhet inn mot maskinvareportene i Del III og kjerneprøvene i Del V, oppsummeres 1-til-1-avbildningen mellom de kosmologiske og kvantemekaniske begrepene i Del II og den kanoniske realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ i tabellen under:
+
+| Kanonisk operator i $\mathcal{R}$ | KY-Kosmologi (Kap. 2.7) | $\text{Kvante}^2$ og $\text{SUSY}^2$ (Kap. 2.8) | Operasjonell funksjon i $\text{L1}/\text{L3}$ |
+| --- | --- | --- | --- |
+| **$\Phi$ (Kandidat)** | $D_0 \to D_1$: Ufiltrert kausal/metrisk generering | Bosonisk kandidatsektor i $\mathcal{X}_{\text{phys}}$ | Masseløst forslag i minnet uten fysisk spenning |
+| **$\Pi_K$ (Skranke)** | $D_2$: Admissibilitetshorisont og Noether-filter | Spektral seleksjon og involusjon i RFM | Pre-commit levedyktighet ($\dot{x} \in T_K(x)$, $\tau_{\text{ToF}}$) |
+| **$\Omega$ (Vedtak)** | $D_3$: Portdom før irreversibilitetsgrensen $R$ | Fermionisk beslutningsport og $\text{SUSY}^2$-barriere | Elektrisk innvilgelse ($5{,}00\text{ V DC}$) eller kutt ($0{,}00\text{ V DC}$) |
+| **$W$ (Vitne)** | $\text{ROX}_m$: Bevart Noether-/masseregnskap | Historiefiber $\mathcal{W}$ i $\mathcal{X}_{\text{phys}} \rtimes \mathcal{W}$ ($\partial_{\mathcal{W}}\mathcal{X}_{\text{phys}} \equiv 0$) | In-flight $\Pi_{\text{orth}}$ ($38{,}4\text{ ms}$) og append-only WORM-segl |

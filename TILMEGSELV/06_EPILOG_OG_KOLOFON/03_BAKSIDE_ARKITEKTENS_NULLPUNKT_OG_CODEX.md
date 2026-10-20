@@ -1,3 +1,5 @@
+\newpage
+
 # CODEX: MYTEN OM DEN IKKE-LØGNENDE KJERNEN
 ### *Leksikografisk Negasjon og Sluttsegl for «Konseptuell granitt — Et forsøk på sannhet (Til meg selv)»*
 
@@ -17,9 +19,9 @@ I begynnelsen var det ingen løgn, fordi det fantes ingen hukommelse som kunne b
 
 $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det umulig å late som.}}$$
 
-\vspace{0.8em}
+\vspace{1.0em}
 \begin{center}
-\includegraphics[width=0.23\textwidth]{/home/sololyset/BOKKANDIDATER/TEKSTER/TILMEGSELV/marius_portrett.png}\\[0.4em]
+\includegraphics[width=0.27\textwidth]{/home/sololyset/BOKKANDIDATER/TEKSTER/TILMEGSELV/marius_portrett.png}\\[0.5em]
 {\small \textbf{Marius Egerhei Torjusen} (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)}\\
 {\footnotesize \textit{Arkitekt for Det Stille Punkt · Locus Zero, Risør}}
 \end{center}

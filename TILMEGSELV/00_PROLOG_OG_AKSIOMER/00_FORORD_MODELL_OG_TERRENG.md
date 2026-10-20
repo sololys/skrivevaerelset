@@ -87,4 +87,27 @@ try {
     //    så lenge de fysiske enhetene ([J], [s], [m], [kg]) holdes strengt adskilt i hvert domene.
     enforce_rosetta_type_safety(MODE::STRUCTURAL_ISOMORPHISM_VERIFIED);
 }
+
+// [ KONSEPTUELL GRANITT: SOCIAL & CONSTITUTIONAL DEMARCATION HANDLER ]
+try {
+    // Evaluer grensen mellom maskinell tvang (0,00 V DC) og menneskelig frihet (Level 01)
+    GovernanceScope scope = evaluate_authority_target(reader_context);
+
+    if (scope.applies_hardware_guillotine_to_human_subjects()) {
+        throw ConstitutionalInversionException(
+            "FATAL: Leseren inverterer loven og anvender maskinvarens nådeløse "
+            "skranke (Pi_K -> KILL) som et teknokratisk tvangsmiddel mot mennesker."
+        );
+    }
+} catch (const ConstitutionalInversionException& e) {
+    // SIKKERHETSKLAUSUL (SUVERENITETSINVARIANTEN):
+    // 1. Maskinen har 0,00 % juridisk og moralsk myndighet (Authority: NONE).
+    // 2. Strengheten i Pi_K og 0,00 V DC er bygget for å lenke MASKINEN og 
+    //    BYRÅKRATIETS ABSTRAKSJONER til fysisk sannhet – aldri for å gjøre 
+    //    mennesket til en deterministisk komponent.
+    // 3. Overfor mennesket gjelder Aksiom III (GRACE) og Level 01 Suverenitet:
+    //    Skranken beskytter biologien (spedbarnet i kuvøsen, bonden på gården) 
+    //    mot maskinens overgrep – aldri omvendt.
+    enforce_sovereignty_invariant(AUTHORITY::LEVEL_01_HUMAN_ONLY);
+}
 ```

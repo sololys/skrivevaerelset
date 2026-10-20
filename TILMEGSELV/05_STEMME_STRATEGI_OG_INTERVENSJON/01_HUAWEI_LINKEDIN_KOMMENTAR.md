@@ -13,6 +13,8 @@ KAMMER 05: STRATEGISK INTERVENSJON // DOKTRINEN OM DEN OFFENTLIGE TALE:
 
 ---
 
+> *Merknad til Vedlegg A: Dette vedlegget dokumenterer et praktisk eksempel på hvordan doktrinen i det påfølgende kapittelet («Hvorfor vi ikke selger ord») håndheves utad i møte med den internasjonale sky- og akseleratorindustrien. Analysen viser hvordan bokens kjerneaksiom ($\Phi \neq \Omega$) trer frem direkte i lineær-algebraiske oppmerksomhetsmekanismer når lavpresisjonsaritmetikk kolliderer med nedre triangulære kausalitetsmatriser.*
+
 ## 1. Tidens Geometri og den Nedre Triangulære Matrisen
 
 Hvorfor er matrisene i moderne lineære oppmerksomhetsmodeller (DeltaNet, RWKV-7, Qwen-Linear) strengt nedre triangulære?
