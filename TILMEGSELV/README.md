@@ -65,6 +65,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Minuskatalysen som arkitektonisk drivkraft.*
 * **[`02_FORMENS_GRAVITASJON_OG_FYSIKK/03_KY_KOSMOLOGI.md`](02_FORMENS_GRAVITASJON_OG_FYSIKK/03_KY_KOSMOLOGI.md)**  
   *Manifest for tilstandens rett til å eksistere under Rosetta-invarians.*
+* **[`02_FORMENS_GRAVITASJON_OG_FYSIKK/03B_AVVISNINGEN_AV_SPOKELSESSEIRE_KY_NASH_MOREAU.md`](02_FORMENS_GRAVITASJON_OG_FYSIKK/03B_AVVISNINGEN_AV_SPOKELSESSEIRE_KY_NASH_MOREAU.md)**  
+  *Avvisningen av spøkelsesseire («Ghost Wins»): KY-Nash, Moreau-feieprosessen ($\dot{x}_t \in T_K(x_t)$), Skorokhod-refleksjon og det kryogene Leidenfrost-plastronet ($M_{\text{stab}}$).*
 * **[`02_FORMENS_GRAVITASJON_OG_FYSIKK/04_GENERATOREN_OG_SKRANKEN_HISTORISK_LEVEDYKTIGHET.md`](02_FORMENS_GRAVITASJON_OG_FYSIKK/04_GENERATOREN_OG_SKRANKEN_HISTORISK_LEVEDYKTIGHET.md)**  
   *En generator skaper muligheter; en skranke avgjør hva som består: Itô–Milstein-konvergens, Pohlig–Hellman-skranken, detaljert balanse og tuppelet $(\rho, K_\gamma)$.*
 
