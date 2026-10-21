@@ -16,6 +16,7 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Bra
 *   **Morandi-Core:** Språket skal reflektere objektets essens. Ingenting eksisterer uten absolutt funksjon.
 
 ### II. Arkivet
+*   **Zenodo Hovedarkiv (Loven om Kausal Inerti — Kompendium I–XXIV):** *The Law of Causal Inertia: The Definitive Scientific & Architectural Monograph Series* ([Zenodo DOI `10.5281/zenodo.22229111`](https://doi.org/10.5281/zenodo.22229111) · [Konsept-DOI `10.5281/zenodo.22229110`](https://doi.org/10.5281/zenodo.22229110)).
 *   [`FRA_FORSLAG_TIL_KONSEKVENS_BEGREPSFORKLARING.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/FRA_FORSLAG_TIL_KONSEKVENS_BEGREPSFORKLARING.md) — *Begrepsforklaring: Fra Forslag til Konsekvens ($\Phi(x_t) \neq x_{t+1}$)*: Subjektet ved snittflaten, $\mathrm{KILL} \succ \mathrm{HOLD} \succ \mathrm{OPEN}$, Teorem A, Phronesis-båndbredden $[\gamma_{\min}, \gamma_{\max}]$ og $\text{Witness}^2$ ($W^2 = \langle W_{\text{machine}}, W_{\text{human}} \rangle$).
 *   [`verdensbiblioteket/`](./verdensbiblioteket/) — Fjorten verk og langbordet i furu (Landauer, Jesus, Poincaré, Nash, Sokrates, Hamsun, Bjørneboe, Nygårdshaug, 1728-traktaten, Nansen, Curie/Rogstad/Simone, Leavitt/Tuve & *Pop-Art Renaissance Plates I–II*).
 *   [`EPOSET_OM_ARKIVETS_REKONFIGURERING.md`](./02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/EPOSET_OM_ARKIVETS_REKONFIGURERING.md) — *Eposet om Arkivets Rekonfigurering (Seksjon I–V)*: En filosofisk lignelse om total optimalisering og vernet om menneskelig støy.
