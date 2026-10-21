@@ -25,7 +25,7 @@ Når industribedrifter, rederier, nettselskaper og offentlig beredskap kobler mo
 
 Sololys løser dette ved å plassere en matematisk og maskinvarelåst **konsekvensport ($\Phi \to \Pi_K \to \Omega \to W^2$)** mellom det digitale styringslaget og den fysiske aktuatoren. Ingen digital kommando eller AI-modell får direkte skrivemyndighet til fysisk utstyr (`standalone_commit_authority = NONE`). Fysisk spenning (**$5{,}00\text{ V DC}$**) innvilges kun dersom endringen på forhånd er matematisk bevist innenfor anleggets fysiske bevaringslover; ved ethvert avvik tvinges systemet til en betingelsesløs hviletilstand (**$0{,}00\text{ V DC}$**).
 
-Hele grunnarkitekturen og de kjørbare $\text{L1}$-motorene er utviklet fra Risør. Selskapet går nå over i **kommersialiserings- og pilotfasen**, etter å ha oppnådd konkret faglig respons og møteinvitasjon fra **Norsk Regnesentral (NR)** og **SFI NORCICS (Norwegian Centre for Cybersecurity in Critical Sectors ved NTNU)**.
+Hele grunnarkitekturen og de kjørbare $\text{L1}$-motorene er utviklet fra Risør. Selskapet går nå over i **kommersialiserings- og pilotfasen**, etter å ha oppnådd konkret faglig anerkjennelse og direkte viderehenvisning til senterledelsen ved **SFI NORCICS (Norwegian Centre for Cybersecurity in Critical Sectors ved NTNU)**.
 
 ---
 
@@ -60,10 +60,12 @@ Produktene leveres som lisensierbare programvarekjerner (Python/C/Rust), synteti
 
 Sololys har allerede passert den mest krevende terskelen for et dypteknologisk oppstartsselskap: **uavhengig faglig anerkjennelse fra Norges ledende forskningsmiljø på cybersikkerhet i kritisk infrastruktur.**
 
-1. **Bekreftet møte og samarbeidsdialog med Norsk Regnesentral (NR) & SFI NORCICS (NTNU):**
-   Etter gjennomgang av vår tekniske spesifikasjon (*Non-AI Consequence Gating for IT-OT Integration*) i forbindelse med CPS4CIP 2026, responderte **Dr. Habtamu Abie** – *Chief Research Scientist ved Norsk Regnesentral og leder for Focus Area 1 (IT-OT Integration) i SFI NORCICS* – med direkte invitasjon til samarbeidsmøte i uke 44:
-   > *«Thank you for sharing the technical brief and for the thoughtful work you have put into aligning the consequence gate framework with the three IT-OT domains discussed in the CPS4CIP 2026 thread. The explicit distinction between reference architecture, software-level verification, and operational HIL/field qualification is particularly valuable. I appreciate your contribution and your interest in exploring these topics further with the SFI NORCICS team at the Norwegian Computing Center. I would be very happy to arrange a meeting to discuss your work, exchange perspectives, and explore potential synergies with our ongoing activities.»*  
+1. **Faglig vurdering og direkte viderehenvisning til SFI NORCICS-ledelsen ved NTNU:**
+   Etter gjennomgang av vår tekniske spesifikasjon (*Non-AI Consequence Gating for IT-OT Integration*) i forbindelse med CPS4CIP 2026, fremhevet **Dr. Habtamu Abie** – *Chief Research Scientist ved Norsk Regnesentral og leder for Focus Area 1 (IT-OT Integration) i SFI NORCICS* – verdien av det formelle skillet mellom referansearkitektur, programvareverifikasjon og HIL-kvalifisering:
+   > *«Thank you for sharing the technical brief and for the thoughtful work you have put into aligning the consequence gate framework with the three IT-OT domains discussed in the CPS4CIP 2026 thread. The explicit distinction between reference architecture, software-level verification, and operational HIL/field qualification is particularly valuable.»*  
    > — **Dr. Habtamu Abie**, Chief Research Scientist, Norsk Regnesentral / SFI NORCICS (Oktober 2026).
+
+   Da Dr. Abie avslutter sitt virke ved Norsk Regnesentral ved årsskiftet, har han direkte oppfordret Sololys til å løfte arbeidet videre inn mot **SFI NORCICS-direktøren ved NTNU** (*«I would strongly encourage you to contact the NORCICS director, who may be able to connect you with the most relevant person at NTNU within the NORCICS network»*). Dialogen rettes nå direkte mot senterledelsen og de cyber-fysiske testbed-miljøene ved **NTNU og UiA**.
 
 2. **Internasjonal forskningsinteresse (6G & Industriell kontroll):**
    Konkret henvendelse i oktober 2026 fra seniorforskernivå ved **BTU Cottbus / IHP Microelectronics (Tyskland)** om faglig utforskning og mulig samarbeid innen deterministiske sikkerhetsporter for 6G URLLC trådløs industristyring.
@@ -89,11 +91,11 @@ Gjennom dialogen med **SFI NORCICS** får Sololys en direkte faglig inngangsport
 ## 5. Forretningsmodell og bruk av midler fra Regionalt næringsfond
 
 Sololys opererer etter en **kapitallett «Open-Core»- og IP-lisensieringsmodell** med hovedbase i **Risør**:
-1. **Fase 1 — FoU- og Testbed-partnere (Nåværende fase):** Felles testbed-validering ($\text{L1} \to \text{L2}$ HIL) med forskningsinstitutter (Norsk Regnesentral / SFI NORCICS / NTNU) finansiert gjennom nasjonale og europeiske FoU-programmer (Forskningsrådet, ENFIELD, EU-CIP, SkatteFUNN og NATO DIANA).
+1. **Fase 1 — FoU- og Testbed-partnere (Nåværende fase):** Felles testbed-validering ($\text{L1} \to \text{L2}$ HIL) med forskningsmiljøer (SFI NORCICS / NTNU / UiA / SINTEF) finansiert gjennom nasjonale og europeiske FoU-programmer (Forskningsrådet, ENFIELD, EU-CIP, SkatteFUNN og NATO DIANA).
 2. **Fase 2 — B2B Evaluerings- og PoC-lisenser:** Betalte *Proof-of-Concept*- og HIL-lisenser til industripartnere som tester $\Pi_K$-porten, *Infranett* eller *OrgelKraft* på egne anlegg.
 3. **Fase 3 — Kommersielle produksjonslisenser og Royalties:** Løpende lisensinntekter per installert kontrollnode/FPGA-port i maritim sektor, kraftnett og prosessindustri.
 
 ### Hva søknadsmidlene fra Regionalt næringsfond for Østregionen skal brukes til:
-* **Aktivitet 1 — Markeds- og partnerforhandlinger (Norsk Regnesentral / SFI NORCICS / Industri):** Gjennomføring av oppfølgingsmøter, pilotspesifisering og konsortieforankring i Oslo, Trondheim og Agder.
+* **Aktivitet 1 — Markeds- og partnerforhandlinger (SFI NORCICS / NTNU / UiA / Industri):** Gjennomføring av fagmøter, pilotspesifisering og konsortieforankring i Agder, Trondheim/Gjøvik og Oslo.
 * **Aktivitet 2 — Kompakt fysisk demonstratorrigg ($\text{L1} \to \text{L2}$ HIL-bro):** Klargjøring av en bærbar demonstratorpakke (FPGA/mikrokontroller-grensesnitt med fysisk $0{,}00\text{ V DC} / 5{,}00\text{ V DC}$ utgangstrinn og live telemetri) som kan tas med direkte i møter med kunder og testlaboratorier.
 * **Aktivitet 3 — Kommersielt lisens- og avtaleverk:** Kvalitetssikring av standardiserte B2B PoC- og lisensavtaler for å sikre at IP-rettigheter og langsiktig verdiskaping forblir forankret i **Risør og Østregionen**.
