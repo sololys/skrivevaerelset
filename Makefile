@@ -13,4 +13,4 @@ verify:
 	@test -f index.html
 	@test -f TILMEGSELV/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf
 	@test -f 03_FERDIGE_BOKER_PDF/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf
-	@echo "[OPEN] Witness W2 confirmed. Literary archive and monograph integrity verified (0.00 V DC)."
+	@echo "[L1_VERIFIED // HOLD_READY_FOR_W2] L1 software checks passed (PHYSICAL_AUTHORITY=NONE; W_human required for W2). Literary archive and monograph integrity verified (0.00 V DC)."
