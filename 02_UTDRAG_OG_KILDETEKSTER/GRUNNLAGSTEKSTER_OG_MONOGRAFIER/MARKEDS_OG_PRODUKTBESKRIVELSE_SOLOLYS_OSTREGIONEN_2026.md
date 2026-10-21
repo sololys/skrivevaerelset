@@ -11,7 +11,15 @@
 
 ## 1. Sammendrag og forretningsidé
 
-**Sololys** utvikler og lisensierer deterministiske sikkerhets- og styringsarkitekturer i skjæringspunktet mellom **informasjonsteknologi (IT / kunstig intelligens)** og **operasjonell teknologi (OT / fysisk industri, kraftnett, skipsfart og prosessanlegg)**.
+> **Kjerneprofil:**  
+> *«Vi er en dypteknologisk ingeniørbedrift som utvikler nye teknologiske løsninger og industrielt styringsutstyr i skjæringspunktet mellom data, elektro, maskin og anlegg. Vi løser de tunge, komplekse ingeniørproblemene der gjetting, tommelfingerregler og usikker AI ikke holder — og der vitenskapelig presisjon og feilsikker arkitektur kreves for å skape radikal innovasjon.»*
+
+Virksomheten er strukturert rundt tre klassiske ingeniørpilarer:
+1. **Rådgivning og spesialistkompetanse (Bygg · Elektro · Data · Maskin):** Fysikk- og matematikkforankret spesialistrådgivning innen feilsikker (*fail-closed*) systemarkitektur, sanntids radarsignalbehandling ($77\text{–}81\text{ GHz}$ ISAC, 4D EKF), optisk/polarimetrisk metrologi, undervannsmekanikk ($500\text{ m}$ safirflenser) og maskinvareforankret cybersikkerhet (IT/OT).
+2. **Produktutvikling:** Design og utvikling av nye teknologiske løsninger og industrielt styringsutstyr — fra nanosekunds maskinvare-interlocks (SystemVerilog RTL / FPGA crowbar) og fastpunkt-kjerner (`#![no_std]` Rust / C++) til eksakte prosessmotorer og interaktive digitale tvillinger (Godot 4.3).
+3. **Prosjektledelse og teknisk verifikasjon:** Helhetlig ledelse og kvalitetssikring av tekniske prosjekter fra matematisk spesifikasjon og IPR/patentering til enhetstestet (`L1`/`L1.5`) og kryptografisk reviderbar ferdigstillelse (`L2` HIL).
+
+**Sololys / ReismannPoint Systems** utvikler og lisensierer deterministiske sikkerhets- og styringsarkitekturer i skjæringspunktet mellom **informasjonsteknologi (IT / kunstig intelligens)** og **operasjonell teknologi (OT / fysisk industri, kraftnett, skipsfart og prosessanlegg)**.
 
 Når industribedrifter, rederier, nettselskaper og offentlig beredskap kobler moderne programvare og kunstig intelligens (AI) på fysiske maskiner, oppstår en kritisk sikkerhetsrisiko: En digital algoritme kan foreslå feilaktige eller manipulerte kommandoer uten kostnad i minnet, mens en fysisk feilkobling i en ventil, et skip, en batteripakke eller en trafo er irreversibel.
 
