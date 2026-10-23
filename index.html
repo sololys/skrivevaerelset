@@ -115,6 +115,92 @@
             font-style: italic;
             text-align: center;
         }
+
+        .quick-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.2rem;
+            margin: -2rem 0 3.5rem 0;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--ash);
+            font-size: 0.9em;
+            letter-spacing: 0.05em;
+        }
+
+        .showcase-section {
+            margin: 4rem 0 5rem 0;
+            padding: 2.2rem 0;
+            border-top: 1px solid var(--ash);
+            border-bottom: 1px solid var(--ash);
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.2rem;
+            margin-top: 2rem;
+        }
+
+        .book-card {
+            border: 1px solid var(--ash);
+            padding: 1.6rem;
+            background-color: rgba(255, 255, 255, 0.22);
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+        }
+
+        .book-card img.book-cover {
+            width: 115px;
+            min-width: 115px;
+            height: auto;
+            border: 1px solid var(--ash);
+            display: block;
+        }
+
+        .book-info h3 {
+            font-weight: normal;
+            font-size: 1.28em;
+            margin: 0 0 0.35rem 0;
+        }
+
+        .book-subtitle {
+            font-style: italic;
+            color: var(--ash);
+            font-size: 0.92em;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+
+        .book-info p {
+            font-size: 0.93em;
+            margin: 0 0 0.9rem 0;
+            text-align: left;
+        }
+
+        .book-links {
+            font-size: 0.88em;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.9rem;
+        }
+
+        .painting-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        @media (max-width: 640px) {
+            .book-card {
+                flex-direction: column;
+            }
+            .painting-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -122,6 +208,14 @@
     <div class="container">
         <div class="colophon">
             Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.
+        </div>
+
+        <div class="quick-nav">
+            <a href="#forlagsutstillingsvindu">I. Bokhylla (Sakprosa &amp; Filosofi)</a>
+            <a href="#monografiserien-bind-x-xiv">II. Monografiserien (Bind VIII &amp; X–XIV)</a>
+            <a href="#potter-og-kar-galleri">III. Morandi møter Verdensmesterne</a>
+            <a href="verdensbiblioteket/">IV. Verdensbiblioteket</a>
+            <a href="#arkivregister">V. Komplett Arkiv</a>
         </div>
 
         <div class="archive-item" id="kua-ved-solnedgangens-symbolske-vei">
@@ -138,6 +232,185 @@
 
             <div class="cut-mark">
                 │ — [ Terskel mellom fjøs, tavle og arkade ] —
+            </div>
+        </div>
+
+        <div class="showcase-section" id="forlagsutstillingsvindu">
+            <span class="archive-num">UTSTILLINGSVINDU // AVDELING I</span>
+            <h2>Bokhylla — Litterær Sakprosa, Filosofi &amp; Forlagsmanuskripter</h2>
+            <p>
+                Hovedverkene for allmennmarkedet og filosofisk sakprosa. Hvert verk undersøker hva som skjer når en sivilisasjon fjerner all friksjon, og hvorfor virkelighet, ansvar og menneskelig nærvær krever en fysisk kuttflate mellom det som bare kan beregnes og det som faktisk må bæres.
+            </p>
+
+            <div class="book-grid">
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/morandi_05_register_open_hold_kill.jpg" alt="Bind I: Kuttflaten">
+                    <div class="book-info">
+                        <h3>Bind I: Kuttflaten</h3>
+                        <span class="book-subtitle">Om overgangen fra kandidat til konsekvens — Hovedverk i filosofisk sakprosa</span>
+                        <p>
+                            <em>«Vi har glemt verdien av en lukket dør.»</em> Om dysleksien som romlig arkitektur, møtet med den kunstige intelligensen ved leirbålet, og hvorfor en friksjonsfri verden uten motstand ender i utmattelse. En bok om retten til å stanse (HOLD), plikten til å sette grenser (KILL), og motet til å binde seg til masten når stormen krever konsekvens.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/kuttflaten_bok.pdf"><strong>[Les Komplett Bok (PDF)]</strong></a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_1_KUTTFLATEN/BAKSIDETEKST_BLURB_KUTTFLATEN.md">[Baksidetekst / Forlagspresentasjon]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_1_KUTTFLATEN/KUTTFLATEN_MASTER_MANUSKRIPT.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/morandi_01_enstendig.jpg" alt="De Tre Lerretene">
+                    <div class="book-info">
+                        <h3>De Tre Lerretene</h3>
+                        <span class="book-subtitle">Et filosofisk manifest om bruddet, asynkroniteten og banens ensomhet</span>
+                        <p>
+                            <em>«Alt som gjelder for stjernene, må først holde på din egen benk.»</em> En konsentrert, litterær traktat om krukken på bordet, sikringen i skapet, saltet på skroget og forskjellen mellom uforpliktende mulighet, materiell motstand og uutslettelig spor.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/de_tre_lerretene_bok.pdf"><strong>[Les Komplett Bok (PDF)]</strong></a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/DE_TRE_LERRETENE/MANUSKRIPT_DE_TRE_LERRETENE.md">[Norsk Manuskript]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/DE_TRE_LERRETENE/THE_THREE_CANVASES_MASTER_MONOGRAPH.md">[English Monograph]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/marius_portrett.png" alt="Konseptuell Granitt — Til meg selv">
+                    <div class="book-info">
+                        <h3>Konseptuell Granitt — Et forsøk på sannhet (Til meg selv)</h3>
+                        <span class="book-subtitle">Monografi i fem deler om minuskatalyse, nektelsens grensesnitt og den manuelle arbeidsplikten (62 s.)</span>
+                        <p>
+                            Når et mekanisk sikkerhetsrelé har sluppet taket og spenningen ligger på 0,00 V DC, kan ikke en million prosessorer lukke et fysisk luftgap mellom to kobberkontakter. Om hvorfor presisjon oppstår gjennom subtraksjon av frihetsgrader, og hvorfor kun et dødelig menneske kan bære det siste ansvaret.
+                        </p>
+                        <div class="book-links">
+                            <a href="TILMEGSELV/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf"><strong>[Les Komplett Bok (PDF, 62 s.)]</strong></a>
+                            <a href="TILMEGSELV/MANIFEST_REALITETENS_INNVILGELSE.pdf">[Kanonisk Manifest (PDF, 11 s.)]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/TILMEGSELV/MASTER_MANUSKRIPT_SAMLET.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/fokuspunktet_ku_paa_avstand.jpg" alt="Boka nr. 1 &amp; Realiseringsgrammatikk">
+                    <div class="book-info">
+                        <h3>Boka nr. 1 — Kutt Flaten: Et Notis &amp; Bind III: Realiseringsgrammatikk</h3>
+                        <span class="book-subtitle">Syv portaler fra det somatiske ankeret til den litiske realiseringen</span>
+                        <p>
+                            Den komprimerte ur-utgaven av forfatterskapet (Barnets feber kl. 03:14, Odyssevs’ mast og steinhoggerens merke) sammen med den tredje hovedboken om realiseringsgrammatikk og Merkurs baneavvik.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/BOKA_NR_1_MASTER_MANUSKRIPT.pdf"><strong>[Les Boka nr. 1 (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/realiseringsgrammatikk_bok.pdf"><strong>[Les Bind III: Realiseringsgrammatikk (PDF)]</strong></a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/AUTORISERT_VIRKELIGHET_FEM_ESSAYS/AUTORISERT_VIRKELIGHET_MANUSKRIPT.md">[Essays: Autorisert Virkelighet]</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="showcase-section" id="monografiserien-bind-x-xiv">
+            <span class="archive-num">UTSTILLINGSVINDU // AVDELING II</span>
+            <h2>Monografiserien (Bind VIII &amp; Bind X–XIV) — Matematisk Fysikk &amp; Kybernetikk</h2>
+            <p>
+                De vitenskapelige og arkitektoniske fagmonografiene kompilert etter skjev-produktet <em>S<sub>tot</sub> = Y × H</em>: en sammenhengende, norskspråklig teoretisk hovedkropp (<em>Y</em>) kombinert med et lukket teknisk vitnevedlegg (<em>H</em>) uten tilbakevirkning (<em>∂y<sub>t+1</sub> / ∂W<sub>t</sub> ≡ 0</em>).
+            </p>
+
+            <div class="book-grid">
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/COVER_10_EINSTEIN_ZENODO_KOMPENDIUM.png" alt="Bind X: Einstein &amp; Feltligningene">
+                    <div class="book-info">
+                        <h3>Bind X: Einstein &amp; Feltligningene — Non Generatur, Sed Admittitur</h3>
+                        <span class="book-subtitle">Det epistemiske kuttet, Gödels metrikk, sech⁴-projeksjonsstress og Nash–Moser-regulering i Fréchet-rom (M_pub v3.1)</span>
+                        <p>
+                            Beviser via Gödels roterende støvmetrikk (<em>r<sub>0</sub> &gt; r<sub>CTC</sub></em>) at Einsteins feltligninger alene er en underbestemt kandidatgenerator (NP). Utleder den kausale clutchen <em>Π<sub>A</sub> = (I + N<sub>A</sub>)⁻¹</em>, det kovariante projeksjonsstresset <em>Σ<sub>μν</sub><sup>irr</sup> ∝ ε⁻² sech⁴(d/2ε)</em>, Nash–Moser-glatting i <em>B = (0,1)</em>, PCSE fase-hysterese (<em>Δp = 0,126</em>) og Fréchet-derivasjonen av Weyl-admisjonskjernen <em>D<sub>adm</sub>(Ψ<sub>2</sub>)</em>.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/EINSTEIN_ZENODO_SAMLET_KOMPENDIUM.pdf"><strong>[Komplett Utgave med Omslag (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/EINSTEIN_MONOGRAFI_NON_GENERATUR_SED_ADMITTITUR.pdf">[Ren LaTeX-Monografi M_pub (PDF)]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/EINSTEIN_ZENODO_MASTER_KOMPENDIUM.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/COVER_11_REVERSIBILITET_ZENODO_KOMPENDIUM.png" alt="Bind XI: Reversibilitet &amp; Involusjon">
+                    <div class="book-info">
+                        <h3>Bind XI: Reversibilitet &amp; Involusjon (Reversible²)</h3>
+                        <span class="book-subtitle">Lokal involusjon (Rev¹: F(F(s)) = s), domenegrensen mot konsekvens (Rev²) og epoke-separert gjenåpning (R_AUTH)</span>
+                        <p>
+                            Formaliserer skillet mellom det reversible pre-commit-faseminnet (<em>D<sub>0</sub>/D<sub>1</sub></em>) og irreversibel materiell konsekvens (<em>D<sub>2</sub>/D<sub>3</sub></em>). Utleder involusjons-projeksjons-isomorfien <em>R = 2P − I</em>, Bloch-sfærens kvanteinvolusjon, dual-rail paritet over <em>ℤ<sub>2</sub><sup>1000</sup></em> på den kritiske linjen <em>Re(s) = 1/2</em>, Lyapunov-horisonten <em>t*</em>, Tre-Lås-Teoremet og epoke-separert re-armering <em>D<sub>3</sub><sup>(k)</sup> → D<sub>0</sub><sup>(k+1)</sup></em>.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/REVERSIBILITET_ZENODO_SAMLET_KOMPENDIUM.pdf"><strong>[Komplett Utgave med Omslag (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/REVERSIBILITET_MONOGRAFI_REVERSIBLE_SQUARED.pdf">[Ren LaTeX-Monografi (PDF)]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/REVERSIBILITET_ZENODO_MASTER_KOMPENDIUM.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/COVER_12_POINCARE_ZENODO_KOMPENDIUM.png" alt="Bind XII: Henri Poincaré &amp; Faserommet">
+                    <div class="book-info">
+                        <h3>Bind XII: Henri Poincaré &amp; Faserommet — Dør 19</h3>
+                        <span class="book-subtitle">Rommet for urealiserte liv, temporale kontrollorganer (Q₁–Q₁₀), Gelfand-tripler og det representasjonsløftede snittet</span>
+                        <p>
+                            Disambiguerer Poincaré-snitt (<em>Σ<sub>k</sub></em>), Poincaré-gruppen og Poincaré-ballen. Løser lukkings-paradokset for åpne og ikke-lukkende baner i Gelfand-tripler (<em>V ↪ H ↪ V'</em>) ved å evaluere kontraksjon på det representasjonsløftede normalfiberet <em>‖m<sub>k</sub> − R(x<sub>k</sub>)‖<sub>Σ<sub>k</sub></sub> ≤ ε<sub>drift</sub></em>.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/POINCARE_ZENODO_SAMLET_KOMPENDIUM.pdf"><strong>[Komplett Utgave med Omslag (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/POINCARE_MONOGRAFI_FASEROMMET_OG_DOER_19.pdf">[Ren LaTeX-Monografi (PDF)]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/POINCARE_ZENODO_MASTER_KOMPENDIUM.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/COVER_13_GODEL_ZENODO_KOMPENDIUM.png" alt="Bind XIII: Kurt Gödel &amp; Det Ytre Vitnet">
+                    <div class="book-info">
+                        <h3>Bind XIII: Kurt Gödel &amp; Det Ytre Vitnet</h3>
+                        <span class="book-subtitle">Ufullstendighetens fysiske anker (F ⊬ Con(F)), Belnap–Dunn FOUR-logikk, Venger-manifolden og Omsorgsprotokollen</span>
+                        <p>
+                            Fra Gödels brev til von Neumann (1956) og Turings halteproblem til eksplosjonsvern i bilattice <em>FOUR = {T, F, N, B}</em>, spinn-1/2 4π-holonomi i Venger-manifolden, Teoremet om Ekstern Bevisbyrde (Bøff vs. Bløff), Dør 28 Suverenitetsvern og den asymmetriske Omsorgsprotokollen.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/GODEL_ZENODO_SAMLET_KOMPENDIUM.pdf"><strong>[Komplett Utgave med Omslag (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/GODEL_MONOGRAFI_DET_YTRE_VITNET.pdf">[Ren LaTeX-Monografi (PDF)]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/GODEL_ZENODO_MASTER_KOMPENDIUM.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/COVER_14_MAXWELL_ZENODO_KOMPENDIUM.png" alt="Bind XIV: Maxwell &amp; Demonens Pris">
+                    <div class="book-info">
+                        <h3>Bind XIV: Maxwell &amp; Demonens Pris</h3>
+                        <span class="book-subtitle">Elektrodynamisk admisjon, Poynting-dissipasjon, CFJ–Proca-birefringens, Casimir-kuttet og Den langsomme heisen</span>
+                        <p>
+                            Forener Szilard–Brillouin–Landauer-løsningen på Maxwells demon (<em>ΔQ ≥ k<sub>B</sub>T ln 2</em>) med Poyntings energibalanse, Faraday–Lenz-induksjonsmotstand, evanescent HOLD under Proca-gapet (<em>ω &lt; ω<sub>cut</sub></em>), Euler–Maclaurin-utledning av Casimir-trykket (<em>P<sub>C</sub> = −π²ℏc / 240a⁴</em>) og endelig-tids termodynamikk i Dør 18.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/MAXWELL_ZENODO_SAMLET_KOMPENDIUM.pdf"><strong>[Komplett Utgave med Omslag (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/MAXWELL_MONOGRAFI_DEMONENS_PRIS.pdf">[Ren LaTeX-Monografi (PDF)]</a>
+                            <a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/MAXWELL_ZENODO_MASTER_KOMPENDIUM.md">[Manuskript (MD)]</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="book-card">
+                    <img class="book-cover" src="morandi/COVER_08_INFRANETT_OG_ORGELKRAFT.png" alt="Bind VIII: Infranett &amp; OrgelKraft">
+                    <div class="book-info">
+                        <h3>Bind VIII: Infranett &amp; OrgelKraft — Samlede Monografier</h3>
+                        <span class="book-subtitle">Beredskapsarkitektur, IT/OT-prosessikkerhet, Soret-termoforese og eksakt rasjonalt massebalanseregnskap</span>
+                        <p>
+                            Samlet utgave av Infranett- og OrgelKraft-monografiene (Del I–VIII): Sokrates, Oleinik, safirvinduet på 500 meters dyp, Leidenfrost-krisen, Landauers toll og feillukket OT-sikkerhetsarkitektur.
+                        </p>
+                        <div class="book-links">
+                            <a href="03_FERDIGE_BOKER_PDF/INFRANETT_OG_ORGELKRAFT_SAMLET_BOK.pdf"><strong>[Komplett Utgave med Omslag (PDF)]</strong></a>
+                            <a href="03_FERDIGE_BOKER_PDF/INFRANETT_V05_DE_FIRE_ESSAYENE_SOKRATES_OLEINIK_SAFIR_LEIDENFROST_LANDAUER.pdf">[De Fire Essayene (PDF)]</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -361,7 +634,50 @@
             </div>
         </div>
 
-        <div class="archive-links">
+        <div class="archive-item" id="potter-og-kar-galleri">
+            <span class="archive-num">XII // GALLERI: MORANDI MØTER VERDENSMESTERNE</span>
+            <h2>Potter og Kar på Verkstedbordet — Blikket Ut Gjennom Vinduet</h2>
+            <p>
+                Syv oljestudier der Giorgio Morandis tause, kalkmatte krukker, kobberkjeler og steingods står som et urokkelig anker i forgrunnen på verkstedbordet, mens verdensmesternes stormer, brenninger, fjordhimler og vannliljedammer utspiller seg rett utenfor vinduskarmen.
+            </p>
+
+            <div class="painting-grid">
+                <div class="morandi-study" style="margin: 0;">
+                    <img src="morandi/kjente_malerier_potter_og_kar_01_stjernenatt.jpg" alt="Potter og kar foran Stjernenatt">
+                    <div class="morandi-caption">I. Potter og kar foran Stjernenatt — Støpejernsgryte, kobberkanne og kalkhvite krukker mot virvlende nattehimmel.</div>
+                </div>
+                <div class="morandi-study" style="margin: 0;">
+                    <img src="morandi/kjente_malerier_potter_og_kar_02_den_store_bolgen.jpg" alt="Potter og kar mot Den store bølgen">
+                    <div class="morandi-caption">II. Potter og kar mot Den store bølgen — Tungt steingods på trebordet mens brenningen reiser seg utenfor.</div>
+                </div>
+                <div class="morandi-study" style="margin: 0;">
+                    <img src="morandi/kjente_malerier_potter_og_kar_03_munch_fjordhimmel.jpg" alt="Potter og kar ved Fjordhimmelen">
+                    <div class="morandi-caption">III. Potter og kar ved Fjordhimmelen — Tause mugger på rekkverket mot blodrød kveldshimmel over fjorden.</div>
+                </div>
+                <div class="morandi-study" style="margin: 0;">
+                    <img src="morandi/kjente_malerier_potter_og_kar_04_monet_soloppgang_havn.jpg" alt="Potter og kar ved Soloppgang i havnen">
+                    <div class="morandi-caption">IV. Potter og kar ved Soloppgang i havnen — Kobberkjele og leirkrukker i disig morgenlys og oransje solspeil.</div>
+                </div>
+            </div>
+
+            <div class="painting-grid">
+                <div class="morandi-study" style="margin: 0;">
+                    <img src="morandi/morandi_moter_monet_01_stilleben_ved_vannliljedammen.jpg" alt="Morandi møter Monet I: Stilleben ved vannliljedammen">
+                    <div class="morandi-caption">V. Morandi møter Monet I — Kalkmatte krukker på steinhelle foran vannliljedammens lysbrytning.</div>
+                </div>
+                <div class="morandi-study" style="margin: 0;">
+                    <img src="morandi/morandi_moter_monet_02_kuttflaten_i_morgentake.jpg" alt="Morandi møter Monet II: Kuttflaten i morgentåke">
+                    <div class="morandi-caption">VI. Morandi møter Monet II — Skarp arkitektonisk kuttflate gjennom impresjonistisk morgentåke.</div>
+                </div>
+            </div>
+
+            <div class="morandi-study">
+                <img src="morandi/morandi_moter_monet_03_lysbrytning_i_stille_rom.jpg" alt="Morandi møter Monet III: Lysbrytning i stille rom">
+                <div class="morandi-caption">VII. Morandi møter Monet III — Lysbrytning gjennom krystall og kalkhvitt steingods i det stille atelieret.</div>
+            </div>
+        </div>
+
+        <div class="archive-links" id="arkivregister">
             <span class="archive-num">ARKIVREGISTER</span>
             <ul>
                 <li><a href="verdensbiblioteket/">0. Verdensbiblioteket — Fjorten verk og langbordet i furu (Landauer, Jesus, Poincaré, Nash, Sokrates, Hamsun, Bjørneboe, Nygårdshaug, 1728-traktaten, Nansen, Curie/Rogstad/Simone, Leavitt/Tuve &amp; Plansje I–II)</a></li>
@@ -374,13 +690,20 @@
                 <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DE_TRE_AKSIOMENE_OG_2PLUS1_PROJISERT_VIRKELIGHET.md">IVc. De Tre Aksiomene &amp; 2+1 Projisert Virkelighet (Merkur måler vinglingen, Gödel forklarer skyggen)</a></li>
                 <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/143_OMSORGSPROTOKOLLEN_DEN_ASYMMETRISKE_KJAERLIGHETEN.md">IVd. Omsorgsprotokollen v2.2 — Den Asymmetriske Kjærligheten (DOI: 10.5281/zenodo.23451783)</a></li>
                 <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/187_ASYMMETRIEN_MELLOM_BOLGE_OG_LOV.md">IVe. Asymmetrien mellom Bølge og Lov v2.0 — Det som er mangfoldighet i NP, blir paradoks i P (DOI: 10.5281/zenodo.23452575)</a></li>
+                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/18_ISOLERING_AV_DE_5_INFILTRERENDE_EGENSKAPENE.md">IVf. Isolering av De 5 Infiltrerende Egenskapene («De 5 Blindpassasjerene»)</a></li>
                 <li><a href="https://github.com/sololys/skrivevaerelset/tree/main/TILMEGSELV">V. Konseptuell Granitt — Et forsøk på sannhet (Til Meg Selv, DEL I–V + Vedlegg A + Baksidetavle: Codex for NLK)</a> · <a href="TILMEGSELV/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf">[PDF, 62 s.]</a> · <a href="TILMEGSELV/MANIFEST_REALITETENS_INNVILGELSE.pdf">[Manifest, 11 s.]</a></li>
-                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_1_KUTTFLATEN/KUTTFLATEN_MASTER_MANUSKRIPT.md">VI. Bind I — Kuttflaten</a></li>
-                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_2_FYSIKK_FOR_METAFYSIKK/CODEX_GEOCYBERNETICA_MASTER_MANUSKRIPT.md">VII. Bind II — Fysikk for Metafysikk</a></li>
-                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_3_REALISERINGSGRAMMATIKK/REALISERINGSGRAMMATIKK_MASTER_MANUSKRIPT.md">VIII. Bind III — Realiseringsgrammatikk</a></li>
-                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/DE_TRE_LERRETENE/MANUSKRIPT_DE_TRE_LERRETENE.md">IX. De Tre Lerretene</a></li>
+                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_1_KUTTFLATEN/KUTTFLATEN_MASTER_MANUSKRIPT.md">VI. Bind I — Kuttflaten</a> · <a href="03_FERDIGE_BOKER_PDF/kuttflaten_bok.pdf">[PDF]</a></li>
+                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_2_FYSIKK_FOR_METAFYSIKK/CODEX_GEOCYBERNETICA_MASTER_MANUSKRIPT.md">VII. Bind II — Fysikk før Metafysikk</a></li>
+                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/BIND_3_REALISERINGSGRAMMATIKK/REALISERINGSGRAMMATIKK_MASTER_MANUSKRIPT.md">VIII. Bind III — Realiseringsgrammatikk</a> · <a href="03_FERDIGE_BOKER_PDF/realiseringsgrammatikk_bok.pdf">[PDF]</a></li>
+                <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/DE_TRE_LERRETENE/MANUSKRIPT_DE_TRE_LERRETENE.md">IX. De Tre Lerretene</a> · <a href="03_FERDIGE_BOKER_PDF/de_tre_lerretene_bok.pdf">[PDF]</a></li>
                 <li><a href="https://github.com/sololys/skrivevaerelset/blob/main/01_BOKER_UNDER_ARBEID/AUTORISERT_VIRKELIGHET_FEM_ESSAYS/KAPITTEL_28_DEN_TRANGE_PORTEN_POINCARE_LANDAUER.md">X. Autorisert Virkelighet — Den Trange Porten</a></li>
-                <li><a href="https://github.com/sololys/skrivevaerelset/wiki">XI. Skriveværelsets Wiki &amp; Arkivkatalog</a></li>
+                <li><a href="03_FERDIGE_BOKER_PDF/EINSTEIN_ZENODO_SAMLET_KOMPENDIUM.pdf">XI. Bind X — Einstein &amp; Feltligningene: Non Generatur, Sed Admittitur (M_pub v3.1 PDF)</a> · <a href="03_FERDIGE_BOKER_PDF/EINSTEIN_MONOGRAFI_NON_GENERATUR_SED_ADMITTITUR.pdf">[Ren Monografi]</a></li>
+                <li><a href="03_FERDIGE_BOKER_PDF/REVERSIBILITET_ZENODO_SAMLET_KOMPENDIUM.pdf">XII. Bind XI — Reversibilitet &amp; Involusjon (Reversible² v3.0 PDF)</a> · <a href="03_FERDIGE_BOKER_PDF/REVERSIBILITET_MONOGRAFI_REVERSIBLE_SQUARED.pdf">[Ren Monografi]</a></li>
+                <li><a href="03_FERDIGE_BOKER_PDF/POINCARE_ZENODO_SAMLET_KOMPENDIUM.pdf">XIII. Bind XII — Henri Poincaré &amp; Faserommet (Dør 19 v3.0 PDF)</a> · <a href="03_FERDIGE_BOKER_PDF/POINCARE_MONOGRAFI_FASEROMMET_OG_DOER_19.pdf">[Ren Monografi]</a></li>
+                <li><a href="03_FERDIGE_BOKER_PDF/GODEL_ZENODO_SAMLET_KOMPENDIUM.pdf">XIV. Bind XIII — Kurt Gödel &amp; Det Ytre Vitnet (v3.0 PDF)</a> · <a href="03_FERDIGE_BOKER_PDF/GODEL_MONOGRAFI_DET_YTRE_VITNET.pdf">[Ren Monografi]</a></li>
+                <li><a href="03_FERDIGE_BOKER_PDF/MAXWELL_ZENODO_SAMLET_KOMPENDIUM.pdf">XV. Bind XIV — Maxwell &amp; Demonens Pris (v3.0 PDF)</a> · <a href="03_FERDIGE_BOKER_PDF/MAXWELL_MONOGRAFI_DEMONENS_PRIS.pdf">[Ren Monografi]</a></li>
+                <li><a href="03_FERDIGE_BOKER_PDF/INFRANETT_OG_ORGELKRAFT_SAMLET_BOK.pdf">XVI. Bind VIII — Infranett &amp; OrgelKraft Samlede Monografier (PDF)</a></li>
+                <li><a href="https://github.com/sololys/skrivevaerelset/wiki">XVII. Skriveværelsets Wiki &amp; Arkivkatalog</a></li>
             </ul>
         </div>
     </div>
