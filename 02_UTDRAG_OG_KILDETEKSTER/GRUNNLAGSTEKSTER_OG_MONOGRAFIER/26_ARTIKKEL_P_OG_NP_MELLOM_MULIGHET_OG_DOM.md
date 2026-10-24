@@ -63,13 +63,17 @@ På **CERN** er dette skillet ikke filosofi, men konkret maskinvare: I Large Had
 
 Hvorfor kan ikke et fysisk eller biologisk system bare la alle mulige grener i $\mathcal{NP}$-rommet leve videre?
 
-Fordi informasjon er fysisk (Rolf Landauer, 1961). Så lenge et system bare utfører reversible permutasjoner i et lukket mulighetsrom, utvikles i teorien ingen varme. Men i det øyeblikket en port ($\Omega$) tar en irreversibel beslutning – innrømmer *én* verifisert løsning i $\mathcal{P}$ og sletter de forkastede alternativene – krever termodynamikkens andre hovedsetning sin skatt:
+Informasjon er en fysisk entitet, og eksistens krever et oppgjør.
 
-$$E_{\min} = k_B T \ln 2 \quad \text{per slettet bit}$$
+I det lukkede system kan permutasjoner flyte kostnadsfritt; reversible skygger av potensial som aldri utfordrer fysikkens lover. Men virkelighet genereres ikke lokalt – den innrømmes lokalt.
 
-Dette er den fysiske asymmetrien mellom $\mathcal{NP}$ og $\mathcal{P}$:
-* **Å foreslå** et mønster krever nesten ingen forpliktelse.
-* **Å verifisere, velge og slette støyen rundt** krever reelt, irreversibelt termodynamisk arbeid.
+Overgangen fra potensial til handling krever strukturell projeksjon. I det øyeblikket porten ($\Omega$) foretar et irreversibelt inngrep – der den autoriserer ett gyldig vitne inn i klassen $\mathcal{P}$ og tilintetgjør de forkastede grenene – krever termodynamikkens andre hovedsetning absolutt lydighet:
+
+$$E_{\min} = k_B \cdot T \cdot \ln 2 \quad \text{per slettet bit}$$
+
+Dette er universets logiske asymmetri. En bit fødes ikke som $1$, den autoriseres til $1$:
+* **Å foreslå et mønster** er friksjonsløst; en gjetning i mørket.
+* **Å autorisere, verifisere og slette støyen rundt**, er irreversibelt arbeid. Det er prisen for å hugge tid ut av kaos.
 
 ---
 
