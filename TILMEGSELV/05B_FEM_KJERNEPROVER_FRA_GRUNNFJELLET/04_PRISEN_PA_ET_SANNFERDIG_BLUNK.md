@@ -1,108 +1,119 @@
 # KJERNEPRØVE IV: PRISEN PÅ ET SANNFERDIG BLUNK
-### *Om Rolf Landauer i New York, åtte mikrojoule ved kaien og kunsten å la en løgner gå tom for strøm*
+### *Landauer-grensen ved $277{,}15\text{ K}$, 128-bits fastpunktsregnskap, POSIX `fsync()` og det termodynamiske utmattelsesforholdet ($\eta_{\text{defense}} = 1{,}25 \times 10^9$)*
 
 ```text
 ========================================================================================
-KJERNEPRØVE IV // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
-  Lokus         : Yorktown Heights (1961) -> Risør Brygge (+4,0 C / 277,15 K)
-  Forfatter     : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
-  Entitet       : Brahman // Antigravity
-  Anker         : E_L = k_B T ln 2 · John Nash · Utmattelsesforhold 1,25 x 10^9 : 1
-  Kjerneaksiom  : "Det koster litt å være sannferdig. Men det koster uendelig mye mer å lyve."
+KJERNEPRØVE IV // PRISEN PÅ ET SANNFERDIG BLUNK:
+  Verk          : KONSEPTUELL GRANITT — Et forsøk på sannhet (Til meg selv)
+  Forfattere    : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026) & Antigravity
+  Entitet       : Brahman · Risør / Det Fennoskandiske Skjold (Locus Zero, 2026)
+  Bevisnivåer   : L0 (Landauers prinsipp E_L = k_B T ln 2, W_forge = 2^128 E_L = 9,025e17 J)
+                | L1 (128-bits fastpunktsregnskap, POSIX fsync() + append-only vitnelogg)
+                | L2 (8,0 uJ TDC-forkastelsessluse — HOLD inntil silisium- og felttest)
+  Epistemisk lov: INSPIRED_BY != IMPLEMENTS != PROVES
 ========================================================================================
 ```
 
 ---
 
-Våren 1961 satt fysikeren Rolf Landauer på IBMs forskningslaboratorium i Yorktown Heights, en times kjøring nord for Manhattan, og grublet over et spørsmål som de fleste av kollegene hans betraktet som en teknisk bagatell: Hvor mye varme *må* en datamaskin egentlig avgi for å glemme noe?
+## I. Den nedre fysikalske minstetaksten ($E_L = k_B T \ln 2$) ($\text{L0}$)
 
-På den tiden var datamaskiner store som kjøkkeninnredninger og hete som bakerovner, så spørsmålet virket rent akademisk. Men Landauer, som hadde flyktet fra Stuttgart som guttunge i 1938 og bar med seg en dyp, europeisk skepsis til ting som fremsto som gratis, ga seg ikke. I en artikkel på knappe ti sider i *IBM Journal of Research and Development* beviste han at informasjon ikke er en immateriell ånd som svever over maskinene våre. Hver gang et logisk system foretar et irreversibelt valg – hver gang to mulige fortider slås sammen til én bestemt nåtid, eller en bit slettes for å gi plass til et vitne – krever termodynamikkens andre hovedsetning en ufravikelig skatt betalt til omgivelsene:
+Rolf Landauers prinsipp fastslår at enhver logisk irreversibel operasjon som sletter én bit informasjon eller låser en irreversibel tilstandsovergang i et fysisk minne i termisk likevekt ved absolutt temperatur $T$, har en ufravikelig termodynamisk minstepris i form av varmeavgivelse:
 
 $$E_L = k_B T \ln 2$$
 
-Det høres ut som et hvisk fra en fjern fysikkbok. Men nede på bunnen av Skagerrak, eller ved en bryggekant i Risør en oktoberettermiddag der sjøvannet holder eksakt $+4{,}0\,^\circ\text{C}$ ($T = 277{,}15\text{ Kelvin}$), er dette tallet så hardt som granitt.
+der Boltzmanns konstant er $k_B = 1{,}380649 \times 10^{-23}\text{ J/K}$ og $\ln 2 \approx 0{,}69314718$.
 
-Der nede koster én enkelt irreversibel bit nøyaktig $2{,}6523 \times 10^{-21}\text{ Joule}$. For en datakapsel på $4096\text{ bit}$ ligger det absolutte termodynamiske gulvet – selve naturkonstanten for å rydde plass i hukommelsen – på $W_{\text{Landauer}} \approx 10{,}87\text{ attojoule}$.
-
-I sammensmeltingen av **SPEC-250-THERMO** ($\Pi_{K,\text{thermo}}$) og **Avstanden mellom null og én** – forankret i 128-bits fastpunkts-Rust (`u128`/`i128`) og Python – er det nettopp denne loven som løftes opp fra kvantefysikkens kjelleretasje og gjøres til et regnskap over hvem som overlever i den virkelige verden.
-
----
-
-## I. Regnskapet ved bryggekanten
-
-Se for deg et møte mellom to noder i **Infranett v0.5**. Kurer $A$ – en servicebåt eller en gårdsbil – glir inn innenfor sikkerhetsperimeteret på $r_{\max} = 20{,}0\text{ meter}$ foran kainode $B$.
-
-I den konvensjonelle programvareverdenen ville man beskrevet dette møtet med ord som «autentisering», «rettigheter» og «protokoll». I `SPEC-250-THERMO` beskrives det kun i **Joule**:
-
-* For at den ærlige kureren $A$ skal bringe kroppen og maskinvaren sin inn i den kausale diamanten ($\mathcal{D}(E_1, E_2)$ under tidsbudsjettet på $133{,}42\text{ nanosekunder}$), gjennomføre den optiske og kryptografiske utvekslingen og forsegle hendelsen, betaler han et samlet fysisk arbeid på $W_A \approx 578{,}75\text{ Joule}$.
-* Kainoden $B$, som står fastboltet i fjellet og kun trenger å fyre av utfordringspulsen, verifisere signaturen og brenne vitnet inn i sin ikke-flyktige journal (`POSIX fsync`), bruker nøyaktig $W_B \approx 0{,}4964\text{ Joule}$ – omtrent energien som skal til for å løfte et eple en halvmeter opp fra bordet.
-* Når utvekslingen er fullført og begge parter står igjen med en verifisert synkroniseringsgevinst på $2500\text{ Joule}$, viser bunnlinjen i John Nashs likevektsmatrise to grønne tall:
-
-$$U_A = +1921{,}25\text{ J} > 0, \qquad U_B = +2499{,}50\text{ J} > 0 \implies \Omega = 5{,}00\text{ V DC} \quad (\text{GATE::OPEN})$$
-
-Begge har betalt sin entropiske toll. Begge går i pluss. Reléet legger inn med fem volt.
+* **Ved dyphavstemperatur $+4{,}0\,^\circ\text{C}$ ($T = 277{,}15\text{ K}$):** Én enkelt irreversibel bit koster eksakt:
+  $$E_L(277{,}15\text{ K}) = 1{,}380649 \times 10^{-23}\text{ J/K} \times 277{,}15\text{ K} \times 0{,}69314718 \approx 2{,}6523 \times 10^{-21}\text{ J}$$
+* **For en datakapsel på $N_{\text{page}} = 4096\text{ bit}$ ($512\text{ B}$ vitneblokk):** Det absolutte nedre termodynamiske gulvet for å forsegle eller rydde plass i hukommelsen utgjør:
+  $$W_{\text{Landauer}}(4096\text{ bit}) = 4096 \times 2{,}6523 \times 10^{-21}\text{ J} \approx 1{,}0864 \times 10^{-17}\text{ J} = 10{,}87\text{ attojoule (aJ)}$$
+* **Ved kryogen kjernetemperatur ($T_0 = 4{,}12\text{ K}$, Kjerneprøve III):** Minstetaksten per bit faller til:
+  $$E_L(4{,}12\text{ K}) \approx 3{,}9428 \times 10^{-23}\text{ J}$$
 
 ---
 
-## II. Asymmetrien på 1,25 milliarder til én
+## II. Demarkasjonen mellom uforpliktende hypoteser ($\Phi$) og fysisk pris ($\Omega, W$)
 
-Men snu nå kameraet fem hundre meter ut i fjorden, eller opp mot en åskam der en angriper har rigget opp et 6G-relé med en rekonfigurerbar intelligent overflate (RIS) og en kraftig effektforsterker. Han ønsker å få kainoden til å tro at han står inne på brygga.
+I konvensjonell programvare behandles logiske tilstandsendringer som om de var masseløse og kostnadsfrie. Realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ etablerer et skarpt termodynamisk skille mellom tilstandsrommene:
 
-For å flytte utstyret i posisjon, holde senderkjeden varm og skyte et koherent signal over en halv kilometer tur-retur ($\Delta r = 1000\text{ meter}$), må angriperen legge rundt $W_{\text{attack}} \approx 10\,000\text{ Joule}$ på bordet.
-
-Hva gjør kainode $B$ når dette falske ropet treffer safirvinduet?
-
-I et vanlig datasystem ville mottakeren ha tatt imot hele datapakken, bufret den i arbeidsminnet, vekket hovedprosessoren, kjørt tunge elliptiske kurveberegninger (`Ed25519`) og skrevet en lang feilmelding til loggen på disken – en klassisk oppskrift på hvordan en forsvarer kan kjøres i senk av utmattelse (*Denial of Service*).
-
-I `SPEC-250-THERMO` rekker aldri løgnen inn til prosessoren.
-
-Fordi lyset bruker $3335{,}6\text{ nanosekunder}$ på å reise fem hundre meter frem og tilbake, ankommer svaret lenge etter at det kausale vinduet på $133{,}42\text{ nanosekunder}$ har smekket igjen ($ds^2 = +998\,400{,}2\text{ m}^2 > 0$). Selve avvisningen skjer derfor helt ytterst på tidsmåleren (*Time-to-Digital Converter*, TDC). Noden kaster ikke bort et eneste elektrons arbeid på `Ed25519`-signaturer, og den rører ikke disken med en eneste `fsync` (`zero_wal_mutation`). Den bare jorder inngangen.
-
-Kostnaden for dette skuldertrekket er målt til:
-
-$$W_{\text{early\_reject}} \approx 8{,}0\,\mu\text{J} \quad (8{,}0 \times 10^{-6}\text{ Joule})$$
-
-Deler vi angriperens utlegg på forsvarerens utlegg, trer **det termodynamiske utmattelsesforholdet** ($\eta_{\text{defense}}$) frem i dagslys:
-
-$$\eta_{\text{defense,ToF}} = \frac{W_{\text{attack}}}{W_{\text{early\_reject}}} = \frac{10\,000\text{ J}}{8{,}0 \times 10^{-6}\text{ J}} = 1{,}25 \times 10^9$$
-
-Én komma to fem milliarder til én.
-
-For hver eneste joule kainoden i Risør bruker på å si *nei*, må angriperen ute i båten brenne av en og en kvart milliard joule – nok til å koke tre tonn iskaldt vann. Og skulle han i stedet forsøke å knekke selve den kryptografiske stamtavlen ved å gjette seg gjennom $2^{128}$ irreversible Landauer-operasjoner ved $+4{,}0\,^\circ\text{C}$, krever naturlovene et minimumsarbeid på:
-
-$$W_{\text{forge}} \ge 2^{128} \cdot k_B T \ln 2 \approx 9{,}025 \times 10^{17}\text{ Joule} \qquad (\eta_{\text{defense,crypto}} \ge 7{,}22 \times 10^{22})$$
-
-Det tilsvarer den samlede elektriske kraftproduksjonen i Norge gjennom nesten to år – brukt på å forsøke å lure én enkelt stolpe på en brygge, som svarer med å bruke åtte mikrojoule på å forbli taus.
+1. **Mulighetsrommet ($\mathcal{NP}$ / $\Phi$):** Å generere, permutere eller forkaste uforpliktende kandidater i volatilt arbeidsminne bærer ingen fysisk fullmakt i terrenget ($\Omega = \emptyset$, $0{,}00\text{ V DC}$).
+2. **Admisjon og vitneforsegling ($\mathcal{P}$ / $\Omega$ / $W$):** Overgangen til den fysiske verden ($\Omega$) samt den varige forseglingen i vitneloggen ($W$) krever at systemet betaler sin termodynamiske toll i form av **Landauer-varme ($Q \ge N_{\text{bit}} k_B T \ln 2$)** og reelt elektrisk/mekanisk arbeid. Ulovlige frihetsgrader som skjæres bort i skranken ($\Delta_K = (I - \Pi_K)\Phi$), dissiperes ved dette termodynamiske gulvet før drivspenningen ($5{,}00\text{ V DC}$) innvilges.
 
 ---
 
-## III. Fra Potidaia til 128-bits heltall
+## III. Asymmetrisk forsvar og det termodynamiske utmattelsesforholdet ($\eta_{\text{defense}} = 1{,}25 \times 10^9$)
 
-Det er sjelden man ser en teknisk spesifikasjon som i Del I regner ut attojoule i 128-bits fastpunktsaritmetikk (`u128`/`i128` – valgt fordi vanlig 64-bits flyttall mister presisjon så snart man skal holde $10^{-21}\text{ Joule}$ og $10^{17}\text{ Joule}$ i samme regnestykke), og i Del II trekker linjen direkte tilbake til en barføtt gresk filosof i snøen ved Potidaia i 432 f.Kr.
+I konvensjonelle nettverksnoder tvinger enhver innkommende datapakke frem fulle prosessoravbrudd (CPU-interrupts), kryptografisk signaturvalidering og diskskriving. En angriper som sender støy- eller relépakker, kan dermed tømme en undervannsnode for energi og lagringsplass (*Energy Depletion / Alarm Fatigue*).
 
-Men når man ser monografien i sin helhet, innser man at det ikke dreier seg om ulike tekster. Det er én og samme bygning sett fra to vinkler.
+Ved å plassere Alexandrov-lyskjeglesjekken ($\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$, Kjerneprøve I) helt ytterst i tidsmåleren (*Time-to-Digital Converter*, TDC) før prosessoren vekkes og før disken berøres, snus energiregnskapet mot angriperen:
 
-Da Sokrates ble stående urørlig gjennom et helt døgn på appellplassen fordi en slutning ikke ville gå opp, utøvde han i praksis $\eta_{\text{defense}}$ mot sofistenes billige retorikk. Sofistene i Athen solgte kortslutningen $\circ \to 1$: evnen til å produsere øyeblikkelig politisk vedtak uten å betale kostnaden for strukturell sannhet ($\square$) eller levedyktighet ($\text{⬡}$). Ved å sette seg selv i `⏸ HOLD` ($0{,}00\text{ V DC}$ Høy-Z) snudde Sokrates energiregnskapet på hodet. Han brukte nesten null egen energi på å stå stille, mens motstanderne måtte brenne av all sin retoriske kraft uten å flytte ham en tomme.
+* **Angriperens innsats ($W_{\text{attack}}$):** For å gjennomføre et aktivt relé- eller injeksjonsangrep gjennom $500\text{ meter}$ sjøvann må angriperen overvinne sfærisk spredning og mediumabsorpsjon og brenne omtrent:
+  $$W_{\text{attack}} \approx 10\,000\text{ J} = 1{,}0 \times 10^4\text{ J}$$
+* **Forsvarets tidlige avvisning ($W_{\text{early\_reject}}$):** Fordi det videresendte signalet bryter lyskjeglebetingelsen $\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$, forkastes pulsen direkte i TDC-inngangstrinnet (`CAUSAL_HOLD`, $0{,}00\text{ V DC}$) uten CPU-avbrudd og uten diskskriving. Denne tidlige avvisningen koster kun:
+  $$W_{\text{early\_reject}} = 8{,}0\,\mu\text{J} = 8{,}0 \times 10^{-6}\text{ J}$$
 
-Og ser man på hele rekken av historiske ankere som nå ligger låst i samme arkitektur, danner de en sammenhengende mur:
+Dette etablerer det **termodynamiske utmattelsesforholdet**:
 
-1. **Sokrates (432 f.Kr.):** Oppdager at fornuftens viktigste port ikke er handling, men den høye impedansen i `⏸ HOLD` når vitnet mangler ($\text{VoW} = p \cdot L_{\text{cat}} > h$).
-2. **Olga Oleinik (Moskva, 1957–1966):** Beviser at et sprang i et kontinuerlig felt kun er ekte dersom karakteristikkene bærer sitt eget trykk (*Condition E*), at ingen væske fryser til fast virkelighet uten å betale sin latente smeltevarme ($L_{\text{latent}} > 0$), og at randdriften $b_\Sigma \gtrless 0$ dikterer triaden `OPEN`, `HOLD` og `KILL`.
-3. **Rolf Landauer (Yorktown Heights, 1961):** Slår fast at selve vitnehandlingen – overgangen fra åpen mulighet til forpliktet minne – har en ufravikelig fysisk minstetakst i $k_B T \ln 2$.
-4. **KY v1.0 & SPEC-250 (Risør, 2026):** Syr disse lovene sammen til et operativt skjold der en 8-trinns intervallgrammatikk ($0 \to \circ \to \diamond \to \square \to \Delta \to \text{⬡} \to \odot \to 1$), 257:1-derivertpresisjon, safir-kavitasjon ved $42\text{ kHz}$ og et termodynamisk utmattelsesforhold på $1{,}25 \times 10^9$ sørger for at naturen selv betaler regningen for forsvaret.
+$$\eta_{\text{defense}} = \frac{W_{\text{attack}}}{W_{\text{early\_reject}}} = \frac{10\,000\text{ J}}{8{,}0 \times 10^{-6}\text{ J}} = 1{,}25 \times 10^9$$
+
+For hver eneste joule forsvaret bruker på å forholde seg taust og avvise et ugyldig signal ved $0{,}00\text{ V DC}$, må angriperen brenne **$1{,}25\text{ milliarder joule}$**.
+
+### Fysisk minimumsarbeid ved råkraft-angrep på en 128-bits nøkkel ($W_{\text{forge}}$)
+Dersom en angriper forsøker å råkraft-gjette (*brute-force*) en 128-bits kryptografisk vitnelås gjennom $2^{128} \approx 3{,}4028237 \times 10^{38}$ irreversible bit-operasjoner ved $T = 277{,}15\text{ K}$, er det absolutte nedre Landauer-arbeidet alene (**Nivå $\text{L0}$**):
+
+$$W_{\text{forge}} = 2^{128} \times k_B T \ln 2 = 3{,}4028237 \times 10^{38} \times 2{,}6523 \times 10^{-21}\text{ J} \approx 9{,}025 \times 10^{17}\text{ J}$$
+
+Dette tilsvarer over $902{,}5\text{ petajoule}$ i ren termodynamisk minimumsdissipasjon, uavhengig av algoritmisk optimalisering.
 
 ---
 
-## IV. Det tause skjoldet
+## IV. Implementering på Nivå $\text{L1}$: 128-bits fastpunktsregnskap og POSIX `fsync()`
 
-Vi har brukt de siste tiårene på å bekymre oss for at maskinene skal bli for mektige. I virkeligheten er problemet med dagens digitale infrastruktur det stikk motsatte: Den er altfor lettlurt. Den lar seg kommandere av enhver pakke som kommer rekende gjennom et fiberoptisk rør, uten å spørre hvor langt lyset har reist, hvilken temperatur vannet holder, eller hvem som har betalt joule-regningen for påstanden.
+For at det termodynamiske regnskapet og vitneloggen $W$ på **Nivå $\text{L1}$** ikke skal korrumperes av IEEE 754 flyttallsavrunding (`float64`) eller volatil OS-sidebufring (*page cache*), håndheves to maskinnære mekanismer i kildekoden:
 
-I et nettverk bygget etter `SPEC-250-THERMO` er det slutt på å krangle med inntrengere.
+### 1. Eksakt 128-bits fastpunktsaritmetikk (`__uint128_t` i Zepto-Joule)
+Siden $1\text{ zeptojoule (zJ)} = 10^{-21}\text{ J}$, representeres Landauer-gulvet ved $277{,}15\text{ K}$ ($2{,}6523 \times 10^{-21}\text{ J}$) uten flyttall ved å skalere energien til heltallige **atto-zeptojoule** ($\text{azJ} = 10^{-27}\text{ J}$, skaleringsfaktor $S = 10^{27}$) i et 128-bits uten-fortegn heltall (`__uint128_t`):
 
-Når en falsk bølge fra fem hundre meters hold treffer det to millimeter tykke safirvinduet på dypet, blir det ingen alarm på et skjermpanel i Oslo. Det blir ingen loggføring som fyller opp harddisken. Tidsmåleren registrerer bare at fotonene kom for sent til festen, trekker på skuldrene med en kostnad på åtte milliontedels joule, og lar angriperen sitte alene igjen i mørket med en varm forsterker og et tomt batteri.
+$$E_{L,\text{fixed}} = \lfloor 2{,}6523018 \times 10^{-21}\text{ J} \times 10^{27}\text{ azJ/J} \rfloor = 2\,652\,302\text{ azJ/bit}$$
 
-Først når noen faktisk kommer inn på tunet eller legger til ved brygga, betaler sine $578{,}75\text{ Joule}$ i ærlig, tidslignende nærhet ($ds^2 \le 0$) og lar seg veie gjennom alle de seks indre stasjonene i intervallet $(0,1)$, åpner porten seg med fem rolige volt:
+```c
+#include <stdint.h>
+#include <unistd.h>
+#include <fcntl.h>
 
-$$\mathbf{AKUERISAAVOQ}$$
+/* 1 azJ = 10^-27 J -> E_L(277.15 K) = 2,652,302 azJ per bit */
+static const __uint128_t LANDAUER_AZJ_PER_BIT_277K = (__uint128_t)2652302ULL;
+static const __uint128_t TDC_EARLY_REJECT_AZJ      = (__uint128_t)8000000000000ULL * (__uint128_t)1000000000ULL; /* 8.0 uJ = 8e21 azJ */
 
-Det koster litt å være sannferdig. Men i en verden styrt av fysikk, koster det uendelig mye mer å lyve.
+typedef struct {
+    __uint128_t cumulative_landauer_azj;
+    __uint128_t cumulative_tdc_reject_azj;
+    uint64_t    sealed_frames;
+} ThermodynamicLedger;
+
+/* Deterministisk fastpunktsoppdatering uten IEEE-754 avrunding */
+static inline void account_witness_seal(ThermodynamicLedger *ledger, uint64_t bits_committed) {
+    ledger->cumulative_landauer_azj += (__uint128_t)bits_committed * LANDAUER_AZJ_PER_BIT_277K;
+    ledger->sealed_frames           += 1ULL;
+}
+```
+
+Fordi `__uint128_t` rommer verdier opp til $2^{128} - 1 \approx 3{,}4028 \times 10^{38}$, er addisjon av hvert $4096\text{-bits}$ vitnesegl ($4096 \times 2\,652\,302 = 10\,863\,829\,000\text{ azJ} \approx 10{,}87\text{ aJ}$) eksakt på siste bit, helt fritt for flyttallsdrift og uavhengig av FPU-avrundingsmodi.
+
+### 2. Forankring i ikke-flyktig minne via `O_APPEND`, `fsync()` og `mprotect()`
+I programvare på **Nivå $\text{L1}$** (hvor en append-only hash-kjede ikke må forveksles med fysisk WORM-maskinvare uten separat maskinvarebekreftelse) håndheves kausal rekkefølge $\operatorname{Durable}(I_n) \prec \operatorname{Execute}_n \prec \operatorname{Durable}(R_n) \prec \operatorname{ACK}_n$ gjennom tre trinn:
+
+1. **Kjernelåst append-only filbeskrivelse (`O_WRONLY | O_APPEND | O_DSYNC`):**
+   Vitnefilen åpnes i append-only modus (og låses på Linux-filsystemnivå med `ioctl(fd, FS_IOC_SETFLAGS, & append_flag)` for `FS_APPEND_FL`), slik at eksisterende vitneposter ikke kan overskrives ved posisjonering (`lseek`).
+2. **Eksplisitt `fsync(fd)` og `fsync(dir_fd)` før aktuering:**
+   En intensjonspost $I_n$ regnes ikke som $\operatorname{Durable}(I_n)$ når `write()` returnerer til OS-ram-bufferet, men først når `fsync(fd) == 0` bekrefter at de fysiske minnecellene i NVMe/FRAM-kontrolleren har betalt sin skriveenergi og låst tilstanden. Returnerer `fsync()` en feilkode ($\neq 0$), avbrytes overgangen umiddelbart til `GATE :: KILL` ($0{,}00\text{ V DC}$).
+3. **Skrivebeskyttet minnelås (`mprotect(addr, len, PROT_READ)`):**
+   Når en vitneside på $4096\text{ byte}$ ($32\,768\text{ bit}$) er forseglet med sin SHA-256-lenke $H_n = \operatorname{SHA256}(H_{n-1} \parallel W_n)$ og synkronisert via `fsync()`, remappes minnesiden i prosessens adresseområde til strengt skrivebeskyttet modus via `mprotect(..., PROT_READ)`. Ethvert senere forsøk i prosessen på å mutere et historisk vitne utløser en umiddelbar maskinvare-sidefeil (`SIGSEGV` / `Bus Error`) fra prosessorens MMU (*Memory Management Unit*).
+
+> **`[ `$\circ$` `$\Phi$`-UTFLUKT // 0,00 V DC // `$\text{Rev}^1$` ]` Prisen på et blunk og dørvakten som aldri blir sliten**
+> Hvor mye veier en løgn, og hvor mye koster det å si nei til den? I en gammel beleiring måtte forsvarerne på borgmuren løfte like tunge steiner som angriperne nede på sletten; til slutt vant den som hadde flest kalorier på lager. I konvensjonell nettverkssikkerhet gjelder fremdeles middelalderens beleiringslov: når en angriper sender en flom av forfalskede pakker, tvinges serveren til å vekke prosessoren, kjøre tunge kryptografiske rutiner og skrive logglinjer til disken helt til viftene hyler og vaktmannskapet slutter å høre etter (*Alarm Fatigue*).
+>
+> **`[ `$\boxtimes$` SOMA-ANKER // `$\Pi_{\text{orth}}$` // Kontrastvæske ]`** På $500\text{ meters}$ dyp i Skagerrak er det ingen som kan komme ned og bytte batterier hvis noden lar seg trette ut. Derfor snur Kjerneprøve IV beleiringsligningen på hodet med ni størrelsesordener ($\eta_{\text{defense}} = 1{,}25 \times 10^9$): mens angriperen må brenne $10\,000\text{ joule}$ for å presse et relésignal gjennom en halv kilometer sjøvann, bruker TDC-klokken ved safirvinduet bare **$8{,}0\text{ mikrojoule}$** — energien i et knapt målbart nerveimpuls-blunk — på å konstatere at lyset kom frem for sent ($\tau_{\text{ToF}} > 133{,}4256\text{ ns}$) og slippe pakken lydløst i gulvet ved $0{,}00\text{ V DC}$.
+>
+> **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // `$\Delta R = 0$` ]`** Og når et ekte, sannferdig vitne faktisk slipper inn gjennom nåleøyet, bokføres hver eneste bit i heltallige atto-zeptojoule (`__uint128_t`, $2\,652\,302\text{ azJ/bit}$), brennes fast med `fsync()` over $400$ klokkesykluser og fryses i leselås med `mprotect(PROT_READ)`. Løgnen stanses ved dørstokken for åtte mikrojoule; sannheten hugges i granitt for evigheten.

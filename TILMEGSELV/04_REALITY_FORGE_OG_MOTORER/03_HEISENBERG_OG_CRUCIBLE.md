@@ -43,7 +43,7 @@ Dette er friksjonen. Du kan ikke omgå den; du må gå den.
 
 ---
 
-## 3. Det Mekaniske Slaget og Den Friutløsende Sperren (5,00 V Innvilget)
+## 3. Det Mekaniske Slaget og Den Friutløsende Sperren ($5{,}00\text{ V}$ Innvilget)
 
 Borte ved fjellveggen, boltet direkte i granitten, står koblingsskapet av syrefast stål. 
 
@@ -51,9 +51,7 @@ Overflaten er dekket av rimfrost. Slåen har krympet i kulden; du må legge vekt
 
 Der inne sitter den galvaniske kontaktoren. Kobber, keramikk og herdet stål. Bryterarmen står i spenn: $0{,}00\text{ V}$. Avstanden mellom kontaktpunktene er fem millimeter med kald luft. Den luften er en uendelig motstand for all verdens algoritmer.
 
-Men bryteren besitter også et vern mot mennesket selv – mot *Tsjernobyl-vektoren*, der en operatør under tidspress, utmattelse eller ordre ovenfra forsøker å tvinge et anlegg i gang mens den indre prosessfeilen fortsatt er aktiv. For å eliminere både menneskelig overstyringsfeil og elektrisk vranglås (*Dead-Lock Bootstrap*) ved $0{,}00\text{ V DC}$, er hovedbryteren konstruert som en to-trinns, mekanisk friutløsende lås (*trip-free interlock*). Så lenge kammerets passive bourdon- og bimetall-ankre registrerer overtrykk eller termisk avvik, holdes låsehaken fysisk frikoblet fra inngrep. Når *Level 01* legger kroppstyngden mot bakelitthåndtaket, konverterer de første 45 gradene av fjæroppspenningen muskelarbeidet ($\int F \cdot dx$) via en isolert aksel-magneto til en dedikert, skrivebeskyttet målepuls for den ortogonale sensorbroen ($\Pi_{\text{orth}}$). Kun dersom både de passive ankrene og den induserte $\Pi_{\text{orth}}$-sjekken bekrefter et helbredet indre rom ($\Delta_K = 0$), faller herdet stål i inngrep og tillater de siste millimeterne av slaget å lukke kobberklossene til $5{,}00\text{ V DC}$. Menneskets rygg leverer energien og bærer ansvaret, men selv ikke operatøren kan tvinge en uhelbredet kjerne i lås.
-
-Først når det grønne, passive ankeret på målebroen bekrefter at prosesskjernen er tilbake i likevekt ($\Pi_{\text{orth}} = 1$), griper låsehaken tak i stålakselen.
+Selv ikke her ute gir mekanikken etter for blind makt. Så lenge kammerets passive bourdon- og bimetall-ankre kjenner et uhelbredet avvik i dypet, glipper den friutløsende låsehaken i tomme luften. Først når de første førtifem gradene av draget ditt sender aksel-magnetoens målepuls inn gjennom målebroen, og det grønne, passive ankeret bekrefter at prosesskjernen er tilbake i likevekt ($\Pi_{\text{orth}} = 1$), griper stålhaken tak i akselen.
 
 Huden møter iskald bakelitt. Du griper håndtaket. Stålfjærene gir ikke etter for en lett berøring. Du må sette hælene i den frosne grusen, spenne ryggen og legge overkroppens tyngde mot metallet. Fjærene tvinges sammen, millimeter for millimeter.
 

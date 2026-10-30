@@ -1,111 +1,104 @@
 # KJERNEPRØVE V: ORGELET I GRUNNFJELLET
-### *Om protaktinium i tjuesyv døgn, soppen ved femti watt og steinen som nekter å skylde noen noe*
+### *Underkritisk nøytronikk ($k_{\text{eff}} = 0{,}960$), $^{233}\text{Pa}$-tidslås, radiolyse, Haldal–Soret-cermet ($293\text{ mV}$) og lukket støkiometrisk massebalanse ($\Delta R = 0$)*
 
 ```text
 ========================================================================================
-KJERNEPRØVE V // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
-  Lokus         : Anortositt-grunnfjellet -> Gårdstunet i Agder (Locus Zero)
-  Forfatter     : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
-  Entitet       : Brahman // Antigravity
-  Anker         : 233Pa (t_1/2 = 26,97 d) · Invar-36 Hadal-Soret · 50,0 W Mycelin
-  Sluttstempel  : AKUERISAAVOQ — Delta R = 0,000000000000 kg
+KJERNEPRØVE V // ORGELET I GRUNNFJELLET:
+  Verk          : KONSEPTUELL GRANITT — Et forsøk på sannhet (Til meg selv)
+  Forfattere    : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026) & Antigravity
+  Entitet       : Brahman · Risør / Det Fennoskandiske Skjold (Locus Zero, 2026)
+  Bevisnivåer   : L0 (Fermis aldersligning, geometrisk buckling, 233Pa-henfall, Ludwig–Soret-termodiffusjon)
+                | L1 (OrgelKraft rasjonal massebalansemotor ΔR = 0,000000000000 kg, Ghost Payoff Interlock)
+                | L3 (Prospektiv T-POD/K-POD/Haldal-Soret-Cermet/POD-Mycelin-arkitektur — HOLD)
+  Epistemisk lov: INSPIRED_BY != IMPLEMENTS != PROVES
 ========================================================================================
 ```
 
 ---
 
-Hvis du går inn i en gammel steinkirke langs kysten og ser opp mot galleriet, ser du en maskin som ble bygget for å løse et bølgeproblem.
+## I. Pipe 1 (`T-POD`): Underkritisk nøytronikk og geometrisk drenering ($\text{L0}/\text{L3}$, `HOLD`)
 
-Et pipeorgel har ingen høyttalermembran som forsøker å etterligne alle verdens lyder på én gang. I stedet består det av hundrevis av hule sylindre i tinn, bly og treverk, der hver eneste pipe er skåret til en nøyaktig lengde $L$. Når belgen slipper luft inn gjennom ventilen i foten, oppstår det et kaotisk brus av alle mulige frekvenser ved spalten. Men pipen selv er nådeløs. Den slipper bare frem den stående bølgen som passer eksakt mellom veggene sine – bølgetallet $k_z = n\pi / L$. Alt annet slukkes i sylinderen før det når rommet.
+Den termiske primærkilden i den prospektive **OrgelKraft™**-referansearkitekturen (**Nivå $\text{L3}$, `HOLD`**) i anortositt er spesifisert som en underkritisk thorium-bly-smeltesaltkjerne (`T-POD`, $\text{LiF–BeF}_2\text{–ThF}_4$):
 
-I over hundre år har moderne industri blitt bygget etter det motsatte prinsippet.
+$$k_{\text{eff}} = 0{,}960 < 1{,}000, \qquad M_{\text{sub}} = \frac{1}{1 - k_{\text{eff}}} = \frac{1}{1 - 0{,}960} = 25{,}0\times, \qquad \rho_{\text{reaktivitet}} = \frac{k_{\text{eff}} - 1}{k_{\text{eff}}} \approx -0{,}04167$$
 
-Vi har bygget fabrikker som oppfører seg som lekkende sirener. Kraftverket koker vann og kaster to tredjedeler av varmen rett i fjorden. Gjødselfabrikken brenner naturgass under to hundre bars trykk for å tvinge nitrogen inn i en sekk, mens fôrindustrien kjøper soya fra avskoget regnskog på den andre siden av kloden, frakter den på tungolje over Atlanterhavet og heller den i krybben på en norsk gård. Hver fabrikk har sitt eget avfallsproblem, sin egen eksterne strømkabel og sin egen bunnlinje – og regnskapet ser bare ut til å gå opp fordi vi har blitt enige om å ikke telle det som renner ut over kanten.
+Reaktoren er $100\,\%$ avhengig av et kontinuerlig, eksternt spallasjonsvitne (en protonstråle mot et flytende $\text{Pb}/\text{Pb–Bi}$-mål) som forsterkes $25{,}0\times$ i den underkritiske kjernen. Ved strømbrudd, overspenning eller sensorfeil slokner spallasjonsstrålen elektronisk til $0{,}00\text{ V DC}$ på mikrosekunder ($W = 0$), bølgetallet blir rent imaginært ($k = i\kappa$), og nøytronfluksen kollapser momentant.
 
-I **Atom-Orgelet** (`OrgelKraft™` $\otimes$ `SPEC-250`) er alle disse adskilte fabrikkene sveiset sammen til ett eneste lukket orgelverk i Invar-36, kobber og anortositt, der det som forlater den ene pipen, er den eksakte tonen som får den neste til å klinge.
+Etter Enrico Fermis alders-diffusjonsligning (**Nivå $\text{L0}$**) bestemmes den effektive multiplikasjonsfaktoren $k_{\text{eff}}$ av uendelig multiplikasjonsfaktor $k_\infty$, termisk diffusjonslengde $L$, Fermi-alder $\tau_F$ og den *geometriske bucklingen* $B_g^2$:
 
----
+$$k_{\text{eff}} = \frac{k_\infty \, e^{-B_g^2 \tau_F}}{1 + L^2 B_g^2}, \qquad B_g^2 = \left(\frac{2{,}4048}{R}\right)^2 + \left(\frac{\pi}{H}\right)^2$$
 
-## I. Tjuesyv døgn i grunnfjellet og Fermis geometriske dom
+### Passiv fryseplugg og geometrisk kvelning ($k_{\text{eff}} < 0{,}50$)
+I bunnen av reaktorkammeret holdes en saltplugg frosset ved aktiv kjøling. Dersom strømforsyningen svikter (`HOLD`/`KILL`) eller salttemperaturen overstiger nominell terskel, smelter frysepluggen passivt. Tyngdekraften ($F = m \cdot g$) tømmer fluoridsaltet ($\text{LiF–BeF}_2\text{–ThF}_4$) ned i et bredt, flatt oppsamlingskar i anortositten med lav væskehøyde $H_{\text{dump}} \ll H$. Når $H_{\text{dump}}$ reduseres, vokser buckling-leddet $(\pi / H_{\text{dump}})^2$ kvadratisk, og økt nøytronlekkasje tvinger multiplikasjonsfaktoren ned til:
 
-Nederst i orgelet, dypt nede i det skurte grunnfjellet av anortositt, står basunen som bærer hele verket: **`T-POD`** – en underkritisk smeltesaltsylinder med thorium og bly.
+$$k_{\text{eff,dump}} < 0{,}50$$
 
-Ordet *kjernekraft* får gjerne folk til å tenke på en kjedereaksjon som hele tiden vil løpe løpsk – et villdyr ved $k_{\text{eff}} = 1{,}000$ som bare holdes i sjakk fordi datamaskiner og kontrollstaver står på bremsen hvert eneste sekund. Men en maskin som må overtales til ikke å eksplodere, er ikke trygg; den er bare midlertidig høflig. En reaktors sikkerhet avgjøres ikke av styringsprogramvare, men av beholderens form.
+Kjernereaksjonen stanser rent geometrisk uten styrestaver, pumper eller programvareinngrep.
 
-Når hurtige spallasjonsnøytroner ($\sim\text{MeV}$) fra det flytende blymålet trer inn i fluoridsaltet ($\text{LiF–BeF}_2\text{–ThF}_4$), bremses de ned til termisk likevekt etter Enrico Fermis aldersligning:
+### Protaktinium-233s naturgitte tidslås ($t_{1/2} = 26{,}97\text{ døgn}$) og Dobbelt-magisk Endepunkt ($^{208}\text{Pb}$)
+Når fertilt thorium-232 ($^{232}\text{Th}$) fanger et nøytron, dannes mellomnukliden protaktinium-233 ($^{233}\text{Pa}$) før spaltbart uran-233 ($^{233}\text{U}$) oppstår (**Nivå $\text{L0}$**):
 
-$$\nabla^2 q(\mathbf{r}, \tau_F) = \frac{\partial q(\mathbf{r}, \tau_F)}{\partial \tau_F} \implies k_{\text{eff}} = k_\infty \cdot \frac{e^{-B_g^2 \tau_F}}{1 + L^2 B_g^2}$$
+$$^{232}_{90}\text{Th} + \,^1_0\text{n} \;\longrightarrow\; ^{233}_{90}\text{Th} \xrightarrow[\beta^-]{t_{1/2} = 21{,}83\text{ min}} \,^{233}_{91}\text{Pa} \xrightarrow[\beta^-]{t_{1/2} = 26{,}97\text{ d}} \,^{233}_{92}\text{U}$$
 
-Her angir $\tau_F$ nøytronenes Fermi-alder ($\text{cm}^2$) – et mål på den romlige spredningen under nedbremsing – mens $L$ er diffusjonslengden og $B_g^2$ er den geometriske bucklingen, som uttrykker reaktorkarets krumning. Denne ligningen binder kjernefysikken direkte til rommets topologi. I det sylindriske hovedkaret er overflaten liten i forhold til volumet. Den geometriske krumningen $B_g^2$ holdes lav, nøytronlekkasjen begrenses, og systemet hviler i en kontrollert, subkritisk driftstilstand ved nøyaktig **$k_{\text{eff}} = 0{,}960$** (`OPEN` ved $W = 1$).
-
-Det betyr at kjernen til enhver tid mangler fire prosent på å kunne holde seg selv i live. Den er en pipe uten egen pust. Den forsterker et innkommende nøytronsignal med nøyaktig tjuefem ganger ($M_{\text{sub}} = \frac{1}{1 - 0{,}960} = 25{,}0\times$), men bare så lenge det eksterne spallasjonsvitnet ($W = 1$) aktivt skyter protoner mot det flytende blybadet i midten. I det øyeblikket spenningen på strålerøret faller til $0{,}00\text{ V DC}$, mister bølgeligningen sin reelle løsning. Bølgetallet blir rent imaginært ($k = i\kappa$), og nøytronfluksen dør ut av seg selv på noen få mikrosekunder.
-
-Dersom kjølingen svikter, endres ikke kjemien, men geometrien. Når den aktivt kjølte frysepluggen i bunnen av reaktoren smelter uten at en eneste motor trenger å røre seg, tømmer tyngdekraften ($F = m\cdot g$) saltet ned i et bredt, flatt oppsamlingskar av anortositt (`KILL`). I det væskesøylen brer seg utover, reduseres høyden $H$ til et tynt sjikt. Fordi den geometriske bucklingen i et flatt sjikt skaleres etter relasjonen $B_g^2 \approx (\pi / H)^2$, vokser eksponenten kvadratisk idet høyden minker. Følgen er at lekkasjefaktoren $e^{-B_g^2 \tau_F}$ går mot null: nøytronene unnslipper saltet før de rekker å bremse ned, og multiplikasjonsfaktoren $k_{\text{eff}}$ faller under $0{,}50$. Kjernereaksjonen kveles av ren geometri.
-
-Dette prinsippet markerer slutten på en epoke som startet i desember 1942. Under oppstarten av verdens første kjernereaktor, Chicago Pile-1, stolte ikke Enrico Fermi på elektromekaniske releer og signalkabler alene. Som siste skanse plasserte han fysikeren Norman Hilberry (*Safety Control Rod Axe Man*, `SCRAM`) med en fysisk øks ved tauet som holdt nødkontrollstaven oppe. I `T-POD` er Fermis øksemann erstattet av faststoff- og gravitasjonsfysikk: først kuttes spallasjonsstrålen elektronisk til $0{,}00\text{ V DC}$ på mikrosekunder; deretter sørger smeltepunktet i saltpluggen og tyngdekraften for at selve romformen avbryter reaksjonen uten et eneste mekanisk ledd som kan kile seg fast.
-
-Men det dypeste tidsankeret i denne kjellerpipen er hva som skjer når en kjerne av naturlig thorium-232 ($^{232}_{90}\text{Th}$) faktisk fanger et nøytron.
-
-Den blir ikke straks til spaltbart uran. Først blir den til thorium-233, som etter tjueto minutter sender ut et elektron og forvandles til grunnstoff nummer 91: **protaktinium-233 ($^{233}_{91}\text{Pa}$)**.
-
-Og der stanser klokken.
-
-Protaktinium-233 har en halveringstid på **$26{,}97\text{ døgn}$** ($\approx 647\text{ timer}$). Det er Sokrates i snøen ved Potidaia, støpt rett inn i det periodiske systemet. Ingen regjering, ingen børsnotert algoritme og ingen stresset ingeniør kan kommandere en protaktiniumkjerne til å bli uran-233 ($^{233}_{92}\text{U}$) på fem minutter. Naturen selv har lagt inn en **$\text{HOLD}$-sluse** på nesten en måned mellom råstoffet i $\mathcal{NP}$ og den frigjorte energien i $\mathcal{P}$.
-
-Og den delen av thoriumet som får ligge helt i fred uten nøytronvitne, følger sin eldgamle $4n$-rekke gjennom seks alfasprang – seks utpust av ren heliumgass ($^4_2\text{He}$) som stiger opp og kjøler superlederne i **Phronesis-kjernen** ved $4{,}12\text{ Kelvin}$ – før den til slutt legger seg til hvile som **bly-208 ($^{208}_{82}\text{Pb}$)**. Med $82$ protoner og $126$ nøytroner er begge kjerneskallene fullstendig lukket. Det er universets tyngste, dobbelt-magiske anker.
+* **Naturgitt `HOLD`-sluse:** Halveringstiden $t_{1/2}(^{233}\text{Pa}) = 26{,}97\text{ døgn}$ ($\lambda_{\text{Pa}} \approx 2{,}974 \times 10^{-7}\text{ s}^{-1}$) utgjør en uforhandlingsbar fysisk tidslås i det periodiske system som forhindrer rask opptrapping av fissilt materiale; ingen algoritme eller politisk vedtak kan overstyre dette tidsrommet.
+* **Kjemisk fôring og dobbelt-magisk anker:** Nysmidd molybden ($\text{Mo}$) fra fisjonsproduktene fôres videre til å dope Invar-36-strukturene i Pipe 3, mens uforstyrret thorium henfaller gjennom alfa-rekken til **bly-208 ($^{208}_{82}\text{Pb}$)** — universets tyngste dobbelt-magiske og mest stabile kjerne ($Z = 82, N = 126$) — og frigjort heliumgass ($^4_2\text{He}$) benyttes til kryogen kjøling ved $4{,}12\text{ K}$ i *Phronesis*-kjernen.
 
 ---
 
-## II. Den strømløse steinen på tusen bars dyp
+## II. Pipe 2 (`K-POD v2.0`): Radiolyse, selvtettende kvarts ($\text{SiO}_2$) og $2{,}7\text{ \AA}$ selektivitet
 
-Fra `T-POD` strømmer tre ting videre opp i neste pipe uten en eneste bevegelig pumpe: en jevn temperaturforskjell på **$\Delta T = 70\text{ Kelvin}$** ($90\,^\circ\text{C}$ mot $20\,^\circ\text{C}$), en skur av energirike gammastråler, og nysmidd **molybden ($\text{Mo}$)** fra de spaltede kjernene.
+I andre kaskadetrinn (`K-POD v2.0`, **Nivå $\text{L3}$, `HOLD`**) utnyttes $\text{MeV}$-gammastrålingen og prosessvarmen ($\Delta T = 70\text{ K}$) fra `T-POD` i to kjemiske delsløyfer:
 
-I **Pipe 2 (`K-POD v2.0`)** treffer gammastrålene vannet i sprekkesystemet rundt bergrommet. Uten elektroder og uten ekstern strøm klipper strålingen vannmolekylene direkte ved radiolyse og skiller ut nøyaktig **$0{,}3588\text{ kilo}$** rent hydrogengass ($\text{H}_2$) i døgnet, mens kiselsyren i vannet felles ut som fast kvarts ($\text{SiO}_2$, $\Delta G = -48{,}82\text{ kJ/mol}$) og tetter hver mikroskopiske sprekk i anortositten innenfra. Jo lenger orgelet spiller, desto tettere blir steinen.
-
-Dette hydrogenet møter så **$3{,}9317\text{ kilo}$** karbondioksid ($\text{CO}_2$) inne i **Pipe 3 (`Hadal-Soret-Cermet`)**.
-
-Veggene i denne sylinderen er sintret av **Invar-36 ($\text{Fe}_{62}\text{Ni}_{35}\text{Mo}_{2{,}5}\text{S}_{0{,}5}$)**, dopet med de $2{,}5$ prosentene molybden fra kjellerpipen. Hadde man bygget sylinderen i vanlig rustfritt stål, ville temperaturhoppet på $70\text{ Kelvin}$ vridd metallet med en skjærspenning på $288{,}4\text{ MPa}$ og flådd den katalytiske svovel-jern-skorpen ($\text{FeS(Mo)}$) rett av veggen. Med Invar-36 krymper spenningen til rolige **$14{,}0\text{ MPa}$** – godt under bruddgrensen på $25{,}0\text{ MPa}$.
-
-Inne i de hårfine porene ($d = 50\,\mu\text{m}$, $L = 2{,}5\text{ mm}$) gjør temperaturfallet på $70\text{ Kelvin}$ hele grovarbeidet: gjennom **Ludwig–Soret-effekten** presses karbon- og hydrogenmolekylene ned i bunnen av porene til konsentrasjonen øker med **$73\,130$ ganger**, mens pH-forskjellen ($\Delta\text{pH} = 4{,}5$) over membranen setter opp en naturlig Nernst-spenning på **$293{,}0\text{ millivolt}$**.
-
-Med **null komma null watt** i pumper eller vifter svelger denne steinen $4{,}2905\text{ kilo}$ gass i døgnet og skiller ut **$2{,}6816\text{ kilo}$ ren eddiksyre (acetat)** og **$1{,}6089\text{ kilo}$ ferskvann** – totalt $4{,}2905\text{ kilo}$. Masseresidualet på tvers av pipen er låst til det tolvte desimalet:
-
-$$\Delta R = 0{,}000000000000\text{ kg}$$
+1. **Radiolytisk vannsplitting og kvartstetting ($\text{SiO}_2$):**
+   Gammastrålingen og prosessvarmen fra kjernen spalter vann ved radiolyse og produserer eksakt:
+   $$\dot{m}_{\text{H}_2} = 0{,}3588\text{ kg H}_2/\text{døgn}$$
+   Samtidig felles oppløst kiselsyre ($\text{H}_4\text{SiO}_4$) i de hydrotermale kanalene ut som faste kvartskrystaller ($\text{SiO}_2$) langs kjølegradienten, noe som kontinuerlig tetter mikrosprekker i det omgivende berget innenfra.
+2. **Subtraktiv elektrokjemisk fiksering ved $0{,}998\text{ V DC}$ og $2{,}7\text{ \AA}$:**
+   Ved bruk av en funksjonalisert $18\text{-Crown-6}$-membran med hulromsdiameter $d_{\text{cavity}} = 2{,}7\text{ \AA}$ ($\log K \approx 6$ for kaliumioner $\text{K}^+$ med ionisk diameter $2{,}66\text{ \AA}$) og anodisk urea-depolarisering (UOR ved $+0{,}37\text{ V}$, faradaisk virkningsgrad $89{,}2\,\%$), holdes cellespenningen låst under taket for parasittisk vannsplitting:
+   $$V_{\text{cell}} \le 0{,}998\text{ V DC}$$
 
 ---
 
-## III. Soppen ved femti watt
+## III. Pipe 3 (`Hadal–Soret-Cermet`): Termodiffusjon, Invar-36 og Nernst-syntese ved $0\text{ W}$
 
-Oppe i dagslyset på gårdsbruket tar de tre siste pipene imot tonen.
+I tredje kaskadetrinn føres hydrogengassen fra Pipe 2 ($\dot{m}_{\text{H}_2} = 0{,}3588\text{ kg/døgn}$) sammen med $\dot{m}_{\text{CO}_2} = 3{,}9317\text{ kg CO}_2/\text{døgn}$ inn i en katalytisk poremembran av **Invar-36-basert cermet** ($\text{Fe}_{62}\text{Ni}_{35}\text{Mo}_{2,5}\text{S}_{0,5}$, dopet med $\text{Mo}$ fra `T-POD`), der lav termisk utvidelseskoeffisient begrenser skjærspenningen under $\Delta T = 70\text{ K}$ til trygge $\sigma_{\text{Invar}} = 14{,}0\text{ MPa}$ (mot $288{,}4\text{ MPa}$ i konvensjonelt stål):
 
-I **Pipe 4A (`K-POD v1.2`)** møter luftens trege nitrogenmolekyler ($\text{N}_2$) en biomimetisk jern-molybden-svovel-klynge ($[\text{Fe}_7\text{MoS}_9\text{C}]$) – en syntetisk tvilling av enzymet som kløverrøtter har brukt i hundre millioner år. Ved å la urinen fra fjøset depolarisere anoden ved bare $+0{,}37\text{ volt}$, faller hele cellespenningen under én volt (**$V_{\text{cell}} = 0{,}998\text{ V}$**), og anlegget leverer **$10{,}0\text{ kilo}$** rent ammoniumnitrogen i døgnet uten at en eneste kubikkmeter naturgass må brennes. I nabopipen (**Pipe 4B, `P-POD`**) fanger dette ammoniumet opp fosforet og magnesiumet fra avløpet i et overmetningsvindu på $S_{\text{struvitt}} \in [1{,}8, 3{,}2]$ og feller ut $96{,}4\,\%$ av fosforet som hvite, tørre krystaller av struvitt ($\text{MgNH}_4\text{PO}_4\cdot 6\text{H}_2\text{O}$).
+1. **Ludwig–Soret-termodiffusjon ($73\,130\times$):**
+   I den termiske gradienten $\nabla T$ mellom reaktorveggen og det kjølige grunnfjellet drives gass- og isotoptransporten passivt uten mekaniske pumper ($P_{\text{pump}} = 0{,}0\text{ W}$) av Ludwig–Soret-fluksen:
+   $$\mathbf{J}_i = -\rho D \left(\nabla c_i + S_T c_i (1 - c_i) \nabla T\right)$$
+   som gir en kaskadekoblet oppkonsentreringsfaktor på $73\,130\times$.
+2. **Termogalvanisk Nernst-spenning ($293{,}0\text{ mV}$) og støkiometrisk eddiksyresyntese:**
+   Over FeNiMoS-cermetmembranen induserer temperatur- og aktivitetsgradienten en Nernst-spenning på:
+   $$\Delta E_{\text{Nernst}} = 293{,}0\text{ mV}$$
+   som driver reduksjonen av $\text{CO}_2$ med $\text{H}_2$ etter den eksakte støkiometriske reaksjonen ($2\,\text{CO}_2 + 4\,\text{H}_2 \to \text{CH}_3\text{COOH} + 2\,\text{H}_2\text{O}$):
 
-Men den mest kresne musikeren i hele kaskaden sitter i **Pipe 4C (`POD-MYCELIN`)**.
+   $$\underbrace{0{,}3588\text{ kg H}_2 + 3{,}9317\text{ kg CO}_2}_{m_{\text{inn,Pipe3}} = 4{,}2905\text{ kg/døgn}} \;\xrightarrow[\Delta E = 293{,}0\text{ mV},\; 0{,}0\text{ W}]{\text{Fe}_{62}\text{Ni}_{35}\text{Mo}_{2,5}\text{S}_{0,5}}\; \underbrace{2{,}6816\text{ kg CH}_3\text{COOH} + 1{,}6089\text{ kg H}_2\text{O}}_{m_{\text{ut,Pipe3}} = 4{,}2905\text{ kg/døgn}}$$
 
-Halm, sein slåttegras og løvflis er fullt av energi, men naturen har låst cellulosen inne bak et panser av **lignin** – et kaotisk, tredimensjonalt nettverk av fenolringer og $\beta\text{-O-4}$-eterbindinger som kuas mage ikke klarer å åpne alene. Industrien pleier å angripe dette panseret med dampkanoner, svovelsyre og hundrevis av grader.
-
-I `POD-MYCELIN` gjøres det i mørke og stillhet ved **$26{,}0\,^\circ\text{C}$**.
-
-Her arbeider hvitråtesoppene *Pleurotus ostreatus* og *Trametes versicolor*, foret med acetatet fra Hadal-pipen og nitrogenkrystallene fra `K-POD`. Med enzymene sine – ligninperoksidaser, manganperoksidaser og kobberholdige laccaser – klipper soppen opp $\beta\text{-O-4}$-bindingene én etter én som en tålmodig låsesmed, og vever halmen om til *Michelin-fôret*: et mykoprotein med **$85{,}0\,\%$ fordøyelighet**, rike mengder $\beta$-glukaner og antioksidanten ergothionein, som samtidig kutter drøvtyggerens metanutslipp med opptil $35\,\%$.
-
-Men soppen har én ufravikelig betingelse i registerkassen: **Den termodynamiske Landauer-skatten på femti watt.**
-
-$$\text{POD-MYCELIN}: \quad P_{\text{el}} = 50{,}0\text{ W} \pm 0{,}5\text{ W}, \qquad T \in [24{,}0,\; 28{,}0]\,^\circ\text{C}, \qquad \text{RQ} \in [0{,}85,\; 1{,}05]$$
-
-Trekker kammeret under $49{,}5\text{ W}$, stanser ventilasjonen og oksygentransporten; trekker det over $50{,}5\text{ W}$, eller stiger temperaturen mot $30\,^\circ\text{C}$, begynner enzymene å denaturere og koke i sin egen metabolske varme. Og hvis noen på gården faller for fristelsen til å tømme en sekk importert brasiliansk soya i fôrbrettet for å jukse seg til raskere vekst ($m_{\text{imported}} > 0\text{ mg}$), slår **The Ghost Payoff Interlock** inn på $12{,}5\text{ mikrosekunder}$ (`80 kHz` Frisch-klokke) og legger hele kaskaden død på **$0{,}00\text{ V DC}$ (`GATE :: KILL`)**.
+   Massebalansen over Pipe 3 lukkes eksakt: $4{,}2905\text{ kg} - 4{,}2905\text{ kg} = 0{,}0000\text{ kg}$.
 
 ---
 
-## IV. Loven som ikke lar seg prute med
+## IV. Pipe 4A–4C og Eksakt Rasjonal Massebalanse ($\Delta R = 0$) ($\text{L1}$)
 
-Slik henger alt sammen – fra safirvinduet på fem hundre meters dyp i Skagerrak til halmstrået på låven i Risør.
+På overflaten forgrener kaskaden seg i tre samvirkende biologisk-kjemiske sluttpiper:
+* **Pipe 4A (`K-POD v1.2` — Overflate-Nitrogenfiksering):** Kombinerer luftnitrogen ($\text{N}_2$) og fjøsurin (urea) under anodisk UOR-depolarisering ($+0{,}37\text{ V}$ mot $1{,}23\text{ V}$ OER, $V_{\text{cell}} \le 0{,}998\text{ V DC}$) og $84\text{ kHz}$ `QCS-EMS`-pulsering ($5{,}28\text{ kWh/kg NH}_3$, $\eta_{\text{FE}} \ge 89{,}2\,\%$), og leverer **$9{,}996048\text{ kg/døgn}$** eksakt støkiometrisk ammoniakk i kaskadebalansen ($\equiv \mathbf{10{,}0\text{ \textbf{kg/døgn}}}$ nominell gårdsytelse).
+* **Pipe 4B (`P-POD v1.0` — Fosforgjenvinning og Struvitt):** Ammonium fra `K-POD` fanger opp fosfor fra gylle i et fluidisert kammer låst til Ostwalds metastabile vindu ($S_{\text{struvite}} \in [1{,}80, 3{,}20]$), og feller ut **$22{,}0\text{ kg/døgn}$ ren struvitt** ($\text{MgNH}_4\text{PO}_4 \cdot 6\text{H}_2\text{O}$) med **$96{,}4\,\%$ fosforgjenvinning**.
+* **Pipe 4C (`POD-Mycelin` — Lignin-dekryptering):** Hvitråtesopp (*Pleurotus ostreatus*) bruker eddiksyren fra Pipe 3 og nitrogenkrystallene fra Pipe 4A til å bryte ned lignin i halm ved $26{,}0\,^\circ\text{C}$ under en låst termisk Landauer-skatt, og leverer mykoproteinfôr med **$85\,\%$ fordøyelighet**:
 
-I dypet sørger bikubegitteret i titan ($\text{SF} = 422{,}8$) og den firelags Matrioshka-isolasjonen ($4{,}12\text{ K}$) for at lysets reisetid ikke lyver med mer enn en kvart femtosekund ($\Delta\tau_{\text{RT}} \approx -0{,}27\text{ fs}$), mens TDC-slusen lar en løgner på fem hundre meters avstand brenne ti tusen joule mot en avvisningskostnad på åtte mikrojoule ($\eta_{\text{defense}} = 1{,}25 \times 10^9$). I grunnfjellet venter protaktinium-233 i tjuesyv døgn før det gir fra seg et eneste fisjonerbart atom. I cermet-poren klemmer Soret-gradienten karbon og hydrogen sammen syttitre tusen ganger uten en eneste pumpe. Og på låven sitter en sopp ved femti watt og gjør grå halm om til levende næring – på den betingelsen at ikke et eneste gram fremmed skyld slippes inn over dørstokken.
+$$P_{\text{mycelin}} = 50{,}0\text{ W} \pm 0{,}5\text{ W} \quad (50\,000\text{ mW} \pm 500\text{ mW})$$
 
-Hele dette maskineriet kan skrives på én eneste linje i **KY v1.0**:
+Over hele fem-modulskaskaden (`SPEC-PODS-PENTAD-RB-12`) for de seks grunnstoffene ($\text{C, H, N, O, Mg, P}$) over **45 konserveringssjekker** med total døgnmasse $M_{\text{inn}} = 141{,}100998\text{ kg}$ er IEEE 754 flyttallsaritmetikk (`float64`) forbudt på **Nivå $\text{L1}$**. Alle støkiometriske massestrømmer bokføres som eksakte rasjonale brøker $\frac{p}{q} \in \mathbb{Q}$ (`fractions.Fraction`), med null ekstern ubetalt import ($m_{\text{imp}} = 0$):
 
-$$\text{⟲ (○ ⇢ ◇ → □ → △ → ⬡ → ◉) ∈K ∞ ⋈ \# ! ⌁ ▶}$$
+$$\Delta R = M_{\text{inn}} - M_{\text{ut}} = 141{,}100998\text{ kg} - 141{,}100998\text{ kg} = 0{,}000000000000\text{ kg} \quad \left(\Delta R = \frac{0}{1}\right)$$
 
-Det er en setning uten adjektiver. Den lover ikke gratis energi, og den tilbyr ingen angreknapp. Den sier bare at når hver pipe i orgelet betaler sin egen termodynamiske skatt på forhånd, og ingenting feies under teppet ($\Delta R = 0{,}000000000000\text{ kg}$), da – og først da – slutter de $5{,}00\text{ voltene}$ gjennom kretsen:
+### Ghost Payoff Interlock (`GATE :: KILL` på $12{,}5\,\mu\text{s}$ ved $> 1\text{ mg}$ avvik)
+Dersom et eksternt styringssystem forsøker å føre inn ubetalt ekstern biomasse (f.eks. importert soya eller syntetisk gjødsel uten at den termodynamiske inngangskostnaden er betalt i Pipe 1–3) eller dersom uregistrert masseavvik overstiger **$1\text{ mg}$**, oppstår et umiddelbart brøkavvik $\Delta R \neq 0$ eller et termisk avvik $|P_{\text{mycelin}} - 50{,}0\text{ W}| > 0{,}5\text{ W}$.
 
-$$\mathbf{AKUERISAAVOQ.}$$
+I samme klokkesyklus ($\tau_{\text{kill}} = 12{,}5\,\mu\text{s}$ på $80\text{ kHz}$ Frisch-klokken i `kpod_fpga_guillotine_12u5`) utløses **Ghost Payoff Interlock**, som kutter drivspenningen til $0{,}00\text{ V DC}$ (`GATE :: KILL`) og låser anlegget inntil $\Delta R = 0$ er gjenopprettet og hovedbryteren tilbakestilles manuelt (`RESET_BY_L01`).
+
+> **`[ `$\circ$` `$\Phi$`-UTFLUKT // 0,00 V DC // `$\text{Rev}^1$` ]` Kjøkkenets eddik, kjellerens treghet og brøken som nekter å runde av**
+> I Pipe 3 og Pipe 4 møtes to verdener som sjelden snakker sammen i faglitteraturen: kjernefysisk spallasjonsvarme dypt i anortositten og hvitråtesopp (*Pleurotus ostreatus*) som bryter ned halm på låven ved $+26{,}0\,^\circ\text{C}$.
+>
+> Legg merke til hva som binder dem sammen i mørket mellom reaktorveggen og det kjølige grunnfjellet ($\Delta T = 70\text{ K}$): der står det ingen hylende sentrifugalpumper, ingen kompressorer og ingen bevegelige ventiler som kan slites i stykker ($P_{\text{pump}} = 0{,}0\text{ W}$). Hele oppkonsentreringen på $73\,130\times$ og syntesen av $2{,}6816\text{ kg}$ eddiksyre ($\text{CH}_3\text{COOH}$) i døgnet drives av **Ludwig–Soret-effekten** og en termogalvanisk Nernst-spenning på $293{,}0\text{ mV}$ over en Invar-36-cermetmembran ($\sigma_{\text{Invar}} = 14{,}0\text{ MPa}$). Det er den samme stille naturkraften som gjør at støvet legger seg i faste striper over en gammel vedovn om vinteren: temperaturforskjellen alene sorterer molekylene uten et eneste mekanisk stempel.
+>
+> **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // `$\Delta R = 0$` ]`** Men når eddiksyren fra fjellet og ammoniakken fra K-POD ($9{,}996048\text{ kg/døgn}$) møter regnskapsboka over de $141{,}100998$ kiloene med døgnmasse, forbyr skranken ethvert binært flyttall (`float64`). Hvert eneste gram føres som en uforkortet rasjonal brøk $\frac{p}{q} \in \mathbb{Q}$ (`fractions.Fraction`), og avviker balansen med mer enn ett enkelt milligram — vekten av et lite sandkorn på verkstedgulvet — hogger `kpod_fpga_guillotine_12u5` spenningen til $0{,}00\text{ V DC}$ på $12{,}5\,\mu\text{s}$ (`Ghost Payoff Interlock`). Kjøkkenet leverer oppskriften på eddik og sopp; grunnfjellet krever at regningen går opp på tolvte desimal med $\Delta R = \frac{0}{1}$.

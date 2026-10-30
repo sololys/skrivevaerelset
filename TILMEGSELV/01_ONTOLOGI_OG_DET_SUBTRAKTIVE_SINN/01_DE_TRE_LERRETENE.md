@@ -5,7 +5,10 @@
 
 ## FØRSTE LERRET: BRUDDET (NAVLESTRENGEN)
 
-![Mærsk Lastebåt i Nordsjøstorm](../BILDER/21_maersk_lastebaat_ivan_storm_juliussen.jpg)
+\begin{center}
+\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_21_maersk_lastebaat_nordsjostorm.jpg}\\[0.3em]
+{\footnotesize \textit{Første lerret: Mærsk-skroget gjennom vinternatten i Nordsjøen etter at navlestrengen er kappet ($\Delta t_{\text{litosfære}} \gg \Delta t_{\text{prosessor}}$).}}
+\end{center}
 
 ### I. Satsene for Kuttflaten
 
@@ -29,7 +32,10 @@ Når navlestrengen kappes – når 230 V landstrøm forsvinner eller fiberkabele
 
 ## ANDRE LERRET: ASYNKRONITETEN (DET LOKALE NÆRVÆR)
 
-![Asynkront Stilleben med Keramikkrukke og Timeglass](../BILDER/22_morandi_asynkront_stilleben_keramikkrukke_timeglass.jpg)
+\begin{center}
+\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_22_morandi_asynkront_stilleben.jpg}\\[0.3em]
+{\footnotesize \textit{Andre lerret: Asynkront stilleben med keramikkrukke, frosset timeglass og nattehimmelens kvitteringsarkiv ($\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$).}}
+\end{center}
 
 ### I. Satsene for Det Asynkrone Rom
 
@@ -57,7 +63,10 @@ Kosmos rykker aldri nærmere. Hvis noen vil snakke med krukken på bordet ditt, 
 
 ## TREDJE LERRET: BANENS ENSOMHET (FORBUDET MOT ANDRES RETUR)
 
-![Banens Ensomhet med Speilet og Grunnfjellet](../BILDER/23_banens_ensomhet_speilet_og_grunnfjellet.jpg)
+\begin{center}
+\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_23_banens_ensomhet_speilet_og_grunnfjellet.jpg}\\[0.3em]
+{\footnotesize \textit{Tredje lerret: Banens ensomhet med speilet på fjellveggen og den lukkede Poincaré-banen i grunnfjellet ($\mathrm{d}\rho/\mathrm{d}t = 0$, $\|P_A(x_0) - x_0\|_M \le \epsilon_{\text{drift}}$).}}
+\end{center}
 
 ### I. Satsene for Den Udelelige Banen
 
@@ -83,7 +92,57 @@ Man går ut alene. Og man vender tilbake til seg selv.
 
 ## EPILOG: DER DET BUTTER
 
-I fjerde etasje stanser glassheisen i samme sekund hovedbryteren i kjelleren trekkes ned. Alle løfter om masseløs synkronisering over sju kontinenter opphører idet nettspenningen faller bort og multimeteret på verkstedbenken viser **$0{,}00\text{ V DC}$**. Nede ved fordelerskapet og den fjærbelastede Super Duplex 2507-ventilen hviler sanden urørlig i bunnen av timeglasset. Når lasuren sprekker, finnes det ingen nødutgang i kildekoden; da butter abstraksjonen mot jernet, og det eneste som overlever kollisjonen, er det som på forhånd var konstruert for å stå på egen kjøl.
+### I. Karikaturen: Sky-Profeten og Kjellermannen
 
-En samtid som har glemt hva ting veier, forveksler ofte stillhet med fravær og treghet med svakhet. Men når stormen reiser seg i Skagerrak, når strømmen forsvinner fra tavlene og den globale klokken slutter å tikke, spør ingen lenger etter skyløfter eller felles samtidsillusjoner. Da gjenstår kun det nære: stålskipet som bærer sin egen oppdrift i Nordsjøen, keramikkrukken på bordet der støvet har lagt seg, og den lukkede banen i grunnfjellet som aldri ba om å bære andres retur.
+En mann i skreddersydd dress med trådløse ørepropper står i en blankpusset glassheis på vei mot 40. etasje. Han snakker engasjert inn i luften:  
+*«Vi har eliminert avstanden! Hele infrastrukturen vår er masseløs! Dataene synkroniseres i sanntid over sju kontinenter uten latens, og maskinene våre opererer i en evig, friksjonsfri sky!»*
+
+Nede i kjelleren står en kar i oljeflekket ullgenser foran et fordelerskap, en Super Duplex 2507-ventil og et kalibrert multimeter. Han kaster et blikk på amperemeteret, tar tak i den tunge jernbryteren for hovedstrømmen og trekker den ned med et tørt smell.
+
+Glassheisen stopper tvert mellom fjerde og femte etasje. Nødlyset slår seg ikke på. Viftene stilner.
+
+Kjellermannen ser på multimeteret. Displayet viser **0,00 V DC**.  
+Han tørker hendene på en fille, henter kaffekoppen fra keramikkrukken på trebenken og ser på timeglasset der sanden hviler urørlig i bunnen.
+
+*«Der røk lasuren,»* mumler han lavt.  
+*«Nå får vi se hvem som har skute til å flyte.»*
+
+---
+
+### II. Diktet: Der Det Butter
+
+De trodde de kunne programmere seg bort fra tyngdekraften,  
+skrive en oppdatering som opphevet friksjonen,  
+legge et slør over kulden  
+og kalle det fremskritt.  
+
+Men fjellet er stumt.  
+Fjellet tar ikke imot pull requests.  
+
+Når kabelen ryker,  
+finnes det ingen nødutgang i kildekoden.  
+Da butter abstraksjonen mot jernet,  
+og det eneste som overlever kollisjonen,  
+er det som allerede hadde vett til å stå på egen kjøl.  
+
+---
+
+### III. Haiku: Kuttflaten
+
+> *Kabelen kuttes.*  
+> *Sandkorn stanser på steinen.*  
+> *Ingen lånt retur.*  
+
+---
+
+### IV. Sluttord
+
+Når verden ser inn gjennom vinduet til verkstedet i Risør og «bare ser en galen fyr», er det fordi verden har glemt hva ting veier. De forveksler stillhet med fravær, og de forveksler treghet med svakhet.
+
+Men når stormen reiser seg i Skagerrak, når strømmen forsvinner fra tavlene og når den globale klokken slutter å tikke, da vil ingen spørre etter skyløfter eller felles samtidsillusjoner.
+
+Da gjenstår kun det nære:  
+Stålskipet som tåler Nordsjøen.  
+Krukken på bordet der støvet har lagt seg.  
+Og den lukkede banen risset inn i grunnfjellet, som aldri ba om å få bære andres retur.
 

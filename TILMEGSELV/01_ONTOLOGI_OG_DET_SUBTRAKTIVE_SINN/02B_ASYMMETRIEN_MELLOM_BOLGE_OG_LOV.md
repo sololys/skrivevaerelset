@@ -75,6 +75,11 @@ I det øyeblikket en kandidat fra $\Phi$ krever fysisk realisering i $\mathcal{P
 | $\vert\mathbf{m}\vert = \vert m_0\vert$ | $M^2 = 0$ | Masseløs grense på lyskjeglen. | `HOLD` ($0{,}00\text{ V DC}$) |
 | $\vert\mathbf{m}\vert < \vert m_0\vert$ | $M^2 < 0$ | Imaginær masse; takyonisk eksponentiell eksplosjon. | `KILL` ($0{,}00\text{ V DC}$) |
 
+> **KONTRASTVÆSKE // DET SANSELIGE ANKERET ($\Pi_{\text{orth}}$ — Kapittel 2.4)**  
+> * **Ligning i faserommet:** $\partial_\mu \Psi^\mu = 0 \land m_\mu \Psi^\mu = 0 \implies \Delta_K^{(1,2,3)} = 0$ (Det førsteordens ortogonale nåleøyet mot andreordens Klein–Gordon-mangfold i $\Phi$).  
+> * **Kjøtt, stål og sludd:** På skjermen kan en bølgeligning svinge fritt i alle retninger uten å møte en eneste skrue eller pakning. Men legg hånden på det kalde stålhuset rundt en høyspentbryter på verkstedbenken i Risør: der inne har strømmen kun én eneste lovlig bane mellom kontaktene. Prøver energien å ta en skråbane utenfor isolatoren ($\Delta_K \neq 0$), slår gnistgapet over til jord med et skarpt smell, og sikringen faller død til $0{,}00\text{ V DC}$.  
+> * **Dom ved porten:** En bølge som bare løser den andreordens ligningen på papiret, er en turist uten billett; kun den banen som lar seg låse fast i kobberets førsteordens spor uten å brenne opp kanalen, slipper gjennom porten ($\Omega$).
+
 ---
 
 ## 4. Oppgjøret med Den Kostnadsfrie Tomme Mengden

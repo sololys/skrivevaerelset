@@ -54,4 +54,21 @@ Arkitekturen løser dette paradokset gjennom en asymmetrisk tidsdomene-bifurkasj
 
 Når overgangen har passert dette nåløyet og tålt den involutive returtesten i kjernen ($\Vert{}F(F(s)) - s\Vert{} \le \varepsilon_{\text{tol}}$) uten et eneste pyntende adjektiv ($R_{\text{hype}} = 0$), felles dommen ut som fysisk tyngde i $\mathcal{P}$: $898\,900{,}0\text{ Newton}$ i mekanisk kontaktkraft, $15\,250\text{ Joule}$ i bekreftet elastisk arbeid, og en lukket døgnmasse på $141{,}100998\text{ kg}$.
 
+---
+
+## IV. Opphøyd i $2$: $(\text{Punkt} \perp \text{Bane})^2$ — De Fire Kvadrantene og Kvadratisk Motstand
+
+Når motsetningsparet mellom det statiske punktet ($\mathcal{NP}$) og den dynamiske banen ($\mathcal{P}$) opphøyes i $2$, spaltes tilstandsrommet i fire eksakte kvadranter:
+
+$$(\text{Punkt} \oplus \text{Bane})^2 = (\text{Punkt} \otimes \text{Punkt}) \;\oplus\; (\text{Punkt} \otimes \text{Bane}) \;\oplus\; (\text{Bane} \otimes \text{Punkt}) \;\oplus\; (\text{Bane} \otimes \text{Bane})$$
+
+| Kvadrant | Algebraisk Invariant (`^2`) | Fysisk og Kausal Betydning | Dom & Spenning |
+| :--- | :--- | :--- | :--- |
+| **I. $\text{Punkt} \otimes \text{Punkt}$ ($\mathcal{NP}^2$)** | $\Pi_K^2(x) = \Pi_K(x) \;\land\; R^2 = (2\Pi_K - I)^2 = I \text{ (lineær }\Pi_K\text{)}$ | **Idempotent hvile:** Et andre slag med samme meisel på samme punkt fjerner ingen ny hoggespon ($\Delta_K^{(2)} = 0$). Punkt i kvadrat er ren struktur i ro. | `GATE::HOLD` ($0{,}00\text{ V DC}$) |
+| **II. $\text{Punkt} \otimes \text{Bane}$ (`BAR`)** | $x_n \xrightarrow{\Phi_{\Delta t}} \psi'_{n+1}, \quad \text{Rev}^1: F(F(s)) = s \text{ i } D_0 \cup D_1$ | **Utspenning fra anker:** Ut fra et låst punkt prøvespilles en reversibel kandidatbane uten ekstern utlesning ($\pi_R = \emptyset$). Et lovlig målpunkt ($x^* \in K$) autoriserer aldri en ulovlig mellomvei. | `KANDIDAT` ($0{,}00\text{ V DC}$) |
+| **III. $\text{Bane} \otimes \text{Punkt}$ (`NLK`)** | $\gamma(t) \cap \Sigma_{n+1} \implies (\odot \prec 1 \to \text{LATCH}) \;\lor\; (1 \prec \odot \to \text{CROWBAR})$ | **Frakturkuttet ved $400$ sykluser:** Kontinuerlig bane treffer det diskrete snittet $\Sigma_{n+1}$; `OPEN` krever $400$ syklusers forsegling før spenning, mens `KILL` kutter på første syklus. | `LATCH` ($5{,}00\text{ V}$) $\lor$ `CROWBAR` ($0{,}00\text{ V}$) |
+| **IV. $\text{Bane} \otimes \text{Bane}$ ($\mathcal{P}^2$)** | $\text{Rev}^2: \operatorname{Dom}(F) \cap D_2 = \emptyset \;\land\; W_{\text{diss}} \ge \frac{\mathcal{L}_{\text{thermo}}^2}{\tau_{\text{proc}}} \;\land\; \Delta E = \frac{1}{2}\rho(\Delta v)^2$ | **Bevissthet, heliks og kvadratisk motstand:** Banens egen krumning fra snitt til snitt. Forseglede baner kan aldri angres ($\text{Rev}^2$), og brå hastighetssprang straffes kvadratisk ($\Delta v^2$). | `VIABEL HELIKS` ($e \to e+1$) $\lor$ `KILL` |
+
+I programvarelaget (`L1`) er alle fire kvadranter og de $400$ klokkesyklusene implementert og verifisert i `PunktOgBaneSquaredEngine` (`scripts/punkt_og_bane_squared_engine.gd` og `tests/test_punkt_og_bane_squared_engine.gd`, **`6/6 PASS`** i Godot 4.3 headless).
+
 En tanke som bare lever i mulighetsrommet, driver med vinden. Et punkt som bare står stille i materien, stivner til stein. Først når systemet behersker rytmen mellom dem – å strekke banen ut i det ukjente, kappe alt som ikke bærer sin egen vekt på fire nanosekunder, og forankre det som overlever med $898\,900\text{ Newton}$ i fjellet – oppstår sann bevegelse. Det som besto prøven i dag, blir det faste punktet neste bane skyter ut fra i morgen.

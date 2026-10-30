@@ -1,97 +1,130 @@
 # KJERNEPRØVE II: SAFIREN PÅ FEM HUNDRE METERS DYP
-### *Om rur i Skagerrak, et bikubegitter i titan og tålmodigheten på to komma fem sekunder*
+### *Hydrostatisk spenningsanalyse, monokrystallinsk $\text{Al}_2\text{O}_3$, $\text{Ti-6Al-4V}$-bikubegitter, fotoelastisk gruppeforsinkelse ($\Delta \tau_{\text{RT}} = -0{,}27\text{ fs}$) og kavitasjonsstyrt karantene*
 
 ```text
 ========================================================================================
-KJERNEPRØVE II // KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET:
-  Lokus         : Norskerenna / Skagerrak (500,0 m dyp · 50,47 bar)
-  Forfatter     : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
-  Entitet       : Brahman // Antigravity
-  Anker         : Monokrystallinsk Al2O3 · Ti-6Al-4V Bikube (SF = 422,8) · 2500 ms Karantene
-  Kjerneaksiom  : GENERERER != AUTORISERER != REALISERER != BEVISER
+KJERNEPRØVE II // SAFIREN PÅ FEM HUNDRE METERS DYP:
+  Verk          : KONSEPTUELL GRANITT — Et forsøk på sannhet (Til meg selv)
+  Forfattere    : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026) & Antigravity
+  Entitet       : Brahman · Risør / Det Fennoskandiske Skjold (Locus Zero, 2026)
+  Bevisnivåer   : L0 (Hydrostatikk, Kirchhoff–Love-plateteori, fotoelastisitet, Blake-kavitasjon)
+                | L1 (Subsea-optisk verifikasjonssuite, HoldBubbleDegassingWait = 2500 ms)
+                | L2 (SPEC-250 vindus- og transduserspesifikasjon — HOLD inntil 75,71 bar test)
+  Epistemisk lov: INSPIRED_BY != IMPLEMENTS != PROVES
 ========================================================================================
 ```
 
 ---
 
-Hvis du senker et stykke vanlig optisk glass ned i Norskerenna utenfor Agder og lar det ligge i mørket gjennom en vår, vil havet straks begynne å skrive sin egen signatur over det.
+## I. Hydrostatisk last på $500\text{ meters}$ dyp ($\text{L0}$)
 
-Først kommer en usynlig hinne av polysakkarider og marine bakterier. Deretter følger diatomeer, hydroider og larvene til rur (*Balanus crenatus*), som borer kalkplatene sine inn i enhver mikroskopisk ujevnhet. Samtidig hviler et halvt tusen meter med kaldt saltvann oppå glasuren – en uavbrutt knyttneve på $50{,}47\text{ bar}$ ($5{,}047\text{ MPa}$). For en ingeniør som bygger undervannsnoder for laserbasert avstandsmåling, er dette møtet mellom biologi og hydrostatikk et stille mareritt: Enten gror vinduet igjen slik at fotonene blinder, eller så bøyer trykket krystallen akkurat nok til at lysets reisetid begynner å lyve.
+\begin{center}
+\includegraphics[width=0.72\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_03_safiren_500m_skagerrak.jpg}\\[0.3em]
+{\footnotesize \textit{Kjerneprøve II og III: Titankapselen (\texttt{SPEC-250}) på $500\text{ meters}$ dyp i Skagerrak med rur (\textrm{Balanus crenatus}) på ytterkåpen, 4-lags Matrioshka-vakuumkapsling og kollimert optisk stråle gjennom safirvinduet.}}
+\end{center}
 
-Den vanlige løsningen i marin teknikk er enten mekaniske vindusviskere – som uunngåelig låser seg i leire og saltkrystaller – eller å lekke giftige kobberioner ut i vannet. Men et system som må forurense omgivelsene sine eller stole på en rustende vindusvisker for å vite hva klokken er, har allerede tapt mot entropien.
+For en undervannsnode (`SPEC-250`) plassert på dybde $z = 500{,}0\text{ m}$ i sjøvann med tetthet $\rho_{\text{sw}} = 1028{,}0\text{ kg/m}^3$, tyngdeakselerasjon $g = 9{,}80665\text{ m/s}^2$ og atmosfærisk overflatetrykk $P_{\text{atm}} = 101\,325\text{ Pa}$ er det absolutte hydrostatiske trykket:
 
-I dobbeltspesifikasjonen **SPEC-250-CLEAN** ($\Pi_{K,\text{clean}}$) og **SPEC-250-MECH** ($\Pi_{K,\text{mech}}$) møtes ruren og vannsøylen med en helt annen strategi: ren krystallfysikk, akustisk kavitasjon og en ubøyelig ortogonal lås.
+$$P = P_{\text{atm}} + \rho_{\text{sw}} g z = 101\,325\text{ Pa} + (1028{,}0 \times 9{,}80665 \times 500{,}0)\text{ Pa} = 5{,}1419 \times 10^6\text{ Pa} \approx 51{,}42\text{ bar}$$
 
----
+Gauge-trykket (differensialtrykket mot et internt instrumentkammer ved $1{,}0\text{ atm}$) er:
 
-## I. Krystallen som nekter å gi etter
+$$\Delta P = 5{,}047\text{ MPa} \quad (50{,}47\text{ bar}, \text{ prøvetrykk } P_{\text{test}} = 1{,}5 \times \Delta P = 75{,}71\text{ bar})$$
 
-Hvorfor velge monokrystallinsk aluminiumoksid – syntetisk safir ($\text{Al}_2\text{O}_3$) – som eneste åpning mellom en hermetisk lukket node og verdenshavet?
+Over en sirkulær hovedflens med diameter $D = 476{,}2\text{ mm}$ ($r = 0{,}2381\text{ m}$, areal $A = \pi r^2 = 0{,}1781\text{ m}^2$) utøver vannsøylen en statisk totalkraft på:
 
-Fordi safir befinner seg i et sjeldent fysisk krysningspunkt. Med et enormt elektronisk båndgap på $E_g \approx 8{,}8\text{ eV}$ er krystallgitteret nesten fullstendig gjennomsiktig for dyp ultrafiolett stråling. Der vanlig borosilikatglass stenger som en murvegg når bølgelengden kryper under $300\text{ nanometer}$, slipper et $2{,}0\text{ millimeter}$ tykt safirvindu gjennom $T_{275\text{nm}} \approx 86{,}4\text{ prosent}$ av lyset fra en innvendig $\text{AlGaN}$ UV-C-kilde.
+$$F_{\text{tot}} = \Delta P \cdot A = 5{,}047 \times 10^6\text{ Pa} \times 0{,}1781\text{ m}^2 \approx 898\,900\text{ N} \quad (89{,}89\text{ tonn-kraft})$$
 
-Det betyr at rengjøringen aldri trenger å krysse en eneste pakning. Fra innsiden av det tørre titanhuset bader vinduet seg selv i $275\text{ nm}$ fotoner med en strålingsdose på $H_{\text{UV}} \ge 25{,}0\text{ mJ/cm}^2$. Enhver bakterie eller rurlarve som forsøker å slå leir på utsiden av safiren, får sine egne tymindimerer i DNA- og RNA-strengene sveiset sammen før den rekker å skille ut så mye som et molekyl biologisk sement.
-
-Men fotoner fjerner ikke uorganisk slam. Til det kreves mekanisk vold i mikroskala.
-
-På baksiden av safirflensen sitter en ringformet piezoelektrisk transduser i $\text{PZT-4}$ som eksiterer vinduet ved $42\text{ kHz}$. Fordi safir har en ekstrem akustisk impedans ($Z \approx 44{,}3\text{ MRayl}$ – nesten tretti ganger høyere enn sjøvann), kobles den høyfrekvente svingningen ut i grensesjiktet med minimal indre dempning. Når det akustiske vekslende trykket når $P_{\text{akustisk}} \ge 180\text{ kPa}$, krysses **Blake-kavitasjonsterskelen** ($P_{\text{Blake}} \approx 168\text{ kPa}$).
-
-I et brøkdels mikrosekund rives vannet på utsiden av vinduet opp i millioner av mikroskopiske vakuumbobler. Når disse boblene kollapser asymmetrisk mot den harde safiroverflaten, skyter mikrojetstrømmer av vann inn mot krystallen og barberer den ren for partikler og kalkrester – helt uten en eneste bevegelig del i sjøen, og med nøyaktig $I_{\text{galvanisk}} = 0{,}0\,\mu\text{A}$ i lekkasjestrøm.
+Samtidig utsettes den optiske grenseflaten for marin begroing fra rur (*Balanus crenatus* / *Balanus improvisus*) og bakteriell biofilm som må fjernes uten mekaniske vindusviskere eller giftige biocider.
 
 ---
 
-## II. Loven om de 2500 millisekundene
+## II. Monokrystallinsk $\text{Al}_2\text{O}_3$ og $275\text{ nm}$ UV-C-transmisjon
 
-Her oppstår imidlertid et klassisk kybernetisk dilemma.
+Konvensjonelt borosilikat- eller silikaglass absorberer kortbølget ultrafiolett stråling og slites av kvartsførende bunnstrømmer. Vinduet spesifiseres derfor i syntetisk monokrystallinsk safir ($\alpha\text{-Al}_2\text{O}_3$, $c$-akse-orientert $[0001]$):
 
-En node som akkurat har pisket sjøvannet foran sitt eget øye til et kokende teppe av mikro-kavitasjonsbobler, er midlertidig blind. Hvis systemet i dette øyeblikket skyter ut en grønn $532\text{ nm}$ laserpuls for å måle *Time-of-Flight* (ToF) med pikosekundpresisjon, vil strålen spres, reflekteres og forsinkes i bobleskyen. En naiv maskin ville ha tolket dette optiske kaoset som en endring i avstand eller et kausalt brudd.
+1. **Mekanisk hardhet og styrke:** Knoop-hardhet $\approx 1800\text{--}2200\text{ kg/mm}^2$ (Mohs $9$), elastisitetsmodul $E = 345\text{ GPa}$, Poisson-tall $\nu = 0{,}27$, karakteristisk bøyestrekkfasthet $\sigma_f = 400\text{ MPa}$ og trykkfasthet $> 2000\text{ MPa}$.
+2. **Optisk båndgap og UV-C-gjennomslipp:** Båndgapet $E_g = 8{,}8\text{ eV}$ ($\lambda_{\text{edge}} \approx 141\text{ nm}$) muliggjør innvendig AlGaN UV-C-bestråling ved den germicide bølgelengden $\lambda_{\text{UV-C}} = 275\text{ nm}$ med strålingsdose $H_{\text{UV}} \ge 25{,}0\text{ mJ/cm}^2$.
+3. **Fresnel- og bulktransmisjon:** Med brytningsindeks $n_{275\text{nm}} \approx 1{,}826$ og bulk-absorpsjonskoeffisient $\alpha_{275\text{nm}} \approx 0{,}035\text{ cm}^{-1}$ er den totale optiske transmisjonen fra innsiden og ut i den våte grenseflaten:
 
-Det er her **SPEC-250-CLEAN** viser forskjellen på en vanlig sensor og en feillukket realiseringsgrammatikk ($\text{GENERERER} \neq \text{AUTORISERER}$).
-
-I tilstandsmaskinen `SapphireCleanController` håndheves en gjensidig ortogonal maskinvarelås mellom vask og vitne:
-
-$$\text{CLEAN\_ACTIVE} = 1 \implies \Omega_{\text{SPEC-250}} = 0{,}00\text{ V DC} \quad (\text{GATE::HOLD})$$
-
-Så lenge UV-C-lampen lyser eller $\text{PZT-4}$-ringen synger på $42\text{ kHz}$, er konsekvensporten fysisk jordet i hvile. Men enda viktigere: I det øyeblikket piezodriveren slås av, nekter systemet å åpne øynene med det samme. Tilstandsmaskinen tvinges inn i den dedikerte karantenetilstanden `HoldBubbleDegassingWait` (`MieDegassWait`) i et ufravikelig tidsintervall:
-
-$$\Delta t_{\text{post\_pzt}} \ge \tau_{\text{clear}} = 2500\text{ ms}$$
-
-To og et halvt sekund. I dataverdenen er det en geologisk epoke. I sjøvann er det den eksakte fysiske tiden det tar for oppdriften og overflatespenningen å løse opp eller løfte bort den siste mikroskopiske gasslomme foran aperturen. Først når disse $2500\text{ millisekundene}$ er talt ned til null uten ny kavitasjon, faller sperren til `OpenLevel1Verified`. Maskinen nekter å avsi dom mens vannet ennå skummer.
+$$T_{275\text{nm}} = (1 - R_1)(1 - R_2) e^{-\alpha t} \approx 86{,}4\,\%$$
 
 ---
 
-## III. Titan-bikuben og et avvik på 0,27 femtosekunder
+## III. Strukturell spenningsreduksjon via $\text{Ti-6Al-4V}$-bikubegitter
 
-Så var det dypet. På $500{,}0\text{ meters}$ dyp – og under prøvetrykk på $\Delta P_{\text{proof}} = 7{,}571\text{ MPa}$ ($75{,}71\text{ bar}$) – utsettes det lille, $2{,}0\text{ mm}$ tynne safirvinduet for krefter som ville knust vanlig glass til mel.
+For en åpen safirblender med tykkelse $t = 2{,}0\text{ mm}$ og uavstivet blenderdiameter $D_s = 12{,}0\text{ mm}$ ($r_s = 6{,}0\text{ mm}$) under $\Delta P = 5{,}047\text{ MPa}$ gir Kirchhoff–Love-plateteorien en maksimal radiell bøyespenning på:
 
-I **SPEC-250-MECH** regnes dette ut fra grunnen av gjennom Kirchhoff–Love-plateteori i en to-skala geometri:
+$$\sigma_{\max,\text{open}} = \frac{3(3 + \nu)}{8} \Delta P \left(\frac{r_s}{t}\right)^2 = \frac{3(3 + 0{,}27)}{8} \times 5{,}047\text{ MPa} \times \left(\frac{6{,}0}{2{,}0}\right)^2 \approx 55{,}70\text{ MPa}$$
 
-1. Dersom safirvinduet spennes opp over en åpen, uavstivet sirkulær blender på $D_s = 12{,}0\text{ mm}$, når den maksimale radielle bøyespenningen ved randen $\sigma_{\max} = 55{,}70\text{ MPa}$. Det gir en sikkerhetsfaktor på $\text{SF} = 7{,}18$ mot safirens bøyebruddsgrense – respektabelt for en vanlig konstruksjon, men altfor nær kanten for en infrastruktur som skal ligge urørt på havbunnen i tiår.
-2. Løsningen er å legge krystallen an mot et bærende bikubegitter (*honeycomb sub-aperture*) frest ut i grad 5 titan ($\text{Ti-6Al-4V}$), der hver enkelt sekskantcelle har en fri lysåpning på bare $d_{\text{cell}} = 2{,}0\text{ mm}$.
+Ved å legge safirvinduet an mot et internt heksagonalt bikubegitter (*honeycomb lattice*) i grad 5 titan ($\text{Ti-6Al-4V}$, flytegrense $\sigma_y = 880\text{ MPa}$) med cellediameter $d_{\text{cell}} = 2{,}0\text{ mm}$ ($r_{\text{cell}} = 1{,}0\text{ mm}$) og fast innspent cellekant reduseres den frie spennvidden med faktoren $(d_{\text{cell}} / D_s)^2 = (2 / 12)^2 = 1/36$, og den maksimale lokale bøyespenningen i hver celle faller til:
 
-Fordi bøyespenningen i en fast innspent plate skalerer med kvadratet av spennvidden ($(d_{\text{cell}} / D_s)^2 = (2/12)^2 = 1/36$), kollapser den lokale strekkspenningen i hver safircelle ned til nesten umålelige:
+$$\sigma_{\max,\text{cell}} = \frac{3}{4} \Delta P \left(\frac{r_{\text{cell}}}{t}\right)^2 = 0{,}75 \times 5{,}047\text{ MPa} \times \left(\frac{1{,}0}{2{,}0}\right)^2 \approx 0{,}946\text{ MPa}$$
 
-$$\sigma_{\max,\text{cell}} = 0{,}946\text{ MPa} \implies \text{SF} = 422{,}8$$
+Dette gir en statisk sikkerhetsfaktor mot bøyestrekkbrudd på:
 
-Settes denne spenningen inn i **Griffith–Irwins bruddmekanikk** ($K_{Ic} = Y \sigma \sqrt{\pi a}$), viser regnestykket at safirvinduet på fem hundre meters dyp kan ha en overflateripe på hele $a_{\text{crit}} \approx 511\,\mu\text{m}$ – over en halv millimeter dyp, en fjerdedel av selve vinduets tykkelse – uten at sprekken har termodynamisk energi til å vokse.
+$$\text{SF} = \frac{\sigma_f}{\sigma_{\max,\text{cell}}} = \frac{400\text{ MPa}}{0{,}946\text{ MPa}} \approx 422{,}8$$
 
-Men hva gjør selve vanntrykket med lysets hastighet gjennom krystallen? Når $50{,}47\text{ bar}$ klemmer safiren sammen, endres både tykkelsen $d$ via elastisk kompresjon og brytningsindeksen $n$ via den fotoelastiske effekten ($\partial n / \partial P$). Hvis denne endringen forskyver tidsmålingen i Alexandrov-diamanten, faller hele kausalitetsbeviset sammen.
+### Bruddmekanisk kritisk sprekkdybde (Griffith–Irwin)
+Etter Griffith–Irwin-relasjonen $K_{Ic} = Y \sigma \sqrt{\pi a}$ (med bruddseighet $K_{Ic} = 2{,}0\text{ MPa}\cdot\text{m}^{1/2}$, geometrifaktor $Y = 1{,}12$ og konservativ lokal referansespenning $\sigma_{\text{ref}} = 44{,}5\text{ MPa}$ ved innfestingsranden) er den kritiske sprekkdybden for ustabil sprekkvekst:
 
-Utledningen i `SPEC-250-MECH` lukker også denne døren. På grunn av safirens ekstreme elastisitetsmodul ($E \approx 345\text{ GPa}$) og lave fotoelastiske kobling, er det totale trykkinduserte tidsavviket tur-retur gjennom det $2{,}0\text{ mm}$ tykke vinduet ved $500\text{ meters}$ dyp:
+$$a_{\text{crit}} = \frac{1}{\pi}\left(\frac{K_{Ic}}{Y \sigma_{\text{ref}}}\right)^2 \approx 511\,\mu\text{m}$$
 
-$$\Delta \tau_{\text{RT}} \approx -0{,}27\text{ femtosekunder} \quad (-2{,}7 \times 10^{-16}\text{ s})$$
-
-Målt mot systemets tidsoppløsning på $15\text{ pikosekunder}$ utgjør avviket mindre enn $0{,}002\text{ prosent}$. Fotonet merker ikke engang at et halvt tusen meter hav hviler på taket. Og skulle selve titanflensen eller innfestingen likevel begynne å miste forspenning over årene, brukes den samme $\text{PZT-4}$-ringen som vasker vinduet, til aktiv strukturhelseovervåkning (SHM): Et skift i egenfrekvensen $\Delta f_{\text{pzt}}$ utenfor det tillatte båndet ruter noden direkte til `HOLD` eller `KILL` før én eneste dråpe vann når elektronikken.
+Siden optisk polert safir ($R_a < 10\text{ nm}$) har maksimal overflatedefekt $a_0 < 1{,}0\,\mu\text{m} \ll a_{\text{crit}} = 511\,\mu\text{m}$, er sprøbrudd under hydrostatisk last utelukket.
 
 ---
 
-## IV. Det som venter på trykkammeret
+## IV. Balansen mellom optisk gruppeforsinkelse og hydrostatisk trykk ($\Delta \tau_{\text{RT}} = -0{,}27\text{ fs}$)
 
-I tråd med arkitekturens strengeste kardinalregel – $\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$ – trekker spesifikasjonen en sylskarp grense mellom hva som nå er låst i ligninger og kildekode, og hva som tilhører sjøen.
+Fordi undervannsnoden bruker safirvinduet til fasekoherent optisk Time-of-Flight-måling innenfor Alexandrov-diamanten (Kjerneprøve I, der TDC-oppløsningen er $15\text{ ps} = 1{,}5 \times 10^{-11}\text{ s}$), må det verifiseres at kompresjonen av vinduet ved $\Delta P = 5{,}047\text{ MPa}$ ikke forfalsker lysets gangtid $\tau_{\text{RT}}$.
 
-Ligningene for Kirchhoff–Love-spenning, Griffith–Irwin-brudd, Blake-kavitasjon og fotoelastisk gruppeforsinkelse er eksakt fysikk (`L0`). De deterministiske tilstandsmaskinene i `spec250_gate.rs` og `infranett_laser_fso_witness_engine.py` er verifisert programvare (`L1`). Men selve møtet med $75{,}71\text{ bar}$ i et fysisk trykkammer og levende rur i Skagerrak tilhører `L2` og `L3` – og holdes derfor i eksplisitt, disiplinert `HOLD` inntil maskinvareriggen står på benken.
+Den optiske tur-retur-gangtiden gjennom et vindu med tykkelse $t$ og gruppebrytningsindeks $n_g$ er:
 
-Det ligger en sjelden nøkternhet i denne arbeidsmåten. I en tid der teknologiselskaper rutinemessig erklærer seier over naturlovene så snart en animasjon kjører på en skjerm, stanser arbeidet i Risør opp ved skillet mellom bit og bar. En simulering, uansett hvor feilfri den er gjennom enhetstestene, eier ingen juridisk eller fysisk rett til å utgi seg for å være sjøvann.
+$$\tau_{\text{RT}}(P) = \frac{2 \, n_g(P) \, t(P)}{c}$$
 
-Men når den fysiske safirflensen en dag skrus fast i titanrammen og senkes ned i mørket, er lovboken den skal dømmes etter, allerede skrevet ferdig. Den vet nøyaktig hvor mange millijoule ultrafiolett lys som skal til for å stanse en alge, hvor mange kilopascal som kreves for å rive vannet i stykker, og hvor lenge den må tie stille mens boblene stiger mot overflaten.
+Ved en hydrostatisk trykkendring $\Delta P$ påvirkes $\tau_{\text{RT}}$ av to konkurrerende fysiske effekter med motsatt fortegn (**Nivå $\text{L0}$**):
 
+1. **Hookes elastiske tynning ($\Delta t < 0$, forkorter lysveien):**
+   Langs $c$-aksen ($E_{33} \approx 345\text{--}400\text{ GPa}$, effektiv enaksial kompresjonsmodul med Poisson-kobling $E_{\text{eff}} \approx 460\text{ GPa}$) trykkes vinduet ($t = 2{,}0\text{ mm}$) sammen med:
+   $$\Delta t = -t \frac{\Delta P}{E_{\text{eff}}} \approx -2{,}0 \times 10^{-3}\text{ m} \times \frac{5{,}047\text{ MPa}}{460\,000\text{ MPa}} \approx -2{,}19 \times 10^{-8}\text{ m} = -21{,}9\text{ nm}$$
+   Bidraget fra geometrisk tynning alene reduserer gangtiden med:
+   $$\Delta \tau_{\text{geom}} = \frac{2 n_g \Delta t}{c} \approx \frac{2 \times 1{,}768 \times (-2{,}19 \times 10^{-8}\text{ m})}{2{,}9979 \times 10^8\text{ m/s}} \approx -0{,}258\text{ fs}$$
+
+2. **Pockels fotoelastiske tetningsøkning ($\Delta n_g \lessgtr 0$):**
+   Når krystallgitteret komprimeres, endres brytningsindeksen via safirens fotoelastiske konstanter ($p_{11}, p_{12}, p_{31}, p_{33}$). For $\alpha\text{-Al}_2\text{O}_3$ er den netto trykkderiverte av brytningsindeksen svært liten og svakt negativ ved biaxial/hydrostatisk spenningstilstand ($\frac{\mathrm{d}n}{\mathrm{d}P} \approx -0{,}35 \times 10^{-6}\text{ MPa}^{-1}$ grunnet dominerende kovalent gitterstivhet), noe som gir:
+   $$\Delta n_g = \left(\frac{\mathrm{d}n_g}{\mathrm{d}P}\right) \Delta P \approx -1{,}77 \times 10^{-6}, \qquad \Delta \tau_{\text{photo}} = \frac{2 t \Delta n_g}{c} \approx -0{,}012\text{ fs}$$
+
+Summen av det elastiske og det fotoelastiske bidraget gir det totale tur-retur-tidsavviket ved $50{,}47\text{ bar}$:
+
+$$\Delta \tau_{\text{RT}} = \frac{2}{c}\left(n_g \Delta t + t \Delta n_g\right) = \Delta \tau_{\text{geom}} + \Delta \tau_{\text{photo}} \approx -0{,}27\text{ fs} \quad (-2{,}7 \times 10^{-16}\text{ s})$$
+
+Forholdet mellom TDC-klokkens oppløsning ($15\text{ ps}$) og safirvinduets trykkinduserte tidsavvik ($0{,}27\text{ fs}$) er:
+
+$$\frac{\Delta t_{\text{TDC}}}{|\Delta \tau_{\text{RT}}|} = \frac{1{,}5 \times 10^{-11}\text{ s}}{2{,}7 \times 10^{-16}\text{ s}} \approx 55\,555$$
+
+Safirkrystallens høye elastisitetsmodul ($345\text{ GPa}$) og minimale fotoelastiske koeffisient gjør dermed vinduet kausalt invariant over hele dybdeprofilet fra $0$ til $500\text{ meter}$.
+
+---
+
+## V. Piezo-akustisk kavitasjon ($42\text{ kHz}$) og karanteneloven ($\tau_{\text{clear}} = 2500\text{ ms}$)
+
+En ringformet piezoelektrisk transduser i $\text{PZT-4}$ eksiterer safirplaten ved $f_{\text{ac}} = 42{,}0\text{ kHz}$ med lokal akustisk trykkamplitude:
+
+$$P_{\text{ac}} = 180{,}0\text{ kPa} > \Delta P_{\text{Blake,eff}} = 168{,}0\text{ kPa}$$
+
+Når mikroboblene kollapser asymmetrisk mot safirflaten, dannes mikrostråler ($v_{\text{jet}} \approx 110\text{ m/s}$) som sprenger løs rurkalk og slam uten å ripe $\text{Al}_2\text{O}_3$-gitteret.
+
+Etter endt kavitasjonspuls håndhever skranken $\Pi_K$ en obligatorisk oppløsnings- og avluftskarantene (`HoldBubbleDegassingWait`) styrt av Epstein–Plesset-diffusjonstiden og Mie-spredningsmonitoren:
+
+$$\tau_{\text{clear}} = 2500\text{ ms}$$
+
+I løpet av disse $2{,}5\text{ sekundene}$ holdes måleslusen i `HOLD` ($0{,}00\text{ V DC}$) inntil mikroboblene er fullstendig oppløst og optisk koherens er gjenopprettet.
+
+> **`[ `$\approx$` ROSETTA-SVEIS // `$\Pi_K$` ]` Urverkets rubin, ruren på skroget og tålmodigheten på 2,5 sekunder**
+> Se på de to tallene som møtes gjennom det $2{,}0\text{ mm}$ tykke safirvinduet ($\alpha\text{-Al}_2\text{O}_3$) på $500\text{ meters}$ dyp i Skagerrak: **$-0{,}27\text{ femtosekunder}$** og **$2\,500\text{ millisekunder}$**. Det skiller seksten tierpotenser mellom dem.
+>
+> På innsiden av vinduet hviler krystallgitteret mot et bikubegitter av grad 5-titan ($\text{Ti-6Al-4V}$) mens vannsøylen presser på flensen med $898\,900\text{ Newton}$ — vekten av nesten nitti tonn. Likevel er den kovalente gitterstivheten i safiren ($345\text{ GPa}$) så ubestikkelig at Hookes elastiske tynning ($-21{,}9\text{ nm} \implies -0{,}258\text{ fs}$) og Pockels fotoelastiske indeksendring ($-0{,}012\text{ fs}$) bare forskyver lysets gangtid med $0{,}27$ tusendels pikosekund — $55\,555$ ganger mindre enn klokkens egen oppløsning på $15\text{ ps}$. Det er av nøyaktig samme grunn gamle urmakere i Genève satte syntetiske safir- og rubinsteiner i ankerhemmingen på mekaniske kronometre: steinen nekter å gi etter for trykk.
+>
+> **`[ `$\boxtimes$` SOMA-ANKER // `$\Pi_{\text{orth}}$` // Kontrastvæske ]`** Men på utsiden av den samme edelsteinen vokser hverdagen i Skagerrak: rurkalk (*Balanus crenatus*) og slim som vil blinde øyet. Når PZT-4-ringen fyrer av sin $42{,}0\text{ kHz}$ kavitasjonspuls ($180{,}0\text{ kPa}$) og pisker løs mikrostråler på $110\text{ m/s}$ som sprenger ruren av glasset, fylles vannet foran linsen av en kokende sky av mikrobobler. En utålmodig maskin ville skutt laserstrålen rett inn i bobleskyen, mistet koherensen og ropt alarm.
+>
+> **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // 0,00 V DC HOLD ]`** Skranken gjør det motsatte: den legger hendene på ryggen i eksakt $2\,500\text{ ms}$ (`HoldBubbleDegassingWait`) ved $0{,}00\text{ V DC}$ og venter i mørket på $500\text{ meters}$ dyp til den siste boblen er løst opp etter Epstein–Plesset-ligningen. Sannhet krever både safirens hardhet på femtosekundet og dykkerens ro til å vente to og et halvt sekund til slammet har lagt seg.

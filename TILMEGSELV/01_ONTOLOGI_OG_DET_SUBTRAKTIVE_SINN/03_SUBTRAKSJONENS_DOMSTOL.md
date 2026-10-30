@@ -6,7 +6,7 @@
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-GRUNNLAG-GENERERINGENS-FEILSLUTNING-KPOD-2026-v1.0
   KATEGORI                : GRUNNLAGSTEKST & MANIFEST (LITISK KJEMI & METAFYSIKK)
-  LOKUS                   : BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/
+  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
   TILHØRIGHET             : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
   PLANSJER                : Plansje 16 (16_morandi_kpod_catalysis.jpg)

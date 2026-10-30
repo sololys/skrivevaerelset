@@ -15,6 +15,11 @@ MINIMALIS-AKSIOMET // GRUNNLOV 0:
 
 ## 1. Den Lokale Reduksjonen
 
+\begin{center}
+\includegraphics[width=0.68\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_01_leirbaalet_og_ambolten.jpg}\\[0.3em]
+{\footnotesize \textit{Verkstedbenken i Risør (Locus Zero): Ambolten, Morandis krukke, det frosne timeglasset, meiselen og den åpne knivbryteren ved $0{,}00\text{ V DC}$ på det fennoskandiske grunnfjellet.}}
+\end{center}
+
 Det finnes en utbredt syke i den digitale tidsalderen. Mennesket forestiller seg at abstraksjoner har opphevet materien; at kildekode, nevrale vekter og skyinfrastruktur svever i et friksjonsfritt tomrom hevet over termodynamikkens lover. Man later som om energien er uendelig, at beregningshastighet er identisk med klokskap, og at man kan kaste sin egen støy ut i et globalt nettverk uten å betale regningen i varme, entropi og ansvar.
 
 Dette verket er en reduksjon til det ugjenkallelige. I det globale rommet har lyset en streng fartsgrense ($c = 299\,792\,458\text{ m/s}$), energien er bevart ($\Delta E = 0$), og entropien stiger ubønnhørlig ($dS \ge 0$); ingen slipper unna friksjonen, og universet tar aldri imot unnskyldninger. I det lokale rommet står krukken på bordet, sikringen i skapet, saltet på skroget og steinen du kan ta på med hånden: hvis en idé ikke tåler at strømmen kuttes og verktøyet legges ned på verkstedbenken, er den ikke en sannhet, men en ubetalt gjeldsbyrde. I kuttet mellom disse to fordamper alt det mellomliggende – markedsføringsordene, skytjenestenes garantier og troen på masseløs intelligens – ved første frostnatt.

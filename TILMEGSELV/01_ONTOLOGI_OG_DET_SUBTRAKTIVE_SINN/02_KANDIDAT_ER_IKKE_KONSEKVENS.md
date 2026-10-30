@@ -53,6 +53,22 @@ Minimaliteten bevises direkte ved at fjerning av en hvilken som helst rolle koll
 
 ---
 
+### Todelt Vitnekontrakt ($W_{\mathrm{pre}}^2$ vs. $R_n$) og Den Kausale Rekkefølgen over Porten $\Omega$
+
+For at skillet mellom *tillatelse til handling* og *dokumentert konsekvens* skal være entydig, splittes vitnefunksjonen i to eksplisitte ledd på hver sin side av overgangsoperatoren $\Omega$:
+
+1. **Forhåndsautoriserende dobbeltvitne ($W_{\mathrm{pre}}^2$):** Før porten $\Omega$ kan åpnes, kreves det at både admissibilitetsdommen ($\Delta_K(\Pi_K(c, \sigma)) = 0$), maskinvitnet $W_m(d_c, t)$ og det menneskelige suverenitetsvitnet $W_h(d_c, t)$ er verifisert gyldige og bundet til kandidatens kanoniske digest $d_c = H(\text{canonical\_bytes}(c))$ innenfor gyldighetsvinduet $t < t^*$:
+
+$$\operatorname{Permit}_{\Omega}(c, \sigma, t) \iff \bigl(\Pi_K(c, \sigma) = \mathrm{ALLOW}\bigr) \land W_m(d_c, t) \land W_h(d_c, t) \land (t < t^*)$$
+
+2. **Varig opptak, utførelse og etterfølgende konsekvenskvittering ($R_n \in D_3$):** Tillatelse alene garanterer ikke utførelse ved strømbrudd eller prosesskrasj. Enhver realisering må derfor følge den strengt ordnede firetrinns-kontrakten:
+
+$$\boxed{\operatorname{Durable}(I_n) \prec \operatorname{Execute}_n \prec \operatorname{Durable}(R_n) \prec \operatorname{ACK}_n}$$
+
+Først synkroniseres autorisasjonsintensjonen $I_n$ (med kandidat-digest $d_c$ og $W_{\mathrm{pre}}^2$) varig til ikke-flyktig lagring ($\operatorname{Durable}(I_n)$). Ved selve åpningstidspunktet ($\operatorname{Execute}_n$) kontrolleres det på nytt at tidsfristen $t < t^*$ ikke har utløpt under lagringen. Etter at overgangen i $\Omega$ er gjennomført, skrives konsekvenskvitteringen $\operatorname{Durable}(R_n)$ før ekstern bekreftelse ($\operatorname{ACK}_n$) frigis. Dersom systemet stanser i krasjvinduet mellom $\operatorname{Durable}(I_n)$ og $\operatorname{Durable}(R_n)$, er posten syntaktisk gyldig, men semantisk uavklart (`IN_DOUBT`). Oppstartsrutinen låser da systemet i `RECOVERY_HOLD` inntil den fysiske tilstanden er avstemt; en ny epoke kan aldri slette historisk usikkerhet fra en uavklart utførelse.
+
+---
+
 Det som utelukkende kan tenkes, har ennå ikke inntruffet. Det som kun lar seg beregne, besitter fremdeles ingen kropp. Kalkulasjonens hastighet forveksles uavbrutt med fremdrift, men ren bevegelse bærer ingen masse. Å vende tilbake er ikke tilstrekkelig for å etablere fotfeste, og tilstanden OPEN utgjør i seg selv ingen handling. Før terskelen utspiller mulighetsrommet seg som en vektløs overflod; etter terskelen kollapser dette potensialet i møte med historiens absolutte treghet.
 
 I denne overgangen er HOLD aldri et nederlag. Tilstanden er et nødvendig forsinkelseskammer, det eksakte stedet der fjellet nekter å lyve om den friksjonen det syntetiske systemet ennå ikke har absorbert. På samme måte er KILL verken en feilkode eller et uttrykk for vrede. Det er den mekaniske håndhevelsen av materiell ufravikelighet, selve arkitekturen som fremdeles husker hva en fysisk grense innebærer.
