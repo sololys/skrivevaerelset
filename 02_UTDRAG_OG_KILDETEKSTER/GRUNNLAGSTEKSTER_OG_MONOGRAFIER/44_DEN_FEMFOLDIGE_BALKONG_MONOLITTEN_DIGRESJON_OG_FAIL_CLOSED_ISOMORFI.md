@@ -64,3 +64,28 @@ $$\Omega_{\text{Balkong V}}(\gamma) = \begin{cases} \mathrm{OPEN} \ (\texttt{[MO
 | **Dør 21** | `103_OVERSETTERENS_VAERELSE_GLOBAL_ETOR_KONSEKVENSPORT_DOER_21.pdf` | Balkong V (Støpeblokk B) | `c4493b9dfe9df04bb9551dbff763e95a3cf060f47b83dc4a4289b8d4c3e8aa9c` |
 | **Dør 22** | `104_DET_UGJENKALLIGE_REALISERINGSKAMMERET_COMMIT_PROTOKOLLEN_DOER_22.pdf` | Balkong II (Støpeblokk B) | `7ee0e0a68b2c5f86c25b10254b84eb35d73ebba1966d8e4be735978979d15e3b` |
 | **Dør 24** | `106_ROBOTISK_KROPP_OG_AKTUERING_E_TOR_DOER_24.pdf` | Balkong III (Støpeblokk B) | `8d2a79b3adc7a93877bb9b683f1a46b23588332f7cd2156bf5ca273704303e06` |
+
+---
+
+## 4. Kausal Analyse av Funnene (`L1`/`L2` Isomorfi) og Operasjonelt Vokabular for Manuskriptet
+
+### 4.1 Kausal Analyse av Funnene
+1. **Poincaré-returen som Kryptografisk Lås (`SHA-256`):** De 13 verifiserte ankerfilene i SSOT-manifestet eksisterer *fordi* banen lukket seg. Når koden passerer `_all_finite()` og returnerer til `admissible_open`, utfører den en eksakt Poincaré-retur. Et manuskript uten retur er en minnelekkasje; en funksjon uten retur-verifisering er en `NaN`/`±inf`-tilstand som utløser katastrofe. SHA-256-hashen er beviset på at teksten og koden har lukket seg ($\lVert P_{\mathcal{A}}(x_0) - x_0\rVert_{\mathcal{M}} \le \epsilon_{\mathrm{drift}}$).
+2. **Det Urealiserte Livets Rom som Fail-Closed Fundament:** Betingelsene i `kpod_urea_electrochem_engine.py` ($\text{FE} \ge 85\,\%$, overpotensial $\le 0{,}35\text{ V}$) og Leidenfrost-eksplosjonen i *Kjerneprøve III* er samme mekanisme. Blindveien fredlyses i teksten for å bevise hvorfor systemet må feile lukket til $0{,}00\text{ V DC}$. Blindveien er ikke en feil; den er en *utført test* av det ikke-tillatte området, dokumentert som en append-only beviskjede i teksten.
+3. **Kontrastvæsken som $0{,}00\text{ V DC}$ Jording:** I et system med høy abstraksjon (Maurer–Cartan-former, Mössbauer-isomerskift $\delta \in [0{,}02, 0{,}18]\text{ mm/s}$) vil enhver feil i semantisk banding føre til at leseren mister festet (flytende spenning). Kontrastvæsken (lukten av diesel, kuvøsens $0{,}3\text{ mm}$ bevegelse) fungerer som den fysiske jordingen ($0{,}00\text{ V DC}$) som trekker abstraksjonen ned til en observerbar, fysisk realitet der termodynamiske grenser og Landauer-skatten gjelder.
+4. **`WFI` (*Wait For Interrupt*) som Kognitiv Dvale:** Busy-wait og tidsfristdrevet panikk brenner opp både silisium og den biologiske kapitalen $K_\gamma$. Den sokratiske dvalen (Lotus-stillingen) er isomorf med maskinvarens `WFI`-tilstand: $\left.\partial_t \mathrm{HOLD}\right|_{W=\emptyset} = 0$. Systemet venter på et ekte vitnesbyrd (`interrupt`) uten termisk slitasje.
+5. **Det Kausale Bøyemomentet som Redaksjonell Skranke:** Ornamentet (digresjonen) får aldri vriste tyngdepunktet $x_{\mathrm{cm}}$ ut av bjelkens bærekapasitet ($\Sigma_{\mathrm{kjerne}}$). Brudd på proporsjonal bæreevne utløser umiddelbar galvanisk amputasjon (`KILL_GUILLOTINE` / $0{,}00\text{ V DC}$).
+
+### 4.2 Operasjonelt Vokabular for Manuskriptet (`L1`)
+
+| Konstitusjonell Verdi | Operasjonelt Begrep i Tekst | Teknisk / Matematisk Definisjon |
+| :--- | :--- | :--- |
+| **1. Poincaré-returen** | `[POINCARÉ_CLOSURE]` | Banen $x(t)$ returnerer til snittet $\Sigma_{\mathcal{A}}$ innenfor toleransen $\epsilon$. Signaliserer at utflukten nå stålsettes i hovedtesen og låser kapittelet kryptografisk for leseren. |
+| **2. Isomorfiens Tverrsprang** | `[ISOMORPHIC_PROJECTION]` | Kartlegging $f: X \to Y$ hvor den kausale skranken $\Pi_K$ bevares intakt på tvers av biologi, silisium og litteratur. Ikke en metafor, men en strukturell lov. |
+| **3. Rommet for Urealiserte Liv** | `[NEGATIVE_PHASE_EXPLORATION]` | Bevisst aktivering av en ustabil tilstand (Leidenfrost ved $500\text{ m}$) for å observere asfaltering av grensene. Endetidspunktet resulterer alltid i system-stopp (`KILL`). |
+| **4. Kontrastvæskens Prinsipp** | `[EPISTEMIC_GROUNDING]` | Nedtrekk av kognitiv spenning til $0{,}00\text{ V DC}$. Påkrevet etter sekvenser med abstraksjonsdybde $> \tau_{\max}$. Injiserer en sanselig variabel for å forhindre avkobling fra fysisk virkelighet. |
+| **5. Proporsjonal Bæreevne** | `[LOAD_TOLERANCE_VERIFIED]` | Sjekksum for tekstlig arkitektur. Sikrer at residualet $\Delta_{\mathrm{digresjon}}$ er strengt mindre enn bæreevnen $\Omega_{\mathrm{kjerne}}$. Ved brudd: teksten refaktoreres eller trimmes (*Fail-Closed*). |
+
+> **Kanonisk syntakseksempel i tekst:**  
+> *«Vi har nå etablert den teoretiske modellen for KcsA-kanalen. For å autorisere denne innsikten `[ISOMORPHIC_PROJECTION]`, forlater vi biologien og tvinger en `[NEGATIVE_PHASE_EXPLORATION]` i en FPGA-port. Hvis vi fjerner bremsekurven, kortslutter silisiumet. Denne eksplosjonen viser oss gjerdet. Gjennom `[EPISTEMIC_GROUNDING]` – lyden av brent flussmiddel mot loddebolten – forankrer vi katastrofen fysisk, før vi utfører en eksakt `[POINCARÉ_CLOSURE]` tilbake til hovedtesens definisjon av port-autorisasjon `[LOAD_TOLERANCE_VERIFIED]`.»*
+

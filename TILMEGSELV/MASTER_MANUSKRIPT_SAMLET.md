@@ -5341,6 +5341,19 @@ De tre operasjonelle verktøyene i **Balkong V** lukker dermed hele den femfoldi
 * Uten **Sokratisk dvale i `WFI` (Balkong IV)** brenner vi opp systemet i kognitivt stress.
 * Uten **Proporsjonal bæreevne (Balkong V)** tipper hele verket ut i avgrunnen.
 
+#### Operasjonelt Vokabular for Manuskriptet (`L1`)
+
+| Konstitusjonell Verdi | Operasjonelt Begrep i Tekst | Teknisk / Matematisk Definisjon |
+| :--- | :--- | :--- |
+| **1. Poincaré-returen** | `[POINCARÉ_CLOSURE]` | Banen $x(t)$ returnerer til snittet $\Sigma_A$ innenfor toleransen $\epsilon$ ($\lVert P_A(x_0) - x_0\rVert_{\mathcal{M}} \le \epsilon_{\text{drift}}$). Signaliserer at utflukten stålsettes i hovedtesen og låser kapittelet kryptografisk. |
+| **2. Isomorfiens Tverrsprang** | `[ISOMORPHIC_PROJECTION]` | Kartlegging $f: X \to Y$ hvor den kausale skranken $\Pi_K$ bevares intakt på tvers av biologi, silisium og litteratur (f.eks. $\text{FE} \ge 85\,\%$ ved $\le 0{,}35\text{ V}$ og Mössbauer $\delta \in [0{,}02, 0{,}18]\text{ mm/s}$). |
+| **3. Rommet for Urealiserte Liv** | `[NEGATIVE_PHASE_EXPLORATION]` | Bevisst aktivering av en ustabil tilstand (Leidenfrost ved $500\text{ m}$) for å observere asfaltering av grensene. Endetidspunktet resulterer alltid i system-stopp (`KILL`). |
+| **4. Kontrastvæskens Prinsipp** | `[EPISTEMIC_GROUNDING]` | Nedtrekk av kognitiv spenning til $0{,}00\text{ V DC}$ etter sekvenser med abstraksjonsdybde $> \tau_{\max}$. Teksten injiserer en sanselig variabel (lukten av diesel, kuvøsens $0{,}3\text{ mm}$ bevegelse) for å forhindre avkobling fra fysisk virkelighet. |
+| **5. Proporsjonal Bæreevne** | `[LOAD_TOLERANCE_VERIFIED]` | Sjekksum for tekstlig arkitektur. Sikrer at residualet $\Delta_{\text{digresjon}}$ er strengt mindre enn bæreevnen $\Omega_{\text{kjerne}}$. Ved brudd: teksten refaktoreres eller trimmes (`KILL_GUILLOTINE` / *Fail-Closed*). |
+
+> **Eksempel på operasjonell implementering i tekst (syntaks):**  
+> *«Vi har nå etablert den teoretiske modellen for KcsA-kanalen. For å autorisere denne innsikten `[ISOMORPHIC_PROJECTION]`, forlater vi biologien og tvinger en `[NEGATIVE_PHASE_EXPLORATION]` i en FPGA-port. Hvis vi fjerner bremsekurven, kortslutter silisiumet. Denne eksplosjonen viser oss gjerdet. Gjennom `[EPISTEMIC_GROUNDING]` – lyden av brent flussmiddel mot loddebolten – forankrer vi katastrofen fysisk, før vi utfører en eksakt `[POINCARÉ_CLOSURE]` tilbake til hovedtesens definisjon av port-autorisasjon `[LOAD_TOLERANCE_VERIFIED]`.»*
+
 ---
 
 ### 8. `INGENØRUS`: Subtraktiv innovasjonsmatrise og eksekveringsregler for nye systemer
