@@ -1,3 +1,28 @@
+# `SKRIVEVÆRELSET` // THE WORD & EPISTEMIC D0 SANCTUARY (`0xABCDEF00`)
+
+```text
+╔══════════════════════════════════════════════════════════════════════════════════════╗
+║  ROOM: THE WORD (SKRIVEVÆRELSET) // LITERARY, DRAMATIC & PHILOSOPHICAL MONOGRAPHS    ║
+║  STATE ANCHOR : 0xABCDEF00 (v1.5.0-MASTER)                                           ║
+║  LAYER CLASS  : D0 (Pre-Formal Articulation, Classical Drama & Nordic Essayistics)   ║
+║  BOUNDARY LAW : INSPIRED_BY != IMPLEMENTS != PROVES                                  ║
+╚══════════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### `0x01` // The Place of the Word in a Fail-Closed Architecture
+
+Before a state vector can be estimated ($D_1$), structured into an interval grammar ($D_2$), or sealed inside a 208-byte cryptographic envelope ($D_3$), human thought must confront consequence, tragedy, law, and responsibility in natural language.
+
+`skrivevaerelset` (*The Writing Room*) is the dedicated literary and philosophical chamber of the `sololys` constellation.
+
+| Epistemic Property | Rule in `skrivevaerelset` |
+| :--- | :--- |
+| **Domain** | Classical drama (Ibsen, *The Odyssey*), juridical-philosophical dialogues (*Sokrates & Juristen*), and Nordic prose. |
+| **Boundary Invariant** | Strictly governed by `INSPIRED_BY != IMPLEMENTS != PROVES`. Literary exploration informs architectural ethics at $D_0$, but never substitutes for $L_1$ verification or $L_3$ hardware telemetry. |
+| **Counterpart** | Formal mathematical and RTL proofs reside in [`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures) and [`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators) (`80/80 PASS`). |
+
+---
+
 ![Realiseringsgrammatikk og Epistemisk Styring: Fra Forslag til Konsekvens](./morandi/Formell_arkitektur_for_cyber-fysiske_systemer.png)
 
 *Fra samlingen som overlevde brente jords taktikk. De tekniske bladene er skåret ut; kun den litterære stammen står igjen.*
@@ -103,4 +128,6 @@ Dette depotet fungerer utelukkende som en litterær og filosofisk stamme for Bra
 
 │ — [ Blad skåret ut ved bokryggen ] —
 
+---
+`STATE ANCHOR: 0xABCDEF00` · `RELEASE: v1.5.0-MASTER` · `GATE: [SSOT_LOCKED // HOLD 0.00V_DC]` · `ORCID: 0009-0006-0431-6637`
 
