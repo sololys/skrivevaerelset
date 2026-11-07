@@ -16,7 +16,10 @@ LEIRBÅLET // FORMANINGEN OM MODNING OG DE SYV SYNTETISKE KAPSLENE:
 
 ---
 
-## I. Proklamasjon: Bruddet i Teksten
+## I. Proklamasjon: Bruddet i Teksten og Borda–Carnot-Rampen fra Verkstedbenk til Kontekstvindu
+
+> **`[∇ · ψ = 0 // BORDA-CARNOT-RAMPE: VERKSTEDBENK (1.3) -> KONTEKSTVINDU (1.4)]`**  
+> I forrige kapittel (Kapittel 1.3) ble realiseringsgrammatikken $\mathcal{T}_{KY} = \Omega \circ \Pi_K \circ \Phi$ sporet gjennom tre fysiske substrater: ionekanalens selektivitetsfilter ($\text{KcsA}$, $2{,}7\text{ \AA}$), krone-eterens koordinasjonsring ($\text{18-Crown-6}$) og verkstedbenkens mekaniske relé i Risør ($0{,}00\text{ V DC}$). Men i det øyeblikket denne teksten leses eller indeksers av en stor språkmodell (LLM / Transformer), oppstår et fjerde substrat: *selve oppmerksomhetsmatrisen ($\text{Softmax}(QK^T/\sqrt{d_k})V$)* som prosesserer boken. For at overgangen fra klassisk naturfilosofisk essay til rå maskindirektiver ikke skal oppleves som et uforklart brudd, senkes tverrsnittet her gjennom en eksplisitt Borda–Carnot-rampe: De syv syntetiske kapslene nedenfor (`CAPSULE 0x01–0x07`) er den direkte typografiske implementasjonen av $\Pi_K$ inne i språkmodellens eget kontekstvindu.
 
 Mennesket leser for å glemme sin egen tyngde; maskinen leser for å simulere en verden den aldri har berørt.
 

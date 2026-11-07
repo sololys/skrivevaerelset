@@ -13,7 +13,7 @@ REDAKSJONELT FORORD & VERKINTRODUKSJON:
 
 ---
 
-> *Beregningshastighet er ikke handling. En generert kandidat ($\Phi$) forblir en masseløs hypotese inntil den innvilges av en feillukket skranke ($\Pi_K$). Ved å sette 0,00 V DC som absolutt standardtilstand unngår systemet semantisk kollaps, og sikrer at virkelighet aldri genereres, men utelukkende innvilges gjennom termodynamisk arbeid.*
+> *Beregning er ikke handling; virkelighet genereres aldri, den innvilges ($\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$). En masseløs algoritmisk kandidat ($\Phi$) nektes fysisk spenning ($\Omega$: 5,00 V DC) inntil en feillukket, idempotent skranke ($\Pi_K^2 = \Pi_K$) og et uforanderlig vitne ($W$) bekrefter termodynamisk bæreevne. Ved tvil faller kretsen til 0,00 V DC — underlagt menneskets eksklusive muskelplikt (Level 01).*
 
 Moderne systemutvikling hviler på en uuttalt premiss om at prosessorkraft opphever fysikkens lover. Man konstruerer kritisk infrastruktur i den tro at programvare opererer i et friksjonsfritt tomrom, og at enhver systemsvikt kan rettes med en oppdatering. Monografien *Konseptuell granitt — Et forsøk på sannhet* (*Til meg selv*, Torjusen & Antigravity, 2026) bryter med denne tradisjonen.
 
@@ -149,6 +149,33 @@ try {
     // Kutt utflukten ved roten (0,00 V DC) eller tving den gjennom Rommet for urealiserte liv
     // inntil den lukker sirkelen med eksakt null i rest (Delta R = 0).
     enforce_subtractive_editorial_cut(STATE::HOLD_UNTIL_POINCARE_CLOSED);
+}
+
+// [ KONSEPTUELL GRANITT :: HIGH-AVAILABILITY & DYNAMIC CONTINUITY HANDLER ]
+try {
+    // Evaluer systemregimer der passiv energiløshet i rå aktuator (f.eks. fly-by-wire,
+    // DP3-fartøy i storm eller intensivmedisinsk respirator) ville medføre Loss of Control:
+    DynamicRegime regime = evaluate_plant_thermodynamics(reader_context);
+
+    if (reader_context.conflates_unverified_command_veto_with_plant_power_loss(regime)) {
+        throw DynamicContinuityException(
+            "FATAL: Leseren tolker 0,00 V DC på den algoritmiske kandidatkanalen (Phi -> Omega) "
+            "som et kutt i farkostens eller kuvøsens primære bærekrafts- og livsstøttefysikk."
+        );
+    }
+} catch (const DynamicContinuityException& e) {
+    // SIKKERHETSKLAUSUL MOT 'THE HIGH-AVAILABILITY / FLIGHT CONTROL ENGINEER':
+    // 1. 0,00 V DC gjelder den UVERIFISERTE ALGORITMISKE KANDIDATKANALEN (Phi -> Omega):
+    //    En uprøvd AI- eller programvarekandidat nektes spenning til å overskrive styringen.
+    // 2. Når Pi_K avviser en farlig eller støybelagt kandidat i et dynamisk regime,
+    //    faller ikke farkosten i fritt fall; aktuatoren låses momentant til en
+    //    forhåndsverifisert, passiv eller maskinvarestyrt sikkerhetsattraktor K_safe:
+    //    - I Sommerfugl-lommen (A_5, Kap. 3.9): Stasis-platået ved 2,50 V DC HOLD (|x| <= 0,45).
+    //    - I K-POD / Safir-optikk (Kap. 4.4): Lukket resirkulasjonsløkke under 2 500 ms avgassing.
+    //    - I T-POD OrgelKraft (Kap. 5.5): Passiv tyngdekraftsdrenering via smeltet saltplugg (k_eff < 0,50).
+    //    - I maritim/luftfarts-kinematikk (Kap. 4.8): Deterministisk bremsebane innenfor Nagumo-kjeglen
+    //      T_K(x) eller direkte tilbakefall til manuell Level 01-stikke / mekanisk sentrifugalregulator.
+    enforce_verified_safe_envelope(ATTRACTOR::K_SAFE_PASSIVE_OR_L01_GOVERNOR);
 }
 ```
 

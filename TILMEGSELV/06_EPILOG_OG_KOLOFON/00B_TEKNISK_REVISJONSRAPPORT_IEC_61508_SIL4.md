@@ -244,6 +244,29 @@ Før noen prospektiv L2/L3-enhet (herunder `SPEC-250`, `K-POD v1.2`, `T-POD Orge
 
 ---
 
+## 5.1 DevSecOps Sårbarhetslukking: `CVE-2026-KG-ZERO-DAY` og Eksterne Avhengighetsskranker (`DI-01`–`DI-03`)
+
+Under uavhengig DevSecOps- og SIL-4-revisjon av versjon `v1.0.2` ble én dyp strukturell transduksjonssårbarhet (`CVE-2026-KG-ZERO-DAY`) og tre implisitte eksterne avhengigheter (`DI-01` til `DI-03`) identifisert og formelt lukket i `PATCH-KG-v1.0.3`:
+
+### 1. Lukking av `CVE-2026-KG-ZERO-DAY` (*The Gödelian Transducer Horizon & High-Z Spoofing i $\Pi_{\text{orth}}$*)
+
+* **Delvektor A — Tidsdomene- og Skala-separasjon mellom `80 kHz` L1-Registerkonservering og $\tau_{\text{clear}} = 2\,500\text{ ms}$ L3-Flerfase-Integral:**  
+  I en kokende flerfasereaktor (`K-POD`, `P-POD`, `POD-Mycelin` med $141{,}100998\text{ kg}$ døgnmasse) vil hydrodynamisk boblestøy og Brownske svingninger umiddelbart utløse falsk `GATE::KILL` dersom en rå fysisk veiecelle ble avkrevd $\le 1\text{ mg}$ ($\approx 7 \times 10^{-9}$) presisjon ved hver $12{,}5\,\mu\text{s}$ klokkesyklus (`80 kHz`). Omvendt ville bruk av en syntetisk tilstandsestimator som direkte terrengvitne bryte loven $\Phi \neq W$.  
+  **Arkitektonisk Lås (`PATCH-KG-ZERO-DAY-A`):** Betingelsen `mass_delta_mg <= 32'd1` i `kpod_fpga_guillotine_12u5` ($12{,}5\,\mu\text{s}$) vokter det **interne L1-fikspunktregnskapet** ($\Delta R_{\text{L1}} = \lvert m_{\text{inn}}^{\text{reg}} - m_{\text{ut}}^{\text{reg}}\rvert \le 1\text{ mg}$), som avskjærer minnekorrupsjon, avrundingsfeil og ulovlige registerhopp i løpet av én klokkesyklus. Den **fysiske L3-massebalansen** ($\Delta R_{\text{L3}}$ fra Coriolis-strømningsmålere og veieceller) evalueres derimot strengt i det hydrodynamisk utjevnde hvilevinduet etter kavitasjons- og bobleavgassing ($\tau_{\text{clear}} = 2\,500\text{ ms}$, jf. `HoldBubbleDegassingWait`), underlagt et eksplisitt måleusikkerhetsbånd:
+  $$\left\lvert \int_{t_0}^{t_0 + \tau_{\text{clear}}} \bigl(\dot{m}_{\text{inn}}(t) - \dot{m}_{\text{ut}}(t)\bigr)\,\mathrm{d}t - \Delta m_{\text{grav}}(\tau_{\text{clear}}) \right\rvert \le \epsilon_{\text{L3}} = 3\sigma_{\text{hydro}}$$
+* **Delvektor B — Ratiometrisk Galvanisk Isolasjon og Passivt Fysisk Veto mot Felles-Modus $V_{\text{ref}}$-Injeksjon:**  
+  For å forhindre at en elektromagnetisk feilinjeksjon (EMI/EMP) modulerer en felles spenningsreferanse $V_{\text{ref}}$ eller et felles jordplan ved $80\text{ kHz}$ der $W_{\text{EM}}$, $W_{\text{term}}$ og $W_{\text{ToF}}$ møter FPGA-pinnene, er hver av de tre transdusergrenene i $\Pi_{\text{orth}}$ utstyrt med **separat galvanisk isolert ratiometrisk målebro** og uavhengig lokal båndgap-/krystallreferanse ($\text{ADC}_{\text{EM}} \perp \text{ADC}_{\text{term}} \perp \text{ADC}_{\text{ToF}}$) som overfører kun optisk isolerte, kryptografisk tidsstemplede bitstrømmer inn til majoritetsvotereren. Videre er den siste skranken i `T-POD` og `SPEC-250` **helt uavhengig av silisium og $V_{\text{ref}}$**: Smeltesaltpluggen (passiv termisk faseovergang til tyngdekraftsdrenering ved $k_{\text{eff}} < 0{,}50$), den mekaniske returfjæren ($\ge 5{,}0\text{ mm}$ luftgap) og skjærsplinten ($1\,200\text{ N}$) krever null digitale klokkesykluser for å åpne kretsen.
+
+### 2. Eksplisitt Deklarasjon av de Tre Eksterne Avhengighetsskrankene (`DI-01` til `DI-03`)
+
+| Avhengighets-ID | Identifisert Implikitt Premiss | Formell Konstitusjonell Skranke i `PATCH-KG-v1.0.3` |
+| :--- | :--- | :--- |
+| **`DI-01` (Supply Chain vs. Runtime Autarky)** | produksjon av $\alpha\text{-Al}_2\text{O}_3$ safirvinduer ($R_a < 10\text{ nm}$), $15\text{ ps}$ TDC-FPGA og $\text{Ti-6Al-4V}$ krever global halvleder- og metallurgi-industri. | Loven $\frac{\partial \mathcal{A}_{\text{infranett}}}{\partial \mathcal{C}_{\text{fiber}}} \equiv 0$ definerer **Operasjonell Kjøretids-Autarki** (*Runtime Sovereignty*): Når en node er utplassert (med kald-reservekort i Faraday-bur på verkstedbenken), har den null operasjonell avhengighet av sky, DNS eller fiber. Ved totalt globalt forsyningskjedebrudd degraderer anlegget kontrollert til rent mekaniske/manuelle Level 01-sluser uten silisium. |
+| **`DI-02` (Dynamic Safe-State Attractor $K_{\text{safe}}$)** | I dynamiske regimer (fly-by-wire, DP3-fartøy i storm, respirator) er rått spenningskutt på primærmotorer dødelig (*Loss of Control*). | $0{,}00\text{ V DC}$ kutter utelukkende **den uverifiserte algoritmiske kandidatkanalen ($\Phi \to \Omega$)**. Selve farkosten eller livsstøtten rutes ved avvisning momentant til en forhåndsverifisert passiv eller maskinvarelåst sikkerhetsattraktor $K_{\text{safe}}$ ($2{,}50\text{ V HOLD}$ i Sommerfugl-lommen $A_5$, lukket resirkulasjon, passiv oppdrift eller direkte mekanisk Level 01-stikke). |
+| **`DI-03` (Subsea $500\text{ m}$ `RESET_BY_L01`)** | Intet menneske kan gå til fots ned på $500\text{ m}$ dyp ($51{,}42\text{ bar}$) i Skagerrak for å trekke i et bakelitthåndtak etter `GATE::KILL`. | For utilgjengelige dypvannsnoder (`SPEC-250`) håndteres all ytre kanalstøy reversibelt av elektronisk `CAUSAL_HOLD` ($8{,}0\,\mu\text{J}$). Ved reelt indre brudd (`GATE::KILL`) utføres `RESET_BY_L01` via (a) en dedikert, usvitsjet mekanisk/optisk overflate-umbilical eller ROV-momentnøkkel (`ISO 13628-8 Class 4`) styrt av Level 01 på dekk (som fremdeles slurer over $1\,200\text{ N}$-splinten hvis $\Delta_K \neq 0$), eller (b) full flensheising til dekk dersom den fysiske crowbar-sikringen (eFuse) er brent av. |
+
+---
+
 ## 6. Avsluttende Revisjonsdom og Konstitusjonell Erklæring
 
 Verifikasjonsfunnene bekrefter at de fremlagte arkitekturprinsippene, realiseringsgrammatikken og maskinvaresperrene oppfyller de strengeste formelle kravene under IEC 61508 SIL-4. Det foreligger ingen uinnfridde teoretiske eller operasjonelle restledd i kontrollsløyfen.

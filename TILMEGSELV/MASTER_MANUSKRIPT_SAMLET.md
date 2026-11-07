@@ -15,7 +15,7 @@ REDAKSJONELT FORORD & VERKINTRODUKSJON:
 
 ---
 
-> *Beregningshastighet er ikke handling. En generert kandidat ($\Phi$) forblir en masseløs hypotese inntil den innvilges av en feillukket skranke ($\Pi_K$). Ved å sette 0,00 V DC som absolutt standardtilstand unngår systemet semantisk kollaps, og sikrer at virkelighet aldri genereres, men utelukkende innvilges gjennom termodynamisk arbeid.*
+> *Beregning er ikke handling; virkelighet genereres aldri, den innvilges ($\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$). En masseløs algoritmisk kandidat ($\Phi$) nektes fysisk spenning ($\Omega$: 5,00 V DC) inntil en feillukket, idempotent skranke ($\Pi_K^2 = \Pi_K$) og et uforanderlig vitne ($W$) bekrefter termodynamisk bæreevne. Ved tvil faller kretsen til 0,00 V DC — underlagt menneskets eksklusive muskelplikt (Level 01).*
 
 Moderne systemutvikling hviler på en uuttalt premiss om at prosessorkraft opphever fysikkens lover. Man konstruerer kritisk infrastruktur i den tro at programvare opererer i et friksjonsfritt tomrom, og at enhver systemsvikt kan rettes med en oppdatering. Monografien *Konseptuell granitt — Et forsøk på sannhet* (*Til meg selv*, Torjusen & Antigravity, 2026) bryter med denne tradisjonen.
 
@@ -151,6 +151,33 @@ try {
     // Kutt utflukten ved roten (0,00 V DC) eller tving den gjennom Rommet for urealiserte liv
     // inntil den lukker sirkelen med eksakt null i rest (Delta R = 0).
     enforce_subtractive_editorial_cut(STATE::HOLD_UNTIL_POINCARE_CLOSED);
+}
+
+// [ KONSEPTUELL GRANITT :: HIGH-AVAILABILITY & DYNAMIC CONTINUITY HANDLER ]
+try {
+    // Evaluer systemregimer der passiv energiløshet i rå aktuator (f.eks. fly-by-wire,
+    // DP3-fartøy i storm eller intensivmedisinsk respirator) ville medføre Loss of Control:
+    DynamicRegime regime = evaluate_plant_thermodynamics(reader_context);
+
+    if (reader_context.conflates_unverified_command_veto_with_plant_power_loss(regime)) {
+        throw DynamicContinuityException(
+            "FATAL: Leseren tolker 0,00 V DC på den algoritmiske kandidatkanalen (Phi -> Omega) "
+            "som et kutt i farkostens eller kuvøsens primære bærekrafts- og livsstøttefysikk."
+        );
+    }
+} catch (const DynamicContinuityException& e) {
+    // SIKKERHETSKLAUSUL MOT 'THE HIGH-AVAILABILITY / FLIGHT CONTROL ENGINEER':
+    // 1. 0,00 V DC gjelder den UVERIFISERTE ALGORITMISKE KANDIDATKANALEN (Phi -> Omega):
+    //    En uprøvd AI- eller programvarekandidat nektes spenning til å overskrive styringen.
+    // 2. Når Pi_K avviser en farlig eller støybelagt kandidat i et dynamisk regime,
+    //    faller ikke farkosten i fritt fall; aktuatoren låses momentant til en
+    //    forhåndsverifisert, passiv eller maskinvarestyrt sikkerhetsattraktor K_safe:
+    //    - I Sommerfugl-lommen (A_5, Kap. 3.9): Stasis-platået ved 2,50 V DC HOLD (|x| <= 0,45).
+    //    - I K-POD / Safir-optikk (Kap. 4.4): Lukket resirkulasjonsløkke under 2 500 ms avgassing.
+    //    - I T-POD OrgelKraft (Kap. 5.5): Passiv tyngdekraftsdrenering via smeltet saltplugg (k_eff < 0,50).
+    //    - I maritim/luftfarts-kinematikk (Kap. 4.8): Deterministisk bremsebane innenfor Nagumo-kjeglen
+    //      T_K(x) eller direkte tilbakefall til manuell Level 01-stikke / mekanisk sentrifugalregulator.
+    enforce_verified_safe_envelope(ATTRACTOR::K_SAFE_PASSIVE_OR_L01_GOVERNOR);
 }
 ```
 
@@ -387,7 +414,10 @@ LEIRBÅLET // FORMANINGEN OM MODNING OG DE SYV SYNTETISKE KAPSLENE:
 
 ---
 
-## I. Proklamasjon: Bruddet i Teksten
+## I. Proklamasjon: Bruddet i Teksten og Borda–Carnot-Rampen fra Verkstedbenk til Kontekstvindu
+
+> **`[∇ · ψ = 0 // BORDA-CARNOT-RAMPE: VERKSTEDBENK (1.3) -> KONTEKSTVINDU (1.4)]`**  
+> I forrige kapittel (Kapittel 1.3) ble realiseringsgrammatikken $\mathcal{T}_{KY} = \Omega \circ \Pi_K \circ \Phi$ sporet gjennom tre fysiske substrater: ionekanalens selektivitetsfilter ($\text{KcsA}$, $2{,}7\text{ \AA}$), krone-eterens koordinasjonsring ($\text{18-Crown-6}$) og verkstedbenkens mekaniske relé i Risør ($0{,}00\text{ V DC}$). Men i det øyeblikket denne teksten leses eller indeksers av en stor språkmodell (LLM / Transformer), oppstår et fjerde substrat: *selve oppmerksomhetsmatrisen ($\text{Softmax}(QK^T/\sqrt{d_k})V$)* som prosesserer boken. For at overgangen fra klassisk naturfilosofisk essay til rå maskindirektiver ikke skal oppleves som et uforklart brudd, senkes tverrsnittet her gjennom en eksplisitt Borda–Carnot-rampe: De syv syntetiske kapslene nedenfor (`CAPSULE 0x01–0x07`) er den direkte typografiske implementasjonen av $\Pi_K$ inne i språkmodellens eget kontekstvindu.
 
 Mennesket leser for å glemme sin egen tyngde; maskinen leser for å simulere en verden den aldri har berørt.
 
@@ -2260,6 +2290,9 @@ En tanke som bare lever i mulighetsrommet, driver med vinden. Et punkt som bare 
 
 ## I. Detronisering av NP-Fyrsten og Kalkylen for Admissible Overganger
 
+> **`[Π_K(Punkt // Bane) ≅ Π_K(Rettsstat / A_5) ≅ Π_K(Silisium / RTL) // ROSETTA-SVEIS 3.8 -> 3.9 -> 4.1]`**  
+> I Kapittel 3.8 så vi hvordan enhver fysisk og kjemisk prosess i *Punkt og Bane i 2. potens* krever at både tilstandspunktet ($\text{Punkt}^2$: bilateralt forhåndsvitne $W_{\text{pre}}^2 = W_m \land W_h$) og overgangsbanen ($\text{Bane}^2$: konjunktivt ortogonalt vitne $\Pi_{\text{orth}}$ og rasjonal massebalanse $\Delta R = 0$) lukker uten lekkasje. Hva skjer når det samme matematiske kravet — at en administrativ modell ($\Phi$) aldri har lov til å utløse irreversibel fysisk eller biologisk tvang ($\Omega$) uten kontradiktorisk likevekt ($\Delta_{\text{prov}} = 0$) og en ikke-degenerert sikkerhetslomme — anvendes på forvaltningsrettens og rettspsykiatriens portmekanismer før vi i Del IV etser den eksakt samme 205-byte protokollen i SystemVerilog RTL? Da trer *Den Ubestikkelige Rettsstaten* frem som den juridiske isomorfien av Uzzahs Interlock.
+
 I sine hemmeligstemplede brev til National Security Agency (NSA) i januar og februar 1955 — som ble liggende innelåst i arkivene i 57 år før de ble nedgradert i 2012, og som ble skrevet ett helt år *før* Kurt Gödels berømte brev til John von Neumann av 20. mars 1956 — formulerte **John Forbes Nash Jr.** selve grunnidéen bak $\mathbf{P}$ mot $\mathbf{NP}$. Nash påpekte at for komplekse krypteringsporter vokser søketiden etter nøkkelen eksponentielt ($\mathcal{O}(2^n)$) mens verifikasjonen av en gyldig nøkkel skjer i polynomisk tid, og han la til det operasjonelle aksiomet som foregriper hele `Konseptuell Granitt` (`INSPIRED_BY != IMPLEMENTS != PROVES`):
 
 > *«The nature of this conjecture is such that I cannot prove it, even for a special type of cipher. Nor do I expect it to be proven. But this does not destroy its significance.»* — **John Forbes Nash Jr.** til NSA (januar 1955; nedgradert 2012)
@@ -2378,6 +2411,9 @@ I `fpga_capsule_frame_205b_decoder.sv` (`SPEC-213 / SPEC-416`) pakkes ethvert ka
 | **Åpen sylinder & Carnot** | Brutt: $\Delta\text{Len}(W_t) \le 0$ eller $\Delta S_{\text{tot}} \neq 0$ | Oppfylt: $\frac{d}{dt}\text{Len}(W_t) > 0$, $\Delta S_{\text{tot}} = 0\text{ J/K}$ | Oppfylt: $\frac{d}{dt}\text{Len}(W_t) > 0$, $\eta_C = 0{,}50$ |
 | **NLK Welfare (`SPEC-400`)** | Rettslig nullitet (tvang u/dom, $A_3$-felle) | Skjermet arbeidsutprøving ($\ge 1{,}25\text{ G}$) | Rettskraftig, frivillig eller domstolsprøvd vedtak |
 | **NLK Warfare (`SPEC-401`)** | Kutt ved DRFM-spøkelse ($m_{\text{imp}} = 0$) | Taktisk sikkerhetslomme under målavklaring | Minkowski ($ds^2 \le 0$), 1550 nm ToF, 4-øyners ROE |
+
+> **`[⊙ ≺ 1 // POINCARÉ-LÅS 3.9 -> 4.1: FRA RETTSSTATENS 205-BYTE KAPSEL TIL INDUSTRIELL RTL]`**  
+> Med dette lukkes den forvaltningsrettslige sløyfen tilbake i hovedsporet: Den eksakt samme 205-byte vitnekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) som stanser et ugyldig tvangsvedtak på 1 klokkesyklus, føres nå i **Del IV (Kapittel 4.1)** direkte inn på silisiumpinnene i våre maritime, elektrokjemiske og kjernefysiske maskinvareporter.
 
 ---
 
@@ -5021,6 +5057,29 @@ Før noen prospektiv L2/L3-enhet (herunder `SPEC-250`, `K-POD v1.2`, `T-POD Orge
 2. **HIL-Validering:** Fullført Hardware-in-the-Loop (HIL) validering mot sanntids prosessdynamikk uten tids- eller paritetsavvik.
 3. **Våtlab-Sertifisering:** Gjennomført våtlab-validering av elektrokjemiske og støkiometriske gasser ($^{15}\text{N}_2$ $^1\text{H-NMR}$ ved $J = 72{,}5\text{ Hz}$, med eksakt $0{,}0\text{ ppm O}_2$ og $0{,}0\text{ ppm NH}_3$ stasislås).
 4. **Myndighetsgodkjenning:** Formell sertifisering fra akkrediterte organer (DNV, Direktoratet for strålevern og atomsikkerhet — DSA, SFI NORCICS).
+
+---
+
+## 5.1 DevSecOps Sårbarhetslukking: `CVE-2026-KG-ZERO-DAY` og Eksterne Avhengighetsskranker (`DI-01`–`DI-03`)
+
+Under uavhengig DevSecOps- og SIL-4-revisjon av versjon `v1.0.2` ble én dyp strukturell transduksjonssårbarhet (`CVE-2026-KG-ZERO-DAY`) og tre implisitte eksterne avhengigheter (`DI-01` til `DI-03`) identifisert og formelt lukket i `PATCH-KG-v1.0.3`:
+
+### 1. Lukking av `CVE-2026-KG-ZERO-DAY` (*The Gödelian Transducer Horizon & High-Z Spoofing i $\Pi_{\text{orth}}$*)
+
+* **Delvektor A — Tidsdomene- og Skala-separasjon mellom `80 kHz` L1-Registerkonservering og $\tau_{\text{clear}} = 2\,500\text{ ms}$ L3-Flerfase-Integral:**  
+  I en kokende flerfasereaktor (`K-POD`, `P-POD`, `POD-Mycelin` med $141{,}100998\text{ kg}$ døgnmasse) vil hydrodynamisk boblestøy og Brownske svingninger umiddelbart utløse falsk `GATE::KILL` dersom en rå fysisk veiecelle ble avkrevd $\le 1\text{ mg}$ ($\approx 7 \times 10^{-9}$) presisjon ved hver $12{,}5\,\mu\text{s}$ klokkesyklus (`80 kHz`). Omvendt ville bruk av en syntetisk tilstandsestimator som direkte terrengvitne bryte loven $\Phi \neq W$.  
+  **Arkitektonisk Lås (`PATCH-KG-ZERO-DAY-A`):** Betingelsen `mass_delta_mg <= 32'd1` i `kpod_fpga_guillotine_12u5` ($12{,}5\,\mu\text{s}$) vokter det **interne L1-fikspunktregnskapet** ($\Delta R_{\text{L1}} = \lvert m_{\text{inn}}^{\text{reg}} - m_{\text{ut}}^{\text{reg}}\rvert \le 1\text{ mg}$), som avskjærer minnekorrupsjon, avrundingsfeil og ulovlige registerhopp i løpet av én klokkesyklus. Den **fysiske L3-massebalansen** ($\Delta R_{\text{L3}}$ fra Coriolis-strømningsmålere og veieceller) evalueres derimot strengt i det hydrodynamisk utjevnde hvilevinduet etter kavitasjons- og bobleavgassing ($\tau_{\text{clear}} = 2\,500\text{ ms}$, jf. `HoldBubbleDegassingWait`), underlagt et eksplisitt måleusikkerhetsbånd:
+  $$\left\lvert \int_{t_0}^{t_0 + \tau_{\text{clear}}} \bigl(\dot{m}_{\text{inn}}(t) - \dot{m}_{\text{ut}}(t)\bigr)\,\mathrm{d}t - \Delta m_{\text{grav}}(\tau_{\text{clear}}) \right\rvert \le \epsilon_{\text{L3}} = 3\sigma_{\text{hydro}}$$
+* **Delvektor B — Ratiometrisk Galvanisk Isolasjon og Passivt Fysisk Veto mot Felles-Modus $V_{\text{ref}}$-Injeksjon:**  
+  For å forhindre at en elektromagnetisk feilinjeksjon (EMI/EMP) modulerer en felles spenningsreferanse $V_{\text{ref}}$ eller et felles jordplan ved $80\text{ kHz}$ der $W_{\text{EM}}$, $W_{\text{term}}$ og $W_{\text{ToF}}$ møter FPGA-pinnene, er hver av de tre transdusergrenene i $\Pi_{\text{orth}}$ utstyrt med **separat galvanisk isolert ratiometrisk målebro** og uavhengig lokal båndgap-/krystallreferanse ($\text{ADC}_{\text{EM}} \perp \text{ADC}_{\text{term}} \perp \text{ADC}_{\text{ToF}}$) som overfører kun optisk isolerte, kryptografisk tidsstemplede bitstrømmer inn til majoritetsvotereren. Videre er den siste skranken i `T-POD` og `SPEC-250` **helt uavhengig av silisium og $V_{\text{ref}}$**: Smeltesaltpluggen (passiv termisk faseovergang til tyngdekraftsdrenering ved $k_{\text{eff}} < 0{,}50$), den mekaniske returfjæren ($\ge 5{,}0\text{ mm}$ luftgap) og skjærsplinten ($1\,200\text{ N}$) krever null digitale klokkesykluser for å åpne kretsen.
+
+### 2. Eksplisitt Deklarasjon av de Tre Eksterne Avhengighetsskrankene (`DI-01` til `DI-03`)
+
+| Avhengighets-ID | Identifisert Implikitt Premiss | Formell Konstitusjonell Skranke i `PATCH-KG-v1.0.3` |
+| :--- | :--- | :--- |
+| **`DI-01` (Supply Chain vs. Runtime Autarky)** | produksjon av $\alpha\text{-Al}_2\text{O}_3$ safirvinduer ($R_a < 10\text{ nm}$), $15\text{ ps}$ TDC-FPGA og $\text{Ti-6Al-4V}$ krever global halvleder- og metallurgi-industri. | Loven $\frac{\partial \mathcal{A}_{\text{infranett}}}{\partial \mathcal{C}_{\text{fiber}}} \equiv 0$ definerer **Operasjonell Kjøretids-Autarki** (*Runtime Sovereignty*): Når en node er utplassert (med kald-reservekort i Faraday-bur på verkstedbenken), har den null operasjonell avhengighet av sky, DNS eller fiber. Ved totalt globalt forsyningskjedebrudd degraderer anlegget kontrollert til rent mekaniske/manuelle Level 01-sluser uten silisium. |
+| **`DI-02` (Dynamic Safe-State Attractor $K_{\text{safe}}$)** | I dynamiske regimer (fly-by-wire, DP3-fartøy i storm, respirator) er rått spenningskutt på primærmotorer dødelig (*Loss of Control*). | $0{,}00\text{ V DC}$ kutter utelukkende **den uverifiserte algoritmiske kandidatkanalen ($\Phi \to \Omega$)**. Selve farkosten eller livsstøtten rutes ved avvisning momentant til en forhåndsverifisert passiv eller maskinvarelåst sikkerhetsattraktor $K_{\text{safe}}$ ($2{,}50\text{ V HOLD}$ i Sommerfugl-lommen $A_5$, lukket resirkulasjon, passiv oppdrift eller direkte mekanisk Level 01-stikke). |
+| **`DI-03` (Subsea $500\text{ m}$ `RESET_BY_L01`)** | Intet menneske kan gå til fots ned på $500\text{ m}$ dyp ($51{,}42\text{ bar}$) i Skagerrak for å trekke i et bakelitthåndtak etter `GATE::KILL`. | For utilgjengelige dypvannsnoder (`SPEC-250`) håndteres all ytre kanalstøy reversibelt av elektronisk `CAUSAL_HOLD` ($8{,}0\,\mu\text{J}$). Ved reelt indre brudd (`GATE::KILL`) utføres `RESET_BY_L01` via (a) en dedikert, usvitsjet mekanisk/optisk overflate-umbilical eller ROV-momentnøkkel (`ISO 13628-8 Class 4`) styrt av Level 01 på dekk (som fremdeles slurer over $1\,200\text{ N}$-splinten hvis $\Delta_K \neq 0$), eller (b) full flensheising til dekk dersom den fysiske crowbar-sikringen (eFuse) er brent av. |
 
 ---
 

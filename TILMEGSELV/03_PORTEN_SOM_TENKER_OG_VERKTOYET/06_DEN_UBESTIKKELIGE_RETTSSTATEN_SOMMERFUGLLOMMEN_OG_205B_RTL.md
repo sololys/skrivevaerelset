@@ -5,6 +5,9 @@
 
 ## I. Detronisering av NP-Fyrsten og Kalkylen for Admissible Overganger
 
+> **`[Π_K(Punkt // Bane) ≅ Π_K(Rettsstat / A_5) ≅ Π_K(Silisium / RTL) // ROSETTA-SVEIS 3.8 -> 3.9 -> 4.1]`**  
+> I Kapittel 3.8 så vi hvordan enhver fysisk og kjemisk prosess i *Punkt og Bane i 2. potens* krever at både tilstandspunktet ($\text{Punkt}^2$: bilateralt forhåndsvitne $W_{\text{pre}}^2 = W_m \land W_h$) og overgangsbanen ($\text{Bane}^2$: konjunktivt ortogonalt vitne $\Pi_{\text{orth}}$ og rasjonal massebalanse $\Delta R = 0$) lukker uten lekkasje. Hva skjer når det samme matematiske kravet — at en administrativ modell ($\Phi$) aldri har lov til å utløse irreversibel fysisk eller biologisk tvang ($\Omega$) uten kontradiktorisk likevekt ($\Delta_{\text{prov}} = 0$) og en ikke-degenerert sikkerhetslomme — anvendes på forvaltningsrettens og rettspsykiatriens portmekanismer før vi i Del IV etser den eksakt samme 205-byte protokollen i SystemVerilog RTL? Da trer *Den Ubestikkelige Rettsstaten* frem som den juridiske isomorfien av Uzzahs Interlock.
+
 I sine hemmeligstemplede brev til National Security Agency (NSA) i januar og februar 1955 — som ble liggende innelåst i arkivene i 57 år før de ble nedgradert i 2012, og som ble skrevet ett helt år *før* Kurt Gödels berømte brev til John von Neumann av 20. mars 1956 — formulerte **John Forbes Nash Jr.** selve grunnidéen bak $\mathbf{P}$ mot $\mathbf{NP}$. Nash påpekte at for komplekse krypteringsporter vokser søketiden etter nøkkelen eksponentielt ($\mathcal{O}(2^n)$) mens verifikasjonen av en gyldig nøkkel skjer i polynomisk tid, og han la til det operasjonelle aksiomet som foregriper hele `Konseptuell Granitt` (`INSPIRED_BY != IMPLEMENTS != PROVES`):
 
 > *«The nature of this conjecture is such that I cannot prove it, even for a special type of cipher. Nor do I expect it to be proven. But this does not destroy its significance.»* — **John Forbes Nash Jr.** til NSA (januar 1955; nedgradert 2012)
@@ -123,3 +126,6 @@ I `fpga_capsule_frame_205b_decoder.sv` (`SPEC-213 / SPEC-416`) pakkes ethvert ka
 | **Åpen sylinder & Carnot** | Brutt: $\Delta\text{Len}(W_t) \le 0$ eller $\Delta S_{\text{tot}} \neq 0$ | Oppfylt: $\frac{d}{dt}\text{Len}(W_t) > 0$, $\Delta S_{\text{tot}} = 0\text{ J/K}$ | Oppfylt: $\frac{d}{dt}\text{Len}(W_t) > 0$, $\eta_C = 0{,}50$ |
 | **NLK Welfare (`SPEC-400`)** | Rettslig nullitet (tvang u/dom, $A_3$-felle) | Skjermet arbeidsutprøving ($\ge 1{,}25\text{ G}$) | Rettskraftig, frivillig eller domstolsprøvd vedtak |
 | **NLK Warfare (`SPEC-401`)** | Kutt ved DRFM-spøkelse ($m_{\text{imp}} = 0$) | Taktisk sikkerhetslomme under målavklaring | Minkowski ($ds^2 \le 0$), 1550 nm ToF, 4-øyners ROE |
+
+> **`[⊙ ≺ 1 // POINCARÉ-LÅS 3.9 -> 4.1: FRA RETTSSTATENS 205-BYTE KAPSEL TIL INDUSTRIELL RTL]`**  
+> Med dette lukkes den forvaltningsrettslige sløyfen tilbake i hovedsporet: Den eksakt samme 205-byte vitnekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) som stanser et ugyldig tvangsvedtak på 1 klokkesyklus, føres nå i **Del IV (Kapittel 4.1)** direkte inn på silisiumpinnene i våre maritime, elektrokjemiske og kjernefysiske maskinvareporter.
