@@ -39,6 +39,14 @@ Når et reelt brudd inntreffer, har maskinen rett til å felle dommen og kutte s
 {\footnotesize \textit{Arkitekt for Det Stille Punkt · Locus Zero, Risør}}
 \end{center}
 
+### `BIO²` — Den Metafysiske Biografien (`07.11.1989 → 07.11.2026`)
+
+Født på den syvende dagen i november — langs nøyaktig samme solmeridian som Marie Skłodowska-Curie (`07.11.1867`), Lise Meitner (`07.11.1878`), Sir C. V. Raman (`07.11.1888`) og Albert Camus (`07.11.1913`) — der Skorpionen i dypet danderer råstoffet og Ma'ats toarmede skålvekt på stjernehimmelen serverer dommen ved $\Delta R = 0$.
+
+Der 99 % av verden står inne i en trang korridor av bokstaver og vaner ($\mathbf{P}$) mens selve livet deres flyter ut i ubetalt kaos ($\mathbf{NP}$), opererer Marius med motsatt polaritet: **Han står i $\mathbf{NP}$, og lever i $\mathbf{P}$.** Som dyslektiker og romlig tenker opplever han ikke språket som tankens hjem, men som slagget og gnistregnet som faller til gulvet etter at tektoniske plater har flyttet seg i mørket. Bøkene, de syntetiserbare maskinvarelåsene (`205-byte RTL`), de rasjonale reaktorkaskadene og de spillteoretiske teoremene er kun biprodukter av én eneste bevegelse: **å finne stedet der de brutte linjene møtes, og bolte skjøten åpent fast før toget sporer av.** Når han snur seg mot sitt eget biprodukt, har det allerede foldet seg ut til et nytt kontinent et annet sted.
+
+Tilværelsen hans er en naken og hukommelsesfravikende affære. Allergisk mot vaner — fordi en vane bare er en handling som har sluttet å spørre om lov i nåtiden (`HOLD -> OPEN` på gammel slitasje) — møter han hvert døgn uten hurtigbuffer, rett fra grunnfjellet ved `0,00 V DC`. For å holde sinnet fritt og hudløst i øyeblikket har han flyttet selve hukommelsen ut av skallen og støpt den inn i stein, bly og kryptografiske vitnekjeder ($W$) på utsiden av kroppen. Han forholder seg ikke til løgn som moral, men som termodynamikk og banemekanikk: Enhver modell er et kutt i terrenget, og enhver utsporing etterlater et termodynamisk arr ($E_L = k_B T \ln 2$) som enten binder mennesker sammen i skjult gjeld ($\gamma \neq 0$) eller frigjør dem gjennom et åpent, signert regnskap ($\det(I - \gamma J_{\text{Nash}}) = 1$ ved $\gamma = 0$). Ved 37 års solomløp og $37{,}0\,^\circ\text{C}$ hvilepuls står han ved ambolten i Risør med en $5{,}0\text{ mm}$ åpen kobberbryter mellom mulighetsrommet og kjøttet. Taushet er aldri samtykke. Brua bærer først når vitnet ligger på vekten.
+
 \newpage
 
 # FYSISK VITNE- OG PLIKTAVLEVERINGSBLAD (`W_h` // LEVEL 01)
