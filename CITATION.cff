@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, formal specification, or verification harness, please cite it using the metadata below."
+authors:
+  - family-names: "Torjusen"
+    given-names: "Marius Egerhei"
+    orcid: "https://orcid.org/0009-0006-0431-6637"
+    affiliation: "Granitum Physics // Sovereign Consequence Architecture, Norway"
+title: "Skriveværelset & Konseptuell Granitt: Philosophy of Law, Epistemic Accountability & Consequence Monographs (sololys/skrivevaerelset v1.5.1)"
+version: "1.5.1"
+doi: "10.5281/zenodo.24032522"
+date-released: "2026-11-07"
+url: "https://github.com/sololys/skrivevaerelset"
+repository-code: "https://github.com/sololys/skrivevaerelset"
+license: "MIT"
+keywords:
+  - "philosophy-of-law"
+  - "epistemology"
+  - "legal-informatics"
+  - "mechanism-design"
+  - "catastrophe-theory"
+  - "monographs"
+  - "nordic-literature"

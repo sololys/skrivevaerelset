@@ -1,0 +1,36 @@
+{
+  "title": "Skrivev\u00e6relset & Konseptuell Granitt: Philosophy of Law, Epistemic Accountability & Consequence Monographs (sololys/skrivevaerelset v1.5.1)",
+  "version": "1.5.1",
+  "upload_type": "software",
+  "publication_date": "2026-11-07",
+  "creators": [
+    {
+      "name": "Torjusen, Marius Egerhei",
+      "orcid": "0009-0006-0431-6637",
+      "affiliation": "Granitum Physics // Sovereign Consequence Architecture, Norway"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "philosophy-of-law",
+    "epistemology",
+    "legal-informatics",
+    "mechanism-design",
+    "catastrophe-theory",
+    "monographs",
+    "nordic-literature"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sololys/skrivevaerelset",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.18436983",
+      "relation": "isPartOf",
+      "scheme": "doi"
+    }
+  ]
+}
