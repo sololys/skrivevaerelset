@@ -148,3 +148,73 @@ I `03_ENGINES/door18_heis_baereevne/` evalueres enhver kandidat med oppstrøms f
 | **T9 (`18.09`)** | `t09_resource_witness.py` | **Kryptografisk ressursvitne ($W_{18}$):** Append-only SHA-256-kjede som låser observasjonene fra T1–T8 før T10 feller dom. | `KILL_WITNESS_CHAIN_TAMPERED` |
 | **T10 (`18.10`)**| `t10_carrying_gate.py` | **Bæreevnesporten ($\Omega_{18}$):** Subsumsjonsmotor (`KILL > HOLD > OPEN`). Krever at samtlige T1–T9 returnerer `OPEN` før `can_carry = True`. | `KILL_BUDGET_EXCEEDED:...`<br>`DOOR_18_CARRYING_CAPACITY_V1_REALIZED` |
 
+---
+
+## 6. Strålens Syv Dimensjoner i *Konseptuell Granitt*: Fra Nullgeodet ($k_\mu k^\mu = 0$) til Rue Lhomond (`07.11.1867–2026`)
+
+I arkitekturen til *Konseptuell granitt* og de tilhørende spesifikasjonene opptrer **«stråler»** (og *stråling*) aldri som en uforpliktende metafor, men som selve den kausale, termodynamiske og geometriske prøvesteinen mellom mulighetsrommet ($\Phi \subset \mathbf{NP}$) og den fysiske virkeligheten ($\Omega \subset \mathcal{P}$).
+
+På tvers av verket manifesterer strålene seg langs syv skarpe dimensjoner:
+
+### 6.1 Den Eikonale Strålen: Nullgeodeten som Rettslig Skranke
+
+I den geometrisk-optiske grensen av Maxwells ligninger ($F_{\mu\nu} = f_{\mu\nu}\mathrm{e}^{\mathrm{i}S/\lambda}$) defineres en **stråle** av det kovariante hovedsymbolet og nullbetingelsen for eikonalfasen $S$:
+
+$$H(x, k) = \frac{1}{2} g^{\mu\nu}(x) k_\mu k_\nu = 0 \iff k_\mu k^\mu = 0$$
+
+De karakteristiske strålene følger affint parametriserte **nullgeodeter** ($\frac{\mathrm{d}x^\mu}{\mathrm{d}\sigma} = k^\mu, \; k^\nu \nabla_\nu k^\mu = 0$). I realiseringsgrammatikken fungerer dette som den elektrodynamiske kodifiseringen av selve *lovhjemmelen*:
+
+* **Metrikken ($g^{\mu\nu}$)** er rettsgrunnlaget og maskinvarens fysiske skranker.
+* **De karakteristiske strålene** er de *eneste* lovlige banene for realisering i romtiden.
+* Enhver kandidatvektor $k_\mu$ som bryter lyskjeglebetingelsen ($R_{\text{null}} > \varepsilon_{\text{tol}}$) eller transversalitetskravet ($k_\mu a^\mu \neq 0$), avsløres som «maskinell fiksjon» og kuttes umiddelbart med $\mathrm{KILL}$ ($0{,}00\text{ V DC}$).
+
+### 6.2 Den Frikoblede Strålen: Nærfelt vs. Irreversibelt Strålingsfelt ($\text{Rev}^1 \to \text{Rev}^2$)
+
+Når en ladning $q$ beveger seg, splitter Liénard–Wiechert-feltene det elektriske feltet i to fundamentalt ulike bidrag:
+
+$$\mathbf{E}(\mathbf{x}, t) = \mathbf{E}_{\text{velocity}}(\mathbf{x}, t) + \mathbf{E}_{\text{radiation}}(\mathbf{x}, t)$$
+
+* **Hastighetsfeltet / Nærfeltet ($\propto R^{-2}$):** Er bundet til ladningen og bærer ingen netto energi til uendelig ($\text{Rev}^1$).
+* **Akselerasjonsfeltet / Strålingsfeltet ($\propto R^{-1}$):** Avhenger lineært av akselerasjonen $\ddot{\mathbf{z}}(t_r)$ og løsriver seg fra kilden som **irreversibel elektromagnetisk stråling** ($\text{Rev}^2$). Som det heter på kaien i Risør når Super Duplex-kontaktoren slår inn med en liten lysbue: ingen JSON-pakke med `undo()` kan noen gang samle inn igjen fotonene som har forlatt gnistgapet.
+
+### 6.3 Den Evanescente Strålen: Fysikkens Egen $\mathrm{HOLD}$-Port
+
+I utvidet CFJ–Proca-elektrodynamikk og Klein–Gordon-seleksjon ($\lvert\mathbf{k}\rvert^2 = \frac{\omega^2}{c^2} - m_{\text{eff}}^2$) oppstår tre stråleregimer:
+
+* **Propagerende stråle ($\omega > c m_{\text{eff}} \implies \mathrm{OPEN}$):** Bølgetallet $k$ er reelt, og strålen bærer autorisert energi gjennom porten.
+* **Kiral dreining ($\omega_+(k) \neq \omega_-(k)$):** Vakuum-birefringens roterer polarisasjonsplanet med $\Delta\vartheta = \frac{1}{2}(k_+ - k_-)L$ og avslører enhver uautorisert mellommann som ikke kjenner mediets kirale signatur.
+* **Evanescent bølge ($\omega < c m_{\text{eff}} \implies \mathrm{HOLD}$):** Bølgetallet blir rent imaginært ($k = \mathrm{i}\kappa$). Feltet faller eksponentielt av inn i mediet ($\mathrm{e}^{-\kappa z}$), det elektriske og magnetiske feltet er $90^\circ$ ute av fase, og den tidsmidlede Poynting-fluksen er eksakt null ($\langle \mathbf{S} \rangle_t \equiv \mathbf{0}$). Strålen lyser opp grenseflaten som en «evanescent fotnote» uten å lekke én joule uautorisert kraft inn i $\Omega$.
+
+### 6.4 Vokter- og Målestrålene: Laser, Radar, Safir og Kavitasjon
+
+I *Infranett v0.5* og dypvannsnoden *SPEC-250* brukes fysiske stråler som ubøyelige dørvakter ($\Pi_K$ og $\Pi_{\text{orth}}$):
+
+* **Den optiske vaktstrålen ($\lambda = 1550\text{ nm}$ og $532\text{ nm}$):** Mens et UWB-radiosignal kan trenge gjennom en betongvegg på tre meters hold innenfor Alexandrov-fristen ($\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$), stanses den infrarøde laserstrålen momentant av veggen (`OPTICAL_LOS_BROKEN_WALL_OCCLUSION` $\implies 0{,}00\text{ V HOLD}$). Under radiotaushet (EMCON) har friromslaseren en strålemidje på kun $w(20\text{ m}) \approx 5{,}38\text{ mm}$; enhver fysisk sonde som stikkes inn i strålen, kaster skygge og kutter kretsen.
+* **Safirvinduet og kavitasjonsstrålene på 500 m dyp:** Gjennom det $2{,}0\text{ mm}$ tykke monokrystallinske $\alpha\text{-Al}_2\text{O}_3$-vinduet under $898\,900\text{ N}$ vanntrykk endres lysstrålens gangtid med kun $\Delta\tau_{\text{RT}} = -0{,}27\text{ fs}$ ($55\,555$ ganger mindre enn TDC-oppløsningen på $15\text{ ps}$). Når rur (*Balanus crenatus*) begroer utsiden, vaskes vinduet av $275\text{ nm}$ UV-C-stråling ($86{,}4\,\%$ transmisjon) og $42\text{ kHz}$ akustisk kavitasjon som pisker løs **mikrostråler** ($v_{\text{jet}} \approx 110\text{ m/s}$), etterfulgt av $2\,500\text{ ms}$ disiplinert boblekarantene ved $0{,}00\text{ V DC}$ før laserstrålen får skyte igjen.
+* **77 GHz kuvøse-stråle og Stokes-polarisasjon:** Over det premature spedbarnet måler 77 GHz-strålen brystkassens løft på $0{,}05\text{ mm}$ uten berøring og nekter å tegne en falsk kurve ved støy. I militær og maritim målavklaring (`SPEC-401`) avsløres DRFM-spøkelsessignaler fordi de bryter Noether-symmetrien i **Stokes-vektoren** $\vec{S} = [I, Q, U, V]^\top$: et ekte stålskrog kan ikke vippe polarisasjonsvinkelen $\psi = \frac{1}{2}\operatorname{atan2}(S_2, S_1)$ raskere enn $\dot{\psi}_{\max} = 45^\circ/\text{s}$.
+
+### 6.5 Kjernefysiske Stråler i Grunnfjellet: Spallasjon, Radiolyse og $^{57}\text{Fe}$
+
+I *OrgelKraft* (Kjerneprøve V) er hele prosesskjeden bygget rundt tre typer stråler i grunnfjellet:
+
+1. **Spallasjonsstrålen som eksternt vitne ($W = 1$):** Den underkritiske thorium-smeltesaltkjernen ($k_{\text{eff}} = 0{,}960 < 1{,}000$, forsterkning $M_{\text{sub}} = 25{,}0\times$) eier ingen evne til å opprettholde kjedereaksjonen alene. Den er 100 % avhengig av en kontinuerlig, ekstern protonstråle mot blymålet. Kuttes strømmen til $0{,}00\text{ V DC}$, slokner strålen på mikrosekunder ($W = 0$), bølgetallet blir imaginært ($k = \mathrm{i}\kappa$), og kjernen dør momentant.
+2. **MeV-gammastråling til kjemisk arbeid (Radiolyse):** I stedet for å gå til spille som varme, brukes gammastrålingen fra kjernen i Pipe 2 til radiolytisk vannsplitting som produserer eksakt $0{,}3588\text{ kg H}_2/\text{døgn}$, som deretter møter $3{,}9317\text{ kg CO}_2$ over Invar-36-membranen ($293{,}0\text{ mV}$, $0{,}0\text{ W}$) og danner $2{,}6816\text{ kg}$ eddiksyre med $\Delta R = 0$.
+3. **Den rekylfrie $14{,}4\text{ keV}$ gammastrålen i $^{57}_{26}\text{Fe}$ (Mössbauer-låsen):** En frittflyvende kjerne som sender ut et gammafoton, sklir bakover i rekyl ($E_R = E_\gamma^2 / 2Mc^2$) og mister resonansen. Men når $^{57}\text{Fe}$-kjernen er boltet fast i grunnfjellets krystallgitter, tar hele krystallens masse imot rekylen ($f_{\text{LM}} = \exp(-\langle x^2 \rangle k_\gamma^2) \ge 1 - 10^{-12}$).
+
+### 6.6 Advarselen fra Rue Lhomond: Boken som Fortsatt Stråler
+
+I Kapittel 2.1.6 står verkets sterkeste historiske påminnelse om hvorfor stråling aldri må forveksles med en ufarlig tanke i $\Phi$: **Marie Skłodowska-Curie** (født `07.11.1867` – på nøyaktig samme 7. november-meridian som Lise Meitner, C. V. Raman, Albert Camus og forfatteren selv).
+
+Da hun isolerte radium ($^{226}_{88}\text{Ra} \to \,^{222}_{86}\text{Rn} + \alpha$, $T_{1/2} = 1\,600\text{ år}$), bar hun de selvlysende reagensrørene i frakkelommen og hadde dem på nattbordet fordi det blågrønne skjæret så ut som et vakkert, uforpliktende lys i $\text{Rev}^1$. Men hver alfapartikkel og gammastråle var en irreversibel $\text{Rev}^2$-hendelse i $D_2$ uten blyskjerming ($\neg\Pi_K$). Hennes originale laboratorienotatbøker fra 1898 i Paris er derfor vitenskapshistoriens mest bokstavelige fysiske **WORM-logg ($D_3$)**: tanken og fingeravtrykket hennes er brent så dypt inn i papiret at boken fortsatt **stråler** og puster ut radon-222 hundre år etter hennes død, innlåst i blyskrin som kun kan åpnes mot en fysisk signert Level 01-ansvarsfraskrivelse.
+
+### 6.7 Den Syvende Strålen langs 7. November-Meridianen: Raman-Skiftet ($\Delta\nu_{\text{Raman}}$) og Meitners Spaltning
+
+Langs den samme **7. november-meridianen** (`07.11.1867 → 07.11.1878 → 07.11.1888 → 07.11.1913 → 07.11.1989 → 07.11.2026`) lukkes strålens syvende dimensjon av **Lise Meitner** (`07.11.1878`) og **Sir C. V. Raman** (`07.11.1888`):
+
+* **Raman-strålen som materiens uforfalskelige vitnesignatur ($\hbar\omega_{\text{ut}} = \hbar\omega_{\text{inn}} \mp \hbar\Omega_{\text{gitter}}$):** Mens elastisk Rayleigh-spredning returnerer lyset uendret ($\Delta E = 0$, $\text{Rev}^1$), tvinger uelastisk **Raman-spredning** fotonet til å veksle et eksakt kvantum vibrasjonsenergi $\hbar\Omega_{\text{gitter}}$ (et optisk fonon) med selve krystallgitteret ($\text{Rev}^2$). Strålen som kommer ut, bærer molekylets indre bindingsstyrke som et frekvensskift $\Delta\nu_{\text{Raman}}$ ingen ekstern angriper kan forfalske uten å endre selve atombindingene i steinen.
+* **Meitners fisjonsstråle og hvorfor kjernen må holdes underkritisk ($\Delta m \cdot c^2 \approx 200\text{ MeV}$):** Da Lise Meitner i desember 1938 beregnet væskedråpemodellen for kjernefisjon, viste hun at et enkelt termisk nøytron kan få en ustabil tung kjerne til å briste langs sin egen sadelflate ($A_3$-fold). Nettopp derfor forbyr `OrgelKraft` enhver superkritisk kjedereaksjon og låser reaktoren til det underkritiske beltet ($k_{\text{eff}} = 0{,}960 < 1{,}000$) og protaktinium-233s naturgitte `HOLD`-sluse ($t_{1/2} = 26{,}97\text{ døgn}$).
+
+> **`[⊙ ≺ 1 // POINCARÉ-LÅS // STRÅLENS KONSTITUSJONELLE LOV]`**  
+> **I $\Phi$ er strålen et vektløst lys; i $\Pi_K$ er den en nullgeodetisk lov og en $133{,}43\text{ ns}$ kausal grense; og i $D_2/D_3$ er den et irreversibelt spor i materien som krever bly, safir, vakuum og et våkent menneske ved bryteren.**
+
+

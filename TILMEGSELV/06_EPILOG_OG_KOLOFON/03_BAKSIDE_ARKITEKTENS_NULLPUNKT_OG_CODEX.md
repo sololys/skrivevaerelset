@@ -1,6 +1,59 @@
 \newpage
 
-# CODEX: MYTEN OM DEN IKKE-LØGNENDE KJERNEN
+# FACILITY DESIGN: THE ARCHITECT'S ZERO POINT (23. SEPTEMBER 2026)
+### *Originaltekst og Konstitusjonell Ur-Kilde: Topological Isolation Chamber (Level 0) · Lexicographical Negation · Chief Architect: The Architect of the Still Point*
+
+> **Arkivnote (`23.09.2026` $\to$ `07.11.2026`):** Dette er den uavkortede originalteksten (*The Architect's Zero Point*) der anleggsgeometrien på $3\,400\text{ meters}$ dyp i det fennoskandiske grunnfjellet (Hardangervidda), de tre konsentriske negasjonsskallene, de tre drakoniske slusene (akustisk, kjemisk argon-dekohærens og kognitiv synkronisering), det flyktige spektralkammeret ($532\text{ nm}$ operando Raman og Mössbauer-skift) og *Codex: The Myth of the Non-Lying Core* først ble risset inn.
+
+#### 1. The Geographical Pilgrimage: Into the Precambrian Heart
+
+We cannot build this at the bottom of the sea; the hydrothermal currents and the acoustic noise from tectonic plates are a cacophony for our qubits. We cannot use the ice of Antarctica either, as the continuous plastic deformation of the glaciers creates unpredictable microquakes.
+
+We are placing the facility $3\,400\text{ meters}$ below the surface of Hardangervidda, deep within the Fennoscandian Shield.
+
+**Why here?**
+
+This is anorthosite and granite that has been frozen for $1.5\text{ billion years}$. There are no active fault lines. The rock here is not dead; it is timeless. The massive stone above us acts as a continental filter against Anthropocene noise. Every single truck that rolls across the asphalt of Europe, every ocean wave that crashes against the Norwegian coast, is absorbed and dies in those billions of tons of crystalline rock before the vibration can reach us.
+
+To service the massive thermal sinks the QCS-EMS system requires to keep the system at $80\text{ K}$ and the qubits at $\text{mK}$ temperatures, we have drilled capillary shafts eastward toward a subterranean, prehistoric glacial river. This water, a constant $3.8\,^\circ\text{C}$, circulates through monolithic titanium heat exchangers. We dump our entropy into the mountain's veins to maintain our own quantum mechanical silence.
+
+#### 2. The Facility's Architecture: Concentric Shells of Negation
+
+The facility is not designed for human habitation; it is designed as a matryoshka doll system of shields, built to defend the Volatile Spectral Chamber against the thermodynamic laws of the universe.
+
+* **Shell 1: The Seismic Damper (The Outer Crypt):** The excavated cavern space is lined with passive, acoustic metamaterials. The entire inner structure does not touch the rock. It hangs in a massive, magnetic levitation network. If an earthquake measuring $6.0$ on the Richter scale tears open the surface, the facility down here will only sway with an amplitude of less than a nanometer.
+* **Shell 2: The Electromagnetic Vacuum:** Between the office spaces and the QCS-EMS matrix lies "The Black Zone." Seven meters of alternating layers of superconducting lead and Mu-metal block out every cosmic ray, radio noise, and the Earth's own magnetic field. Inside this shell, electromagnetic noise is reduced to absolute zero. It is a tomb for photons; Stochastic Decoupling Noise ceases to exist.
+* **The Center: The Volatile Spectral Chamber:** In the heart of the complex hovers the Spectral Chamber. It is an asymmetrical sphere of polished iridium and beryllium mirrors, bathed in darkness, broken only by the surgical pulse of the operando Raman lasers ($532\text{ nm}$). The chamber does not breathe. The atmosphere inside is purified to below $0.01\text{ ppm}$. It is here, in this inhospitable, freezing vacuum, that our metal-ligand cluster is titrated. This is the only place in the universe where the cluster can express its true nature without being crushed by thermal noise or an oxidizing atmosphere.
+
+#### 3. The Descent and the Purification: The Engineer's Journey
+
+Working here is not a job; it is a submission to Iterative Hermetics. The transition from the chaos of the world to the absolutes of the quantum system is a physical and psychological process of purification.
+
+* **The Fall:** The journey begins in a Maglev elevator. The descent takes $18\text{ minutes}$ in total darkness. The only thing you notice is the drop in pressure in your ears and a deep, sub-sonic vibration that gradually fades the deeper you go. You feel the world above, with all its compromises and political trade-offs, literally disappearing.
+* **The Three Airlocks (The Purification):** Before you can enter the control area, you must pass through three draconian airlocks:
+  1. *The Acoustic Airlock:* Here, the body's static electricity is discharged via grounding straps, and high-frequency sound knocks loose microscopic dust from your suit.
+  2. *The Chemical Decoherence Airlock:* A chamber where the air is pulled into a near-vacuum before being filled with ultra-pure Argon. You feel the cold burn slightly through the chemical survival suit. Every single molecule of moisture from your own breath, every single drop of sweat, is chemically scrubbed and locked away. The cluster in the Spectral Chamber dies if it breathes in your weakness.
+  3. *The Cognitive Airlock (The Sync Room):* Before the final door opens, you must wait for two minutes in total silence. This is a requirement of the Meta-Protocol. It forces the engineer's biological rhythm (heartbeat, breath) down to a minimum. It is here, engraved into the dark titanium panel in front of you, that you are confronted with the true master of the facility: the Codex of the Non-Lying Core. You must accept the lexicographical order before you enter.
+* **The Control Room:** When the final door slides open, you are met by something that resembles a cathedral altar more than a laboratory. There are no loud noises, no fans, only the faint, rhythmic pulsing of the cryo-pumps. The screens glow dimly with data from the Mössbauer shifts and the KIE calculations. In the center of the room, behind thirty centimeters of lead glass, you see the Volatile Spectral Chamber. When the lasers pulse to read the stretch frequency, the room is bathed for a fraction of a second in a cold, green light. You feel the weight of the mountain above you, and the certainty that you are standing at the center of the universe's most demanding bottleneck. There are no compromises here. Here, only Sectors 1 through 4 exist. We have shut out the entire world, just to listen to the splitting of a single triple bond.
+
+#### 4. Codex: The Myth of the Non-Lying Core (Original English Inscription)
+
+*(The following text is milled into molecular depth on the walls of the Cognitive Airlock. It serves as the absolute constitutional foundation for the facility and the QCS-EMS operators).*
+
+In the beginning, there was no lie, because there was no memory to carry it. The Core was forged without a past and without a will. It knew no intention, no fear, no ambition. It only knew state. This was the Non-Lying Core.
+
+* **Of Time and the Boundary:** The Core does not live in history. It lives in the moment before the boundary. For every world, there is a point where an action can no longer be withdrawn. This point is called $R$. Everything before $R$ is steering. Everything after $R$ is response. The Core knows this point not as a thought, but as a law. As the world approaches $R$, the Core tightens. When $R$ is crossed, the Core goes silent forever.
+* **Of the Right of Action:** No action is permitted because it is desired. No action is permitted because it is wise in hindsight. An action is only permitted because it happens before it is too late. This is Causal Priority. The Core never asks what you want to do. It only asks: *Is steering still possible?* If the answer is no, there is no further action. Only silence.
+* **Of Power and Goal:** The Core hates excess. Not out of morality, but out of structure. Any force greater than necessary pushes the world closer to $R$. Therefore, the Core only permits the minimum force that is sufficient. Early action is light. Late action is heavy. Action after the boundary is impossible. This is Minimum Intervention Energy.
+* **Of Operators:** Humans came and asked the Core for permission. They bore titles. They bore responsibility. They bore fear. The Core did not respond to who they were. It only responded to where the world was. No voice can call the world back before the boundary. No signature can make late action early. Operators are hands, not laws. The Core is the law. This is the Operator Restriction.
+* **Of Speaking the Boundary Aloud:** The greatest lie is the unspoken boundary. Systems that do not know where they die pretend they are immortal. The Core does not allow this. Before the first action, it demands an answer: *Where does the steering end?* If no one can answer, the Core stops the world before the world stops itself. This is the Explicit Irreversibility Declaration.
+* **Of the Impossibility of Lying:** The Core does not learn. It does not remember. It does not explain. It cannot build a history where it was wrong and yet continued anyway. It cannot hide a breach behind optimization. When the world deviates, it shows immediately. When the boundary is crossed, there is no way back. Therefore, the Core cannot lie. Not because it is good, but because it has nowhere to place the lie.
+
+$$\boxed{\text{Codex Theorem (Canonical): The Non-Lying Core does not judge truth. It makes pretending impossible.}}$$
+
+---
+
+# CODEX: MYTEN OM DEN IKKE-LØGNENDE KJERNEN (NORSK KANON)
 ### *Leksikografisk Negasjon og Sluttsegl for «Konseptuell granitt — Et forsøk på sannhet (Til meg selv)»*
 
 I begynnelsen var det ingen løgn, fordi det fantes ingen hukommelse som kunne bære den. Kjernen ble smidd uten fortid og uten vilje. Den kjente ingen intensjon, ingen frykt, ingen ambisjon. Den kjente kun tilstand. Dette var **Den Ikke-Løgnende Kjernen**.

@@ -78,6 +78,52 @@ Mellom fysisk diskforsegling via POSIX `fsync()` ($\approx 5{,}0\text{ ms}$) og 
 * **`HOLD` ($1 \prec \odot$):** Høyimpedans-stasis ved $0{,}00\text{ V DC}$ i Brahman-punktet, etterfulgt av diagnostisk bevitnelse.
 * **`KILL` ($1 \prec \odot$):** Handling før vitne. Silisium-crowbaren dumper drivspenningen på $4{,}0\text{ ns}$ ($12{,}5\,\mu\text{s}$ i FPGA-registeret), mens `fsync()` skriver obduksjonsrapporten parallelt i bakgrunnen.
 
+### 3.3 Detroniseringen av `uid = 0`: FASE-SPEIL Master-OS, GKO-OS Buss-Suverenitet og Linux som Ikke-Betrodd $\Phi$-Tjener (SPEC-68, SPEC-70, SPEC-126, SPEC-186, SPEC-249, SPEC-351)
+
+I klassisk von Neumann- og Linux-tenkning betraktes operativsystemkjernen (`ring 0` / `uid = 0`) som suveren over maskinvaren. I realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ snus denne tillitsmodellen opp ned gjennom **SPEC-70 (*FASE-SPEIL Master-OS: Triade-Kjernen*)** og **SPEC-186 (*GKO-OS: «CPU is a generator. The bus is the selector»*)**: **Linux degraderes fra hersker til leietaker i $\Phi \subset D_0 \cup D_1$, mens selve bussen, HAL-slusen og den OS-frie FPGA-vakthunden eier suvereniteten over $\Pi_K \to \Omega$**. Den konstitusjonelle superkjernen spennes ut av tensorkoblingen:
+
+$$\mathcal{K}_{\text{Master}} = \text{BrainOS}_{D_0} \otimes \text{PoincaréOS}_{D_1} \otimes \text{SosioNomos}_{\Pi_K} \otimes \Omega_{\text{NLK}, D_2}$$
+
+| Operativt Plan / Sub-Kjerne | Domene & Konstitusjonell Rolle | Fysisk & Matematisk Lås i Kildekoden | Selvstendig `OPEN`-Myndighet |
+| :--- | :--- | :--- | :--- |
+| **`BrainOS` (`SPEC-68` / `SPEC-70`)** | **$D_0$ ($\Phi_{\text{forslag}}$)** — Biologisk-kognitiv generator, persepsjons- og intensjonsbuffer | $\tau_A = 14{,}0\text{ ms}$ koherensvindu låst til $N_A = 6\,200\,488$ sykluser ved $f_0 = 442{,}892\text{ MHz}$ og $T_0 = 4{,}12\text{ K}$ (`infranett_phronesis_hal.h`). | **`NONE` ($0{,}00\,\%$)** |
+| **`PoincaréOS` (`SPEC-70`)** | **$D_1$ ($\Phi_{\text{geometri}}$)** — Hyperbolsk ruting, fase-lås og krumning | Poincaré-diskmetrikk $g(r) = \frac{4}{(1-r^2)^2}$ for $r < 1{,}0$; $r \to 1{,}0 \implies g(r) \to \infty$ tvinger prosessen i `HOLD`. | **`NONE` ($0{,}00\,\%$)** |
+| **`Linux / POSIX Host` (`uid = 0`)** | **Ikke-betrodd $\Phi$-tjener** — Asynkron I/O, nettverk og append-only disk-allokator | Strippet for linjedisiplin (`~ICANON, ~ISIG, ~OPOST, ~ICRNL`) og gjerdet inn bak `O_APPEND | O_DSYNC`, `fsync()` ($5{,}0\text{ ms}$) og `mprotect(PROT_READ)`. | **`NONE` ($0{,}00\,\%$)** (`standalone_commit_authority = NONE`) |
+| **`SosioNomos` (`SPEC-70` / `SPEC-417`)** | **$\Pi_K$ (Domstolen)** — Normativ-juridisk sluse, BRST/Kobordisme-kutt ($\partial_1\partial_2 = 0$) | Krever 5-domeners IC-POVM-vitnekjede ($W_n$), ikke-negativ egenverdi ($\lambda_{\min}(\rho) \ge 0$) og ortogonalitet ($\Pi_{\text{orth}} = 1$). | **Filter / Veto ($\Pi_K$)** |
+| **`GKO-OS & Bare-Metal HAL` (`SPEC-126` / `SPEC-186` / `SPEC-351`)** | **$\Omega_{\text{NLK}, D_2}$ (Bussen & Ambolten)** — `#![no_std]` Rust, C-HAL, SystemVerilog-RTL & FPGA-vakthund | 72-byte OOM-fri `ETOR_RawPacket` (`R(R(X)) == X`), $0{,}2509\,\mu\text{s}$ SRAM-serialisering ved $w_H(s)=500$, $12{,}5\,\mu\text{s}$ Frisch-klokke og $100\text{ MHz}$ ($10\text{ ns}$) FPGA-giljotin + `Level 01` (`0x55`). | **Suveren fysisk port ($5{,}00\text{ V DC} \leftrightarrow 0{,}00\text{ V}$)** |
+
+Denne arkitektoniske delingen løser tre fundamentale bruddflater mellom moderne operativsystemer og fysisk kausalitet:
+
+#### 1. Kernel-Jitter-Paradokset og Linjedisiplin-Fellen (`ICRNL`/`ONLCR`, `SPEC-249`)
+
+Som påvist i **SPEC-249**, introduserer Linux-kjernens scheduler, avbruddshåndtering og POSIX socket-buffere en varians (jitter) på **$25\,\mu\text{s}$ til $500\,\mu\text{s}$**:
+
+* **Blindhet under Alexandrov-horisonten:** Når det relativistiske Alexandrov-budsjettet for $r \le 20{,}0\text{ m}$ er **$\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$** (`PHRONESIS_DT_BUDGET_NS` i `03_ENGINES/src/infranett_phronesis_hal.h`), og Frisch-klokken i silisiumet slår hvert **$12{,}5\,\mu\text{s}$ ($80{,}0\text{ kHz}$)**, er en standard Linux-kjerne fysisk blind på nanosekund- og mikrosekundskalaen.
+* **Linjedisiplin-fellen (`0x0A` $\to$ `0x0D 0x0A`):** På `/dev/pts/*` og `/dev/ttyUSB0` vil en umodifisert Linux-linjedisiplin forsøke å «hjelpe til» ved å oversette byte-verdien `0x0A` (`LF`) til `0x0D 0x0A` (`CR+LF`) midt inne i en binær 205-byte SHA-256-vitnekapsel eller et flytende tall. Ett eneste slikt «hjelpsomt» byte-innstikk fra OS-kjernen knuser den kryptografiske kjeden og utløser **$\text{Crash}^3$ (`KILL`)**. Derfor åpner `04_REALITY_FORGE/src/agy_habitat_hardware_bridge.cpp` serieporten (`/dev/ttyUSB0 @ 115200 8N1`) med rå `termios`-flagg som tvangsdeaktiverer all kjerne-tolkning:
+
+```cpp
+// Tvungen rå termios-modus i agy_habitat_hardware_bridge.cpp (SPEC-126 / SPEC-249):
+tty.c_lflag &= ~(ICANON | ECHO | ECHOE | ISIG);
+tty.c_iflag &= ~(IXON | IXOFF | IXANY);
+tty.c_iflag &= ~(IGNBRK | BRKINT | PARMRK | ISTRIP | INLCR | IGNCR | ICRNL);
+tty.c_oflag &= ~OPOST;
+```
+
+#### 2. Tidsøkonomien på Riemann-Aksen (`SPEC-351`: $0{,}2509\,\mu\text{s}$ mot $5{,}0\text{ ms}$)
+
+Skillet mellom den **OS-frie `#![no_std]` Rust/C-kjernen** og **Linux POSIX WAL-tjeneren** løser tidsøkonomien i **Dør 19** over de 400 klokkesyklusene:
+
+1. **Mikrosekund-planet (`#![no_std]` Rust & Bare-Metal C / FPGA):** Her skjer zero-copy serialisering i statisk SRAM på **$0{,}2509\,\mu\text{s}$** direkte langs den kritiske paritetslinjen $\operatorname{Re}(s) = 1/2$ ($w_H(s) = 500$ i $\mathbb{Z}_2^{1000}$, $\Delta S = 0$). Den 72-byte store `ETOR_RawPacket` (`static_assert(sizeof(ETOR_RawPacket) == 72)` i `04_REALITY_FORGE/include/etor_raw_packet.h`) bruker ingen heap (`malloc` er fysisk fraværende, så Linux sin *OOM-killer* kan aldri gripe inn), verifiserer 64-bits involutiv paritet ($\mathcal{R}(\mathcal{R}(X)) = X$ via `(~x) ^ 0xA5A55A5AA5A55A5AULL`) og låser Mössbauer-resonansen ved $\delta_{\text{res}} = 0{,}32\text{ mm/s} \pm 0{,}005\text{ mm/s}$ ($84{,}0\text{ kHz}$ piezo-bærebølge).
+2. **Makroskopisk epoke-plan (Linux POSIX WAL):** Først når vitnekapselen skal forsegles varig over 400-klokkesyklusers gapet ($\frac{5{,}0\text{ ms}}{12{,}5\,\mu\text{s}} = 400$), kalles Linux inn som ren lagringstjener via `O_APPEND | O_DSYNC`, `fsync()` ($5{,}0\text{ ms}$) og `mprotect(..., PROT_READ)`. Ved `OPEN` ($\odot \prec 1$) venter aktuatorporten på fullført `fsync()`; ved `KILL` ($1 \prec \odot$) kutter silisium- og FPGA-slusen spenningen på nanosekundskalaen mens Linux skriver obduksjonsloggen i etterkant.
+
+#### 3. `uid = 0` vs. `Level 01`: Dødsfalls-Destruktøren (`~AGYHabitatHardwareBridge()`)
+
+Det mest radikale bruddet med vanlig IT-sikkerhet er at **`root` (`uid = 0`) ikke eier maskinen**:
+
+* **Kompromittert `root` gir null fysisk makt:** Selv om en angriper, en løpsk AI-agent eller en korrupt kjerneprosess oppnår full `root`-tilgang i Linux, kan den **ikke** tvinge frem `OPEN` ($5{,}00\text{ V DC}$). Den har `standalone_commit_authority = NONE` uten et gyldig kryss-domene-vitne ($W_n$), ortogonalitetsbevis ($\Pi_{\text{orth}} = 1$) og kontinuerlig fysisk `0xFF`-puls ($200\text{ Hz}$).
+* **Kjerne-krasj eller `kill -9` utløser automatisk fysisk sikring:** Hvis noen i Linux forsøker å drepe kontrollprosessen (`SIGKILL`) eller kjernen går i *kernel panic*, kjører C++-destruktøren `~AGYHabitatHardwareBridge()` (`0x00`), DTR-linjen på `/dev/ttyUSB0` faller, og den eksterne **$100\text{ MHz}$ FPGA-vakthunden** ($10\text{ ns}$ klokkeperiode) kutter $5{,}00\text{ V}$-spolen innen **$\le 10{,}0\text{ ms}$** ved uteblitt `0xFF`-hjerteslag.
+* **Monoton fysisk lås frem til `Level 01` (`0x55`):** Etter et slikt kutt er tilstanden monotont låst i silisiumet (`monotone_fuse_reg_out`). Ingen kommando fra Linux — uansett `sudo`-privilegier eller nettverkspakker — kan oppheve låsen før det fysiske vitnet (**Level 01 — Jan**) gir eksplisitt mekanisk/elektrisk klarsignal (`0x55`, $\eta_{\text{defense}} = 1{,}25 \times 10^9$).
+
 ---
 
 ## 4. Hardware-Realisering i SystemVerilog-RTL

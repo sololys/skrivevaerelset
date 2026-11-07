@@ -224,6 +224,26 @@ I konvensjonell prosa er digresjoner assosiative lekkasjer (*Fail-Open*): forfat
 > **Konstitusjonell Skriveregel:**
 > La brødteksten være granitten ($\text{L0}/\text{L3}$). La digresjonene være bølgefunksjonene ($\Phi$). Men la aldri leseren bla om til en ny side før overgangsoperatoren ($\Omega$) har smekket i lås, residualet er null ($\Delta_K = 0$), og det termodynamiske poenget er skrevet varig inn i historien ($W$).
 
+#### Leksikon i Konseptuell Granitt og Syntaktiske Lover for Manuskriptet
+
+For at verket skal ha én gjennomført, isomorf stemme på tvers av alle kapitler — der tekstens oppbygning adlyder de samme lovene som koden og maskinvaren den beskriver — er følgende åtte termer og fire syntaktiske komposisjonslover låst:
+
+| Begrep i teksten | Operasjonell betydning i boka | Bruksområde i prosaen |
+| :--- | :--- | :--- |
+| **Kandidattrekk ($a'$)** | En tanke, hypotese, intensjon eller strategi *før* den har bestått fysisk og strukturell verifikasjon. | Brukes om løfter, planer, uprøvde utkast og politiske/institusjonelle vedtak. |
+| **Grensestøy (*Dead Noise*)** | En handling eller tekstpassasje med lav egennytte som avvises i porten ($\Omega = \textbf{KILL}$) og kun tapper systemets marginer. | Erstatter ord som «feil», «irrelevans» eller «byråkratisk tåkeprat». |
+| **Spøkelsesseier (*Ghost Win*)** | Høy umiddelbar gevinst ($u_i > 0$) kjøpt på bekostning av systemets bæreevne ($U_i < 0$), som uunngåelig ender i kollaps. | Analyse av kortsiktig profitt, varsler-gjengjeldelse, teknisk gjeld eller juks. |
+| **Luftsluse ($\tau_A$)** | Tvungen forsinkelse ($14{,}0\text{ ms}$ / $6\,200\,488$ sykluser) mellom impuls og utførelse for å hindre impulsiv kollaps. | Beskrivelse av nødvendig friksjon, refleksjonstid og beskyttelse av menneskelig dømmekraft. |
+| **Involusjonslås** | Kravet om at tilstanden *etter* en hendelse (`post.w_pre_hash`) eksakt bekrefter forpliktelsen *før* hendelsen (`pre.w_pre_hash`). | Etisk og arkitektonisk etterrettelighet; samsvar mellom ord og konsekvens. |
+| **Isomorfi-bro (*Rosetta-sprang*)** | Når to fysisk adskilte domener (f.eks. ionekanal i cellemembran og RTL-port i silisium) viser seg å være styrt av identisk ligning. | Overgangsformular når teksten hopper mellom biologi, historie og maskinvare. |
+| **Skorsteinsvarme / Restvarme** | Gevinst som står igjen etter at en strategi har ødelagt selve spillets medium (Andre lov: Selvkonsumpsjon). | Beskrivelse av seire på et ødelagt brett. |
+| **Suveren frakobling ($\gamma = 0$)** | Å sette koblingskonstanten til et korrupt eller rigget system til null, slik at $\det(I - \gamma J_{\text{Nash}}) = 1$. | Når en agent nekter å forhandle med en lukket port ($\Omega_{\text{int}}$) og bygger uavhengig bevisførsel. |
+
+1. **Tre-trinns setningskadens (*Abstraksjon $\to$ Fysisk kutt $\to$ Sanselig anker*):** La aldri et avsnitt ende i ren matematikk. Etabler først den formelle skranken (f.eks. Belnap-kontradiksjon $\Omega = (1,1)$ eller hyperbolsk rand $\lvert z\rvert \to 1^-$), vis deretter den mekaniske dommen (`REJECT_FLAG_OMEGA_PARADOX`, kutt til $0{,}00\text{ V DC}$), og land til slutt i et fysisk gulv med temperatur, vekt eller lyd ($37{,}0\,^\circ\text{C}$ biologisk vev, sludd mot stål, jordfeilbryter i et fuktig kjellerrom).
+2. **Fredning av blindveien (*Negativt rom som bærende mur*):** Introduser tekniske og filosofiske valg gjennom det forkastede utkastet (som Leidenfrost-dampskjoldet på $500\text{ m}$ dyp som blir en isokor bombe på $700\text{--}800\text{ bar}$, eller en ekstra klagekomité som bare flytter `HOLD`-fellen én etasje opp). Avslutt blindveien med en hard strek: *«Derfor er denne veien murt igjen. Gjerdet står her fordi stupet går her.»* Først da presenteres den faktiske løsningen.
+3. **Poincaré-snittet som kapittelramme:** Hvert kapittel struktureres som en lukket bane fra et snitt $\Sigma_A$: *Utgang ($x_0$)* med en presis operasjonell påstand $\to$ *Bane ($\Phi$)* gjennom et eksponentielt $\mathbf{NP}$-søk ute i terrenget (1955-arkivene hos NSA, *Formica rufa*, Skagerrak) $\to$ *Retur ($P_A(x_0)$)* med $\le \varepsilon_{\text{drift}}$ der den 205-byte store strukturen (`fpga_capsule_frame_205b_decoder.sv`) kontrollerer vitnet på 1 klokkesyklus ($\mathcal{O}(1)$).
+4. **Typografiske kjerneprøver (`WitnessPostCommit` 86B):** Hvert hovedkapittel låses med en innrammet domsblokk som fungerer som tekstens egen `WitnessPostCommit` ($W_{\text{post}}$) — en 86-byte sluttforsegling som oppsummerer hva kapittelet faktisk har bevist og på hvilket bevisnivå (`L0`, `L1/L1.5` eller `L2-HOLD`), rensket for all dekorasjon.
+
 ---
 
 ### 7B. Den Femfoldige Balkong-Monolitten (Balkong I–V): Fra Romantisk Digresjon til Fail-Closed Armeringsstål

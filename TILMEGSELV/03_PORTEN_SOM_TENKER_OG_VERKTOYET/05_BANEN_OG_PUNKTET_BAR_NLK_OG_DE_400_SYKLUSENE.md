@@ -71,4 +71,101 @@ $$(\text{Punkt} \oplus \text{Bane})^2 = (\text{Punkt} \otimes \text{Punkt}) \;\o
 
 I programvarelaget (`L1`) er alle fire kvadranter og de $400$ klokkesyklusene implementert og verifisert i `PunktOgBaneSquaredEngine` (`scripts/punkt_og_bane_squared_engine.gd` og `tests/test_punkt_og_bane_squared_engine.gd`, **`6/6 PASS`** i Godot 4.3 headless).
 
+---
+
+## V. Hyperbolsk Smith som punktfelt og banefelt
+
+I den operative KY-korrespondansen setter vi:
+
+$$\mathcal{H}_{\mathrm{Smith}} = \left(\mathbb{B}^n,\; ds_{\mathrm{Berg}}^2,\; K,\; \Pi_{T_w K},\; \iota\right), \qquad \mathrm{NP}_{\mathrm{op}} \leftrightarrow \text{Punktfelt i } \mathbb{B}^n, \qquad \mathrm{P}_{\mathrm{op}} \leftrightarrow \text{Banefelt i } \operatorname{Viab}_F(K) \subset \mathbb{B}^n$$
+
+Hyperbolsk Smith er både rommet som inneholder kandidatpunktene, og geometrien som forbinder dem gjennom baner.
+
+### 1. NP-siden: Tilstanden som punkt
+
+Ved hvert tidspunkt $t$ får systemet en residualtilstand $w(t)$. Dette er et punkt i den komplekse hyperbolske kulen:
+
+$$w(t) = \big(w_{\mathrm{QM}}(t),\, w_{\mathrm{grav}}(t),\, w_{\mathrm{constr}}(t),\, w_{\mathrm{cons}}(t),\, w_{\mathrm{inv}}(t)\big) \in \mathbb{B}^n = \left\{ w \in \mathbb{C}^n \;\middle|\; \|w\|^2 = \sum_{j=1}^n |w_j|^2 < 1 \right\}$$
+
+Punktet kan inneholde residualkomponenter for:
+* kvantedynamikk ($w_{\mathrm{QM}}$),
+* gravitasjonsgeometri ($w_{\mathrm{grav}}$),
+* constraints ($w_{\mathrm{constr}}$),
+* bevaringslover ($w_{\mathrm{cons}}$),
+* involutiv rundtur ($w_{\mathrm{inv}}$).
+
+NP-siden defineres operativt som:
+
+$$\mathcal{C}_{\mathrm{NP}} = \left\{ w(t) \in \mathbb{B}^n \;\middle|\; w(t) \in K \;\land\; V\big(x, w(t)\big) = 1 \right\}$$
+
+Punktet kan inspiseres og verifiseres, men forteller ikke alene hvordan systemet kom dit, eller om tilstanden kan bæres videre.
+
+### 2. P-siden: Tilstanden som bane
+
+Når kandidatpunktene ordnes i tid, dannes banen:
+
+$$\gamma : [0, T] \to \mathbb{B}^n, \qquad t \mapsto w(t)$$
+
+Banens kandidatdynamikk kan skrives:
+
+$$\dot{w}(t) = F\big(w(t)\big) = G\big(w(t)\big) - D\big(w(t)\big)$$
+
+Her åpner $G(w)$ nye kandidatretninger, mens $D(w)$ fjerner eller korrigerer komponenter som peker ut av det admissible området.
+
+Dersom $\operatorname{Viab}_F(K) \subseteq K$ er viability-kjernen, skrives den projiserte dynamikken:
+
+$$\dot{w}(t) = \Pi_{T_{w(t)} K}\!\Big(G\big(w(t)\big) - D\big(w(t)\big)\Big)$$
+
+P-siden defineres da som:
+
+$$\mathcal{C}_{\mathrm{P}} = \left\{ \gamma : [0, T] \to \mathbb{B}^n \;\middle|\; \forall t \in [0, T] : w(t) \in \operatorname{Viab}_F(K) \;\land\; \dot{w}(t) \in T_{w(t)} K \right\}$$
+
+### 3. Den doble oppførselen
+
+Et admissibelt punkt er nødvendig, men ikke tilstrekkelig:
+
+$$w(t) \in K \quad \nRightarrow \quad \gamma \in \mathcal{C}_{\mathrm{P}}$$
+
+Tilstanden kan ligge innenfor den admissible mengden akkurat nå, samtidig som dens tangent peker ut:
+
+$$w(t) \in K \quad \land \quad \dot{w}(t) \notin T_{w(t)} K$$
+
+Da er punktet lokalt admissibelt, mens den foreslåtte fortsettelsen ikke er realiserbar.
+
+### 4. Involusjonen tester punkt og bane
+
+Punktinvolusjonen tilfredsstiller:
+
+$$\iota : \mathbb{B}^n \to \mathbb{B}^n, \qquad \iota^2 = \iota \circ \iota = \mathrm{id}_{\mathbb{B}^n}$$
+
+En tidsreversert baneinvolusjon kan defineres som:
+
+$$(\mathcal{I}\gamma)(t) = \iota\big(\gamma(T - t)\big), \qquad t \in [0, T], \qquad \mathcal{I}^2 = \mathrm{id}$$
+
+En dynamisk rundturstest er:
+
+$$\mathcal{R}_T(w_0) = \left(\Phi_{-T} \circ \iota \circ \Phi_T \circ \iota\right)(w_0) \approx w_0 \qquad \Longleftrightarrow \qquad d_{\mathbb{B}^n}\!\big(\mathcal{R}_T(w_0),\, w_0\big) \le \varepsilon_{\mathrm{tol}}$$
+
+Testen undersøker både:
+* om kandidatpunktet beholder identiteten ($\iota(\iota(w)) = w$);
+* om banen tåler speiling, propagasjon og retur ($d_{\mathbb{B}^n}(\mathcal{R}_T(w_0), w_0) \le \varepsilon_{\mathrm{tol}}$).
+
+### 5. Kanonisk form
+
+Hyperbolsk Smith binder dermed punkt og bane i samme struktur:
+
+$$\mathcal{H}_{\mathrm{Smith}} = \Big(\underbrace{w(t) \in K \subset \mathbb{B}^n}_{\text{NP-siden: Punktfelt}},\; \underbrace{\dot{w}(t) = \Pi_{T_{w(t)} K}\!\big(G(w) - D(w)\big) \in T_{w(t)} K}_{\text{P-siden: Banefelt}},\; \underbrace{\mathcal{R}_T = \Phi_{-T} \circ \iota \circ \Phi_T \circ \iota}_{\text{Involutiv rundtur}}\Big)$$
+
+Den gir kandidatpunktet et rom å eksistere i, og den gir banen en geometri å bevege seg gjennom.
+
+Korrespondansen er strukturell og operativ:
+
+$$\mathrm{NP}_{\mathrm{op}} \simeq \mathcal{C}_{\mathrm{NP}} \quad (\text{Punktfelt i } \mathbb{B}^n), \qquad \mathrm{P}_{\mathrm{op}} \simeq \mathcal{C}_{\mathrm{P}} \quad (\text{Banefelt i } \operatorname{Viab}_F(K) \subset \mathbb{B}^n)$$
+
+Den skal ikke forveksles med en bevist likhet mellom kompleksitetsklassene:
+
+$$\mathrm{P}_{\mathrm{op}} \leftrightarrow \mathrm{NP}_{\mathrm{op}} \quad \text{i } \mathcal{H}_{\mathrm{Smith}} \qquad \nRightarrow \qquad \mathrm{P} = \mathrm{NP} \qquad (\texttt{INSPIRED\_BY != IMPLEMENTS != PROVES})$$
+
+I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$) og den involutive rundturstesten $\mathcal{R}_T$ verifisert i [`hyperbolic_smith_constitutional_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/hyperbolic_smith_constitutional_gate_engine.py) (`8/8 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
+
 En tanke som bare lever i mulighetsrommet, driver med vinden. Et punkt som bare står stille i materien, stivner til stein. Først når systemet behersker rytmen mellom dem – å strekke banen ut i det ukjente, kappe alt som ikke bærer sin egen vekt på fire nanosekunder, og forankre det som overlever med $898\,900\text{ Newton}$ i fjellet – oppstår sann bevegelse. Det som besto prøven i dag, blir det faste punktet neste bane skyter ut fra i morgen.

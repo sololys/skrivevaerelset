@@ -55,12 +55,13 @@ I de fem kjerneprøvene som følger, prøves $\mathcal{R} = (\Phi, \Pi_K, \Omega
 | **IV. Termodynamisk informasjonskostnad** | Landauers grense, asymmetrisk utmattelsesforhold | $T = 277{,}15\text{ K}$, $E_L = 2{,}6523\times 10^{-21}\text{ J}$ ($10{,}87\text{ aJ}$ per $4096\text{ bit}$), $E_{\text{TDC}} = 8{,}0\,\mu\text{J}$, $\eta_{\text{defense}} = 1{,}25\times 10^9$, $W_{\text{forge}}(2^{128}) = 9{,}025\times 10^{17}\text{ J}$ | Pakker utenfor kausal diamant forkastes i TDC ved $8{,}0\,\mu\text{J}$ uten CPU-avbrudd eller diskskriving. |
 | **V. Lukket støkiometrisk kaskade** | Fermis aldersligning ($\tau_F$), geometrisk buckling ($B_g^2$), $^{233}\text{Pa}$-henfall, Soret-termodiffusjon | $k_{\text{eff}} = 0{,}960 \to <0{,}50$, $t_{1/2}(^{233}\text{Pa}) = 26{,}97\text{ d}$, radiolyse $0{,}3588\text{ kg H}_2 + 3{,}9317\text{ kg CO}_2 \to 2{,}6816\text{ kg CH}_3\text{COOH} + 1{,}6089\text{ kg H}_2\text{O}$ ($293\text{ mV}$, $0\text{ W}$), $\Delta R = 0{,}000000000000\text{ kg}$ | Støkiometrisk rest $\Delta R \neq 0$ eller termisk avvik $> \pm 0{,}5\text{ W}$ utløser `GATE :: KILL` ($0{,}00\text{ V DC}$) innen $12{,}5\,\mu\text{s}$. |
 
-### IV. Typografisk Slusesyntaks i De Fem Kjerneprøvene
+### IV. Typografisk Slusesyntaks i De Fem Kjerneprøvene (De 6 Konstitusjonelle Kant-Sigillene)
 
-For å markere nøyaktig hvor i kausalstakken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ teksten befinner seg når hver kjerneprøve kobler grunnfjellsfysikken til den sanselige og historiske verden, merkes slusene i dette kammeret med fire faste sigiller:
+For å markere nøyaktig hvor i kausalstakken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ teksten befinner seg når hver kjerneprøve kobler grunnfjellsfysikken til den sanselige og historiske verden, merkes slusene i dette kammeret med de seks konstitusjonelle kant-sigillene fra *Omveiens Tektonikk*:
 
-* **`[ `$\circ$` `$\Phi$`-UTFLUKT // 0,00 V DC // `$\text{Rev}^1$` ]`** — Markerer startpunktet for *Omveiens iboende verdi* i det uforpliktende faseminnet ($E \sim k_B T \ln 2$).
+* **`[ `$\sim$` UTFLUKT // 0,00 V DC // `$\text{Rev}^1$` ]`** — Markerer startpunktet for *Omveiens iboende verdi* i det uforpliktende faseminnet ($E \sim k_B T \ln 2$).
 * **`[ `$\Delta$` KONTRAFAKTISK OBDUKSJON // `$(I - P)x$` ]`** — Markerer *Fredningen av Rommet for urealiserte liv*, der et feilslått *Fail-Open*-design obduseres på papiret.
-* **`[ `$\approx$` ROSETTA-SVEIS // `$\Pi_K$` ]`** — Markerer *Isomorfiens tverrsprang* ($\Pi_K(\text{Biologi}) \cong \Pi_K(\text{Silisium})$).
-* **`[ `$\boxtimes$` SOMA-ANKER // `$\Pi_{\text{orth}}$` // Kontrastvæske ]`** — Markerer *Detaljens magi* og overgangen fra abstrakt teori til sanselig, mekanisk motstand.
+* **`[ `$\equiv$` ROSETTA-SVEIS // `$\Pi_K(A) \cong \Pi_K(B)$` ]`** — Markerer *Isomorfiens tverrsprang* ($\Pi_K(\text{Biologi}) \cong \Pi_K(\text{Silisium}) \cong \Pi_K(\text{Juss})$).
+* **`[ `$\perp$` SOMA-ANKER // `$\Pi_{\text{orth}}$` // Kontrastvæske ]`** — Markerer *Detaljens magi* og overgangen fra abstrakt teori til sanselig, mekanisk motstand.
 * **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // 5,00 V DC // `$\Delta R = 0$` ]`** — Låser digresjonen over snittflaten $\Sigma_A$, bekrefter at sirkelen er sluttet og forsegler den irreversible innsikten.
+* **`[ `!$\times\odot$` // NARRATIV GILJOTIN // 0,00 V DC ]`** — Markerer ubetinget kutt i 1 klokkesyklus ($\tau_{\text{cut}} \le 15\text{ ns}$ / $\tau_{\text{close}} = 38{,}4\text{ ms}$) når Balkong-invarianten eller kobordismeloven brytes.
