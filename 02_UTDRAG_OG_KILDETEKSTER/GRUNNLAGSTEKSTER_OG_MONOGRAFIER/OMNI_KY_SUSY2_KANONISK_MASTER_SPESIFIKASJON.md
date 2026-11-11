@@ -36,7 +36,7 @@ Eksistens i denne arkitekturen er ikke en passiv egenskap, men en invariant som 
 
 $$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}}$$
 
-$$\operatorname{Viab}(\Sigma) \iff \Omega\big(\Pi_K(\Phi(\sigma))\big) = \text{OPEN}$$
+$$\mathrm{Viab}(\Sigma) \iff \Omega\big(\Pi_K(\Phi(\sigma))\big) = \text{OPEN}$$
 
 ---
 

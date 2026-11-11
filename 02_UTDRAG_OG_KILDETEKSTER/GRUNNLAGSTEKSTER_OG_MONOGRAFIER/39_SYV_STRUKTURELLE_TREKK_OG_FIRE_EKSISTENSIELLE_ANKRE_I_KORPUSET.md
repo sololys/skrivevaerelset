@@ -68,7 +68,7 @@ I dialogen mellom **Henrik Ibsen, Ada Lovelace og Niels Bohr** slår Ibsen kruse
 
 De fem bindene nøyer seg ikke med filosofi; de legger hodet på blokken med **eksakte, falsifiserbare tall**:
 
-1. **Bind X (Likning 5.3):** To kvantemekaniske partikler som ender opp i *nøyaktig samme posisjonstilstand* ($\rho_A^{\text{pos}}(t_1) = \rho_B^{\text{pos}}(t_1)$), men hvor den ene har streifet bufferbeltet $B=(0,1)$ mens den andre gikk i det indre $\operatorname{Int}(\mathcal{A})$, skal ved Hadamard-utlesning gi en sannsynlighetsforskjell på **eksakt $\Delta p = 0,126$** ($12,6\,\%$). Standard Markov-kvantemekanikk sier $\Delta p = 0$.
+1. **Bind X (Likning 5.3):** To kvantemekaniske partikler som ender opp i *nøyaktig samme posisjonstilstand* ($\rho_A^{\text{pos}}(t_1) = \rho_B^{\text{pos}}(t_1)$), men hvor den ene har streifet bufferbeltet $B=(0,1)$ mens den andre gikk i det indre $\mathrm{Int}(\mathcal{A})$, skal ved Hadamard-utlesning gi en sannsynlighetsforskjell på **eksakt $\Delta p = 0,126$** ($12,6\,\%$). Standard Markov-kvantemekanikk sier $\Delta p = 0$.
 2. **Bind X (Likning 2.3):** Ved å måle fasederivasjonen av Weyl-skalaren $|\nabla_u \Psi_2|^2 / |\Psi_2|^{8/3}$ i stedet for rå posisjon, oppdager Dør 10 begynnende bane-ustabilitet **6,8 ganger tidligere** enn vanlig koordinatmåling.
 3. **Bind XIII (Teorem 3.1):** Enhver dette-måler-seg-selv-modell ($\mathcal{W} \in \mathcal{F}_{\text{gen}}$) tildeles epistemisk vekt **identisk lik $0$ (BLØFF)**.
 
@@ -81,7 +81,7 @@ Det kanskje aller mest slående når man leser **Bind X–XIV** i ett strekk, er
 * **Gravitasjon (Bind X)** skaper ikke baner; den *skjærer bort* Gödels tidsreiser med Moreau-clutchen.
 * **Involusjon (Bind XI)** skaper ikke sannhet; den *speiler* forslaget i luftslusen og kutter alt som lekker entropi før $t^*$.
 * **Faserommet (Bind XII)** krever ikke at banen går i ring; det *skjærer* banen med $\Sigma_k$ og sender alle forkastede drømmer til *Rommet for urealiserte liv* (Dør 19).
-* **Logikken (Bind XIII)** kan ikke krone seg selv ($\mathcal{F} \nvdash \operatorname{Con}(\mathcal{F})$); den *fryser* paradokset i en $4\pi$-spinnvirvel og venter ydmykt på mennesket utenfor maskinen.
+* **Logikken (Bind XIII)** kan ikke krone seg selv ($\mathcal{F} \nvdash \mathrm{Con}(\mathcal{F})$); den *fryser* paradokset i en $4\pi$-spinnvirvel og venter ydmykt på mennesket utenfor maskinen.
 * **Vakuumet (Bind XIV)** dytter ikke Casimir-platene sammen med en positiv kraft; platene presses sammen med $P_C = -\pi^2\hbar c/(240a^4)$ fordi bølgene som var for store ($\lambda > 2a$), ble **subtrahert bort**.
 
 Som det står i prologen til Bind X: ***Non generatur, sed admittitur*** – virkeligheten genereres ikke; den *slippes inn*.

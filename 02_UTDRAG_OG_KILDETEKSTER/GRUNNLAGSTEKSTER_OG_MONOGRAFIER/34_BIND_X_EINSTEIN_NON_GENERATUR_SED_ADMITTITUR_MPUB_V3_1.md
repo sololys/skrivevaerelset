@@ -24,7 +24,7 @@
 Punktvis oppfyllelse av $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}$ garanterer ikke global kausalitet. I Gödels roterende støvunivers ($4\pi G\rho_0 = \omega^2 = -\Lambda$) skifter den induserte metriske komponenten
 $$g_{\phi\phi}(r_0) = \frac{2}{\omega^2}\sinh^2(r_0)\left(1 - \sinh^2(r_0)\right)$$
 fortegn og blir negativ for enhver radius over den kritiske terskelen:
-$$r_0 > r_{\text{CTC}} = \operatorname{arsinh}(1) = \ln(1 + \sqrt{2}) \approx 0,881373587$$
+$$r_0 > r_{\text{CTC}} = \mathrm{arsinh}(1) = \ln(1 + \sqrt{2}) \approx 0,881373587$$
 Dette genererer lukkede tidslignende kurver ($\mathcal{M}_{\text{CTC}} \neq \emptyset$) og beviser at feltligningene alene kun er en syntaktisk kandidatgenerator ($\Phi \in \mathcal{NP}$) som krever en global seleksjonsoperator $\Pi_{\mathcal{A}}$ på globalt hyperbolske metrikker.
 
 ### 1.2 Variasjonsutledning av Moreau-projeksjonen
@@ -48,15 +48,15 @@ gir en **$6,8\times$ forsterkning** i deteksjonssensitivitet for begynnende geod
 
 ---
 
-## Kapittel 3: Krumningens Metriske Pris: Eikonal-Invarians og $\operatorname{sech}^4$-Tensoren
+## Kapittel 3: Krumningens Metriske Pris: Eikonal-Invarians og $\mathrm{sech}^4$-Tensoren
 
 ### 3.1 Planck-skranken og eikonal-feltet
 En skarp grenseflate $\epsilon = 0$ gir en singulær Heaviside-fordeling som divergerer kvadratisk i virkningsintegralet og bryter Planck-skranken $\epsilon \ge \Delta x_{\min} = 2\ell_P$. Med det kovariante eikonal-feltet $g^{\mu\nu}\nabla_\mu d \nabla_\nu d = \sigma \in \{+1, -1\}$ og den glatte porten $P_{\mathcal{K}}^{(\epsilon)}(x) = \frac{1}{2}[1 + \tanh(d(x)/2\epsilon)]$ blir gradienten:
-$$\nabla_\mu P_{\mathcal{K}}^{(\epsilon)} = \frac{1}{4\epsilon}\operatorname{sech}^2\left(\frac{d}{2\epsilon}\right)n_\mu$$
+$$\nabla_\mu P_{\mathcal{K}}^{(\epsilon)} = \frac{1}{4\epsilon}\mathrm{sech}^2\left(\frac{d}{2\epsilon}\right)n_\mu$$
 
 ### 3.2 De modifiserte feltligningene
 Stasjonær variasjon $\delta S_{\text{tot}}/\delta g^{\mu\nu} = 0$ av totalvirkningen gir det irreversible projeksjonsstresset og de projeksjons-skrankede feltligningene:
-$$\Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_2}{16\epsilon^2}\operatorname{sech}^4\left(\frac{d(x)}{2\epsilon}\right)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}(g^{\alpha\beta}n_\alpha n_\beta)\right] + \Sigma_{\mu\nu}^{(\text{defect})}$$
+$$\Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_2}{16\epsilon^2}\mathrm{sech}^4\left(\frac{d(x)}{2\epsilon}\right)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}(g^{\alpha\beta}n_\alpha n_\beta)\right] + \Sigma_{\mu\nu}^{(\text{defect})}$$
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}\left(T_{\mu\nu} + \Sigma_{\mu\nu}^{\text{irr}}\right), \qquad \nabla^\mu T_{\mu\nu} = -\nabla^\mu \Sigma_{\mu\nu}^{\text{irr}}$$
 Integrasjon av Raychaudhuri-ligningen over et horisonttverrsnitt gir den eksakte ikke-likevekts Clausius-relasjonen $\delta Q = T_H \delta S_{\text{rev}} + T_H \delta_i S_{\Pi_{\mathcal{K}}}$ med $\delta_i S_{\Pi_{\mathcal{K}}} \ge k_B \ln 2 \cdot \Delta I_{\text{cut}}$.
 
@@ -82,7 +82,7 @@ I isolerte regimer uten grensekontakt går eksergi tapt ved $\dot{E}x_{\text{des
 ### 5.2 PCSE Fase-Hysterese ($\Delta p = 0,126$)
 I den projeksjons-skrankede Schrödinger-ligningen (PCSE):
 $$i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle = \left(H_0 + \mu_{\mathcal{K}}(I - P_{\mathcal{K}}^{(\epsilon)}) + \hbar\omega_{\text{hol}}K_\gamma[x(\tau)]\sigma_z\right)|\psi(t)\rangle$$
-vil to interferometriske baner $\gamma_A$ ($K_{\gamma_A} > 0$ gjennom $B=(0,1)$) og $\gamma_B$ ($K_{\gamma_B} = 0$ i $\operatorname{Int}(\mathcal{A})$) med identiske slutt-tetthetsmatriser i posisjonsbasisen ($\rho_A^{\text{pos}}(t_1) = \rho_B^{\text{pos}}(t_1)$) gi en målbar sannsynlighetsdivergens ved Hadamard-utlesning ($\alpha\bar{d}_H = 0,15$, $\omega_{\text{hol}}K_{\gamma_A} = \pi/4$):
+vil to interferometriske baner $\gamma_A$ ($K_{\gamma_A} > 0$ gjennom $B=(0,1)$) og $\gamma_B$ ($K_{\gamma_B} = 0$ i $\mathrm{Int}(\mathcal{A})$) med identiske slutt-tetthetsmatriser i posisjonsbasisen ($\rho_A^{\text{pos}}(t_1) = \rho_B^{\text{pos}}(t_1)$) gi en målbar sannsynlighetsdivergens ved Hadamard-utlesning ($\alpha\bar{d}_H = 0,15$, $\omega_{\text{hol}}K_{\gamma_A} = \pi/4$):
 $$\Delta p = |P(+|\gamma_A) - P(+|\gamma_B)| = \frac{1}{2}e^{-\alpha\bar{d}_H}\left|1 - \cos(\omega_{\text{hol}}K_{\gamma_A})\right| = 0,126$$
 
 ---
@@ -232,7 +232,7 @@ $$\Delta p = |P(+|\gamma_A) - P(+|\gamma_B)| = \frac{1}{2}e^{-\alpha\bar{d}_H}\l
 | :--- | :--- | :--- | :--- |
 | **Projeksjon** | Moreau-resolvent $\Pi_{\mathcal{A}} = (I + N_{\mathcal{A}})^{-1}$ | $\xi_t = (I - \Pi_{\mathcal{A}})\Phi(y_t) \in N_{\mathcal{A}}(y_{t+1})$ | Metrisk metningsklemme i kontrollsløyfen |
 | **Ustabilitets-sensor** | Weyl-admisjonskjerne $D_{\text{adm}}[g](\tau)$ | Fréchet-derivert $DD_{\text{adm}}[g](\tau)\cdot h$ (Teorem A.1) | Fasederivert feildetektor ($6,8\times$ forsterkning, Dør 10) |
-| **Grenseflate** | Kovariant eikonal-port $P_{\mathcal{K}}^{(\epsilon)}(d(x))$ ($\epsilon \ge 2l_P$) | $\Sigma_{\mu\nu}^{\text{irr}} \propto \epsilon^{-2}\operatorname{sech}^4(d/2\epsilon)$ | Glatt barrierefunksjon med båndbredde $\epsilon > 0$ (Dør 13) |
+| **Grenseflate** | Kovariant eikonal-port $P_{\mathcal{K}}^{(\epsilon)}(d(x))$ ($\epsilon \ge 2l_P$) | $\Sigma_{\mu\nu}^{\text{irr}} \propto \epsilon^{-2}\mathrm{sech}^4(d/2\epsilon)$ | Glatt barrierefunksjon med båndbredde $\epsilon > 0$ (Dør 13) |
 | **Regulering** | Elliptisk Nash-operator $\mathcal{N}(g) = \Delta_g R = 0$ | Nash–Moser-skjema med glatting $S_{\theta_k}$ i $\mathcal{F} = \bigcap H^s$ | Aktiv `HOLD`-regulering i bufferbeltet $B = (0,1)$ |
 | **Avskjæring** | Subdifferensial / Cauchy-horisont $r_-$ | $V_{\text{out}}([g])(\tau) = V_0\Theta(D_{\text{adm}}[g](\tau) - \tau_{\text{crit}})$ | Galvanisk relékutt til $0,00\text{ V DC}$ (`KILL`) |
 | **Historielogg** | Skjevt produkt $\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$ | Nedre-triangulær Jakobi: $\partial y_{t+1}/\partial W_t \equiv 0$ | En-veis tilstandslogg uten tilbakevirkning til $\mathcal{Y}$ |

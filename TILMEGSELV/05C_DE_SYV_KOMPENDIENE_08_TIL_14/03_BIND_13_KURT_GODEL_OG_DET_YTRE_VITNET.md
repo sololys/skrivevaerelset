@@ -9,22 +9,22 @@
 
 Kan en tilstrekkelig avansert kunstig intelligens eller en lukket formell styringsmotor verifisere sin egen feilfrihet innenfra? Hele den moderne drømmen om «fullt autonome, selv-verifiserende KI-agenter» hviler på antakelsen om at mer regnekraft og dypere selvrefleksjon til slutt vil lukke sikkerhetsgapet. I 1931 beviste Kurt Gödel med ugjendrivelig aritmetisk stringens at denne drømmen er en logisk umulighet.
 
-La $\mathcal{F}$ være et konsistent, rekursivt aksiomatiserbart formelt system som er sterkt nok til å uttrykke elementær Peano-/Robinson-aritmetikk ($\mathsf{Q}$). Gjennom Gödel-nummerering $\ulcorner \varphi \urcorner \in \mathbb{N}$ tilordnes enhver formel $\varphi$ og ethvert endelig bevis et unikt naturlig tall. La $\operatorname{Bew}_{\mathcal{F}}(x)$ være det aritmetiske bevisbarhetspredikatet som uttrykker at «det eksisterer et formelt bevis $y$ i $\mathcal{F}$ for formelen med Gödel-nummer $x$».
+La $\mathcal{F}$ være et konsistent, rekursivt aksiomatiserbart formelt system som er sterkt nok til å uttrykke elementær Peano-/Robinson-aritmetikk ($\mathsf{Q}$). Gjennom Gödel-nummerering $\ulcorner \varphi \urcorner \in \mathbb{N}$ tilordnes enhver formel $\varphi$ og ethvert endelig bevis et unikt naturlig tall. La $\mathrm{Bew}_{\mathcal{F}}(x)$ være det aritmetiske bevisbarhetspredikatet som uttrykker at «det eksisterer et formelt bevis $y$ i $\mathcal{F}$ for formelen med Gödel-nummer $x$».
 
 **Lemma 13.1 (Carnap–Gödel Diagonaliseringslemma / Fikspunktteoremet):** *For enhver formel $\psi(x)$ med én fri variabel eksisterer det en setning $\varphi$ i språket til $\mathcal{F}$ slik at $\mathcal{F}$ beviser ekvivalensen mellom $\varphi$ og påstanden om at $\varphi$'s eget Gödel-nummer har egenskapen $\psi$:*
 
 $$\mathcal{F} \vdash \varphi \leftrightarrow \psi\bigl(\ulcorner \varphi \urcorner\bigr)$$
 
-Ved å velge $\psi(x) \equiv \neg\operatorname{Bew}_{\mathcal{F}}(x)$ konstrueres den kanoniske Gödel-setningen $G_{\mathcal{F}}$:
+Ved å velge $\psi(x) \equiv \neg\mathrm{Bew}_{\mathcal{F}}(x)$ konstrueres den kanoniske Gödel-setningen $G_{\mathcal{F}}$:
 
-$$\mathcal{F} \vdash G_{\mathcal{F}} \leftrightarrow \neg\operatorname{Bew}_{\mathcal{F}}\bigl(\ulcorner G_{\mathcal{F}} \urcorner\bigr)$$
+$$\mathcal{F} \vdash G_{\mathcal{F}} \leftrightarrow \neg\mathrm{Bew}_{\mathcal{F}}\bigl(\ulcorner G_{\mathcal{F}} \urcorner\bigr)$$
 
-* **Gödels første ufullstendighetsteorem:** Dersom $\mathcal{F}$ er konsistent, er $G_{\mathcal{F}}$ ikke bevisbar i $\mathcal{F}$ ($\mathcal{F} \not\vdash G_{\mathcal{F}}$), og under $\omega$-konsistens (eller Rosser-modifikasjonen) er heller ikke negasjonen bevisbar ($\mathcal{F} \not\vdash \neg G_{\mathcal{F}}$). Likevel er $G_{\mathcal{F}}$ **sann i standardmodellen $\mathbb{N}$**, nettopp fordi det ikke finnes noe bevis for den i $\mathcal{F}$. Dermed sprekker likhetstegnet mellom syntaktisk bevisbarhet ($\operatorname{Bew}_{\mathcal{F}}$) og semantisk sannhet ($\models_{\mathbb{N}}$).
-* **Gödels andre ufullstendighetsteorem:** Definer konsistenssetningen $\operatorname{Con}(\mathcal{F}) \equiv \neg\operatorname{Bew}_{\mathcal{F}}(\ulcorner 0 = 1 \urcorner)$. Fordi hele beviset for første ufullstendighetsteorem selv kan formaliseres inne i $\mathcal{F}$ ved hjelp av Hilberts–Bernays–Löbs derivabilitetsbetingelser, beviser $\mathcal{F}$ implikasjonen $\operatorname{Con}(\mathcal{F}) \to G_{\mathcal{F}}$. Ved modus ponens følger det direkte:
+* **Gödels første ufullstendighetsteorem:** Dersom $\mathcal{F}$ er konsistent, er $G_{\mathcal{F}}$ ikke bevisbar i $\mathcal{F}$ ($\mathcal{F} \not\vdash G_{\mathcal{F}}$), og under $\omega$-konsistens (eller Rosser-modifikasjonen) er heller ikke negasjonen bevisbar ($\mathcal{F} \not\vdash \neg G_{\mathcal{F}}$). Likevel er $G_{\mathcal{F}}$ **sann i standardmodellen $\mathbb{N}$**, nettopp fordi det ikke finnes noe bevis for den i $\mathcal{F}$. Dermed sprekker likhetstegnet mellom syntaktisk bevisbarhet ($\mathrm{Bew}_{\mathcal{F}}$) og semantisk sannhet ($\models_{\mathbb{N}}$).
+* **Gödels andre ufullstendighetsteorem:** Definer konsistenssetningen $\mathrm{Con}(\mathcal{F}) \equiv \neg\mathrm{Bew}_{\mathcal{F}}(\ulcorner 0 = 1 \urcorner)$. Fordi hele beviset for første ufullstendighetsteorem selv kan formaliseres inne i $\mathcal{F}$ ved hjelp av Hilberts–Bernays–Löbs derivabilitetsbetingelser, beviser $\mathcal{F}$ implikasjonen $\mathrm{Con}(\mathcal{F}) \to G_{\mathcal{F}}$. Ved modus ponens følger det direkte:
 
-$$\operatorname{Con}(\mathcal{F}) \implies \mathcal{F} \not\vdash \operatorname{Con}(\mathcal{F})$$
+$$\mathrm{Con}(\mathcal{F}) \implies \mathcal{F} \not\vdash \mathrm{Con}(\mathcal{F})$$
 
-**Den ingeniørmessige konsekvensen:** Et konsistent system $\mathcal{F}$ kan **aldri** bevise sin egen konsistens ved hjelp av egne midler. Dersom en KI-modell eller en styringsalgoritme $\mathcal{F}$ produserer et internt «bevis» eller et «sertifikat» som garanterer $\operatorname{Con}(\mathcal{F})$, har systemet etter Gödels andre teorem nettopp bevist at det selv er **inkonsistent** ($\neg\operatorname{Con}(\mathcal{F})$), og at det derfor kan bevise hva som helst (*ex falso quodlibet*). Derfor må vitnet $W_{\text{ext}}$ med matematisk nødvendighet ligge **utenfor** det genererende systemet:
+**Den ingeniørmessige konsekvensen:** Et konsistent system $\mathcal{F}$ kan **aldri** bevise sin egen konsistens ved hjelp av egne midler. Dersom en KI-modell eller en styringsalgoritme $\mathcal{F}$ produserer et internt «bevis» eller et «sertifikat» som garanterer $\mathrm{Con}(\mathcal{F})$, har systemet etter Gödels andre teorem nettopp bevist at det selv er **inkonsistent** ($\neg\mathrm{Con}(\mathcal{F})$), og at det derfor kan bevise hva som helst (*ex falso quodlibet*). Derfor må vitnet $W_{\text{ext}}$ med matematisk nødvendighet ligge **utenfor** det genererende systemet:
 
 $$W_{\text{ext}} \notin \mathcal{F}_{\text{gen}}$$
 

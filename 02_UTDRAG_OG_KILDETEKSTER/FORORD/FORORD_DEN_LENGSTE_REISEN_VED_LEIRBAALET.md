@@ -138,9 +138,9 @@ Når verket nå står ferdig samlet, trer arkitekturen frem med urokkelig klarhe
 $$\boxed{\text{Bind I: Hvor går grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind II: Hvordan håndheves grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind III: Hva beskytter grensen?}}$$
 
 * **Bind I (*Kuttflaten*):** Etablerer demarkasjonen. Hovedfeilen i vår sivilisasjon er kollaps av distinksjoner: kandidat blir forvekslet med konsekvens, output med warrant, en flyktig logg med et uforfalskbart *Witness*, og virtuell softwarestatus med fysisk virkelighet. Frontloven slår fast at autorisasjon, fysisk energibærer og pre-commit-historie må være uløselig bundet før noen grense kan krysses.
-* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \operatorname{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
+* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \mathrm{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
 * **Bind III (*Realiseringsgrammatikk*):** Tar samme frontlov og spør hva den betyr mellom levende, autonome poler. Her reiser formelen seg:
-  $$L = \operatorname{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
+  $$L = \mathrm{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
   med læresetningen *«nærhet under bevart frihet»*. Bildet av reléets to poler viser to ledere som nærmer seg hverandre, men som aldri må kortsluttes eller smelte sammen.
 
 #### Oppgjøret med notasjonskollapset: De fire universelle makrorollene

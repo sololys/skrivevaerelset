@@ -1,4 +1,4 @@
-# Hills Ligning (1886): Hvordan Poincaré og Hill Komprimerte Uendelig Tid til Én Enkelt Port-Sjekk ($\lvert\operatorname{Tr}(\mathbf{M})\rvert < 2$)
+# Hills Ligning (1886): Hvordan Poincaré og Hill Komprimerte Uendelig Tid til Én Enkelt Port-Sjekk ($\lvert\mathrm{Tr}(\mathbf{M})\rvert < 2$)
 
 **Klassifisering:** Matematisk-fysisk nøkkelanalyse / Floquet-teori, Poincaré-snitt og Båndgap-projeksjon i $\mathcal{P}$  
 **Forankring:** George William Hill (1886), Henri Poincaré (*Les Méthodes Nouvelles de la Mécanique Céleste*, 1892), Bind XII (*Poincaré*) og Dokument 29  
@@ -48,17 +48,17 @@ $$\det(\mathbf{M}) = y_1(\pi)\dot{y}_2(\pi) - \dot{y}_1(\pi)y_2(\pi) = 1$$
 
 Faseromsvolumet er uforanderlig. Dermed bestemmes begge egenverdiene $\lambda_1, \lambda_2$ til matrisen $\mathbf{M}$ av **ett eneste tall** – sporet av matrisen (**Hills diskriminant** $\Delta$):
 
-$$\Delta := \operatorname{Tr}(\mathbf{M}) = y_1(\pi) + \dot{y}_2(\pi), \qquad \lambda^2 - \Delta\,\lambda + 1 = 0$$
+$$\Delta := \mathrm{Tr}(\mathbf{M}) = y_1(\pi) + \dot{y}_2(\pi), \qquad \lambda^2 - \Delta\,\lambda + 1 = 0$$
 
 ---
 
 ## 3. Ett enkelt tall ($\Delta$) isolerer `OPEN`, `HOLD` og `KILL` i $\mathcal{P}$
 
-Se hva som nettopp skjedde: Hele den uendelige Fourier-rekken ($\theta_0, \theta_1, \theta_2, \dots$) og hele den uendelige fremtiden ($t \to \infty$) er **isolert i én skalar port-variabel $\Delta = \operatorname{Tr}(\mathbf{M})$** som beregnes over ett eneste intervall $[0, \pi]$!
+Se hva som nettopp skjedde: Hele den uendelige Fourier-rekken ($\theta_0, \theta_1, \theta_2, \dots$) og hele den uendelige fremtiden ($t \to \infty$) er **isolert i én skalar port-variabel $\Delta = \mathrm{Tr}(\mathbf{M})$** som beregnes over ett eneste intervall $[0, \pi]$!
 
 Denne variabelen $\Delta$ deler hele parameterrommet i våre tre kanoniske port-tilstander:
 
-| Hills Diskriminant $\Delta = \operatorname{Tr}(\mathbf{M})$ | Egenverdier $\lambda_{1,2}$ | Fysisk Betydning (Bane & Krystall) | Port-Dom ($\Omega$) |
+| Hills Diskriminant $\Delta = \mathrm{Tr}(\mathbf{M})$ | Egenverdier $\lambda_{1,2}$ | Fysisk Betydning (Bane & Krystall) | Port-Dom ($\Omega$) |
 | :--- | :--- | :--- | :--- |
 | **$\lvert\Delta\rvert < 2$** | $\lambda = e^{\pm i\mu\pi}$ ($\lvert\lambda\rvert = 1$, på enhetssirkelen) | **Stabil bane / Tillatt energibånd (Bloch-bølge):** Banen holder seg begrenset i all fremtid uten å lekke energi. | **`OPEN`** ($\odot$) |
 | **$\lvert\Delta\rvert = 2$** | $\lambda = \pm 1$ (degenerert kanttilstand) | **Kuttflaten (Band-edge / Mathieu-tungetupp):** Akkurat på terskelen mellom stabilitet og resonans. | **`HOLD`** ($\square$) |
@@ -68,10 +68,10 @@ Denne variabelen $\Delta$ deler hele parameterrommet i våre tre kanoniske port-
 
 ## 4. Hvorfor den samme ligningen styrer både planeter, feller og silisium
 
-Når man isolerer stabilitet via Hills ligning og sporet $\Delta = \operatorname{Tr}(\mathbf{M})$, oppdager man at tre tilsynelatende helt ulike grener av fysikken er **identiske i $\mathcal{P}$**:
+Når man isolerer stabilitet via Hills ligning og sporet $\Delta = \mathrm{Tr}(\mathbf{M})$, oppdager man at tre tilsynelatende helt ulike grener av fysikken er **identiske i $\mathcal{P}$**:
 
 1. **Gravitasjon og Kirkwood-gapene i asteroidebeltet (Hill & Poincaré):**  
-   Når en asteroide går i bane rundt solen i et periodisk gravitasjonsfelt fra Jupiter ($f(t + \pi) = f(t)$), virker Hills ligning som en **gravitasjonsmeisel**: For bestemte baneradier (som 3:1- og 2:1-resonansene med Jupiter) blir $\lvert\operatorname{Tr}(\mathbf{M})\rvert > 2$ (`KILL`). Alle asteroider i disse sonene blir nådeløst kostet ut av banen. Det som står igjen, er de tillatte banene der $\lvert\operatorname{Tr}(\mathbf{M})\rvert < 2$. **Solsystmet er bokstavelig talt uthugget av Hills diskriminant.**
+   Når en asteroide går i bane rundt solen i et periodisk gravitasjonsfelt fra Jupiter ($f(t + \pi) = f(t)$), virker Hills ligning som en **gravitasjonsmeisel**: For bestemte baneradier (som 3:1- og 2:1-resonansene med Jupiter) blir $\lvert\mathrm{Tr}(\mathbf{M})\rvert > 2$ (`KILL`). Alle asteroider i disse sonene blir nådeløst kostet ut av banen. Det som står igjen, er de tillatte banene der $\lvert\mathrm{Tr}(\mathbf{M})\rvert < 2$. **Solsystmet er bokstavelig talt uthugget av Hills diskriminant.**
 2. **Paul-fellen (Quadrupole Ion Trap — Mathieu-ligningen $n=0,1$):**  
    I kvantedatamaskiner og massespektrometre fanger man enkeltioner ved å sette på et høyfrekvent oscillerende elektrisk felt $\theta_0 + 2\theta_1\cos(2t)$ (Mathieu-ligningen). Ved å justere spenningene $(\theta_0, \theta_1)$ kan du **isolere én bestemt masse/ladning ($m/q$)**: kun ionet som havner inne i det smale området der $\lvert\Delta(m/q)\rvert < 2$ blir værende i fellen (`OPEN`), mens alle tyngre og lettere partikler får $\lvert\Delta\rvert > 2$ og kastes ut i veggen (`KILL`).
 3. **Halvledere og silisium (Kronig–Penney / Meissner-ligningen):**  

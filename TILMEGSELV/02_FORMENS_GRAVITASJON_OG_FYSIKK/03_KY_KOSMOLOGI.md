@@ -40,7 +40,7 @@ Før en fysisk hendelse kan finne sted, eksisterer **Arenaen ($X$)** som det ufi
 
 Før en kandidat fra $D_0$ kan utløse en hendelse, tvinges den inn i det kontrafaktiske prøverommet – systemets indre luftsluse. I tråd med doktrinen om radikal eskalering evalueres en kandidat aldri isolert, men tvinges til å svare for hele systemets tilstandsrom ($x \hookrightarrow s$). Prøverommet stiller ett avgjørende spørsmål: dersom denne tilstanden prøves mot grensene, kan systemet vende tilbake til nullpunktet uten uadressert rest? Denne symmetrien måles gjennom den involutive speiloperatoren ($\mathrm{ROX}$), som utsetter kandidaten for både fremtidsbanen ($F_+$) og den motgående returbanen ($F_-$):
 
-$$\operatorname{ROX}_m(\operatorname{ROX}_m(x)) = x \iff \text{ROX\_OK}$$
+$$\mathrm{ROX}_m(\mathrm{ROX}_m(x)) = x \iff \text{ROX\_OK}$$
 
 Dersom en strukturell asymmetri oppstår og et ulovlig residual lekker ut i luftslusen før konsekvensporten, feller skranken en umiddelbar **$\mathrm{KILL}$-dom**.
 
@@ -58,7 +58,7 @@ Systemet besitter indre potensiell og rotasjonsmessig energi og opprettholder si
 
 I det øyeblikket $\mathbf{\Omega}$-porten åpnes, oppstår en irreversibel fysisk konsekvens. Mens dynamikken inne i det kontrafaktiske prøverommet $D_1$ er tids-symmetrisk ($\mathcal{T}^2 = -I$), skaper selve innvilgelsen i $\mathbf{\Omega}$ den operasjonelle tidspilen. Overgangen fra reversibel hypotese til irreversibel handling krever at systemet betaler sin termodynamiske pris i form av Landauer-varme ($Q \ge k_B T \ln 2$) og mekanisk arbeid mot ytre last. Kun den strukturen som tåler varmetapet fra sin egen tilblivelse uten å miste likevekten, slipper gjennom porten:
 
-$$\boxed{\Delta_K \le \tau \implies \operatorname{OPEN}(\mathbf{\Omega})}$$
+$$\boxed{\Delta_K \le \tau \implies \mathrm{OPEN}(\mathbf{\Omega})}$$
 
 ---
 

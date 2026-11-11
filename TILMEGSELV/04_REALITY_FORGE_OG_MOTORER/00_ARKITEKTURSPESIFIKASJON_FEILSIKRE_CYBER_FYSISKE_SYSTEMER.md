@@ -23,7 +23,7 @@ Denne spesifikasjonen fastsetter de operasjonelle maskinvare- og programvarekrav
 
 Overgangsoperatoren $\Omega : C \times \Sigma \rightharpoonup \Sigma$ er strengt partiell over kandidat- og tilstandsrommet $C \times \Sigma$, og er utelukkende definert for konfigurasjoner som har bestått projeksjonsporten $\Pi_K$ med gyldig forhåndsvitne $W_{\text{pre}}^2 = W_m \land W_h$:
 
-$$\operatorname{dom}(\Omega) = \left\{ (c, \sigma) \in C \times \Sigma \;\middle|\; \Pi_K(c, \sigma) = \text{ALLOW} \right\}$$
+$$\mathrm{dom}(\Omega) = \left\{ (c, \sigma) \in C \times \Sigma \;\middle|\; \Pi_K(c, \sigma) = \text{ALLOW} \right\}$$
 
 Uten gyldig autorisasjon eksisterer ingen elektrisk eller mekanisk overgangsoperator til den fysiske verden ($0{,}00\text{ V DC}$ hviletilstand), og maskinvaren besitter null autonom juridisk eller moralsk myndighet ($\text{Authority}_{\text{machine}} = \text{NONE}$).
 
@@ -40,7 +40,7 @@ I sanntidsregulering håndheves separasjonsaksiomene $S_1\text{--}S_4$, invarian
 | **Faseromskutt ($\Delta_K^{(3)}$)** | $m^\mu \partial_\mu \Psi^\nu = 0 \iff \left\Vert \frac{\omega}{c}m_0 - \mathbf{k} \cdot \mathbf{m}\right\Vert = 0$ | Kinematisk avvik skjærer bort kandidatbanen. |
 | **Massekriterium ($M^2$)** | $M^2 = \Vert \mathbf{m}\Vert^2 - m_0^2$ | $M^2 > 0 \implies \text{OPEN}$ ($5{,}00\text{ V DC}$); $M^2 = 0 \implies \text{HOLD}$ ($0{,}00\text{ V DC}$); $M^2 < 0 \implies \text{KILL}$ ($0{,}00\text{ V DC}$). |
 | **Involusjonslås ($\text{Rev}^1$)** | $R(s) = s \oplus F(F(s)) \equiv 0 \quad (s \in D_0 \cup D_1)$ | Verifiserer tapsfri returvei i faseminnet før fysisk låsing. |
-| **Domeneskranke ($\text{Rev}^2$)** | $\operatorname{Dom}(F) \cap D_2 = \emptyset$ | Forbyr «rollback» i materien. Påstanden «Commit kan reverseres» utløser `ANTI_REVERSIBLE_VIOLATION` og momentant kutt til $0{,}00\text{ V DC}$. |
+| **Domeneskranke ($\text{Rev}^2$)** | $\mathrm{Dom}(F) \cap D_2 = \emptyset$ | Forbyr «rollback» i materien. Påstanden «Commit kan reverseres» utløser `ANTI_REVERSIBLE_VIOLATION` og momentant kutt til $0{,}00\text{ V DC}$. |
 
 ---
 
@@ -74,7 +74,7 @@ $$\eta_{\text{defense}} = \frac{10\,000\text{ J}}{8{,}0 \times 10^{-6}\text{ J}}
 
 Mellom fysisk diskforsegling via POSIX `fsync()` ($\approx 5{,}0\text{ ms}$) og $80\text{ kHz}$ Frisch-klokken ($12{,}5\,\mu\text{s}$) oppstår et gap på $\frac{5{,}0\text{ ms}}{12{,}5\,\mu\text{s}} = 400$ klokkesykluser (jf. **Kap. 3.8.2**). Rekkefølgen mellom vitne ($\odot$) og fysisk port ($1$) bifurkerer etter dommens art:
 
-* **`OPEN` ($\odot \prec 1$):** Vitne før handling. Kontrakten $\operatorname{Durable}(I_n) \prec \operatorname{Execute}_n \prec \operatorname{Durable}(R_n) \prec \operatorname{ACK}_n$ krever fullført `fsync()` ($5{,}0\text{ ms}$) før spenningen heves til $5{,}00\text{ V DC}$.
+* **`OPEN` ($\odot \prec 1$):** Vitne før handling. Kontrakten $\mathrm{Durable}(I_n) \prec \mathrm{Execute}_n \prec \mathrm{Durable}(R_n) \prec \mathrm{ACK}_n$ krever fullført `fsync()` ($5{,}0\text{ ms}$) før spenningen heves til $5{,}00\text{ V DC}$.
 * **`HOLD` ($1 \prec \odot$):** Høyimpedans-stasis ved $0{,}00\text{ V DC}$ i Brahman-punktet, etterfulgt av diagnostisk bevitnelse.
 * **`KILL` ($1 \prec \odot$):** Handling før vitne. Silisium-crowbaren dumper drivspenningen på $4{,}0\text{ ns}$ ($12{,}5\,\mu\text{s}$ i FPGA-registeret), mens `fsync()` skriver obduksjonsrapporten parallelt i bakgrunnen.
 
@@ -113,7 +113,7 @@ tty.c_oflag &= ~OPOST;
 
 Skillet mellom den **OS-frie `#![no_std]` Rust/C-kjernen** og **Linux POSIX WAL-tjeneren** løser tidsøkonomien i **Dør 19** over de 400 klokkesyklusene:
 
-1. **Mikrosekund-planet (`#![no_std]` Rust & Bare-Metal C / FPGA):** Her skjer zero-copy serialisering i statisk SRAM på **$0{,}2509\,\mu\text{s}$** direkte langs den kritiske paritetslinjen $\operatorname{Re}(s) = 1/2$ ($w_H(s) = 500$ i $\mathbb{Z}_2^{1000}$, $\Delta S = 0$). Den 72-byte store `ETOR_RawPacket` (`static_assert(sizeof(ETOR_RawPacket) == 72)` i `04_REALITY_FORGE/include/etor_raw_packet.h`) bruker ingen heap (`malloc` er fysisk fraværende, så Linux sin *OOM-killer* kan aldri gripe inn), verifiserer 64-bits involutiv paritet ($\mathcal{R}(\mathcal{R}(X)) = X$ via `(~x) ^ 0xA5A55A5AA5A55A5AULL`) og låser Mössbauer-resonansen ved $\delta_{\text{res}} = 0{,}32\text{ mm/s} \pm 0{,}005\text{ mm/s}$ ($84{,}0\text{ kHz}$ piezo-bærebølge).
+1. **Mikrosekund-planet (`#![no_std]` Rust & Bare-Metal C / FPGA):** Her skjer zero-copy serialisering i statisk SRAM på **$0{,}2509\,\mu\text{s}$** direkte langs den kritiske paritetslinjen $\mathrm{Re}(s) = 1/2$ ($w_H(s) = 500$ i $\mathbb{Z}_2^{1000}$, $\Delta S = 0$). Den 72-byte store `ETOR_RawPacket` (`static_assert(sizeof(ETOR_RawPacket) == 72)` i `04_REALITY_FORGE/include/etor_raw_packet.h`) bruker ingen heap (`malloc` er fysisk fraværende, så Linux sin *OOM-killer* kan aldri gripe inn), verifiserer 64-bits involutiv paritet ($\mathcal{R}(\mathcal{R}(X)) = X$ via `(~x) ^ 0xA5A55A5AA5A55A5AULL`) og låser Mössbauer-resonansen ved $\delta_{\text{res}} = 0{,}32\text{ mm/s} \pm 0{,}005\text{ mm/s}$ ($84{,}0\text{ kHz}$ piezo-bærebølge).
 2. **Makroskopisk epoke-plan (Linux POSIX WAL):** Først når vitnekapselen skal forsegles varig over 400-klokkesyklusers gapet ($\frac{5{,}0\text{ ms}}{12{,}5\,\mu\text{s}} = 400$), kalles Linux inn som ren lagringstjener via `O_APPEND | O_DSYNC`, `fsync()` ($5{,}0\text{ ms}$) og `mprotect(..., PROT_READ)`. Ved `OPEN` ($\odot \prec 1$) venter aktuatorporten på fullført `fsync()`; ved `KILL` ($1 \prec \odot$) kutter silisium- og FPGA-slusen spenningen på nanosekundskalaen mens Linux skriver obduksjonsloggen i etterkant.
 
 #### 3. `uid = 0` vs. `Level 01`: Dødsfalls-Destruktøren (`~AGYHabitatHardwareBridge()`)
@@ -177,7 +177,7 @@ Under utførelsen (Fase B, $\Delta t_{\text{act}} \le 38{,}4\text{ ms}$) krever 
 
 1. **Infranett (`v0.4` Kjerneprotokoll / `v0.5` Suveren Utvidelse):** Lokal handlekraft $A_{\text{infranett}}(t) = g(\mathcal{L}_{\text{lokal}}(t))$ er fullstendig frikoblet fra ekstern fiberinfrastruktur:
    $$\frac{\partial A_{\text{infranett}}}{\partial C_{\text{fiber}}} \equiv 0$$
-   Systemet forener krasjkonsistent WAL-forsegling ($\operatorname{fsync}(\texttt{COMMIT}) \prec \texttt{RAM-Mutation} \prec \texttt{Network-ACK}$, `v0.4`) med konjunktiv fysisk nærhetsbevitnelse ($W_{\text{range}} \land W_{\text{optical}} \land W_{\text{mag}}$, `v0.5`), utledet i sin helhet i **Kapittel 4.7** og **4.9**.
+   Systemet forener krasjkonsistent WAL-forsegling ($\mathrm{fsync}(\texttt{COMMIT}) \prec \texttt{RAM-Mutation} \prec \texttt{Network-ACK}$, `v0.4`) med konjunktiv fysisk nærhetsbevitnelse ($W_{\text{range}} \land W_{\text{optical}} \land W_{\text{mag}}$, `v0.5`), utledet i sin helhet i **Kapittel 4.7** og **4.9**.
 2. **OrgelKraft-Kaskaden (`SPEC-PODS-PENTAD-RB-12`, $\Delta R = 0$):** Over et referansedøgn føres massebalansen mellom `K-POD` ($0{,}998\text{ V DC}$, $2\,200\text{ W}$, $9{,}996048\text{ kg NH}_3/\text{døgn}$ eksakt rasjonalt i lukket kaskade; $10{,}0\text{ kg/døgn}$ nominell frittstående `v1.2`-modul, mens `v2.0` utgjør det kjernefysisk koblede radiolysetrinnet i Pipe 2), `C8`-enheten ($1{,}050\text{ V DC}$, $6{,}534718\text{ kg H}_2\text{O}$ frigjort), `P-POD` ($22{,}0\text{ kg/døgn}$ struvitt i $S_{\text{struvitt}} \in [1{,}80, 3{,}20]$) og `POD-Mycelin` ($50\,000\text{ mW} \pm 500\text{ mW}$) med eksakt brøkregning (`fractions.Fraction`), utledet i **Kapittel 4.8** og **Kjerneprøve V (Kap. 5.6)**:
    $$\text{Masse}_{\text{inn}} = \text{Masse}_{\text{ut}} = 141{,}10099788325846\text{ kg} \implies \Delta R = 0$$
 

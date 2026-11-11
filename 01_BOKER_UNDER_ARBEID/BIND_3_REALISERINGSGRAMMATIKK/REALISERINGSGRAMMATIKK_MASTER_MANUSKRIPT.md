@@ -155,9 +155,9 @@ Når verket nå står ferdig samlet, trer arkitekturen frem med urokkelig klarhe
 $$\boxed{\text{Bind I: Hvor går grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind II: Hvordan håndheves grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind III: Hva beskytter grensen?}}$$
 
 * **Bind I (*Kuttflaten*):** Etablerer demarkasjonen. Hovedfeilen i vår sivilisasjon er kollaps av distinksjoner: kandidat blir forvekslet med konsekvens, output med warrant, en flyktig logg med et uforfalskbart *Witness*, og virtuell softwarestatus med fysisk virkelighet. Frontloven slår fast at autorisasjon, fysisk energibærer og pre-commit-historie må være uløselig bundet før noen grense kan krysses.
-* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \operatorname{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
+* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \mathrm{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
 * **Bind III (*Realiseringsgrammatikk*):** Tar samme frontlov og spør hva den betyr mellom levende, autonome poler. Her reiser formelen seg:
-  $$L = \operatorname{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
+  $$L = \mathrm{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
   med læresetningen *«nærhet under bevart frihet»*. Bildet av reléets to poler viser to ledere som nærmer seg hverandre, men som aldri må kortsluttes eller smelte sammen.
 
 #### Oppgjøret med notasjonskollapset: De fire universelle makrorollene
@@ -939,7 +939,7 @@ Den finnes allerede i Quantum Grammar II som en sterk komprimering.
 I gravitasjonssporet blir KY mer spekulativt, men også interessant. Her må tonen være tydelig: dette er en realiseringsmodell og en mulig forskningsretning, ikke etablert gravitasjonsteori.
 Kjernen er:
 Ikke alle matematiske løsninger bør forstås som fysisk realiserte baner. Fysisk sektor kan forstås som de løsningene som forblir admissible under dynamikk.
-Γphys=Viab(A)\Gamma_{\mathrm{phys}}=\operatorname{Viab}(A)Γphys=Viab(A)
+Γphys=Viab(A)\Gamma_{\mathrm{phys}}=\mathrm{Viab}(A)Γphys=Viab(A)
 Dette er veldig nyttig pedagogisk.
 I klassisk GR finnes feltligninger og løsninger. KY-sporet spør: hvilke løsninger overlever som admissibel fysisk realisering under stabilitet, restriksjoner, randbetingelser, spektral kontroll og historisk/irreversibel kostnad?
 I “Geometri som Konsekvens av Seleksjon” formuleres et tydelig forslag: fysisk evolusjon er ikke rå dynamikk, men projisert dynamikk gjennom en idempotent admissibility-operator PKP_KPK, og avvist dynamikk måles som ΔK[ψ]=(I−PK)ΔPKψ\Delta_K[\psi]=(I-P_K)\Delta P_K\psiΔK[ψ]=(I−PK)ΔPKψ.
@@ -1533,7 +1533,7 @@ En dårlig relasjon kan være stabil.
  Et avhengighetsmønster kan være stabilt.
  En AI-feedback-loop kan være stabil.
 Stabilitet er ikke nok.
-Dette knytter rett inn i den tidligere KY-linjen: A≠Viab(A)A \neq \operatorname{Viab}(A)A=Viab(A), og viability er ikke automatisk rettferdighet. KY trenger porten, ikke bare likevekten.
+Dette knytter rett inn i den tidligere KY-linjen: A≠Viab(A)A \neq \mathrm{Viab}(A)A=Viab(A), og viability er ikke automatisk rettferdighet. KY trenger porten, ikke bare likevekten.
 Dansens tillegg: samtykke som rytmisk admissibility
 Dans gir oss også et språk for samtykke uten å gjøre det juridisk først.
 Samtykke er ikke bare et ja i starten. Det er kontinuerlig adgang.
@@ -1919,7 +1919,7 @@ Eller:
 Å tape kampen kan være å nekte Ghost Win.
  Å vinne krigen er å bevare feltet der ekte OPEN fortsatt kan finnes.
 Et lokalt vinnende trekk er ikke nødvendigvis en realisert seier. En seier må være levedyktig gjennom tid.
-Den harde ryggen ligger i viability-formuleringen fra Generated Dynamics-materialet: realisering er ikke bare at noe kan genereres eller skrives som løsning; det må kunne forbli admissibelt under videre utvikling. Den realiserte sektoren defineres som Γphys=ViabΦ(AK)\Gamma_{\mathrm{phys}}=\operatorname{Viab}_{\Phi}(A_K)Γphys=ViabΦ(AK), altså tilstander som forblir innen admissible struktur for alle fremtidige tider.
+Den harde ryggen ligger i viability-formuleringen fra Generated Dynamics-materialet: realisering er ikke bare at noe kan genereres eller skrives som løsning; det må kunne forbli admissibelt under videre utvikling. Den realiserte sektoren defineres som Γphys=ViabΦ(AK)\Gamma_{\mathrm{phys}}=\mathrm{Viab}_{\Phi}(A_K)Γphys=ViabΦ(AK), altså tilstander som forblir innen admissible struktur for alle fremtidige tider.
 Overført til spill:
 Seierreal≠lokal payoff\text{Seier}_{\mathrm{real}} \neq \text{lokal payoff}Seierreal=lokal payoff Seierreal=payoff som bevarer spillbarhet over tid\text{Seier}_{\mathrm{real}} = \text{payoff som bevarer spillbarhet over tid}Seierreal=payoff som bevarer spillbarhet over tid
 Det betyr:
@@ -1930,7 +1930,7 @@ Det betyr:
 
 >  **DET INVOLUTTE TREET — PLANSJE III.3**  
 > ![Moreau-kollisjonen i strategisk rom](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/multiplayer_ky_nash_moreau_collision_chart.png)  
-> *«Moreau-kollisjonen i strategisk rom (KY-Nash). Å nekte 'Ghost Wins': Trekk som bryter admissibility eller ødelegger feltets overlevelse, elimineres før realisering. Å vinne krigen er å bevare det felles viabilitetsrommet $\Gamma_{\mathrm{phys}} = \operatorname{Viab}_{\Phi}(A_K)$.»*
+> *«Moreau-kollisjonen i strategisk rom (KY-Nash). Å nekte 'Ghost Wins': Trekk som bryter admissibility eller ødelegger feltets overlevelse, elimineres før realisering. Å vinne krigen er å bevare det felles viabilitetsrommet $\Gamma_{\mathrm{phys}} = \mathrm{Viab}_{\Phi}(A_K)$.»*
 
 ---
 
@@ -4703,9 +4703,9 @@ Enhver gyldig instans av $\mathcal R$ må tilfredsstille følgende tre invariant
 For å forhindre at komponentene matematisk foldes sammen til én enkelt ugjennomsiktig operator ($\Omega'$), måles minimaliteten på **kausale roller**. Systemet må tilfredsstille fire ufravikelige separasjonsaksiomer:
 
 $$\begin{aligned}
-S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\operatorname{Codom}(\Phi) \cap D = \emptyset) \\
+S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\mathrm{Codom}(\Phi) \cap D = \emptyset) \\
 S_2 &: \quad \Pi_K \text{ kan autorisere, men ikke realisere } (\Pi_K \text{ forårsaker ingen tilstandsendring i } \Sigma) \\
-S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\operatorname{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
+S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\mathrm{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 

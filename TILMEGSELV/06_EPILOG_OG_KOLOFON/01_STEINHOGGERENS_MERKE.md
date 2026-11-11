@@ -147,7 +147,7 @@ Av samme grunn lar **Kjerneprøve III (Kapittel 5.4)** den forkastede Leidenfros
 
 ### 4. Kontrastvæskens prinsipp: En kelner med kaffebrett, Gödels tidsmaskin, Mössbauers stålis og $0{,}00\text{ V DC}$
 
-**Ligningen:** Gödels CTC-radius $r_{\text{CTC}} = \operatorname{arsinh}(1) = \ln(1 + \sqrt{2}) \approx 0{,}88137$ (**Bind X**), $\text{SU}(2)$ spinn-$1/2$ $4\pi$-holonomi $U(2\pi)\psi = -\psi, U(4\pi)\psi = +\psi$ (**Bind XIII**) og Lamb–Mössbauer-faktoren $f_{\text{LM}} = \exp(-\langle x^2 \rangle k_\gamma^2)$ (**Bind VIII**).
+**Ligningen:** Gödels CTC-radius $r_{\text{CTC}} = \mathrm{arsinh}(1) = \ln(1 + \sqrt{2}) \approx 0{,}88137$ (**Bind X**), $\text{SU}(2)$ spinn-$1/2$ $4\pi$-holonomi $U(2\pi)\psi = -\psi, U(4\pi)\psi = +\psi$ (**Bind XIII**) og Lamb–Mössbauer-faktoren $f_{\text{LM}} = \exp(-\langle x^2 \rangle k_\gamma^2)$ (**Bind VIII**).
 
 I 1949 fylte Albert Einstein sytti år, og vennen Kurt Gödel i Princeton ga ham en uvanlig bursdagsgave: en eksakt løsning av Einsteins egne feltligninger for et roterende støvunivers der et romskip som flyr i sirkel utover radius $\ln(1+\sqrt{2})$, opplever at vinkelmetrikken $g_{\phi\phi}$ skifter fortegn — slik at piloten kan lande i sin egen fortid og håndhilse på seg selv på rullebanen! Einstein ble dypt urolig, fordi ligningen hans hadde godtatt et fysisk absurd univers (*kandidat er ikke konsekvens*).
 

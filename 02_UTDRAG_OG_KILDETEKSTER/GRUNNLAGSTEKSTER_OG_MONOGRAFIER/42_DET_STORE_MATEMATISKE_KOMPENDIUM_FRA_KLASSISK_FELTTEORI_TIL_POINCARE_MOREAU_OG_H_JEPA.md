@@ -29,7 +29,7 @@ $$\boxed{x_{t+1} = \Omega\!\Big(\Pi_{\mathcal{A}}\big(\Phi(x_t)\big)\Big) \ltime
 der:
 * $\Phi : \mathcal{Y} \to \mathcal{Y}_{\text{cand}}$ er den uforpliktede kandidatgeneratoren (f.eks. en fri PDE-utrulling eller imaginær verdensmodell-horisont).
 * $\Pi_{\mathcal{A}} : \mathcal{Y}_{\text{cand}} \to \mathcal{A} \subset \mathcal{Y}$ er den **proksimale Moreau-projeksjonen** ned på det konvekse/admissible settet $\mathcal{A}$:
-  $$\Pi_{\mathcal{A}}(z) = \operatorname*{arg\,min}_{y \in \mathcal{A}} \frac{1}{2}\|y - z\|_{\mathcal{Y}}^2, \qquad \Pi_{\mathcal{A}}^2 = \Pi_{\mathcal{A}}$$
+  $$\Pi_{\mathcal{A}}(z) = \mathop{\mathrm{arg\,min}}_{y \in \mathcal{A}} \frac{1}{2}\|y - z\|_{\mathcal{Y}}^2, \qquad \Pi_{\mathcal{A}}^2 = \Pi_{\mathcal{A}}$$
 * $\Omega$ er den diskrete tilstandsoppdatereren under slusebetingelsen `HOLD` / `OPEN` / `KILL`.
 * $W_{\text{log}} \in \mathcal{H}$ er det append-only vitne- og revisjonsfiberet.
 
@@ -37,7 +37,7 @@ der:
 Totalrommet er splittet i et fysisk realiseringsrom $\mathcal{Y}$ og et historisk vitnefiber $\mathcal{H}$:
 $$\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}, \qquad s_t = (y_t, W_t)$$
 med overgangsoperator:
-$$y_{t+1} = F_{\mathcal{Y}}(y_t, u_t), \qquad W_{t+1} = \operatorname{SHA256}\big(W_t \,\|\, \operatorname{canon}(y_t, u_t, y_{t+1})\big)$$
+$$y_{t+1} = F_{\mathcal{Y}}(y_t, u_t), \qquad W_{t+1} = \mathrm{SHA256}\big(W_t \,\|\, \mathrm{canon}(y_t, u_t, y_{t+1})\big)$$
 under den **absolutte ikke-tilbakevirkningsbetingelsen**:
 $$\boxed{\frac{\partial y_{t+1}}{\partial W_t} \equiv 0}$$
 Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dynamisk kraft** tilbake på det fysiske rommet.
@@ -48,7 +48,7 @@ Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dyna
 
 | # | Klassisk Ligning | Kanonisk Matematisk Form | Rolle i Reality Forge (`L1`) & Korpuset |
 | :--- | :--- | :--- | :--- |
-| **1** | **Hills differensialligning** (1886) | $$\frac{d^2 y}{dt^2} + \left(\theta_0 + 2\sum_{n=1}^\infty \theta_n \cos(2nt) + \sum_{m=1}^\infty \phi_m \sin(2mt)\right)y = 0$$ | Parametrisk resonans og Floquet-stabilitet: en ustabil sadel ($\theta_0 < 0$) stabiliseres når $|\operatorname{Tr}(M(\pi))| < 2$. |
+| **1** | **Hills differensialligning** (1886) | $$\frac{d^2 y}{dt^2} + \left(\theta_0 + 2\sum_{n=1}^\infty \theta_n \cos(2nt) + \sum_{m=1}^\infty \phi_m \sin(2mt)\right)y = 0$$ | Parametrisk resonans og Floquet-stabilitet: en ustabil sadel ($\theta_0 < 0$) stabiliseres når $|\mathrm{Tr}(M(\pi))| < 2$. |
 | **2** | **Mathieu- & Meissner-ligningen** | $$\frac{d^2 y}{dt^2} + \big(a - 2q\cos(2t)\big)y = 0$$ | Kapitza-pendelens effektive potensial: høyfrekvent mikro-risting skaper en stabil kløft i $P$ uten å endre tyngdekraften. |
 | **3** | **Gauss' lov (Euklidsk & Krum Romtid)** | $$\Phi_E = \oiint_S \mathbf{E}\cdot d\mathbf{A} = \frac{Q}{\varepsilon_0}, \qquad \Phi_E = c\oiint_S F^{\kappa 0}\sqrt{-g}\,dS_\kappa$$ | Rand-vitnet (Stokes/Gauss): du trenger ikke inspisere det indre volumet $V$ hvis du måler fluksen gjennom randflaten $S = \partial V$. |
 | **4** | **Ampère–Maxwells sirkulasjonslov** | $$\nabla \times \mathbf{B} = \mu_0\left(\mathbf{J} + \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t}\right)$$ | Grunnlaget for utvidelsen med det kirale rotasjonsleddet $\vec{J}_{\text{chiral}} = \frac{1}{\hbar}(\vec{m}\times\vec{E})$ i Bind XIV. |
@@ -73,7 +73,7 @@ Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dyna
    For $r > r_{\text{crit}} = \ln(1 + \sqrt{2}) \approx 0,88137$ ($\sinh(r) > 1$) blir $g_{\phi\phi} < 0$, og romlige sirkler blir lukkede tidslignende kurver (CTC).
 2. **Projeksjons-Skranket Generell Relativitet (PC-GR):**
    Kausalitetsporten $P_{\mathcal{K}}^{(\epsilon)}(x) = \frac{1}{2}\big[1 + \tanh(d(x)/2\epsilon)\big]$ ($\epsilon \ge 2l_P$) i virkningsintegralet induserer spenningstensoren:
-   $$\boxed{G_{\mu\nu} + \Lambda g_{\mu\nu} + \Sigma_{\mu\nu}^{\text{irr}} = \frac{8\pi G}{c^4}T_{\mu\nu}, \qquad \Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_{\text{adm}}}{16\pi\epsilon}\operatorname{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)\nabla_\mu d\,\nabla_\nu d}$$
+   $$\boxed{G_{\mu\nu} + \Lambda g_{\mu\nu} + \Sigma_{\mu\nu}^{\text{irr}} = \frac{8\pi G}{c^4}T_{\mu\nu}, \qquad \Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_{\text{adm}}}{16\pi\epsilon}\mathrm{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)\nabla_\mu d\,\nabla_\nu d}$$
 
 ### 3.2 BIND XI: Reversibilitet² & Involusjon (`v3.0-MONOLITT`)
 1. **Streng involusjon vs. kausal idempotens:**
@@ -94,7 +94,7 @@ Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dyna
 
 ### 3.4 BIND XIII: Kurt Gödel & Det Ytre Vitnet (`v3.0-MONOLITT`)
 1. **Oppløsning av selvreferanse-paradokset via eksternalisert vitne:**
-   Et system $\mathcal{Y}$ kan ikke bevise sin egen konsistens innenfra ($\mathcal{Y} \not\vdash \operatorname{Cons}(\mathcal{Y})$). Ved å løfte verifikasjonen til det skjeve produktet $\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$ der $\mathcal{H}$ kun har lese-tilgang til $\mathcal{Y}$ og $\partial y_{t+1}/\partial W_t \equiv 0$, unngås Gödel-løkken.
+   Et system $\mathcal{Y}$ kan ikke bevise sin egen konsistens innenfra ($\mathcal{Y} \not\vdash \mathrm{Cons}(\mathcal{Y})$). Ved å løfte verifikasjonen til det skjeve produktet $\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$ der $\mathcal{H}$ kun har lese-tilgang til $\mathcal{Y}$ og $\partial y_{t+1}/\partial W_t \equiv 0$, unngås Gödel-løkken.
 2. **Morandi-kuttet og odde-dimensjonalt fantomminne i $\text{GF}(2^8)$ (Dok 76):**
    Ved Aharonov–Bohm-rotasjon $\theta_{\text{AB}} = \pi/2$ av 16 feilsyndromer i $\text{GF}(2^8)$ slukkes alle jevne dimensjoner ($d_0, d_2, d_4, d_6 \propto \cos(\pi/2) \to 0$, $< 10^{-8}$), mens odde dimensjoner ($d_3, d_7 \propto \sin(\pi/2) \to 1$) bevarer en målbar tverrgående rest-signatur på $7,97 \times 10^{-3}$.
 
@@ -112,7 +112,7 @@ Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dyna
 
 | Pilar | Teoretisk Likning (`L2` — Utledet i Korpuset) | Eksperimentell Signatur & `L3`-Status |
 | :--- | :--- | :--- |
-| **1. PC-GR & $\operatorname{sech}^4$-Tensoren** | $$\Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_{\text{adm}}}{16\pi\epsilon}\operatorname{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)\nabla_\mu d\,\nabla_\nu d$$ | Frastøtende metrisk bremsepute på kausalitetsranden $d(x)=0$ ($\epsilon \ge 2l_P$). Status: **`L3_EMPIRICAL_HOLD`**. |
+| **1. PC-GR & $\mathrm{sech}^4$-Tensoren** | $$\Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_{\text{adm}}}{16\pi\epsilon}\mathrm{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)\nabla_\mu d\,\nabla_\nu d$$ | Frastøtende metrisk bremsepute på kausalitetsranden $d(x)=0$ ($\epsilon \ge 2l_P$). Status: **`L3_EMPIRICAL_HOLD`**. |
 | **2. PCSE Kvantefase-Hysterese** | $$p_{\text{PCSE}}(\Phi_{\text{AB}}) = \frac{1}{2}\left[1 + e^{-\Gamma_{\text{adm}}(\Phi_{\text{AB}})}\cos\big(\Phi_{\text{AB}} - \delta_{\text{geo}}(\Phi_{\text{AB}})\big)\right]$$ | Asymmetrisk fasesplittelse **$\Delta p = |p_\uparrow(\pi/2) - p_\downarrow(\pi/2)| = 0,126$** ($12,6\,\%$) mot $\Delta p_{\text{std}} = 0$. Status: **`L3_EMPIRICAL_HOLD`**. |
 | **3. Taktikerens Teorem & $\vec{E}\cdot\vec{B}$-Arbeid** | $$\vec{E}\cdot\left(\frac{1}{\hbar}\vec{m}\times\vec{E}\right) \equiv 0, \qquad \nabla\cdot\vec{S} + \partial_t u_{\text{em}} = \frac{m_0 c}{\mu_0\hbar}(\vec{E}\cdot\vec{B})$$ | Tverrgående strøm uten $I^2 R$-oppvarming + effektutveksling proporsjonal med $\vec{E}\cdot\vec{B}$. Status: **`L3_EMPIRICAL_HOLD`**. |
 | **4. Fasederivert Weyl-Kjerne** | $$D_{\text{adm}}(\Psi_2) = |\nabla_\mu \arg(\Psi_2)|^2 + \kappa_{\text{shear}}|\sigma_{\text{NP}}|^2$$ | Gir **$6,8\times$ tidligere varsling** av horisont-ustabilitet enn Kretschmann-skalaren $K = R_{\alpha\beta\gamma\delta}R^{\alpha\beta\gamma\delta}$. Status: **`L2` / `L1`**. |
@@ -126,14 +126,14 @@ Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dyna
 
 ### 5.1 Sfærisk Persepsjon ($\text{LN}_0$) og Eksakt Kovarians-Arv
 1. **Affin-fri sfærisk normalisering i $\mathbb{R}^D$ ($D=192$):**
-   $$h_t = \text{LN}_0(\text{MLP}(\text{ViT}(x_t))), \qquad \text{LN}_0(z) = \sqrt{D}\,\frac{z - \operatorname{mean}(z)\mathbf{1}}{\|z - \operatorname{mean}(z)\mathbf{1}\|_2} \implies \|h_t\|_2 = \sqrt{D}, \quad e^\top h_t = 0$$
+   $$h_t = \text{LN}_0(\text{MLP}(\text{ViT}(x_t))), \qquad \text{LN}_0(z) = \sqrt{D}\,\frac{z - \mathrm{mean}(z)\mathbf{1}}{\|z - \mathrm{mean}(z)\mathbf{1}\|_2} \implies \|h_t\|_2 = \sqrt{D}, \quad e^\top h_t = 0$$
    der $e = \frac{1}{\sqrt{D}}\mathbf{1}$.
 2. **Fiksert ortonormalt kontrollsnitt $U \in \mathbb{R}^{D \times r}$ ($U^\top U = I_r$, aldri trent):**
    $$s_t = U^\top h_t \in \mathbb{R}^r, \qquad v_t = s_t - s_{t-1}, \qquad c_t = [s_t, v_t] \in \mathbb{R}^{2r}$$
-3. **Arvet kovariansspektrum ved priorens optimum $\operatorname{Cov}(h) = P = I_D - ee^\top$:**
-   $$\boxed{\operatorname{Cov}(s) = U^\top(I_D - ee^\top)U = I_r - ww^\top, \qquad w = U^\top e}$$
+3. **Arvet kovariansspektrum ved priorens optimum $\mathrm{Cov}(h) = P = I_D - ee^\top$:**
+   $$\boxed{\mathrm{Cov}(s) = U^\top(I_D - ee^\top)U = I_r - ww^\top, \qquad w = U^\top e}$$
    med $(r-1)$ egenverdier lik $1$ og én eksepsjonell egenverdi:
-   $$\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2, \qquad \|U^\top e\|_2^2 \sim \operatorname{Beta}\!\left(\frac{r}{2}, \frac{D-r}{2}\right), \qquad \mathbb{E}\big[\lambda_{\text{exc}}\big] = 1 - \frac{r}{D}$$
+   $$\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2, \qquad \|U^\top e\|_2^2 \sim \mathrm{Beta}\!\left(\frac{r}{2}, \frac{D-r}{2}\right), \qquad \mathbb{E}\big[\lambda_{\text{exc}}\big] = 1 - \frac{r}{D}$$
    (Ved full rang $r = D$ er $\|U^\top e\|_2^2 = 1 \implies \lambda_{\text{exc}} = 0$, én eksakt nullretning).
 
 ### 5.2 Bures–Wasserstein Isotropi-Prior og Konstant Anti-Kollaps-Kraft ved $\sigma \to 0$

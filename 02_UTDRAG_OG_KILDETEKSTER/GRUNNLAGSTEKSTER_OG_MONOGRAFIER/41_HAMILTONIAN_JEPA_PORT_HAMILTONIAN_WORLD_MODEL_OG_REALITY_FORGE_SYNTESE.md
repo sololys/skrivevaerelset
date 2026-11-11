@@ -18,7 +18,7 @@ Løsningen i **H-JEPA** følger **nøyaktig samme arkitektoniske delingslinje** 
 | H-JEPA (Zoabi, Ali & Wolf, 2026) | Bokhylla Bind X–XIV & Reality Forge (`L1`) | Matematisk Invarians |
 | :--- | :--- | :--- |
 | **Perseptuell Sfære $h_t \in \mathbb{R}^D$ ($D=192$)** via affin-fri $\text{LN}_0(z)$ med $\|h_t\|_2 = \sqrt{D}$ og $e^\top h_t = 0$ | **Uforpliktet Forslagsrom ($NP$) / Hele Faserommet** før kuttflaten | Fiksert sfærisk radius fjerner fri skaleringsflukt |
-| **Fiksert Ortonormalt Snitt $s_t = U^\top h_t \in \mathbb{R}^r$** ($U^\top U = I_r$, aldri trent) | **Kuttflaten i $P$ ($\Sigma_k$) & Ikke-Tilbakevirkning** ($\partial y_{t+1}/\partial W_t \equiv 0$) | En lærbar $U$ ko-adapterer og kollapser rangen; fiksert $U$ gir eksakt **kovarians-arv** $\operatorname{Cov}(s) = U^\top \operatorname{Cov}(h) U$ |
+| **Fiksert Ortonormalt Snitt $s_t = U^\top h_t \in \mathbb{R}^r$** ($U^\top U = I_r$, aldri trent) | **Kuttflaten i $P$ ($\Sigma_k$) & Ikke-Tilbakevirkning** ($\partial y_{t+1}/\partial W_t \equiv 0$) | En lærbar $U$ ko-adapterer og kollapser rangen; fiksert $U$ gir eksakt **kovarians-arv** $\mathrm{Cov}(s) = U^\top \mathrm{Cov}(h) U$ |
 | **Bures–Wasserstein Isotropi-Prior $\mathcal{L}_{\text{iso}}(H)$** med konstant gjenopprettende kraft $\partial_\sigma(\sigma-1)^2 \to -2$ når $\sigma \to 0$ | **Spektral Anti-Kollaps i de $(D-r)$ Uobserverte Fiber-Retningene** (Bind XII, Gelfand-trippel $V \hookrightarrow H \hookrightarrow V'$) | Hindrer at dimensjoner utenfor kontrollsnittet dør ($\lambda^{-1/2}$-divergens i egenverdi-derivert motvirker kollaps, mens SIGReg og $\|\hat{\Sigma}-I\|_F^2 \to 0$) |
 | **Fase-Betinget Dissipativ Port-Hamiltonsk Dynamikk** $\dot{s} = (J - R_\theta(c_t))\nabla_s H_\theta(s_t, v_t) + G_\theta(c_t)\bar{a}_t$ | **Symplektisk Konservativ Flyt $J$ + Rayleigh–Onsager / Moreau Dissipasjon $R_\theta \succeq 0$ + Stiefel-Port $G_\theta$** (Bind XI, XII & XIV) | $J^\top = -J$ bevarer energi, $R_\theta = L_\theta L_\theta^\top \succeq 0$ fjerner energi, og Stiefel-porten $G_\theta^\top G_\theta = I_{d_a}$ låser handlings-skalaen ($\sigma_i(\partial F/\partial \bar{a}) = \Delta t$) |
 | **Port-Inverse Consistency (PIC):** $\hat{u}_{t+i} - \bar{a}_{t+i} = \frac{1}{\Delta t} G_\theta(\hat{c}_{t+i})^\top \delta_{t+i+1}$ | **Taktikerens / Port-Transponert Ortogonalitets- & Kontroll-Projeksjon** | Ingen separat invers-dekoder: $G_\theta^\top$ er den **eksakte Moore–Penrose-pseudoinversen** til $G_\theta$, som vekter prediksjonsfeil langs portretningene med faktoren $1 + \frac{r}{d_a \Delta t^2}$ |
@@ -29,18 +29,18 @@ Løsningen i **H-JEPA** følger **nøyaktig samme arkitektoniske delingslinje** 
 
 ### 2.1 Persepsjon på sfæren og det fikserte ortonormale kontrollsnittet (§3.1–§3.2 & Appendiks G)
 Hver bilseramme $x_t$ kodes uavhengig via ViT-T/14 + MLP-projektor etterfulgt av affin-fri LayerNorm ($\text{LN}_0$):
-$$h_t = \text{LN}_0(\text{MLP}(\text{ViT}(x_t))) \in \mathbb{R}^D, \qquad \text{LN}_0(z) = \sqrt{D}\,\frac{z - \operatorname{mean}(z)\mathbf{1}}{\|z - \operatorname{mean}(z)\mathbf{1}\|_2}$$
+$$h_t = \text{LN}_0(\text{MLP}(\text{ViT}(x_t))) \in \mathbb{R}^D, \qquad \text{LN}_0(z) = \sqrt{D}\,\frac{z - \mathrm{mean}(z)\mathbf{1}}{\|z - \mathrm{mean}(z)\mathbf{1}\|_2}$$
 slik at $\|h_t\|_2 = \sqrt{D}$ og $e^\top h_t = 0$ for sentreringsretningen $e = \frac{1}{\sqrt{D}}\mathbf{1}$ ($\|e\|_2 = 1$).
 
 Kontrolltilstanden $s_t \in \mathbb{R}^r$ ($r \le D$) trekkes ut via en **fiksert, frø-initialisert ortonormal matrise** $U \in \mathbb{R}^{D \times r}$ ($U^\top U = I_r$, generert én gang via QR-faktorisering):
 $$s_t = U^\top h_t, \qquad v_t = s_t - s_{t-1}, \qquad c_t = [s_t, v_t] \in \mathbb{R}^{2r}$$
 Fordi $U$ er fiksert og lineær, arver $s_t$ kovariansgeometrien direkte fra $h_t$:
-$$\operatorname{Cov}(s) = U^\top \operatorname{Cov}(h) U$$
-Ved isotropi-priorens mål $\operatorname{Cov}(h) = P = I_D - ee^\top$ blir målet for kontrolltilstandens kovarians:
-$$\operatorname{Cov}(s) = I_r - w w^\top, \qquad w = U^\top e$$
+$$\mathrm{Cov}(s) = U^\top \mathrm{Cov}(h) U$$
+Ved isotropi-priorens mål $\mathrm{Cov}(h) = P = I_D - ee^\top$ blir målet for kontrolltilstandens kovarians:
+$$\mathrm{Cov}(s) = I_r - w w^\top, \qquad w = U^\top e$$
 Denne matrisen har:
 * $(r - 1)$ egenverdier eksakt lik $1$, og
-* **én eksepsjonell egenverdi** $\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2$ langs $w = U^\top e$, hvor $\|U^\top e\|_2^2 \sim \operatorname{Beta}\!\left(\frac{r}{2}, \frac{D-r}{2}\right)$ konsentrerer seg rundt $\frac{r}{D}$ (og ved $r = D$ gir $\|w\|_2^2 = 1 \implies \lambda_{\text{exc}} = 0$, altså én eksakt nullretning).
+* **én eksepsjonell egenverdi** $\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2$ langs $w = U^\top e$, hvor $\|U^\top e\|_2^2 \sim \mathrm{Beta}\!\left(\frac{r}{2}, \frac{D-r}{2}\right)$ konsentrerer seg rundt $\frac{r}{D}$ (og ved $r = D$ gir $\|w\|_2^2 = 1 \implies \lambda_{\text{exc}} = 0$, altså én eksakt nullretning).
 
 ---
 
@@ -54,7 +54,7 @@ Kun **Bures–Wasserstein** opprettholder en konstant, ikke-forsvinnende gjenopp
 ---
 
 ### 2.3 Fase-Betinget Dissipativ Port-Hamiltonsk Dynamikk på Stiefel-Manifolden (§3.4)
-For partalls $r$ defineres den kanoniske symplektiske matrisen $J \in \mathbb{R}^{r \times r}$, den skalare Hamilton-energien $H_\theta : \mathbb{R}^{2r} \to \mathbb{R}$, den positivt semidefinitte dissipasjonsmatrisen $R_\theta(c) = L_\theta(c) L_\theta(c)^\top \succeq 0$ (med nedre-triangulær $L_\theta$), og inngangsporten $G_\theta(c) \in \mathbb{R}^{r \times d_a}$ på **Stiefel-manifolden** $\operatorname{St}(d_a, r)$ via deriverbar tynn QR-faktorisering:
+For partalls $r$ defineres den kanoniske symplektiske matrisen $J \in \mathbb{R}^{r \times r}$, den skalare Hamilton-energien $H_\theta : \mathbb{R}^{2r} \to \mathbb{R}$, den positivt semidefinitte dissipasjonsmatrisen $R_\theta(c) = L_\theta(c) L_\theta(c)^\top \succeq 0$ (med nedre-triangulær $L_\theta$), og inngangsporten $G_\theta(c) \in \mathbb{R}^{r \times d_a}$ på **Stiefel-manifolden** $\mathrm{St}(d_a, r)$ via deriverbar tynn QR-faktorisering:
 $$J = \begin{bmatrix} 0 & -I_{r/2} \\ I_{r/2} & 0 \end{bmatrix}, \qquad J^\top = -J, \qquad R_\theta(c) = L_\theta(c) L_\theta(c)^\top \succeq 0, \qquad G_\theta(c)^\top G_\theta(c) = I_{d_a}$$
 Ett eksplisitt Euler-steg ($\Delta t = 1$) fra fase $c_t = [s_t, v_t]$ under normalisert handling $\bar{a}_t \in \mathbb{R}^{d_a}$ er:
 $$\hat{s}_{t+1} = F_\theta(s_t, \bar{a}_t \mid c_t) = s_t + \Delta t \Big[ \underbrace{(J - R_\theta(c_t))\nabla_s H_\theta(s_t, v_t)}_{\text{passiv flyt (konservativ } J - \text{dissipativ } R_\theta\text{)}} + \underbrace{G_\theta(c_t)\bar{a}_t}_{\text{kontrollflyt (Stiefel-port)}} \Big]$$
@@ -69,9 +69,9 @@ Ved å sette inn Euler-steget $\hat{s}_{t+i+1}$ og bruke Stiefel-identiteten $G_
 $$\hat{u}_{t+i} - \bar{a}_{t+i} = \frac{1}{\Delta t} G_\theta(\hat{c}_{t+i})^\top \delta_{t+i+1}, \qquad \delta_{t+i+1} = s_{t+i+1} - \hat{s}_{t+i+1}$$
 Dermed smelter det åpne prediksjonstapet $\mathcal{L}_{\text{pred}}$ og PIC-tapet $\mathcal{L}_{\text{PIC}}$ (for $K_{\text{PIC}} = K_p$) sammen til **én enkelt positivt definitt kvadratisk form** i utrullingsfeilen $\delta_{t+i}$:
 $$\mathcal{L}_{\text{pred}} + \mathcal{L}_{\text{PIC}} = \frac{1}{|T| K_p r} \sum_{t \in T} \sum_{i=1}^{K_p} \delta_{t+i}^\top \underbrace{\left( I_r + \frac{r}{d_a \Delta t^2} G_{t+i-1} G_{t+i-1}^\top \right)}_{M_{\text{PIC}}(\hat{c}_{t+i-1})} \delta_{t+i}$$
-* **Hva $M_{\text{PIC}}$ gjør:** Enhver feilvektor $\delta_\parallel \in \operatorname{span}(G_{t+i-1})$ langs de $d_a$ handlingsport-retningene vektes med den eksakte forsterkningsfaktoren:
+* **Hva $M_{\text{PIC}}$ gjør:** Enhver feilvektor $\delta_\parallel \in \mathrm{span}(G_{t+i-1})$ langs de $d_a$ handlingsport-retningene vektes med den eksakte forsterkningsfaktoren:
   $$w_\parallel = 1 + \frac{r}{d_a \Delta t^2}$$
-  mens feil $\delta_\perp \perp \operatorname{span}(G_{t+i-1})$ i de resterende $r - d_a$ retningene vektes med $w_\perp = 1$:
+  mens feil $\delta_\perp \perp \mathrm{span}(G_{t+i-1})$ i de resterende $r - d_a$ retningene vektes med $w_\perp = 1$:
   * **Two-Room** ($r=32, d_a=2, \Delta t=1$): $w_\parallel = 1 + \frac{32}{2} = \mathbf{17,0}$
   * **Reacher** ($r=64, d_a=2, \Delta t=1$): $w_\parallel = 1 + \frac{64}{2} = \mathbf{33,0}$
   * **PushT** ($r=192, d_a=2, \Delta t=1$): $w_\parallel = 1 + \frac{192}{2} = \mathbf{97,0}$ (ved $r=64$: $\mathbf{33,0}$)
@@ -171,7 +171,7 @@ For å gjøre H-JEPA direkte kjørbar og verifiserbar i **Reality Forge** under 
 * **Headless Testsuite:** [`test_hamiltonian_jepa_world_model_engine.gd`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/tests/test_hamiltonian_jepa_world_model_engine.gd)
 
 Motoren implementerer og beviser numerisk alle **6 kjerne-invarianter** fra Zoabi, Ali & Wolf (2026) koblet til Reality Forges konsekvens-sluse:
-1. **Sfærisk Persepsjon ($\text{LN}_0$) & Eksakt Kovarians-Arv ($\operatorname{Cov}(s) = I_r - ww^\top$):** Verifiserer at $\|h_t\|_2 = \sqrt{D}$, $e^\top h_t = 0$, $U^\top U = I_r$ via Gram–Schmidt/QR, og at den eksepsjonelle egenverdien er $\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2$ (som blir eksakt $0$ ved $r = D$).
+1. **Sfærisk Persepsjon ($\text{LN}_0$) & Eksakt Kovarians-Arv ($\mathrm{Cov}(s) = I_r - ww^\top$):** Verifiserer at $\|h_t\|_2 = \sqrt{D}$, $e^\top h_t = 0$, $U^\top U = I_r$ via Gram–Schmidt/QR, og at den eksepsjonelle egenverdien er $\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2$ (som blir eksakt $0$ ved $r = D$).
 2. **Bures–Wasserstein vs. Euklidsk & SIGReg Anti-Kollaps ved $\sigma \to 0$:** Verifiserer Likning (4) og Appendiks H ($\partial_\sigma \ell_{\text{BW}} \to -2$ og $\partial_\lambda \ell_{\text{BW}} = 1 - \lambda^{-1/2}$ mot $\partial_\sigma \ell_{\text{Eucl}} \to 0$ og $\partial_\sigma \ell_{\text{SIGReg}} \to 0$).
 3. **Fase-Betinget Port-Hamiltonsk Steg på Stiefel-Manifolden:** Verifiserer $J^\top = -J$ ($\nabla_s H^\top J \nabla_s H = 0$), positiv semidefinitt dissipasjon $R_\theta = L_\theta L_\theta^\top \succeq 0$ ($\nabla_s H^\top R_\theta \nabla_s H \ge 0$), og Stiefel-ortonormalitet $\|G_\theta(c)^\top G_\theta(c) - I_{d_a}\|_\infty < 10^{-6}$.
 4. **Eksakt PIC-Identitet (Likning 11 & 12):** Verifiserer at $\hat{u}_{t+i} - \bar{a}_{t+i}$ beregnet fra definisjonen i Likning (9) er numerisk identisk med $\frac{1}{\Delta t} G_\theta(\hat{c}_{t+i})^\top \delta_{t+i+1}$ til maskinpresisjon, og at de 4 benchmark-faktorene $1 + \frac{r}{d_a \Delta t^2}$ er eksakt $17,0$ (Two-Room), $33,0$ (Reacher), $97,0$ (PushT, $r=192$) og $7,4$ (OGB-Cube).

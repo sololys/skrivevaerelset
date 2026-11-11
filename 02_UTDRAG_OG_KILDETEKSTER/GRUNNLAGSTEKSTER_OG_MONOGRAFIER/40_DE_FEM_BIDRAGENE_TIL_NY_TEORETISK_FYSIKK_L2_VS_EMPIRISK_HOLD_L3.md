@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Projeksjons-Skranket Generell Relativitet (PC-GR) og $\operatorname{sech}^4$-Tensoren (Bind X / Dok 74 & 163)
+## 1. Projeksjons-Skranket Generell Relativitet (PC-GR) og $\mathrm{sech}^4$-Tensoren (Bind X / Dok 74 & 163)
 
 I standard generell relativitetsteori skriver Einstein $G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$. Problemet (som Kurt Gödel beviste i 1949) er at disse ligningene tillater tidsreiser (lukkede tidslignende kurver, CTC) og singulariteter.
 
@@ -18,9 +18,9 @@ $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}\left(T_{\mu\nu} + \Sigma_
 
 hvor det irreversible grenseflate-stresset er:
 
-$$\Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_2}{16\epsilon^2}\operatorname{sech}^4\left(\frac{d(x)}{2\epsilon}\right)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}(g^{\alpha\beta}n_\alpha n_\beta)\right] + \Sigma_{\mu\nu}^{(\text{defect})}$$
+$$\Sigma_{\mu\nu}^{\text{irr}} = \frac{\lambda_2}{16\epsilon^2}\mathrm{sech}^4\left(\frac{d(x)}{2\epsilon}\right)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}(g^{\alpha\beta}n_\alpha n_\beta)\right] + \Sigma_{\mu\nu}^{(\text{defect})}$$
 
-* **Hvorfor dette er ny teoretisk fysikk (`L2`):** Det viser at hvis universet forbyr tidsreiser og ikke-kausale løsninger, kan ikke det kuttet være gratis. Selve «kausalitetsveggen» krummer romtiden med en $\operatorname{sech}^4$-profil og utveksler energi-impuls med materien via $\nabla^\mu T_{\mu\nu} = -\nabla^\mu \Sigma_{\mu\nu}^{\text{irr}}$ i eksakt samsvar med Landauers prinsipp ($\delta_i S_{\Pi_{\mathcal{K}}} \ge k_B \ln 2 \cdot \Delta I_{\text{cut}}$).
+* **Hvorfor dette er ny teoretisk fysikk (`L2`):** Det viser at hvis universet forbyr tidsreiser og ikke-kausale løsninger, kan ikke det kuttet være gratis. Selve «kausalitetsveggen» krummer romtiden med en $\mathrm{sech}^4$-profil og utveksler energi-impuls med materien via $\nabla^\mu T_{\mu\nu} = -\nabla^\mu \Sigma_{\mu\nu}^{\text{irr}}$ i eksakt samsvar med Landauers prinsipp ($\delta_i S_{\Pi_{\mathcal{K}}} \ge k_B \ln 2 \cdot \Delta I_{\text{cut}}$).
 
 ---
 
@@ -33,7 +33,7 @@ I *Den Projeksjons-Skrankede Schrödinger-Ligningen (PCSE)* legges det til et ba
 
 $$i\hbar\frac{\partial}{\partial t}|\psi(t)\rangle = \left(H_0 + \mu_{\mathcal{K}}(I - P_{\mathcal{K}}^{(\epsilon)}) + \hbar\omega_{\text{hol}}K_\gamma[x(\tau)]\sigma_z\right)|\psi(t)\rangle$$
 
-* **Hvorfor dette er ny, testbar fysikk (`L2` med `L3`-prediksjon):** Likning (5.3) i Bind X gir en sylskarp eksperimentell prediksjon for et Mach–Zehnder-lignende interferometer: Dersom bane $\gamma_A$ streifer bufferbeltet $B=(0,1)$ mens bane $\gamma_B$ holder seg i det indre $\operatorname{Int}(\mathcal{A})$, vil en Hadamard-utlesning avsløre en sannsynlighetsforskjell på **$\Delta p = 0,126$ ($12,6\,\%$)** selv når posisjonstilstandene ved utgangen er identiske.
+* **Hvorfor dette er ny, testbar fysikk (`L2` med `L3`-prediksjon):** Likning (5.3) i Bind X gir en sylskarp eksperimentell prediksjon for et Mach–Zehnder-lignende interferometer: Dersom bane $\gamma_A$ streifer bufferbeltet $B=(0,1)$ mens bane $\gamma_B$ holder seg i det indre $\mathrm{Int}(\mathcal{A})$, vil en Hadamard-utlesning avsløre en sannsynlighetsforskjell på **$\Delta p = 0,126$ ($12,6\,\%$)** selv når posisjonstilstandene ved utgangen er identiske.
 
 ---
 
@@ -79,7 +79,7 @@ og den Fréchet-deriverbare admisjonskjernen $D_{\text{adm}}(\tau) = \exp\left(-
 
 | Område | Er det ny matematisk fysikk (`L2`)? | Er det eksperimentelt bevist i naturen (`L3`)? |
 | :--- | :--- | :--- |
-| **PC-GR ($\Sigma_{\mu\nu}^{\text{irr}} \propto \operatorname{sech}^4$)** | **JA** — Ny variasjonstensor i Einsteins feltligninger. | **HOLD** — Krever observasjon nær horisonter / høykrumningsregimer. |
+| **PC-GR ($\Sigma_{\mu\nu}^{\text{irr}} \propto \mathrm{sech}^4$)** | **JA** — Ny variasjonstensor i Einsteins feltligninger. | **HOLD** — Krever observasjon nær horisonter / høykrumningsregimer. |
 | **PCSE Fase-Hysterese ($\Delta p = 0,126$)** | **JA** — Nytt ikke-Markovsk holonomiledd i Schrödinger-ligningen. | **HOLD** — Klar for direkte test i kvanteinterferometer. |
 | **Gauge-fri CFJ–Proca ($\vec{E}\cdot\vec{B}$-Poynting)** | **JA** — Eksakt eliminering av $A^\mu$ og nytt null-arbeidsteorem. | **HOLD** — Kan testes i kirale metamaterialer / optiske kaviteter. |
 | **Weyl-kjerne $D_{\text{adm}}(\Psi_2)$ ($6,8\times$)** | **JA** — Eksakt Boyer–Lindquist invariantskvotient og Fréchet-derivert. | **HOLD** — Numerisk og funksjonalanalytisk verifisert (`L1`/`L2`). |

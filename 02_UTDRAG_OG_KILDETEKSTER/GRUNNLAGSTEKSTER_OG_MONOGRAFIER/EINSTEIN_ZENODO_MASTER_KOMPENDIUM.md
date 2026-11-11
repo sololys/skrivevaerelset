@@ -93,7 +93,7 @@ $$I_{\mathcal{A}}(y) = \begin{cases} 0, & y \in \mathcal{A} \\ +\infty, & y \not
 
 For en fri kandidattilstand $\tilde{y} = \Phi(y_t)$ krever prinsippet om minste seleksjonsarbeid at den realiserte tilstanden $y_{t+1} \in \mathcal{A}$ minimerer det metriske avviksarbeidet pluss barrierepotensialet:
 
-$$y_{t+1} = \operatorname*{arg\,min}_{y \in \mathcal{Y}}\left\{ \frac{1}{2}\big\lVert y - \Phi(y_t) \big\rVert_{\mathcal{Y}}^2 + I_{\mathcal{A}}(y) \right\}$$
+$$y_{t+1} = \mathop{\mathrm{arg\,min}}_{y \in \mathcal{Y}}\left\{ \frac{1}{2}\big\lVert y - \Phi(y_t) \big\rVert_{\mathcal{Y}}^2 + I_{\mathcal{A}}(y) \right\}$$
 
 Førsteordens stasjonærbetingelse for dette variasjonsproblemet er inklusjonen:
 

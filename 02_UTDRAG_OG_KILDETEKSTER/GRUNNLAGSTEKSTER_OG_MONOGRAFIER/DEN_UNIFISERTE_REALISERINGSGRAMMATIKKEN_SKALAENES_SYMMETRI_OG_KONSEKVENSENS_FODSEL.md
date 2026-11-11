@@ -81,6 +81,6 @@ opphører all reversibilitet. Bølgefunksjonen viker for termodynamikkens nådel
 2. **Det galvaniske reléet** smeller i:
    $$\mathbf{5{,}00\text{ V DC}}$$
 3. **Vitnekjeden** forsegles permanent i en append-only hash-kjede:
-   $$W_{t+1} = \operatorname{SHA-256}(W_t \parallel \text{Payload}_{t+1})$$
+   $$W_{t+1} = \mathrm{SHA-256}(W_t \parallel \text{Payload}_{t+1})$$
 
 Den friksjonsløse rotasjonen er fortært, tidens pil har slått rot, og intensjonen har materialisert seg som bevitnet virkelighet.

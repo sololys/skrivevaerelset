@@ -150,9 +150,9 @@ Når verket nå står ferdig samlet, trer arkitekturen frem med urokkelig klarhe
 $$\boxed{\text{Bind I: Hvor går grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind II: Hvordan håndheves grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind III: Hva beskytter grensen?}}$$
 
 * **Bind I (*Kuttflaten*):** Etablerer demarkasjonen. Hovedfeilen i vår sivilisasjon er kollaps av distinksjoner: kandidat blir forvekslet med konsekvens, output med warrant, en flyktig logg med et uforfalskbart *Witness*, og virtuell softwarestatus med fysisk virkelighet. Frontloven slår fast at autorisasjon, fysisk energibærer og pre-commit-historie må være uløselig bundet før noen grense kan krysses.
-* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \operatorname{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
+* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \mathrm{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
 * **Bind III (*Realiseringsgrammatikk*):** Tar samme frontlov og spør hva den betyr mellom levende, autonome poler. Her reiser formelen seg:
-  $$L = \operatorname{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
+  $$L = \mathrm{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
   med læresetningen *«nærhet under bevart frihet»*. Bildet av reléets to poler viser to ledere som nærmer seg hverandre, men som aldri må kortsluttes eller smelte sammen.
 
 #### Oppgjøret med notasjonskollapset: De fire universelle makrorollene
@@ -339,7 +339,7 @@ When the geocybernetic intervention is complete, when the theoretical steering b
 In the tripartite architecture of the master compendium:
 - **Bind I (*Kuttflaten*):** Explores the human vulnerability, the cognitive gateway, and the societal terror of frictionless digital acceleration.
 - **Bind II (*Litisk Kybernetikk / Codex Geocybernetica*):** Acts as the **unyielding granite gravity well**. It refuses narrative comfort. Through its 44 modules, it establishes that control without mineral foundation is hallucination. *The Geocybernetic Operation* stands as its definitive English philosophical gateway.
-- **Bind III (*Realiseringsgrammatikk*):** Expands the realization grammar into mutual viability, shared relational space ($L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$), and the philosophical symposium between zero and one.
+- **Bind III (*Realiseringsgrammatikk*):** Expands the realization grammar into mutual viability, shared relational space ($L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$), and the philosophical symposium between zero and one.
 
 > *«The lithosphere does not obey the optimism of the steering committee. It obeys only the admissibility of the cut.»*
 
@@ -1789,7 +1789,7 @@ Ingen optimalisering, ingen preferanse, ingen “beste” bane. Bare umuliggjør
 2. Fix-formen og viability-formen må typesepareres
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 er sterk for stasjonære/selvkonsistente realiseringer.
@@ -2380,7 +2380,7 @@ $$
 Reality:
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 Elimination operator:
@@ -5512,19 +5512,19 @@ Mer presist kreves at de separerte kompakte bildene (E_\pm=g(K_\pm)) er egnet fo
 Fikspunkter:
 $$
 \boxed{
-\operatorname{Fix}(M)={x\in X:M(x)=x}
+\mathrm{Fix}(M)={x\in X:M(x)=x}
 }
 $$
 Alle ikke-null fikspunkter er viable:
 $$
 \boxed{
-\operatorname{Fix}(M)\subseteq\Gamma_M
+\mathrm{Fix}(M)\subseteq\Gamma_M
 }
 $$
 Men generelt:
 $$
 \boxed{
-\Gamma_M\neq\operatorname{Fix}(M)
+\Gamma_M\neq\mathrm{Fix}(M)
 }
 $$
 Periodiske baner, stabile sykluser og ikke-stasjonære viable baner kan overleve under gate uten å være fikspunkter.
@@ -7641,7 +7641,7 @@ $$
 Materialet skriver:
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 Dette er sterkest for stasjonære selvkonsistente realiseringer. For ikke-stasjonære baner er tryggere:
@@ -8465,13 +8465,13 @@ $$
 $$
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 men med den tidligere type-presiseringen:
 $$
 \boxed{
-\operatorname{Fix}(\Pi\circ\Phi)\subseteq \mathrm{Viab}(K)
+\mathrm{Fix}(\Pi\circ\Phi)\subseteq \mathrm{Viab}(K)
 }
 $$
 for stasjonære/selvkonsistente realiseringer; generelt er realitet i modellen:
@@ -8542,7 +8542,7 @@ x\text{ exists}\iff x=\Pi(\Phi(x))
 $$
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 Elimination operator:
@@ -8933,7 +8933,7 @@ $$
 og bare i selvkonsistente/lukkede grensetilfeller:
 $$
 \boxed{
-\text{realisering kan komprimeres til }\operatorname{Fix}(\Pi\circ\Phi)
+\text{realisering kan komprimeres til }\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 ________________
@@ -9458,7 +9458,7 @@ $$
 Fixed-point paper:
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 $$

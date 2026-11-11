@@ -93,15 +93,15 @@ For at kognitive og cyber-fysiske sløyfer ikke skal rives i stykker av parametr
 
 1. **Hills ligning og Floquet-monodromi:** Når en tilbakekoblingssløyfe utsettes for periodisk varierende stivhet $f(t + T) = f(t)$, styres feilutviklingen av Hills differensialligning:
    $$\frac{\mathrm{d}^2 y}{\mathrm{d}t^2} + f(t)\,y = 0$$
-   Over én full periode $T$ beskrives tilstandstransporten av Floquet-monodromimatrisen $\mathbf{M} \in \mathrm{SL}(2, \mathbb{R})$ med $\det(\mathbf{M}) = 1$ (Liouvilles faseromsbevaring). Egenverdiene $\mu_{1,2}$ bestemmes av $\mu^2 - \operatorname{Tr}(\mathbf{M})\mu + 1 = 0$. Dermed gjelder det eksakte stabilitetskriteriet:
-   $$\det(\mathbf{M}) = 1 \;\land\; \bigl|\operatorname{Tr}(\mathbf{M})\bigr| < 2 \iff \Omega(\mathbf{M}) = \texttt{OPEN}$$
-   Dersom $|\operatorname{Tr}(\mathbf{M})| > 2$, vokser løsningen eksponentielt (parametrisk resonans), og porten låses.
+   Over én full periode $T$ beskrives tilstandstransporten av Floquet-monodromimatrisen $\mathbf{M} \in \mathrm{SL}(2, \mathbb{R})$ med $\det(\mathbf{M}) = 1$ (Liouvilles faseromsbevaring). Egenverdiene $\mu_{1,2}$ bestemmes av $\mu^2 - \mathrm{Tr}(\mathbf{M})\mu + 1 = 0$. Dermed gjelder det eksakte stabilitetskriteriet:
+   $$\det(\mathbf{M}) = 1 \;\land\; \bigl|\mathrm{Tr}(\mathbf{M})\bigr| < 2 \iff \Omega(\mathbf{M}) = \texttt{OPEN}$$
+   Dersom $|\mathrm{Tr}(\mathbf{M})| > 2$, vokser løsningen eksponentielt (parametrisk resonans), og porten låses.
 2. **Gauss-boksen ($\sigma = \varepsilon_0 E_\perp$):** Enhver diskontinuitet eller skjermingsgrense bærer en målbar overflateladningstetthet $\sigma = \varepsilon_0(E_{\perp,\text{ut}} - E_{\perp,\text{inn}})$. Ingen tilstand kan hevde å være «isolert» uten at grenseflatefluksen integrert over boksens rand er regnskapsført.
 3. **Borda–Carnot-tapet ved brå tverrsnittsutvidelse:** Når en strøm med tetthet $\rho$ tvinges gjennom en brå geometrisk ekspansjon fra hastighet $v_1$ til $v_2$ uten gradvis konisk tilpasning, går den kinetiske energidifferansen tapt til irreversibel virveldissipasjon:
    $$\Delta E_{\text{Borda}} = \frac{1}{2}\rho(v_1 - v_2)^2 > 0$$
    I prosess- og arbeidssløyfer forbyr dette umiddelbare kontekst- og regimehopp uten dempet overgangsrampe.
 4. **Klagemuren og Sorgens Termodynamikk ($\Omega_{\text{wall}}$):** Når et stort antall genererte $\mathcal{NP}$-kandidater ($\mathcal{NP}_{\text{lost}}$) kuttes bort av skranken, eller når en irreversibel fysisk feil har inntruffet, må restenergien absorberes uten å reflekteres tilbake som destruktiv oscillasjon i systemet:
-   $$\Omega_{\text{wall}}(\bot) = \operatorname{ABSORB}(Q_{\text{diss}}), \qquad Q_{\text{diss}} \ge k_B T \ln\bigl|\mathcal{NP}_{\text{lost}}\bigr|$$
+   $$\Omega_{\text{wall}}(\bot) = \mathrm{ABSORB}(Q_{\text{diss}}), \qquad Q_{\text{diss}} \ge k_B T \ln\bigl|\mathcal{NP}_{\text{lost}}\bigr|$$
 
 ---
 
@@ -112,15 +112,15 @@ Hvordan kan en lært verdensmodell (*Joint-Embedding Predictive Architecture*) g
 ### 5.1 Perseptuell sfære og fiksert ortonormalt faseromssnitt ($s_t = U^\top h_t$)
 En visuell observasjon $x_t$ avbildes først via en Vision Transformer til den null-sentrerte sfæren:
 
-$$h_t = \operatorname{LN}_0\!\bigl(\operatorname{MLP}(\operatorname{ViT}(x_t))\bigr) \in \mathbb{R}^D, \qquad \|h_t\|_2 = \sqrt{D}, \qquad e^\top h_t = 0$$
+$$h_t = \mathrm{LN}_0\!\bigl(\mathrm{MLP}(\mathrm{ViT}(x_t))\bigr) \in \mathbb{R}^D, \qquad \|h_t\|_2 = \sqrt{D}, \qquad e^\top h_t = 0$$
 
 der $e = \frac{1}{\sqrt{D}}(1, \dots, 1)^\top$. I stedet for en trenbar projektormatrise (som kan kollapse nullrommet sitt for å jukse på prediksjonstapet), projiseres $h_t$ ned i det kompakte faserommet $\mathbb{R}^r$ ($r \ll D$, f.eks. $r = 64, D = 2048$) med en **fiksert, ikke-trenbar ortonormal matrise** $U \in \mathbb{R}^{D \times r}$ ($U^\top U = I_r$):
 
 $$s_t = U^\top h_t \in \mathbb{R}^r$$
 
-**Teorem 9.2 (Eksakt kovarians-arv i det fikserte snittet):** *Dersom de perseptuelle vektorene $h_t$ er isotrope på det null-sentrerte hyperplanet $\operatorname{Cov}(h) = I_D - ee^\top$, arver den lavdimensjonale faseromsvektoren $s_t = U^\top h_t$ automatisk kovariansen*
+**Teorem 9.2 (Eksakt kovarians-arv i det fikserte snittet):** *Dersom de perseptuelle vektorene $h_t$ er isotrope på det null-sentrerte hyperplanet $\mathrm{Cov}(h) = I_D - ee^\top$, arver den lavdimensjonale faseromsvektoren $s_t = U^\top h_t$ automatisk kovariansen*
 
-$$\operatorname{Cov}(s) = U^\top(I_D - ee^\top)U = I_r - ww^\top, \qquad w = U^\top e$$
+$$\mathrm{Cov}(s) = U^\top(I_D - ee^\top)U = I_r - ww^\top, \qquad w = U^\top e$$
 
 *med $r - 1$ egenverdier lik $1$ og én egenverdi $\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2 \approx 1 - r/D$ ($0{,}969$ ved $r=64, D=2048$).*
 
@@ -141,8 +141,8 @@ $$\hat{s}_{t+1} = s_t + \Delta t\Bigl[\bigl(J - R_\theta(c_t)\bigr)\nabla_s H_\t
 der:
 * $J = \begin{pmatrix} 0 & I_{r/2} \\ -I_{r/2} & 0 \end{pmatrix} = -J^\top$ er den kanoniske symplektiske strukturen ($z^\top J z = 0$, konservativ energiflyt),
 * $R_\theta(c_t) = L_\theta(c_t)L_\theta(c_t)^\top \succeq 0$ (lav-rang faktor $L_\theta \in \mathbb{R}^{r \times m}$) garanterer ikke-negativ dissipasjon $\nabla_s H^\top R_\theta \nabla_s H = \|L_\theta^\top \nabla_s H\|_2^2 \ge 0$ i samsvar med termodynamikkens andre hovedsetning,
-* $H_\theta(s_t, v_t) = \frac{1}{2}\|v_t\|_2^2 + U_\theta(s_t) \ge 0$ er den separerte Hamilton-energien med $\operatorname{softplus}$-utgang på potensialet $U_\theta(s_t)$,
-* $G_\theta(c_t) \in \mathrm{St}(r, d_a) = \{G \in \mathbb{R}^{r \times d_a} \mid G^\top G = I_{d_a}\}$ er inngangsporten, holdt eksakt ortonormal på **Stiefel-manifolden** via QR-retraksjon $G = Q\,\operatorname{diag}(\operatorname{sign}(\operatorname{diag}(R_{\text{QR}})))$.
+* $H_\theta(s_t, v_t) = \frac{1}{2}\|v_t\|_2^2 + U_\theta(s_t) \ge 0$ er den separerte Hamilton-energien med $\mathrm{softplus}$-utgang på potensialet $U_\theta(s_t)$,
+* $G_\theta(c_t) \in \mathrm{St}(r, d_a) = \{G \in \mathbb{R}^{r \times d_a} \mid G^\top G = I_{d_a}\}$ er inngangsporten, holdt eksakt ortonormal på **Stiefel-manifolden** via QR-retraksjon $G = Q\,\mathrm{diag}(\mathrm{sign}(\mathrm{diag}(R_{\text{QR}})))$.
 
 ### 5.4 Port-Inverse Consistency (`PIC`) og eksakt feil-revekting
 Fordi $G_\theta(\hat{c}_{t+i})$ ligger på Stiefel-manifolden ($G_\theta^\top G_\theta = I_{d_a}$), er dens venstre-invers simpelthen transponeringen $G_\theta^\top$ — helt uten matriseinversjon eller singulærverdidekomponering! Den impliserte handlingen $\hat{u}_{t+i}$ som kreves for å forklare målt fremtidig tilstand $s_{t+i+1}$, har den lukkede formen:

@@ -158,7 +158,7 @@ Når en tilstandsendring godkjennes, persisteres den etter den strikte kausale l
 $$\text{fsync} \prec \text{RAM} \prec \text{ACK}$$
 
 1. **Persistens (WAL):** Utfør `write()` og POSIX `fsync()` til fysisk, ikke-volatilt medium *før* det foretas endringer i det volatile minnet.
-2. **Mutasjon:** Oppdater intern minnepeker i RAM innenfor det verifiserte levedyktighetsrommet $\operatorname{Viab}(K)$ først etter bekreftet fysisk persistens i loggen.
+2. **Mutasjon:** Oppdater intern minnepeker i RAM innenfor det verifiserte levedyktighetsrommet $\mathrm{Viab}(K)$ først etter bekreftet fysisk persistens i loggen.
 3. **Kvittering:** Send nettverkskvittering (`ACK`) først når fysisk persistens og minnemutasjon er bekreftet fullført.
 
 ---

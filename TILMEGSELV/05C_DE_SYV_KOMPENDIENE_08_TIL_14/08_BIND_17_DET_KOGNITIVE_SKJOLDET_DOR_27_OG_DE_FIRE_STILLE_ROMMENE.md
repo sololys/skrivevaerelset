@@ -27,7 +27,7 @@ Integrert i virkeligheten trer *Det Kognitive Skjoldet* frem som **fysiologisk o
 
 1. **Dekompresjonskammeret ved Dør 27 ($\Delta t_{\text{Tarski}} = 30\text{ s}$):** Tre tusen fire hundre meter under Hardangervidda — i eimen av varm transformatorolje og knust prekambrisk gabbro — opphever arkitekturen hele det industrielle «alarm-eskalerings-paradigmet» ($\Delta_K \propto L_p \to 0\text{ dB}$). Når trykkgradienten på utsiden av skottet krysser en kritisk terskel før irreversibilitetspunktet $R$ ($t < t_R$), slukker sekundærskjermene ned til et fast, varmt ravfarget lys (*Rav-tausheten*). Inne i konsollen faller en fysisk messingsperre i lås med et tørt *klakk* (*Det kognitive hemverket*): akkurat som stålgaffelen i fyrlykta ytterst i havgapet ved Risør hindrer det $200\text{ kg}$ tunge blyloddet i å spinne Fresnel-linsen i filler på tre sekunder, tvinger `ux_cognitive_shield.py` beslutningsraten til eksakt null ($D = 0$) mens observasjonsvinduet holdes vidåpent ($L > 0$) i nøyaktig **30 sekunder**. De tretti sekundene er den romlige Tarski-hyllen (`0xFFFA`) rotert $90\text{ grader}$ fra rom til tid (*Nakons-interlocken / Uzzah-vernet*). Først ved $t = t_0 + 30\text{ s}$, når fryktens hydreringskappe er strippet av (slik KcsA-kanalen stripper vannkappen av $\text{K}^+$ ved $2{,}7\,\text{\AA}$), glir messingsperren til side. Uzzah er reddet fra sin egen raske hånd; den som nå legger fingeren på bryteren, er ikke lenger en skremt vognfører, men Høyesterett (`Level 01`).
 2. **De Fem Wetware-Slusene i Hverdagen (`ux_cognitive_shield.py`):** Ute i samfunnet står det samme skjoldet som en asymmetrisk bølgebryter mellom en rovdyraktig oppmerksomhetsøkonomi og menneskets våkne sinn gjennom fem ortogonale sluser (`SignalGatingShield`, `InvarianceRevarianceSandpit`, `AntiRevarianceGuillotine`, `InfranettSelfParliament` og `ThermoKineticThreshold`).
-3. **Sorgens Fysikk og Forvaltningens Beitemark (`GRAZE`):** Når arkitekturen møter menneskelig tap, samfunnsstyring og forvaltningsrett (jf. Forvaltningsloven § 16), erstatter den byråkratisk hastverk med *Fraværets Termodynamikk* ($E_{\text{tot}} \ge k_B T \ln 2 + \frac{\pi \hbar}{2 \Delta t}$), metabolsk beiting på en konveks modningseng ($\nabla^2 H_{\text{int}}(x) \succeq \mu I$ med Skorokhod-refleksjon inntil $\operatorname{Tr}(\rho^2) \ge 0{,}9999$), og Bygdeoriginalens $^{56}\text{Fe}$-anker ($8{,}79\text{ MeV/nukleon}$).
+3. **Sorgens Fysikk og Forvaltningens Beitemark (`GRAZE`):** Når arkitekturen møter menneskelig tap, samfunnsstyring og forvaltningsrett (jf. Forvaltningsloven § 16), erstatter den byråkratisk hastverk med *Fraværets Termodynamikk* ($E_{\text{tot}} \ge k_B T \ln 2 + \frac{\pi \hbar}{2 \Delta t}$), metabolsk beiting på en konveks modningseng ($\nabla^2 H_{\text{int}}(x) \succeq \mu I$ med Skorokhod-refleksjon inntil $\mathrm{Tr}(\rho^2) \ge 0{,}9999$), og Bygdeoriginalens $^{56}\text{Fe}$-anker ($8{,}79\text{ MeV/nukleon}$).
 4. **De Fire Stille Rommene (Reservert Vakuum som Sivilisasjonsgaranti):** Et system som fyller $100\,\%$ av sitt tilgjengelige rom, kveler seg selv og mister evnen til å skille sannhet fra tvang. Derfor hviler hele konstruksjonen på fire fredede tomrom — **Substans** ($\mathbb{B} \perp \mathbb{Z}$, `False != 0`), **Presisjon** ($\mathbb{Q}[i]$, Johanssons passbiter), **Rom** ($\Delta B_{\text{Tarski}} = \text{0xFFFF} - \text{0xFFFA} = 5\text{ B}$, sjøbodenes tørrmur) og **Tid** ($\Delta t_{\text{Tarski}} = 30\text{ s}$, rav-tausheten ved Dør 27).
 
 ---
@@ -129,7 +129,7 @@ Hver gang en vill impuls forsøker å sprenge randen $\partial \mathcal{A}$, kas
 
 $$dx_t = -\gamma \nabla H_{\text{int}}(x_t)\,dt + \sqrt{2D}\,dW_t - n(x_t)\,dL_t$$
 
-Den destruktive kinetiske energien brennes av som kontrollert varme ($\frac{dQ}{dt} \ge k_B T \frac{dS_{\text{info}}}{dt}$) inntil tilstanden har oppnådd renhet $\operatorname{Tr}(\rho^2) \ge 0{,}9999$. I norsk forvaltningsrett heter denne termodynamiske modningsenga **Forvaltningsloven § 16** (forhåndsvarsling).
+Den destruktive kinetiske energien brennes av som kontrollert varme ($\frac{dQ}{dt} \ge k_B T \frac{dS_{\text{info}}}{dt}$) inntil tilstanden har oppnådd renhet $\mathrm{Tr}(\rho^2) \ge 0{,}9999$. I norsk forvaltningsrett heter denne termodynamiske modningsenga **Forvaltningsloven § 16** (forhåndsvarsling).
 
 ### 4.3 Bygdeoriginalen: Samfunnets siste sikring ved $0{,}00\text{ V DC}$ ($^{56}\text{Fe}$-jernankeret)
 
@@ -140,7 +140,7 @@ Hva står igjen den dagen den *fail-open* digitale skyen kollapser og spenningen
 3. **Lokalt Infranett først:** Autoriteten bor i nevene som holder verktøyet.
 4. **$0{,}00\text{ V}$ mekanisk tilbakefall:** Når strømmen er borte, trekker stålfjæra låsen tilbake i sikker posisjon (`HOLD`) av seg selv:
 
-$$\text{Reality} = \operatorname{Fix}(\Pi_{\mathcal{A}} \circ \Phi) \cap \text{monotonic irreversibility} \cap \mathbb{R}^3 \subseteq \operatorname{Viab}(\mathcal{A})$$
+$$\text{Reality} = \mathrm{Fix}(\Pi_{\mathcal{A}} \circ \Phi) \cap \text{monotonic irreversibility} \cap \mathbb{R}^3 \subseteq \mathrm{Viab}(\mathcal{A})$$
 
 ---
 

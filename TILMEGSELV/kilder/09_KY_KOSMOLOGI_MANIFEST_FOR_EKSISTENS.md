@@ -51,7 +51,7 @@ Før en kandidat kan bli en hendelse, tvinges den inn i det kontrafaktiske prøv
   $$x \hookrightarrow s$$
   Universet spør: *«Hvis denne hendelsen skjer, kan systemet fortsatt vende tilbake til nullpunktet uten rest?»*
 * **Den Involutive Dommen:** Dette testes via speil-operatoren ($\mathrm{ROX}$). Systemet utsetter kandidaten for fremtidsbanen ($F_+$) og den motgående banen ($F_-$):
-  $$\operatorname{ROX}_m(\operatorname{ROX}_m(x)) = x \iff \text{ROX\_OK}$$
+  $$\mathrm{ROX}_m(\mathrm{ROX}_m(x)) = x \iff \text{ROX\_OK}$$
   Hvis en asymmetri oppstår, hvis noe residual lekker ut av luftslusen før konsekvensporten, feller universet en umiddelbar **$\mathrm{KILL}$-dom**.
 
 ### Mysteriet HOLD: Innelukket Dynamikk og Mørk Materie
@@ -78,7 +78,7 @@ Dette er øyeblikket konsekvens oppstår. $\mathbf{\Omega}$-porten markerer gren
   $$Q \ge k_B T \ln 2$$
   kastes av. Kun den formen (**Bøff**) som tåler varmen fra sin egen tilblivelse, overlever denne porten. Blank, substansløs form (**Bløff**) fordamper her.
 
-$$\boxed{\Delta_K \le \tau \implies \operatorname{OPEN}(\mathbf{\Omega})}$$
+$$\boxed{\Delta_K \le \tau \implies \mathrm{OPEN}(\mathbf{\Omega})}$$
 
 ---
 

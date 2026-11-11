@@ -150,9 +150,9 @@ Når verket nå står ferdig samlet, trer arkitekturen frem med urokkelig klarhe
 $$\boxed{\text{Bind I: Hvor går grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind II: Hvordan håndheves grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind III: Hva beskytter grensen?}}$$
 
 * **Bind I (*Kuttflaten*):** Etablerer demarkasjonen. Hovedfeilen i vår sivilisasjon er kollaps av distinksjoner: kandidat blir forvekslet med konsekvens, output med warrant, en flyktig logg med et uforfalskbart *Witness*, og virtuell softwarestatus med fysisk virkelighet. Frontloven slår fast at autorisasjon, fysisk energibærer og pre-commit-historie må være uløselig bundet før noen grense kan krysses.
-* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \operatorname{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
+* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \mathrm{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
 * **Bind III (*Realiseringsgrammatikk*):** Tar samme frontlov og spør hva den betyr mellom levende, autonome poler. Her reiser formelen seg:
-  $$L = \operatorname{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
+  $$L = \mathrm{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
   med læresetningen *«nærhet under bevart frihet»*. Bildet av reléets to poler viser to ledere som nærmer seg hverandre, men som aldri må kortsluttes eller smelte sammen.
 
 #### Oppgjøret med notasjonskollapset: De fire universelle makrorollene
@@ -339,7 +339,7 @@ When the geocybernetic intervention is complete, when the theoretical steering b
 In the tripartite architecture of the master compendium:
 - **Bind I (*Kuttflaten*):** Explores the human vulnerability, the cognitive gateway, and the societal terror of frictionless digital acceleration.
 - **Bind II (*Litisk Kybernetikk / Codex Geocybernetica*):** Acts as the **unyielding granite gravity well**. It refuses narrative comfort. Through its 44 modules, it establishes that control without mineral foundation is hallucination. *The Geocybernetic Operation* stands as its definitive English philosophical gateway.
-- **Bind III (*Realiseringsgrammatikk*):** Expands the realization grammar into mutual viability, shared relational space ($L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$), and the philosophical symposium between zero and one.
+- **Bind III (*Realiseringsgrammatikk*):** Expands the realization grammar into mutual viability, shared relational space ($L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$), and the philosophical symposium between zero and one.
 
 > *«The lithosphere does not obey the optimism of the steering committee. It obeys only the admissibility of the cut.»*
 
@@ -6990,7 +6990,7 @@ Ingen optimalisering, ingen preferanse, ingen “beste” bane. Bare umuliggjør
 2. Fix-formen og viability-formen må typesepareres
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 er sterk for stasjonære/selvkonsistente realiseringer.
@@ -7581,7 +7581,7 @@ $$
 Reality:
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 Elimination operator:
@@ -10705,19 +10705,19 @@ Mer presist kreves at de separerte kompakte bildene (E_\pm=g(K_\pm)) er egnet fo
 Fikspunkter:
 $$
 \boxed{
-\operatorname{Fix}(M)={x\in X:M(x)=x}
+\mathrm{Fix}(M)={x\in X:M(x)=x}
 }
 $$
 Alle ikke-null fikspunkter er viable:
 $$
 \boxed{
-\operatorname{Fix}(M)\subseteq\Gamma_M
+\mathrm{Fix}(M)\subseteq\Gamma_M
 }
 $$
 Men generelt:
 $$
 \boxed{
-\Gamma_M\neq\operatorname{Fix}(M)
+\Gamma_M\neq\mathrm{Fix}(M)
 }
 $$
 Periodiske baner, stabile sykluser og ikke-stasjonære viable baner kan overleve under gate uten å være fikspunkter.
@@ -12834,7 +12834,7 @@ $$
 Materialet skriver:
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 Dette er sterkest for stasjonære selvkonsistente realiseringer. For ikke-stasjonære baner er tryggere:
@@ -13658,13 +13658,13 @@ $$
 $$
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 men med den tidligere type-presiseringen:
 $$
 \boxed{
-\operatorname{Fix}(\Pi\circ\Phi)\subseteq \mathrm{Viab}(K)
+\mathrm{Fix}(\Pi\circ\Phi)\subseteq \mathrm{Viab}(K)
 }
 $$
 for stasjonære/selvkonsistente realiseringer; generelt er realitet i modellen:
@@ -13735,7 +13735,7 @@ x\text{ exists}\iff x=\Pi(\Phi(x))
 $$
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 Elimination operator:
@@ -14126,7 +14126,7 @@ $$
 og bare i selvkonsistente/lukkede grensetilfeller:
 $$
 \boxed{
-\text{realisering kan komprimeres til }\operatorname{Fix}(\Pi\circ\Phi)
+\text{realisering kan komprimeres til }\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 ________________
@@ -14651,7 +14651,7 @@ $$
 Fixed-point paper:
 $$
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 $$
 $$
@@ -15374,8 +15374,8 @@ Jeg må kunne bære meg selv.
 Kanskje slik:
 $$\text{Kjærlighet} = \text{nærhet under bevart frihet}$$
 Eller mer KY-aktig:
-$$L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$$
-Altså: kjærlighet er ikke total sammensmelting ($A_{\text{jeg}} \cup A_{\text{du}}$). Total fusjon oppløser den andres autonomi og forvandler relasjonen til en invasjon. Fullstendig isolasjon ($A_{\text{jeg}} \cap A_{\text{du}} = \emptyset$) fjerner derimot all kontakt og resonans. Kjærligheten er det felles, levedyktige overlappet ($\operatorname{Viab}$) der begge parter kan eksistere over tid under bevart integritet.
+$$L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$$
+Altså: kjærlighet er ikke total sammensmelting ($A_{\text{jeg}} \cup A_{\text{du}}$). Total fusjon oppløser den andres autonomi og forvandler relasjonen til en invasjon. Fullstendig isolasjon ($A_{\text{jeg}} \cap A_{\text{du}} = \emptyset$) fjerner derimot all kontakt og resonans. Kjærligheten er det felles, levedyktige overlappet ($\mathrm{Viab}$) der begge parter kan eksistere over tid under bevart integritet.
 
 Dette er **Kjærlighetens relé**:
 I elektroteknikken fungerer et relé utelukkende fordi styrekretsen og arbeidskretsen er galvanisk adskilt. Det finnes et luftgap. Hvis luftgapet fjernes i et desperat krav om total sammensmelting, kortslutter systemet – spolene smelter, isolasjonen brenner opp og overføringen dør. Avstand er ikke kulde eller fravær; avstand er isolasjonsmediet som gjør at to uavhengige poler kan trekke på hverandre uten å brenne hverandre opp. *«Kjærlighetens relé: Fraværet som utøver kraft; stillstanden som bærer spenningen mellom to uavhengige poler uten kortslutning.»*
@@ -15421,7 +15421,7 @@ Kan jeg bevare meg selv uten å forsvinne inn i den andre?
 Kan jeg elske uten å gjøre kjærligheten til en domstol?
 Da blir kjærlighet en felles levedyktighet, ikke en sammensmelting.
 Jeg tror dette er en av de fineste KY-definisjonene:
-L=Viab(Ajeg∩Adu)L = \operatorname{Viab}(A_{jeg} \cap A_{du})L=Viab(Ajeg∩Adu)
+L=Viab(Ajeg∩Adu)L = \mathrm{Viab}(A_{jeg} \cap A_{du})L=Viab(Ajeg∩Adu)
 Kjærlighet er det levedyktige rommet hvor mitt admissible rom og ditt admissible rom overlapper uten at noen av oss må oppheves.
 Det betyr at kjærlighet ikke er “jeg vil ha deg”.
 Det er for enkelt.
@@ -15667,9 +15667,9 @@ $$\boxed{I_{\mathrm{gate}}: \quad \exists c, \sigma \;:\; c \in \Phi(\sigma) \;\
 
 Separasjonsaksiomer ($S_1 - S_4$ mot sammenfolding):
 $$\begin{aligned}
-S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\operatorname{Codom}(\Phi) \cap D = \emptyset) \\
+S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\mathrm{Codom}(\Phi) \cap D = \emptyset) \\
 S_2 &: \quad \Pi_K \text{ kan autorisere, men ikke realisere } (\Pi_K \text{ forårsaker ingen tilstandsendring i } \Sigma) \\
-S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\operatorname{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
+S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\mathrm{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 
@@ -15897,9 +15897,9 @@ $$\Sigma_N = \{a, b, \ldots, z, \text{æ}, \text{ø}, \text{å}\}$$
 $$\rho_{\mathrm{AA}}(x) \triangleq x \oplus \texttt{0xAA}$$
 
 Fordi $\rho_{\mathrm{AA}}(\rho_{\mathrm{AA}}(x)) = (x \oplus \texttt{AA}) \oplus \texttt{AA} = x$, er transformasjonen strengt involutiv:
-$$\boxed{\rho_{\mathrm{AA}}^2 = \operatorname{id}}$$
+$$\boxed{\rho_{\mathrm{AA}}^2 = \mathrm{id}}$$
 
-Dette samsvarer direkte med ROX-regelen i KY–ROX: $\operatorname{ROX}_m(\operatorname{ROX}_m(x)) = x$. Den nye rekken utgjør dermed et ROX-bilde av det norske alfabetet: $\Sigma_{\mathrm{ROX\text{-}AA}} = \rho_{\mathrm{AA}}(\Sigma_N)$.
+Dette samsvarer direkte med ROX-regelen i KY–ROX: $\mathrm{ROX}_m(\mathrm{ROX}_m(x)) = x$. Den nye rekken utgjør dermed et ROX-bilde av det norske alfabetet: $\Sigma_{\mathrm{ROX\text{-}AA}} = \rho_{\mathrm{AA}}(\Sigma_N)$.
 
 #### Det Sammensatte Kryssalfabetet ($\Sigma_{\mathrm{KRA}}$)
 KY-alfabetet erstattes ikke av kodingen; ROX-laget fungerer som et reversibelt leksikalsk nyttelastlag underlagt KY-typingen:
@@ -15954,7 +15954,7 @@ $$a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, 
 
 #### Kanonisk Token-Struktur: KRA-Token
 Implementert i systemets mikro-motorer (`RoxLexicalLayer`):
-$$\operatorname{KRA}\big\langle \text{TYPE}, \; \text{ROX\_PAYLOAD}, \; \text{MASK}, \; \text{VERDICT}, \; \text{WITNESS} \big\rangle$$
+$$\mathrm{KRA}\big\langle \text{TYPE}, \; \text{ROX\_PAYLOAD}, \; \text{MASK}, \; \text{VERDICT}, \; \text{WITNESS} \big\rangle$$
 
 Eksempel på autorisert token:
 ```text
@@ -16459,7 +16459,7 @@ Den finnes allerede i Quantum Grammar II som en sterk komprimering.
 I gravitasjonssporet blir KY mer spekulativt, men også interessant. Her må tonen være tydelig: dette er en realiseringsmodell og en mulig forskningsretning, ikke etablert gravitasjonsteori.
 Kjernen er:
 Ikke alle matematiske løsninger bør forstås som fysisk realiserte baner. Fysisk sektor kan forstås som de løsningene som forblir admissible under dynamikk.
-Γphys=Viab(A)\Gamma_{\mathrm{phys}}=\operatorname{Viab}(A)Γphys=Viab(A)
+Γphys=Viab(A)\Gamma_{\mathrm{phys}}=\mathrm{Viab}(A)Γphys=Viab(A)
 Dette er veldig nyttig pedagogisk.
 I klassisk GR finnes feltligninger og løsninger. KY-sporet spør: hvilke løsninger overlever som admissibel fysisk realisering under stabilitet, restriksjoner, randbetingelser, spektral kontroll og historisk/irreversibel kostnad?
 I “Geometri som Konsekvens av Seleksjon” formuleres et tydelig forslag: fysisk evolusjon er ikke rå dynamikk, men projisert dynamikk gjennom en idempotent admissibility-operator PKP_KPK, og avvist dynamikk måles som ΔK[ψ]=(I−PK)ΔPKψ\Delta_K[\psi]=(I-P_K)\Delta P_K\psiΔK[ψ]=(I−PK)ΔPKψ.
@@ -16509,7 +16509,7 @@ Hvert symbol bærer en presis semantisk, matematisk og fysisk forpliktelse:
 1. **$0$ (Urealisert potensial):** Absolutt latent hviletilstand; null energiforbruk.
 2. **$\circ$ (RAW / Rå impuls):** Ufiltrert dynamisk bølge eller affekt før strukturell formgivning.
 3. **$\diamond$ (ESTIMATE / Foreløpig form):** Første heuristiske tilnærming og parametriske orientering.
-4. **$\square$ (STRUCT / Strukturell kandidat):** Bunden kandidat, deterministisk forseglet med pre-commit seglet $W_{\text{pre}} = \operatorname{SHA256}(h_n \parallel \text{canonical}(A_t))$.
+4. **$\square$ (STRUCT / Strukturell kandidat):** Bunden kandidat, deterministisk forseglet med pre-commit seglet $W_{\text{pre}} = \mathrm{SHA256}(h_n \parallel \text{canonical}(A_t))$.
 5. **$\triangle$ (THRESHOLD / Terskel):** Beslutningens kuttflate hvor rå spenning møter rammegrenser.
 6. **$\odot$ (VIABILITY / Levedyktighet):** Verifikasjon av at kandidaten tåler belastning innenfor $X_K$.
 7. **$\check{\odot}$ (CHECKED VIABILITY / Dobbelsjekket paritet):** Dual-channel kontroll og formell lock-step kjerneenighet som bekrefter null skrankebrudd.
@@ -16521,11 +16521,11 @@ Denne banen sikres av en **dobbeltfase-forsegling**:
 - **Pre-commit ($W_{\text{pre}}$):** Ved trinnet $\square (\text{STRUCT})$ forsegles kandidaten før den møter grensen. Utelates $W_{\text{pre}}$, oppstår *uforankret eksekvering*: rå affekt eller umodne impulser velter ufiltrert ut i den fysiske verden som aggresjon eller overgrep ($\text{RAW} \to \text{COMMITTED}$).
 - **Post-commit ($W_{\text{post}}$):** Ved trinnet $1 (\text{COMMITTED})$ forankres handlingen i et fysisk og relasjonelt spor under det kanoniske seglet:
   $$\boxed{\text{seal\_phase} ::= \text{"→•\#! "}}$$
-  der $h_{n+1} = \operatorname{SHA256}(h_n \parallel \text{payload\_digest} \parallel \text{seq} \parallel \text{candidate\_id})$. Utelates $W_{\text{post}}$, oppstår *systemisk hallusinasjon*: subjekter eller maskiner som tror de har handlet, elsket eller forsonet seg, men der ingen fysisk varme er avgitt og ingen sårbar virkelighet har tatt imot endringen.
+  der $h_{n+1} = \mathrm{SHA256}(h_n \parallel \text{payload\_digest} \parallel \text{seq} \parallel \text{candidate\_id})$. Utelates $W_{\text{post}}$, oppstår *systemisk hallusinasjon*: subjekter eller maskiner som tror de har handlet, elsket eller forsonet seg, men der ingen fysisk varme er avgitt og ingen sårbar virkelighet har tatt imot endringen.
 
 ### Den Doble Porten ($\text{SUSY}^2$) og Relasjonell Viabilitet
 I relasjonell kybernetikk forfaller systemer når en part oppsluker eller invaderer den andre. Kjerneaksiomet:
-$$\boxed{L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})}$$
+$$\boxed{L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})}$$
 definerer kjærlighet som *«nærhet under bevart frihet»*. For å beskytte denne kjerne kreves den **Doble Porten ($\text{SUSY}^2$)**:
 1. **Første port (Kandidat $\to$ Konsekvens):** Hindrer at blind impuls eller indre stormer velter ukontrollert inn over den andre uten $\Pi_K$-prøving.
 2. **Andre port (Speil $\to$ Kilde):** Hindrer at man reduserer den andre til et ekkokammer eller et speil for sine egne projeksjoner. Den bevarer en ikke-null avstand som garanterer den andres suverene annerledeshet.
@@ -16555,7 +16555,7 @@ I realiseringsgrammatikkens antropologiske formulering lever mennesker i systeme
 Dette er grunnen til at et samfunns moralske og relasjonelle helse kan måles på hvem det tåler:
 > **«Et samfunn uten byoriginaler er et sykt samfunn.»**
 
-Når et samfunn mister sine byoriginaler, har institusjonene optimalisert bort friksjonen og mangfoldet. Portene har blitt så trange og ensrettede at bare den standardiserte, føyelige borgeren slipper gjennom uten å bli patologisert. I relasjonens grammatikk ($L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$) betyr dette at fellesskapet har nektet $A_{\text{du}}$ retten til å være annerledes. Byoriginalen er det levende beviset på at samfunnet fremdeles har en levedyktig kjerne med rom for frihet, eksentrisitet og motstand mot digital konformitet.
+Når et samfunn mister sine byoriginaler, har institusjonene optimalisert bort friksjonen og mangfoldet. Portene har blitt så trange og ensrettede at bare den standardiserte, føyelige borgeren slipper gjennom uten å bli patologisert. I relasjonens grammatikk ($L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$) betyr dette at fellesskapet har nektet $A_{\text{du}}$ retten til å være annerledes. Byoriginalen er det levende beviset på at samfunnet fremdeles har en levedyktig kjerne med rom for frihet, eksentrisitet og motstand mot digital konformitet.
 
 Dette gjør KY anvendelig i:
 AI-governance,
@@ -17105,7 +17105,7 @@ En dårlig relasjon kan være stabil.
  Et avhengighetsmønster kan være stabilt.
  En AI-feedback-loop kan være stabil.
 Stabilitet er ikke nok.
-Dette knytter rett inn i den tidligere KY-linjen: A≠Viab(A)A \neq \operatorname{Viab}(A)A=Viab(A), og viability er ikke automatisk rettferdighet. KY trenger porten, ikke bare likevekten.
+Dette knytter rett inn i den tidligere KY-linjen: A≠Viab(A)A \neq \mathrm{Viab}(A)A=Viab(A), og viability er ikke automatisk rettferdighet. KY trenger porten, ikke bare likevekten.
 Dansens tillegg: samtykke som rytmisk admissibility
 Dans gir oss også et språk for samtykke uten å gjøre det juridisk først.
 Samtykke er ikke bare et ja i starten. Det er kontinuerlig adgang.
@@ -17491,7 +17491,7 @@ Eller:
 Å tape kampen kan være å nekte Ghost Win.
  Å vinne krigen er å bevare feltet der ekte OPEN fortsatt kan finnes.
 Et lokalt vinnende trekk er ikke nødvendigvis en realisert seier. En seier må være levedyktig gjennom tid.
-Den harde ryggen ligger i viability-formuleringen fra Generated Dynamics-materialet: realisering er ikke bare at noe kan genereres eller skrives som løsning; det må kunne forbli admissibelt under videre utvikling. Den realiserte sektoren defineres som Γphys=ViabΦ(AK)\Gamma_{\mathrm{phys}}=\operatorname{Viab}_{\Phi}(A_K)Γphys=ViabΦ(AK), altså tilstander som forblir innen admissible struktur for alle fremtidige tider.
+Den harde ryggen ligger i viability-formuleringen fra Generated Dynamics-materialet: realisering er ikke bare at noe kan genereres eller skrives som løsning; det må kunne forbli admissibelt under videre utvikling. Den realiserte sektoren defineres som Γphys=ViabΦ(AK)\Gamma_{\mathrm{phys}}=\mathrm{Viab}_{\Phi}(A_K)Γphys=ViabΦ(AK), altså tilstander som forblir innen admissible struktur for alle fremtidige tider.
 Overført til spill:
 Seierreal≠lokal payoff\text{Seier}_{\mathrm{real}} \neq \text{lokal payoff}Seierreal=lokal payoff Seierreal=payoff som bevarer spillbarhet over tid\text{Seier}_{\mathrm{real}} = \text{payoff som bevarer spillbarhet over tid}Seierreal=payoff som bevarer spillbarhet over tid
 Det betyr:
@@ -17502,7 +17502,7 @@ Det betyr:
 
 >  **DET INVOLUTTE TREET — PLANSJE III.3**  
 > ![Moreau-kollisjonen i strategisk rom](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/multiplayer_ky_nash_moreau_collision_chart.png)  
-> *«Moreau-kollisjonen i strategisk rom (KY-Nash). Å nekte 'Ghost Wins': Trekk som bryter admissibility eller ødelegger feltets overlevelse, elimineres før realisering. Å vinne krigen er å bevare det felles viabilitetsrommet $\Gamma_{\mathrm{phys}} = \operatorname{Viab}_{\Phi}(A_K)$.»*
+> *«Moreau-kollisjonen i strategisk rom (KY-Nash). Å nekte 'Ghost Wins': Trekk som bryter admissibility eller ødelegger feltets overlevelse, elimineres før realisering. Å vinne krigen er å bevare det felles viabilitetsrommet $\Gamma_{\mathrm{phys}} = \mathrm{Viab}_{\Phi}(A_K)$.»*
 
 ---
 
@@ -17799,7 +17799,7 @@ I den kontinuerlige banen ($\mathcal{P}$) må et system leve gjennom tiden ($\De
 
 > ### Proposisjon 1 (Holografisk Tidsabsorpsjon)
 > I stasjonær likevekt ($\partial_t = 0$) absorberes tidsaksen fullstendig inn i de tre romlige dimensjonenes geometri:
-> $$\boxed{\operatorname{Dim}(\mathcal{NP}) = 3 \quad (\text{ikke } 4)}$$
+> $$\boxed{\mathrm{Dim}(\mathcal{NP}) = 3 \quad (\text{ikke } 4)}$$
 > Et $NP$-sertifikat krever ingen varighet; hele årsakskjeden (før, under, etter) er lagt flat som et ferdig relasjonelt kart. Man verifiserer $NP$ i polynomisk tid fordi man slipper å gå veien; man måler utelukkende rommets krumning og randflate.
 
 ### 3.2 Geometri er Bevissthet i $P$ (Phronesis)
@@ -17820,7 +17820,7 @@ I den materielle verden ($\mathcal{P}$) er en kollisjon dødelig og irreversibel
 
 > ### Aksiom 2 (RFMs Frikoblingslov)
 > Dissonans i $\mathcal{NP}$ koster null kinetisk kraft og etterlater ingen termodynamiske spor i universet:
-> $$\boxed{\operatorname{Dom}(F) \cap D_2 = \varnothing}$$
+> $$\boxed{\mathrm{Dom}(F) \cap D_2 = \varnothing}$$
 > Systemet kan prøve klangen i stillheten før det slår på strengen i $\mathcal{P}$. Når tilstanden krysser terskelen til $D_2$, opphører fasen å være en mulighet—da blir den en irreversibel materiell hendelse.
 
 ---
@@ -17852,7 +17852,7 @@ Når $D_K > \tau$, overstiger signalet komparatorens terskel ($V_{\text{err}} \g
 | Sanert Frase (Uønsket Termisk Støy) | Operativ Erstatning (Kald Presisering) |
 | :--- | :--- |
 | «Luftige ord / Metafysisk tåke» | Uberegnelige semantiske spredningsfelt ($\sigma^2_{\text{sem}} \to \infty$) |
-| «Tåkeprat / Filosofisk flukt» | Subkonsistente, friksjonsfrie representasjonsrom ($\operatorname{Ker}(\Pi_K) = \emptyset$) |
+| «Tåkeprat / Filosofisk flukt» | Subkonsistente, friksjonsfrie representasjonsrom ($\mathrm{Ker}(\Pi_K) = \emptyset$) |
 | «Ønsketenkning / Håp» | Udeklarert kontrafaktisk drift uten tapsavskriving |
 | «Mening / Dybde» | Geometrisk bevart relasjonell invariant under transport |
 | «Stillhet» | Nullpunktslikevekt under Lyapunov-gradient ($\nabla E(P) = 0$) |
@@ -17890,7 +17890,7 @@ Det andre store spørsmålet lyder: *Fanger en defensiv, filtrerende grammatikk 
 
 Svaret ligger i formaliseringen av det relasjonelle reléet:
 
-$$\boxed{L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})}$$
+$$\boxed{L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})}$$
 
 Kjærlighet og kunst er ikke friksjonsfri destruksjon av grenser. Dersom to subjekter forsøker å smelte sammen ved å utslette hverandres grensebetingelser, oppstår ikke kjærlighet, men kollisjon ($D_K \to \infty$), psykisk oversvømmelse og gjensidig utslettelse. Kjærlighet er nettopp det motsatte: **nærhet under bevart frihet**. Den krever at to distinkte viabilitetsrom ($A_{\text{jeg}}$ og $A_{\text{du}}$) bevares, og at relasjonen etablerer et felles snittrom som begge kan bære uten at den enes struktur knuses av den andres tyngde.
 
@@ -18862,9 +18862,9 @@ At overgangsoperatoren $\Omega$ er **partiell** ($\rightharpoonup$), er et stren
 
 #### Separasjonsaksiomene ($S_1 - S_4$ mot sammenfolding):
 $$\begin{aligned}
-S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\operatorname{Codom}(\Phi) \cap D = \emptyset) \\
+S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\mathrm{Codom}(\Phi) \cap D = \emptyset) \\
 S_2 &: \quad \Pi_K \text{ kan autorisere, men ikke realisere } (\Pi_K \text{ endrer ikke systemtilstanden i } \Sigma) \\
-S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\operatorname{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
+S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\mathrm{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 

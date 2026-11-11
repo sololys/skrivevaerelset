@@ -15,7 +15,7 @@ Gjennom arbeidet med **KY-rammeverket (Realiseringsgrammatikken)** og våre 25 n
 
 En generert tilstand ($x' = \Phi(x_t)$) er kun et forslag uten hevd på konsekvens. Kun det som overlever strukturell projeksjon ($\Pi_K$), betaler sin termodynamiske pris og forsegles i fysisk masse ($\Omega$), får lov til å eksistere:
 
-$$x^* = \operatorname{Fix}(\Pi_K \circ \Phi) \iff x^* = \Pi_K(\Phi(x^*))$$
+$$x^* = \mathrm{Fix}(\Pi_K \circ \Phi) \iff x^* = \Pi_K(\Phi(x^*))$$
 
 Her er fem konkrete eksempler fra våre verifiserte `L1`-motorer på hvordan denne loven eliminerer paradokser og bygger ubestikkelig suverenitet – fra kvantefysikk og silisium til kraftnett og norsk landbruk:
 
@@ -65,7 +65,7 @@ Under ordinær drift utnytter *HMS Leidenfrost* spillvarmen fra sine AI-kjerner 
 
 Samme realiseringsgrammatikk knuser søkeflaskehalsen i ren datavitenskap. Klassiske vektor-indekser (som HNSW og Vamana) oppfører seg som en *Anti-Engine*: de utfører spekulativ pekervandring over uferdige grafer i DRAM, kveler hurtigbufferen (LLC) og presser prosessorens instruksjonstakt ned i knestående ($\text{IPC} \approx 0{,}33$).
 
-Ved å reformulere **PiPNN** (Rubel et al., KDD '26) inn i vår litiske kybernetikk, låses kandidatrommet først i lukkede geometriske blader ($C_{\max} \le 1024$) som prosesseres via L2-resident tett matrisemultiplikasjon (Dense GEMM med SIMD, der $\text{IPC}$ bykser til **$1{,}26$** – en $27\times$ lokal akselerasjon). Deretter filtreres kantene gjennom **HashPrune**: et involutivt, historie-uavhengig projiseringskammer ($\operatorname{HashPrune}(\pi(C)) \equiv \operatorname{HashPrune}(C)$). Resultatet? Indeksering av 1 milliard vektorer krymper fra uker til timer. *Non generatur sed admittitur* – virkeligheten genereres ikke, den innvilges gjennom materiens skranke.
+Ved å reformulere **PiPNN** (Rubel et al., KDD '26) inn i vår litiske kybernetikk, låses kandidatrommet først i lukkede geometriske blader ($C_{\max} \le 1024$) som prosesseres via L2-resident tett matrisemultiplikasjon (Dense GEMM med SIMD, der $\text{IPC}$ bykser til **$1{,}26$** – en $27\times$ lokal akselerasjon). Deretter filtreres kantene gjennom **HashPrune**: et involutivt, historie-uavhengig projiseringskammer ($\mathrm{HashPrune}(\pi(C)) \equiv \mathrm{HashPrune}(C)$). Resultatet? Indeksering av 1 milliard vektorer krymper fra uker til timer. *Non generatur sed admittitur* – virkeligheten genereres ikke, den innvilges gjennom materiens skranke.
 
 ---
 

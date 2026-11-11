@@ -1,5 +1,5 @@
 # 🏛️ BIND X: ALBERT EINSTEIN & FELTLIGNINGENE — *NON GENERATUR, SED ADMITTITUR*
-### *Om Gödels roterende støvunivers ($r\_{\text{CTC}}$), Petrov Type D Weyl-kjernen ($6{,}8\times$), $\operatorname{sech}^4$-projeksjonsstresset, Nash–Moser-iterasjon, $\text{ER}=\text{EPR}$ og Page-kurvens unitaritet*
+### *Om Gödels roterende støvunivers ($r\_{\text{CTC}}$), Petrov Type D Weyl-kjernen ($6{,}8\times$), $\mathrm{sech}^4$-projeksjonsstresset, Nash–Moser-iterasjon, $\text{ER}=\text{EPR}$ og Page-kurvens unitaritet*
 
 > **Epistemisk demarkasjon (`INSPIRED_BY != IMPLEMENTS != PROVES`):** Einsteins feltligninger (1915), Gödels metriske løsning (1949), Newman–Penrose Weyl-skalarer, Kerr-geometrien (1963), Nash–Moser implisitt funksjonsteorem (1956/1966), Bekenstein–Hawking-entropi, Maldacena–Susskind $\text{ER}=\text{EPR}$-formodningen (2013), Don Pages enhetskurve (1993) og Schurs produktteorem tilhører $\text{L0}$. De numeriske admisjonsfiltrene ($D_{\text{adm}}$, Moreau-resolventen $\Pi_{\mathcal{A}}$, `einstein_ky_engine.py` Fase 1–4 og PCSE-simuleringen) er deterministiske programvaremodeller på nivå $\text{L1}$. De utgjør ingen modifikasjon av astrofysisk generell relativitetsteori i naturen.
 
@@ -25,7 +25,7 @@ $$g_{\phi\phi}(r_0) = \sinh^2(r_0)\bigl(1 - \sinh^2(r_0)\bigr)$$
 
 Så lenge $\sinh(r_0) < 1$, er $g_{\phi\phi}(r_0) > 0$, og sirkelen er romlignende. Men i det øyeblikket radiusen passerer den kritiske Gödel-horisonten
 
-$$r_0 > r_{\text{CTC}} = \operatorname{arsinh}(1) = \ln\bigl(1 + \sqrt{2}\bigr) \approx 0{,}88137$$
+$$r_0 > r_{\text{CTC}} = \mathrm{arsinh}(1) = \ln\bigl(1 + \sqrt{2}\bigr) \approx 0{,}88137$$
 
 blir $\sinh(r_0) > 1$ og dermed **$g_{\phi\phi}(r_0) < 0$**! Sirkelen $(t = \text{konst}, r = r_0, \phi \in [0, 2\pi])$ er blitt en **lukket tidslignende kurve (CTC — *Closed Timelike Curve*)**: en observatør kan reise langs sirkelen fremover i sin egen lokale egentid og ankomme sin egen fortid.
 
@@ -67,15 +67,15 @@ Med reell modul $|\Psi_2| = M / (r^2 + a^2\cos^2\theta)^{3/2}$ konstruerer Bind 
 
 $$D_{\text{adm}}(\tau) = \exp\!\left(-\alpha\,\frac{|\nabla_u \Psi_2|^2}{|\Psi_2|^{8/3} + \eta_0}\right) \in (0, 1]$$
 
-Eksponenten $8/3$ i nevneren er ikke valgt vilkårlig: fordi $|\Psi_2| \sim r^{-3}$ og $|\nabla_u \Psi_2| \sim r^{-4}$, skalerer telleren som $|\nabla_u \Psi_2|^2 \sim r^{-8}$ og $|\Psi_2|^{8/3} \sim (r^{-3})^{8/3} = r^{-8}$. Forholdet er dermed **eksakt dimensjonsløst og asymptotisk skaleringsinvariant** i svakfeltet, mens det stuper brått mot $0$ når banen møter skarpe krumningssprang nær ergosfæren. Numerisk verifikasjon viser at $D_{\text{adm}}(\Psi_2)$ gir **$6{,}8\times$ høyere deteksjonssensitivitet** for begynnende banekollaps enn Kretschmann-skalaren $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma} = 48\,\operatorname{Re}(\Psi_2^2)$ alene.
+Eksponenten $8/3$ i nevneren er ikke valgt vilkårlig: fordi $|\Psi_2| \sim r^{-3}$ og $|\nabla_u \Psi_2| \sim r^{-4}$, skalerer telleren som $|\nabla_u \Psi_2|^2 \sim r^{-8}$ og $|\Psi_2|^{8/3} \sim (r^{-3})^{8/3} = r^{-8}$. Forholdet er dermed **eksakt dimensjonsløst og asymptotisk skaleringsinvariant** i svakfeltet, mens det stuper brått mot $0$ når banen møter skarpe krumningssprang nær ergosfæren. Numerisk verifikasjon viser at $D_{\text{adm}}(\Psi_2)$ gir **$6{,}8\times$ høyere deteksjonssensitivitet** for begynnende banekollaps enn Kretschmann-skalaren $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma} = 48\,\mathrm{Re}(\Psi_2^2)$ alene.
 
 **Teorem 10.1 (Eksakt Fréchet-derivasjon av Weyl-admisjonskjernen):** *La $Q(g) = \frac{|\nabla_u\Psi_2(g)|^2}{|\Psi_2(g)|^{8/3} + \eta_0}$ være kvotientfunksjonalet for metrikken $g$. For enhver symmetrisk metrisk perturbasjon $h = \delta g_{\mu\nu}$ er Fréchet-derivatet $DD_{\text{adm}}[g]\cdot h$ veldefinert og gitt eksakt ved:*
 
-$$D D_{\text{adm}}[g]\cdot h = -\alpha\,D_{\text{adm}}(g)\left[\frac{2\operatorname{Re}\bigl(\overline{\nabla_u\Psi_2}\,(D(\nabla_u\Psi_2)[g]\cdot h)\bigr)}{|\Psi_2|^{8/3} + \eta_0} - \frac{8}{3}\frac{|\nabla_u\Psi_2|^2\,|\Psi_2|^{2/3}\operatorname{Re}\bigl(\overline{\Psi_2}\,(D\Psi_2[g]\cdot h)\bigr)}{\bigl(|\Psi_2|^{8/3} + \eta_0\bigr)^2}\right]$$
+$$D D_{\text{adm}}[g]\cdot h = -\alpha\,D_{\text{adm}}(g)\left[\frac{2\mathrm{Re}\bigl(\overline{\nabla_u\Psi_2}\,(D(\nabla_u\Psi_2)[g]\cdot h)\bigr)}{|\Psi_2|^{8/3} + \eta_0} - \frac{8}{3}\frac{|\nabla_u\Psi_2|^2\,|\Psi_2|^{2/3}\mathrm{Re}\bigl(\overline{\Psi_2}\,(D\Psi_2[g]\cdot h)\bigr)}{\bigl(|\Psi_2|^{8/3} + \eta_0\bigr)^2}\right]$$
 
 ---
 
-## 4. Planck-Skranken ($\epsilon \ge 2l_P$), Eikonal-Virkningen og $\operatorname{sech}^4$-Projeksjonsstresset ($\Sigma_{\mu\nu}^{\text{irr}}$)
+## 4. Planck-Skranken ($\epsilon \ge 2l_P$), Eikonal-Virkningen og $\mathrm{sech}^4$-Projeksjonsstresset ($\Sigma_{\mu\nu}^{\text{irr}}$)
 
 En skarp matematisk Heaviside-vegg $\Theta(d)$ ved randen $\partial\mathcal{A}$ krever uendelig romlig oppløsning ($\epsilon \to 0$) og gir en singulær Dirac-delta-gradient $\nabla_\mu\Theta(d) = \delta(d)\,n_\mu$, som divergerer kvadratisk i virkningsintegralet. I fysisk kvantegravitasjon utelukker imidlertid kombinasjonen av Heisenbergs uskarphetsrelasjon ($\Delta p \ge \hbar / (2\Delta x)$) og kravet om at måleenergien ikke kollapser innenfor sin egen Schwarzschild-horisont ($r_S = 2GE/c^4 \ge l_P^2/\Delta x$) enhver lokalisering skarpere enn den doble Planck-lengden:
 
@@ -83,7 +83,7 @@ $$\epsilon \ge \Delta x_{\min} = 2 l_P = 2\sqrt{\frac{\hbar G}{c^3}} \approx 3{,
 
 Avstanden $d(x)$ til grensen av det admissible rommet $\partial\mathcal{A}$ defineres gjennom det kovariante eikonal-feltet $g^{\mu\nu}\nabla_\mu d(x)\,\nabla_\nu d(x) = \sigma \in \{+1, -1\}$ med normalvektor $n_\mu = \nabla_\mu d(x)$. Den regulariserte admisjonsporten og dens feltgradient får dermed en glatt overgangsprofil:
 
-$$P_K^{(\epsilon)}(x) = \frac{1}{2}\left[1 + \tanh\!\left(\frac{d(x)}{2\epsilon}\right)\right], \qquad \nabla_\mu P_K^{(\epsilon)}(x) = \frac{1}{4\epsilon}\operatorname{sech}^2\!\left(\frac{d(x)}{2\epsilon}\right)n_\mu$$
+$$P_K^{(\epsilon)}(x) = \frac{1}{2}\left[1 + \tanh\!\left(\frac{d(x)}{2\epsilon}\right)\right], \qquad \nabla_\mu P_K^{(\epsilon)}(x) = \frac{1}{4\epsilon}\mathrm{sech}^2\!\left(\frac{d(x)}{2\epsilon}\right)n_\mu$$
 
 Totalvirkningen for systemet med metrisk felt $g_{\mu\nu}$, materiefelter $\psi$, eikonal-avstand $d(x)$ og Lagrange-multiplikator $\eta(x)$ er:
 
@@ -93,11 +93,11 @@ Ved å variere $S_{\text{tot}}$ med hensyn på den inverse metrikken ($\delta S_
 
 $$G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}\Bigl(T_{\mu\nu} + \Sigma_{\mu\nu}^{\text{irr}}\Bigr)$$
 
-der det **irreversible grense-projeksjonsstresset** $\Sigma_{\mu\nu}^{\text{irr}} = -\frac{2}{\sqrt{-g}}\frac{\delta S_{\text{adm}}}{\delta g^{\mu\nu}}$ har den eksakte $\operatorname{sech}^4$-profilen:
+der det **irreversible grense-projeksjonsstresset** $\Sigma_{\mu\nu}^{\text{irr}} = -\frac{2}{\sqrt{-g}}\frac{\delta S_{\text{adm}}}{\delta g^{\mu\nu}}$ har den eksakte $\mathrm{sech}^4$-profilen:
 
-$$\Sigma_{\mu\nu}^{\text{irr}} = \underbrace{\frac{\lambda_2}{16\epsilon^2}\operatorname{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}\bigl(g^{\alpha\beta}n_\alpha n_\beta\bigr)\right]}_{\Sigma_{\mu\nu}^{(\text{grad})} \text{ (eksakt } \operatorname{sech}^4\text{-profil)}} - \underbrace{g_{\mu\nu}\,V_\epsilon\bigl(P_K^{(\epsilon)}\bigr)}_{\Sigma_{\mu\nu}^{(\text{pot})}} + \underbrace{\eta(x)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}\bigl(g^{\alpha\beta}n_\alpha n_\beta\bigr)\right]}_{\Sigma_{\mu\nu}^{(\text{eik})} \text{ (eikonal defekt / normalspenning)}}$$
+$$\Sigma_{\mu\nu}^{\text{irr}} = \underbrace{\frac{\lambda_2}{16\epsilon^2}\mathrm{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}\bigl(g^{\alpha\beta}n_\alpha n_\beta\bigr)\right]}_{\Sigma_{\mu\nu}^{(\text{grad})} \text{ (eksakt } \mathrm{sech}^4\text{-profil)}} - \underbrace{g_{\mu\nu}\,V_\epsilon\bigl(P_K^{(\epsilon)}\bigr)}_{\Sigma_{\mu\nu}^{(\text{pot})}} + \underbrace{\eta(x)\left[n_\mu n_\nu - \frac{1}{2}g_{\mu\nu}\bigl(g^{\alpha\beta}n_\alpha n_\beta\bigr)\right]}_{\Sigma_{\mu\nu}^{(\text{eik})} \text{ (eikonal defekt / normalspenning)}}$$
 
-* **Eksponentiell taushet i det indre ($\mathcal{A}^{\circ}$):** Når tilstanden befinner seg trygt inne i det tillatte rommet ($d(x) \gg \epsilon$), går $\operatorname{sech}^4\bigl(\frac{d}{2\epsilon}\bigr) \to 16\,\mathrm{e}^{-2d/\epsilon} \to 0$ og $V_\epsilon(1) = 0$. Da er $\Sigma_{\mu\nu}^{\text{irr}} \equiv 0$, og standard generell relativitetsteori ($G_{\mu\nu} + \Lambda g_{\mu\nu} = \kappa T_{\mu\nu}$) gjelder eksakt.
+* **Eksponentiell taushet i det indre ($\mathcal{A}^{\circ}$):** Når tilstanden befinner seg trygt inne i det tillatte rommet ($d(x) \gg \epsilon$), går $\mathrm{sech}^4\bigl(\frac{d}{2\epsilon}\bigr) \to 16\,\mathrm{e}^{-2d/\epsilon} \to 0$ og $V_\epsilon(1) = 0$. Da er $\Sigma_{\mu\nu}^{\text{irr}} \equiv 0$, og standard generell relativitetsteori ($G_{\mu\nu} + \Lambda g_{\mu\nu} = \kappa T_{\mu\nu}$) gjelder eksakt.
 * **Planck-skalert repulsiv vegg ved randen ($\partial\mathcal{A}$):** I grenseskiktet $|d(x)| \lesssim \epsilon$ reiser $\Sigma_{\mu\nu}^{\text{irr}}$ en glatt, fysisk energibarriere av orden $\mathcal{O}(\lambda_2/\epsilon^2) \propto l_P^{-2}$ som bøyer geodetiske baner bort fra den ulovlige sonen.
 * **Bianchi–Landauer-konservering ved horisonten:** Fordi Einsteins tensor tilfredsstiller den kontraherte Bianchi-identiteten $\nabla^\mu G_{\mu\nu} \equiv 0$, påtvinger feltligningen den eksakte balansen:
 
@@ -139,15 +139,15 @@ Bind X fullfører den klassiske og semiklassiske feltarkitekturen med fire skarp
      Langs en verdenslinje $\gamma: [t_0, t_f] \to \mathcal{H}$ akkumulerer et tilstandsensemble den relasjonelle belastningsmetrikken $D_K(\gamma) = \int_{t_0}^{t_f}\bigl(\alpha\|\ddot{\psi}(t)\|^2 + \beta\dot{Q}_{\text{erase}}(t)\bigr)\mathrm{d}t$, som definerer horisontkjernen $K_\gamma = \exp\bigl(-\lambda D_K(\gamma)\bigr) \in (0, 1]$.
      I et to-arms Mach–Zehnder-interferometer sammenlignes **Bane A** (en direkte geodetisk rotasjon i det indre av $\mathcal{A}$ med $D_K(A) = 0 \implies K_\gamma(A) = 1{,}00$) og **Bane B** (en syklisk høy-forsterket bane som har berørt sikkerhetsgrensen og betalt en kryogenisk Landauer-skatt $Q_{\text{total}}(B) = D_K(B)\,k_B T\ln 2 \approx 4{,}81 \times 10^{-23}\text{ J}$ ved $T = 4{,}12\text{ K}$, slik at $D_K(B) \approx 1{,}22\text{–}1{,}386 \implies K_\gamma(B) \approx 0{,}25$). Begge baner ender i eksakt samme øyeblikkelige tetthetsmatrise $|\psi_A(t_f)\rangle = |\psi_B(t_f)\rangle = |+\rangle$ med Frobenius-avstand $\|\rho_A - \rho_B\|_F < 10^{-16}$.
      Mens en minneløs (Markoviansk) Born-projektor er blind for banens forhistorie, leser det **historiske POVM-elementet** $E_K(K_\gamma) = \frac{1}{2}\bigl(I + K_\gamma(\hat{n}\cdot\vec{\sigma})\bigr)$ (med $E_K + E_K^\perp = I$) ut det strukturelle arret i $K_\gamma$:
-     $$P\bigl(E_K \mid \rho, K_\gamma\bigr) = \operatorname{Tr}\bigl(\rho\,E_K(K_\gamma)\bigr) = \frac{1}{2}\Bigl(1 + K_\gamma\bigl(\vec{r}\cdot\hat{n}\bigr)\Bigr)$$
+     $$P\bigl(E_K \mid \rho, K_\gamma\bigr) = \mathrm{Tr}\bigl(\rho\,E_K(K_\gamma)\bigr) = \frac{1}{2}\Bigl(1 + K_\gamma\bigl(\vec{r}\cdot\hat{n}\bigr)\Bigr)$$
      Dette produserer den målbare førsteordens fase-hysteresen mellom den indre geodetiske banen og grense-berøringsbanen:
      $$\Delta p = |p_A - p_B| = \frac{1}{2}\bigl(1 - K_\gamma(B)\bigr)\bigl(\vec{r}\cdot\hat{n}\bigr) \approx \mathbf{0{,}1262} \quad \bigl(p_A = 0{,}5002,\; p_B = 0{,}6264,\; z \approx \mathbf{27{,}2\sigma}\text{ ved } N = 20\,000\text{ skudd}\bigr)$$
    * **Streng bevaring av No-Signaling ($\rho_B' \equiv \rho_B$):** Fordi de historiske POVM-operatorene $M_{A,\mu} = \sqrt{E_{K,\mu}}$ på Alices delsystem utgjør et komplett sett ($\sum_\mu M_{A,\mu}^\dagger M_{A,\mu} = E_K + (I_A - E_K) = I_A$), forblir Bobs reduserte tetthetsmatrise over et romlig adskilt EPR-par $\rho_{AB}$ matematisk uforandret:
-     $$\rho_B' = \operatorname{Tr}_A\!\left(\sum_\mu \bigl(M_{A,\mu}\otimes I_B\bigr)\rho_{AB}\bigl(M_{A,\mu}^\dagger\otimes I_B\bigr)\right) = \operatorname{Tr}_A\!\Bigl(\bigl(\underbrace{\sum_\mu M_{A,\mu}^\dagger M_{A,\mu}}_{=\,I_A}\otimes I_B\bigr)\rho_{AB}\Bigr) = \operatorname{Tr}_A(\rho_{AB}) \equiv \rho_B$$
+     $$\rho_B' = \mathrm{Tr}_A\!\left(\sum_\mu \bigl(M_{A,\mu}\otimes I_B\bigr)\rho_{AB}\bigl(M_{A,\mu}^\dagger\otimes I_B\bigr)\right) = \mathrm{Tr}_A\!\Bigl(\bigl(\underbrace{\sum_\mu M_{A,\mu}^\dagger M_{A,\mu}}_{=\,I_A}\otimes I_B\bigr)\rho_{AB}\Bigr) = \mathrm{Tr}_A(\rho_{AB}) \equiv \rho_B$$
 
 ---
 
-## 6. Fase 4 i `einstein_ky_engine.py`: Holografisk Sammenfiltring ($\text{ER}=\text{EPR}$), Hawking-Spalting og Page-Kurvens Unitaritet ($\operatorname{Tr}(\rho^2) = 1$)
+## 6. Fase 4 i `einstein_ky_engine.py`: Holografisk Sammenfiltring ($\text{ER}=\text{EPR}$), Hawking-Spalting og Page-Kurvens Unitaritet ($\mathrm{Tr}(\rho^2) = 1$)
 
 I [`einstein_ky_engine_phase4.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/einstein_ky_engine_phase4.py) (verifisert med `30/30 PASS` i [`test_einstein_ky_engine.py`](file:///home/sololyset/03_ENGINES/tests/test_einstein_ky_engine.py) og [`test_einstein_ky_engine_phase4.py`](file:///home/sololyset/03_ENGINES/tests/test_einstein_ky_engine_phase4.py)) løftes Kerr-skranken fra klassisk og semiklassisk relativitet inn i holografisk kvanteinformasjon gjennom to koblede motorer:
 
@@ -166,7 +166,7 @@ $$b_0 = \sqrt{\alpha\,I(A:B)}, \qquad I(A:B) = \begin{cases} 2\ln 2 \approx 1{,}
 * **Øyeblikkelig strupekollaps ved tukling:** Dersom en angriper måler eller manipulerer én av nodene slik at sammenfiltringshashen brytes, faller $I(A:B) \to 0 \implies b_0 = 0$. Ormehullsstrupen snøres igjen på én syklus, og systemet tvinges tilbake til den fulle ytre lyskjegle-forsinkelsen $d_{\text{Euclid}}$.
 
 ### 6.2 Asymmetrisk Hawking-Parspalting og Page-Kurvens Unitaritet (`HolographicHawkingEngine`)
-Hawking-paradokset (1975) oppstår når vakuumfluktuasjoner nær den ytre Kerr-horisonten $r_+ = M + \sqrt{M^2 - a^2}$ skaper et sammenfiltret kvantepar $(A, B)$ ved $r = r_+ + \epsilon$. Dersom den innfallende partneren $A$ går tapt i en lovløs singularitet mens $B$ unnslipper som termisk stråling, vil strålingsentropien $S_{\text{rad}}(t)$ vokse monotont til hele det sorte hullet er fordampet ($M \to 0$), slik at en ren kvantetilstand ender i en blandet termisk grøt ($\operatorname{Tr}(\rho^2) < 1$ — tap av informasjon og sammenbrudd av kvantemekanisk unitaritet).
+Hawking-paradokset (1975) oppstår når vakuumfluktuasjoner nær den ytre Kerr-horisonten $r_+ = M + \sqrt{M^2 - a^2}$ skaper et sammenfiltret kvantepar $(A, B)$ ved $r = r_+ + \epsilon$. Dersom den innfallende partneren $A$ går tapt i en lovløs singularitet mens $B$ unnslipper som termisk stråling, vil strålingsentropien $S_{\text{rad}}(t)$ vokse monotont til hele det sorte hullet er fordampet ($M \to 0$), slik at en ren kvantetilstand ender i en blandet termisk grøt ($\mathrm{Tr}(\rho^2) < 1$ — tap av informasjon og sammenbrudd av kvantemekanisk unitaritet).
 
 I `HolographicHawkingEngine` løses dette gjennom **horisont-forsegling (`EVENT_HORIZON_COMMIT_LOCKED`)** og **Don Pages enhetskurve**:
 
@@ -179,13 +179,13 @@ I `HolographicHawkingEngine` løses dette gjennom **horisont-forsegling (`EVENT_
    $$S_{\text{BH}}\bigl(M(n)\bigr) = \pi k_B\,\frac{r_+(M(n))^2 + a_{\text{eff}}^2}{l_P^2}$$
    Hver utsendte Hawking-kvant $B$ øker strålingsentropien med $\ln 2$. Men fordi strålingen $B$ kun er sammenfiltret med de gjenværende WORM-nodene på horisonten, kan strålingens von Neumann-entropi $S_{\text{rad}}(n)$ **aldri overstige horisontens egen Bekenstein–Hawking-entropi $S_{\text{BH}}(n)$**:
    $$S_{\text{rad}}(n) = \min\Bigl(n\ln 2,\; S_{\text{BH}}\bigl(M(n)\bigr)\Bigr)$$
-3. **Vendingen ved Page-punktet og ren slutt-tilstand ($\operatorname{Tr}(\rho^2) = 1$):**
+3. **Vendingen ved Page-punktet og ren slutt-tilstand ($\mathrm{Tr}(\rho^2) = 1$):**
    * **Før Page-tiden ($n\ln 2 < S_{\text{BH}}(n)$):** $S_{\text{rad}}(n)$ vokser lineært med $n\ln 2$ fordi hver nye utsendte kvant bringer ny sammenfiltring med horisonten.
    * **Etter Page-tiden ($n\ln 2 \ge S_{\text{BH}}(n)$):** Horisonten er mettet; nye utsendte Hawking-kvanter er via $\text{ER}=\text{EPR}$-broene sammenfiltret med den *tidligere utsendte* strålingen og renser derfor strålingstilstanden. $S_{\text{rad}}(n)$ bøyer nedover langs den krympende horisontkurven $S_{\text{BH}}(M(n))$.
    * **Full fordampning ($M \to 0$):** Når den siste masseresten fordamper, går $S_{\text{BH}}(0) \to 0 \implies S_{\text{rad}}(\text{slutt}) = 0$. Hele det historiske vitneregnskapet er bevart i den utsendte strålingen med eksakt kvantemekanisk renhet:
-     $$\lim_{M \to 0} S_{\text{rad}} = 0 \quad \Longleftrightarrow \quad \operatorname{Tr}\bigl(\rho_{\text{rad}}^2\bigr) = 1{,}0, \qquad \mathtt{unitarity\_preserved = True}$$
+     $$\lim_{M \to 0} S_{\text{rad}} = 0 \quad \Longleftrightarrow \quad \mathrm{Tr}\bigl(\rho_{\text{rad}}^2\bigr) = 1{,}0, \qquad \mathtt{unitarity\_preserved = True}$$
 
 > **KONTRASTVÆSKE // DET SANSELIGE ANKERET ($\Pi_{\text{orth}}$ — Bind X / Feltligningene)**  
-> * **Ligning i faserommet:** $D_{\text{adm}}(\tau) = \exp\!\left(-\alpha\frac{|\nabla_u\Psi_2|^2}{|\Psi_2|^{8/3}+\eta_0}\right)$, $\Sigma_{\mu\nu}^{\text{irr}} \propto \epsilon^{-2}\operatorname{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)$, Nash–Moser-glatting $g_{k+1} = g_k - S_{\theta_k}[D\mathcal{N}(g_k)]^{-1}\mathcal{N}(g_k)$ og Page-kurven $S_{\text{rad}}(n) = \min\bigl(n\ln 2, S_{\text{BH}}(n)\bigr)$.  
-> * **Kjøtt, stål og sludd:** Bak Newman–Penrose-skalaren $\Psi_2$, det fjerdeordens derivasjonstapet i Nash–Moser-iterasjonen og horisont-forseglingen ved $r_+$ står en enkel, brutal erfaring fra steinhoggerens benk: slår du meiselen for brått inn i kald granitt uten å glatte slaget ($\epsilon \to 0$), sprekker ikke steinen langs snittet — meiselstålet splintres i hånden din av tilbakeslaget ($\Sigma_{\mu\nu}^{\text{irr}} \to \infty$). Og når steinen først er delt langs kløven ($r_+$), passer de to bruddflatene fortsatt eksakt inn i hverandre tann for tann ($b_0 = \sqrt{\alpha I(A:B)}$, $\operatorname{Tr}(\rho^2) = 1$).  
+> * **Ligning i faserommet:** $D_{\text{adm}}(\tau) = \exp\!\left(-\alpha\frac{|\nabla_u\Psi_2|^2}{|\Psi_2|^{8/3}+\eta_0}\right)$, $\Sigma_{\mu\nu}^{\text{irr}} \propto \epsilon^{-2}\mathrm{sech}^4\!\left(\frac{d(x)}{2\epsilon}\right)$, Nash–Moser-glatting $g_{k+1} = g_k - S_{\theta_k}[D\mathcal{N}(g_k)]^{-1}\mathcal{N}(g_k)$ og Page-kurven $S_{\text{rad}}(n) = \min\bigl(n\ln 2, S_{\text{BH}}(n)\bigr)$.  
+> * **Kjøtt, stål og sludd:** Bak Newman–Penrose-skalaren $\Psi_2$, det fjerdeordens derivasjonstapet i Nash–Moser-iterasjonen og horisont-forseglingen ved $r_+$ står en enkel, brutal erfaring fra steinhoggerens benk: slår du meiselen for brått inn i kald granitt uten å glatte slaget ($\epsilon \to 0$), sprekker ikke steinen langs snittet — meiselstålet splintres i hånden din av tilbakeslaget ($\Sigma_{\mu\nu}^{\text{irr}} \to \infty$). Og når steinen først er delt langs kløven ($r_+$), passer de to bruddflatene fortsatt eksakt inn i hverandre tann for tann ($b_0 = \sqrt{\alpha I(A:B)}$, $\mathrm{Tr}(\rho^2) = 1$).  
 > * **Dom ved porten:** Selv romtiden krever en endelig fuge ($\epsilon \ge 2l_P$), en utjevnet meiselvinkel ($S_{\theta_k}$) og en uforfalskelig bruddflate før en tilstand får lov til å sette seg som varig krumning.

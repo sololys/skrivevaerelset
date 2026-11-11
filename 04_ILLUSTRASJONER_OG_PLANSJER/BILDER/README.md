@@ -28,7 +28,7 @@ KANONISK IDENTIFIKASJON:
 
 2. **`02_kjaerlighetens_rele_casimir_stasis.jpg`**
    * **Tittel:** Kjærlighetens Relé (Casimir Stasis)
-   * **Konsept:** $L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$ — *Nærhet under bevart frihet*.
+   * **Konsept:** $L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$ — *Nærhet under bevart frihet*.
    * **Motiv:** To høy-presisjons kontaktpoler (gull og wolfram) i et ultrakurant vakuumkammer. De nærmer seg hverandre med mikron-presisjon og skaper et kvante-vakuumglimt (Casimir-stasis) uten noensinne å berøre eller smelte sammen.
    * **Bruk:** Nøkkelbilde for Bind III (*Realiseringsgrammatikk*), relasjonell etikk og cybernetikk.
 

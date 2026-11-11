@@ -57,9 +57,9 @@ Enhver gyldig instans av $\mathcal R$ må tilfredsstille følgende tre invariant
 For å forhindre at komponentene matematisk foldes sammen til én enkelt ugjennomsiktig operator ($\Omega'$), måles minimaliteten på **kausale roller**. Systemet må tilfredsstille fire ufravikelige separasjonsaksiomer:
 
 $$\begin{aligned}
-S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\operatorname{Codom}(\Phi) \cap D = \emptyset) \\
+S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\mathrm{Codom}(\Phi) \cap D = \emptyset) \\
 S_2 &: \quad \Pi_K \text{ kan autorisere, men ikke realisere } (\Pi_K \text{ forårsaker ingen tilstandsendring i } \Sigma) \\
-S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\operatorname{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
+S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\mathrm{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 

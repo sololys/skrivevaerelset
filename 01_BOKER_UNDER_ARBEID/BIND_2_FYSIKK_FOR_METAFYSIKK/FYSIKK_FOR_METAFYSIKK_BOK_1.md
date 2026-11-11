@@ -4061,19 +4061,19 @@ Mer presist kreves at de separerte kompakte bildene (E_\pm=g(K_\pm)) er egnet fo
 Fikspunkter:
 [
 \boxed{
-\operatorname{Fix}(M)={x\in X:M(x)=x}
+\mathrm{Fix}(M)={x\in X:M(x)=x}
 }
 ]
 Alle ikke-null fikspunkter er viable:
 [
 \boxed{
-\operatorname{Fix}(M)\subseteq\Gamma_M
+\mathrm{Fix}(M)\subseteq\Gamma_M
 }
 ]
 Men generelt:
 [
 \boxed{
-\Gamma_M\neq\operatorname{Fix}(M)
+\Gamma_M\neq\mathrm{Fix}(M)
 }
 ]
 Periodiske baner, stabile sykluser og ikke-stasjonære viable baner kan overleve under gate uten å være fikspunkter.
@@ -6255,7 +6255,7 @@ Kombinert:
 Materialet skriver:
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 Dette er sterkest for stasjonære selvkonsistente realiseringer. For ikke-stasjonære baner er tryggere:
@@ -6580,7 +6580,7 @@ Ingen optimalisering, ingen preferanse, ingen “beste” bane. Bare umuliggjør
 2. Fix-formen og viability-formen må typesepareres
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 er sterk for stasjonære/selvkonsistente realiseringer.
@@ -8414,13 +8414,13 @@ Kjerne:
 ]
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 men med den tidligere type-presiseringen:
 [
 \boxed{
-\operatorname{Fix}(\Pi\circ\Phi)\subseteq \mathrm{Viab}(K)
+\mathrm{Fix}(\Pi\circ\Phi)\subseteq \mathrm{Viab}(K)
 }
 ]
 for stasjonære/selvkonsistente realiseringer; generelt er realitet i modellen:
@@ -8491,7 +8491,7 @@ x\text{ exists}\iff x=\Pi(\Phi(x))
 ]
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 Elimination operator:
@@ -8848,7 +8848,7 @@ T_{KY}\equiv\Omega\circ\Pi_K\circ\Phi
 ]
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 [
@@ -9083,7 +9083,7 @@ Det modne rammeverket sier derfor ikke “virkelighet = fikspunkt” som univers
 og bare i selvkonsistente/lukkede grensetilfeller:
 [
 \boxed{
-\text{realisering kan komprimeres til }\operatorname{Fix}(\Pi\circ\Phi)
+\text{realisering kan komprimeres til }\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 ________________
@@ -9882,7 +9882,7 @@ x\text{ exists}\iff x=\Pi(\Phi(x))
 Reality:
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 Elimination operator:
@@ -10775,7 +10775,7 @@ Tid tolkes som spor:
 Fixed-point paper:
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 [
@@ -11005,7 +11005,7 @@ m_{t+1}\supseteq m_t
 ]
 [
 \boxed{
-\text{Reality}=\operatorname{Fix}(\Pi\circ\Phi)
+\text{Reality}=\mathrm{Fix}(\Pi\circ\Phi)
 }
 ]
 [

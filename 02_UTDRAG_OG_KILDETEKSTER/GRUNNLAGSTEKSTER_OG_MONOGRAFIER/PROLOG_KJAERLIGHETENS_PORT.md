@@ -494,7 +494,7 @@ En dårlig relasjon kan være stabil.
  Et avhengighetsmønster kan være stabilt.
  En AI-feedback-loop kan være stabil.
 Stabilitet er ikke nok.
-Dette knytter rett inn i den tidligere KY-linjen: A≠Viab(A)A \neq \operatorname{Viab}(A)A=Viab(A), og viability er ikke automatisk rettferdighet. KY trenger porten, ikke bare likevekten.
+Dette knytter rett inn i den tidligere KY-linjen: A≠Viab(A)A \neq \mathrm{Viab}(A)A=Viab(A), og viability er ikke automatisk rettferdighet. KY trenger porten, ikke bare likevekten.
 Dansens tillegg: samtykke som rytmisk admissibility
 Dans gir oss også et språk for samtykke uten å gjøre det juridisk først.
 Samtykke er ikke bare et ja i starten. Det er kontinuerlig adgang.
@@ -880,7 +880,7 @@ Eller:
 Å tape kampen kan være å nekte Ghost Win.
  Å vinne krigen er å bevare feltet der ekte OPEN fortsatt kan finnes.
 Et lokalt vinnende trekk er ikke nødvendigvis en realisert seier. En seier må være levedyktig gjennom tid.
-Den harde ryggen ligger i viability-formuleringen fra Generated Dynamics-materialet: realisering er ikke bare at noe kan genereres eller skrives som løsning; det må kunne forbli admissibelt under videre utvikling. Den realiserte sektoren defineres som Γphys=ViabΦ(AK)\Gamma_{\mathrm{phys}}=\operatorname{Viab}_{\Phi}(A_K)Γphys=ViabΦ(AK), altså tilstander som forblir innen admissible struktur for alle fremtidige tider.
+Den harde ryggen ligger i viability-formuleringen fra Generated Dynamics-materialet: realisering er ikke bare at noe kan genereres eller skrives som løsning; det må kunne forbli admissibelt under videre utvikling. Den realiserte sektoren defineres som Γphys=ViabΦ(AK)\Gamma_{\mathrm{phys}}=\mathrm{Viab}_{\Phi}(A_K)Γphys=ViabΦ(AK), altså tilstander som forblir innen admissible struktur for alle fremtidige tider.
 Overført til spill:
 Seierreal≠lokal payoff\text{Seier}_{\mathrm{real}} \neq \text{lokal payoff}Seierreal=lokal payoff Seierreal=payoff som bevarer spillbarhet over tid\text{Seier}_{\mathrm{real}} = \text{payoff som bevarer spillbarhet over tid}Seierreal=payoff som bevarer spillbarhet over tid
 Det betyr:

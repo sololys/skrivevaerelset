@@ -20,7 +20,7 @@ Arkitekturen $\mathrm{Reversible}^2$ hviler på to koblede ordener av reversibil
 
 $$\begin{aligned}
 \mathbf{Rev^1\text{ (Ekte involusjon i } D_0 \cup D_1\mathbf{)}:} &\quad \forall s \in D_0 \cup D_1,\quad F\bigl(F(s)\bigr) = s \\
-\mathbf{Rev^2\text{ (Reversibilitet om reversibilitet)}:} &\quad \operatorname{Dom}(F) \cap (D_2 \cup D_3) = \emptyset
+\mathbf{Rev^2\text{ (Reversibilitet om reversibilitet)}:} &\quad \mathrm{Dom}(F) \cap (D_2 \cup D_3) = \emptyset
 \end{aligned}$$
 
 Hvorfor er $\text{Rev}^2$ («forbudet mot anti-reversibilitet») ufravikelig i $D_2$? Dersom en irreversibel fysisk feilhandling $A_1$ i $D_2$ produserer entropi $\Delta S_1 > 0$, og en programvareutvikler forsøker å «angre» handlingen ved å fyre av en motsatt fysisk handling $A_2 = \text{«Undo»}(A_1)$ med entropiproduksjon $\Delta S_2 > 0$, blir den totale entropiproduksjonen i universet ikke null, men **dobbelt positiv**:
@@ -39,7 +39,7 @@ I $D_0 \cup D_1$ er involusjonen $R: \mathcal{H} \to \mathcal{H}$ ($R^2 = I$) ik
 
 $$R = 2P - I \iff P = \frac{I + R}{2}$$
 
-*Hilbert-rommet dekomponeres ortogonalt i det invariante sannhetsrommet $\mathcal{K} = \mathcal{H}_+ = \{s \in \mathcal{H} \mid R(s) = +s\} = \operatorname{Im}(P)$ og det antisymmetriske feilrommet $\mathcal{H}_- = \{s \in \mathcal{H} \mid R(s) = -s\} = \operatorname{Ker}(P)$:*
+*Hilbert-rommet dekomponeres ortogonalt i det invariante sannhetsrommet $\mathcal{K} = \mathcal{H}_+ = \{s \in \mathcal{H} \mid R(s) = +s\} = \mathrm{Im}(P)$ og det antisymmetriske feilrommet $\mathcal{H}_- = \{s \in \mathcal{H} \mid R(s) = -s\} = \mathrm{Ker}(P)$:*
 
 $$\mathcal{H} = \mathcal{H}_+ \oplus_M \mathcal{H}_-$$
 
@@ -57,8 +57,8 @@ $$\bigl\|s - R(s)\bigr\|_M = \bigl\|s - (2P(s) - s)\bigr\|_M = 2\bigl\|s - P(s)\
 
 1. **Kvante- og spinn-involusjon på Bloch-sfæren:** Enhver spinn-$1/2$ tetthetsmatrise $\rho = \frac{1}{2}(I_2 + \mathbf{r}\cdot\boldsymbol{\sigma})$ med Bloch-vektor $\mathbf{r} \in \mathbb{R}^3$ ($\|\mathbf{r}\|_2 \le 1$) speiles eksakt gjennom aksen $\hat{n} \in S^2$ av Pauli-operatoren $U_{\hat{n}} = \hat{n}\cdot\boldsymbol{\sigma}$ ($U_{\hat{n}}^2 = I_2, U_{\hat{n}}^\dagger = U_{\hat{n}}$):
    $$\mathcal{F}_{\hat{n}}(\rho) = U_{\hat{n}}\,\rho\,U_{\hat{n}}^\dagger \implies \mathcal{F}_{\hat{n}}\bigl(\mathcal{F}_{\hat{n}}(\rho)\bigr) = \rho, \qquad \mathbf{r} \mapsto 2(\mathbf{r}\cdot\hat{n})\hat{n} - \mathbf{r}$$
-   Von Neumann-entropien $S(\rho) = -\operatorname{Tr}(\rho\ln\rho)$ er eksakt invariant ($\Delta S = 0$).
-2. **Dual-rail paritetsinvolusjon over $\mathbb{Z}_2^{1000}$ og den kritiske linjen $\operatorname{Re}(s) = 1/2$:** I maskinvare som skal være immun mot både sidekanalsanalyse (DPA — *Differential Power Analysis*) og asymmetrisk bit-drift, kodes hvert logisk bit som et komplementært par $(b, \bar{b}) \in \{(0,1), (1,0)\}$ over en blokk på $N = 1\,000$ bit. Under bit-komplement-involusjonen $\mathcal{J}(s) = \mathbf{1} - s$ ligger alle gyldige kodeord eksakt på det affine midtplanet (den diskrete «kritiske linjen»):
+   Von Neumann-entropien $S(\rho) = -\mathrm{Tr}(\rho\ln\rho)$ er eksakt invariant ($\Delta S = 0$).
+2. **Dual-rail paritetsinvolusjon over $\mathbb{Z}_2^{1000}$ og den kritiske linjen $\mathrm{Re}(s) = 1/2$:** I maskinvare som skal være immun mot både sidekanalsanalyse (DPA — *Differential Power Analysis*) og asymmetrisk bit-drift, kodes hvert logisk bit som et komplementært par $(b, \bar{b}) \in \{(0,1), (1,0)\}$ over en blokk på $N = 1\,000$ bit. Under bit-komplement-involusjonen $\mathcal{J}(s) = \mathbf{1} - s$ ligger alle gyldige kodeord eksakt på det affine midtplanet (den diskrete «kritiske linjen»):
    $$w_H(s) = \sum_{i=1}^{1000} s_i = 500 \iff \bar{s} = \frac{1}{N}\sum_{i=1}^N s_i = \frac{1}{2}$$
    Fordi antall $0\to 1$-overganger alltid er eksakt lik antall $1\to 0$-overganger ved hvert eneste klokkeslag, er strømtrekket konstant og uavhengig av dataverdien, mens enhver ensidig feil ($\bar{s} \neq 1/2$) umiddelbart bryter involusjonsbalansen og utløser `HOLD`.
 3. **ROSETTA² bi-Lipschitz-kondisjonering og CPCA-B barrierehorisont:** Når tilstanden transporteres mellom to representasjoner via en koordinattransformasjon $\Psi$, krever ROSETTA² at $\Psi$ er bi-Lipschitz med stramt kondisjonstall $\kappa(\Psi) = L_+ / L_- \ge 1$:
@@ -89,7 +89,7 @@ $$\mathcal{R}_{\text{AUTH}} : \mathcal{S}_{\text{stasis}}^{(k)} \times \mathcal{
 
 Denne operatoren krever et ferskt, fysisk menneskelig vitne $W_{\text{ext}}^{(k+1)} \in \mathcal{W}_{\text{ext}}^{(k+1)}$ (Level 01 manuell innkobling på stedet etter verifisert feilretting), og skriver innover i loggen en ugjenkallelig epokeovergangspost som lenker til den fulle historikken fra epoke $k$:
 
-$$H_{k+1, 0} = \operatorname{SHA256}\!\left(H_{k, \text{final}} \,\parallel\, \mathtt{EPOCH\_REOPEN} \,\parallel\, W_{\text{ext}}^{(k+1)}\right)$$
+$$H_{k+1, 0} = \mathrm{SHA256}\!\left(H_{k, \text{final}} \,\parallel\, \mathtt{EPOCH\_REOPEN} \,\parallel\, W_{\text{ext}}^{(k+1)}\right)$$
 
 Dermed bevares både sikkerheten og sannheten: maskinen kan aldri tilgi seg selv i epoke $k$, og menneskets gjenåpning i epoke $k+1$ sletter ikke en eneste bokstav av det som skjedde.
 
@@ -144,7 +144,7 @@ evaluerer Horner-LFSR-kjernen i `rosetta_d3_circ_gate.sv` syndromvektoren $\math
 | --- | --- | --- |
 | **`C0_CLEAN_PASS`** | $S_0 = 0 \land S_1 = 0 \land S_2 = 0$ ($\Delta_K = 0$) | Bit-eksakt 208B-ramme verifisert (`omega_authorize_o = 1`, `interlock_kill_n_o = 1`; $5{,}00\text{ V DC}$ kun når `l3_adc_witness_valid_i == 1`, ellers $0{,}00\text{ V}$ L1-demo) |
 | **`C1_EXACT_RECOVERY`** | $S_0, S_1, S_2 \neq 0 \;\land\; S_1^2 = S_0 \cdot S_2 \;\land\; \log_\alpha(S_1/S_0) = p \in [0..207]$ | Unik 1-byte feil ved indeks $\text{idx} = 207 - p$ med eksakt feilstørrelse $e = S_0$ repareres algebraisk uten gjetning; etter-reparert $\mathbf{S} = (0,0,0)$ |
-| **`C2_INTERPOLATION_DENIED`** | $\operatorname{wt}(e) \ge 2$, eller $S_1^2 \neq S_0 S_2$, eller forkortet lokator $p \in [208..254]$ | **Blank avvisning av interpolasjon:** `c2_interpolation_denied_o = 1`, `omega_authorize_o = 0`, `interlock_kill_n_o = 0` (**`0,00 V DC KILL`**) |
+| **`C2_INTERPOLATION_DENIED`** | $\mathrm{wt}(e) \ge 2$, eller $S_1^2 \neq S_0 S_2$, eller forkortet lokator $p \in [208..254]$ | **Blank avvisning av interpolasjon:** `c2_interpolation_denied_o = 1`, `omega_authorize_o = 0`, `interlock_kill_n_o = 0` (**`0,00 V DC KILL`**) |
 
 ### 6.2 Sentralspinn Tidsreversert Kvantemetrologi (`SPEC-397`): SATIN og Sommerfugl-Ekko
 I [`csm_satin_butterfly_echo_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/csm_satin_butterfly_echo_gate_engine.py) (`SPEC-397`, inspirert av Kumar & Choudhury 2026, `arXiv:2610.30686v1`, Davis et al. 2016 og Bringewatt et al. 2026) overføres RFM-dobbelpulsen $T_{\text{RFM}}^2 = I$ til et sentralspinn-bad ($S_{\text{cen}}$ koblet til $N$ badespinn via $H_{\text{CSM}} = \Omega S_z + \frac{\tilde{g}}{\sqrt{N}}(S_+ J_- + S_- J_+)$). I det dispersive Schrieffer–Wolff-regimet ($\Omega \gg \tilde{g}\sqrt{N}$) induseres den effektive en-akse-vridningen (OAT) $H_{\text{eff}} \approx \chi_{\text{eff}} J_z^2$ med $\chi_{\text{eff}} = \frac{\tilde{g}^2 S_{\text{cen}}}{2\Omega}$.

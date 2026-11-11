@@ -112,7 +112,7 @@ When the geocybernetic intervention is complete, when the theoretical steering b
 In the tripartite architecture of the master compendium:
 - **Bind I (*Kuttflaten*):** Explores the human vulnerability, the cognitive gateway, and the societal terror of frictionless digital acceleration.
 - **Bind II (*Litisk Kybernetikk / Codex Geocybernetica*):** Acts as the **unyielding granite gravity well**. It refuses narrative comfort. Through its 44 modules, it establishes that control without mineral foundation is hallucination. *The Geocybernetic Operation* stands as its definitive English philosophical gateway.
-- **Bind III (*Realiseringsgrammatikk*):** Expands the realization grammar into mutual viability, shared relational space ($L = \operatorname{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$), and the philosophical symposium between zero and one.
+- **Bind III (*Realiseringsgrammatikk*):** Expands the realization grammar into mutual viability, shared relational space ($L = \mathrm{Viab}(A_{\text{jeg}} \cap A_{\text{du}})$), and the philosophical symposium between zero and one.
 
 > *«The lithosphere does not obey the optimism of the steering committee. It obeys only the admissibility of the cut.»*
 

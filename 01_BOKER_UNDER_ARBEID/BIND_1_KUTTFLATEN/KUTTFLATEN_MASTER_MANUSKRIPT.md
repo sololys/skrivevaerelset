@@ -168,9 +168,9 @@ Når verket nå står ferdig samlet, trer arkitekturen frem med urokkelig klarhe
 $$\boxed{\text{Bind I: Hvor går grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind II: Hvordan håndheves grensen?}} \quad \longrightarrow \quad \boxed{\text{Bind III: Hva beskytter grensen?}}$$
 
 * **Bind I (*Kuttflaten*):** Etablerer demarkasjonen. Hovedfeilen i vår sivilisasjon er kollaps av distinksjoner: kandidat blir forvekslet med konsekvens, output med warrant, en flyktig logg med et uforfalskbart *Witness*, og virtuell softwarestatus med fysisk virkelighet. Frontloven slår fast at autorisasjon, fysisk energibærer og pre-commit-historie må være uløselig bundet før noen grense kan krysses.
-* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \operatorname{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
+* **Bind II (*Codex Geocybernetica / Litisk Kybernetikk*):** Gjør denne demarkasjonen operasjonell gjennom kuttoperatøren $\mathbf{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$ på tvers av språk, motorer, databaser, maskinvare og geofysikk. Samtidig er teksten strengt disiplinert om sin egen bevisgrense (*claim boundary*): Den erklærer seg selv som en konsistent realiserbarhetsmodell ($\Gamma_{\mathrm{phys}} = \mathrm{Viab}(A)$), ikke automatisk en ny fundamental naturkraft.
 * **Bind III (*Realiseringsgrammatikk*):** Tar samme frontlov og spør hva den betyr mellom levende, autonome poler. Her reiser formelen seg:
-  $$L = \operatorname{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
+  $$L = \mathrm{Viab}(A_{\mathrm{jeg}} \cap A_{\mathrm{du}})$$
   med læresetningen *«nærhet under bevart frihet»*. Bildet av reléets to poler viser to ledere som nærmer seg hverandre, men som aldri må kortsluttes eller smelte sammen.
 
 #### Oppgjøret med notasjonskollapset: De fire universelle makrorollene
@@ -330,7 +330,7 @@ Før en kandidat kan bli en hendelse, tvinges den inn i det kontrafaktiske prøv
   $$x \hookrightarrow s$$
   Universet spør: *«Hvis denne hendelsen skjer, kan systemet fortsatt vende tilbake til nullpunktet uten rest?»*
 * **Den Involutive Dommen:** Dette testes via speil-operatoren ($\mathrm{ROX}$). Systemet utsetter kandidaten for fremtidsbanen ($F_+$) og den motgående banen ($F_-$):
-  $$\operatorname{ROX}_m(\operatorname{ROX}_m(x)) = x \iff \text{ROX\_OK}$$
+  $$\mathrm{ROX}_m(\mathrm{ROX}_m(x)) = x \iff \text{ROX\_OK}$$
   Hvis en asymmetri oppstår, hvis noe residual lekker ut av luftslusen før konsekvensporten, feller universet en umiddelbar **$\mathrm{KILL}$-dom**.
 
 ### Mysteriet HOLD: Innelukket Dynamikk og Mørk Materie
@@ -357,7 +357,7 @@ Dette er øyeblikket konsekvens oppstår. $\mathbf{\Omega}$-porten markerer gren
   $$Q \ge k_B T \ln 2$$
   kastes av. Kun den formen (**Bøff**) som tåler varmen fra sin egen tilblivelse, overlever denne porten. Blank, substansløs form (**Bløff**) fordamper her.
 
-$$\boxed{\Delta_K \le \tau \implies \operatorname{OPEN}(\mathbf{\Omega})}$$
+$$\boxed{\Delta_K \le \tau \implies \mathrm{OPEN}(\mathbf{\Omega})}$$
 
 ---
 
@@ -5780,9 +5780,9 @@ For å forhindre at komponentene matematisk foldes sammen til én enkelt ugjenno
 
 $$
 \begin{aligned}
-S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\operatorname{Codom}(\Phi) \cap D = \emptyset) \\
+S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\mathrm{Codom}(\Phi) \cap D = \emptyset) \\
 S_2 &: \quad \Pi_K \text{ kan autorisere, men ikke realisere } (\Pi_K \text{ forårsaker ingen tilstandsendring i } \Sigma) \\
-S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\operatorname{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
+S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\mathrm{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}
 $$

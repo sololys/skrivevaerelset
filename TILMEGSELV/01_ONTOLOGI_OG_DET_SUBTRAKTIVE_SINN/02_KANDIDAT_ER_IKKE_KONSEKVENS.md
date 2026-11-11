@@ -20,7 +20,7 @@ At overgangsoperatoren $\Omega$ er **partiell** ($\rightharpoonup$), er et funda
 
 \begin{center}
 \includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_punkt_nullpunkt_bane_blueprint.jpg}\\[0.4em]
-{\footnotesize \textit{Figur 2.1 (SPEC-117 / SPEC-360): Punkt-bane-dualitet og Arkitektens Nullpunkt. Fra det tidsreversible kandidatfeltet ($\text{NP}$, \texttt{0.00V DC FAIL-OPEN}) gjennom Nullpunktets galvaniske luftsluse og integritetssjekk (\texttt{BØFF / BLØFF}, \texttt{0xAA} involusjonsparitet) til den kausalt integrerte banen $\gamma(t) \in \operatorname{Viab}_F(K)$ over Poincaré-snittet $\Sigma_A$ (\texttt{5.00V DC LATCH}) og WORM-forseglet vitnelogg $W_{t+1}$.}}
+{\footnotesize \textit{Figur 2.1 (SPEC-117 / SPEC-360): Punkt-bane-dualitet og Arkitektens Nullpunkt. Fra det tidsreversible kandidatfeltet ($\text{NP}$, \texttt{0.00V DC FAIL-OPEN}) gjennom Nullpunktets galvaniske luftsluse og integritetssjekk (\texttt{BØFF / BLØFF}, \texttt{0xAA} involusjonsparitet) til den kausalt integrerte banen $\gamma(t) \in \mathrm{Viab}_F(K)$ over Poincaré-snittet $\Sigma_A$ (\texttt{5.00V DC LATCH}) og WORM-forseglet vitnelogg $W_{t+1}$.}}
 \end{center}
 
 ---
@@ -46,9 +46,9 @@ $$\boxed{\exists c, \sigma \;:\; c \in \Phi(\sigma) \;\land\; \Pi_K(c, \sigma) \
 For å forhindre at komponentene matematisk foldes sammen til én enkelt ugjennomsiktig operator ($\Omega'$), måles minimaliteten på **kausale roller**. Systemet må tilfredsstille fire ufravikelige separasjonsaksiomer:
 
 $$\begin{aligned}
-S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\operatorname{Codom}(\Phi) \cap D = \emptyset) \\
+S_1 &: \quad \Phi \text{ kan foreslå, men ikke autorisere } (\mathrm{Codom}(\Phi) \cap D = \emptyset) \\
 S_2 &: \quad \Pi_K \text{ kan autorisere, men ikke realisere } (\Pi_K \text{ forårsaker ingen tilstandsendring i } \Sigma) \\
-S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\operatorname{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
+S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet } (\mathrm{dom}(\Omega) \subseteq \{(c, \sigma) \mid \Pi_K(c, \sigma) = \mathrm{ALLOW}\}) \\
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 
@@ -64,13 +64,13 @@ For at skillet mellom *tillatelse til handling* og *dokumentert konsekvens* skal
 
 1. **Forhåndsautoriserende dobbeltvitne ($W_{\mathrm{pre}}^2$):** Før porten $\Omega$ kan åpnes, kreves det at både admissibilitetsdommen ($\Delta_K(\Pi_K(c, \sigma)) = 0$), maskinvitnet $W_m(d_c, t)$ og det menneskelige suverenitetsvitnet $W_h(d_c, t)$ er verifisert gyldige og bundet til kandidatens kanoniske digest $d_c = H(\text{canonical\_bytes}(c))$ innenfor gyldighetsvinduet $t < t^*$:
 
-$$\operatorname{Permit}_{\Omega}(c, \sigma, t) \iff \bigl(\Pi_K(c, \sigma) = \mathrm{ALLOW}\bigr) \land W_m(d_c, t) \land W_h(d_c, t) \land (t < t^*)$$
+$$\mathrm{Permit}_{\Omega}(c, \sigma, t) \iff \bigl(\Pi_K(c, \sigma) = \mathrm{ALLOW}\bigr) \land W_m(d_c, t) \land W_h(d_c, t) \land (t < t^*)$$
 
 2. **Varig opptak, utførelse og etterfølgende konsekvenskvittering ($R_n \in D_3$):** Tillatelse alene garanterer ikke utførelse ved strømbrudd eller prosesskrasj. Enhver realisering må derfor følge den strengt ordnede firetrinns-kontrakten:
 
-$$\boxed{\operatorname{Durable}(I_n) \prec \operatorname{Execute}_n \prec \operatorname{Durable}(R_n) \prec \operatorname{ACK}_n}$$
+$$\boxed{\mathrm{Durable}(I_n) \prec \mathrm{Execute}_n \prec \mathrm{Durable}(R_n) \prec \mathrm{ACK}_n}$$
 
-Først synkroniseres autorisasjonsintensjonen $I_n$ (med kandidat-digest $d_c$ og $W_{\mathrm{pre}}^2$) varig til ikke-flyktig lagring ($\operatorname{Durable}(I_n)$). Ved selve åpningstidspunktet ($\operatorname{Execute}_n$) kontrolleres det på nytt at tidsfristen $t < t^*$ ikke har utløpt under lagringen. Etter at overgangen i $\Omega$ er gjennomført, skrives konsekvenskvitteringen $\operatorname{Durable}(R_n)$ før ekstern bekreftelse ($\operatorname{ACK}_n$) frigis. Dersom systemet stanser i krasjvinduet mellom $\operatorname{Durable}(I_n)$ og $\operatorname{Durable}(R_n)$, er posten syntaktisk gyldig, men semantisk uavklart (`IN_DOUBT`). Oppstartsrutinen låser da systemet i `RECOVERY_HOLD` inntil den fysiske tilstanden er avstemt; en ny epoke kan aldri slette historisk usikkerhet fra en uavklart utførelse.
+Først synkroniseres autorisasjonsintensjonen $I_n$ (med kandidat-digest $d_c$ og $W_{\mathrm{pre}}^2$) varig til ikke-flyktig lagring ($\mathrm{Durable}(I_n)$). Ved selve åpningstidspunktet ($\mathrm{Execute}_n$) kontrolleres det på nytt at tidsfristen $t < t^*$ ikke har utløpt under lagringen. Etter at overgangen i $\Omega$ er gjennomført, skrives konsekvenskvitteringen $\mathrm{Durable}(R_n)$ før ekstern bekreftelse ($\mathrm{ACK}_n$) frigis. Dersom systemet stanser i krasjvinduet mellom $\mathrm{Durable}(I_n)$ og $\mathrm{Durable}(R_n)$, er posten syntaktisk gyldig, men semantisk uavklart (`IN_DOUBT`). Oppstartsrutinen låser da systemet i `RECOVERY_HOLD` inntil den fysiske tilstanden er avstemt; en ny epoke kan aldri slette historisk usikkerhet fra en uavklart utførelse.
 
 ---
 

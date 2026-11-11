@@ -28,7 +28,7 @@ For å garantere matematisk og fysisk at ingen uautorisert eller uverifisert til
 
 | Funksjon / Parameter | Formell Definisjon og Operasjonell Betydning |
 | :--- | :--- |
-| **Definisjonsområde $\operatorname{dom}(\Omega)$** | $\operatorname{dom}(\Omega) = \{ (c, \sigma) \in C \times \Sigma \mid \Pi_K(c, \sigma) = \text{ALLOW} \}$ |
+| **Definisjonsområde $\mathrm{dom}(\Omega)$** | $\mathrm{dom}(\Omega) = \{ (c, \sigma) \in C \times \Sigma \mid \Pi_K(c, \sigma) = \text{ALLOW} \}$ |
 | **Forhåndsvitnekrav ($W_{\text{pre}}^2$)** | Overgang krever gyldig bilateralt forhåndsvitne $W_{\text{pre}}^2 = W_m \land W_h$ (maskinell og human godkjenning) før $\Pi_K = \text{ALLOW}$. |
 | **Standard Tilstand** | Ved minste feil, støy eller epistemisk usikkerhet faller systemet momentant til spenningsløs hviletilstand ved $0{,}00\text{ V DC}$. |
 | **Maskinell Autoritet** | $\text{Authority}_{\text{machine}} = \text{NONE}$ ($0{,}00\,\%$ autonom juridisk, moralsk eller overstyrende myndighet). |
@@ -91,7 +91,7 @@ $$\frac{5{,}0\text{ ms}}{12{,}5\,\mu\text{s}} = 400\text{ klokkesykluser}$$
 
 Dersom et nødkutt måtte avvente diskforsegling, ville et sårbarhetsvindu på $400$ klokkesykluser oppstå der en løpsk prosess kunne forårsake uopprettelig materiell skade. Feilsikker SIL-4-arkitektur opphever dette sårbarhetsvinduet gjennom en **asymmetrisk tidsdomene-bifurkasjon**:
 
-* **Rekkefølge ved `OPEN` ($\odot \prec 1$):** *Vitne før handling.* Forhåndsvitnet og diskforseglingen kreves før drivspenningen heves til $5{,}00\text{ V DC}$. Kontrakten $\operatorname{Durable}(I_n) \prec \operatorname{Execute}_n \prec \operatorname{Durable}(R_n) \prec \operatorname{ACK}_n$ krever fullført `fsync()` ($5{,}0\text{ ms}$) før maskinvaren åpnes.
+* **Rekkefølge ved `OPEN` ($\odot \prec 1$):** *Vitne før handling.* Forhåndsvitnet og diskforseglingen kreves før drivspenningen heves til $5{,}00\text{ V DC}$. Kontrakten $\mathrm{Durable}(I_n) \prec \mathrm{Execute}_n \prec \mathrm{Durable}(R_n) \prec \mathrm{ACK}_n$ krever fullført `fsync()` ($5{,}0\text{ ms}$) før maskinvaren åpnes.
 * **Rekkefølge ved `KILL` ($1 \prec \odot$):** *Handling før vitne.* Silisium-giljotinen og crowbar-kretsen dumper drivspenningen til $0{,}00\text{ V DC}$ på $4{,}0\text{ ns}$ ($12{,}5\,\mu\text{s}$ i FPGA-registeret), mens `fsync()` skriver obduksjonsrapporten parallelt i bakgrunnen.
 * **Sikkerhetsgaranti under $400\text{ syklusers}$-vinduet:** I løpet av de $400$ klokkesyklusene som kreves for å ferdigstille diskloggen under et `KILL`-forløp, garanteres anleggets fysiske sikkerhet uavkortet av maskinvarens høyimpedans-stasis ($0{,}00\text{ V DC}$) og det mekaniske luftgapet ($\ge 5{,}0\text{ mm}$), helt uavhengig av om programvarens tilstandssporing eller diskenheter skulle kollapse midt i skriveoperasjonen.
 
@@ -157,7 +157,7 @@ I sanntidsregulering håndheves portmatrisen gjennom følgende førsteordens ort
 | **Faseromskutt ($\Delta_K^{(3)}$)** | $m^\mu \partial_\mu \Psi^\nu = 0 \iff \left\Vert \frac{\omega}{c}m_0 - \mathbf{k} \cdot \mathbf{m}\right\Vert = 0$ | Kinematisk avvik skjærer bort kandidatbanen. |
 | **Massekriterium ($M^2$)** | $M^2 = \Vert \mathbf{m}\Vert^2 - m_0^2$ | $M^2 > 0 \implies \text{OPEN}$ ($5{,}00\text{ V DC}$); $M^2 = 0 \implies \text{HOLD}$ ($0{,}00\text{ V DC}$); $M^2 < 0 \implies \text{KILL}$ ($0{,}00\text{ V DC}$). |
 | **Involusjonslås ($\text{Rev}^1$)** | $R(s) = s \oplus F(F(s)) \equiv 0 \quad (s \in D_0 \cup D_1)$ | Verifiserer tapsfri returvei i faseminnet før fysisk låsing. |
-| **Domeneskranke ($\text{Rev}^2$)** | $\operatorname{Dom}(F) \cap D_2 = \emptyset$ | Forbyr «rollback» i materien. Påstanden «Commit kan reverseres» representerer et uforenlig konstitusjonelt brudd (`ANTI_REVERSIBLE_VIOLATION`) som umiddelbart underkjennes under IEC 61508 SIL-4-revisjon. |
+| **Domeneskranke ($\text{Rev}^2$)** | $\mathrm{Dom}(F) \cap D_2 = \emptyset$ | Forbyr «rollback» i materien. Påstanden «Commit kan reverseres» representerer et uforenlig konstitusjonelt brudd (`ANTI_REVERSIBLE_VIOLATION`) som umiddelbart underkjennes under IEC 61508 SIL-4-revisjon. |
 
 Analyse av reversibilitet avslører hvorfor påstanden *«Commit kan reverseres»* representerer en alvorlig konstitusjonell feil. Systemet skiller skarpt mellom virtuelle minnetilbakerullinger ($\text{Rev}^1$) og materiell entropi ($\text{Rev}^2$). I datamaskinens minne ($\text{Rev}^1$) kan en operasjon snus ved at motstridende bits skrives uten ytre varige spor i fasedomenet. I den fysiske verden ($\text{Rev}^2$) styres alle tilstandsendringer av Landauer-grensen ($Q \ge k_B T \ln 2$). Når en elektrisk kontaktor slår sammen, avgis det uomstøtelig varme og molekylær slitasje i metallgitteret. Å hevde at en fysisk gjennomført handling kan rulles tilbake, utgjør en falsk trygghet. Fysiske commits kan aldri ugjøres, kun kompenseres gjennom helt nye, fremtidige tiltak.
 

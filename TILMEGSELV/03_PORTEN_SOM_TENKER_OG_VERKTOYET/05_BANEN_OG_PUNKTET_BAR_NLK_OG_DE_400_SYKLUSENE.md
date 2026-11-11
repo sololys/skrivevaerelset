@@ -24,7 +24,7 @@ I syntesen mellom banen (`BAR`) og den ikke-løgnaktige kjernen (`NLK`) lukkes d
 
 \begin{center}
 \includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_banen_viabilitet_poincare_blueprint.jpg}\\[0.4em]
-{\footnotesize \textit{Figur 3.1 (SPEC-117 / PCD): Banens kausale bæreevne. (1) Tangentprojeksjon og Nagumo-asymmetri $\dot{w}(t) \in T_K(w(t))$ innenfor viabilitetskjernen $\operatorname{Viab}_F(K)$; (2) Spektral Poincaré-stabilitet $\rho(DP_A) < 1$ over snittflaten $\Sigma_A$ med Landauer-dissipasjon $\Delta Q \ge N k_B T \ln 2$; og (3) Asymmetrisk tidsdomene-bifurkasjon mellom konstruktiv åpning ($\odot \prec 1$, $5\text{ ms}$ \texttt{fsync} før $5{,}00\text{ V DC}$) og destruktivt nødkutt ($1 \prec \odot$, $<15\text{ ns}$ Crowbar til $0{,}00\text{ V DC}$ og obduksjonslogg).}}
+{\footnotesize \textit{Figur 3.1 (SPEC-117 / PCD): Banens kausale bæreevne. (1) Tangentprojeksjon og Nagumo-asymmetri $\dot{w}(t) \in T_K(w(t))$ innenfor viabilitetskjernen $\mathrm{Viab}_F(K)$; (2) Spektral Poincaré-stabilitet $\rho(DP_A) < 1$ over snittflaten $\Sigma_A$ med Landauer-dissipasjon $\Delta Q \ge N k_B T \ln 2$; og (3) Asymmetrisk tidsdomene-bifurkasjon mellom konstruktiv åpning ($\odot \prec 1$, $5\text{ ms}$ \texttt{fsync} før $5{,}00\text{ V DC}$) og destruktivt nødkutt ($1 \prec \odot$, $<15\text{ ns}$ Crowbar til $0{,}00\text{ V DC}$ og obduksjonslogg).}}
 \end{center}
 
 ---
@@ -147,7 +147,7 @@ $$(\text{Punkt} \oplus \text{Bane})^2 = (\text{Punkt} \otimes \text{Punkt}) \;\o
 | **I. $\text{Punkt} \otimes \text{Punkt}$ ($\mathcal{NP}^2$)** | $\Pi_K^2(x) = \Pi_K(x) \;\land\; R^2 = (2\Pi_K - I)^2 = I \text{ (lineær }\Pi_K\text{)}$ | **Idempotent hvile:** Et andre slag med samme meisel på samme punkt fjerner ingen ny hoggespon ($\Delta_K^{(2)} = 0$). Punkt i kvadrat er ren struktur i ro. | `GATE::HOLD` ($0{,}00\text{ V DC}$) |
 | **II. $\text{Punkt} \otimes \text{Bane}$ (`BAR`)** | $x_n \xrightarrow{\Phi_{\Delta t}} \psi'_{n+1}, \quad \text{Rev}^1: F(F(s)) = s \text{ i } D_0 \cup D_1$ | **Utspenning fra anker:** Ut fra et låst punkt prøvespilles en reversibel kandidatbane uten ekstern utlesning ($\pi_R = \emptyset$). Et lovlig målpunkt ($x^* \in K$) autoriserer aldri en ulovlig mellomvei. | `KANDIDAT` ($0{,}00\text{ V DC}$) |
 | **III. $\text{Bane} \otimes \text{Punkt}$ (`NLK`)** | $\gamma(t) \cap \Sigma_{n+1} \implies (\odot \prec 1 \to \text{LATCH}) \;\lor\; (1 \prec \odot \to \text{CROWBAR})$ | **Frakturkuttet ved $400$ sykluser:** Kontinuerlig bane treffer det diskrete snittet $\Sigma_{n+1}$; `OPEN` krever $400$ syklusers forsegling før spenning, mens `KILL` kutter på første syklus. | `LATCH` ($5{,}00\text{ V}$) $\lor$ `CROWBAR` ($0{,}00\text{ V}$) |
-| **IV. $\text{Bane} \otimes \text{Bane}$ ($\mathcal{P}^2$)** | $\text{Rev}^2: \operatorname{Dom}(F) \cap D_2 = \emptyset \;\land\; W_{\text{diss}} \ge \frac{\mathcal{L}_{\text{thermo}}^2}{\tau_{\text{proc}}} \;\land\; \Delta E = \frac{1}{2}\rho(\Delta v)^2$ | **Bevissthet, heliks og kvadratisk motstand:** Banens egen krumning fra snitt til snitt. Forseglede baner kan aldri angres ($\text{Rev}^2$), og brå hastighetssprang straffes kvadratisk ($\Delta v^2$). | `VIABEL HELIKS` ($e \to e+1$) $\lor$ `KILL` |
+| **IV. $\text{Bane} \otimes \text{Bane}$ ($\mathcal{P}^2$)** | $\text{Rev}^2: \mathrm{Dom}(F) \cap D_2 = \emptyset \;\land\; W_{\text{diss}} \ge \frac{\mathcal{L}_{\text{thermo}}^2}{\tau_{\text{proc}}} \;\land\; \Delta E = \frac{1}{2}\rho(\Delta v)^2$ | **Bevissthet, heliks og kvadratisk motstand:** Banens egen krumning fra snitt til snitt. Forseglede baner kan aldri angres ($\text{Rev}^2$), og brå hastighetssprang straffes kvadratisk ($\Delta v^2$). | `VIABEL HELIKS` ($e \to e+1$) $\lor$ `KILL` |
 
 I programvarelaget (`L1`) er alle fire kvadranter og de $400$ klokkesyklusene implementert og verifisert i `PunktOgBaneSquaredEngine` (`scripts/punkt_og_bane_squared_engine.gd` og `tests/test_punkt_og_bane_squared_engine.gd`, **`6/6 PASS`** i Godot 4.3 headless).
 
@@ -157,7 +157,7 @@ I programvarelaget (`L1`) er alle fire kvadranter og de $400$ klokkesyklusene im
 
 I den operative KY-korrespondansen setter vi:
 
-$$\mathcal{H}_{\mathrm{Smith}} = \left(\mathbb{B}^n,\; ds_{\mathrm{Berg}}^2,\; K,\; \Pi_{T_w K},\; \iota\right), \qquad \mathrm{NP}_{\mathrm{op}} \leftrightarrow \text{Punktfelt i } \mathbb{B}^n, \qquad \mathrm{P}_{\mathrm{op}} \leftrightarrow \text{Banefelt i } \operatorname{Viab}_F(K) \subset \mathbb{B}^n$$
+$$\mathcal{H}_{\mathrm{Smith}} = \left(\mathbb{B}^n,\; ds_{\mathrm{Berg}}^2,\; K,\; \Pi_{T_w K},\; \iota\right), \qquad \mathrm{NP}_{\mathrm{op}} \leftrightarrow \text{Punktfelt i } \mathbb{B}^n, \qquad \mathrm{P}_{\mathrm{op}} \leftrightarrow \text{Banefelt i } \mathrm{Viab}_F(K) \subset \mathbb{B}^n$$
 
 Hyperbolsk Smith er både rommet som inneholder kandidatpunktene, og geometrien som forbinder dem gjennom baner.
 
@@ -192,13 +192,13 @@ $$\dot{w}(t) = F\big(w(t)\big) = G\big(w(t)\big) - D\big(w(t)\big)$$
 
 Her åpner $G(w)$ nye kandidatretninger, mens $D(w)$ fjerner eller korrigerer komponenter som peker ut av det admissible området.
 
-Dersom $\operatorname{Viab}_F(K) \subseteq K$ er viability-kjernen, skrives den projiserte dynamikken:
+Dersom $\mathrm{Viab}_F(K) \subseteq K$ er viability-kjernen, skrives den projiserte dynamikken:
 
 $$\dot{w}(t) = \Pi_{T_{w(t)} K}\!\Big(G\big(w(t)\big) - D\big(w(t)\big)\Big)$$
 
 P-siden defineres da som:
 
-$$\mathcal{C}_{\mathrm{P}} = \left\{ \gamma : [0, T] \to \mathbb{B}^n \;\middle|\; \forall t \in [0, T] : w(t) \in \operatorname{Viab}_F(K) \;\land\; \dot{w}(t) \in T_{w(t)} K \right\}$$
+$$\mathcal{C}_{\mathrm{P}} = \left\{ \gamma : [0, T] \to \mathbb{B}^n \;\middle|\; \forall t \in [0, T] : w(t) \in \mathrm{Viab}_F(K) \;\land\; \dot{w}(t) \in T_{w(t)} K \right\}$$
 
 ### 3. Den doble oppførselen
 
@@ -240,7 +240,7 @@ Den gir kandidatpunktet et rom å eksistere i, og den gir banen en geometri å b
 
 Korrespondansen er strukturell og operativ:
 
-$$\mathrm{NP}_{\mathrm{op}} \simeq \mathcal{C}_{\mathrm{NP}} \quad (\text{Punktfelt i } \mathbb{B}^n), \qquad \mathrm{P}_{\mathrm{op}} \simeq \mathcal{C}_{\mathrm{P}} \quad (\text{Banefelt i } \operatorname{Viab}_F(K) \subset \mathbb{B}^n)$$
+$$\mathrm{NP}_{\mathrm{op}} \simeq \mathcal{C}_{\mathrm{NP}} \quad (\text{Punktfelt i } \mathbb{B}^n), \qquad \mathrm{P}_{\mathrm{op}} \simeq \mathcal{C}_{\mathrm{P}} \quad (\text{Banefelt i } \mathrm{Viab}_F(K) \subset \mathbb{B}^n)$$
 
 Den skal ikke forveksles med en bevist likhet mellom kompleksitetsklassene:
 

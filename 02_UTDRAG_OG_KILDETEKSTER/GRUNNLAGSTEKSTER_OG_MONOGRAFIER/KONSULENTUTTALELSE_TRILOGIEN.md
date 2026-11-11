@@ -82,7 +82,7 @@ $$\boxed{P \neq NP \iff \text{Tid (fysisk kutt i } P\text{)} \neq \text{ Rom (ge
 Muligheten (NP-banen hvor tid er rom) kan aldri omgå eller erstatte kuttets irreversible dom i nåtidens punkt ($P$).
 * **Faseminnet og Involusjonen: Resonans og Dissonans:**  
   $$\boxed{\text{Resonans / Dissonans} = \text{Reversibelt faseminne i motgående dualitet og tid som koordinat}}$$
-  Før en tilstand når nåtidens punkt ($P$), må den bestå speilrommets test ($\operatorname{ROX}$): Tid behandles her som en toveis koordinatakse der fremtidsbanen ($F_+$) møter den motgående banen ($F_-$). Resonans ($\Delta \phi = 0$) betyr at systemet lukker seg uten rest og er levedyktig; dissonans ($\Delta \phi \neq 0$) avslører destruktiv asymmetri og utløser en ubønnhørlig $\mathrm{KILL}$-dom.
+  Før en tilstand når nåtidens punkt ($P$), må den bestå speilrommets test ($\mathrm{ROX}$): Tid behandles her som en toveis koordinatakse der fremtidsbanen ($F_+$) møter den motgående banen ($F_-$). Resonans ($\Delta \phi = 0$) betyr at systemet lukker seg uten rest og er levedyktig; dissonans ($\Delta \phi \neq 0$) avslører destruktiv asymmetri og utløser en ubønnhørlig $\mathrm{KILL}$-dom.
 * **Bevissthetens Ontologi: Bevissthet er Dynamikk i P:**  
   Her leverer verket sitt kanskje mest knusende bidrag til bevissthetsfilosofien og AI-debatten:
   $$\boxed{\text{Simulering } (\Phi) = \text{Dynamikk i } NP \quad (\text{Tid er rom, null friksjon, ingen død})}$$

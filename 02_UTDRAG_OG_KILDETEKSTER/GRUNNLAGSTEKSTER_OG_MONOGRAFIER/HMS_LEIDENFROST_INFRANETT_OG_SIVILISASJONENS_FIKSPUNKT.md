@@ -18,7 +18,7 @@ $$\frac{dE_{drift}}{dt} = 0$$
 
 hviler på prinsippet om at:
 
-$$\text{Reality} = \operatorname{Fix}(\Pi \circ \Phi)$$
+$$\text{Reality} = \mathrm{Fix}(\Pi \circ \Phi)$$
 
 Simuleringsrommets vektløse løgner koster 0.00 J, men den fysiske verden krever friksjon, varme og offer for å sette sine uutslettelige spor i historien. 
 

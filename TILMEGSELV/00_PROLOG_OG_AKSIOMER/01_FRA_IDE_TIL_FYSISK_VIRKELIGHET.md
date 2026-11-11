@@ -53,7 +53,7 @@ Hvordan beveger en tanke seg fra en massefri hypotese i prosessorrammen til et f
 1. **Forslag ($\Phi$):** Tanken eller hypotesen unnfanges i et uforpliktende mulighetsrom.
 2. **Domstol ($\Pi_K$):** Forslaget stilles for en nådeløs domstol som sjekker om fysikkens og logikkens lover tillater det.
 3. **Utfører ($\Omega$):** Dersom domstolen innvilger adgang og forhåndsvitnet ($W_{\text{pre}}^2$) er gyldig, kobles drivspenningen på, og handlingen utføres.
-4. **Riksarkiv ($W$):** Hendelsen forsegles uavhengig i et uforanderlig arkiv ($\operatorname{Durable}(I_n) \prec \operatorname{Execute}_n \prec \operatorname{Durable}(R_n) \prec \operatorname{ACK}_n$) for fremtidig etterprøving.
+4. **Riksarkiv ($W$):** Hendelsen forsegles uavhengig i et uforanderlig arkiv ($\mathrm{Durable}(I_n) \prec \mathrm{Execute}_n \prec \mathrm{Durable}(R_n) \prec \mathrm{ACK}_n$) for fremtidig etterprøving.
 
 I realiseringsgrammatikken defineres denne kausale kjeden formelt som kvadrupelen $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$. Dersom et forslag ikke passerer samtlige fire uavhengige ledd i denne strukturen, avvises det kontant.
 
