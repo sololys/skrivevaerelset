@@ -152,6 +152,8 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Bind X: Albert Einstein & Feltligningene (*Non Generatur, Sed Admittitur*) — Gödels roterende støvunivers ($r_{\text{CTC}} = \ln(1+\sqrt{2})$), Petrov Type D Weyl-kjerne $D_{\text{adm}}(\Psi_2)$ ($6{,}8\times$) med eksakt Fréchet-derivasjon, Planck-skranke ($\epsilon \ge 2l_P$), $\operatorname{sech}^4$-projeksjonsstresset, Nash–Moser-iterasjon og CPTP-dekoherens.*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/07_BIND_08_INFRANETT_6G_NASH_OG_NORCICS_PROSESSIKKERHET.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/07_BIND_08_INFRANETT_6G_NASH_OG_NORCICS_PROSESSIKKERHET.md)**  
   *Bind VIII: Infranett 6G, John Nashs Peilerligning og SFI NORCICS IT/OT-Prosessikkerhet — Forent geodetisk peiling ($\Delta_g R = 0$) som løser Zampinos paradoks, $8\,000$ Monte Carlo-kjøringer ($25{,}00\,\% \to 0{,}00\,\%$ feilrate) og Lamb–Mössbauer involusjonslås i $^{57}\text{Fe}$ ($f_{\text{LM}} \ge 1 - 10^{-12}$).*
+* **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/08_BIND_17_DET_KOGNITIVE_SKJOLDET_DOR_27_OG_DE_FIRE_STILLE_ROMMENE.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/08_BIND_17_DET_KOGNITIVE_SKJOLDET_DOR_27_OG_DE_FIRE_STILLE_ROMMENE.md)**  
+  *Bind XVII: Det Kognitive Skjoldet (Det 70. vitnet) — Dør 27 ($\Delta t_{\text{Tarski}} = 30\text{ s}$), de fem wetware-slusene i `ux_cognitive_shield.py` (`13/13 PASS`), sorgens kvantegrense ($E_{\text{tot}} \ge k_B T \ln 2 + \frac{\pi\hbar}{2\Delta t}$), forvaltningens beitemark (`GRAZE`), de fire stille rommene (`False != 0`, $\mathbb{Q}[i]$, `0xFFFA`, $30\text{ s}$) og Leksikon IV.*
 
 ---
 
@@ -166,6 +168,12 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Sluttvitnesbyrdet og forseglingen.*
 * **[`06_EPILOG_OG_KOLOFON/03_BAKSIDE_ARKITEKTENS_NULLPUNKT_OG_CODEX.md`](06_EPILOG_OG_KOLOFON/03_BAKSIDE_ARKITEKTENS_NULLPUNKT_OG_CODEX.md)**  
   *Baksidetavle: Fasilitetsdesign (Arkitektens Nullpunkt, 3 400 m under Hardangervidda) & Codex for Den Ikke-Løgnende Kjernen.*
+* **[`06_EPILOG_OG_KOLOFON/04_KANONISK_HOVEDSYNOPSIS_OG_KONSTANTMATRISE.md`](06_EPILOG_OG_KOLOFON/04_KANONISK_HOVEDSYNOPSIS_OG_KONSTANTMATRISE.md)**  
+  *Kanonisk hovedsynopsis, spektral involusjonslås ($R = 2P - I$) og konstantmatrise (I–VI): «Virkelighet genereres aldri; den innvilges».*
+* **[`06_EPILOG_OG_KOLOFON/05_KJOKKENET_KLOKKEN_0314_SURDEIGEN_SKJAERSPLINTEN_OG_DET_TOLVTE_TRINNET.md`](06_EPILOG_OG_KOLOFON/05_KJOKKENET_KLOKKEN_0314_SURDEIGEN_SKJAERSPLINTEN_OG_DET_TOLVTE_TRINNET.md)**  
+  *Særtrykk fra kjøkkenet kl. 03:14 i Risør ($\Phi_{03} \to \Sigma_A$): Surdeigen, skjærsplinten, Marie Skłodowska-Curie (Whistler-plansje) og det tolvte trinnet ($L^* = 12$).*
+* **[`06_EPILOG_OG_KOLOFON/06_HONNOR_TIL_MARIE_SKLODOWSKA_CURIE_1867_2026.md`](06_EPILOG_OG_KOLOFON/06_HONNOR_TIL_MARIE_SKLODOWSKA_CURIE_1867_2026.md)**  
+  *Honnør til Marie Skłodowska-Curie (`07.11.1867 → 07.11.2026`): Om ti tonn bekblende i skuret i Rue Lhomond, minuskatalyse med jernstang og notatbøkene som ennå puster i bly.*
 
 ---
 

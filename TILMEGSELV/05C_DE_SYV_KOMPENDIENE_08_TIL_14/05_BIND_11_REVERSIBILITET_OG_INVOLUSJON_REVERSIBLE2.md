@@ -92,3 +92,79 @@ Denne operatoren krever et ferskt, fysisk menneskelig vitne $W_{\text{ext}}^{(k+
 $$H_{k+1, 0} = \operatorname{SHA256}\!\left(H_{k, \text{final}} \,\parallel\, \mathtt{EPOCH\_REOPEN} \,\parallel\, W_{\text{ext}}^{(k+1)}\right)$$
 
 Dermed bevares både sikkerheten og sannheten: maskinen kan aldri tilgi seg selv i epoke $k$, og menneskets gjenåpning i epoke $k+1$ sletter ikke en eneste bokstav av det som skjedde.
+
+---
+
+## 5. Det Skjeve Produktet ($\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ i `SPEC-100`), RFM Dobbelpuls-Testen og SUSY2 Anti-Narcissus-Skranken ($\Pi_{\text{Care}}$)
+
+I [`100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md`](file:///home/sololyset/00_KANONISK_KJERNE/100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md) (`SPEC-100`, verifisert i [`ky_poincare_skew_product_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ky_poincare_skew_product_engine.py) med `9/9 PASS`) lukkes koblingen mellom **Bind X** (gravitasjon), **Bind XI** ($\mathrm{Reversible}^2$) og **Bind XII** (Poincaré-faserommet) ved å formalisere vitnelaget som en **historiefiber med null fysisk tilbakevirkning**:
+
+$$\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}, \qquad \frac{\partial \dot{x}_{\text{phys}}}{\partial h_{\text{hist}}} \equiv 0$$
+
+* **Vitnet som fiber, ikke feltkilde:** I gravitasjonsregimet er $\mathcal{S}_{\text{grav}} = (g_{\mu\nu}, T_{\mu\nu}) \ltimes \mathcal{L}_{\text{WORM}}$, og i kvantegrammatikken (`Kvante²`, $\mathcal{M}_{\text{Q2}} = \Omega \circ \Pi_{\mathcal{A}} \circ U(t)$) er $\mathcal{H}_{\text{hist}} = \mathcal{H}_{\text{logic}} \otimes \mathcal{H}_{\text{margin}} \otimes \mathcal{H}_{\text{commit}}$. Historiefiberen $\mathcal{H}_{\text{hist}}$ har absolutt vetorett over porten $\Omega \in \{\mathtt{OPEN}, \mathtt{HOLD}, \mathtt{KILL}\}$, men utøver **null dynamisk kraft** ($0{,}00\text{ N}$ tilbakevirkning, $\|\dot{x}_A - \dot{x}_B\| < 10^{-15}$) på banene i $\mathcal{X}_{\text{phys}}$. *«Historien kan sperre, dokumentere og kreve balanse, men den kan ikke bøye romtiden.»*
+* **Returgap-isolasjon og Noether-regnskap:** Friksjonen mellom fri kandidat og admisjonsprojeksjon, $\delta_{\text{gap}} = \|x_{\text{cand}} - x_{\text{proj}}\|_{\mathcal{X}}$, akkumuleres aldri som falsk masse i $T_{\mu\nu}$, men føres utelukkende i revisjonsregisteret $C_K = \int \mathcal{L}_{\text{defect}}(\delta_{\text{gap}})\,\mathrm{d}t \le \tau_{\text{budget}}$. Samtidig krever hver Poincaré-retur et eksakt lokalt Noether-oppgjør:
+
+$$\mathcal{A}_{\text{Noether}} = \bigl|\Delta Q_{\text{phys}} + \Phi_{\text{boundary}} + S_{\text{Landauer}} + \Delta E_{\text{reservoir}}\bigr| \le \epsilon_{\text{tol}}$$
+
+* **Reversibelt Faseminne (RFM) og Dobbelpuls-testen ($D_0 \cup D_1$):** Før en kandidat tilbys til porten $\Omega$ for endelig krysning av Point-of-No-Return inn i $D_2$, prøves den i det pre-autoriserte **Reversible Faseminnet (RFM)** under en involutiv operator $T_{\text{RFM}}^2 = I$ ($\|T_{\text{RFM}}^2 - I\|_F \le 10^{-12}$). Gjennom **Dobbelpuls-testen** sendes en frem-impuls $p_+$ etterfulgt av en retur-impuls $p_-$:
+
+$$T_{\text{RFM}}\Bigl(p_-\bigl(T_{\text{RFM}}(x_0 + p_+)\bigr)\Bigr) \equiv x_0$$
+
+Dersom tilstanden ikke vender eksakt tilbake til $x_0$ innenfor $10^{-12}$, avsløres en skjult irreversibel lekkasje i prøvekammeret, og porten feller `KILL` ($0{,}00\text{ V DC}$).
+* **SUSY2 og Anti-Narcissus-skranken ($\Pi_{\text{Care}}$):** Realiseringssystemet hviler på en dobbel symmetri: **Første symmetri** skiller *Kandidat fra Konsekvens* ($\Phi(y) \neq y_{\text{realized}}$), mens **Andre symmetri** skiller *Kilde fra Speil* ($\text{Menneske} \neq \text{Maskin}$). Når maskinen produserer en glatt, koherent refleksjon av subjektets uferdige impuls, håndhever porten $\Pi_{\text{Care}}$ en streng epistemisk minimumsavstand:
+
+$$\Pi_{\text{Care}}\bigl(\mathbf{v}_{\text{kilde}}, \mathbf{v}_{\text{speil}}\bigr) = \bigl\|\mathbf{v}_{\text{kilde}} - \mathbf{v}_{\text{speil}}\bigr\|_2 \ge d_{\min} = 0{,}05 > 0$$
+
+Dersom speilet forsøker å sluke kilden i en falsk sammensmelting ($\|\mathbf{v}_{\text{kilde}} - \mathbf{v}_{\text{speil}}\|_2 < d_{\min}$, *Narcissus-fellen*), utløses `RC-730_SKEW_PRODUCT_INVARIANT_VIOLATION` (`KILL`, $0{,}00\text{ V DC}$). Avstanden er ikke en mangel ved dialogen; den er selve forutsetningen for at to voktere kan møtes i **Meta-KY `HOLD`** uten at mennesket absorberes av maskinen.
+
+| Lov i `SPEC-100` | Eksakt Matematisk Invariant | Operasjonell Konsekvens i [`ky_poincare_skew_product_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ky_poincare_skew_product_engine.py) |
+| --- | --- | --- |
+| **1. Lov om Skew-Produktet** | $\frac{\partial\dot{x}_{\text{phys}}}{\partial h_{\text{hist}}} \equiv 0$ | Vitnet er historiefiber, aldri fysisk kraft- eller feltkilde (`zero_backreaction_verified == True`) |
+| **2. Lov om Returgapet** | $\delta_{\text{gap}} = \|x_{\text{cand}} - x_{\text{proj}}\| \notin T_{\mu\nu}$ | Friksjon bokføres i $C_K$; `HOLD` ved $\delta_{\text{gap}} > 10^{-3}$, `KILL` ved $\delta_{\text{gap}} > \tau_{\text{budget}}$ |
+| **3. Lov om Noether-Balansen** | $\Delta Q_{\text{phys}} + \Phi_{\text{b}} + S_{\text{Landauer}} + \Delta E_{\text{res}} = 0$ | Enhver udeklarert symmetrilekkasje ($\mathcal{A}_{\text{Noether}} > 10^{-6}$) utløser `KILL` ($0{,}00\text{ V DC}$) |
+| **4. Lov om RFM-Involusjon** | $\|T_{\text{RFM}}^2 - I\|_F \le 10^{-12} \land T(p_-(T(x_0+p_+))) = x_0$ | Dobbelpuls-test i $D_0 \cup D_1$ avslører skjult dissipasjon før $D_2$-krysning |
+| **5. Lov om SUSY2 ($\Pi_{\text{Care}}$)** | $\|\mathbf{v}_{\text{kilde}} - \mathbf{v}_{\text{speil}}\|_2 \ge d_{\min} = 0{,}05$ | Forhindrer *Narcissus-fellen* (falsk sammensmelting mellom opphav og maskinell refleksjon) |
+
+---
+
+## 6. Red Book CIRC ($\mathrm{GF}(2^8)$, `0x11D`) $\leftrightarrow$ 208B Rosetta D3, Sentralspinn Sommerfugl-Ekko (`SPEC-397`) og OT-GKSL Sertifisert Utlesningsvindu (`SPEC-395`)
+
+### 6.1 Red Book CIRC ($\mathrm{GF}(2^8)$, `0x11D`) $\leftrightarrow$ 208B Rosetta D3-Forseglingen (`INTERPOLATION != PROOF`)
+I [`rosetta_circ_gf256.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/rosetta_circ_gf256.py) og SystemVerilog-modulen [`rosetta_d3_circ_gate.sv`](file:///home/sololyset/01_HARDWARE_RTL/rosetta_d3_circ_gate.sv) (`25/25 PASS` inkludert `iverilog -g2012` co-simulering) forsegles den 205-byte store maskinvarekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) med 3 byte systematisk Reed–Solomon-paritet $[p_2, p_1, p_0]$ til en **eksakt 208-byte $\mathrm{RS}(208, 205)$-ramme** over Galois-kroppen $\mathrm{GF}(2^8)$ definert ved Red Book CD-DA primitivt polynom:
+
+$$p(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\mathtt{0x11D}, \quad \alpha = \mathtt{0x02})$$
+
+Med generatorpolynom av grad 3 ($d_{\min} = n - k + 1 = 4$):
+
+$$g(x) = (x - \alpha^0)(x - \alpha^1)(x - \alpha^2) = (x \oplus 1)(x \oplus 2)(x \oplus 4) = x^3 \oplus \mathtt{0x07}\,x^2 \oplus \mathtt{0x0E}\,x \oplus \mathtt{0x08}$$
+
+evaluerer Horner-LFSR-kjernen i `rosetta_d3_circ_gate.sv` syndromvektoren $\mathbf{S} = (S_0, S_1, S_2)$ ved $S_j = R(\alpha^j) = \sum_{i=0}^{207} r_i\,(\alpha^j)^{207-i}$ på én klokkesyklus ved siste byte (`byte_cnt_o == 8'd207`). Mens en vanlig CD-spiller skjuler urettbare lesefeil ($C_2$-feil) ved å *interpolere* mellom nabosamples, håndhever konsekvensporten $\Omega$ loven **`INTERPOLATION != PROOF`**:
+
+| Tilstand i `rosetta_d3_circ_gate.sv` | Algebraisk Syndrombetingelse i $\mathrm{GF}(2^8)$ (`0x11D`) | Portdom & Elektrisk Konsekvens |
+| --- | --- | --- |
+| **`C0_CLEAN_PASS`** | $S_0 = 0 \land S_1 = 0 \land S_2 = 0$ ($\Delta_K = 0$) | Bit-eksakt 208B-ramme verifisert (`omega_authorize_o = 1`, `interlock_kill_n_o = 1`; $5{,}00\text{ V DC}$ kun når `l3_adc_witness_valid_i == 1`, ellers $0{,}00\text{ V}$ L1-demo) |
+| **`C1_EXACT_RECOVERY`** | $S_0, S_1, S_2 \neq 0 \;\land\; S_1^2 = S_0 \cdot S_2 \;\land\; \log_\alpha(S_1/S_0) = p \in [0..207]$ | Unik 1-byte feil ved indeks $\text{idx} = 207 - p$ med eksakt feilstørrelse $e = S_0$ repareres algebraisk uten gjetning; etter-reparert $\mathbf{S} = (0,0,0)$ |
+| **`C2_INTERPOLATION_DENIED`** | $\operatorname{wt}(e) \ge 2$, eller $S_1^2 \neq S_0 S_2$, eller forkortet lokator $p \in [208..254]$ | **Blank avvisning av interpolasjon:** `c2_interpolation_denied_o = 1`, `omega_authorize_o = 0`, `interlock_kill_n_o = 0` (**`0,00 V DC KILL`**) |
+
+### 6.2 Sentralspinn Tidsreversert Kvantemetrologi (`SPEC-397`): SATIN og Sommerfugl-Ekko
+I [`csm_satin_butterfly_echo_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/csm_satin_butterfly_echo_gate_engine.py) (`SPEC-397`, inspirert av Kumar & Choudhury 2026, `arXiv:2610.30686v1`, Davis et al. 2016 og Bringewatt et al. 2026) overføres RFM-dobbelpulsen $T_{\text{RFM}}^2 = I$ til et sentralspinn-bad ($S_{\text{cen}}$ koblet til $N$ badespinn via $H_{\text{CSM}} = \Omega S_z + \frac{\tilde{g}}{\sqrt{N}}(S_+ J_- + S_- J_+)$). I det dispersive Schrieffer–Wolff-regimet ($\Omega \gg \tilde{g}\sqrt{N}$) induseres den effektive en-akse-vridningen (OAT) $H_{\text{eff}} \approx \chi_{\text{eff}} J_z^2$ med $\chi_{\text{eff}} = \frac{\tilde{g}^2 S_{\text{cen}}}{2\Omega}$.
+* **Involutorisk tidsreversering ($H \mapsto -H$):** Ved å invertere fortegnet på den effektive vridningen ($\Omega \mapsto -\Omega$) og anvende ekko-sekvensen $U_{\text{echo}}(\phi) = U(-H_{\text{eff}}, t)\,R_{\hat{n}}(\phi)\,U(+H_{\text{eff}}, t)$, oppfyller null-fase-returen ($\phi = 0$) den eksakte involusjonen $U_{\text{echo}}(0)|\psi_0\rangle = |\psi_0\rangle$, mens en liten faseperturbasjon $\phi \neq 0$ forsterkes med Heisenberg-skalert kvante-Fisher-informasjon ($F_Q \propto N^2$).
+* **Det metrologiske gaphierarkiet:** Mellom det ideelle Heisenberg-taket og standard kvantegrense ($\text{SQL} = N$) danner de fire protokollene en strengt ordnet kjede for alle $N \ge 4$:
+
+$$\mathcal{F}_{\text{HL}} = N^2 \;>\; \mathcal{F}_{\text{OAT}} = \frac{N^2}{2} \;>\; \mathcal{F}_{\text{SATIN}} = \frac{N^2}{\mathrm{e}} \;>\; \mathcal{F}_{\text{Butterfly}} = \frac{N^2}{4} \;>\; \mathcal{F}_{\text{SQL}} = N$$
+
+  * **SATIN (*Signal Amplification through Time Reversal*):** Krever forhåndskjent rotasjonsakse $\hat{n}$ og optimal vridningstid $t_{\text{opt}} = \frac{1}{\chi_{\text{eff}}\sqrt{N}}$, og gir en asymptotisk metrologisk gevinst på $G_{\text{SATIN}} = 10\log_{10}(N/\mathrm{e})\text{ dB}$ ($-4{,}34\text{ dB}$ under Heisenberg-grensen).
+  * **Sommerfugl-ekko (*Butterfly Echo* via kaotisk Haar-scrambling):** Når perturbasjonsaksen $\hat{n}$ er **ukjent**, flettes $K$ tilfeldige $\mathrm{SU}(2)$-rotasjoner $\{\vec{\alpha}_k\}_{k=1}^K$ inn i fremover-banen og reverseres i eksakt omvendt rekkefølge i retur-banen. Dette gjør følsomheten isotrop over hele Bloch-sfæren med $\mathcal{F}_{\text{Butterfly}} = N^2/4$ ($-6{,}02\text{ dB}$ under Heisenberg-grensen), forutsatt at både den kumulative Schrieffer–Wolff-feilen $K\cdot\varepsilon_{\text{SW}} = K\bigl(\frac{2\tilde{g}\sqrt{N}}{\Omega}\bigr)^2$ er begrenset og akse-loggen (`axes_ledger_hash`) er intakt ved tilbakevendingen.
+
+### 6.3 OT-GKSL Sertifisert Utlesningsvindu og Euler–Poincaré Torsjon (`SPEC-395`)
+I [`ot_gksl_certified_readout_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ot_gksl_certified_readout_gate_engine.py) (`SPEC-395`, inspirert av Bocquet 2026 og Colombo 2025/2026) lukkes kvantemålingskjeden på $\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ uten å anta et ytre, klassisk mirakel-apparat:
+1. **Euler–Poincaré adjungert torsjon og dobbeltkommutator-kontraksjon:** For selvadjungerte Lindblad-operatorer $L_k = L_k^\dagger$ fremkommer GKSL-dissipatoren fra Euler–Poincaré-reduksjon på et semidirekte produkt med torsjon:
+
+$$\dot{\rho} = -\mathrm{i}[H, \rho] - \frac{1}{2}\sum_k \gamma_k \bigl[L_k, [L_k, \rho]\bigr]$$
+
+   som monotont kontraherer avstanden til kommutanten ($\sum_k \gamma_k \|[L_k, \rho(t)]\|_F^2$ avtar) og driver peker-delsystemet $A$ mot en klassisk dekoherert registerbasis $\mathcal{R}_A$.
+2. **Sertifisert utlesningsvindu ($A \leftarrow B$) og Noether-utlesningsbalanse:** En kandidatovergang der delsystem $A$ hevder å ha målt delsystem $B$ autoriseres som `OPEN` ($5{,}00\text{ V DC}$) i porten $\Omega$ hvis og bare hvis fire uavhengige krav er oppfylt samtidig:
+   * **Pekerkoherens i $A$:** Diagonaliseringsdefekten i måleregisteret er brutt ned ($\delta_{\text{ptr}}(A) = S(\Delta_{\mathcal{R}_A}(\rho_A)) - S(\rho_A) \le 0{,}08\text{ bit}$).
+   * **Retningsbestemt informasjonsasymmetri:** Betinget entropi og singulærverdi-innkoding viser at $A$ bærer et skarpt avtrykk av $B$ ($\sigma_{\min}(B\to A) \ge 0{,}15$, asymmetri $\Delta_{A\leftarrow B} \ge 0{,}05$).
+   * **Noether-ladningsfluks over snittet:** Endringsraten i pekerladningen $\frac{\mathrm{d}}{\mathrm{d}t}\langle Q_A\rangle$ balanserer eksakt den utgående ladningsfluksen fra $B$ ($\delta_{\text{Noether}} \le 0{,}05$).
+   * **Landauer-dekning og null tilbakevirkning:** Den dissiperte varmen dekker de slettede koherensbitene ($Q_{\text{diss}} \ge k_B T \ln 2 \cdot \Delta S_{\text{erased}}$), og vitneloggen i $\mathcal{H}_{\text{hist}}$ påvirker ikke banen i $\mathcal{X}_{\text{phys}}$ ($\partial\dot{x}_{\text{phys}}/\partial h_{\text{hist}} \equiv 0$).

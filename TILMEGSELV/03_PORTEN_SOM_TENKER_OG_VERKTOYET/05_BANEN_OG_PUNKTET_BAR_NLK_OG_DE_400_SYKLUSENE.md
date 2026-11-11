@@ -22,6 +22,11 @@ En bane eksisterer alltid før punktet. I ethvert system som skal omforme tanke 
 
 I syntesen mellom banen (`BAR`) og den ikke-løgnaktige kjernen (`NLK`) lukkes dette gapet gjennom en streng to-takts arkitektur: et vekselspill av trekk og fraspark styrt av loven $x_{n+1} = \Omega(\Pi_K(\Phi(x_n)))$.
 
+\begin{center}
+\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_banen_viabilitet_poincare_blueprint.jpg}\\[0.4em]
+{\footnotesize \textit{Figur 3.1 (SPEC-117 / PCD): Banens kausale bæreevne. (1) Tangentprojeksjon og Nagumo-asymmetri $\dot{w}(t) \in T_K(w(t))$ innenfor viabilitetskjernen $\operatorname{Viab}_F(K)$; (2) Spektral Poincaré-stabilitet $\rho(DP_A) < 1$ over snittflaten $\Sigma_A$ med Landauer-dissipasjon $\Delta Q \ge N k_B T \ln 2$; og (3) Asymmetrisk tidsdomene-bifurkasjon mellom konstruktiv åpning ($\odot \prec 1$, $5\text{ ms}$ \texttt{fsync} før $5{,}00\text{ V DC}$) og destruktivt nødkutt ($1 \prec \odot$, $<15\text{ ns}$ Crowbar til $0{,}00\text{ V DC}$ og obduksjonslogg).}}
+\end{center}
+
 ---
 
 ## I. Trekk og Ortogonalt Snitt: De Tre Fysiske Ankrene
@@ -33,6 +38,12 @@ For å bli et fast punkt må banen skjære gjennom det ortogonale snittet $\Pi_K
 * **Relativistisk kausalitet:** Hendelsen må rommes innenfor Alexandrov-diamanten $\mathcal{D}(E_1, E_2)$ med et tur-retur-budsjett på $\Delta t_{\text{budget}} = 133{,}42\text{ nanosekunder}$ over tjue meter ($ds^2 \le 0$), der den ortogonale Rossi–Hall-projeksjonen låser overlevelsessannsynligheten til eksakt $10{,}17\text{ prosent}$. Et reléangrep fra fem hundre meters avstand krever en hastighet på $25c$, sprenger metrikken til $ds^2 = +998\,400{,}14\text{ m}^2 > 0$, og eliminerer seg selv.
 * **Gravitasjonell retningskollaps:** Systemets krumning og spinn måles mot Weyl-invarianten $\Psi_2 = -M/(r - ia\cos\theta)^3$. Når tilstanden nærmer seg horisontranden $r_+ = M + \sqrt{M^2 - a^2}$ der $\Delta(r) = 0$, krymper det trygge styringsrommet inn til én enkelt gjenstående dimensjon langs nullgeneratoren ($\dim U_{\text{safe}} \to 0 \iff \vert{}U\vert{} \to 1$), mens det irreversible seleksjonsstresset $\Sigma_{\mu\nu}^{\mathrm{irr}}$ bokføres direkte i feltligningene.
 * **Støkiometrisk og elektrokjemisk lukning:** Massebalansen over referansedøgnet må lukkes på $141{,}100998\text{ kg}$ med null i rest ($\Delta m = 0{,}000000\text{ kg/døgn}$). Ved å la urea depolarisere anoden ved $+0{,}37\text{ V}$ senkes potensialet med $0{,}86\text{ V}$ i forhold til ordinær vannsplitting ($1{,}23\text{ V}$), slik at cellespenningen på $0{,}998\text{ V}$ og det absolutte fraværet av oksygen ($0{,}0\text{ ppm }\text{O}_2$) beskytter $[\text{Fe}_7\text{MoS}_9\text{C}]$-katalysatoren med $106{,}5\text{ prosent}$ intern nitrogendekning fra nabocellen.
+
+> **`[ `$\approx$` ROSETTA-SVEIS // `$\Pi_K(\text{Relativitet}) \cong \Pi_K(\text{Biologi}) \cong \Pi_K(\text{Silisium})$` // `$L^* = 12$` — ROSETTA-BLIKKET PÅ SVABERGET (`$\Delta\tau = 5{,}0223\,\mu\text{s}$`) ]`**  
+> For en tilskuer som står på det våte svaberget utenfor Risør (referanseramme $S$) og ser opp mot skydekket i femten tusen meters høyde, bruker det kosmiske myonet $50{,}286\text{ mikrosekunder}$ på fallet ned mot havet. For myonet selv (referanseramme $S'$) — som stuper mot granitten ved $0{,}995\,c$ — har hele jordatmosfæren krympet sammen til en tynn blå hinne på $L' = L_0 / \gamma = 1\,498{,}1\text{ meter}$, og reisen varer bare i et eneste åndedrag på $\Delta\tau = 5{,}0223\text{ mikrosekunder}$.  
+> Hvem av dem har rett? Begge. Og ingen av dem alene. Paradokset var aldri i atmosfæren; det var et brudd på kategorisk hygiene i observatørens kladdebok. I det øyeblikket vi projiserer hendelsen ortogonalt ($\Pi_K$) ned på den Lorentz-invariante egentiden $\Delta\tau = \frac{1}{c}\sqrt{-ds^2} = 5{,}0223\,\mu\text{s}$, forsvinner uenigheten som dugg, og tilbake står den nakne kjensgjerningen som kan måles i steinen ved betalt Landauer-skatt ($\Delta Q \ge k_B T \ln 2$): nøyaktig $10{,}17\text{ prosent}$ av partiklene når frem til havoverflaten ($N/N_0 = \exp(-5{,}0223 / 2{,}1970) = e^{-2{,}2860}$).  
+> Det er dette som er digresjonens egentlige oppgave i et arbeid som dette. Når vi i ett kapittel måler selektivitetsfilteret i en biologisk KcsA-kaliumkanal til $2{,}7\,\text{\AA}$, i det neste måler klokkeslaget i en safir-låst FPGA-port til $12{,}5\,\mu\text{s}$, og i det tredje står ved Nakons treskeplass i Andre Samuelsbok kapittel 6, bytter vi bare koordinatsystem mellom $S$ og $S'$. For den som er låst i én enkelt fagdisiplin, ser det ut som om vi har mistet tråden. For den som regner i kausal egentid ($\Pi_K^2 = \Pi_K$ ved $L^* = 12$), er kaliumkanalen, silisiumporten og granittblokken tre dialekter av nøyaktig samme overlevelsesbrøk.  
+> **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // 5,00 V DC // `$\Delta R = 0$` ]`** ($\circlearrowleft\,\Sigma_A$)
 
 ---
 
@@ -47,6 +58,75 @@ Arkitekturen løser dette paradokset gjennom en asymmetrisk tidsdomene-bifurkasj
 1. **Ved konstruktiv innvilgelse (`OPEN`):** Når spektralradien ligger trygt under enhet ($\rho(DP_\Sigma) < 1$), fungerer vitnet som selve adgangsbilletten. Systemet tvinges til å vente i $5\text{ millisekunder}$ mens `POSIX fsync` brenner hendelsen inn i lagringsmediet ($\odot$) *før* spenningen heves til $5{,}00\text{ V DC}$ ($1$). Ingen handling får starte før prisen er betalt.
 2. **Ved uavklart karantene (`HOLD`):** Banen fryses øyeblikkelig i høyimpedans-stasis ved $0{,}00\text{ V DC}$ ($1$) i det arkitekturen kaller Brahman-punktet, etterfulgt av et passivt, lyttende diagnostisk vitne ($\odot$).
 3. **Ved destruktiv avvisning (`KILL`):** Her snus kausaliteten på hodet. Maskinvaregiljotinen venter ikke et eneste nanosekund på disken; den kutter spenningen direkte til $0{,}00\text{ V DC}$ på $12{,}5\text{ mikrosekunder}$ i FPGA-kjernen – eller $4{,}0\text{ nanosekunder}$ via silisium-crowbaren ($1$) – samtidig som `fsync()` kjører parallelt i bakgrunnen ($\odot$). I `OPEN` er vitnet en forhåndsgodkjenning; i `KILL` er vitnet en obduksjonsrapport. Angrepsvinduet på fire hundre sykluser opphører å eksistere.
+
+### 1. De To Asymmetriske Kausalitetsgrenene ($\odot \prec 1$ mot $1 \prec \odot$)
+
+Etter Identitetsteoremet for holomorfe funksjoner kan ingen glatt analytisk modell implementere et eksakt binært kutt ($1$ på $\mathcal{D}_{\text{adm}}$, $0$ på $\mathcal{D}_{\text{elim}}$) uten å bli konstant overalt. Derfor splitter **Reismann-Core** tidsdomenet asymmetrisk mellom **autorisasjon ($\odot \prec 1$)** og **avskjæring ($1 \prec \odot$)**:
+
+| Egenskap / Parameter | Gren A: Kausal Opplåsning ($\odot \prec 1$) | Gren B: Asymmetrisk Nødkutt ($1 \prec \odot$) |
+| :--- | :--- | :--- |
+| **Kausal Ordning** | $\text{Durable}(W_{\text{pre}}) \prec \text{Airlock}_{400 / 6.2\text{M}} \prec \text{Execute}(5{,}00\text{ V}) \prec \text{Durable}(W_{\text{post}}) \prec \text{ACK}$ | $\text{Cut}(0{,}00\text{ V DC}) \prec \text{TrapLatch}(\text{SRAM}) \prec \text{Durable}(\text{Forensic } W_{\text{post}})$ |
+| **Fysisk & Logisk Betydning** | **Vitne før Spenning ($\odot \prec 1$):** Forhåndsvitnet $W_{\text{pre}}$ ($119\text{ B}$, inkl. `pre_w_pre_hash` i Byte `87..118`) må være fysisk flushet til ikke-flyktig minne (`fsync()`) og bi-Lipschitz-kvalifisert ($400\text{ clk}$ i $\mathcal{D}_{1.2} \to \mathcal{D}_{1.5}$ + $6\,200\,488\text{ clk}$ luftsluse) *før* utgangstrinnet får lov til å heve spenningen til $5{,}00\text{ V DC}$. | **Kutt før Logg ($1 \prec \odot$):** Ved ethvert invariantbrudd ($\Delta_K > 0$, $\partial_1\partial_2 \neq 0$, $\mathcal{Q}_{\text{LP}}(1,1)$ eller $\Delta t > \tau_{\max}$) venter maskinvaren **aldri** på disk eller buss. Ussas silisium-giljotin bryter spolen til $0{,}00\text{ V DC}$ på $\mathbf{1\text{ klokkesyklus}}$ ($2{,}26\text{ ns} \le 15\text{ ns}$), og forsegler deretter obduksjonsbeviset (`8'hFF TRAP_TAMPER`) i WORM-kjeden. |
+| **Spenningsprofil** | $0{,}00\text{ V DC (High-Z)} \xrightarrow{400\text{ clk}} 2{,}50\text{ V DC (Logisk } A_5 \text{ Warrant)} \xrightarrow{6\,200\,488\text{ clk}} 5{,}00\text{ V DC OPEN}$ | $5{,}00\text{ V} \text{ eller } 2{,}50\text{ V} \xrightarrow{\tau_{\text{cut}} \le 2{,}26\text{ ns}} 0{,}00\text{ V DC KILL} \text{ (5,0 mm luftgap)}$ |
+| **Gjenåpningskrav** | Automatisk innenfor gyldig epoke når alle 6 warrants $\prod_{m=1}^6 w_m = 1$ og $\Delta_K = 0$. | Låst i `trap_latched_out == 1'b1`; krever manuell **Level 01 Strobe (`0x55`)** og signert `RECONCILE_EPOCH` ($\mathcal{R}_{\text{AUTH}}$). |
+
+### 2. Tilstandsdiagram for Asymmetrisk Tidsdomene-Bifurkasjon
+
+```text
+====================================================================================================
+ASYMMETRISK TIDSDOMENE-BIFURKASJON (KAPITTEL 3.8 // SPEC-416 // 442,892 MHz)
+====================================================================================================
+
+  [ GREIN A: OPPLÅSNING (⊙ ≺ 1 : VITNE FØR HANDLING — TREG, KONVEKS OG DURABLE-FIRST) ]
+
+  +-------------------------------------------------------------------+
+  | D0 -> D1: RAW / SANDBOX (◦ -> ∅)                                  |
+  | Spole: 0,00 V DC (High-Z, 8,0 uJ WFI-sluse) | P_D2(s) == 0        |
+  +-------------------------------------------------------------------+
+         |
+         | (1) Bi-Lipschitz & Nagumo-sjekk (w'(t) in T_w(t)K)
+         | (2) fsync(119B W_pre) -> pre_w_pre_hash låst (Byte 87..118)
+         v
+  +-------------------------------------------------------------------+
+  | D1.2 -> D1.5: SOMMERFUGL-LOMME A5 (□ -> ⋄) [400 KLOKKESYKLUSER]   |
+  | Logisk spenning: 2,50 V DC WARRANT/HOLD | Spole: 0,00 V DC        |
+  | Carnot-balanse: dS_tot = 0,0000 J/K | Ma'at: F(F(s)) = s          |
+  +-------------------------------------------------------------------+
+         |
+         | (3) Kognitiv & Fysisk Luftsluse: 6 200 488 clk (14,0 ms)
+         |     + Dør 27 Tarski-hylle (Delta_t_Tarski = 30,0 s ved alarm)
+         | (4) Konjunktivt dobbeltvitne W^2 = <W_machine, W_human> == 1
+         v
+  +-------------------------------------------------------------------+
+  | D2- -> D3: REALISERT KONSEKVENS (O |-> •#!)                       |
+  | Spole: 5,00 V DC OPEN | 86B W_post forseglet (pre_hash == post)   |
+  +-------------------------------------------------------------------+
+         |
+         +------------------------------------------------------------+
+         | VED ETHVERT AVVIK (Delta_K > 0, d1d2 != 0, Q_LP(1,1),      |
+         |                    Delta_t > tau_max, eller Hash-mutasjon) |
+         v                                                            |
+  [ GREIN B: NØDKUTT (1 ≺ ⊙ : KUTT FØR LOGG — 1 KLOKKESYKLUS = 2,26 ns <= 15 ns) ]
+         |
+         v
+  +===================================================================+
+  | USSAS SILISIUM-GILJOTIN (TRAP_TAMPER = 8'hFF / GATE::KILL = 8'h03)|
+  | T_cut = 1 clk (2,2578 ns) -> v_gate_out_5v <= 1'b0 (0,00 V DC)    |
+  | Fysisk 5,0 mm luftgap brutt FØR post-mortem WORM-forsegling       |
+  | Låst til Level 01 fysisk nøkkel (0x55) + RECONCILE_EPOCH          |
+  +===================================================================+
+====================================================================================================
+```
+
+### 3. Matematisk Invariant for De 400 Klokkesyklusene ($\mathcal{D}_{1.2} \to \mathcal{D}_{1.5}$)
+
+I overgangen fra uverifisert struktur ($\mathcal{D}_{1.2}$, `□`) til levedyktig warrant i Sommerfugl-lommen $A_5$ ($\mathcal{D}_{1.5}$, `⋄`) krever kvalifiseringsvinduet på $N_{\text{warrant}} = 400$ klokkesykluser ($\approx 903{,}15\text{ ns}$ ved $442{,}892\text{ MHz}$) at tre betingelser holder uavbrutt før $119\text{ B } W_{\text{pre}}$ signeres:
+
+1. **Bi-Lipschitz-koersivitet (Ingen geometrisk kollaps eller eksplosjon):**
+   $$L_- \lVert x - y \rVert \le \lVert \Psi(x) - \Psi(y) \rVert \le L_+ \lVert x - y \rVert, \qquad 0 < L_- \le L_+ < \infty$$
+2. **Supra-margin og stabilitetsgap:**
+   $$\mu_{\text{supra}}(s_k) \ge 0 \quad \forall k \in \{1, \dots, 400\}, \qquad \kappa_2(I + L) \le 10{,}0$$
+3. **Krasj-sikker `IN_DOUBT`-regel:** Dersom strømmen brytes eller en klokkesyklus feiler ved syklus $k < 400$ (mellom $\text{Durable}(I_n)$ og $\text{Durable}(R_n)$), faller tilstanden ubetinget tilbake til `RECOVERY_HOLD` ved $0{,}00\text{ V DC}$ (`KILL` $\succ$ `HOLD` $\succ$ `OPEN`).
 
 ---
 
@@ -166,6 +246,6 @@ Den skal ikke forveksles med en bevist likhet mellom kompleksitetsklassene:
 
 $$\mathrm{P}_{\mathrm{op}} \leftrightarrow \mathrm{NP}_{\mathrm{op}} \quad \text{i } \mathcal{H}_{\mathrm{Smith}} \qquad \nRightarrow \qquad \mathrm{P} = \mathrm{NP} \qquad (\texttt{INSPIRED\_BY != IMPLEMENTS != PROVES})$$
 
-I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$) og den involutive rundturstesten $\mathcal{R}_T$ verifisert i [`hyperbolic_smith_constitutional_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/hyperbolic_smith_constitutional_gate_engine.py) (`8/8 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
+I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$), den involutive rundturstesten $\mathcal{R}_T$ og den eksakt rasjonale (`fractions.Fraction`, `0 float`) Nagumo- og Poincaré-porten `evaluate_hyperbolic_smith_nagumo_gate` ($\langle \nabla h(x), f(x, u) \rangle + \alpha(h(x)) \ge 0$, $d_{\mathbb{E}} = (1 - \lvert z\rvert^2)d_{\mathbb{H}}$, $\det(I - \gamma J) = 1$) verifisert i [`hyperbolic_smith_constitutional_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/hyperbolic_smith_constitutional_gate_engine.py) (`13/13 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
 
 En tanke som bare lever i mulighetsrommet, driver med vinden. Et punkt som bare står stille i materien, stivner til stein. Først når systemet behersker rytmen mellom dem – å strekke banen ut i det ukjente, kappe alt som ikke bærer sin egen vekt på fire nanosekunder, og forankre det som overlever med $898\,900\text{ Newton}$ i fjellet – oppstår sann bevegelse. Det som besto prøven i dag, blir det faste punktet neste bane skyter ut fra i morgen.

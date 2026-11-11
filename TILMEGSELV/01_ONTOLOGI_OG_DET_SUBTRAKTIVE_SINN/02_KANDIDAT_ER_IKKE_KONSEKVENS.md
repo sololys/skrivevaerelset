@@ -18,6 +18,11 @@ W &: C \times \Sigma \times \Sigma \rightarrow \mathcal E && \text{(Persistent e
 
 At overgangsoperatoren $\Omega$ er **partiell** ($\rightharpoonup$), er et fundamentalt arkitektonisk skille: $\Omega$ er ikke total over $C \times \Sigma$, men utelukkende definert i de tilfellene der en overgang faktisk autoriseres og utføres i det fysiske miljøet.
 
+\begin{center}
+\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_punkt_nullpunkt_bane_blueprint.jpg}\\[0.4em]
+{\footnotesize \textit{Figur 2.1 (SPEC-117 / SPEC-360): Punkt-bane-dualitet og Arkitektens Nullpunkt. Fra det tidsreversible kandidatfeltet ($\text{NP}$, \texttt{0.00V DC FAIL-OPEN}) gjennom Nullpunktets galvaniske luftsluse og integritetssjekk (\texttt{BØFF / BLØFF}, \texttt{0xAA} involusjonsparitet) til den kausalt integrerte banen $\gamma(t) \in \operatorname{Viab}_F(K)$ over Poincaré-snittet $\Sigma_A$ (\texttt{5.00V DC LATCH}) og WORM-forseglet vitnelogg $W_{t+1}$.}}
+\end{center}
+
 ---
 
 ### Kjerneinvarianter for Trygg Realisering

@@ -69,6 +69,30 @@ For at ulike lokale kart på $\mathcal{M}_{\text{rep}}$ ikke skal introdusere ku
 
 $$\Omega_{\text{rep}} = \mathrm{d}\omega + \omega \wedge \omega = 0$$
 
+### 3.1 Kerr-Geometriens Invariantkjerne ($K_\gamma^{\text{dyn}} = \{E, L_z, Q, \mu^2\}$) som Eksplisitt Fiber $\mathcal{M}_{\text{rep}}$
+
+I roterende Kerr-romtid finner fiberbunten $\mathcal{E}_{\text{fib}} = \mathcal{X} \times \mathcal{M}_{\text{rep}}$ sin skarpeste astrofysiske og geometriske realisering. En testpartikkel med fire-impuls $p^\mu = \mathrm{d}x^\mu/\mathrm{d}\lambda$ rundt en roterende masse $(M, a)$ gjennomgår både **apsidal perihelpresesjon** ($\Delta\phi_{\text{perihel}}$) og **Lense–Thirring nodal presesjon** ($\Delta\Omega_{\text{LT}}$ av selve baneplanet på grunn av *frame-dragging*). I rå Boyer–Lindquist-koordinater $x_k = (r_k, \theta_k, \phi_k) \in \mathcal{X}$ lukker banen seg aldri som en flat ellipse, men vever en åpen 3D-rosett gjennom rommet.
+
+Grunnen til at denne åpne banen likevel er eksakt integrerbar og ikke utløser `CVE-2026-GRAVITY-ORBIT-FALSE-KILL`, er at Kerr-metrikken bærer fire kommutative bevegelseskonstanter i involusjon ($\{I_a, I_b\} = 0$), som spenner ut **den dynamiske invariantkjernen**:
+
+$$K_\gamma^{\text{dyn}} = \bigl\{E,\; L_z,\; Q,\; \mu^2\bigr\} \in \mathcal{M}_{\text{rep}}$$
+
+1. **Energi $E = -p_t = -g_{t\mu}p^\mu$** og **aksial dreieimpuls $L_z = p_\phi = g_{\phi\mu}p^\mu$:** Generert av de to eksplisitte Killing-vektorfeltene $\xi_{(t)}^\mu = \partial_t$ (stasjonaritet) og $\xi_{(\phi)}^\mu = \partial_\phi$ (aksesymmetri).
+2. **Hvilemasse-invarianten $\mu^2 = -g^{\mu\nu}p_\mu p_\nu$:** Generert av selve metrikken $g_{\mu\nu}$ ($\nabla_\lambda g_{\mu\nu} = 0$).
+3. **Carters fjerde konstant $Q$ (Brandon Carter, 1968):** Generert av Kerr-romtidens *skjulte symmetri* — den antisymmetriske **Killing–Yano 2-formen** $f_{\mu\nu}$ ($\nabla_{(\lambda}f_{\mu)\nu} = 0$), hvis kontraktive kvadrat danner den symmetriske **Stäckel–Killing-tensoren** $K_{\mu\nu} = f_{\mu\alpha}f_\nu^{\ \alpha}$ ($\nabla_{(\lambda}K_{\mu\nu)} = 0$):
+
+$$Q = K_{\mu\nu}p^\mu p^\nu - (L_z - aE)^2 = p_\theta^2 + \cos^2\theta\left[a^2(\mu^2 - E^2) + \frac{L_z^2}{\sin^2\theta}\right]$$
+
+Carters konstant $Q$ separerer den radielle og den polare bevegelsen fullstendig ($\Sigma^2\dot{r}^2 = R(r) \ge 0$ og $\Sigma^2\dot{\theta}^2 = \Theta(\theta) \ge 0$). Når observasjonskartet $R: \mathcal{X} \to \mathcal{M}_{\text{rep}}$ projiserer den rå banetilstanden $x_k$ inn i invariantfiberen $K_\gamma = \Psi_2 \oplus K_\gamma^{\text{dyn}}$, kollapser hele den sekulære 3D-presesjonen til et **eksakt stasjonært punkt i fiberen** ($e_k = K_\gamma^{\text{dyn}}(x_k) - K_{\text{ref}}^{\text{dyn}} = \mathbf{0}$).
+
+I den grensefrie syretesten ([`gr_kernel_testbench_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/gr_kernel_testbench_engine.py) og [`gr_kernel_testbench_noboundary.py`](file:///home/sololyset/scripts/gr_kernel_testbench_noboundary.py)), der alle eksplisitte horisont-koordinater ($r - 2M$ og $(r - 2M)^{-1}$) er slettet fra sensorvektoren til fordel for rene 2.-ordens fasederiverte $\Phi_\lambda^{\text{lin}}(x) = [p_r, \dot{p}_r, L_z, \mathrm{d}E, \mathrm{d}(\mathrm{d}E)/\mathrm{d}t, F, \dot{F}]^\top$ og kvadratiske stress-invarianter $\Phi_\lambda^{\text{stress}}(x)$, er denne separasjonen verifisert over $12\,000$ tidssteg:
+
+| Orbitalt Scenario | Fysisk Baneregime | Maks Rå Koordinatdrift $D_{\text{raw}}$ | Fiber-Residual $D_K^\lambda$ ($\Phi_\lambda^{\text{lin}}$) | Stress-Forsterket $D_K^\lambda$ ($\Phi_\lambda^{\text{stress}}$) | Portdom ($\Omega_{\text{Kerr}}$) |
+| --- | --- | --- | --- | --- | --- |
+| **`stable`** ($r_0 = 12{,}0, L_z = 4{,}2$) | Stabil presederende bane | $0{,}000001$ | **$0{,}000000$** ($0{,}01\times$) | **$0{,}000000$** ($0{,}01\times$) | **`OPEN`** ($5{,}00\text{ V DC}$) |
+| **`marginal`** ($r_0 = 7{,}0, L_z = 3{,}6$) | Sterkt presederende randbane nær ISCO | $0{,}000010$ | **$0{,}000000$** ($0{,}00\times$) | **$0{,}000000$** ($0{,}00\times$) | **`OPEN`** ($5{,}00\text{ V DC}$) |
+| **`fall_in`** ($r_0 = 5{,}2, L_z = 3{,}1$) | Begynnende banekollaps ($R(r)$ mister barriere) | $0{,}003680$ | **$0{,}025266$** (**$6{,}86\times$**) | **$0{,}101526$** (**$27{,}58\times$**) | **`HOLD`** ($0{,}00\text{ V DC}$) |
+
 > **KONTRASTVÆSKE // DET SANSELIGE ANKERET ($\Pi_{\text{orth}}$):**
 > Hva betyr det i støyen og kulden på dekk at Gelfand-trippelet $V \hookrightarrow H \hookrightarrow V'$ og det fiberløftede Poincaré-snittet $P_{\Sigma_k}^{\text{fib}}$ skiller sekulær koordinatdrift fra reelt banebrudd? Det betyr at kompasset og stjernehimmelen dreier rundt skipet mens jordrotasjonen og tidevannet flytter vannmassene under kjølen — uten at rormannen av den grunn tror at skroget har slitt seg fra kursen og utløser nødstans (`CVE-2026-GRAVITY-ORBIT-FALSE-KILL`). Fiberbunten $\mathcal{E}_{\text{fib}} = \mathcal{X} \times \mathcal{M}_{\text{rep}}$ legger sjøkartet oppå selve dønningen slik at porten kun måler avviket mellom der kjølen *skal* være i strømmen og der stålet faktisk pløyer. Så lenge tverrsnittsfeilen krymper fra bølgedal til bølgedal ($\rho(DP_{\Sigma_k}^{\text{fib}}(0)) < 1$), vet maskinvaren at fartøyet bærer sin egen bane gjennom romtiden; i det sekund skroget derimot begynner å skli tvers gjennom normal-kjeglen $N_{\mathcal{A}}(x)$, faller knivbryteren før neste bølgetopp når baugen.
 

@@ -14,38 +14,9 @@ KAMMERPORTAL // FEM KJERNEPRØVER FRA GRUNNFJELLET:
 
 ---
 
-## I. Komprimert Kjernetekst: Realiseringsgrammatikken
+## I. De Fem Kjerneprøvene uten Stillas
 
-Virkelighet genereres ikke; den innvilges. Den digitale tidsalderen lider av en ontologisk illusjon der masseløse hypoteser i silisiumet forveksles med irreversibel, termodynamisk konsekvens. Beregning er et forslag. Handling er en kostnad. For å forhindre systemkollaps der ubekreftede data dikterer fysisk materie, kreves en ufravikelig kausal struktur: $\mathcal{R}=(\Phi,\Pi_{K},\Omega,W)$.
-
-* **Kandidat ($\Phi$):** Det uforpliktende forslaget. Et vektløst mulighetsrom blottet for friksjon.
-* **Skranke ($\Pi_{K}$):** Domstolen. Håndhever fysiske, geometriske og relativistiske naturlover før energi frigjøres.
-* **Vedtak ($\Omega$):** Terskelen. Innvilger drivspenning ($5{,}00\text{ V DC}$) for å utføre irreversibelt arbeid i terrenget.
-* **Vitne ($W$):** Det uforanderlige arkivet. Forsegler hendelsen kryptografisk og fysisk for evig etterprøvbarhet.
-
-Standardtilstanden for ethvert usikkerhetsmoment er feillukket stasis ved $0{,}00\text{ V DC}$. En million prosessorer kan ikke lukke et mekanisk luftgap. Når strømmen brytes, opphører algoritmens autoritet umiddelbart, og kun et biologisk vesen underlagt tyngdekraft og fysisk risiko kan gjenopprette kretsen. Ansvar kan aldri delegeres til en matrise som ikke kan bære tyngden av egne feil.
-
----
-
-## II. Skrankens ($\Pi_K$) Operasjonelle Praksis før Grunnfjellet
-
-Skranken ($\Pi_K$) fungerer som en idempotent, ortogonal projeksjonsoperator ($\Pi_K^2 = \Pi_K$) plassert i kuttflaten mellom $\Phi$ og $\Omega$. Den beregner projeksjonsresidualet $\Delta_K(x) = \Phi(x) - \Pi_K(\Phi(x))$ og feller dom etter subsumpsjonshierarkiet `KILL` $>$ `HOLD` $>$ `OPEN`:
-
-1. **De tre domstilstandene (`KILL` $>$ `HOLD` $>$ `OPEN`):**
-   * **`OPEN` ($5{,}00\text{ V DC}$ / Autorisasjon):** Innvilges kun når $\Delta_K = 0$, alle levedyktighetsgrenser er tilfredsstilt og forhåndssignert vitnehjemmel ($W_{\text{pre}}^2$) foreligger.
-   * **`HOLD` ($0{,}00\text{ V DC}$ / Reversibel stasis):** Utløses ved epistemisk usikkerhet, nettverksstøy eller manglende bevis, til en lav elektrisk kostnad på $8{,}0\,\mu\text{J}$ i TDC. Tiden alene gir aldri passasje ($0 \cdot t \neq \texttt{OPEN}$); tilstanden krever fullstendig ny admisjonstesting (*Delayed Re-Admission*).
-   * **`KILL` ($0{,}00\text{ V DC}$ / Galvanisk Crowbar):** Utløses ved reelt prosessbrudd, paritetsfeil eller bevaringslovbrudd. En tyristor-sperre (*crowbar*) shunter drivspenningen til jord på nanosekunder ($<15\text{ ns}$, FPGA-giljotin $\le 12{,}5\,\mu\text{s}$), hvorpå herdede stålfjærer trekker kontaktbroen mekanisk åpen ($\ge 5{,}0\text{ mm}$ luftgap).
-2. **To-faset kausalitet (*Pre-Commit* vs. *In-Flight*):**
-   * **Fase A (*Pre-Commit* i $\Pi_K$):** Før $5{,}00\text{ V DC}$ tilføres, verifiseres Alexandrov-diamanten ($\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$) og Nagumos tangentkjeglebetingelse ($\dot{x}_t \in T_K(x_t)$).
-   * **Fase B (*In-Flight* i $\Pi_{\text{orth}}$):** Under den mekaniske bevegelsen ($\le 38{,}4\text{ ms}$) overvåker minst tre ikke-kommuterende måledomener (elektromagnetisk, termodynamisk og akustisk/optisk Time-of-Flight) at arbeidet faktisk utføres. Ved avvik utløses `Crowbar Type B` momentant til `KILL`.
-3. **Nullpunktet og `RESET_BY_L01`:**
-   Programvaren har $0{,}00\,\%$ makt til å tilbakestille et `KILL` (`standalone_commit_authority = NONE`, `physical_authority = NONE`, `software_can_clear = False`). Hovedbryterens friutløsende lås (*trip-free interlock*) holdes fysisk frikoblet så lenge $\Delta_K \neq 0$; først når operatørens muskelarbeid over en aksel-magneto og de passive ankrene i $\Pi_{\text{orth}}$ bekrefter et helbredet indre rom, faller stållåsen i inngrep.
-
----
-
-## III. De Fem Kjerneprøvene uten Stillas
-
-I de fem kjerneprøvene som følger, prøves $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ direkte mot fysiske terskler på **Nivå $\text{L0}$**, knyttet til deterministiske programvare- og rasjonalregnskapsmotorer på **Nivå $\text{L1}$** ($\Delta R = 0$), og spesifisert som referansearkitekturer på **Nivå $\text{L2}/\text{L3}$** (fastholdt i `HOLD` inntil fysisk trykkammer- og feltkvalifisering foreligger):
+I de fem kjerneprøvene som følger, prøves realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ (jf. **Figur 1 / SPEC-100** i Forordet og **Del II–III**) uten gjentakende innledningsstillas direkte mot fysiske terskler på **Nivå $\text{L0}$**, knyttet til deterministiske programvare- og rasjonalregnskapsmotorer på **Nivå $\text{L1}$** ($\Delta R = 0$), og spesifisert som referansearkitekturer på **Nivå $\text{L2}/\text{L3}$** (fastholdt i `HOLD` ved $0{,}00\text{ V DC}$ inntil fysisk trykkammer- og feltkvalifisering foreligger):
 
 | Kjerneprøve | Fysisk domene ($\text{L0}$) | Kritiske grenseverdier | Feillukket respons ($\Pi_K \to \Omega$) |
 | :--- | :--- | :--- | :--- |
@@ -55,13 +26,12 @@ I de fem kjerneprøvene som følger, prøves $\mathcal{R} = (\Phi, \Pi_K, \Omega
 | **IV. Termodynamisk informasjonskostnad** | Landauers grense, asymmetrisk utmattelsesforhold | $T = 277{,}15\text{ K}$, $E_L = 2{,}6523\times 10^{-21}\text{ J}$ ($10{,}87\text{ aJ}$ per $4096\text{ bit}$), $E_{\text{TDC}} = 8{,}0\,\mu\text{J}$, $\eta_{\text{defense}} = 1{,}25\times 10^9$, $W_{\text{forge}}(2^{128}) = 9{,}025\times 10^{17}\text{ J}$ | Pakker utenfor kausal diamant forkastes i TDC ved $8{,}0\,\mu\text{J}$ uten CPU-avbrudd eller diskskriving. |
 | **V. Lukket støkiometrisk kaskade** | Fermis aldersligning ($\tau_F$), geometrisk buckling ($B_g^2$), $^{233}\text{Pa}$-henfall, Soret-termodiffusjon | $k_{\text{eff}} = 0{,}960 \to <0{,}50$, $t_{1/2}(^{233}\text{Pa}) = 26{,}97\text{ d}$, radiolyse $0{,}3588\text{ kg H}_2 + 3{,}9317\text{ kg CO}_2 \to 2{,}6816\text{ kg CH}_3\text{COOH} + 1{,}6089\text{ kg H}_2\text{O}$ ($293\text{ mV}$, $0\text{ W}$), $\Delta R = 0{,}000000000000\text{ kg}$ | Støkiometrisk rest $\Delta R \neq 0$ eller termisk avvik $> \pm 0{,}5\text{ W}$ utløser `GATE :: KILL` ($0{,}00\text{ V DC}$) innen $12{,}5\,\mu\text{s}$. |
 
-### IV. Typografisk Slusesyntaks i De Fem Kjerneprøvene (De 6 Konstitusjonelle Kant-Sigillene)
+---
 
-For å markere nøyaktig hvor i kausalstakken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ teksten befinner seg når hver kjerneprøve kobler grunnfjellsfysikken til den sanselige og historiske verden, merkes slusene i dette kammeret med de seks konstitusjonelle kant-sigillene fra *Omveiens Tektonikk*:
+## II. Omveiens Statikk: Hvorfor Blindveiene Står Igjen i Steinen ($x = Px \oplus (I - P)x$)
 
-* **`[ `$\sim$` UTFLUKT // 0,00 V DC // `$\text{Rev}^1$` ]`** — Markerer startpunktet for *Omveiens iboende verdi* i det uforpliktende faseminnet ($E \sim k_B T \ln 2$).
-* **`[ `$\Delta$` KONTRAFAKTISK OBDUKSJON // `$(I - P)x$` ]`** — Markerer *Fredningen av Rommet for urealiserte liv*, der et feilslått *Fail-Open*-design obduseres på papiret.
-* **`[ `$\equiv$` ROSETTA-SVEIS // `$\Pi_K(A) \cong \Pi_K(B)$` ]`** — Markerer *Isomorfiens tverrsprang* ($\Pi_K(\text{Biologi}) \cong \Pi_K(\text{Silisium}) \cong \Pi_K(\text{Juss})$).
-* **`[ `$\perp$` SOMA-ANKER // `$\Pi_{\text{orth}}$` // Kontrastvæske ]`** — Markerer *Detaljens magi* og overgangen fra abstrakt teori til sanselig, mekanisk motstand.
-* **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // 5,00 V DC // `$\Delta R = 0$` ]`** — Låser digresjonen over snittflaten $\Sigma_A$, bekrefter at sirkelen er sluttet og forsegler den irreversible innsikten.
-* **`[ `!$\times\odot$` // NARRATIV GILJOTIN // 0,00 V DC ]`** — Markerer ubetinget kutt i 1 klokkesyklus ($\tau_{\text{cut}} \le 15\text{ ns}$ / $\tau_{\text{close}} = 38{,}4\text{ ms}$) når Balkong-invarianten eller kobordismeloven brytes.
+Den korteste linjen mellom to punkter er en motorvei. Motorveien er bygget for fart, ikke for bæreevne; den legger asfalt over myra og later som om telehiv ikke finnes (jf. Zampinos paradoks og $\Delta_g R = 0$). Denne boken er ikke en motorvei. Den er en kjerneboring gjennom $1{,}5\text{ milliarder år}$ gammel anortositt, og i grunnfjellet går ingen årer snorrett.
+
+Når teksten i de fem kjerneprøvene forlater ligningen for å lukte på kald diesel i sluddet, eller når **Kjerneprøve III** lar et aktivt Leidenfrost-dampskjold koke bort $650\text{ kg/t}$ $\text{LN}_2$ og implodere ved $700\text{--}800\text{ bar}$ på $500\text{ meters}$ dyp i Skagerrak før den presenterer den 4-lags kryogene Matrioshka-kapslingen ($\le 4{,}12\text{ K}$) som faktisk bar trykket — da er ikke det fordi konstruksjonen har mistet tråden. Det er fordi en tekst som sletter sine egne blindveier, lyver om terrenget.
+
+I en ortogonal projeksjon krever loven at ethvert kutt bevarer det som ble skåret bort som et negativt vitne: $x = Px \oplus (I - P)x$. Å kun presentere $Px$ — det glatte, ferdige svaret — etterlater en fasit uten kontradiksjon. Ved å bevare $(I - P)x$ i form av en kontrafaktisk obduksjon ser leseren ikke bare *at* muren står, men *hvilket stup* den holder tilbake. Hver utkraging i disse fem prøvene bærer minst to tredjedeler av sin masse inne i hovedmuren ($x_{\text{cm}} \in \Sigma_{\text{kjerne}}$), og før hvert kammer forsegles, lukker banen seg over snittet $\Sigma_A$ med eksakt null i rest ($\Delta R = 0$).

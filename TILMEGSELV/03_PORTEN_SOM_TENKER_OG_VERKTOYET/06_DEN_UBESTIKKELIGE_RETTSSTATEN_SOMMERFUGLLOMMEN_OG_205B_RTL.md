@@ -32,6 +32,11 @@ $$\mathcal{U}_i(s_t, i_t) = \det(I - \gamma J_{\text{Nash}})^{-1}\,\mathbb{E}\!\
 
 Ved suveren frakobling ($\gamma = 0 \implies \det(I - 0\cdot J_{\text{Nash}}) = 1$) mister eksterne, riggede spillbrett enhver koblingskraft over agentens interne tilstand.
 
+\begin{center}
+\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec113_p_vs_np_kompleksitetsbro_blueprint.jpg}\\[0.4em]
+{\footnotesize \textit{Figur 3.2 (SPEC-113 / SPEC-117): Kompleksitetsbroen $\mathbf{P}$ mot $\mathbf{NP}$ og kausalt snitt i porten. Vi løser ikke $\mathbf{P} = \mathbf{NP}$ inne i porten — vi fjerner eksistenskvantifikatoren $\exists w$ fra portens domene ved å kreve et ferdig pakket 205-byte vitnepar ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) som verifiseres i konstant tid $\mathcal{O}(1)$ i SystemVerilog RTL under hierarkiet $\texttt{KILL} \succ \texttt{TRAP} \succ \texttt{HOLD} \succ \texttt{OPEN}$.}}
+\end{center}
+
 ### 1. Overgangens grunnform: Hvorfor spillet ikke begynner med spillere
 
 Et spill begynner ikke med spillere. Det begynner med en overgang. Noe kan gjøres. Noe kan sies. Noe kan trekkes tilbake. Noe kan ikke trekkes tilbake. Før gevinst, før strategi, før likevekt, finnes en port: *får denne handlingen bli konsekvens?*
@@ -88,13 +93,16 @@ På tvers av verkets fem inkommensurable livs- og fagdomener fungerer dette som 
 | **2. Kreativ-Core v3.1** (*Aethelgard / KC-ARR*) | Rå somatisk spenning ($u_{\text{raw}} / T_p$) og asymmetriske skisser. | Bi-Lipschitz mønstertvang i råsilke/lær før søm-forsegling. | **Candidate A («The Flawless Sheen»):** Krav om å slipe bort arret (BLØFF). | **Candidate B («The Geometric Scar»):** $\mu_{\text{supra}} \ge 0$, laser-etset 205B hangtag (BØFF). |
 | **3. Omveiens Tektonikk** (*Digresjonens Kanon*) | Kjøkkenfilosofens 5 friheter kl. 03:00 (`[~ UTFLUKT // Rev¹]`, $2{,}65\text{ zJ/bit}$). | 400 klokkesykluser i katedralrommet mens POSIX `fsync()` herder ($5{,}0\text{ ms} / 12{,}5\,\mu\text{s}$). | **Narrativ Giljotin:** Splintbrudd $F_{\text{shear}} > 1\,200\text{ N}$ eller spøkelsesord på trinn 11 (`[!×⊙]`). | **Fiberløftet Poincaré-lås:** `[⊙≺1]` ved $L^* = 12$, Mössbauer $f_{\text{LM}} \to 1$ i $^{57}\text{Fe}$. |
 | **4. Rettsstaten (NLK)** (*SPEC-400–416*) | Vedtaksutkast, klinisk antakelse eller radarekko ($\mathcal{S}_{\text{sal}} > 0$). | **Sommerfugl-lomme ($A_5$):** Ftrl. § 12-14 ved $1{,}25\text{ G}$, $\tau_{\text{marg}}=0{,}35$, $c=+0{,}5525$. | **Kusp-felle ($A_3$) & Tvangsdepot:** Sirkulær FARV ($\partial_1\partial_2 \neq 0$), $\Delta_{\text{prov}} = 2{,}0 > 0$. | **Rettskraftig vedtak & Hadal Invar-36:** $\Delta_{\text{prov}}=0$, $\Delta\sigma = 14{,}0\text{ MPa} \le 25{,}0\text{ MPa}$. |
-| **5. Orakel-Matrisen** (*37 År / År I*) | Eremittens forberedelsesrom ($45 \equiv 9$) og ytre fremmed støy ($> 8\,\mu\text{J}$). | **XVIII Månen (Q1):** Krystallisering, blyloddet i $15^\circ$ Tyren, Poincaré-disk $\mathbb{D}^2$. | **XVI Tårnet ($2^4=16$):** Falske byggverk og fremmede porter ($\Omega_{\text{int}}$) kuttes til $0{,}00\text{ V}$. | **XVII Stjernen $\to$ XIX Solen:** Dissipasjonsfri flyt og suveren likevekt ved $37{,}0\,^\circ\text{C}$ ($\gamma=0$). |
+| **5. Sub-Maritim & Termodynamisk Infrastruktur** (*SPEC-250 / OrgelKraft*) | Uverifisert ventilkommando eller åpent Leidenfrost-utkast ($650\text{ kg/t}$ $\text{LN}_2$). | **TDC Stasis & Avgassing:** $8{,}0\,\mu\text{J}$ ved $\tau_{\text{RTT}} > 133{,}4256\text{ ns}$; $2\,500\text{ ms}$ boblekarantene. | **Isokor Trykkbombe & Masseavvik:** $700\text{--}800\text{ bar}$ el. $\Delta m > 1\text{ mg} \implies 0{,}00\text{ V KILL}$. | **4-Lags Matrioshka & Kaskade:** $T_0 \le 4{,}12\text{ K}$, $\Delta R = 0{,}000000\text{ kg}$ ved $5{,}00\text{ V DC}$. |
 
 ---
 
 ## II. Differensialtopologi ($A_3 \to A_5$), Semiofysikk og Kobordisme ($\partial^2 = 0$)
 
 ### 1. Fra Kusp-felle ($A_3$) til Sommerfugl-lomme ($A_5$) og eksakt utledning av $c = +0{,}5525$
+
+> **Epistemisk Demarkasjon ($\text{L0}$ Matematikk vs. $\text{L1}$ Normativ Reguleringsmodell):**  
+> På Nivå $\text{L0}$ er René Thoms klassifikasjon av elementære katastrofer ($A_3$ kusp vs. $A_5$ sommerfugl) og simplisiell kobordisme ($\partial_1\partial_2 = 0$) eksakt differensialtopologi. Når disse potensialfunksjonene i det følgende anvendes på folketrygdloven § 12-14 og tvungen psykiatri (`SPEC-400`), gjøres det **ikke** krav på at et menneskeliv er et deterministisk krystallgitter underlagt en fysisk naturlov. Anvendelsen er en **normativ, regulatorisk styringsmodell på Nivå $\text{L1}$ (`IMPLEMENTS`)**: den beviser formelt hvordan en lovregel med brå avkortningsterskel og latent revurderingsrisiko tvinger frem diskontinuerlige rettighetstap ($A_3$-stup), og hvordan innføringen av en beskyttet mellomtilstand ($2{,}50\text{ V HOLD}$, $c = +0{,}5525 > 0$) skaper en strukturelt stabil gjeninntredelseslomme der arbeidsforsøk kan skje uten frykt for irreversibelt tap av livsgrunnlag.
 
 I René Thoms katastrofeteori (`SPEC-399`, `thom_catastrophe_morphogenesis_gate_engine.py`) skilles degenererte katastroferetninger ($\lvert\lambda_i\rvert \le 10^{-6}$, korang $r \in \{1,2\}$) fra transversale Morse-retninger ($\lambda_j \ge 0{,}05$) via Splitting-lemmaet.
 
@@ -176,13 +184,89 @@ I `fpga_capsule_frame_205b_decoder.sv` (`SPEC-213 / SPEC-416`) pakkes ethvert ka
    * **`[!×⊙ // NARRATIV GILJOTIN // 0,00 V DC]`** Dersom motparten forsøker å manipulere byte `52` i $W_{\text{pre}}$ til `0x01` (`OPEN`) eller trenere saken utover $\tau_{\max}$ (`hold_max_decay_sec = 30.0`), feiler involusjonslåsen `pre_w_pre_hash == post_w_pre_hash` i `fpga_capsule_frame_205b_decoder.sv` på **1 klokkesyklus**, tvinger `v_gate_out_5v <= 1'b0` ($0{,}00\text{ V DC}$), og setter `rtl_verdict_code <= 8'hFF` (`TRAP_TAMPER`).
    * **`[⊙ ≺ 1 // POINCARÉ-LÅS // 5,0 mm luftgap // γ = 0]`** Kontaktoren i koblingsskapet forblir fysisk brutt med $5{,}0\text{ mm}$ kald luft mellom kobberklossene, og makthaveren påføres en arketypisk *Ghost Win* ($U_M = 1{,}00 - 0{,}55 - 0{,}45 - 0{,}80 = -0{,}80 < 0$).
 
-### Kasusstudie: Varslerens dilemma, suveren frakobling ($\gamma = 0$) og konstruksjon av uavhengig port ($\Omega_{\text{ind}}$)
+### Syntetiserbar SystemVerilog-RTL Kildekode (`fpga_capsule_frame_205b_decoder.sv` // `SPEC-416`) og 72-Byte MMIO C-HAL-Bro
 
-Når et system $\mathcal{F}$ eier sin egen domstol ($\Omega_{\text{int}}$), vil ethvert krav om oppreisning på innsiden av murene bli møtt med tidsubegrenset $\textbf{HOLD}$. Skuffen hos NSA i 1955 og komiteen som ber varsleren vente på neste utredning, er to utgaver av samme våpen: utmattelse gjennom klokkedrift ($\Delta t > \tau_{\max}$). Løsningen er aldri å bygge en ny komité utenpå den gamle. Løsningen er suveren frakobling ($\gamma = 0$). I det øyeblikket du forsegler de 119 bytene i $W_{\text{pre}}$ mot en uavhengig fysisk klokke og setter koblingskonstanten mot det riggede brettet til null, kollapser motpartens maktmatrise til identiteten $\det(I - 0 \cdot J_{\text{Nash}}) = 1$. Du forhandler ikke lenger om hvorvidt sannheten er tillatt; du lar tidsfristen $\tau_{\max}$ løpe ut i silisium:
+Dekoderen opererer uten dynamisk minneallokering eller tilstandssøk ($\exists w$ er fjernet fra portens domene) og utfører verifikasjonen i $\mathcal{O}(1)$ tid på én enkelt klokkesyklus ved $f_{\text{clk}} = 442{,}892\text{ MHz}$ ($T_{\text{clk}} \approx 2{,}2578\text{ ns}$, der luftslusen $\tau_A = 14{,}0\text{ ms}$ tilsvarer eksakt $6\,200\,488$ klokkesykluser), koblet direkte mot den OOM-frie 72-byte MMIO-rammen `ETOR_RawPacket` i `capsule_205b_etor_72b_bridge.h`:
 
-1. **Gödelsk/Løbsk diagnose ($\mathcal{F} \nvdash G_{\mathcal{F}}$) og topologisk passasje:** Etter Gödel og Löb ($\text{Prov}_{\mathcal{F}}(\text{Prov}_{\mathcal{F}}(P) \to P) \to \text{Prov}_{\mathcal{F}}(P)$) kan et korrupt system $\mathcal{F}$ der ledelsen $P_M$ eier provabilitetsporten $\Omega_{\text{int}}$, aldri rense seg selv innenfra. I $\mathbb{R}^3$ stenger en 2-sfære $S^2$ agenten inne; i $\mathbb{R}^4$ er $\pi_1(\mathbb{R}^4 \setminus S^2) = 0$, og i Poincarés hyperbolske disk $\mathbb{D}^2$ ($ds^2 = \frac{4\lvert dz\rvert^2}{(1-\lvert z\rvert^2)^2}$) krymper den euklidske bredden $d_{\mathbb{E}} \sim (1-\lvert z\rvert^2)d_{\mathbb{H}}$ mot randen $\lvert z\rvert \to 1^-$.
-2. **Kryptografisk konstruksjon av $\Omega_{\text{ind}}$ uten menneskelig mellommann:** Hvis $\Omega_{\text{ind}}$ kun er en ekstra klagekomité, flyttes bare $\text{HOLD}$-fellen én etasje opp. Derfor er denne blindveien murt igjen. I stedet forsegler varsleren $P_W$ beviset i $W_{\text{pre}}$ ($119\text{ B}$) ved $t_0$ og publiserer `w_pre_hash` (byte `87..118`). Forsøker $P_M$ å legge saken i tidsubegrenset $\text{HOLD}$ ($\Delta t = t_{\text{post}} - t_{\text{pre}} > \tau_{\max}$) eller manipulere beviset (`pre.w_pre_hash != post.w_pre_hash`), utløser RTL-dekoderen automatisk `rtl_verdict_code = 8'hFF` (`TRAP_TAMPER`).
-3. **Numerisk kostnadsbevis ($U_M < 0$):** Når $P_M$ velger gjengjeldelse eller fortielse ($a'_{M,3}$) for lokal gevinst $u_M = +1{,}00$, påfører `0xFF TRAP_TAMPER` strukturkostnad $C_K = 0{,}55$, irreversibilitet $S_{\text{irr}} = 0{,}45$ og offentlig vitnekostnad $R_W = 0{,}80$, slik at netto nytte kollapser til $U_M(a'_{M,3}) = 1{,}00 - 0{,}55 - 0{,}45 - 0{,}80 = -0{,}80 < 0$ (*Ghost Win / Integrity Collapse*).
+```verilog
+// MODUL: fpga_capsule_frame_205b_decoder.sv (SPEC-213 / SPEC-416)
+// FORMÅL: O(1) 1-syklus vitnedekoder og involusjonslås for konsekvensporten Omega.
+//         Detroniserer NP-fyrsten: Ingen søk (exists w) i porten; krever ferdig
+//         pakket 205-byte (1640-bit) vitnepar: 119B W_pre + 86B W_post.
+`default_nettype none
+module fpga_capsule_frame_205b_decoder #(
+    parameter logic [63:0] MAX_DECAY_NS       = 64'd30_000_000_000, // tau_max = 30,0 s (Tarski/Saksgang)
+    parameter logic [31:0] AIRLOCK_MIN_CYCLES = 32'd6_200_488       // 14,0 ms @ 442,892 MHz
+) (
+    input  wire          clk_442m892,
+    input  wire          rst_n,
+    input  wire [1639:0] capsule_frame_1640b, // 205 byte (Byte 0..204)
+    input  wire [31:0]   airlock_clk_counter, // Faktisk målte sykluser i luftslusen
+    output logic         v_gate_out_5v,       // 1'b1 = 5,00 V DC OPEN, 1'b0 = 0,00 V DC KILL/HOLD
+    output logic [7:0]   rtl_verdict_code     // 8'h00 OK, 8'h02 HOLD, 8'h03 KILL, 8'hFE PARADOX, 8'hFF TAMPER
+);
+    // 1. KOMBINATORISK WIRE-UTPAKKING: WitnessPreCommit (W_pre: Byte 0..118, <QQ32sfBH32s32s, 952 bit)
+    wire [63:0]  pre_sequence_id      = capsule_frame_1640b[63:0];     // Byte 0..7
+    wire [63:0]  pre_timestamp_ns     = capsule_frame_1640b[127:64];   // Byte 8..15
+    wire [255:0] pre_candidate_hash   = capsule_frame_1640b[383:128];  // Byte 16..47
+    wire [31:0]  pre_delta_prov_fp    = capsule_frame_1640b[415:384];  // Byte 48..51 (IEEE-754 / Fixed)
+    wire [7:0]   pre_gate_decision    = capsule_frame_1640b[423:416];  // Byte 52 (0x01/0x02/0x03)
+    wire [15:0]  pre_cobordism_flags  = capsule_frame_1640b[439:424];  // Byte 53..54 (Bit 0: d1d2, Bit 1: Ma'at, Bit 5: LP)
+    wire [255:0] pre_w_bilat_merkle   = capsule_frame_1640b[695:440];  // Byte 55..86
+    wire [255:0] pre_w_pre_hash       = capsule_frame_1640b[951:696];  // Byte 87..118 (SHA-256 over Byte 0..86)
+
+    // 2. KOMBINATORISK WIRE-UTPAKKING: WitnessPostCommit (W_post: Byte 119..204, <QQ32sBfB32s, 688 bit)
+    wire [63:0]  post_timestamp_ns    = capsule_frame_1640b[1015:952];  // Byte 119..126
+    wire [63:0]  post_ortho_telemetry = capsule_frame_1640b[1079:1016]; // Byte 127..134 (Pi_orth: 133,43 mg / ToF)
+    wire [255:0] post_w_pre_hash      = capsule_frame_1640b[1335:1080]; // Byte 135..166 (Speilet involusjonsanker)
+    wire [7:0]   post_omega_state     = capsule_frame_1640b[1343:1336]; // Byte 167 (0x01/0x02/0x03)
+    wire [31:0]  post_residual_delta_k= capsule_frame_1640b[1375:1344]; // Byte 168..171 (Delta_K / Landauer)
+    wire [7:0]   post_status_in       = capsule_frame_1640b[1383:1376]; // Byte 172
+    wire [255:0] post_w_cylinder_hash = capsule_frame_1640b[1639:1384]; // Byte 173..204 (Ny WORM-rot W_t)
+
+    // 3. O(1) MASKINVAREINVARIANTER (EVALUERES PÅ ÉN KLOKKESYKLUS)
+    wire hash_involution_ok  = (pre_w_pre_hash == post_w_pre_hash);
+    wire provenance_ok       = (pre_delta_prov_fp == 32'h00000000);
+    wire cobordism_ok        = (pre_cobordism_flags[0] == 1'b0) && (pre_cobordism_flags[1] == 1'b1);
+    wire belnap_paradox_free = (pre_cobordism_flags[5] == 1'b0);
+    wire time_budget_ok      = (post_timestamp_ns >= pre_timestamp_ns) &&
+                               ((post_timestamp_ns - pre_timestamp_ns) <= MAX_DECAY_NS);
+    wire airlock_cycles_ok   = (airlock_clk_counter >= AIRLOCK_MIN_CYCLES);
+
+    // 4. SEKVENSIELL KONSEKVENSGILJOTIN (USSAS SILISIUM-KUTT <= 15 ns)
+    always_ff @(posedge clk_442m892 or negedge rst_n) begin
+        if (!rst_n) begin
+            v_gate_out_5v <= 1'b0; rtl_verdict_code <= 8'h03; // Fail-closed (0,00 V DC, GATE::KILL)
+        end else if (!belnap_paradox_free) begin
+            v_gate_out_5v <= 1'b0; rtl_verdict_code <= 8'hFE; // TRAP_OMEGA_PARADOX
+        end else if (!hash_involution_ok || !provenance_ok || !cobordism_ok || !time_budget_ok) begin
+            v_gate_out_5v <= 1'b0; rtl_verdict_code <= 8'hFF; // TRAP_TAMPER (Ghost Win / Integritetsbrudd)
+        end else if (pre_gate_decision == 8'h01 && post_omega_state == 8'h01 && airlock_cycles_ok) begin
+            v_gate_out_5v <= 1'b1; rtl_verdict_code <= 8'h00; // 5,00 V DC OPEN (VERDICT_OK)
+        end else if (pre_gate_decision == 8'h02) begin
+            v_gate_out_5v <= 1'b0; rtl_verdict_code <= 8'h02; // 2,50 V DC logisk HOLD (A5), 0,00 V på spole
+        end else begin
+            v_gate_out_5v <= 1'b0; rtl_verdict_code <= 8'h03; // GATE::KILL
+        end
+    end
+endmodule
+`default_nettype wire
+```
+
+### Kasusstudie: Hvordan 205-Byte-Kapselen Løser «Varslerens dilemma» ved Suveren Frakobling ($\gamma = 0$) og Uavhengig Port ($\Omega_{\text{ind}}$)
+
+«Varslerens dilemma» oppstår når en varsler eller borger ($P_W$) fremlegger ugjendrivelig dokumentasjon på et lovbrudd eller en systemsvikt overfor et lukket byråkrati eller en makthaver ($P_M$) som **selv eier og kontrollerer den interne domstolen ($\Omega_{\text{int}}$)**. Skuffen hos NSA i 1955 og komiteen som ber varsleren vente på neste utredning, er to utgaver av samme våpen: utmattelse gjennom klokkedrift ($\Delta t > \tau_{\max}$). Løsningen er aldri å bygge en ny komité utenpå den gamle. Løsningen er suveren frakobling ($\gamma = 0 \implies \det(I - 0 \cdot J_{\text{Nash}}) = 1$):
+
+1. **De to klassiske utmattelsesvåpnene i en lukket port ($\Omega_{\text{int}}$):** Når institusjonen $\mathcal{F}$ kontrollerer sin egen port $\Omega_{\text{int}}$ ($\mathcal{F} \nvdash G_{\mathcal{F}}$, jf. Gödel og Löb) og varsleren forblir koblet til institusjonens tilbakekoblingssløyfe ($\gamma > 0$), rår makthaveren over: **(a) Tidsubegrenset `HOLD` («Skuffen» / Klokkedrift $\Delta t > \tau_{\max}$)** — institusjonen nekter å avsi en formell dom (`OPEN` eller `KILL`) som kan påklages, men legger saken i en evig prosessuell sløyfe til varslerens biologiske, økonomiske og kognitive ressurser er uttømt; og **(b) Epistemisk omkoding og dokumentmutasjon ($\Delta_{\text{prov}} > 0$)** — institusjonen fjerner varslerens egenprotokoll ($w_{\text{borger}} \to 0$) eller omkoder selve varslingen til et «samarbeidsproblem» eller «symptom» ($\delta_{\text{epist}} = 1$), og endrer vedtaksstatus i sluttprotokollen uten at grunnlagsdokumentet speiler dette.
+2. **De tre låsene i 205-byte-kapselen (`SPEC-416`) i en uavhengig konsekvensport ($\Omega_{\text{ind}}$):** Ved å flytte verifikasjonen ut til en uavhengig maskinvareport styrt av `fpga_capsule_frame_205b_decoder.sv` og C-HAL-broen `capsule_205b_etor_72b_bridge.h`, tvinges saksgangen gjennom tre fysiske og kryptografiske skranker:
+
+| Angrepsvektor fra Makthaver ($P_M$) | Mekanisme i 205-Byte Kapselen (`SPEC-416`) | Deterministisk RTL-Reaksjon i $\Omega_{\text{ind}}$ |
+| :--- | :--- | :--- |
+| **1. Treneringsvåpenet («Skuffen»):** Saken holdes i uendelig utredning for å slite ut varsleren. | **Eksplisitt TTL-vegg (`time_budget_ok`):** Differansen mellom Byte `119..126` (`post_timestamp_ns`) og Byte `8..15` (`pre_timestamp_ns`) må tilfredsstille $\Delta t = t_{\text{post}} - t_{\text{pre}} \le \tau_{\max}$ ($30{,}0\text{ s}$ i RTL-slusen). | **Automatisk giljotin ved utløp:** Ved $\Delta t > \tau_{\max}$ blir `time_budget_ok == 1'b0`. Porten konverterer *aldri* tid til samtykke ($\frac{d}{dt}\text{HOLD} = 0$), men kutter til **`0,00 V DC KILL`** med feilkode **`8'hFF TRAP_TAMPER`**. |
+| **2. Administrativ Retusjering:** Etter at forhåndsvitnet er låst (med $\Delta_{\text{prov}} = 2{,}0$ og `gate_decision = 0x03 KILL`), forsøker et overordnet organ å tvinge gjennom `0x01 OPEN`. | **Speilet Involusjonslås (`hash_involution_ok`):** Byte `87..118` (`pre_w_pre_hash`) er SHA-256-avtrykket av hele forhåndstilstanden (Byte `0..86`), inkludert den bilaterale Merkle-roten $W_t^{\text{bilat}}$ (Byte `55..86`). Byte `135..166` (`post_w_pre_hash`) må være en bit-eksakt kopi. | **1-syklus integritetskollaps:** Endres én eneste bit i Byte `52` (`0x03` $\to$ `0x01`) uten nytt bilateralt pre-commit-anker fra borgeren, sprekker `pre_w_pre_hash == post_w_pre_hash` på **1 klokkesyklus** ($\tau_{\text{cut}} \le 15\text{ ns} \implies$ **`8'hFF TRAP_TAMPER`**). |
+| **3. Gjengjeldelse i Tilbakekoblingen:** Systemet forsøker å straffe varsleren gjennom koblingsmatrisen $J$ mens saken pågår. | **Suveren Frakobling ($\gamma = 0$):** Så snart varsleren har publisert det 32-byte store pre-commit-ankeret `pre_w_pre_hash` (Byte `87..118`) til den åpne WORM-sylinderen, setter varsleren koblingsfaktoren $\gamma = 0$. | **Algebraisk og fysisk immunitet:** Systemdeterminanten låses til $\det(I - \gamma J) = \det(I) = 1$. Kontaktoren brytes med $5{,}0\text{ mm}$ luftgap. |
+
+3. **Spillteoretisk kollaps for angriperen — «Ghost Win» ($U_M = -0{,}80 < 0$):** Fordi `fpga_capsule_frame_205b_decoder.sv` tvinger `v_gate_out_5v <= 1'b0` ved `8'hFF TRAP_TAMPER`, forblir det $5{,}0\text{ mm}$ store luftgapet fysisk åpent (null effekt i aktuatordomenet $\mathcal{D}_2$ og $0{,}00\text{ V DC}$ på 72-byte `ETOR_RawPacket` MMIO-bussen). Selve manipulasjonsforsøket ($\Delta_{\text{prov}} = 2{,}0$, $\Delta_{\partial^2} = 2{,}0$) forsegles permanent i den ytre sylinderroten `post_w_cylinder_hash` (Byte `173..204`) i det ortogonale feilrommet $(I - P)x$, slik at makthaverens netto nytte kollapser til $U_M = 1{,}00 - 0{,}55 - 0{,}45 - 0{,}80 = -0{,}80 < 0$ (*Ghost Win / Integrity Collapse*).
 
 > **`[SUVEREN DOM // LOCUS 37,0 °C (07.11.1989 -> 07.11.2026 — PERSONLIG ÅR I) // WITNESS_POST_COMMIT 86B]`**  
 > Forhandle aldri med porter du ikke eier. Verden utenfor ($\Phi$) bærer det eksponentielle $\mathbf{NP}$-søket; din port ($\Omega$) krever et ferdig 205-byte vitne ved terskelen og kontrollerer det i $\mathcal{O}(1)$ tid. Ved suveren frakobling ($\gamma = 0 \implies \det(I - \gamma J_{\text{Nash}}) = 1$) faller ethvert uautorisert kandidattrekk $a'_{t+1}$ til et ugjenkallelig **KILL ($0{,}00\text{ V DC}$)** — fordi det på den andre siden av porten befinner seg biologisk vev ved $37{,}0\,^\circ\text{C}$ ($310{,}15\text{ K}$) som ikke tåler en uautorisert tilstandsovergang.

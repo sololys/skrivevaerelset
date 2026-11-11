@@ -88,6 +88,13 @@ Når et system fullfører en syklus og vender tilbake til sin snittflate – det
 
 Man går ut alene. Og man vender tilbake til seg selv.
 
+> **`[ `$\circ$` `$\Phi$`-UTFLUKT // 0,00 V DC // `$\text{Rev}^1$` — POSTBUDETS RETUR: HVORFOR SANNHETEN MÅ BÆRE HVILEMASSE UTENFOR 20 METER ]`**  
+> I Via Fondazza i Bologna malte Giorgio Morandi de samme støvete flaskene og krukkene gjennom et helt liv uten å føle behov for å reise ut i verden. Han hadde gjennomskuet samtidighetsbedraget før nettverkene ble bygget: Det finnes intet globalt «nå». Når du ser opp på Andromeda-galaksen over Skagerrak, ser du ikke en nabostjerne i sanntid; du leser en $2{,}5\text{ millioner år}$ gammel kvittering som endelig har kommet frem i posten.  
+> **`[ `$\boxtimes$` SOMA-ANKER // LEVEL 01 // 10 000 J — TYNGDEKRAVET UTENFOR `$D(E_1, E_2)$` ]`**  
+> Innenfor en radius på $20{,}0\text{ meter}$ ($\Delta t_{\text{RTT}} \le 133{,}4256\text{ nanosekunder}$, $ds^2 \le 0$) kan vi tillate oss å snakke sammen med lysets hastighet, ansikt til ansikt, som folk rundt et kjøkkenbord klokken tre om natten. Men i det øyeblikket vi krysser dørstokken ut av Alexandrov-diamanten, opphører retten til gratis fjernstyring. Utenfor tyve meter må enhver sannhet som vil endre verden, pent finne seg i å bære hvilemasse ($m > 0$) og betale det mekaniske arbeidet $W = \int \mathbf{F} \cdot \mathrm{d}\mathbf{r} > 0$ over bølgene — som en fysisk, Ed25519-signert kurérkapsel i en losbåt som legger til ved kai og trykker seg mot et vindu av monokrystallinsk safir ($\alpha\text{-Al}_2\text{O}_3$, $25\text{ kV}$).  
+> Og når kuréren har levert sitt vitneprov ($W_B$) og snur for å gå hjem, trer Liouvilles teorem ($\frac{d\rho}{dt} = \frac{\partial\rho}{\partial t} + \{\rho, H\} = 0$) i kraft. I et inkompressibelt faserom kan ingen baner krysse hverandre, ingen kan låne en annens fotspor, og ingen får en gratis skyss tilbake til hovedveien. Den som tok leseren med ut på den syvende svingen, må selv kjenne sålefriksjonen hele veien rundt heliksen ($(x_{k+1}, h_{k+1}) \neq (x_k, h_k)$ i $\mathcal{E}_{\text{fib}} = \mathcal{X} \times \mathcal{M}_{\text{rep}}$) til Poincaré-snittet lukker seg: og det var derfor vi måtte innom krukkene i Bologna og myonene over Risør for å forstå hvorfor en ventil på fem hundre meters dyp må falle til null volt i stillhet.  
+> **`[ `$\odot \prec 1$` // POINCARÉ-LÅS // 0,00 V DC HOLD // `$\lVert P_A^{\text{fib}}(x_0) - x_0 \rVert_{\mathcal{M}} \le \varepsilon_{\text{drift}}$` ]`** ($\circlearrowleft\,\Sigma_A$)
+
 ---
 
 ## EPILOG: DER DET BUTTER

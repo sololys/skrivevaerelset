@@ -80,6 +80,11 @@ I det øyeblikket en kandidat fra $\Phi$ krever fysisk realisering i $\mathcal{P
 > * **Kjøtt, stål og sludd:** På skjermen kan en bølgeligning svinge fritt i alle retninger uten å møte en eneste skrue eller pakning. Men legg hånden på det kalde stålhuset rundt en høyspentbryter på verkstedbenken i Risør: der inne har strømmen kun én eneste lovlig bane mellom kontaktene. Prøver energien å ta en skråbane utenfor isolatoren ($\Delta_K \neq 0$), slår gnistgapet over til jord med et skarpt smell, og sikringen faller død til $0{,}00\text{ V DC}$.  
 > * **Dom ved porten:** En bølge som bare løser den andreordens ligningen på papiret, er en turist uten billett; kun den banen som lar seg låse fast i kobberets førsteordens spor uten å brenne opp kanalen, slipper gjennom porten ($\Omega$).
 
+\begin{center}
+\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec375_partikkelen_som_snittet_blueprint.jpg}\\[0.4em]
+{\footnotesize \textit{Figur 2.2 (SPEC-375 / SPEC-72): Partikkelen som snittet hvor loven blir til stein. (1) Den masseløse bølgen, Klein–Gordon masseskall-hyperboloiden og Faddeev–Popov-spøkelsesløkker i det åpne kandidatfeltet ($\Phi \subset \mathcal{NP}$, \texttt{0.00V DC FAIL-OPEN}); (2) Standardmodellen som subtraktiv $\Pi_K$-projeksjonsmotor (Higgs-vakuum $v \to 125{,}11\text{ GeV}$, Pauli-forbudet $\Omega_{\text{Pauli}}$, QCD farge-innesperring $\Omega_{\text{QCD}}$, BRST-kohomologi $\mathcal{H}_{\text{phys}} = \ker s / \operatorname{im} s$ ved $s^2 = 0$, og fasespeilet $\mathcal{M}^2 = I$); og (3) Partikkelen ($\odot \in \mathcal{P}$) som fikspunkt $\operatorname{Fix}(\Omega \circ \Phi)$ voktet av de seks partikkel-vokterne ($\mu^-$, $^{56}\text{Fe}/^{57}\text{Fe}$, $\text{K}^+$, $e^-/\text{H}^+$, $\alpha$, $n/^{233}\text{Pa}$).}}
+\end{center}
+
 ---
 
 ## 4. Oppgjøret med Den Kostnadsfrie Tomme Mengden
