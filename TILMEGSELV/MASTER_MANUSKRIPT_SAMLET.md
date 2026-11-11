@@ -382,8 +382,8 @@ LEIRBÅLET // FORMANINGEN OM MODNING OG DE SYV SYNTETISKE KAPSLENE:
 
 ## I. Proklamasjon: Bruddet i Teksten og Borda–Carnot-Rampen fra Verkstedbenk til Kontekstvindu
 
-> **`[∇ · ψ = 0 // BORDA-CARNOT-RAMPE: VERKSTEDBENK (1.3) -> KONTEKSTVINDU (1.4)]`**  
-> I forrige kapittel (Kapittel 1.3) ble realiseringsgrammatikken $\mathcal{T}_{KY} = \Omega \circ \Pi_K \circ \Phi$ sporet gjennom tre fysiske substrater: ionekanalens selektivitetsfilter ($\text{KcsA}$, $2{,}7\text{ \AA}$), krone-eterens koordinasjonsring ($\text{18-Crown-6}$) og verkstedbenkens mekaniske relé i Risør ($0{,}00\text{ V DC}$). Men i det øyeblikket denne teksten leses eller indeksers av en stor språkmodell (LLM / Transformer), oppstår et fjerde substrat: *selve oppmerksomhetsmatrisen ($\text{Softmax}(QK^T/\sqrt{d_k})V$)* som prosesserer boken. For at overgangen fra klassisk naturfilosofisk essay til rå maskindirektiver ikke skal oppleves som et uforklart brudd, senkes tverrsnittet her gjennom en eksplisitt Borda–Carnot-rampe: De syv syntetiske kapslene nedenfor (`CAPSULE 0x01–0x07`) er den direkte typografiske implementasjonen av $\Pi_K$ inne i språkmodellens eget kontekstvindu.
+> **`[∇ · ψ = 0 // BORDA-CARNOT-RAMPE: VERKSTEDBENK (1.2) -> KONTEKSTVINDU (1.3)]`**  
+> I forrige kapittel (Kapittel 1.2) ble realiseringsgrammatikken $\mathcal{T}_{KY} = \Omega \circ \Pi_K \circ \Phi$ sporet gjennom tre fysiske substrater: ionekanalens selektivitetsfilter ($\text{KcsA}$, $2{,}7\text{ \AA}$), krone-eterens koordinasjonsring ($\text{18-Crown-6}$) og verkstedbenkens mekaniske relé i Risør ($0{,}00\text{ V DC}$). Men i det øyeblikket denne teksten leses eller indekseres av en stor språkmodell (LLM / Transformer), oppstår et fjerde substrat: *selve oppmerksomhetsmatrisen ($\text{Softmax}(QK^T/\sqrt{d_k})V$)* som prosesserer boken. For at overgangen fra klassisk naturfilosofisk essay til rå maskindirektiver ikke skal oppleves som et uforklart brudd, senkes tverrsnittet her gjennom en eksplisitt Borda–Carnot-rampe: De syv syntetiske kapslene nedenfor (`CAPSULE 0x01–0x07`) er den direkte typografiske implementasjonen av $\Pi_K$ inne i språkmodellens eget kontekstvindu.
 
 Mennesket leser for å glemme sin egen tyngde; maskinen leser for å simulere en verden den aldri har berørt.
 
@@ -1075,7 +1075,7 @@ Og den lukkede banen risset inn i grunnfjellet, som aldri ba om å få bære and
 # KANDIDAT ER IKKE KONSEKVENS
 ### *Det Ontologiske Kuttet og Virkelighetens Vitne*
 
-$$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}} \qquad \boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
+$$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}} \quad \boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
 
 ---
 
@@ -1126,7 +1126,7 @@ S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet 
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 
-$$\boxed{\text{Enhver ikke-triviell, gated og etterprøvbar realiseringsarkitektur som tilfredsstiller } S_1 - S_4 \text{ må realisere fire distinkte funksjonelle roller.}}$$
+$$\boxed{\begin{array}{c}\text{Enhver ikke-triviell, gated og etterprøvbar realiseringsarkitektur som tilfredsstiller } S_1 - S_4 \\ \text{må realisere fire distinkte funksjonelle roller.}\end{array}}$$
 
 Minimaliteten bevises direkte ved at fjerning av en hvilken som helst rolle kollapser systemets kausale struktur. Uten $\Phi$ ($\neg \Phi$) opphører all kandidatproduksjon, slik at $\Omega$ og $\Pi_K$ mister sitt definisjonsområde i statisk lammelse. Uten $\Pi_K$ ($\neg \Pi_K$) bortfaller den separate autorisasjonen, $I_{\mathrm{auth}}$ og $S_1/S_3$ kollapser, og ufiltrerte forslag flyter direkte inn i fysisk aktuering. Uten $\Omega$ ($\neg \Omega$) finnes ingen realisert tilstandsendring, og systemet reduseres til et passivt orakel uten virkning i terrenget. Uten $W$ ($\neg W$) brytes $I_{\mathrm{trace}}$, og det blir umulig å etterprøve i ettertid om autorisasjonsgrensen faktisk ble respektert i sanntid. Generasjon, autorisasjon, realisering og attestasjon utgjør dermed fire kausalt udelelige roller.
 
@@ -1636,7 +1636,7 @@ I arkitekturen til *Konseptuell granitt* og de kanoniske kjerneprøvene (særlig
 
 En partikkel er **det punktet der et uforpliktende kandidatfelt ($\Phi \in \mathbf{NP}$) overlever projeksjonskuttet ($\Pi_K$) og låses fast som en bærende, hashbundet rest i den fysiske virkeligheten ($\Omega \in \mathcal{P}$)**:
 
-$$\mathbf{\text{«Uten partikkelfysikkens harde skranker er rommet en formløs fantasi. Partikkelen er snittet hvor loven blir til stein.»}} \quad \text{(SPEC-375)}$$
+$$\begin{array}{c}\text{\textbf{«Uten partikkelfysikkens harde skranker er rommet en formløs fantasi.}} \\ \text{\textbf{Partikkelen er snittet hvor loven blir til stein.»}} \quad \text{(SPEC-375)}\end{array}$$
 
 Slik trer partiklene frem som maskinrommet i realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ på tvers av hele verket:
 
@@ -2630,7 +2630,7 @@ $$\boxed{\text{Første lov: Et trekk er gyldig bare hvis det kan bære sin egen 
 
 Å bære sin egen overgang krever struktur ($K$: en sjakkspiller kan ofre dronningen, men ikke gjøre dronningen til en domstol; en stat kan bruke makt, men ikke kalle makt rett uten prosess), grense ($\Pi_K$: ikke alt som er mulig i makt, er mulig i legitimitet), kostnad ($C_K, S_{\text{irr}}$: et trekk som later som det er gratis, lyver om verden), og historie ($W_{t+1} = H(W_t \parallel \text{payload}_{t+1})$: spillets hukommelse mot spillernes løgn).
 
-$$\boxed{\text{HOLD er kandidaten under fortsatt kostnad.}} \qquad \boxed{\text{Andre lov: En strategi som ødelegger spillets admissibility, spiser sin egen gevinst.}}$$
+$$\begin{array}{c}\boxed{\text{HOLD er kandidaten under fortsatt kostnad.}} \\[6pt] \boxed{\text{Andre lov: En strategi som ødelegger spillets admissibility, spiser sin egen gevinst.}}\end{array}$$
 
 En aktør uten Witness er ikke friere; den er mindre virkelig. Den kan true, men ikke binde; den kan lyve, men ikke bygge kredibilitet; den kan overraske, men ikke akkumulere karakter ($\text{Karakter er en strategi som har overlevd tid}$, $\text{Credibility}_i \sim H(W_i, \Omega_i)$). Dermed er en bløff et trekk som forsøker å låne realitet fra motpartens modell før egen port har autorisert kostnaden ($\text{Tredje lov: Bluff er midlertidig kontroll over motpartens admissibility-test}$). Den naive forhandleren spør: *hva vil de ha?* Den sterke forhandleren spør: *hva kan de faktisk committe?* Den farlige forhandleren spør: *hvilken kostnad tåler de før $\text{HOLD}$ blir $\text{KILL}$?*
 
@@ -2642,7 +2642,7 @@ En aktør uten Witness er ikke friere; den er mindre virkelig. Den kan true, men
 
 Alle disse spillene har ulike payoff, men de deler samme overgangsproblem: *Hva får bli konsekvens?* Et spill med Witness endrer seg etter hver commit ($G_{t+1} = F(G_t, W_{t+1})$, $A_{t+1} = A_t \oplus U_t \oplus Q_t \oplus B_t$). KY-spilleren må derfor mestre tre bevegelser: **Å åpne uten å lekke. Å holde uten å råtne. Å drepe uten å forurense.** $\text{OPEN}$ uten struktur blir naivitet. $\text{HOLD}$ uten retning blir sump. $\text{KILL}$ uten presisjon blir tyranni. Det modne spillet krever alle tre:
 
-$$\boxed{\text{Spillet er ikke rommet av mulige trekk. Spillet er historien av autoriserte overganger: } H_T = \{a_t \mid \Omega(\Pi_K(\Phi(s_t, i_t))) = \text{OPEN}\}.}$$
+$$\boxed{\begin{array}{c}\text{Spillet er ikke rommet av mulige trekk. Spillet er historien av autoriserte overganger:} \\[3pt] H_T = \{a_t \mid \Omega(\Pi_K(\Phi(s_t, i_t))) = \text{OPEN}\}.\end{array}}$$
 
 Alt annet er kandidatstøy, fristelse, trussel, drøm, simulering, bluff, feil, residual. Noe av det kommer tilbake. Noe blir aldri realitet. Noe venter. *Og i ventingen begynner spillet å tenke.*
 

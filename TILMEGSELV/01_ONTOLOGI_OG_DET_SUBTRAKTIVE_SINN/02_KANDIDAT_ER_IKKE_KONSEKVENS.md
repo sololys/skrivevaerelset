@@ -1,7 +1,7 @@
 # KANDIDAT ER IKKE KONSEKVENS
 ### *Det Ontologiske Kuttet og Virkelighetens Vitne*
 
-$$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}} \qquad \boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
+$$\boxed{\text{Dynamics generates possibilities; admissibility determines existence.}} \quad \boxed{\mathcal R = (\Phi, \Pi_K, \Omega, W)}$$
 
 ---
 
@@ -52,7 +52,7 @@ S_3 &: \quad \Omega \text{ kan realisere, men ikke produsere sin egen autoritet 
 S_4 &: \quad W \text{ kan attestere en fortidig overgang, men ikke retroaktivt autorisere den}
 \end{aligned}$$
 
-$$\boxed{\text{Enhver ikke-triviell, gated og etterprøvbar realiseringsarkitektur som tilfredsstiller } S_1 - S_4 \text{ må realisere fire distinkte funksjonelle roller.}}$$
+$$\boxed{\begin{array}{c}\text{Enhver ikke-triviell, gated og etterprøvbar realiseringsarkitektur som tilfredsstiller } S_1 - S_4 \\ \text{må realisere fire distinkte funksjonelle roller.}\end{array}}$$
 
 Minimaliteten bevises direkte ved at fjerning av en hvilken som helst rolle kollapser systemets kausale struktur. Uten $\Phi$ ($\neg \Phi$) opphører all kandidatproduksjon, slik at $\Omega$ og $\Pi_K$ mister sitt definisjonsområde i statisk lammelse. Uten $\Pi_K$ ($\neg \Pi_K$) bortfaller den separate autorisasjonen, $I_{\mathrm{auth}}$ og $S_1/S_3$ kollapser, og ufiltrerte forslag flyter direkte inn i fysisk aktuering. Uten $\Omega$ ($\neg \Omega$) finnes ingen realisert tilstandsendring, og systemet reduseres til et passivt orakel uten virkning i terrenget. Uten $W$ ($\neg W$) brytes $I_{\mathrm{trace}}$, og det blir umulig å etterprøve i ettertid om autorisasjonsgrensen faktisk ble respektert i sanntid. Generasjon, autorisasjon, realisering og attestasjon utgjør dermed fire kausalt udelelige roller.
 

@@ -69,7 +69,7 @@ I arkitekturen til *Konseptuell granitt* og de kanoniske kjerneprøvene (særlig
 
 En partikkel er **det punktet der et uforpliktende kandidatfelt ($\Phi \in \mathbf{NP}$) overlever projeksjonskuttet ($\Pi_K$) og låses fast som en bærende, hashbundet rest i den fysiske virkeligheten ($\Omega \in \mathcal{P}$)**:
 
-$$\mathbf{\text{«Uten partikkelfysikkens harde skranker er rommet en formløs fantasi. Partikkelen er snittet hvor loven blir til stein.»}} \quad \text{(SPEC-375)}$$
+$$\begin{array}{c}\text{\textbf{«Uten partikkelfysikkens harde skranker er rommet en formløs fantasi.}} \\ \text{\textbf{Partikkelen er snittet hvor loven blir til stein.»}} \quad \text{(SPEC-375)}\end{array}$$
 
 Slik trer partiklene frem som maskinrommet i realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ på tvers av hele verket:
 

@@ -47,7 +47,7 @@ $$\boxed{\text{Første lov: Et trekk er gyldig bare hvis det kan bære sin egen 
 
 Å bære sin egen overgang krever struktur ($K$: en sjakkspiller kan ofre dronningen, men ikke gjøre dronningen til en domstol; en stat kan bruke makt, men ikke kalle makt rett uten prosess), grense ($\Pi_K$: ikke alt som er mulig i makt, er mulig i legitimitet), kostnad ($C_K, S_{\text{irr}}$: et trekk som later som det er gratis, lyver om verden), og historie ($W_{t+1} = H(W_t \parallel \text{payload}_{t+1})$: spillets hukommelse mot spillernes løgn).
 
-$$\boxed{\text{HOLD er kandidaten under fortsatt kostnad.}} \qquad \boxed{\text{Andre lov: En strategi som ødelegger spillets admissibility, spiser sin egen gevinst.}}$$
+$$\begin{array}{c}\boxed{\text{HOLD er kandidaten under fortsatt kostnad.}} \\[6pt] \boxed{\text{Andre lov: En strategi som ødelegger spillets admissibility, spiser sin egen gevinst.}}\end{array}$$
 
 En aktør uten Witness er ikke friere; den er mindre virkelig. Den kan true, men ikke binde; den kan lyve, men ikke bygge kredibilitet; den kan overraske, men ikke akkumulere karakter ($\text{Karakter er en strategi som har overlevd tid}$, $\text{Credibility}_i \sim H(W_i, \Omega_i)$). Dermed er en bløff et trekk som forsøker å låne realitet fra motpartens modell før egen port har autorisert kostnaden ($\text{Tredje lov: Bluff er midlertidig kontroll over motpartens admissibility-test}$). Den naive forhandleren spør: *hva vil de ha?* Den sterke forhandleren spør: *hva kan de faktisk committe?* Den farlige forhandleren spør: *hvilken kostnad tåler de før $\text{HOLD}$ blir $\text{KILL}$?*
 
@@ -59,7 +59,7 @@ En aktør uten Witness er ikke friere; den er mindre virkelig. Den kan true, men
 
 Alle disse spillene har ulike payoff, men de deler samme overgangsproblem: *Hva får bli konsekvens?* Et spill med Witness endrer seg etter hver commit ($G_{t+1} = F(G_t, W_{t+1})$, $A_{t+1} = A_t \oplus U_t \oplus Q_t \oplus B_t$). KY-spilleren må derfor mestre tre bevegelser: **Å åpne uten å lekke. Å holde uten å råtne. Å drepe uten å forurense.** $\text{OPEN}$ uten struktur blir naivitet. $\text{HOLD}$ uten retning blir sump. $\text{KILL}$ uten presisjon blir tyranni. Det modne spillet krever alle tre:
 
-$$\boxed{\text{Spillet er ikke rommet av mulige trekk. Spillet er historien av autoriserte overganger: } H_T = \{a_t \mid \Omega(\Pi_K(\Phi(s_t, i_t))) = \text{OPEN}\}.}$$
+$$\boxed{\begin{array}{c}\text{Spillet er ikke rommet av mulige trekk. Spillet er historien av autoriserte overganger:} \\[3pt] H_T = \{a_t \mid \Omega(\Pi_K(\Phi(s_t, i_t))) = \text{OPEN}\}.\end{array}}$$
 
 Alt annet er kandidatstøy, fristelse, trussel, drøm, simulering, bluff, feil, residual. Noe av det kommer tilbake. Noe blir aldri realitet. Noe venter. *Og i ventingen begynner spillet å tenke.*
 
