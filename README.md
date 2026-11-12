@@ -1,30 +1,14 @@
-# `SKRIVEVÆRELSET` // THE WORD & EPISTEMIC D0 SANCTUARY (`0xABCDEF00`)
+# Skriveværelset — Books, Essays & Philosophy of Law
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032522.svg)](https://doi.org/10.5281/zenodo.24032522)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39?style=flat-square)](https://orcid.org/0009-0006-0431-6637)
 [![Granitum Physics](https://img.shields.io/badge/SALON-Granitum_Physics_(LinkedIn)-0A66C2?style=flat-square)](https://www.linkedin.com/groups/40622443/)
 
+> **Coordinate (`1 · Word`):** [`(0,0) sololys`](https://github.com/sololys) — **`[1 · Word]`** → [`2 · Draft`](https://github.com/sololys/epistemic-architectures-notes) → [`3 · Rule`](https://github.com/sololys/epistemic-architectures) → [`4 · Gate`](https://github.com/sololys/ky-rox-public-demonstrators) → [`5 · Seal`](https://github.com/sololys/monolitt)
 
-```text
-╔══════════════════════════════════════════════════════════════════════════════════════╗
-║  ROOM: THE WORD (SKRIVEVÆRELSET) // LITERARY, DRAMATIC & PHILOSOPHICAL MONOGRAPHS    ║
-║  STATE ANCHOR : 0xABCDEF00 (v1.5.0-MASTER)                                           ║
-║  LAYER CLASS  : D0 (Pre-Formal Articulation, Classical Drama & Nordic Essayistics)   ║
-║  BOUNDARY LAW : INSPIRED_BY != IMPLEMENTS != PROVES                                  ║
-╚══════════════════════════════════════════════════════════════════════════════════════╝
-```
+Before an idea becomes a mathematical draft, a formal specification, or a fail-closed gate in code, human thought has to face consequence, responsibility, and law in plain language. **`skrivevaerelset`** (*The Writing Room*) holds the Norwegian books, essays, dialogues, and visual studies in the `sololys` constellation.
 
-### `0x01` // The Place of the Word in a Fail-Closed Architecture
-
-Before a state vector can be estimated ($D_1$), structured into an interval grammar ($D_2$), or sealed inside a 208-byte cryptographic envelope ($D_3$), human thought must confront consequence, tragedy, law, and responsibility in natural language.
-
-`skrivevaerelset` (*The Writing Room*) is the dedicated literary and philosophical chamber of the `sololys` constellation.
-
-| Epistemic Property | Rule in `skrivevaerelset` |
-| :--- | :--- |
-| **Domain** | Classical drama (Ibsen, *The Odyssey*), juridical-philosophical dialogues (*Sokrates & Juristen*), and Nordic prose. |
-| **Boundary Invariant** | Strictly governed by `INSPIRED_BY != IMPLEMENTS != PROVES`. Literary exploration informs architectural ethics at $D_0$, but never substitutes for $L_1$ verification or $L_3$ hardware telemetry. |
-| **Counterpart** | Formal mathematical and RTL proofs reside in [`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures) and [`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators) (`80/80 PASS`). |
+* **Epistemic Boundary (`INSPIRED_BY != IMPLEMENTS != PROVES`):** Literary and philosophical exploration clarifies human responsibility, but never substitutes for formal specifications in [`epistemic-architectures`](https://github.com/sololys/epistemic-architectures) or runnable gate verification in [`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators).
 
 ---
 
@@ -160,5 +144,5 @@ Til slutt, når energien er betalt i varme, vinkelen rettet inn uten gjenskinn, 
 │ — [ Blad skåret ut ved bokryggen ] —
 
 ---
-`STATE ANCHOR: 0xABCDEF00` · `RELEASE: v1.5.0-MASTER` · `GATE: [SSOT_LOCKED // HOLD 0.00V_DC]` · `ORCID: 0009-0006-0431-6637`
+**Arkiv og lisens:** [ORCID `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [`LICENSE`](LICENSE) · [`NOTICE`](NOTICE)
 
