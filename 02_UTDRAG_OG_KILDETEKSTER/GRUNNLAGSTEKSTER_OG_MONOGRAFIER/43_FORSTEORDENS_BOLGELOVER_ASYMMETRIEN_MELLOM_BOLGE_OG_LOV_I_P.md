@@ -83,5 +83,5 @@ For at den samme bølgen skal være en faktisk løsning av de fire førsteordens
 
 ## 3. Verifisert Godot 4.3 `L1`-Motor: `FirstOrderWaveLawEngine` (`6/6 PASS`)
 
-* **Motor:** [`first_order_wave_law_engine.gd`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/first_order_wave_law_engine.gd)
-* **Headless Testsuite:** [`test_first_order_wave_law_engine.gd`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/tests/test_first_order_wave_law_engine.gd)
+* **Motor:** `first_order_wave_law_engine.gd`
+* **Headless Testsuite:** `test_first_order_wave_law_engine.gd`

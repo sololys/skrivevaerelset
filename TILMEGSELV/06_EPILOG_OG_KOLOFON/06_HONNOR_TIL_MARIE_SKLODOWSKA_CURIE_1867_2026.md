@@ -16,7 +16,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
 ```
 
 \begin{center}
-\includegraphics[width=0.66\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
+\includegraphics[width=0.66\textwidth]{BILDER/24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
 {\footnotesize \textit{Arrangement i grått, bekblende og blågrønt radiumlys (Rue Lhomond 42, Paris, 1898 $\to$ Locus Zero, Risør, 7. november 2026): Marie Skłodowska-Curie ved arbeidsbordet, foran blyskrinet og fraksjoneringsskålen med ${}^{226}\text{RaCl}_2$.}}
 \end{center}
 

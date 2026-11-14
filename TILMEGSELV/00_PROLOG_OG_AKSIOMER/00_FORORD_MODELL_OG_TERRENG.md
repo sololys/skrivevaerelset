@@ -33,7 +33,7 @@ Overført til kybernetikk betyr dette at det mest modne verktøyet mennesket kan
 I dette nullpunktet trer monografiens bærende erkjennelse frem. Når et mekanisk sikkerhetsrelé har sluppet taket etter et reelt prosessbrudd og spenningen ligger på $0{,}00\text{ V DC}$, er all verdens beregningskraft avmektig. En million prosessorer kan ikke lukke et fysisk luftgap mellom to kobberkontakter som holdes fra hverandre av stålfjærer. For å tilbakestille kretsen etter at den fysiske feilen i prosesskjernen er utbedret, må et menneske gripe fysisk inn ved anlegget. Denne manuelle arbeidsplikten sikrer at den endelige autoriteten forblir hos det eneste vesenet som kan bære juridisk, etisk og fysisk ansvar for konsekvensene. Maskinen kan kartlegge mulighetene i silisiumet, men kun mennesket har rygg til å forankre virkeligheten i fjellet.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec100_realiseringens_grammatikk_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec100_realiseringens_grammatikk_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 1 (SPEC-100): Kanonisk hovedtavle for Realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ ($x_{t+1} = \Omega(\Pi_K(\Phi(x_t)))$) og den åttetrinns tilstandsstigen fra spenningsløst mulighetsrom ($0{,}00\text{ V DC}$: \texttt{VOID $\to$ RAW $\to$ ESTIMATE $\to$ STRUCT}) via terskelprøving ($2{,}50\text{ V DC}$: \texttt{THRESHOLD $\to$ VIABILITY $\to$ COMMITTED}) til irreversibel fysisk konsekvens ($5{,}00\text{ V DC}$: \texttt{REALIZED}), underlagt Level 01 menneskelig suverenitet og $\texttt{INSPIRED\_BY} \neq \texttt{IMPLEMENTS} \neq \texttt{PROVES}$.}}
 \end{center}
 
@@ -250,7 +250,7 @@ Likesom enhver maskinvareport i dette verket dømmes etter kvadrupelen $\mathcal
 
 ## Paritetsvandringens Lov: Litterær Digresjonsarkitektur som Reed–Solomon Feilkorrigering over $\mathrm{GF}(2^8)$ (`0x11D`)
 
-For å gjøre **Lov 8** operasjonelt etterprøvbar etablerer verket (verifisert på nivå $\text{L1}$ i `03_ENGINES/qr_reed_solomon_constitutional_engine.py`, `6/6 PASS`) en eksakt strukturell isomorfi ($\Pi_K$) mellom **litterær digresjonsarkitektur** og **algebraisk feilkorrigering over Galois-kroppen $\mathrm{GF}(2^8)$** med det primitive polynomet fra ISO/IEC 18004 (QR) og Red Book CIRC:
+For å gjøre **Lov 8** operasjonelt etterprøvbar etablerer verket (verifisert på nivå $\text{L1}$ i `qr_reed_solomon_constitutional_engine.py`, `6/6 PASS`) en eksakt strukturell isomorfi ($\Pi_K$) mellom **litterær digresjonsarkitektur** og **algebraisk feilkorrigering over Galois-kroppen $\mathrm{GF}(2^8)$** med det primitive polynomet fra ISO/IEC 18004 (QR) og Red Book CIRC:
 
 $$p(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\texttt{0x11D},\;\alpha = 2)$$
 

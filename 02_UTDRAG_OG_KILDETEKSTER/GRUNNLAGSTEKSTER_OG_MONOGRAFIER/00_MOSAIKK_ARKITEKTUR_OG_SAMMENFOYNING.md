@@ -60,9 +60,9 @@ Til slutt, når energien er betalt i varme, vinkelen rettet inn uten gjenskinn, 
 
 ---
 
-#### 0. Portal-Heksaden: Gemini-Core, BRAHMAN.1, Skriveværelset, Monolitten, Realiseringsgrammatikk og KreativSystems.1 ([`00_PORTALEN_STILLASET_OG_SLUSEN.md`](00_PORTALEN_STILLASET_OG_SLUSEN.md))
+#### 0. Portal-Heksaden: Reismann-Core, BRAHMAN.1, Skriveværelset, Monolitten, Realiseringsgrammatikk og KreativSystems.1 ([`00_PORTALEN_STILLASET_OG_SLUSEN.md`](00_PORTALEN_STILLASET_OG_SLUSEN.md))
 
-##### 0.I Gemini-Core: Stillaset mellom skrivebordets hvite støy og havets tyngde
+##### 0.I Reismann-Core: Stillaset mellom skrivebordets hvite støy og havets tyngde
 
 Et kart som strekker seg over tolv sektorer, fem hundre spesifikasjoner og mer enn to og et halvt tusen automatiserte tester, kan ved første blikk forveksles med en festning reist for å stenge verden ute. Likevel hviler hele denne konstruksjonen på den motsatte erkjennelsen: at menneskesinnet ikke tåler det grenseløse trykket fra en friksjonsløs maskinell flom uten fysiske vegger som nekter å gi etter. Mellom skrivebordets hvite støy og havets tyngde utenfor Risør er arkitekturen hogd frem som et stillas. Den er ikke bygget for å erstatte tankens frie sprang, men for å skjerme rommet der en tanke overhodet kan puste før den krever plass i materien.
 
@@ -138,7 +138,7 @@ Porten åpner seg aldri bare fordi tiden går. Først når geometrien består pr
 
 ---
 
-#### I. Kartet i $\mathcal{NP}$ og kjølen i $\mathcal{P}$ ([`01_KARTET_I_NP_OG_KJOLEN_I_P.md`](01_KARTET_I_NP_OG_KJOLEN_I_P.md))
+#### I. Kartet i $\mathcal{NP}$ og kjølen i $\mathcal{P}$ (`01_KARTET_I_NP_OG_KJOLEN_I_P.md`)
 
 Enhver kan sette fingeren på et sjøkart og si: *Der ute ligger havnen.*  
 Det er et punkt i $\mathcal{NP}$. På papiret koster det ingenting å være fremme. Der finnes intet skjær som slår hull i skroget, ingen strøm som tar tak i kjølen, og ingen tid som renner ut mens du krysser fjorden. I mulighetsrommet ligger alle steder flatt ved siden av hverandre, uten friksjon og uten gjeld.
@@ -153,7 +153,7 @@ En bane er ikke en drøm om hvor du vil nå frem; den er regnskapet over hvert e
 
 ---
 
-#### II. Det flate brettet og primtegn-kuttet ([`02_DET_FLATE_BRETTET_OG_PRIMTEGN_KUTTET.md`](02_DET_FLATE_BRETTET_OG_PRIMTEGN_KUTTET.md))
+#### II. Det flate brettet og primtegn-kuttet (`02_DET_FLATE_BRETTET_OG_PRIMTEGN_KUTTET.md`)
 
 I mulighetsrommet $\mathcal{NP}$ finnes ingen tid – bare et uendelig sjakkbrett der alle trekk allerede står stilt opp samtidig. Der kan et sprang tegnes fra begynnelsen rett til sluttpunktet uten å utløse et eneste joule i friksjon. Alt er reversibelt, fordi ingenting ennå har skjedd.
 
@@ -167,7 +167,7 @@ Punktet tilhører muligheten. Banen tilhører det vitnet som ble stående igjen 
 
 ---
 
-#### III. Maskinens punkter og menneskets bane ([`03_MASKINENS_PUNKTER_OG_MENNESKETS_BANE.md`](03_MASKINENS_PUNKTER_OG_MENNESKETS_BANE.md))
+#### III. Maskinens punkter og menneskets bane (`03_MASKINENS_PUNKTER_OG_MENNESKETS_BANE.md`)
 
 En maskin kjenner ingen tyngdekraft. Den kan kaste ut ti tusen punkter i $\mathcal{NP}$ uten å bli svimmel, for den skal aldri bo i noen av dem. For generatoren er en løgn og en sannhet nøyaktig like lette å uttale; begge er bare koordinater i et rom uten konsekvens.
 
@@ -179,7 +179,7 @@ Derfor setter vi en port mellom det som kan tenkes og det som får lov til å sk
 
 ---
 
-#### IV. Jeg bygger ikke murer, jeg graver dem frem ([`04_JEG_BYGGER_IKKE_MURER_JEG_GRAVER_DEM_FREM.md`](04_JEG_BYGGER_IKKE_MURER_JEG_GRAVER_DEM_FREM.md))
+#### IV. Jeg bygger ikke murer, jeg graver dem frem (`04_JEG_BYGGER_IKKE_MURER_JEG_GRAVER_DEM_FREM.md`)
 
 Jeg bygger ikke murer. Jeg graver dem frem.
 
@@ -193,7 +193,7 @@ Når jorden er fjernet, ser man at grunnfjellet ikke er en samling tilfeldige st
 
 ---
 
-#### V. Hvor murene kan flyttes ([`05_HVOR_MURENE_KAN_FLYTTES.md`](05_HVOR_MURENE_KAN_FLYTTES.md))
+#### V. Hvor murene kan flyttes (`05_HVOR_MURENE_KAN_FLYTTES.md`)
 
 Så snart murene er gravd frem i dagen, oppstår det avgjørende spørsmålet: *Hva i denne steinen er urørlig grunnfjell, og hvor i bruddlinjen skjuler det seg en sluseport som venter på riktig nøkkel?*
 
@@ -212,7 +212,7 @@ Man graver ikke frem murene for å bli stående i et fangehull. Man graver dem f
 
 ---
 
-#### VI. Gödels fravær i $\mathcal{P}$ og brevet om $\mathcal{NP}$ ([`06_GODELS_FRAVAER_I_P_OG_BREVET_OM_NP.md`](06_GODELS_FRAVAER_I_P_OG_BREVET_OM_NP.md))
+#### VI. Gödels fravær i $\mathcal{P}$ og brevet om $\mathcal{NP}$ (`06_GODELS_FRAVAER_I_P_OG_BREVET_OM_NP.md`)
 
 Selv det sterkeste hvelvet har ett punkt det ikke kan bære alene. Den 20. mars 1956 skrev Kurt Gödel et brev til en dødssyk John von Neumann. I det brevet stilte han spørsmålet som skulle bli stående som moderne informatikks dypeste kløft: *Hvor raskt kan en maskin finne et bevis dersom vi begrenser lengden av beviset til $n$ tegn?*
 
@@ -230,7 +230,7 @@ Fordi maskinen aldri kan lukke seg helt om seg selv, står det alltid en tom pla
 
 ---
 
-#### VII. Sånne venner finnes ikke ([`07_SANNE_VENNER_FINNES_IKKE.md`](07_SANNE_VENNER_FINNES_IKKE.md))
+#### VII. Sånne venner finnes ikke (`07_SANNE_VENNER_FINNES_IKKE.md`)
 
 Sånne venner finnes ikke.
 
@@ -246,7 +246,7 @@ Og nettopp fordi det feilfrie mennesket ikke finnes, må det finnes noe annet so
 
 ---
 
-#### VIII. Bølgen i $\mathcal{NP}$ og loven i punktet ([`08_BOLGEN_I_NP_OG_LOVEN_I_PUNKTET.md`](08_BOLGEN_I_NP_OG_LOVEN_I_PUNKTET.md))
+#### VIII. Bølgen i $\mathcal{NP}$ og loven i punktet (`08_BOLGEN_I_NP_OG_LOVEN_I_PUNKTET.md`)
 
 På et fysikk-kort ser Klein–Gordon-ligningen ut som hele sannheten: $\partial^2 \psi^\varnothing - \mu^2 \psi^\varnothing = 0$, med $\mu = mc/\hbar$ og energiskallet $E^2 = p^2 c^2 + m^2 c^4$. Den beskriver en fri bølge som brer seg ut gjennom rom og tid. Så lenge regnskapet går opp i andre orden, slipper enhver bølge frem.
 
@@ -262,7 +262,7 @@ Bølgen tilhører mulighetsrommet. Loven i punktet tilhører den som står igjen
 
 ---
 
-#### IX. Fermis brev og utelukkelsesloven i nullpunktet ([`09_FERMIS_BREV_OG_UTELUKKELSESLOVEN_I_NULLPUNKTET.md`](09_FERMIS_BREV_OG_UTELUKKELSESLOVEN_I_NULLPUNKTET.md))
+#### IX. Fermis brev og utelukkelsesloven i nullpunktet (`09_FERMIS_BREV_OG_UTELUKKELSESLOVEN_I_NULLPUNKTET.md`)
 
 Den 25. oktober 1926 skrev en tjuefem år gammel Enrico Fermi i Roma et kort, høflig brev til Paul Dirac i Cambridge. Dirac hadde nettopp utgitt sin avhandling om antisymmetriske bølgefunksjoner ($\Psi(1,2) = -\Psi(2,1)$) og vist hva som skjer når to identiske partikler nektes å innta samme tilstand ($\Psi(x,x) = 0$).
 
@@ -278,7 +278,7 @@ Når loven er gravd frem og forseglet med dato og sjekksum, trenger du ikke kjem
 
 ---
 
-#### X. Lucy, Odyssevs og den trojanske lommen ([`10_LUCY_ODYSSEVS_OG_DEN_TROJANSKE_LOMMEN.md`](10_LUCY_ODYSSEVS_OG_DEN_TROJANSKE_LOMMEN.md))
+#### X. Lucy, Odyssevs og den trojanske lommen (`10_LUCY_ODYSSEVS_OG_DEN_TROJANSKE_LOMMEN.md`)
 
 Odyssevs brukte ti år fra Troja og hjem fordi han kjempet mot havet i rykk og kast. Romsonde *Lucy* ble skutt opp i oktober 2021 og krysser solsystemet frem mot Jupiters trojanske asteroider (med første møte ved Eurybates i 2027) uten å sløse krefter mot strømmen – ved å la tyngdefeltets egne resonanser løfte banen langs faserommets korridorer.
 
@@ -292,7 +292,7 @@ Det er en livslov i dette: du overlever ikke ved å legge deg kloss inntil den s
 
 ---
 
-#### XI. AT 2016blu: Den skjulte ledsageren og blunket hver 113. dag ([`11_AT2016BLU_DEN_SKJULTE_LEDSAGEREN_OG_BLUNKET_HVER_113_DAG.md`](11_AT2016BLU_DEN_SKJULTE_LEDSAGEREN_OG_BLUNKET_HVER_113_DAG.md))
+#### XI. AT 2016blu: Den skjulte ledsageren og blunket hver 113. dag (`11_AT2016BLU_DEN_SKJULTE_LEDSAGEREN_OG_BLUNKET_HVER_113_DAG.md`)
 
 I årevis så AT 2016blu ut som en stjerne som nektet å dø på vanlig vis. Gang på gang blusset den opp som en supernova, bare for å overleve og gjenta utbruddet igjen.
 
@@ -308,7 +308,7 @@ Og likevel slutter rapporten med den mest vitenskapelige setningen som finnes: *
 
 ---
 
-#### XII. Å stanse meiselen og suvereniteten i `HOLD` ([`12_A_STANSE_MEISELEN_OG_SUVERENITETEN_I_HOLD.md`](12_A_STANSE_MEISELEN_OG_SUVERENITETEN_I_HOLD.md))
+#### XII. Å stanse meiselen og suvereniteten i `HOLD` (`12_A_STANSE_MEISELEN_OG_SUVERENITETEN_I_HOLD.md`)
 
 En lineær bok på tre hundre sider lyver ofte i skjøtene fordi den tvinger språket til å bygge broer der tanken ennå ikke har funnet fast grunn. Når arbeidet i stedet legges som en mosaikk ($M = \Pi_K(\bigoplus_{i=1}^n T_i)$), hviler hver stein ortogonalt i seg selv ($\Pi_i \Pi_j = 0$) og slippes først ned i lerretet når formen er ferdig meislet. Mellom steinene glattes ikke overgangen ut med retorisk mørtel; fugen ($\Sigma_{ij}$) får stå åpen som blyinnfatningen i et glassmaleri, slik at spenningen mellom kyst, kompleksitet, fysikk og sinn bærer konstruksjonen uten restledd ($\Delta_K = 0$).
 
@@ -322,7 +322,7 @@ I en slik tilstand er ikke `HOLD` et tegn på nøling eller uferdighet, men selv
 
 ---
 
-#### XIII. Det trettende setet og treverkets svikt ([`13_DET_TRETTENDE_SETET_OG_TREVERKETS_SVIKT.md`](13_DET_TRETTENDE_SETET_OG_TREVERKETS_SVIKT.md))
+#### XIII. Det trettende setet og treverkets svikt (`13_DET_TRETTENDE_SETET_OG_TREVERKETS_SVIKT.md`)
 
 Ambolten står kald i verkstedet etter det tolvte slaget. De tolv første steinene ligger låst i blyrammen uten en dråpe mørtel. Hver flis holder sitt eget hjørne oppe mot tyngdekraften: sjøkartet mot kjølen, Gödels nøkkelhull mot den lukkede koden, Fermis daterte sjekksum mot glemselen, trojanerens seksti-graders-lomme mot tidevannet, og røntgenblunket fra et dyp som ennå savner navn.
 

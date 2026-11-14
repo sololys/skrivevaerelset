@@ -6,7 +6,7 @@
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-GRUNNLAG-VERKTOYET-ONTOLOGISK-NEKTELSE-2026-v1.0
   KATEGORI                : GRUNNLAGSTEKST & META-FILOSOFISK MANIFEST (REALISERINGSGRAMMATIKK)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
   TILHØRIGHET             : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
   PLANSJER                : Plansje 04 (04_kuttflaten_og_steinen.jpg)

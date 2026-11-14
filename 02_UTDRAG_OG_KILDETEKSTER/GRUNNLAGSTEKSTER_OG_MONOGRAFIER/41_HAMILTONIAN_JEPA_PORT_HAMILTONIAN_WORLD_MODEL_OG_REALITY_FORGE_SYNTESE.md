@@ -167,8 +167,8 @@ flowchart TD
 ## 5. Implementering i Reality Forge Godot 4.3 (`L1`): `HamiltonianJepaWorldModelEngine`
 
 For å gjøre H-JEPA direkte kjørbar og verifiserbar i **Reality Forge** under `L1`-kontrakten ($\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$) er motoren implementert i:
-* **Motor:** [`hamiltonian_jepa_world_model_engine.gd`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/hamiltonian_jepa_world_model_engine.gd)
-* **Headless Testsuite:** [`test_hamiltonian_jepa_world_model_engine.gd`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/tests/test_hamiltonian_jepa_world_model_engine.gd)
+* **Motor:** `hamiltonian_jepa_world_model_engine.gd`
+* **Headless Testsuite:** `test_hamiltonian_jepa_world_model_engine.gd`
 
 Motoren implementerer og beviser numerisk alle **6 kjerne-invarianter** fra Zoabi, Ali & Wolf (2026) koblet til Reality Forges konsekvens-sluse:
 1. **Sfærisk Persepsjon ($\text{LN}_0$) & Eksakt Kovarians-Arv ($\mathrm{Cov}(s) = I_r - ww^\top$):** Verifiserer at $\|h_t\|_2 = \sqrt{D}$, $e^\top h_t = 0$, $U^\top U = I_r$ via Gram–Schmidt/QR, og at den eksepsjonelle egenverdien er $\lambda_{\text{exc}} = 1 - \|U^\top e\|_2^2$ (som blir eksakt $0$ ved $r = D$).

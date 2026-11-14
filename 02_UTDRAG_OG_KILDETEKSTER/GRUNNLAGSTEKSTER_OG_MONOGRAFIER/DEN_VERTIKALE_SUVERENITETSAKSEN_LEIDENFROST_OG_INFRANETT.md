@@ -26,6 +26,6 @@ Gjennom dette flerdomeneforsvaret implementeres en feillukket konsekvensarkitekt
 
 ### Kanoniske Referanser & Kildekode
 
-* **Plansjer:** * [`BOKKANDIDATER/BILDER/08_ivan_storm_juliussen_moter_hms_leidenfrost.jpg`](./BILDER/08_ivan_storm_juliussen_moter_hms_leidenfrost.jpg) (Plansje 08: *Ivan Storm Juliussen Møter HMS — *[...]*
+* **Plansjer:** * `08_ivan_storm_juliussen_moter_hms_leidenfrost.jpg` (Plansje 08: *Ivan Storm Juliussen Møter HMS — *[...]*
 
 │ — [ Blad skåret ut ved bokryggen ] —

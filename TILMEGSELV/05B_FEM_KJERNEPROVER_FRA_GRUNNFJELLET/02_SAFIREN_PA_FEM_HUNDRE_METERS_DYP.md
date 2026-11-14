@@ -19,7 +19,7 @@ KJERNEPRØVE II // SAFIREN PÅ FEM HUNDRE METERS DYP:
 ## I. Hydrostatisk last på $500\text{ meters}$ dyp ($\text{L0}$)
 
 \begin{center}
-\includegraphics[width=0.72\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_03_safiren_500m_skagerrak.jpg}\\[0.3em]
+\includegraphics[width=0.72\textwidth]{BILDER/bw_03_safiren_500m_skagerrak.jpg}\\[0.3em]
 {\footnotesize \textit{Kjerneprøve II og III: Titankapselen (\texttt{SPEC-250}) på $500\text{ meters}$ dyp i Skagerrak med rur (\textrm{Balanus crenatus}) på ytterkåpen, 4-lags Matrioshka-vakuumkapsling og kollimert optisk stråle gjennom safirvinduet.}}
 \end{center}
 

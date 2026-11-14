@@ -9,7 +9,7 @@
 **ORCID:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
 **Dato:** 27. september 2026  
 **Demarkasjon:** `INSPIRED_BY != IMPLEMENTS != PROVES`  
-**Referanseimplementasjon:** [`03_ENGINES/ENGINES/micro_engines/infranett_v02_core.py`](03_ENGINES/ENGINES/micro_engines/infranett_v02_core.py) & [`infranett_courier_engine.py`](03_ENGINES/ENGINES/micro_engines/infranett_courier_engine.py)  
+**Referanseimplementasjon:** `infranett_v02_core.py` & `infranett_courier_engine.py`  
 
 ---
 

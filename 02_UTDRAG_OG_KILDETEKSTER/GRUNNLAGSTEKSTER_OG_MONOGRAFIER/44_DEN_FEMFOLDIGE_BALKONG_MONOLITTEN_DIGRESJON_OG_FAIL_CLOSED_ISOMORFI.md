@@ -1,6 +1,6 @@
 # DOKUMENT 44: DEN FEMFOLDIGE BALKONG-MONOLITTEN (BALKONG I–V) — FRA DIGRESJONENS ROMANTIKK TIL FAIL-CLOSED ARMERINGSSTÅL
 
-**Forankring:** Dørene `05`, `14`, `17`, `18`, `19`, `20`, `21`, `22` og `24` (`06_RESEARCH/PAPERS/87, 96, 99, 100, 101, 102, 103, 104, 106`), *Konseptuell granitt — Et forsøk på sannhet* (`Til meg selv`), `Gemini-Core` og `Brahman.1` (`L1`)  
+**Forankring:** Dørene `05`, `14`, `17`, `18`, `19`, `20`, `21`, `22` og `24` (`87, 96, 99, 100, 101, 102, 103, 104, 106`), *Konseptuell granitt — Et forsøk på sannhet* (`Til meg selv`), `Reismann-Core` og `Brahman.1` (`L1`)  
 **Kardinal-aksiom:**
 $$\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES} \qquad \land \qquad x_{\text{cm}} \in \Sigma_{\text{kjerne}} \qquad \land \qquad \left.\frac{\partial \mathrm{HOLD}}{\partial t}\right|_{W=\emptyset} = 0$$
 
@@ -16,7 +16,7 @@ Den romantiske drømmerens forsvar for omveien og systemarkitektens feillukkede 
 * Uten **Sokratisk dvale i `WFI` (Balkong IV)** brenner vi opp systemet i kognitivt og termisk stress.
 * Uten **Proporsjonal bæreevne (Balkong V)** tipper hele verket ut i avgrunnen.
 
-| Balkong | Dør-Monografier (`06_RESEARCH/PAPERS/`) | Digresjonens Konstitusjonelle Verdi ($\Phi$) | Fail-Closed Arkitekturlov ($\Pi_K \to \Omega \vdash W$) | Kjerne-ligning og `L1`-Verifikasjon |
+| Balkong | Dør-Monografier (`PAPERS`) | Digresjonens Konstitusjonelle Verdi ($\Phi$) | Fail-Closed Arkitekturlov ($\Pi_K \to \Omega \vdash W$) | Kjerne-ligning og `L1`-Verifikasjon |
 | :--- | :--- | :--- | :--- | :--- |
 | **Balkong I** | Dør 19 (`101`) | **Omveiens plikt (Poincaré-returen):** Enhver utflukt må vende hjem over snittflaten $\Sigma_A$. | Eliminering av IEEE 754 `NaN`-smitte (`_all_finite`), Courant-Taylor-stabilitet og spedbarnets pust ($0{,}20\text{ Hz}$). | $\|P_A(\phi_T(x_0)) - x_0\|_M \le \epsilon \land \bigwedge_{i=1}^n \text{isfinite}(x_i)$ |
 | **Balkong II** | Dør 20 (`102`) & Dør 22 (`104`) | **Fysisk forankring:** Tanken må sette et uforanderlig fysisk spor før ny utflukt. | Spektralradius $\rho(DP) \ge 1$ krever aktiv kontraktslås: *Formica rufa* stigmergi $\iff$ `POSIX fsync()` $\iff$ $\to \bullet \ \#!$. | $\text{COMMIT}_{\text{Dør 22}} = \text{OPEN} \iff \text{fsync}(W_t) \land W_m \land W_h \land (\to \bullet \ \#!)$ (`21/21 OK`) |
@@ -53,7 +53,7 @@ $$\Omega_{\text{Balkong V}}(\gamma) = \begin{cases} \mathrm{OPEN} \ (\texttt{[MO
 
 ## 3. Kryptografiske SHA-256-Ankre for De Ni Forseglede Dør-Monografiene (`L1`)
 
-| Dør | Filnavn (`06_RESEARCH/PAPERS/` & `ZENODO/`) | Balkong | SHA-256 (`.pdf`) |
+| Dør | Filnavn (`PAPERS` & `ZENODO/`) | Balkong | SHA-256 (`.pdf`) |
 | :--- | :--- | :--- | :--- |
 | **Dør 05** | `87_ROSETTA_OMNI_SNITTFLATEN_MINIMAL_KJERNELOV_DOER_05.pdf` | Balkong V (Støpeblokk A) | `32673f123d2e82f9d3a3ba3fa351332bf5663ef82f685a2645a9e53616c1b4cf` |
 | **Dør 14** | `96_MASKINENS_GJESTEVAERELSE_INVOLUSJON_REVERSIBILITET_DOER_14.pdf` | Balkong IV (Støpeblokk A) | `d5fc1b784b5527ad25ee74aa94173c859e0d3ecce4996a7e4a65378bf8044e69` |

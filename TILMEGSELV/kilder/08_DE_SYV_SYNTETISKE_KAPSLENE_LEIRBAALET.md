@@ -269,7 +269,7 @@ END STREAM.
 
 ## 🗄️ VI. KAPSLENES INTEGRASJON I DATABASENS LIVSSYKLUS (RAW → ESTIMATE → STRUCT → VIABILITY → COMMITTED)
 
-I realiseringsmotoren (`03_ENGINES/door31_symbiotic_machine`, `door27_network`, `door22_commit`) er de sju kapslene ikke bare passive tekstlige advarsler, men aktive programvarevoktere som styrer databasens og overgangenes typestige (`CANONICAL_TYPE_CHAIN`):
+I realiseringsmotoren (`door31_symbiotic_machine`, `door27_network`, `door22_commit`) er de sju kapslene ikke bare passive tekstlige advarsler, men aktive programvarevoktere som styrer databasens og overgangenes typestige (`CANONICAL_TYPE_CHAIN`):
 
 $$\mathrm{RAW} (\bigcirc) \longrightarrow \mathrm{ESTIMATE} (\emptyset) \longrightarrow \mathrm{STRUCT} (\Box) \longrightarrow \mathrm{VIABILITY} (\diamondsuit/\odot) \longrightarrow \mathrm{COMMITTED} (@/\bullet)$$
 

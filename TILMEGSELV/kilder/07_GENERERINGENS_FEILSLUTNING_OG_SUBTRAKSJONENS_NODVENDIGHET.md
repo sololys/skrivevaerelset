@@ -16,7 +16,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
                             Candidate ≠ Consequence
                             "K-POD utraderer alt det overflødige for å tvinge frem den rene nødvendigheten."
   TEKNISK FORANKRING      : Dokument 100 (K-POD v1.2 Manifest) · Dokument 57 (Minuskatalyse)
-  MASKINVARE RTL          : 01_HARDWARE_RTL/kpod_5lock_cdc_watchdog.sv
+  MASKINVARE RTL          : kpod_5lock_cdc_watchdog.sv
   EPISTEMISK SKRANKE      : L2 LITIKK & HETEROGEN MODELL · L1 FORMALISERT I SILISIUM
 ========================================================================================
 ```
@@ -44,11 +44,11 @@ Maskinen fungerer dermed ikke som en motor for skapelse, men som et krystallinsk
 ### 🏛️ Kanoniske Referanser & Kildekode
 
 * **Plansjer:**
-  * [`BOKKANDIDATER/BILDER/16_morandi_kpod_catalysis.jpg`](file:///home/sololyset/BOKKANDIDATER/BILDER/16_morandi_kpod_catalysis.jpg) (Plansje 16: *QED-Reaksjonskjernen og Induksjonskatalyse*)
-  * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](file:///home/sololyset/BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten og Steinen*)
+  * `16_morandi_kpod_catalysis.jpg` (Plansje 16: *QED-Reaksjonskjernen og Induksjonskatalyse*)
+  * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten og Steinen*)
 * **Maskinvarelogikk (RTL):**
-  * [`01_HARDWARE_RTL/kpod_5lock_cdc_watchdog.sv`](file:///home/sololyset/01_HARDWARE_RTL/kpod_5lock_cdc_watchdog.sv) (*5-Lock CDC Watchdog*)
+  * `kpod_5lock_cdc_watchdog.sv` (*5-Lock CDC Watchdog*)
 * **Kanoniske Spesifikasjoner:**
-  * [`00_KANONISK_KJERNE/100_KPOD_V12_MANIFEST_DEN_AGRARE_SUVERENITET.md`](file:///home/sololyset/00_KANONISK_KJERNE/100_KPOD_V12_MANIFEST_DEN_AGRARE_SUVERENITET.md) (*K-POD v1.2: Den Agrare Suverenitet*)
-  * [`57_MINUSKATALYSE_SUBTRAKTIV_NITROGENFIKSERING_LAVTEMPERATUR.md`](file:///home/sololyset/ZENODO/02_NYE_DOKUMENTER_2026_KANDIDATER/57_MINUSKATALYSE_SUBTRAKTIV_NITROGENFIKSERING_LAVTEMPERATUR.md) (*Minuskatalyse: Subtraktiv Nitrogenfiksering*)
-  * [`00_KANONISK_KJERNE/000_FORANKRINGSMANIFEST_TORJUSEN_RISOR.md`](file:///home/sololyset/00_KANONISK_KJERNE/000_FORANKRINGSMANIFEST_TORJUSEN_RISOR.md) (*«Den velger. Den genererer ikke.»*)
+  * `100_KPOD_V12_MANIFEST_DEN_AGRARE_SUVERENITET.md` (*K-POD v1.2: Den Agrare Suverenitet*)
+  * `57_MINUSKATALYSE_SUBTRAKTIV_NITROGENFIKSERING_LAVTEMPERATUR.md` (*Minuskatalyse: Subtraktiv Nitrogenfiksering*)
+  * `000_FORANKRINGSMANIFEST_TORJUSEN_RISOR.md` (*«Den velger. Den genererer ikke.»*)

@@ -28,7 +28,7 @@ FORFATTEROPPLYSNINGER & KANONISK HOVEDVERK:
 │ — [ Blad skåret ut ved bokryggen ] —
 
 # PROLOG: Forordet ved Leirbålet
-*(Kilde: [`FORORD/FORORD_DEN_LENGSTE_REISEN_VED_LEIRBAALET.md`](./FORORD/FORORD_DEN_LENGSTE_REISEN_VED_LEIRBAALET.md))*
+*(Kilde: [`FORORD/FORORD_DEN_LENGSTE_REISEN_VED_LEIRBAALET.md`](../../02_UTDRAG_OG_KILDETEKSTER/FORORD/FORORD_DEN_LENGSTE_REISEN_VED_LEIRBAALET.md))*
 
 > ### *«Maskinen foreslår muligheten, men mennesket forankrer den i steinen.»*
 
@@ -61,7 +61,7 @@ Hvis du overgir deg til maskinens friksjonsfrie verden, fordamper sjelen og kjø
 ---
 
 # AKT I: Kuttflaten & Det Somatiske Ankeret
-*(Kilder: [`BIND_1_KUTTFLATEN/`](./BIND_1_KUTTFLATEN/), `DEN_DIGITALE_HULEBOER.md`, `RESTRIKSJONENS_MEKANIKK.md`)*
+*(Kilder: `BIND_1_KUTTFLATEN/`, `DEN_DIGITALE_HULEBOER.md`, `RESTRIKSJONENS_MEKANIKK.md`)*
 
 ### 1.1 Det Første Skåret: Biologien som ikke lar seg simulere
 Mennesket trer ikke inn i tilværelsen som et ubeskrevet regneark. Det trer inn som et skjørt, blødende nervesystem omgitt av en verden med uendelig motstand.  
@@ -89,7 +89,7 @@ Interaksjonsdynamikken mellom det blødende biologiske nervesystemet og det opti
 ---
 
 # AKT II: Fjellet, Steinen & Den Litiske Kybernetikken
-*(Kilder: [`BIND_2_FYSIKK_FOR_METAFYSIKK/`](./BIND_2_FYSIKK_FOR_METAFYSIKK/), `CODEX_GEOCYBERNETICA`, `MODUL_01_INFORMASJONENS_MASSETREGHET`)*
+*(Kilder: `BIND_2_FYSIKK_FOR_METAFYSIKK/`, `CODEX_GEOCYBERNETICA`, `MODUL_01_INFORMASJONENS_MASSETREGHET`)*
 
 ### 2.1 Det Fennoskandiske Skjold: Hvorfor steinen husker
 På Risør, hvor det prekambriske grunnfjellet møter Skagerrak, finner vi jordens dypeste ro. Grunnfjellet er ikke formet av hastverk; det er herdet under gigantiske tektoniske trykk gjennom milliarder av år.
@@ -165,7 +165,7 @@ For at en syntetisk AI-modell ikke skal kunne oversvømme den fysiske verden med
 ---
 
 # AKT V: Den Mekaniske Tvillingen (Infranett)
-*(Kilder: [`00_KANONISK_KJERNE/160_INFRANETT_DEN_MEKANISKE_TVILLINGEN_KANONISK_SPEC.md`](00_KANONISK_KJERNE/160_INFRANETT_DEN_MEKANISKE_TVILLINGEN_KANONISK_SPEC.md), `86_KPOD_V2_INFRANETT_VALVE_INTERLOCK_SPEC.md`)*
+*(Kilder: `160_INFRANETT_DEN_MEKANISKE_TVILLINGEN_KANONISK_SPEC.md`, `86_KPOD_V2_INFRANETT_VALVE_INTERLOCK_SPEC.md`)*
 
 ### 5.1 Dualitetsnettet: Motgående Baner
 Internett ble bygget for å oppheve geografi – et frikoblet, masseløst nettverk der en server i Tokyo er like nær som naboen.  

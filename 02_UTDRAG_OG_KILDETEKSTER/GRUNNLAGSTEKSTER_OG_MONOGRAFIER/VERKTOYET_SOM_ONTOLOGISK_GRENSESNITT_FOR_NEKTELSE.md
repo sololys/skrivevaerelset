@@ -34,6 +34,6 @@ I sin ytterste konsekvens er det mest avanserte man kan skape med denne teknolog
 
 ### Kanoniske Referanser & Kildekode
 
-* **Plansjer:** * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](./BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten og Steinen*) * [`BOKKANDIDATER/BILDER/10_dk_flipflop_konsekvensport_locus_zero.jpg`](./BILDER/10_dk_flipflop_konsekvensport_locus_zero.jpg) (Plansje 10: — *[...]*
+* **Plansjer:** * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten og Steinen*) * `10_dk_flipflop_konsekvensport_locus_zero.jpg` (Plansje 10: — *[...]*
 
 │ — [ Blad skåret ut ved bokryggen ] —

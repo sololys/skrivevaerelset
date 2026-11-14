@@ -16,7 +16,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
 ```
 
 \begin{center}
-\includegraphics[width=0.62\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
+\includegraphics[width=0.62\textwidth]{BILDER/bw_24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
 {\footnotesize \textit{Arrangement i grått, bekblende og uforanderlig vitne (Rue Lhomond 1898 $\to$ Locus Zero 07.11.2026): Marie Skłodowska-Curie i profil etter James McNeill Whistlers komposisjonslov. Det som har krysset terskelen fra kandidatrommet ($\text{Rev}^1$) til materien ($\text{Rev}^2$, ${}^{226}\text{Ra} \to {}^{222}\text{Rn}$), kan aldri rulles tilbake ved et operativsystemkall — det hviler i bly som et evig etterfølgende vitne ($W \in D_3$).}}
 \end{center}
 

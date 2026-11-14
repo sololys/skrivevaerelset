@@ -12,9 +12,9 @@ Dette kammeret samler samtlige fullførte bok-PDF-er i monorepoet for umiddelbar
 |---|---|---|
 | **Konseptuell Granitt — Et forsøk på sannhet (`Til meg selv`)** | [`KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf`](KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) | 62 s. // Komplett Monografi (DEL I–V + Vedlegg A + Baksidetavle: Codex for NLK) |
 | **Boka nr. 1: Hovedverket** | [`BOKA_NR_1_MASTER_MANUSKRIPT.pdf`](BOKA_NR_1_MASTER_MANUSKRIPT.pdf) | 39 s. // 155×230 mm Nordisk Hardcover |
-| **Hovedverket Omnibus** | [`HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf`](HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf) | 680 s. // 155×230 mm Samlebind |
+| **Hovedverket Omnibus** | `HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf` | 680 s. // 155×230 mm Samlebind |
 | **Bind I: Kuttflaten** | [`kuttflaten_bok.pdf`](kuttflaten_bok.pdf) | 389 s. // 155×230 mm |
-| **Bind II: Codex Geocybernetica** | [`litisk_kybernetikk_leksikon.pdf`](litisk_kybernetikk_leksikon.pdf) | 199 s. // A4 Tospaltet Monumentalleksikon |
+| **Bind II: Codex Geocybernetica** | `litisk_kybernetikk_leksikon.pdf` | 199 s. // A4 Tospaltet Monumentalleksikon |
 | **Bind III: Realiseringsgrammatikk** | [`realiseringsgrammatikk_bok.pdf`](realiseringsgrammatikk_bok.pdf) | 247 s. // 155×230 mm |
 | **De Tre Lerretene** | [`de_tre_lerretene_bok.pdf`](de_tre_lerretene_bok.pdf) | 240 s. // 155×230 mm Frittstående verk |
 | **Bind VIII: Infranett & OrgelKraft — Samlede Monografier** | [`INFRANETT_OG_ORGELKRAFT_SAMLET_BOK.pdf`](INFRANETT_OG_ORGELKRAFT_SAMLET_BOK.pdf) | Samlet utgave med 300 DPI omslag (Del I–VIII) |

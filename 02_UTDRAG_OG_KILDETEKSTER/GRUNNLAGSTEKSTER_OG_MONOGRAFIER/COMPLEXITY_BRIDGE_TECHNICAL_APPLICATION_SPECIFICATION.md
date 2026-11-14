@@ -14,9 +14,9 @@ STATUS        : RATIFIED CANONICAL CORE SPECIFICATION
 LEVEL         : L1 SOFTWARE-VERIFIED // DETERMINISTIC EXECUTION MODEL
 TARGET CLASS  : P vs NP (Clay Millennium Prize Problem Boundary)
 CORE AXIOM    : POINT ↔ PATH ⇏ P = NP // INSPIRED_BY != IMPLEMENTS != PROVES
-REFERENCE     : 03_ENGINES/ENGINES/micro_engines/gate_triage_complexity_bridge_engine.py
-                03_ENGINES/ENGINES/micro_engines/pnp_complexity_bridge_engine.py
-TEST SUITE    : 03_ENGINES/tests/test_gate_triage_complexity_bridge_engine.py (45/45 PASS)
+REFERENCE     : gate_triage_complexity_bridge_engine.py
+                pnp_complexity_bridge_engine.py
+TEST SUITE    : test_gate_triage_complexity_bridge_engine.py (45/45 PASS)
 AUTHOR        : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
 DATE          : 21. September 2026
 ========================================================================================

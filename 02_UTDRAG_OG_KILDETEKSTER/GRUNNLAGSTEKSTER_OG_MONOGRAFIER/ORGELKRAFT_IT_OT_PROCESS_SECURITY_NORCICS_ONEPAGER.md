@@ -57,7 +57,7 @@ Conventional cybersecurity attempts to infer the intent of a code packet before 
 ### *OrgelKraft / SPEC-PODS-PENTAD-RB-12 — Teknisk tillegg for SFI NORCICS og Norsk Regnesentral*
 
 **Forfatter:** Marius Egerhei Torjusen (`ORCID: 0009-0006-0431-6637` // `WoS: PJT-0190-2026`)  
-**Referansemonografi:** [*KONSEPTUELL GRANITT: ET FORSØK PÅ SANNHET*](https://github.com/sololys/skrivevaerelset/blob/main/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) (`v1.0.1`, 74 s.)  
+**Referansemonografi:** [*KONSEPTUELL GRANITT: ET FORSØK PÅ SANNHET*](https://github.com/sololys/skrivevaerelset/blob/main/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) (`v1.5.1`, 260 s.)  
 **Operasjonelt sammendrag:** Dokumentet *Domain IV Addendum (OrgelKraft / SPEC-PODS-PENTAD-RB-12)* formaliserer en deterministisk, maskinvarelåst sikkerhetsarkitektur for elektrokjemisk prosessindustri, undervannssystemer og kritisk nettverkskant. Arkitekturen eliminerer tre strukturelle blindsoner i klassiske SCADA/PLC-systemer: flyttallsbasert støkiometrisk drift, tidsvinduet mellom høyfrekvent kontrollsløyfe og diskbasert revisjonslogg, samt gapet mellom digitalt logget intensjon og fysisk utført arbeid.  
 **Epistemisk status:** Nivå $\text{L1}$ (deterministisk programvare, eksakt rasjonal hovedbok og RTL-simulering). Fysiske reaktorer og undervannsmaskinvare ($\text{L2}/\text{L3}$) holdes i eksplisitt `HOLD` ved **$0{,}00\text{ V DC}$** i påvente av HIL- og feltkvalifisering ($\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$).
 

@@ -71,7 +71,7 @@ Samtidig deles tilstandsverifikasjonen i **to ortogonale faser**:
 * **Fase 2 (In-Flight $\Pi_{\text{orth}}$ over $38{,}4\text{ ms}$):** Mens aktuatoren er i bevegelse (for eksempel under en ventilmanøver over $38{,}4\text{ ms}$), overvåker den ortogonale maskinvarekanalen $\Pi_{\text{orth}}$ kontinuerlig at den faktiske fysiske banen følger det forhåndsforseglede sporet med $12{,}5\,\mu\text{s}$ oppløsning.
 
 ### 2.2 Verifisert Monte Carlo-bevis ($8\,000$ kjøringer, `seed=42`)
-I monografiens reproduserbare stresstest (`03_ENGINES/` / $8\,000$ deterministiske Monte Carlo-scenarier med `seed=42` under kombinert nettverksutfall, sensorstøy og pakkeinjeksjon) sammenlignes konvensjonell OT-styring direkte mot den feillukkede OrgelKraft/Infranett-skranken:
+I monografiens reproduserbare stresstest (`L1_ENGINES` / $8\,000$ deterministiske Monte Carlo-scenarier med `seed=42` under kombinert nettverksutfall, sensorstøy og pakkeinjeksjon) sammenlignes konvensjonell OT-styring direkte mot den feillukkede OrgelKraft/Infranett-skranken:
 
 ```text
 +------------------------------------------------------------------------+

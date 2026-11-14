@@ -9,7 +9,7 @@
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **FRONTISPIS // DET INVOLUTTE TREET — PLANSJE I.1**  
-> ![Anortositten og kammeret -3400m](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_granitt_anortositt_spektralkammer.jpg)  
+> *[Plansje: Anortositten og kammeret -3400m (`morandi_granitt_anortositt_spektralkammer.jpg`)]*  
 > *«3 400 meter nede i det prekambriske skjoldet. Anortositten som absorberer kontinentets støy: Fjellet dømmer ikke sannhet; det gjør det umulig for simuleringen å late som.»*
 
 >  **FRONTLOVEN // KORPUS 0 (MEISLET I GRANITT):**  
@@ -914,7 +914,7 @@ Vi bør skrive dette som neste del, rett etter prologen:
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE I.2**  
-> ![Odyssevs bundet til masten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/odysseus_firm_mast_1788199122302.jpg)  
+> *[Plansje: Odyssevs bundet til masten (`odysseus_firm_mast_1788199122302.jpg`)]*  
 > *«Odyssevs bundet til masten. Sirenenes sang er kandidatrommets uendelige lokkerop; tauene er systemets strukturelle HOLD. Uten masten finnes ingen styring, bare skipbrudd under friksjonens fravær.»*
 
 ---
@@ -1463,7 +1463,7 @@ Moden ledelse vet når verden ikke bør flyttes ennå.
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE I.3**  
-> ![Kroppens anortositt-kammer](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_granitt_anortositt_spektralkammer.jpg)  
+> *[Plansje: Kroppens anortositt-kammer (`morandi_granitt_anortositt_spektralkammer.jpg`)]*  
 > *«Kroppens anortositt-kammer. Affektregulering og somatisk motstand: Før en impuls blir motorisk handling, må den bære sin egen mineralitet. Stillheten i bergartens kjerne er kroppens fail-closed vern mot affektiv overoppheting.»*
 
 ---
@@ -1473,7 +1473,7 @@ Moden ledelse vet når verden ikke bør flyttes ennå.
 # DEL II: DET SOMATISKE KUTTET OG KROPPENS ARKITEKTUR
 
 >  **DET INVOLUTTE TREET — PLANSJE I.3**  
-> ![Kroppen som port](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_hjerne_stilleben.jpg)  
+> *[Plansje: Kroppen som port (`morandi_hjerne_stilleben.jpg`)]*  
 > *«Kroppen som port. Hjernen er ikke en antenne for ubegrenset generering; den er et fail-closed filter: Ingenting kommer inn, noe slutter bare å bli holdt ute.»*
 
 # Selvledelse: Å være leder i eget liv
@@ -2395,7 +2395,7 @@ Jeg husker.
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE I.4**  
-> ![Punktet og banen](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/the_point_and_the_path.jpg)  
+> *[Plansje: Punktet og banen (`the_point_and_the_path.jpg`)]*  
 > *«Punktet og banen. AI-modellen genererer et uendelig antall diskrete punkter; realiseringsgrammatikken krever en sammenhengende, bærbar bane. Uten kuttflaten forveksles statistisk projeksjon med fysisk tilstedeværelse.»*
 
 ---
@@ -4253,7 +4253,7 @@ Mørk materie: når virkningen er tydeligere enn bæreren I gravitasjonsrommet f
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE I.5**  
-> ![Merkurs residual](06_RESEARCH/2026-03-24-residual-map.png)  
+> *[Plansje: Merkurs residual (`2026-03-24-residual-map.png`)]*  
 > *«Merkurs residual. Det minimale avviket på 43 buesekunder per århundre som veltet Newtons univers og beviste at virkeligheten nekter å lyve for modellen. Residualet skal verken dyrkes eller drepes; det skal bevitnes: RESIDUAL → WITNESS → REVISION.»*
 
 ---
@@ -4379,7 +4379,7 @@ $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det um
 # DEL IV: DET KOSMISKE SNITTET: MERKURS RESIDUAL
 
 >  **DET INVOLUTTE TREET — PLANSJE I.4**  
-> ![Merkurs avvik og radaren i vinternatten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/nordic_silence_radar_1788202897113.jpg)  
+> *[Plansje: Merkurs avvik og radaren i vinternatten (`nordic_silence_radar_1788202897113.jpg`)]*  
 > *«Merkurs residual. Det lille avviket som nekter å underkaste seg newtonsk harmoni, og som tvinger frem en dypere geometri. Residualet skal verken dyrkes eller drepes; det skal bevitnes.»*
 
 # Interludium: Merkur ved porten
@@ -6017,7 +6017,7 @@ $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det um
 > Arkitektens Nullpunkt er KY som romlig myte: et anlegg bygget for å gjøre uuttalt grense, overflødig kraft, operatørvilje og post-hoc løgn strukturelt umulig.
 
 ---
-*Forseglet i [`BOKKANDIDATER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md`](./DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md) // Reismann-Core & Torjusen 2026.*
+*Forseglet i [`BOKKANDIDATER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md`](../../02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md) // Reismann-Core & Torjusen 2026.*
 
 ---
 
@@ -8467,7 +8467,7 @@ ________________
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Tenkerne med de geometriske formene. Geometriens uavhengige skranke: Variasjonsprinsippet understøttet av Moreau-sweeping; bare de banene som respekterer kjeglen, overlever.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/thinkers_with_geometric_forms.jpg)  
+> *[Plansje: Tenkerne med de geometriske formene. Geometriens uavhengige skranke: Variasjonsprinsippet understøttet av Moreau-sweeping; bare de banene som respekterer kjeglen, overlever. (`thinkers_with_geometric_forms.jpg`)]*  
 > *«Tenkerne med de geometriske formene. Geometriens uavhengige skranke: Variasjonsprinsippet understøttet av Moreau-sweeping; bare de banene som respekterer kjeglen, overlever.»*
 
 ---
@@ -9124,7 +9124,7 @@ ________________
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Kovariant transformasjon under projeksjon. Koordinatfri formulering av skrankene: Romtidens krumning som autorisert deformasjon under retur.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/tensor_kovariant_transformasjon_diagram.png)  
+> *[Plansje: Kovariant transformasjon under projeksjon. Koordinatfri formulering av skrankene: Romtidens krumning som autorisert deformasjon under retur. (`tensor_kovariant_transformasjon_diagram.png`)]*  
 > *«Kovariant transformasjon under projeksjon. Koordinatfri formulering av skrankene: Romtidens krumning som autorisert deformasjon under retur.»*
 
 ---
@@ -11828,7 +11828,7 @@ $$
 ________________
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Casimir-reléet i stasis. Maskinvareankeret i silisium og fjell: Fravær av energi som fysisk holdekraft, galvanisk brudd ved uautorisert overgang.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/casimir_relay_stasis.jpg)  
+> *[Plansje: Casimir-reléet i stasis. Maskinvareankeret i silisium og fjell: Fravær av energi som fysisk holdekraft, galvanisk brudd ved uautorisert overgang. (`casimir_relay_stasis.jpg`)]*  
 > *«Casimir-reléet i stasis. Maskinvareankeret i silisium og fjell: Fravær av energi som fysisk holdekraft, galvanisk brudd ved uautorisert overgang.»*
 
 ---
@@ -15334,7 +15334,7 @@ ________________
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Kausalkvartetten og gravitasjonens anker. Den fireleddede demarkasjonen mellom informasjon, energi, liv og masse: Intet teorem kan omgå massens fysiske nærvær.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/causal_stack_gravity.jpg)  
+> *[Plansje: Kausalkvartetten og gravitasjonens anker. Den fireleddede demarkasjonen mellom informasjon, energi, liv og masse: Intet teorem kan omgå massens fysiske nærvær. (`causal_stack_gravity.jpg`)]*  
 > *«Kausalkvartetten og gravitasjonens anker. Den fireleddede demarkasjonen mellom informasjon, energi, liv og masse: Intet teorem kan omgå massens fysiske nærvær.»*
 
 ---
@@ -15980,7 +15980,7 @@ Krysningen mellom OMNI-alfabetet og ROX–AA er forseglet. KY bestemmer lovlig o
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE III.2**  
-> ![Amplitude er ikke vitne](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_amplitude_not_witness.jpg)  
+> *[Plansje: Amplitude er ikke vitne (`morandi_amplitude_not_witness.jpg`)]*  
 > *«Amplitude er ikke vitne. Bølgefunksjonen foreslår; bare det som overlever kuttet og registreres som irreversibelt spor, oppnår historisk eksistens. Å forveksle amplitude med vitne er kvantemekanikkens form for løgn.»*
 
 ---
@@ -16154,7 +16154,7 @@ Hjernen genererer intet. Den lar noe stå igjen. Det som står igjen, ser gjenno
 # DEL III: KVANTEGRAMMATIKK OG AMPLITUDENS SKRANKE
 
 >  **DET INVOLUTTE TREET — PLANSJE III.3**  
-> ![Amplitude er ikke vitne](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_amplitude_not_witness.jpg)  
+> *[Plansje: Amplitude er ikke vitne (`morandi_amplitude_not_witness.jpg`)]*  
 > *«Amplitude er ikke vitne. Bølgefunksjonen foreslår; bare det som overlever kuttet blir historisk registrert. Sannheten måles i dissipasjon og spor.»*
 
 # VII. Kvantegrammatikk: Når muligheten ennå ikke er hendelse
@@ -17501,7 +17501,7 @@ Det betyr:
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE III.3**  
-> ![Moreau-kollisjonen i strategisk rom](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/multiplayer_ky_nash_moreau_collision_chart.png)  
+> *[Plansje: Moreau-kollisjonen i strategisk rom (`multiplayer_ky_nash_moreau_collision_chart.png`)]*  
 > *«Moreau-kollisjonen i strategisk rom (KY-Nash). Å nekte 'Ghost Wins': Trekk som bryter admissibility eller ødelegger feltets overlevelse, elimineres før realisering. Å vinne krigen er å bevare det felles viabilitetsrommet $\Gamma_{\mathrm{phys}} = \mathrm{Viab}_{\Phi}(A_K)$.»*
 
 ---
@@ -17511,7 +17511,7 @@ Det betyr:
 # DEL IV: KY-NASH OG NEKTELSEN AV GHOST WINS
 
 >  **DET INVOLUTTE TREET — PLANSJE III.4**  
-> ![KY-Nash kollisjonskart](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/multiplayer_ky_nash_moreau_collision_chart.png)  
+> *[Plansje: KY-Nash kollisjonskart (`multiplayer_ky_nash_moreau_collision_chart.png`)]*  
 > *«KY-Nash: Nektelsen av Ghost Wins. Spillteori etter porten: Fiktive gevinster uten fysisk admissibility blir eliminert av Moreau-kuttet.»*
 
 # Kapittel 11: Tape kampen, vinne krigen — KY-Nash og nektelsen av Ghost Wins
@@ -17742,7 +17742,7 @@ Han kunne ha generert en lokal seier: overleve rettssaken. Men den lokale seiere
 ### *Fra Platonsk Kognitiv Flukt til Kjernekraft-Isomorfi, Relasjonell Kjerne-Deformasjon ($D_K$) og Kausal Lukking ved Locus Zero*
 
 >  **DET INVOLUTTE TREET — PLANSJE III.5**  
-> ![Morandi, kandidaten og releet](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_kandidaten_og_releet.jpg)  
+> *[Plansje: Morandi, kandidaten og releet (`morandi_kandidaten_og_releet.jpg`)]*  
 > *«Morandi, kandidaten og releet. En idé oppnår kun ontologisk gyldighet dersom den tåler overføring til en transistor under drakonisk feillukket kontroll. Mellomrommet er ikke tomt; det er feltet som bærer spenningen før kretsen låses.»*
 
 │ — [ Blad skåret ut ved bokryggen ] —

@@ -3,7 +3,7 @@
 
 **Author:** Marius Egerhei Torjusen  
 **Context:** Technical discussion brief following the CPS4CIP 2026 / SFI NORCICS exchange on IT-OT integration  
-**Canonical Reference Architecture:** [`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures) ([Zenodo DOI: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983))  
+**Canonical Reference Architecture:** [`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures) ([Zenodo DOI: `10.5281/zenodo.24032510`](https://doi.org/10.5281/zenodo.24032510))  
 **Public `L1` Software Demonstrators:** [`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)  
 **Epistemic Status:** `L1` Reference Architecture & Deterministic Software Specification (`INSPIRED_BY != IMPLEMENTS != PROVES`; `PHYSICAL_AUTHORITY = NONE`)
 

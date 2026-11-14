@@ -44,7 +44,7 @@ Tre lerreter fanger denne kollisjonen.
 
 ## FØRSTE LERRET: BRUDDET (NAVLESTRENGEN)
 
-![Mærsk Lastebåt i Nordsjøstorm](../BILDER/21_maersk_lastebaat_ivan_storm_juliussen.jpg)
+*[Plansje: Mærsk Lastebåt i Nordsjøstorm (`21_maersk_lastebaat_ivan_storm_juliussen.jpg`)]*
 
 ### I. Satsene for Kuttflaten
 
@@ -79,7 +79,7 @@ Når navlestrengen kappes – når 230V landstrøm forsvinner eller fiberkabelen
 
 ## ANDRE LERRET: ASYNKRONITETEN (DET LOKALE NÆRVÆR)
 
-![Asynkront Stilleben med Keramikkrukke og Timeglass](../BILDER/22_morandi_asynkront_stilleben_keramikkrukke_timeglass.jpg)
+![Asynkront Stilleben med Keramikkrukke og Timeglass](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/22_morandi_asynkront_stilleben_keramikkrukke_timeglass.jpg)
 
 ### I. Satsene for Det Asynkrone Rom
 
@@ -118,7 +118,7 @@ Kosmos rykker aldri nærmere. Hvis noen vil snakke med krukken på bordet ditt, 
 
 ## TREDJE LERRET: BANENS ENSOMHET (FORBUDET MOT ANDRES RETUR)
 
-![Banens Ensomhet med Speilet og Grunnfjellet](../BILDER/23_banens_ensomhet_speilet_og_grunnfjellet.jpg)
+![Banens Ensomhet med Speilet og Grunnfjellet](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/23_banens_ensomhet_speilet_og_grunnfjellet.jpg)
 
 ### I. Satsene for Den Udelelige Banen
 

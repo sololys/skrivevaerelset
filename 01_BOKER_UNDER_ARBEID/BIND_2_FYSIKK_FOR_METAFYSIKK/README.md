@@ -36,13 +36,13 @@ HOVEDVERKET // BIND II AV TRILOGIEN:
 
 | Fil | Størrelse / Omfang | Beskrivelse |
 |---|---|---|
-| [`litisk_kybernetikk_leksikon.pdf`](litisk_kybernetikk_leksikon.pdf) | 179 s A4 / 9.6 MB | Ferdig to-spalters leksikon-PDF med fullt apparat. |
+| `litisk_kybernetikk_leksikon.pdf` | 179 s A4 / 9.6 MB | Ferdig to-spalters leksikon-PDF med fullt apparat. |
 | [`CODEX_GEOCYBERNETICA_MASTER_MANUSKRIPT.md`](CODEX_GEOCYBERNETICA_MASTER_MANUSKRIPT.md) | 18 371 linjer / 459 KB | Det samlede kanoniske kildemanuskriptet. |
-| [`litisk_kybernetikk_leksikon.tex`](litisk_kybernetikk_leksikon.tex) | 560 KB | LaTeX-kildekode for to-spalters akademisk praktsetting. |
+| `litisk_kybernetikk_leksikon.tex` | 560 KB | LaTeX-kildekode for to-spalters akademisk praktsetting. |
 | [`00_LEKSIKON_MODULINDEKS.md`](00_LEKSIKON_MODULINDEKS.md) | 19 KB | Komplett modulindeks over samtlige 44 leksikonmoduler. |
 | [`FYSIKK_FOR_METAFYSIKK_BOK_1.md`](FYSIKK_FOR_METAFYSIKK_BOK_1.md) | 502 KB | Det opprinnelige grunnlagsmanuskriptet (Fysikk for metafysikk). |
-| [`build_litisk_kybernetikk_leksikon.py`](build_litisk_kybernetikk_leksikon.py) | 17 KB | Kompileringsskript for generering av leksikon-PDF. |
-| [`assemble_bind2_clean.py`](assemble_bind2_clean.py) | 24 KB | Sammenstillingsskript for kildetekster og moduler. |
+| `build_litisk_kybernetikk_leksikon.py` | 17 KB | Kompileringsskript for generering av leksikon-PDF. |
+| `assemble_bind2_clean.py` | 24 KB | Sammenstillingsskript for kildetekster og moduler. |
 
 ---
 

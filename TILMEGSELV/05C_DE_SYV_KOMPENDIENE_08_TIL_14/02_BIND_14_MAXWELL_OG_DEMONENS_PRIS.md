@@ -113,10 +113,10 @@ I stedet for å anta at informasjon er en vektløs, friksjonsfri abstraksjon i s
 
 ### 5.1 Kildekoden for `SPEC-250-THERMO` ($\Pi_{K,\text{thermo}}$ i `spec250_gate.rs`)
 
-I `03_ENGINES/spec250_gate.rs` er flyttall (`f32`/`f64`) bannlyst for å forhindre avrundingslekkasje. Regnskapet føres i heltalls **attojoule** ($\text{aJ} = 10^{-18}\text{ J}$, `u128`) og **mikrojoule** ($\mu\text{J} = 10^{-6}\text{ J}$, `i128`):
+I `spec250_gate.rs` er flyttall (`f32`/`f64`) bannlyst for å forhindre avrundingslekkasje. Regnskapet føres i heltalls **attojoule** ($\text{aJ} = 10^{-18}\text{ J}$, `u128`) og **mikrojoule** ($\mu\text{J} = 10^{-6}\text{ J}$, `i128`):
 
 ```rust
-// Fra 03_ENGINES/spec250_gate.rs (DEL 6: SPEC-250-THERMO)
+// Fra spec250_gate.rs (DEL 6: SPEC-250-THERMO)
 pub const LANDAUER_PER_BIT_AJ: u128 = 3;      // Eksakt 2.6523e-21 J = 0.00265 aJ (tak-avrundet i aJ)
 pub const LANDAUER_4096_BITS_AJ: u128 = 11;   // 4096 bits * 2.6523e-21 J ≈ 10.865 aJ
 
@@ -133,7 +133,7 @@ Ved et romlignende relé-angrep ($\mathrm{d}s^2 > 0$) kapper mottakernoden sekve
 
 ### 5.2 De Ti Kontrollorganene (Organ T1–T10) i Dør 18 (`door18_heis_baereevne`)
 
-I `03_ENGINES/door18_heis_baereevne/` evalueres enhver kandidat med oppstrøms frigivelse fra Dør 15 ($\Pi_K$) og Dør 17 (KY-Nash) gjennom ti spesialiserte bæreorganer under subsumsjonsloven $\texttt{KILL} > \texttt{HOLD} > \texttt{OPEN}$ (`27/27 PASS` i `test_baereevne.py`):
+I `door18_heis_baereevne/` evalueres enhver kandidat med oppstrøms frigivelse fra Dør 15 ($\Pi_K$) og Dør 17 (KY-Nash) gjennom ti spesialiserte bæreorganer under subsumsjonsloven $\texttt{KILL} > \texttt{HOLD} > \texttt{OPEN}$ (`27/27 PASS` i `test_baereevne.py`):
 
 | Organ | Kontraktmodul | Fysisk invariant og kontrolloppdrag | Feillukket dom (`KILL` / `HOLD`) |
 | :--- | :--- | :--- | :--- |

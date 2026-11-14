@@ -2,7 +2,7 @@
 ## Komplett Matematisk og Fysisk Syntese for Hotellet med de 31 Dørene
 
 > **Dokument-ID:** `33_DE_TRE_AKSIOMENE_OG_2PLUS1_FYSIKK_SYNTESE.md`  
-> **Forankring:** Dør 01–31 (`03_ENGINES/door01_gallery` .. `door31_symbiotic_machine`)  
+> **Forankring:** Dør 01–31 (`door01_gallery` .. `door31_symbiotic_machine`)  
 > **Demarkasjon:** `L1 (Lokalt demonstrert programvare og formell matematisk modell)` — `INSPIRED_BY != IMPLEMENTS != PROVES`
 
 ---

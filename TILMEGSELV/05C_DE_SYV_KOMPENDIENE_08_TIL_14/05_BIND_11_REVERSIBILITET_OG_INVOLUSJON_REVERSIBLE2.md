@@ -97,7 +97,7 @@ Dermed bevares både sikkerheten og sannheten: maskinen kan aldri tilgi seg selv
 
 ## 5. Det Skjeve Produktet ($\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ i `SPEC-100`), RFM Dobbelpuls-Testen og SUSY2 Anti-Narcissus-Skranken ($\Pi_{\text{Care}}$)
 
-I [`100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md`](file:///home/sololyset/00_KANONISK_KJERNE/100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md) (`SPEC-100`, verifisert i [`ky_poincare_skew_product_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ky_poincare_skew_product_engine.py) med `9/9 PASS`) lukkes koblingen mellom **Bind X** (gravitasjon), **Bind XI** ($\mathrm{Reversible}^2$) og **Bind XII** (Poincaré-faserommet) ved å formalisere vitnelaget som en **historiefiber med null fysisk tilbakevirkning**:
+I `100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md` (`SPEC-100`, verifisert i `ky_poincare_skew_product_engine.py` med `9/9 PASS`) lukkes koblingen mellom **Bind X** (gravitasjon), **Bind XI** ($\mathrm{Reversible}^2$) og **Bind XII** (Poincaré-faserommet) ved å formalisere vitnelaget som en **historiefiber med null fysisk tilbakevirkning**:
 
 $$\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}, \qquad \frac{\partial \dot{x}_{\text{phys}}}{\partial h_{\text{hist}}} \equiv 0$$
 
@@ -117,7 +117,7 @@ $$\Pi_{\text{Care}}\bigl(\mathbf{v}_{\text{kilde}}, \mathbf{v}_{\text{speil}}\bi
 
 Dersom speilet forsøker å sluke kilden i en falsk sammensmelting ($\|\mathbf{v}_{\text{kilde}} - \mathbf{v}_{\text{speil}}\|_2 < d_{\min}$, *Narcissus-fellen*), utløses `RC-730_SKEW_PRODUCT_INVARIANT_VIOLATION` (`KILL`, $0{,}00\text{ V DC}$). Avstanden er ikke en mangel ved dialogen; den er selve forutsetningen for at to voktere kan møtes i **Meta-KY `HOLD`** uten at mennesket absorberes av maskinen.
 
-| Lov i `SPEC-100` | Eksakt Matematisk Invariant | Operasjonell Konsekvens i [`ky_poincare_skew_product_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ky_poincare_skew_product_engine.py) |
+| Lov i `SPEC-100` | Eksakt Matematisk Invariant | Operasjonell Konsekvens i `ky_poincare_skew_product_engine.py` |
 | --- | --- | --- |
 | **1. Lov om Skew-Produktet** | $\frac{\partial\dot{x}_{\text{phys}}}{\partial h_{\text{hist}}} \equiv 0$ | Vitnet er historiefiber, aldri fysisk kraft- eller feltkilde (`zero_backreaction_verified == True`) |
 | **2. Lov om Returgapet** | $\delta_{\text{gap}} = \|x_{\text{cand}} - x_{\text{proj}}\| \notin T_{\mu\nu}$ | Friksjon bokføres i $C_K$; `HOLD` ved $\delta_{\text{gap}} > 10^{-3}$, `KILL` ved $\delta_{\text{gap}} > \tau_{\text{budget}}$ |
@@ -130,7 +130,7 @@ Dersom speilet forsøker å sluke kilden i en falsk sammensmelting ($\|\mathbf{v
 ## 6. Red Book CIRC ($\mathrm{GF}(2^8)$, `0x11D`) $\leftrightarrow$ 208B Rosetta D3, Sentralspinn Sommerfugl-Ekko (`SPEC-397`) og OT-GKSL Sertifisert Utlesningsvindu (`SPEC-395`)
 
 ### 6.1 Red Book CIRC ($\mathrm{GF}(2^8)$, `0x11D`) $\leftrightarrow$ 208B Rosetta D3-Forseglingen (`INTERPOLATION != PROOF`)
-I [`rosetta_circ_gf256.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/rosetta_circ_gf256.py) og SystemVerilog-modulen [`rosetta_d3_circ_gate.sv`](file:///home/sololyset/01_HARDWARE_RTL/rosetta_d3_circ_gate.sv) (`25/25 PASS` inkludert `iverilog -g2012` co-simulering) forsegles den 205-byte store maskinvarekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) med 3 byte systematisk Reed–Solomon-paritet $[p_2, p_1, p_0]$ til en **eksakt 208-byte $\mathrm{RS}(208, 205)$-ramme** over Galois-kroppen $\mathrm{GF}(2^8)$ definert ved Red Book CD-DA primitivt polynom:
+I `rosetta_circ_gf256.py` og SystemVerilog-modulen `rosetta_d3_circ_gate.sv` (`25/25 PASS` inkludert `iverilog -g2012` co-simulering) forsegles den 205-byte store maskinvarekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) med 3 byte systematisk Reed–Solomon-paritet $[p_2, p_1, p_0]$ til en **eksakt 208-byte $\mathrm{RS}(208, 205)$-ramme** over Galois-kroppen $\mathrm{GF}(2^8)$ definert ved Red Book CD-DA primitivt polynom:
 
 $$p(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\mathtt{0x11D}, \quad \alpha = \mathtt{0x02})$$
 
@@ -147,7 +147,7 @@ evaluerer Horner-LFSR-kjernen i `rosetta_d3_circ_gate.sv` syndromvektoren $\math
 | **`C2_INTERPOLATION_DENIED`** | $\mathrm{wt}(e) \ge 2$, eller $S_1^2 \neq S_0 S_2$, eller forkortet lokator $p \in [208..254]$ | **Blank avvisning av interpolasjon:** `c2_interpolation_denied_o = 1`, `omega_authorize_o = 0`, `interlock_kill_n_o = 0` (**`0,00 V DC KILL`**) |
 
 ### 6.2 Sentralspinn Tidsreversert Kvantemetrologi (`SPEC-397`): SATIN og Sommerfugl-Ekko
-I [`csm_satin_butterfly_echo_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/csm_satin_butterfly_echo_gate_engine.py) (`SPEC-397`, inspirert av Kumar & Choudhury 2026, `arXiv:2610.30686v1`, Davis et al. 2016 og Bringewatt et al. 2026) overføres RFM-dobbelpulsen $T_{\text{RFM}}^2 = I$ til et sentralspinn-bad ($S_{\text{cen}}$ koblet til $N$ badespinn via $H_{\text{CSM}} = \Omega S_z + \frac{\tilde{g}}{\sqrt{N}}(S_+ J_- + S_- J_+)$). I det dispersive Schrieffer–Wolff-regimet ($\Omega \gg \tilde{g}\sqrt{N}$) induseres den effektive en-akse-vridningen (OAT) $H_{\text{eff}} \approx \chi_{\text{eff}} J_z^2$ med $\chi_{\text{eff}} = \frac{\tilde{g}^2 S_{\text{cen}}}{2\Omega}$.
+I `csm_satin_butterfly_echo_gate_engine.py` (`SPEC-397`, inspirert av Kumar & Choudhury 2026, `arXiv:2610.30686v1`, Davis et al. 2016 og Bringewatt et al. 2026) overføres RFM-dobbelpulsen $T_{\text{RFM}}^2 = I$ til et sentralspinn-bad ($S_{\text{cen}}$ koblet til $N$ badespinn via $H_{\text{CSM}} = \Omega S_z + \frac{\tilde{g}}{\sqrt{N}}(S_+ J_- + S_- J_+)$). I det dispersive Schrieffer–Wolff-regimet ($\Omega \gg \tilde{g}\sqrt{N}$) induseres den effektive en-akse-vridningen (OAT) $H_{\text{eff}} \approx \chi_{\text{eff}} J_z^2$ med $\chi_{\text{eff}} = \frac{\tilde{g}^2 S_{\text{cen}}}{2\Omega}$.
 * **Involutorisk tidsreversering ($H \mapsto -H$):** Ved å invertere fortegnet på den effektive vridningen ($\Omega \mapsto -\Omega$) og anvende ekko-sekvensen $U_{\text{echo}}(\phi) = U(-H_{\text{eff}}, t)\,R_{\hat{n}}(\phi)\,U(+H_{\text{eff}}, t)$, oppfyller null-fase-returen ($\phi = 0$) den eksakte involusjonen $U_{\text{echo}}(0)|\psi_0\rangle = |\psi_0\rangle$, mens en liten faseperturbasjon $\phi \neq 0$ forsterkes med Heisenberg-skalert kvante-Fisher-informasjon ($F_Q \propto N^2$).
 * **Det metrologiske gaphierarkiet:** Mellom det ideelle Heisenberg-taket og standard kvantegrense ($\text{SQL} = N$) danner de fire protokollene en strengt ordnet kjede for alle $N \ge 4$:
 
@@ -157,7 +157,7 @@ $$\mathcal{F}_{\text{HL}} = N^2 \;>\; \mathcal{F}_{\text{OAT}} = \frac{N^2}{2} \
   * **Sommerfugl-ekko (*Butterfly Echo* via kaotisk Haar-scrambling):** Når perturbasjonsaksen $\hat{n}$ er **ukjent**, flettes $K$ tilfeldige $\mathrm{SU}(2)$-rotasjoner $\{\vec{\alpha}_k\}_{k=1}^K$ inn i fremover-banen og reverseres i eksakt omvendt rekkefølge i retur-banen. Dette gjør følsomheten isotrop over hele Bloch-sfæren med $\mathcal{F}_{\text{Butterfly}} = N^2/4$ ($-6{,}02\text{ dB}$ under Heisenberg-grensen), forutsatt at både den kumulative Schrieffer–Wolff-feilen $K\cdot\varepsilon_{\text{SW}} = K\bigl(\frac{2\tilde{g}\sqrt{N}}{\Omega}\bigr)^2$ er begrenset og akse-loggen (`axes_ledger_hash`) er intakt ved tilbakevendingen.
 
 ### 6.3 OT-GKSL Sertifisert Utlesningsvindu og Euler–Poincaré Torsjon (`SPEC-395`)
-I [`ot_gksl_certified_readout_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ot_gksl_certified_readout_gate_engine.py) (`SPEC-395`, inspirert av Bocquet 2026 og Colombo 2025/2026) lukkes kvantemålingskjeden på $\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ uten å anta et ytre, klassisk mirakel-apparat:
+I `ot_gksl_certified_readout_gate_engine.py` (`SPEC-395`, inspirert av Bocquet 2026 og Colombo 2025/2026) lukkes kvantemålingskjeden på $\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ uten å anta et ytre, klassisk mirakel-apparat:
 1. **Euler–Poincaré adjungert torsjon og dobbeltkommutator-kontraksjon:** For selvadjungerte Lindblad-operatorer $L_k = L_k^\dagger$ fremkommer GKSL-dissipatoren fra Euler–Poincaré-reduksjon på et semidirekte produkt med torsjon:
 
 $$\dot{\rho} = -\mathrm{i}[H, \rho] - \frac{1}{2}\sum_k \gamma_k \bigl[L_k, [L_k, \rho]\bigr]$$

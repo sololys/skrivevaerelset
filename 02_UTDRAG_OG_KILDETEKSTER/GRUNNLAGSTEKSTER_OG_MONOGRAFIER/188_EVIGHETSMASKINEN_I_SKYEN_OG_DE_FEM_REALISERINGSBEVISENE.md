@@ -2,7 +2,7 @@
 ### *Fra Myonets Lyskjegle til Låvens 50 Watt: Hvorfor Virkeligheten Innvilges Gjennom $\Pi_K$*
 
 **Forfatter:** Marius Egerhei Torjusen — *ReismannPoint Systems // Brahman (Locus Zero, Risør)*  
-**ORCID:** [`0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · **Zenodo Master DOI:** [`10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983)  
+**ORCID:** [`0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · **Zenodo DOI (`skrivevaerelset`):** [`10.5281/zenodo.24032522`](https://doi.org/10.5281/zenodo.24032522)  
 **Epistemisk Grense:** $\mathbf{INSPIRED\_BY \neq IMPLEMENTS \neq PROVES}$ · $\mathbf{GENERERER \neq AUTORISERER \neq REALISERER \neq BEVISER}$ (`PHYSICAL_AUTHORITY = NONE` på `L1`)
 
 ---

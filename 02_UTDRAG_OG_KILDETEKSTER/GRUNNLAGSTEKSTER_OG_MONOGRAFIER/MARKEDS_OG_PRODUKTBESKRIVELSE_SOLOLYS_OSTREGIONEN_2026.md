@@ -4,7 +4,7 @@
 **Søker / Gründer:** Marius Egerhei Torjusen — *Founder & Chief Systems Architect, Sololys / ReismannPoint Systems*  
 **Lokalisering:** Risør kommune (Østregionen, Agder)  
 **Kontakt:** `sololyset@gmail.com` // Tlf: `+47 93 29 45 26` // ORCID: `0009-0006-0431-6637`  
-**Teknisk referansearkiv:** [`github.com/sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures) // CERN Zenodo Master DOI: [`10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983)  
+**Teknisk referansearkiv:** [`github.com/sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures) // CERN Zenodo DOI: [`10.5281/zenodo.24032510`](https://doi.org/10.5281/zenodo.24032510) · Monografiarkiv: [`10.5281/zenodo.24032522`](https://doi.org/10.5281/zenodo.24032522)  
 **Modenhets- og verifikasjonsstatus:** Nivå $\text{L1}$ ferdigstilt (deterministisk programvare, eksakt rasjonal hovedbok og RTL-maskinvaresimulering). Søknaden gjelder markedsavklaring, kommersiell lisenspakking og pilotforberedelse mot $\text{L2}$ (*Hardware-in-the-Loop* / testbed) i samarbeid med nasjonale forsknings- og industripartnere ($\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$).
 
 ---
@@ -71,7 +71,7 @@ Sololys har allerede passert den mest krevende terskelen for et dypteknologisk o
    Konkret henvendelse i oktober 2026 fra seniorforskernivå ved **BTU Cottbus / IHP Microelectronics (Tyskland)** om faglig utforskning og mulig samarbeid innen deterministiske sikkerhetsporter for 6G URLLC trådløs industristyring.
 
 3. **Dokumentert og tidsstemplet IP-grunnlag:**
-   Arkitekturen er dokumentert gjennom en publisert hovedmonografi (*Konseptuell Granitt*, 74 sider), kjørbare $\text{L1}$-testsuiter og over 180 tidsstemplede arbeider på **CERN / Zenodo**, som sikrer Sololys suveren *Background IP* i møte med større konsortier og industrikunder.
+   Arkitekturen er dokumentert gjennom en publisert hovedmonografi (*Konseptuell Granitt*, 260 sider), kjørbare $\text{L1}$-testsuiter og over 180 tidsstemplede arbeider på **CERN / Zenodo**, som sikrer Sololys suveren *Background IP* i møte med større konsortier og industrikunder.
 
 ---
 

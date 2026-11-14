@@ -1,4 +1,4 @@
-# DEN 7-LAGS KAUSALSTAKKEN, GEMINI-CORE DØR 18–20, SAMFUNNSØKONOMI (DFØ $4{,}0\,\%$) OG NASJONALT VEIKART (2026–2031)
+# DEN 7-LAGS KAUSALSTAKKEN, REISMANN-CORE DØR 18–20, SAMFUNNSØKONOMI (DFØ $4{,}0\,\%$) OG NASJONALT VEIKART (2026–2031)
 ### *Om Kausalitetslovens fire aksiomer, kontrollorganene $\text{T1}$–$\text{T10}$ / $\text{Q1}$–$\text{Q10}$ / $\text{W1}$–$\text{W10}$ og samfunnsøkonomisk nåverdi ($+9{,}335\text{ mrd. NOK}$)*
 
 ```text
@@ -46,9 +46,9 @@ Det operative tilstandsrommet utspennes av **Masse ($M$)** (WAL og lagrede joule
 
 ---
 
-## 3. Slusemekanismer i Gemini-Core: Dør 18, Dør 19 og Dør 20 (L1)
+## 3. Slusemekanismer i Reismann-Core: Dør 18, Dør 19 og Dør 20 (L1)
 
-I `Gemini-Core` passerer enhver tilstandskandidat $\Phi$ gjennom tre formelle kontrollsluser ($387/387$ enhetstester bestått):
+I `Reismann-Core` passerer enhver tilstandskandidat $\Phi$ gjennom tre formelle kontrollsluser ($387/387$ enhetstester bestått):
 
 $$\text{Kandidat } \Phi \longrightarrow [\text{Dør 18: TERMO / Bæreevne}] \longrightarrow [\text{Dør 19: Tid / Poincaré}] \longrightarrow [\text{Dør 20: Golden Record}]$$
 

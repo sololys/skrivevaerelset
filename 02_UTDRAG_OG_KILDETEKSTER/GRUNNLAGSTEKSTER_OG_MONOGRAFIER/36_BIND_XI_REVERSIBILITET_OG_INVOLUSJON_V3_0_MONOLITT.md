@@ -1,8 +1,8 @@
 # 36 — Bokhylla Bind XI: *REVERSIBILITET & INVOLUSJON — $\text{Reversible}^2$: Lokal Involusjon og Domenegrensen mot Konsekvens* (v3.0-MONOLITT)
 
 **Forfatter:** Marius Egerhei Torjusen (Reismann-punktet Systemer, 2026)  
-**Kilde:** [`07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/11_REVERSIBILITET_ZENODO_KOMPENDIUM/REVERSIBILITET_MONOGRAFI_REVERSIBLE_SQUARED.pdf`](../../07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/11_REVERSIBILITET_ZENODO_KOMPENDIUM/REVERSIBILITET_MONOGRAFI_REVERSIBLE_SQUARED.pdf)  
-**Godot `L1` Motor:** [`04_REALITY_FORGE/RealityForge_Godot/scripts/reversibility_bind_xi_admissibility_engine.gd`](../../04_REALITY_FORGE/RealityForge_Godot/scripts/reversibility_bind_xi_admissibility_engine.gd) (`6/6 PASS`)
+**Kilde:** [`REVERSIBILITET_MONOGRAFI_REVERSIBLE_SQUARED.pdf`](../../03_FERDIGE_BOKER_PDF/REVERSIBILITET_MONOGRAFI_REVERSIBLE_SQUARED.pdf)  
+**Godot `L1` Motor:** `reversibility_bind_xi_admissibility_engine.gd` (`6/6 PASS`)
 
 > **Demarkasjon (`L1`):** Programvaremotorene og de numeriske verifikasjonene er lokalt demonstrert programvare (`L1`). De respekterer grensen $\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$, og bruker append-only hash-kjeder som programvare-vitner, ikke som fysisk WORM-maskinvare.
 

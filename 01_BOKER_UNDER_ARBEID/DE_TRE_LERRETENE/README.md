@@ -35,11 +35,11 @@ MANIFEST & SAKPROSAKANDIDAT:
 
 | Fil | Størrelse / Omfang | Beskrivelse |
 |---|---|---|
-| [`de_tre_lerretene_bok.pdf`](de_tre_lerretene_bok.pdf) | 22 s / 3.0 MB | Fullt illustrert, trykkeklar prakt-PDF i format 155 x 230 mm. |
+| [`de_tre_lerretene_bok.pdf`](../../03_FERDIGE_BOKER_PDF/de_tre_lerretene_bok.pdf) | 22 s / 3.0 MB | Fullt illustrert, trykkeklar prakt-PDF i format 155 x 230 mm. |
 | [`MANUSKRIPT_DE_TRE_LERRETENE.md`](MANUSKRIPT_DE_TRE_LERRETENE.md) | 14 KB | Det norske kildemanuskriptet for manifestet. |
 | [`THE_THREE_CANVASES_MASTER_MONOGRAPH.md`](THE_THREE_CANVASES_MASTER_MONOGRAPH.md) | 37 KB | Full engelsk monografiversjon av verket. |
-| [`de_tre_lerretene_bok.tex`](de_tre_lerretene_bok.tex) | 18.6 KB | LaTeX-kildekode for typografisk boksetting. |
-| [`build_de_tre_lerretene_bok.py`](build_de_tre_lerretene_bok.py) | 12.5 KB | Kompileringsskript for generering av LaTeX og PDF. |
+| `de_tre_lerretene_bok.tex` | 18.6 KB | LaTeX-kildekode for typografisk boksetting. |
+| `build_de_tre_lerretene_bok.py` | 12.5 KB | Kompileringsskript for generering av LaTeX og PDF. |
 
 ---
 

@@ -1,8 +1,8 @@
 # 37 — Bokhylla Bind XII: *HENRI POINCARÉ & FASEROMMET — Dør 19, Rommet for Urealiserte Liv og Det Representasjonsløftede Snittet* (v3.0-MONOLITT)
 
 **Forfatter:** Marius Egerhei Torjusen (Reismann-punktet Systemer, 2026)  
-**Kilde:** [`07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/12_POINCARE_ZENODO_KOMPENDIUM/POINCARE_MONOGRAFI_FASEROMMET_OG_DOER_19.pdf`](../../07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/12_POINCARE_ZENODO_KOMPENDIUM/POINCARE_MONOGRAFI_FASEROMMET_OG_DOER_19.pdf)  
-**Godot `L1` Motor:** [`04_REALITY_FORGE/RealityForge_Godot/scripts/poincare_bind_xii_admissibility_engine.gd`](../../04_REALITY_FORGE/RealityForge_Godot/scripts/poincare_bind_xii_admissibility_engine.gd) (`6/6 PASS`)
+**Kilde:** [`POINCARE_MONOGRAFI_FASEROMMET_OG_DOER_19.pdf`](../../03_FERDIGE_BOKER_PDF/POINCARE_MONOGRAFI_FASEROMMET_OG_DOER_19.pdf)  
+**Godot `L1` Motor:** `poincare_bind_xii_admissibility_engine.gd` (`6/6 PASS`)
 
 > **Demarkasjon (`L1`):** Programvaremotorene og de numeriske verifikasjonene er lokalt demonstrert programvare (`L1`). De respekterer grensen $\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$, og bruker append-only hash-kjeder som programvare-vitner, ikke som fysisk WORM-maskinvare.
 

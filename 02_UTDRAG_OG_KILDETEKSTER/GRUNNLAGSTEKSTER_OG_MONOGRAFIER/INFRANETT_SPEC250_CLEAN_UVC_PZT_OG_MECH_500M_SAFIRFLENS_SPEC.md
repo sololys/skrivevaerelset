@@ -223,4 +223,4 @@ $$a_{\text{crit}} = \frac{1}{\pi} \left(\frac{K_{\text{IC}}}{Y \cdot \sigma_{\ma
 
 ### 8. Referanseimplementasjon i Rust (`spec250_gate.rs`)
 
-Se [`engines/spec250_gate.rs`](../engines/spec250_gate.rs) for den kjørbare, heltallsbaserte `#![forbid(unsafe_code)]`-implementasjonen av både `SapphireCleanController::step_clean_fsm` (`SPEC-250-CLEAN`) og `evaluate_flange_integrity` (`SPEC-250-MECH`), verifisert med `22/22` enhetstester i `rustc --test`.
+Se `spec250_gate.rs` for den kjørbare, heltallsbaserte `#![forbid(unsafe_code)]`-implementasjonen av både `SapphireCleanController::step_clean_fsm` (`SPEC-250-CLEAN`) og `evaluate_flange_integrity` (`SPEC-250-MECH`), verifisert med `22/22` enhetstester i `rustc --test`.

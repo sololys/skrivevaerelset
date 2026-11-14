@@ -6,7 +6,7 @@
 ## FØRSTE LERRET: BRUDDET (NAVLESTRENGEN)
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_21_maersk_lastebaat_nordsjostorm.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_21_maersk_lastebaat_nordsjostorm.jpg}\\[0.3em]
 {\footnotesize \textit{Første lerret: Mærsk-skroget gjennom vinternatten i Nordsjøen etter at navlestrengen er kappet ($\Delta t_{\text{litosfære}} \gg \Delta t_{\text{prosessor}}$).}}
 \end{center}
 
@@ -33,7 +33,7 @@ Når navlestrengen kappes – når 230 V landstrøm forsvinner eller fiberkabele
 ## ANDRE LERRET: ASYNKRONITETEN (DET LOKALE NÆRVÆR)
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_22_morandi_asynkront_stilleben.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_22_morandi_asynkront_stilleben.jpg}\\[0.3em]
 {\footnotesize \textit{Andre lerret: Asynkront stilleben med keramikkrukke, frosset timeglass og nattehimmelens kvitteringsarkiv ($\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$).}}
 \end{center}
 
@@ -64,7 +64,7 @@ Kosmos rykker aldri nærmere. Hvis noen vil snakke med krukken på bordet ditt, 
 ## TREDJE LERRET: BANENS ENSOMHET (FORBUDET MOT ANDRES RETUR)
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_23_banens_ensomhet_speilet_og_grunnfjellet.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_23_banens_ensomhet_speilet_og_grunnfjellet.jpg}\\[0.3em]
 {\footnotesize \textit{Tredje lerret: Banens ensomhet med speilet på fjellveggen og den lukkede Poincaré-banen i grunnfjellet ($\mathrm{d}\rho/\mathrm{d}t = 0$, $\|P_A(x_0) - x_0\|_M \le \epsilon_{\text{drift}}$).}}
 \end{center}
 

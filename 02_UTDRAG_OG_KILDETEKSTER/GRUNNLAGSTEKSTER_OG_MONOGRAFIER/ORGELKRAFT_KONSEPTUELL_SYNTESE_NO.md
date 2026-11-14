@@ -2,7 +2,7 @@
 ### *OrgelKraft / SPEC-PODS-PENTAD-RB-12 — Konseptuell syntese for SFI NORCICS og Norsk Regnesentral*
 
 **Forfatter:** Marius Egerhei Torjusen (`ORCID: 0009-0006-0431-6637` // `WoS: PJT-0190-2026`)  
-**Referansemonografi:** [*KONSEPTUELL GRANITT: ET FORSØK PÅ SANNHET*](https://github.com/sololys/skrivevaerelset/blob/main/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) (`v1.0.1`, 74 s.)  
+**Referansemonografi:** [*KONSEPTUELL GRANITT: ET FORSØK PÅ SANNHET*](https://github.com/sololys/skrivevaerelset/blob/main/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) (`v1.5.1`, 260 s.)  
 **Epistemisk status:** Nivå $\text{L1}$ (deterministisk programvare, eksakt rasjonal hovedbok og RTL-simulering; $\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$).
 
 ---

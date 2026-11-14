@@ -14,6 +14,6 @@
 
 ### Kanoniske Referanser & Kildekode
 
-* **Plansjer:** * [`BOKKANDIDATER/BILDER/16_morandi_kpod_catalysis.jpg`](./BILDER/16_morandi_kpod_catalysis.jpg) (Plansje 16: *QED-Reaksjonskjernen og Induksjonskatalyse*) * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](./BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten — *[...]*
+* **Plansjer:** * `16_morandi_kpod_catalysis.jpg` (Plansje 16: *QED-Reaksjonskjernen og Induksjonskatalyse*) * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten — *[...]*
 
 │ — [ Blad skåret ut ved bokryggen ] —

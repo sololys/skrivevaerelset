@@ -18,7 +18,7 @@
   I henhold til **Fine–Wilf-teoremet (1965)** er den kritiske horisonten gitt ved:
   $$L_{\text{FW}} = p + q - \gcd(p, q) = 5 + 8 - 1 = 12$$
   Porten legger inn en hard tvangstrøye: **Ingen kandidat får `OPEN` før steg 12 er passert.** På nøyaktig det 12. steget tvinges indeksene inn i samme celle ($\texttt{A} \neq \texttt{B}$), kamuflasjen sprekker, og spøkelsesmålet isoleres i **`HOLD (0.0 V)`**.
-* **Kodeanker:** [`staggered_prf_fine_wilf_gate.py`](file:///home/sololyset/09_SYSTEM/kreativ_systems/ky_v1_5_master/staggered_prf_fine_wilf_gate.py)
+* **Kodeanker:** `staggered_prf_fine_wilf_gate.py`
 
 ---
 
@@ -33,7 +33,7 @@
   Porten krever **Newtonsk bane-integrasjon**:
   $$\int_{t_0}^{t_1} F(t)\,dt = \Delta p \neq 0$$
   Sluttpunktet alene gir aldri adgang. Hvis ikke hele kjeden av kraft, tid og bevegelsesmengde langs banen følger med som bevis, fryses kommandoen i **`HOLD (0.0 V)`**.
-* **Kodeanker:** [`04_REALITY_FORGE/RealityForge_Godot/scripts/light_bridge.gd`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/light_bridge.gd)
+* **Kodeanker:** `light_bridge.gd`
 
 ---
 
@@ -50,7 +50,7 @@
   1. **Fysisk takgrense (Taket):** Kan antallet stemmer overstige antall mulige velgere i kretsen, eller kan endringshastigheten ($\Delta N / \Delta t$) overstige den fysiske strømmen av mennesker/energi?
   2. **Krystall-paritet (Davisson 1925):** Et hopp på $2^{12}$ uten tilhørende termodynamisk arbeid bryter gitter-koherensen.
   Resultatet er umiddelbart **galvanisk kutt (`KILL — 0.0 V`)** og låst relé.
-* **Kodeanker:** [`03_ENGINES/tests/test_consequence_isolation_demo.py`](file:///home/sololyset/03_ENGINES/tests/test_consequence_isolation_demo.py)
+* **Kodeanker:** `test_consequence_isolation_demo.py`
 
 ---
 
@@ -66,7 +66,7 @@
   **Infranett 6G Isolert Mesh** kombinerer to fysiske låser:
   1. **Lysfartsjekk på avstand ($\le 20\text{ m}$):** Måler rundturstiden ($t_{\text{RTT}} \le 133\text{ ns}$). Alt som kommer fra skyen eller utenfor 20-meterssonen nektes fysisk utløsning.
   2. **John Nashs harmoniske krumningsfilter ($\Delta_g R = 0$):** Korrigeringen regner ut den faktiske brytningsindeksen $n_{\text{eff}}(R)$, men nekter enhver kunstig klipping. Hvis $|\sin\theta_g| > 1$, utløses **`HOLD`/`KILL`** på stedet.
-* **Kodeanker:** [`03_ENGINES/ENGINES/micro_engines/infranett_direction_finder_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/infranett_direction_finder_engine.py)
+* **Kodeanker:** `infranett_direction_finder_engine.py`
 
 ---
 
@@ -82,4 +82,4 @@
   **Apollo-bremsen (`TonderSheeld` / Gir `S1`–`S5`)**, modellert etter Margaret Hamiltons `Alarm 1202` på Apollo 11:
   * Systemet overvåker tettheten og tidspunktet på døgnet.
   * Så snart ordflommen eller belastningen krysser terskelen, slår **`S4 SUBTRACTIVE_FLUSH`** inn: all lavprioritert utfylling kastes over bord *før* den vises, og utgangen låses til **maks 3 konkrete linjer** (og etter kl. 22:30 låses systemet i **`S5 NIGHT_LOCK`**).
-* **Kodeanker:** [`14_SYNTETISK_PSYKOSOMATIKK_FEILMODUSER_I_SINN_OG_SILISIUM.md`](file:///home/sololyset/RADIKAL_DESTILLERING/INTERKOGNITIV_MAPPE/14_SYNTETISK_PSYKOSOMATIKK_FEILMODUSER_I_SINN_OG_SILISIUM.md) og [`15_LANDAUER_SKATTEN_TERMODYNAMISK_INFORMASJONSGRENSE.md`](file:///home/sololyset/RADIKAL_DESTILLERING/INTERKOGNITIV_MAPPE/15_LANDAUER_SKATTEN_TERMODYNAMISK_INFORMASJONSGRENSE.md)
+* **Kodeanker:** `14_SYNTETISK_PSYKOSOMATIKK_FEILMODUSER_I_SINN_OG_SILISIUM.md` og `15_LANDAUER_SKATTEN_TERMODYNAMISK_INFORMASJONSGRENSE.md`

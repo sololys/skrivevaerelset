@@ -267,4 +267,4 @@ I tabellen under er $P_{\text{TX}} = +20.00\text{ dBm}$, låsterskelen $P_{\text
 
 ### 9. Referanseimplementasjon i Rust (`spec250_gate.rs`)
 
-Se [`engines/spec250_gate.rs`](../engines/spec250_gate.rs) for den kjørbare, heltallsbaserte `#![forbid(unsafe_code)]`-implementasjonen av både `DualLambdaSapphirePort::process_wet_to_dry_bridge` og `evaluate_subsea_532nm_link` (verifisert med `rustc --test`).
+Se `spec250_gate.rs` for den kjørbare, heltallsbaserte `#![forbid(unsafe_code)]`-implementasjonen av både `DualLambdaSapphirePort::process_wet_to_dry_bridge` og `evaluate_subsea_532nm_link` (verifisert med `rustc --test`).

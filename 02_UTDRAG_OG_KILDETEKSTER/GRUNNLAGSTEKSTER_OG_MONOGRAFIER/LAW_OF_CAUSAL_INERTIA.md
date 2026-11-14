@@ -35,7 +35,7 @@ Han peker mot kassen på bordet. «Der inne er det ingen sky. Ingen servere i Du
 
 ### II. Friksjonens patologi
 
-Det teoretiske byggverket som Torjusen har snekret sammen — nedfelt i et omfangsrikt vitenskapelig kompendium deponert i CERNs åpne forskningsarkiv Zenodo under DOI-nummeret [`10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983), og syntetisert i oversiktsverkene [`00_THE_CAUSAL_INFRASTRUCTURE_MASTER_WHITEPAPER_2026_2031.md`](00_THE_CAUSAL_INFRASTRUCTURE_MASTER_WHITEPAPER_2026_2031.md) og [`04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md`](04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md) — begynner ikke i kjemien, men i erkjennelsesteorien.
+Det teoretiske byggverket som Torjusen har snekret sammen — nedfelt i et omfangsrikt vitenskapelig kompendium deponert i CERNs åpne forskningsarkiv Zenodo under DOI-nummeret [`10.5281/zenodo.24032522`](https://doi.org/10.5281/zenodo.24032522), og syntetisert i oversiktsverkene `00_THE_CAUSAL_INFRASTRUCTURE_MASTER_WHITEPAPER_2026_2031.md` og `04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md` — begynner ikke i kjemien, men i erkjennelsesteorien.
 
 Hans diagnose av den moderne tidsalder er formulert i en læresetning han kaller *Loven om kausal inerti*:
 
@@ -59,7 +59,7 @@ Hvert eneste menneske som lever på jorden i dag, har atomer i kroppen som har p
 
 Dette krever enorme mengder fossil metangass. Prosessen sluker alene mellom én og to prosent av hele klodens energiforbruk og står for enorme klimagassutslipp. Men enda mer prekært for et land som Norge: Den har skapt en ekstrem, sentralisert sårbarhet. Norske bønder er prisgitt et hyperkomplekst maskineri av utenlandske råvarebørser, russiske gassrørledninger, store fabrikker og en endeløs konvoi av dieseldrevne vogntog som frakter tunge sekker med ammoniumnitrat over smale fylkesveier.
 
-«Hvis en rørledning i Nordsjøen kuttes, eller hvis fiendtlige aktører lammer logistikken i Østersjøen, har ikke norsk landbruk gjødsel i mer enn noen få uker,» påpeker Torjusen i avhandlingen [`06_TECHNICAL_CORE_DECENTRALIZED_SOVEREIGNTY_KPOD_INFRANETT.md`](06_TECHNICAL_CORE_DECENTRALIZED_SOVEREIGNTY_KPOD_INFRANETT.md). «Uten gjødsel kollapser avlingene med femti prosent på én vekstsesong. Vi har trodd at matsikkerhet handlet om kornlagre på Otta. Men matsikkerhet handler om elektronoverføring i jordsmonnet.»
+«Hvis en rørledning i Nordsjøen kuttes, eller hvis fiendtlige aktører lammer logistikken i Østersjøen, har ikke norsk landbruk gjødsel i mer enn noen få uker,» påpeker Torjusen i avhandlingen `06_TECHNICAL_CORE_DECENTRALIZED_SOVEREIGNTY_KPOD_INFRANETT.md`. «Uten gjødsel kollapser avlingene med femti prosent på én vekstsesong. Vi har trodd at matsikkerhet handlet om kornlagre på Otta. Men matsikkerhet handler om elektronoverføring i jordsmonnet.»
 
 ### IV. Alkymi i fjøset
 
@@ -67,7 +67,7 @@ Det er her den lille metallkassen i Risør kommer inn.
 
 I stedet for gigantiske stålreaktorer og fossilt trykk, baserer **K-POD v1.2** seg på biomimetikk — naturens egen måte å løse problemet på. I røttene til kløver og erteplanter sitter enzymet nitrogenase, som fikserer nitrogen ved helt vanlig marktemperatur ved hjelp av en mikroskopisk metallklynge bestående av jern, molybden og svovel ($[\text{Fe}_7\text{MoS}_9\text{C}]$).
 
-Torjusen og hans beregningsmodeller (`06_RESEARCH/KATALYSE_FORSKNING/03_BEREGNINGSMODELLER/energetic_span_calculator.py`) har innkapslet denne klyngen i en syntetisk pincer-ligand. Ved å tilby et koordinert proton-relé i en avstand på nøyaktig $2.8\text{ ångstrøm}$, senkes den kjemiske aktiveringsbarrieren fra uoverkommelige $28.5$ til overkommelige **$11.2\text{ kilokalorier per mol}$**.
+Torjusen og hans beregningsmodeller (`energetic_span_calculator.py`) har innkapslet denne klyngen i en syntetisk pincer-ligand. Ved å tilby et koordinert proton-relé i en avstand på nøyaktig $2.8\text{ ångstrøm}$, senkes den kjemiske aktiveringsbarrieren fra uoverkommelige $28.5$ til overkommelige **$11.2\text{ kilokalorier per mol}$**.
 
 Men det virkelige kuppet — det som får øynene til elektroingeniører til å smalne — er måten han unngår vannspaltingens forbannelse på.
 
@@ -95,9 +95,9 @@ Når bonden kjører melketankbilen fra gården inn til meieriet, eller når vete
 
 ### VI. Regnestykket i Finansdepartementet
 
-For en utenforstående kan dette høres ut som en romantisk, nesten anakronistisk drøm om teknologisk isolasjonisme. Men blar man opp i samfunnsanalysen [`04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md`](04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md) (jf. `MASTER_SYNTESERAPPORT_KPOD_INFRANETT_RTDRA.md`), møter man et språk som er alt annet enn poetisk. Det er skrevet med den nådeløse, nøkterne realismen til embetsverket i Akersgata.
+For en utenforstående kan dette høres ut som en romantisk, nesten anakronistisk drøm om teknologisk isolasjonisme. Men blar man opp i samfunnsanalysen `04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md` (jf. `MASTER_SYNTESERAPPORT_KPOD_INFRANETT_RTDRA.md`), møter man et språk som er alt annet enn poetisk. Det er skrevet med den nådeløse, nøkterne realismen til embetsverket i Akersgata.
 
-Torjusen har kjørt hele systemet gjennom Direktoratet for forvaltning og økonomistyrings (DFØ) offisielle veileder for samfunnsøkonomiske analyser (`03_ENGINES/ENGINES/micro_engines/rtdra_socioeconomic_utility_engine.py`), komplett med en fire prosents kalkulasjonsrente over en femårig horisont:
+Torjusen har kjørt hele systemet gjennom Direktoratet for forvaltning og økonomistyrings (DFØ) offisielle veileder for samfunnsøkonomiske analyser (`rtdra_socioeconomic_utility_engine.py`), komplett med en fire prosents kalkulasjonsrente over en femårig horisont:
 
 * **Initial investering (CAPEX):** Fem milliarder kroner — nok til å rulle ut ti tusen K-POD-enheter og dekke hele Norges mineralgjødselbehov.
 * **Innvilget nytte:** Eliminering av 96 millioner liter diesel til tungtransport, innsparing av 500 000 timer i logistikkstans, og fjerning av 257 280 tonn $\text{CO}_2$-utslipp årlig, verdsatt etter statens offisielle opptrappingsbane for klimakostnader ($2\,000 \to 3\,500\text{ kroner per tonn}$).
@@ -158,7 +158,7 @@ He points toward the enclosure on the table. "In there, there is no cloud. No se
 
 ### II. The Pathology of Friction
 
-The theoretical edifice Torjusen has assembled — deposited in CERN's open research repository Zenodo ([`10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983)) and synthesized in [`00_THE_CAUSAL_INFRASTRUCTURE_MASTER_WHITEPAPER_2026_2031.md`](00_THE_CAUSAL_INFRASTRUCTURE_MASTER_WHITEPAPER_2026_2031.md) and [`04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md`](04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md) — begins not in chemistry, but in epistemology.
+The theoretical edifice Torjusen has assembled — deposited in CERN's open research repository Zenodo ([`10.5281/zenodo.24032522`](https://doi.org/10.5281/zenodo.24032522)) and synthesized in `00_THE_CAUSAL_INFRASTRUCTURE_MASTER_WHITEPAPER_2026_2031.md` and `04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md` — begins not in chemistry, but in epistemology.
 
 His diagnosis of the modern era is distilled into a theorem he calls *The Law of Causal Inertia*:
 
@@ -182,7 +182,7 @@ Every human being alive on Earth today carries atoms in their body that have pas
 
 This requires vast quantities of fossil methane gas. The process alone consumes between one and two percent of the entire planet's energy supply and accounts for massive greenhouse-gas emissions. Even more precariously for a country like Norway, it has created an extreme, centralized vulnerability. Norwegian farmers are at the mercy of a hyper-complex machinery of foreign commodity exchanges, gas pipelines, sprawling chemical plants, and an endless convoy of diesel-powered heavy trucks hauling sacks of ammonium nitrate over narrow county roads.
 
-"If a pipeline in the North Sea is severed, or if hostile actors paralyze logistics in the Baltic, Norwegian agriculture has fertilizer for no more than a few weeks," Torjusen notes in [`06_TECHNICAL_CORE_DECENTRALIZED_SOVEREIGNTY_KPOD_INFRANETT.md`](06_TECHNICAL_CORE_DECENTRALIZED_SOVEREIGNTY_KPOD_INFRANETT.md). "Without fertilizer, crop yields collapse by fifty percent in a single growing season. We thought food security was about grain silos at Otta. In reality, food security is about electron transfer in the soil."
+"If a pipeline in the North Sea is severed, or if hostile actors paralyze logistics in the Baltic, Norwegian agriculture has fertilizer for no more than a few weeks," Torjusen notes in `06_TECHNICAL_CORE_DECENTRALIZED_SOVEREIGNTY_KPOD_INFRANETT.md`. "Without fertilizer, crop yields collapse by fifty percent in a single growing season. We thought food security was about grain silos at Otta. In reality, food security is about electron transfer in the soil."
 
 ### IV. Alchemy in the Barn
 
@@ -190,7 +190,7 @@ This is where the small metal enclosure in Risør enters the picture.
 
 Instead of giant steel reactors and fossil pressure, **K-POD v1.2** relies on biomimicry — nature's own way of solving the problem. In the roots of clover and pea plants sits the enzyme nitrogenase, which fixes nitrogen at ordinary soil temperature using a microscopic metal cluster of iron, molybdenum, and sulfur ($[\text{Fe}_7\text{MoS}_9\text{C}]$).
 
-Torjusen and his computational models (`06_RESEARCH/KATALYSE_FORSKNING/03_BEREGNINGSMODELLER/energetic_span_calculator.py`) have encapsulated this cluster within a synthetic pincer ligand. By providing a coordinated proton relay at a distance of exactly $2.8\text{ ångströms}$, the modelled chemical activation barrier is lowered from a prohibitive $28.5$ to a manageable **$11.2\text{ kilocalories per mole}$**.
+Torjusen and his computational models (`energetic_span_calculator.py`) have encapsulated this cluster within a synthetic pincer ligand. By providing a coordinated proton relay at a distance of exactly $2.8\text{ ångströms}$, the modelled chemical activation barrier is lowered from a prohibitive $28.5$ to a manageable **$11.2\text{ kilocalories per mole}$**.
 
 Yet the real coup — the detail that makes electrical engineers narrow their eyes — is how he avoids the curse of water splitting.
 
@@ -218,9 +218,9 @@ When the farmer drives the milk tanker from the farm to the dairy, or when the v
 
 ### VI. The Arithmetic at the Ministry of Finance
 
-To an outsider, this might sound like a romantic, almost anachronistic dream of technological isolationism. Yet opening the socioeconomic analysis [`04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md`](04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md) (cf. `MASTER_SYNTESERAPPORT_KPOD_INFRANETT_RTDRA.md`) reveals a language that is anything but poetic. It is written with the unforgiving, sober realism of the civil servants in Oslo's Ministry of Finance.
+To an outsider, this might sound like a romantic, almost anachronistic dream of technological isolationism. Yet opening the socioeconomic analysis `04_RTDRA_SOCIOECONOMIC_ENERGY_ROUTING.md` (cf. `MASTER_SYNTESERAPPORT_KPOD_INFRANETT_RTDRA.md`) reveals a language that is anything but poetic. It is written with the unforgiving, sober realism of the civil servants in Oslo's Ministry of Finance.
 
-Torjusen has run the entire system through the Norwegian Agency for Public and Financial Management's (DFØ) official framework for socioeconomic analysis (`03_ENGINES/ENGINES/micro_engines/rtdra_socioeconomic_utility_engine.py`), complete with a four-percent social discount rate over a five-year horizon:
+Torjusen has run the entire system through the Norwegian Agency for Public and Financial Management's (DFØ) official framework for socioeconomic analysis (`rtdra_socioeconomic_utility_engine.py`), complete with a four-percent social discount rate over a five-year horizon:
 
 * **Initial Investment (CAPEX):** Five billion NOK — sufficient to deploy ten thousand K-POD units and cover Norway's mineral fertilizer demand.
 * **Quantified Utility:** Elimination of 96 million liters of heavy-transport diesel, savings of 500,000 hours of logistics downtime, and removal of 257,280 metric tons of $\text{CO}_2$ emissions annually, valued along the state's official carbon-price trajectory ($2,000 \to 3,500\text{ NOK per ton}$).
@@ -356,10 +356,10 @@ In response to the public verification questions by **Louis Morissette** (*COS45
 3. **Source Files, First Commit Provenance, and References:**
    - **External Reference:** Louis Morissette, *COS45 Hidden-Order Benchmark: Hankel–Grassmann Blind-Zone Saturation, Actionable Transfer, and Finite-Sample Audit (v1.7.0)*, Zenodo (2026), `DOI: 10.5281/zenodo.23440691`.
    - **Repository Source Files & First Commits:**
-     - [`MORISSETTE_TORJUSEN_COS45_FRONTIER_AND_PROTOCOL.md`](MORISSETTE_TORJUSEN_COS45_FRONTIER_AND_PROTOCOL.md), [`METRISK_INVARIANS_SPEKTRAL_KONVERGENS_OG_HORISONTENS_LOV.md`](METRISK_INVARIANS_SPEKTRAL_KONVERGENS_OG_HORISONTENS_LOV.md), and [`tools/verify_cos45_kms_spectral_series.py`](tools/verify_cos45_kms_spectral_series.py) — first committed on `epistemic-architectures` in commit `40a461a15f53ca51b0781e1097c624e5bbe60c60` (18 Oct 2026) and on `epistemic-architectures-notes` in commit `0a3203258c41b71f23bf98a8c3e5bbd0e06a6333`.
+     - `MORISSETTE_TORJUSEN_COS45_FRONTIER_AND_PROTOCOL.md`, [`METRISK_INVARIANS_SPEKTRAL_KONVERGENS_OG_HORISONTENS_LOV.md`](METRISK_INVARIANS_SPEKTRAL_KONVERGENS_OG_HORISONTENS_LOV.md), and `verify_cos45_kms_spectral_series.py` — first committed on `epistemic-architectures` in commit `40a461a15f53ca51b0781e1097c624e5bbe60c60` (18 Oct 2026) and on `epistemic-architectures-notes` in commit `0a3203258c41b71f23bf98a8c3e5bbd0e06a6333`.
      - [`LAW_OF_CAUSAL_INERTIA.md`](LAW_OF_CAUSAL_INERTIA.md) (Section XIV.3, Law V table) — first committed on `epistemic-architectures-notes` in commit `0c0f8d2e1df9d675d95016d892419d97a727c995` and harmonized on `epistemic-architectures` in commit `2f9d81f18a8f4b273d9e7916a1968eb7274d6b6f`.
 
 4. **Distinction Between Independent Developments and Joint Exchange Contributions:**
    - **Louis Morissette (Independent — `COS45`):** Hankel–Grassmann projector pipeline $P_t \in \mathrm{Gr}(a,r)$, scale invariance $P(tx)=P(x)$, rank bound $\mathrm{rank}(D\Phi_s)$, adversarial `hidden_order` Markov process, exact accessibility frontier $a = L + 2$, numerical discovery of $\chi_{a-2,2}(a) \sim C/a$ ($C \approx 2.8635$), closed-form $\Delta\Sigma$, exact KMS $\mathrm{Tr}(R^{-2})$ identity and its $\rho \to 0$ vs. $\rho \to 1^-$ limits, and audit corrections to the secular normalization and phase-derivative bounds.
    - **Marius Torjusen (Independent — `CVTK` / `Law of Causal Inertia`):** Fail-closed consequence gate architecture ($\mathcal{W} \circ \Omega \circ \Pi_{\mathcal{K}} \circ \Phi$), Belnap–Dunn / `OPEN-HOLD-KILL` subsumption, K-POD v1.2 / Infranett v0.5 / Door 30–31 specifications, and the multi-gate supervisory wrapper (`ABSTAIN / HOLD` on spectral gap collapse, radial scale complement $\Delta_{\mathrm{scale}}$, and `PROVISIONAL_HOLD` over recurrence horizon $H$).
-   - **Joint Exchange (Morissette & Torjusen):** Analytical closed-form resolution of Open Question 1 ($S_1 = \frac{1}{16}+\frac{\pi^2}{48}$, $S_2 = \frac{1}{16}+\frac{\pi^2}{12}$, $C = \frac{2\sqrt{18+15\pi^2}}{9}$, $C_{\mathrm{Frob}} = \sqrt{2}C$), uniform Tannery majorant proof with audited secular bounds, formulation of the $\Theta(a^{-4})$ blind-floor conjecture, and the pre-registered equal-mean / equal-variance temporal stability benchmark (`test_07` in [`tools/verify_cos45_kms_spectral_series.py`](tools/verify_cos45_kms_spectral_series.py)).
+   - **Joint Exchange (Morissette & Torjusen):** Analytical closed-form resolution of Open Question 1 ($S_1 = \frac{1}{16}+\frac{\pi^2}{48}$, $S_2 = \frac{1}{16}+\frac{\pi^2}{12}$, $C = \frac{2\sqrt{18+15\pi^2}}{9}$, $C_{\mathrm{Frob}} = \sqrt{2}C$), uniform Tannery majorant proof with audited secular bounds, formulation of the $\Theta(a^{-4})$ blind-floor conjecture, and the pre-registered equal-mean / equal-variance temporal stability benchmark (`test_07` in `verify_cos45_kms_spectral_series.py`).

@@ -10,8 +10,8 @@ I dokumentet [32_DE_11_FYSIKKLIGNINGENE_FRA_BBGKY_KAOS_TIL_KUTTFLATE_I_P.md](./3
 
 Denne arkitekturen er nå implementert direkte i **Reality Forge** som en ny Godot-kjerne:
 
-- **Implementasjon:** [`04_REALITY_FORGE/RealityForge_Godot/scripts/p_excavation_physics_engine.gd`](../../04_REALITY_FORGE/RealityForge_Godot/scripts/p_excavation_physics_engine.gd) (`class_name PExcavationPhysicsEngine`)
-- **Headless Test-suite:** [`04_REALITY_FORGE/RealityForge_Godot/tests/test_p_excavation_physics_engine.gd`](../../04_REALITY_FORGE/RealityForge_Godot/tests/test_p_excavation_physics_engine.gd)
+- **Implementasjon:** `p_excavation_physics_engine.gd` (`class_name PExcavationPhysicsEngine`)
+- **Headless Test-suite:** `test_p_excavation_physics_engine.gd`
 
 ---
 
@@ -44,7 +44,7 @@ Denne arkitekturen er nå implementert direkte i **Reality Forge** som en ny God
 ## 3. Verifikasjon (Godot 4.3 Headless)
 
 ```bash
-/home/sololyset/.local/bin/godot --headless --path /home/sololyset/04_REALITY_FORGE/RealityForge_Godot -s tests/test_p_excavation_physics_engine.gd
+godot --headless -s tests/test_p_excavation_physics_engine.gd
 ```
 
 Resultat: **`7/7` tester bestått** (inkludert verifikasjon av Reality Forge-invariantene: `HOLD` går aldri over til `OPEN` av at tid går, `OPEN` krever ikke-tomt `evidence_id`, `KILL` kutter til `0.00V`, og `reset_to_hold()` er strengt append-only).

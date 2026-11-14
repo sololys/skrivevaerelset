@@ -9,9 +9,9 @@
 **ORCID:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
 **Dato:** 27. september 2026  
 **Demarkasjon:** `INSPIRED_BY != IMPLEMENTS != PROVES`  
-**Referanseimplementasjon:** [`03_ENGINES/ENGINES/micro_engines/advanced_realization_dynamics_engine.py`](03_ENGINES/ENGINES/micro_engines/advanced_realization_dynamics_engine.py)  
-**Enhetstester:** [`03_ENGINES/tests/test_advanced_realization_dynamics_engine.py`](03_ENGINES/tests/test_advanced_realization_dynamics_engine.py) (10/10 OK)  
-**Avhandling (IEEEtran PDF):** [`06_RESEARCH/PAPERS/ADVANCED_REALIZATION_DYNAMICS_GHOST_WIN_LEIDENFROST_MINKOWSKI.pdf`](06_RESEARCH/PAPERS/ADVANCED_REALIZATION_DYNAMICS_GHOST_WIN_LEIDENFROST_MINKOWSKI.pdf)
+**Referanseimplementasjon:** `advanced_realization_dynamics_engine.py`  
+**Enhetstester:** `test_advanced_realization_dynamics_engine.py` (10/10 OK)  
+**Avhandling (IEEEtran PDF):** `ADVANCED_REALIZATION_DYNAMICS_GHOST_WIN_LEIDENFROST_MINKOWSKI.pdf`
 
 ---
 

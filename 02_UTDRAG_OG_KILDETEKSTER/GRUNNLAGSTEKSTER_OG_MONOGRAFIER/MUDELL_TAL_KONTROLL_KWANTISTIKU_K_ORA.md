@@ -15,7 +15,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
                             Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
   PLANSJER                : Plansje 02 (02_innrammet_rod_kobolt_p_np.jpg)
                             Plansje 16 (16_morandi_kpod_catalysis.jpg)
-  TEKNISK FORANKRING      : 06_RESEARCH/PAPERS/OPTIMAL_ROBUST_ADAPTIVE_QUANTUM_CONTROL_K_ORA_MT.tex
+  TEKNISK FORANKRING      : OPTIMAL_ROBUST_ADAPTIVE_QUANTUM_CONTROL_K_ORA_MT.tex
   EPISTEMISK SKRANKE      : L2 STRUKTURELL GRAMMATIKK (D0 -> D1) · L1 SIMULERT EKF/ARE
   KARDINALPRINSIPPER      : GENERERER != AUTORISERER != REALISERER != BEVISER
                             F_G > 0.9999 ==> VIABILITY (5.00V)

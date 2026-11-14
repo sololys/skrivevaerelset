@@ -23,7 +23,7 @@ En bane eksisterer alltid før punktet. I ethvert system som skal omforme tanke 
 I syntesen mellom banen (`BAR`) og den ikke-løgnaktige kjernen (`NLK`) lukkes dette gapet gjennom en streng to-takts arkitektur: et vekselspill av trekk og fraspark styrt av loven $x_{n+1} = \Omega(\Pi_K(\Phi(x_n)))$.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_banen_viabilitet_poincare_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec117_banen_viabilitet_poincare_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 3.1 (SPEC-117 / PCD): Banens kausale bæreevne. (1) Tangentprojeksjon og Nagumo-asymmetri $\dot{w}(t) \in T_K(w(t))$ innenfor viabilitetskjernen $\mathrm{Viab}_F(K)$; (2) Spektral Poincaré-stabilitet $\rho(DP_A) < 1$ over snittflaten $\Sigma_A$ med Landauer-dissipasjon $\Delta Q \ge N k_B T \ln 2$; og (3) Asymmetrisk tidsdomene-bifurkasjon mellom konstruktiv åpning ($\odot \prec 1$, $5\text{ ms}$ \texttt{fsync} før $5{,}00\text{ V DC}$) og destruktivt nødkutt ($1 \prec \odot$, $<15\text{ ns}$ Crowbar til $0{,}00\text{ V DC}$ og obduksjonslogg).}}
 \end{center}
 
@@ -246,6 +246,6 @@ Den skal ikke forveksles med en bevist likhet mellom kompleksitetsklassene:
 
 $$\mathrm{P}_{\mathrm{op}} \leftrightarrow \mathrm{NP}_{\mathrm{op}} \quad \text{i } \mathcal{H}_{\mathrm{Smith}} \qquad \nRightarrow \qquad \mathrm{P} = \mathrm{NP} \qquad (\texttt{INSPIRED\_BY != IMPLEMENTS != PROVES})$$
 
-I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$), den involutive rundturstesten $\mathcal{R}_T$ og den eksakt rasjonale (`fractions.Fraction`, `0 float`) Nagumo- og Poincaré-porten `evaluate_hyperbolic_smith_nagumo_gate` ($\langle \nabla h(x), f(x, u) \rangle + \alpha(h(x)) \ge 0$, $d_{\mathbb{E}} = (1 - \lvert z\rvert^2)d_{\mathbb{H}}$, $\det(I - \gamma J) = 1$) verifisert i [`hyperbolic_smith_constitutional_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/hyperbolic_smith_constitutional_gate_engine.py) (`13/13 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
+I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$), den involutive rundturstesten $\mathcal{R}_T$ og den eksakt rasjonale (`fractions.Fraction`, `0 float`) Nagumo- og Poincaré-porten `evaluate_hyperbolic_smith_nagumo_gate` ($\langle \nabla h(x), f(x, u) \rangle + \alpha(h(x)) \ge 0$, $d_{\mathbb{E}} = (1 - \lvert z\rvert^2)d_{\mathbb{H}}$, $\det(I - \gamma J) = 1$) verifisert i `hyperbolic_smith_constitutional_gate_engine.py` (`13/13 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
 
 En tanke som bare lever i mulighetsrommet, driver med vinden. Et punkt som bare står stille i materien, stivner til stein. Først når systemet behersker rytmen mellom dem – å strekke banen ut i det ukjente, kappe alt som ikke bærer sin egen vekt på fire nanosekunder, og forankre det som overlever med $898\,900\text{ Newton}$ i fjellet – oppstår sann bevegelse. Det som besto prøven i dag, blir det faste punktet neste bane skyter ut fra i morgen.

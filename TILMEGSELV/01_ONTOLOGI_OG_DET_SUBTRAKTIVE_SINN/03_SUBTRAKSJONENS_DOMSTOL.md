@@ -6,7 +6,7 @@
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-GRUNNLAG-GENERERINGENS-FEILSLUTNING-KPOD-2026-v1.0
   KATEGORI                : GRUNNLAGSTEKST & MANIFEST (LITISK KJEMI & METAFYSIKK)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
   TILHØRIGHET             : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
   PLANSJER                : Plansje 16 (16_morandi_kpod_catalysis.jpg)
@@ -16,7 +16,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
                             Candidate ≠ Consequence
                             "K-POD utraderer alt det overflødige for å tvinge frem den rene nødvendigheten."
   TEKNISK FORANKRING      : Dokument 100 (K-POD v1.2 Manifest) · Dokument 57 (Minuskatalyse)
-  MASKINVARE RTL          : 01_HARDWARE_RTL/kpod_5lock_cdc_watchdog.sv
+  MASKINVARE RTL          : kpod_5lock_cdc_watchdog.sv
   EPISTEMISK SKRANKE      : L2 LITIKK & HETEROGEN MODELL · L1 FORMALISERT I SILISIUM
 ========================================================================================
 ```

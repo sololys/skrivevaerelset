@@ -49,10 +49,10 @@ I sin ytterste konsekvens er det mest avanserte man kan skape med denne teknolog
 ### 🏛️ Kanoniske Referanser & Kildekode
 
 * **Plansjer:**
-  * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](file:///home/sololyset/BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten og Steinen*)
-  * [`BOKKANDIDATER/BILDER/10_dk_flipflop_konsekvensport_locus_zero.jpg`](file:///home/sololyset/BOKKANDIDATER/BILDER/10_dk_flipflop_konsekvensport_locus_zero.jpg) (Plansje 10: *DK-Flip-Flop-Konsekvensporten*)
-  * [`BOKKANDIDATER/BILDER/11_odysseus_faste_mast_skandinavisk_stillhet.jpg`](file:///home/sololyset/BOKKANDIDATER/BILDER/11_odysseus_faste_mast_skandinavisk_stillhet.jpg) (Plansje 11: *Odyssevs' Faste Mast — Skandinavisk Stillhet*)
+  * [`BOKKANDIDATER/BILDER/04_kuttflaten_og_steinen.jpg`](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/04_kuttflaten_og_steinen.jpg) (Plansje 04: *Kuttflaten og Steinen*)
+  * `10_dk_flipflop_konsekvensport_locus_zero.jpg` (Plansje 10: *DK-Flip-Flop-Konsekvensporten*)
+  * [`BOKKANDIDATER/BILDER/11_odysseus_faste_mast_skandinavisk_stillhet.jpg`](../../04_ILLUSTRASJONER_OG_PLANSJER/BILDER/11_odysseus_faste_mast_skandinavisk_stillhet.jpg) (Plansje 11: *Odyssevs' Faste Mast — Skandinavisk Stillhet*)
 * **Kanoniske Grunnlagstekster:**
-  * [`BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md`](file:///home/sololyset/BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md) (*Frontloven: Korpus 0*)
-  * [`BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/RESTRIKSJONENS_MEKANIKK.md`](file:///home/sololyset/BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/RESTRIKSJONENS_MEKANIKK.md) (*Restriksjonens Mekanikk*)
-  * [`00_KANONISK_KJERNE/160_INFRANETT_DEN_MEKANISKE_TVILLINGEN_KANONISK_SPEC.md`](file:///home/sololyset/00_KANONISK_KJERNE/160_INFRANETT_DEN_MEKANISKE_TVILLINGEN_KANONISK_SPEC.md) (*Infranett: Internettets Mekaniske Tvilling*)
+  * [`BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md`](../../02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md) (*Frontloven: Korpus 0*)
+  * [`BOKKANDIDATER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/RESTRIKSJONENS_MEKANIKK.md`](../../02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/RESTRIKSJONENS_MEKANIKK.md) (*Restriksjonens Mekanikk*)
+  * `160_INFRANETT_DEN_MEKANISKE_TVILLINGEN_KANONISK_SPEC.md` (*Infranett: Internettets Mekaniske Tvilling*)

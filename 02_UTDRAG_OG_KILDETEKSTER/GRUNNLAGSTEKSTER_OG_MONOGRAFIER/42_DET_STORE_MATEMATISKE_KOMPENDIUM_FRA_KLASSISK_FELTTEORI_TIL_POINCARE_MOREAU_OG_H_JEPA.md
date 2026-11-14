@@ -122,7 +122,7 @@ Historien $\mathcal{H}$ bevitner nåtiden $\mathcal{Y}$, men utøver **null dyna
 
 ## DEL V: HAMILTONIAN JEPA (H-JEPA) — PORT-HAMILTONSK VERDENSMODELL MED ARVET KONTROLLTILSTAND
 
-*(Kilde: Zoabi, Ali & Wolf, Tel Aviv University, `arXiv:2609.33497v1`, 2026 — integrert i Reality Forge `L1` som [`HamiltonianJepaWorldModelEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/hamiltonian_jepa_world_model_engine.gd))*
+*(Kilde: Zoabi, Ali & Wolf, Tel Aviv University, `arXiv:2609.33497v1`, 2026 — integrert i Reality Forge `L1` som `HamiltonianJepaWorldModelEngine`)*
 
 ### 5.1 Sfærisk Persepsjon ($\text{LN}_0$) og Eksakt Kovarians-Arv
 1. **Affin-fri sfærisk normalisering i $\mathbb{R}^D$ ($D=192$):**
@@ -163,17 +163,17 @@ med eksakt port-forsterkningsfaktor $w_\parallel = 1 + \frac{r}{d_a \Delta t^2}$
 
 ## DEL VI: OVERSIKT OVER ALLE VERIFISERTE GODOT 4.3 `L1`-MOTORER I DETTE KOMPENDIET (`54/54 PASS`)
 
-Alle motorene ligger i [`04_REALITY_FORGE/RealityForge_Godot/scripts/`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/) med tilhørende headless-tester i [`04_REALITY_FORGE/RealityForge_Godot/tests/`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/tests/), verifisert med Godot Engine `v4.3.stable.official.77dcf97d8`:
+Alle motorene ligger i `RealityForge_Godot/scripts/` med tilhørende headless-tester i `tests/`, verifisert med Godot Engine `v4.3.stable.official.77dcf97d8`:
 
 | # | Godot 4.3 `L1`-Motor | Tilhørende Dokument | Headless-Verifikasjon |
 | :--- | :--- | :--- | :--- |
-| **1** | [`PExcavationPhysicsEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/p_excavation_physics_engine.gd) | Dok 32 & 33 (De 11/12 Fysikkligningene i $P$) | `7 / 7 PASS` |
-| **2** | [`EinsteinBindXAdmissibilityEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/einstein_bind_x_admissibility_engine.gd) | Dok 34 (Bind X: Einstein, Gödel & PCSE) | `6 / 6 PASS` |
-| **3** | [`MaxwellBindXivAdmissibilityEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/maxwell_bind_xiv_admissibility_engine.gd) | Dok 35 (Bind XIV: Maxwell & Demonens Pris) | `6 / 6 PASS` |
-| **4** | [`ReversibilityBindXiAdmissibilityEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/reversibility_bind_xi_admissibility_engine.gd) | Dok 36 (Bind XI: Reversibilitet² & Involusjon) | `6 / 6 PASS` |
-| **5** | [`PoincareBindXiiAdmissibilityEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/poincare_bind_xii_admissibility_engine.gd) | Dok 37 (Bind XII: Poincaré & Dør 19) | `6 / 6 PASS` |
-| **6** | [`GodelBindXiiiAdmissibilityEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/godel_bind_xiii_admissibility_engine.gd) | Dok 38 (Bind XIII: Gödel & Det Ytre Vitnet) | `6 / 6 PASS` |
-| **7** | [`SomaticKlagemurenKatabasisEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/somatic_klagemuren_katabasis_engine.gd) | Dok 39 (De 7 Strukturelle Trekk & 4 Ankre) | `6 / 6 PASS` |
-| **8** | [`TheoreticalL2VsEmpiricalL3CourtEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/theoretical_l2_vs_empirical_l3_court_engine.gd) | Dok 40 (De 5 Bidragene `L2` vs. `L3` `HOLD`) | `5 / 5 PASS` |
-| **9** | [`HamiltonianJepaWorldModelEngine`](file:///home/sololyset/04_REALITY_FORGE/RealityForge_Godot/scripts/hamiltonian_jepa_world_model_engine.gd) | Dok 41 (Hamiltonian JEPA & PIC-Identiteten) | `6 / 6 PASS` |
+| **1** | `PExcavationPhysicsEngine` | Dok 32 & 33 (De 11/12 Fysikkligningene i $P$) | `7 / 7 PASS` |
+| **2** | `EinsteinBindXAdmissibilityEngine` | Dok 34 (Bind X: Einstein, Gödel & PCSE) | `6 / 6 PASS` |
+| **3** | `MaxwellBindXivAdmissibilityEngine` | Dok 35 (Bind XIV: Maxwell & Demonens Pris) | `6 / 6 PASS` |
+| **4** | `ReversibilityBindXiAdmissibilityEngine` | Dok 36 (Bind XI: Reversibilitet² & Involusjon) | `6 / 6 PASS` |
+| **5** | `PoincareBindXiiAdmissibilityEngine` | Dok 37 (Bind XII: Poincaré & Dør 19) | `6 / 6 PASS` |
+| **6** | `GodelBindXiiiAdmissibilityEngine` | Dok 38 (Bind XIII: Gödel & Det Ytre Vitnet) | `6 / 6 PASS` |
+| **7** | `SomaticKlagemurenKatabasisEngine` | Dok 39 (De 7 Strukturelle Trekk & 4 Ankre) | `6 / 6 PASS` |
+| **8** | `TheoreticalL2VsEmpiricalL3CourtEngine` | Dok 40 (De 5 Bidragene `L2` vs. `L3` `HOLD`) | `5 / 5 PASS` |
+| **9** | `HamiltonianJepaWorldModelEngine` | Dok 41 (Hamiltonian JEPA & PIC-Identiteten) | `6 / 6 PASS` |
 | **Sum** | **9 Komplette `L1` Fysikk- og Kontrollmotorer** | **Dok 32–42 (Komplett Kompendium)** | **`54 / 54 PASS` (`100 %`)** |

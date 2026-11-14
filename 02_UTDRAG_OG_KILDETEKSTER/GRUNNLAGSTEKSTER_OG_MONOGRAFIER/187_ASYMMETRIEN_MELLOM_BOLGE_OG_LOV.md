@@ -71,5 +71,5 @@ $$\left(\frac{m_0}{c}\frac{\partial}{\partial t} + \mathbf{m} \cdot \nabla\right
 ## 6. 1-Syklus Silisiumrealisering (`E-TOR`) og De Tre Kjerneaksiomene (NY I v2.0)
 
 * **Aksiom I (`HOLD`):** $\partial_t x = 0 \implies \Omega = \text{HOLD}$ ($0.00\text{ V DC}$, $\tau_{\text{dead}}$ dødtid $Q_{\text{high}}\cdot Q_{\text{low}} = 0$).
-* **Aksiom II ($\Pi_K$):** $\Pi_K^2 = \Pi_K$ (1-klokkesyklus SystemVerilog RTL i `01_HARDWARE_RTL/etor_pi_k_projection_gate.sv`).
+* **Aksiom II ($\Pi_K$):** $\Pi_K^2 = \Pi_K$ (1-klokkesyklus SystemVerilog RTL i `etor_pi_k_projection_gate.sv`).
 * **Aksiom III (`GRACE`):** Nullpunkts-tilgivelse (`reset()`) til $\Delta S_{\text{debt}} = 0$ med uforanderlig WORM SHA-256 proveniens.

@@ -92,7 +92,7 @@ KANONISK IDENTIFIKASJON:
         * **Illusjonen:** Drømmen om at alt henger sammen i ett felles nu, er et bedrag. Avstander krever ufravikelig tid, og ingenting i naturen lar seg synkronisere øyeblikkelig over avstand.
         * **Arkivet:** Nattehimmelen over oss er ikke et sanntidsbilde, men et låst og uforanderlig historisk arkiv. Vi observerer kun gamle kvitteringer på noe som for lengst er brent ut, distribuert i et tempo naturen selv har satt.
         * **Gjerdet:** Forsøk på å tvinge seg forbi de naturgitte grensene krever uendelig innsats og fører til en umiddelbar, fysisk avvisning. Universet stenger mekanisk ned alle snarveier.
-    * **Bruk:** Hovedverket (Bind II / Bind III), Infranett asynkron protokoll, Morandi-Core ontologi ([`74_FAIL_CLOSED_KART_MORANDI_CORE_SQUARED_META_ONTOLOGI.md`](00_KANONISK_KJERNE/74_FAIL_CLOSED_KART_MORANDI_CORE_SQUARED_META_ONTOLOGI.md)).
+    * **Bruk:** Hovedverket (Bind II / Bind III), Infranett asynkron protokoll, Morandi-Core ontologi (`74_FAIL_CLOSED_KART_MORANDI_CORE_SQUARED_META_ONTOLOGI.md`).
 
 23. **`23_banens_ensomhet_speilet_og_grunnfjellet.jpg`**
     * **Tittel:** Banens Ensomhet (Speilet og Grunnfjellet)
@@ -102,7 +102,7 @@ KANONISK IDENTIFIKASJON:
         * **Skråblikket:** Speilet på veggen kaster bare tilbake det som faktisk står foran det. Det finnes ingen usynlig lekkasje der man uforvarende trer inn i en annens konsekvenser. Alt er strengt lokalt.
         * **Sporløsheten:** Grunnfjellet nekter å samle opp andres grums for så å blande det i ditt beger. Du tvinges alltid til å bære din egen nakenhet, skarpt avgrenset fra naboens feiltrinn.
         * **Banens ensomhet:** Å fullføre en sirkel er en dypt personlig friksjon. Selve fundamentet avviser alle forsøk på å bære en annens byrde, eller å arve en annens innsikt. Man går ut alene, og man vender tilbake til seg selv.
-    * **Bruk:** Hovedverket (Bind I: Kuttflaten / Bind III: Realiseringsgrammatikk), Fasespeil-arkitektur ([`FASE_SPEIL_HOVEDARKITEKTUR_OG_VERIFIKASJONSREGISTER.md`](00_KANONISK_KJERNE/FASE_SPEIL_HOVEDARKITEKTUR_OG_VERIFIKASJONSREGISTER.md)), Poincaré-retur og faseromsinvarians ([`197_KY_POINCARE_CORRECTION_WITNESS_HISTORY_FIBER_SPEC.md`](00_KANONISK_KJERNE/197_KY_POINCARE_CORRECTION_WITNESS_HISTORY_FIBER_SPEC.md)).
+    * **Bruk:** Hovedverket (Bind I: Kuttflaten / Bind III: Realiseringsgrammatikk), Fasespeil-arkitektur (`FASE_SPEIL_HOVEDARKITEKTUR_OG_VERIFIKASJONSREGISTER.md`), Poincaré-retur og faseromsinvarians (`197_KY_POINCARE_CORRECTION_WITNESS_HISTORY_FIBER_SPEC.md`).
 
 24. **`24_marius_arbeid_med_realiseringsgrammatikken.jpg`**
     * **Tittel:** Marius i Arbeid med Realiseringsgrammatikken (Det Lokale Verkstedet)

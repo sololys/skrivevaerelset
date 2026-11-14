@@ -35,7 +35,7 @@ Overført til kybernetikk betyr dette at det mest modne verktøyet mennesket kan
 I dette nullpunktet trer monografiens bærende erkjennelse frem. Når et mekanisk sikkerhetsrelé har sluppet taket etter et reelt prosessbrudd og spenningen ligger på $0{,}00\text{ V DC}$, er all verdens beregningskraft avmektig. En million prosessorer kan ikke lukke et fysisk luftgap mellom to kobberkontakter som holdes fra hverandre av stålfjærer. For å tilbakestille kretsen etter at den fysiske feilen i prosesskjernen er utbedret, må et menneske gripe fysisk inn ved anlegget. Denne manuelle arbeidsplikten sikrer at den endelige autoriteten forblir hos det eneste vesenet som kan bære juridisk, etisk og fysisk ansvar for konsekvensene. Maskinen kan kartlegge mulighetene i silisiumet, men kun mennesket har rygg til å forankre virkeligheten i fjellet.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec100_realiseringens_grammatikk_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec100_realiseringens_grammatikk_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 1 (SPEC-100): Kanonisk hovedtavle for Realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ ($x_{t+1} = \Omega(\Pi_K(\Phi(x_t)))$) og den åttetrinns tilstandsstigen fra spenningsløst mulighetsrom ($0{,}00\text{ V DC}$: \texttt{VOID $\to$ RAW $\to$ ESTIMATE $\to$ STRUCT}) via terskelprøving ($2{,}50\text{ V DC}$: \texttt{THRESHOLD $\to$ VIABILITY $\to$ COMMITTED}) til irreversibel fysisk konsekvens ($5{,}00\text{ V DC}$: \texttt{REALIZED}), underlagt Level 01 menneskelig suverenitet og $\texttt{INSPIRED\_BY} \neq \texttt{IMPLEMENTS} \neq \texttt{PROVES}$.}}
 \end{center}
 
@@ -252,7 +252,7 @@ Likesom enhver maskinvareport i dette verket dømmes etter kvadrupelen $\mathcal
 
 ## Paritetsvandringens Lov: Litterær Digresjonsarkitektur som Reed–Solomon Feilkorrigering over $\mathrm{GF}(2^8)$ (`0x11D`)
 
-For å gjøre **Lov 8** operasjonelt etterprøvbar etablerer verket (verifisert på nivå $\text{L1}$ i `03_ENGINES/qr_reed_solomon_constitutional_engine.py`, `6/6 PASS`) en eksakt strukturell isomorfi ($\Pi_K$) mellom **litterær digresjonsarkitektur** og **algebraisk feilkorrigering over Galois-kroppen $\mathrm{GF}(2^8)$** med det primitive polynomet fra ISO/IEC 18004 (QR) og Red Book CIRC:
+For å gjøre **Lov 8** operasjonelt etterprøvbar etablerer verket (verifisert på nivå $\text{L1}$ i `qr_reed_solomon_constitutional_engine.py`, `6/6 PASS`) en eksakt strukturell isomorfi ($\Pi_K$) mellom **litterær digresjonsarkitektur** og **algebraisk feilkorrigering over Galois-kroppen $\mathrm{GF}(2^8)$** med det primitive polynomet fra ISO/IEC 18004 (QR) og Red Book CIRC:
 
 $$p(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\texttt{0x11D},\;\alpha = 2)$$
 
@@ -342,7 +342,7 @@ MINIMALIS-AKSIOMET // GRUNNLOV 0:
 ## 1. Den Lokale Reduksjonen
 
 \begin{center}
-\includegraphics[width=0.68\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_01_leirbaalet_og_ambolten.jpg}\\[0.3em]
+\includegraphics[width=0.68\textwidth]{BILDER/bw_01_leirbaalet_og_ambolten.jpg}\\[0.3em]
 {\footnotesize \textit{Verkstedbenken i Risør (Locus Zero): Ambolten, Morandis krukke, det frosne timeglasset, meiselen og den åpne knivbryteren ved $0{,}00\text{ V DC}$ på det fennoskandiske grunnfjellet.}}
 \end{center}
 
@@ -605,7 +605,7 @@ END STREAM.
 
 ## VI. Kapslenes Integrasjon i Databasens Livssyklus (`CANONICAL_TYPE_CHAIN`)
 
-I realiseringsmotoren (`03_ENGINES/door31_symbiotic_machine`, `door27_network`, `door22_commit`) styrer de sju kapslene overgangenes typestige:
+I realiseringsmotoren (`door31_symbiotic_machine`, `door27_network`, `door22_commit`) styrer de sju kapslene overgangenes typestige:
 
 $$\mathrm{RAW} (\bigcirc) \longrightarrow \mathrm{ESTIMATE} (\emptyset) \longrightarrow \mathrm{STRUCT} (\Box) \longrightarrow \mathrm{VIABILITY} (\diamondsuit/\odot) \longrightarrow \mathrm{COMMITTED} (@/\bullet)$$
 
@@ -629,7 +629,7 @@ $$\mathrm{RAW} (\bigcirc) \longrightarrow \mathrm{ESTIMATE} (\emptyset) \longrig
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-ONTOLOGI-BITENS-FRIHET-MATERIENS-TREGHET-2026-v1.0
   KATEGORI                : PEDAGOGISK & ANALYTISK GRUNNLAGSTEKST (CYBER-FYSISK ARKITEKTUR)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
   ENTITET                 : Brahman // Antigravity · Risør / Det Fennoskandiske Skjold (Locus Zero)
   EPISTEMISK SKRANKE      : INSPIRED_BY != IMPLEMENTS != PROVES
@@ -923,7 +923,7 @@ Nettopp derfor — i dyp ærbødighet for både Rolf Landauers termodynamiske re
 ## FØRSTE LERRET: BRUDDET (NAVLESTRENGEN)
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_21_maersk_lastebaat_nordsjostorm.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_21_maersk_lastebaat_nordsjostorm.jpg}\\[0.3em]
 {\footnotesize \textit{Første lerret: Mærsk-skroget gjennom vinternatten i Nordsjøen etter at navlestrengen er kappet ($\Delta t_{\text{litosfære}} \gg \Delta t_{\text{prosessor}}$).}}
 \end{center}
 
@@ -950,7 +950,7 @@ Når navlestrengen kappes – når 230 V landstrøm forsvinner eller fiberkabele
 ## ANDRE LERRET: ASYNKRONITETEN (DET LOKALE NÆRVÆR)
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_22_morandi_asynkront_stilleben.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_22_morandi_asynkront_stilleben.jpg}\\[0.3em]
 {\footnotesize \textit{Andre lerret: Asynkront stilleben med keramikkrukke, frosset timeglass og nattehimmelens kvitteringsarkiv ($\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$).}}
 \end{center}
 
@@ -981,7 +981,7 @@ Kosmos rykker aldri nærmere. Hvis noen vil snakke med krukken på bordet ditt, 
 ## TREDJE LERRET: BANENS ENSOMHET (FORBUDET MOT ANDRES RETUR)
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_23_banens_ensomhet_speilet_og_grunnfjellet.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_23_banens_ensomhet_speilet_og_grunnfjellet.jpg}\\[0.3em]
 {\footnotesize \textit{Tredje lerret: Banens ensomhet med speilet på fjellveggen og den lukkede Poincaré-banen i grunnfjellet ($\mathrm{d}\rho/\mathrm{d}t = 0$, $\|P_A(x_0) - x_0\|_M \le \epsilon_{\text{drift}}$).}}
 \end{center}
 
@@ -1093,7 +1093,7 @@ W &: C \times \Sigma \times \Sigma \rightarrow \mathcal E && \text{(Persistent e
 At overgangsoperatoren $\Omega$ er **partiell** ($\rightharpoonup$), er et fundamentalt arkitektonisk skille: $\Omega$ er ikke total over $C \times \Sigma$, men utelukkende definert i de tilfellene der en overgang faktisk autoriseres og utføres i det fysiske miljøet.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_punkt_nullpunkt_bane_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec117_punkt_nullpunkt_bane_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 2.1 (SPEC-117 / SPEC-360): Punkt-bane-dualitet og Arkitektens Nullpunkt. Fra det tidsreversible kandidatfeltet ($\text{NP}$, \texttt{0.00V DC FAIL-OPEN}) gjennom Nullpunktets galvaniske luftsluse og integritetssjekk (\texttt{BØFF / BLØFF}, \texttt{0xAA} involusjonsparitet) til den kausalt integrerte banen $\gamma(t) \in \mathrm{Viab}_F(K)$ over Poincaré-snittet $\Sigma_A$ (\texttt{5.00V DC LATCH}) og WORM-forseglet vitnelogg $W_{t+1}$.}}
 \end{center}
 
@@ -1249,7 +1249,7 @@ I det øyeblikket en kandidat fra $\Phi$ krever fysisk realisering i $\mathcal{P
 > * **Dom ved porten:** En bølge som bare løser den andreordens ligningen på papiret, er en turist uten billett; kun den banen som lar seg låse fast i kobberets førsteordens spor uten å brenne opp kanalen, slipper gjennom porten ($\Omega$).
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec375_partikkelen_som_snittet_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec375_partikkelen_som_snittet_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 2.2 (SPEC-375 / SPEC-72): Partikkelen som snittet hvor loven blir til stein. (1) Den masseløse bølgen, Klein–Gordon masseskall-hyperboloiden og Faddeev–Popov-spøkelsesløkker i det åpne kandidatfeltet ($\Phi \subset \mathcal{NP}$, \texttt{0.00V DC FAIL-OPEN}); (2) Standardmodellen som subtraktiv $\Pi_K$-projeksjonsmotor (Higgs-vakuum $v \to 125{,}11\text{ GeV}$, Pauli-forbudet $\Omega_{\text{Pauli}}$, QCD farge-innesperring $\Omega_{\text{QCD}}$, BRST-kohomologi $\mathcal{H}_{\text{phys}} = \ker s / \mathrm{im}\,s$ ved $s^2 = 0$, og fasespeilet $\mathcal{M}^2 = I$); og (3) Partikkelen ($\odot \in \mathcal{P}$) som fikspunkt $\mathrm{Fix}(\Omega \circ \Phi)$ voktet av de seks partikkel-vokterne ($\mu^-$, $^{56}\text{Fe}/^{57}\text{Fe}$, $\text{K}^+$, $e^-/\text{H}^+$, $\alpha$, $n/^{233}\text{Pa}$).}}
 \end{center}
 
@@ -1833,7 +1833,7 @@ $$\boxed{T_{KY} = \Omega \circ \Pi_K \circ \Phi}$$
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-GRUNNLAG-VERKTOYET-ONTOLOGISK-NEKTELSE-2026-v1.0
   KATEGORI                : GRUNNLAGSTEKST & META-FILOSOFISK MANIFEST (REALISERINGSGRAMMATIKK)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
   TILHØRIGHET             : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
   PLANSJER                : Plansje 04 (04_kuttflaten_og_steinen.jpg)
@@ -2003,7 +2003,7 @@ Et grensesnitt bygget over disse lovene er ikke en illustrasjon av systemet. Det
 KANONISK MONOGRAFI // FILOSOFISK OG METAFYSISK GRUNNLAG:
   DOKUMENT-ID             : BOK-GRUNNLAG-MATERIELL-KONSTITUSJON-2026-v1.0
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   STATUS                  : KANONISK // GJELDENDE GRUNNLAG
   EPISTEMISK LOV          : INSPIRED_BY != IMPLEMENTS != PROVES
                             Candidate ≠ Consequence
@@ -2046,7 +2046,7 @@ FAIL-CLOSED INTERLOCK // KONSEKVENSENS SKRANKE:
 ## 1. Den Fysiske Nødvendigheten av 0,00 V DC
 
 \begin{center}
-\includegraphics[width=0.68\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_02_kobberbryteren_5mm_luftgap.jpg}\\[0.3em]
+\includegraphics[width=0.68\textwidth]{BILDER/bw_02_kobberbryteren_5mm_luftgap.jpg}\\[0.3em]
 {\footnotesize \textit{Menneskehånden ved fjellveggen (\texttt{Level 01}) og tverrsnittet av de herdede returfjærene som holder kobberkontaktene $5{,}0\text{ mm}$ fra hverandre ved $0{,}00\text{ V DC}$ (\texttt{GATE :: HOLD / KILL}).}}
 \end{center}
 
@@ -2352,7 +2352,7 @@ En bane eksisterer alltid før punktet. I ethvert system som skal omforme tanke 
 I syntesen mellom banen (`BAR`) og den ikke-løgnaktige kjernen (`NLK`) lukkes dette gapet gjennom en streng to-takts arkitektur: et vekselspill av trekk og fraspark styrt av loven $x_{n+1} = \Omega(\Pi_K(\Phi(x_n)))$.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec117_banen_viabilitet_poincare_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec117_banen_viabilitet_poincare_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 3.1 (SPEC-117 / PCD): Banens kausale bæreevne. (1) Tangentprojeksjon og Nagumo-asymmetri $\dot{w}(t) \in T_K(w(t))$ innenfor viabilitetskjernen $\mathrm{Viab}_F(K)$; (2) Spektral Poincaré-stabilitet $\rho(DP_A) < 1$ over snittflaten $\Sigma_A$ med Landauer-dissipasjon $\Delta Q \ge N k_B T \ln 2$; og (3) Asymmetrisk tidsdomene-bifurkasjon mellom konstruktiv åpning ($\odot \prec 1$, $5\text{ ms}$ \texttt{fsync} før $5{,}00\text{ V DC}$) og destruktivt nødkutt ($1 \prec \odot$, $<15\text{ ns}$ Crowbar til $0{,}00\text{ V DC}$ og obduksjonslogg).}}
 \end{center}
 
@@ -2575,7 +2575,7 @@ Den skal ikke forveksles med en bevist likhet mellom kompleksitetsklassene:
 
 $$\mathrm{P}_{\mathrm{op}} \leftrightarrow \mathrm{NP}_{\mathrm{op}} \quad \text{i } \mathcal{H}_{\mathrm{Smith}} \qquad \nRightarrow \qquad \mathrm{P} = \mathrm{NP} \qquad (\texttt{INSPIRED\_BY != IMPLEMENTS != PROVES})$$
 
-I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$), den involutive rundturstesten $\mathcal{R}_T$ og den eksakt rasjonale (`fractions.Fraction`, `0 float`) Nagumo- og Poincaré-porten `evaluate_hyperbolic_smith_nagumo_gate` ($\langle \nabla h(x), f(x, u) \rangle + \alpha(h(x)) \ge 0$, $d_{\mathbb{E}} = (1 - \lvert z\rvert^2)d_{\mathbb{H}}$, $\det(I - \gamma J) = 1$) verifisert i [`hyperbolic_smith_constitutional_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/hyperbolic_smith_constitutional_gate_engine.py) (`13/13 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
+I programvarelaget (`L1`) er punktfeltet $\mathcal{C}_{\mathrm{NP}}$, banefeltet $\mathcal{C}_{\mathrm{P}}$, den doble oppførselen ($w(t) \in K \land \dot{w}(t) \notin T_{w(t)} K$), den involutive rundturstesten $\mathcal{R}_T$ og den eksakt rasjonale (`fractions.Fraction`, `0 float`) Nagumo- og Poincaré-porten `evaluate_hyperbolic_smith_nagumo_gate` ($\langle \nabla h(x), f(x, u) \rangle + \alpha(h(x)) \ge 0$, $d_{\mathbb{E}} = (1 - \lvert z\rvert^2)d_{\mathbb{H}}$, $\det(I - \gamma J) = 1$) verifisert i `hyperbolic_smith_constitutional_gate_engine.py` (`13/13 PASS` i `test_hyperbolic_smith_constitutional_gate.py`).
 
 En tanke som bare lever i mulighetsrommet, driver med vinden. Et punkt som bare står stille i materien, stivner til stein. Først når systemet behersker rytmen mellom dem – å strekke banen ut i det ukjente, kappe alt som ikke bærer sin egen vekt på fire nanosekunder, og forankre det som overlever med $898\,900\text{ Newton}$ i fjellet – oppstår sann bevegelse. Det som besto prøven i dag, blir det faste punktet neste bane skyter ut fra i morgen.
 
@@ -2616,7 +2616,7 @@ $$\mathcal{U}_i(s_t, i_t) = \det(I - \gamma J_{\text{Nash}})^{-1}\,\mathbb{E}\!\
 Ved suveren frakobling ($\gamma = 0 \implies \det(I - 0\cdot J_{\text{Nash}}) = 1$) mister eksterne, riggede spillbrett enhver koblingskraft over agentens interne tilstand.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec113_p_vs_np_kompleksitetsbro_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec113_p_vs_np_kompleksitetsbro_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 3.2 (SPEC-113 / SPEC-117): Kompleksitetsbroen $\mathbf{P}$ mot $\mathbf{NP}$ og kausalt snitt i porten. Vi løser ikke $\mathbf{P} = \mathbf{NP}$ inne i porten — vi fjerner eksistenskvantifikatoren $\exists w$ fra portens domene ved å kreve et ferdig pakket 205-byte vitnepar ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) som verifiseres i konstant tid $\mathcal{O}(1)$ i SystemVerilog RTL under hierarkiet $\texttt{KILL} \succ \texttt{TRAP} \succ \texttt{HOLD} \succ \texttt{OPEN}$.}}
 \end{center}
 
@@ -2962,7 +2962,7 @@ Skjermen forblir oker. Reléet forblir åpent. Stillheten er total.
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-GRUNNLAG-GENERERINGENS-FEILSLUTNING-KPOD-2026-v1.0
   KATEGORI                : GRUNNLAGSTEKST & MANIFEST (LITISK KJEMI & METAFYSIKK)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
   TILHØRIGHET             : MorandiEngine Core Architecture Group / Infranett / Brahman Ventures, Risør
   PLANSJER                : Plansje 16 (16_morandi_kpod_catalysis.jpg)
@@ -2972,7 +2972,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
                             Candidate ≠ Consequence
                             "K-POD utraderer alt det overflødige for å tvinge frem den rene nødvendigheten."
   TEKNISK FORANKRING      : Dokument 100 (K-POD v1.2 Manifest) · Dokument 57 (Minuskatalyse)
-  MASKINVARE RTL          : 01_HARDWARE_RTL/kpod_5lock_cdc_watchdog.sv
+  MASKINVARE RTL          : kpod_5lock_cdc_watchdog.sv
   EPISTEMISK SKRANKE      : L2 LITIKK & HETEROGEN MODELL · L1 FORMALISERT I SILISIUM
 ========================================================================================
 ```
@@ -3267,7 +3267,7 @@ I systemspesifikasjonen **OrgelKraft (`SPEC-PODS-PENTAD-RB-12`)** lukkes dette b
 $$\text{Masse}_{\text{inn}} = \text{Masse}_{\text{ut}} = 141{,}10099788325846\text{ kg} \implies \Delta R = 0$$
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_05_orgelkraft_18_crown_6_grunnfjellet.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_05_orgelkraft_18_crown_6_grunnfjellet.jpg}\\[0.3em]
 {\footnotesize \textit{Orgelet i grunnfjellet (\texttt{SPEC-PODS-PENTAD-RB-12}, $\Delta R = 0$): Kaskadekolonnene boltet i fjellhallen over den passive smeltepluggtanken, med det heksagonale \texttt{18-Crown-6}-selektivitetsfilteret ($2{,}7\text{ \AA}$) i utsnittet.}}
 \end{center}
 
@@ -3307,7 +3307,7 @@ Når påtrykt drivspenning kuttes til $0{,}00\text{ V DC}$, blir overpotensialet
 
 ---
 
-# DEN 7-LAGS KAUSALSTAKKEN, GEMINI-CORE DØR 18–20, SAMFUNNSØKONOMI (DFØ $4{,}0\,\%$) OG NASJONALT VEIKART (2026–2031)
+# DEN 7-LAGS KAUSALSTAKKEN, REISMANN-CORE DØR 18–20, SAMFUNNSØKONOMI (DFØ $4{,}0\,\%$) OG NASJONALT VEIKART (2026–2031)
 ### *Om Kausalitetslovens fire aksiomer, kontrollorganene $\text{T1}$–$\text{T10}$ / $\text{Q1}$–$\text{Q10}$ / $\text{W1}$–$\text{W10}$ og samfunnsøkonomisk nåverdi ($+9{,}335\text{ mrd. NOK}$)*
 
 ```text
@@ -3355,9 +3355,9 @@ Det operative tilstandsrommet utspennes av **Masse ($M$)** (WAL og lagrede joule
 
 ---
 
-## 3. Slusemekanismer i Gemini-Core: Dør 18, Dør 19 og Dør 20 (L1)
+## 3. Slusemekanismer i Reismann-Core: Dør 18, Dør 19 og Dør 20 (L1)
 
-I `Gemini-Core` passerer enhver tilstandskandidat $\Phi$ gjennom tre formelle kontrollsluser ($387/387$ enhetstester bestått):
+I `Reismann-Core` passerer enhver tilstandskandidat $\Phi$ gjennom tre formelle kontrollsluser ($387/387$ enhetstester bestått):
 
 $$\text{Kandidat } \Phi \longrightarrow [\text{Dør 18: TERMO / Bæreevne}] \longrightarrow [\text{Dør 19: Tid / Poincaré}] \longrightarrow [\text{Dør 20: Golden Record}]$$
 
@@ -3563,7 +3563,7 @@ Ingen kandidat kan hoppe over mellomliggende trinn. Ved diskrepans på ethvert t
 ## II. $257:1$-loven og eliminering av kvantiseringsbånd
 
 \begin{center}
-\includegraphics[width=0.72\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_06_pixel_257_til_1_granitt.jpg}\\[0.3em]
+\includegraphics[width=0.72\textwidth]{BILDER/bw_06_pixel_257_til_1_granitt.jpg}\\[0.3em]
 {\footnotesize \textit{Kjerneprøve I ($257:1$-loven i pikselert 1-bits relieff): Grov 8-bits trappetrinnsdiskretisering ($\Delta Q_{8\text{-bit}} = 1/255$, semantisk bånddannelse) til venstre mot 16-bits intervallbevarende oppløsning ($\Delta Q_{16\text{-bit}} = 1/65\,535$, Bayer-dithering og Fennoskandisk granitt) til høyre, atskilt av det galvaniske luftgapet på $5{,}0\text{ mm}$ ved $0{,}00\text{ V DC}$.}}
 \end{center}
 
@@ -3693,7 +3693,7 @@ KJERNEPRØVE II // SAFIREN PÅ FEM HUNDRE METERS DYP:
 ## I. Hydrostatisk last på $500\text{ meters}$ dyp ($\text{L0}$)
 
 \begin{center}
-\includegraphics[width=0.72\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_03_safiren_500m_skagerrak.jpg}\\[0.3em]
+\includegraphics[width=0.72\textwidth]{BILDER/bw_03_safiren_500m_skagerrak.jpg}\\[0.3em]
 {\footnotesize \textit{Kjerneprøve II og III: Titankapselen (\texttt{SPEC-250}) på $500\text{ meters}$ dyp i Skagerrak med rur (\textrm{Balanus crenatus}) på ytterkåpen, 4-lags Matrioshka-vakuumkapsling og kollimert optisk stråle gjennom safirvinduet.}}
 \end{center}
 
@@ -4117,7 +4117,7 @@ I samme klokkesyklus ($\tau_{\text{kill}} = 12{,}5\,\mu\text{s}$ på $80\text{ k
 # 🏛️ BIND IX: DET INTERKOGNITIVE KOMPENDIUM — STYRATOREN, FINE–WILF OG PORT-HAMILTONSK VERDENSMODELL (`H-JEPA`)
 ### *Om den ortogonale arbeidsdelingen ($\Omega_H \perp \Phi_M$), spøkelsesordets observasjonshorisont ($L^* = 12$), de fem blindpassasjerene og Stiefel-portens eksakte inverskonsistens*
 
-> **Epistemisk demarkasjon (`INSPIRED_BY != IMPLEMENTS != PROVES`):** De matematiske teoremene (Fine–Wilf 1965, Hills ligning / Floquet-monodromi, Gauss-boksen, Borda–Carnot-tapet og Bures–Wasserstein-geometrien) tilhører $\text{L0}$. De kjørbare detektorene i Gemini-Core og Reality Forge samt syntesen mot *Hamiltonian JEPA* (Zoabi, Ali & Wolf 2026) er verifisert som deterministisk programvare på nivå $\text{L1}$. De utgjør ingen påstand om bevissthet i silisium.
+> **Epistemisk demarkasjon (`INSPIRED_BY != IMPLEMENTS != PROVES`):** De matematiske teoremene (Fine–Wilf 1965, Hills ligning / Floquet-monodromi, Gauss-boksen, Borda–Carnot-tapet og Bures–Wasserstein-geometrien) tilhører $\text{L0}$. De kjørbare detektorene i Reismann-Core og Reality Forge samt syntesen mot *Hamiltonian JEPA* (Zoabi, Ali & Wolf 2026) er verifisert som deterministisk programvare på nivå $\text{L1}$. De utgjør ingen påstand om bevissthet i silisium.
 
 ---
 
@@ -4397,10 +4397,10 @@ I stedet for å anta at informasjon er en vektløs, friksjonsfri abstraksjon i s
 
 ### 5.1 Kildekoden for `SPEC-250-THERMO` ($\Pi_{K,\text{thermo}}$ i `spec250_gate.rs`)
 
-I `03_ENGINES/spec250_gate.rs` er flyttall (`f32`/`f64`) bannlyst for å forhindre avrundingslekkasje. Regnskapet føres i heltalls **attojoule** ($\text{aJ} = 10^{-18}\text{ J}$, `u128`) og **mikrojoule** ($\mu\text{J} = 10^{-6}\text{ J}$, `i128`):
+I `spec250_gate.rs` er flyttall (`f32`/`f64`) bannlyst for å forhindre avrundingslekkasje. Regnskapet føres i heltalls **attojoule** ($\text{aJ} = 10^{-18}\text{ J}$, `u128`) og **mikrojoule** ($\mu\text{J} = 10^{-6}\text{ J}$, `i128`):
 
 ```rust
-// Fra 03_ENGINES/spec250_gate.rs (DEL 6: SPEC-250-THERMO)
+// Fra spec250_gate.rs (DEL 6: SPEC-250-THERMO)
 pub const LANDAUER_PER_BIT_AJ: u128 = 3;      // Eksakt 2.6523e-21 J = 0.00265 aJ (tak-avrundet i aJ)
 pub const LANDAUER_4096_BITS_AJ: u128 = 11;   // 4096 bits * 2.6523e-21 J ≈ 10.865 aJ
 
@@ -4417,7 +4417,7 @@ Ved et romlignende relé-angrep ($\mathrm{d}s^2 > 0$) kapper mottakernoden sekve
 
 ### 5.2 De Ti Kontrollorganene (Organ T1–T10) i Dør 18 (`door18_heis_baereevne`)
 
-I `03_ENGINES/door18_heis_baereevne/` evalueres enhver kandidat med oppstrøms frigivelse fra Dør 15 ($\Pi_K$) og Dør 17 (KY-Nash) gjennom ti spesialiserte bæreorganer under subsumsjonsloven $\texttt{KILL} > \texttt{HOLD} > \texttt{OPEN}$ (`27/27 PASS` i `test_baereevne.py`):
+I `door18_heis_baereevne/` evalueres enhver kandidat med oppstrøms frigivelse fra Dør 15 ($\Pi_K$) og Dør 17 (KY-Nash) gjennom ti spesialiserte bæreorganer under subsumsjonsloven $\texttt{KILL} > \texttt{HOLD} > \texttt{OPEN}$ (`27/27 PASS` i `test_baereevne.py`):
 
 | Organ | Kontraktmodul | Fysisk invariant og kontrolloppdrag | Feillukket dom (`KILL` / `HOLD`) |
 | :--- | :--- | :--- | :--- |
@@ -4692,7 +4692,7 @@ $$Q = K_{\mu\nu}p^\mu p^\nu - (L_z - aE)^2 = p_\theta^2 + \cos^2\theta\left[a^2(
 
 Carters konstant $Q$ separerer den radielle og den polare bevegelsen fullstendig ($\Sigma^2\dot{r}^2 = R(r) \ge 0$ og $\Sigma^2\dot{\theta}^2 = \Theta(\theta) \ge 0$). Når observasjonskartet $R: \mathcal{X} \to \mathcal{M}_{\text{rep}}$ projiserer den rå banetilstanden $x_k$ inn i invariantfiberen $K_\gamma = \Psi_2 \oplus K_\gamma^{\text{dyn}}$, kollapser hele den sekulære 3D-presesjonen til et **eksakt stasjonært punkt i fiberen** ($e_k = K_\gamma^{\text{dyn}}(x_k) - K_{\text{ref}}^{\text{dyn}} = \mathbf{0}$).
 
-I den grensefrie syretesten ([`gr_kernel_testbench_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/gr_kernel_testbench_engine.py) og [`gr_kernel_testbench_noboundary.py`](file:///home/sololyset/scripts/gr_kernel_testbench_noboundary.py)), der alle eksplisitte horisont-koordinater ($r - 2M$ og $(r - 2M)^{-1}$) er slettet fra sensorvektoren til fordel for rene 2.-ordens fasederiverte $\Phi_\lambda^{\text{lin}}(x) = [p_r, \dot{p}_r, L_z, \mathrm{d}E, \mathrm{d}(\mathrm{d}E)/\mathrm{d}t, F, \dot{F}]^\top$ og kvadratiske stress-invarianter $\Phi_\lambda^{\text{stress}}(x)$, er denne separasjonen verifisert over $12\,000$ tidssteg:
+I den grensefrie syretesten (`gr_kernel_testbench_engine.py` og `gr_kernel_testbench_noboundary.py`), der alle eksplisitte horisont-koordinater ($r - 2M$ og $(r - 2M)^{-1}$) er slettet fra sensorvektoren til fordel for rene 2.-ordens fasederiverte $\Phi_\lambda^{\text{lin}}(x) = [p_r, \dot{p}_r, L_z, \mathrm{d}E, \mathrm{d}(\mathrm{d}E)/\mathrm{d}t, F, \dot{F}]^\top$ og kvadratiske stress-invarianter $\Phi_\lambda^{\text{stress}}(x)$, er denne separasjonen verifisert over $12\,000$ tidssteg:
 
 | Orbitalt Scenario | Fysisk Baneregime | Maks Rå Koordinatdrift $D_{\text{raw}}$ | Fiber-Residual $D_K^\lambda$ ($\Phi_\lambda^{\text{lin}}$) | Stress-Forsterket $D_K^\lambda$ ($\Phi_\lambda^{\text{stress}}$) | Portdom ($\Omega_{\text{Kerr}}$) |
 | --- | --- | --- | --- | --- | --- |
@@ -4834,7 +4834,7 @@ Dermed bevares både sikkerheten og sannheten: maskinen kan aldri tilgi seg selv
 
 ## 5. Det Skjeve Produktet ($\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ i `SPEC-100`), RFM Dobbelpuls-Testen og SUSY2 Anti-Narcissus-Skranken ($\Pi_{\text{Care}}$)
 
-I [`100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md`](file:///home/sololyset/00_KANONISK_KJERNE/100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md) (`SPEC-100`, verifisert i [`ky_poincare_skew_product_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ky_poincare_skew_product_engine.py) med `9/9 PASS`) lukkes koblingen mellom **Bind X** (gravitasjon), **Bind XI** ($\mathrm{Reversible}^2$) og **Bind XII** (Poincaré-faserommet) ved å formalisere vitnelaget som en **historiefiber med null fysisk tilbakevirkning**:
+I `100_KY_POINCARE_CORRECTION_WITNESS_AS_HISTORY_FIBER_SPEC.md` (`SPEC-100`, verifisert i `ky_poincare_skew_product_engine.py` med `9/9 PASS`) lukkes koblingen mellom **Bind X** (gravitasjon), **Bind XI** ($\mathrm{Reversible}^2$) og **Bind XII** (Poincaré-faserommet) ved å formalisere vitnelaget som en **historiefiber med null fysisk tilbakevirkning**:
 
 $$\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}, \qquad \frac{\partial \dot{x}_{\text{phys}}}{\partial h_{\text{hist}}} \equiv 0$$
 
@@ -4854,7 +4854,7 @@ $$\Pi_{\text{Care}}\bigl(\mathbf{v}_{\text{kilde}}, \mathbf{v}_{\text{speil}}\bi
 
 Dersom speilet forsøker å sluke kilden i en falsk sammensmelting ($\|\mathbf{v}_{\text{kilde}} - \mathbf{v}_{\text{speil}}\|_2 < d_{\min}$, *Narcissus-fellen*), utløses `RC-730_SKEW_PRODUCT_INVARIANT_VIOLATION` (`KILL`, $0{,}00\text{ V DC}$). Avstanden er ikke en mangel ved dialogen; den er selve forutsetningen for at to voktere kan møtes i **Meta-KY `HOLD`** uten at mennesket absorberes av maskinen.
 
-| Lov i `SPEC-100` | Eksakt Matematisk Invariant | Operasjonell Konsekvens i [`ky_poincare_skew_product_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ky_poincare_skew_product_engine.py) |
+| Lov i `SPEC-100` | Eksakt Matematisk Invariant | Operasjonell Konsekvens i `ky_poincare_skew_product_engine.py` |
 | --- | --- | --- |
 | **1. Lov om Skew-Produktet** | $\frac{\partial\dot{x}_{\text{phys}}}{\partial h_{\text{hist}}} \equiv 0$ | Vitnet er historiefiber, aldri fysisk kraft- eller feltkilde (`zero_backreaction_verified == True`) |
 | **2. Lov om Returgapet** | $\delta_{\text{gap}} = \|x_{\text{cand}} - x_{\text{proj}}\| \notin T_{\mu\nu}$ | Friksjon bokføres i $C_K$; `HOLD` ved $\delta_{\text{gap}} > 10^{-3}$, `KILL` ved $\delta_{\text{gap}} > \tau_{\text{budget}}$ |
@@ -4867,7 +4867,7 @@ Dersom speilet forsøker å sluke kilden i en falsk sammensmelting ($\|\mathbf{v
 ## 6. Red Book CIRC ($\mathrm{GF}(2^8)$, `0x11D`) $\leftrightarrow$ 208B Rosetta D3, Sentralspinn Sommerfugl-Ekko (`SPEC-397`) og OT-GKSL Sertifisert Utlesningsvindu (`SPEC-395`)
 
 ### 6.1 Red Book CIRC ($\mathrm{GF}(2^8)$, `0x11D`) $\leftrightarrow$ 208B Rosetta D3-Forseglingen (`INTERPOLATION != PROOF`)
-I [`rosetta_circ_gf256.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/rosetta_circ_gf256.py) og SystemVerilog-modulen [`rosetta_d3_circ_gate.sv`](file:///home/sololyset/01_HARDWARE_RTL/rosetta_d3_circ_gate.sv) (`25/25 PASS` inkludert `iverilog -g2012` co-simulering) forsegles den 205-byte store maskinvarekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) med 3 byte systematisk Reed–Solomon-paritet $[p_2, p_1, p_0]$ til en **eksakt 208-byte $\mathrm{RS}(208, 205)$-ramme** over Galois-kroppen $\mathrm{GF}(2^8)$ definert ved Red Book CD-DA primitivt polynom:
+I `rosetta_circ_gf256.py` og SystemVerilog-modulen `rosetta_d3_circ_gate.sv` (`25/25 PASS` inkludert `iverilog -g2012` co-simulering) forsegles den 205-byte store maskinvarekapselen ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) med 3 byte systematisk Reed–Solomon-paritet $[p_2, p_1, p_0]$ til en **eksakt 208-byte $\mathrm{RS}(208, 205)$-ramme** over Galois-kroppen $\mathrm{GF}(2^8)$ definert ved Red Book CD-DA primitivt polynom:
 
 $$p(x) = x^8 + x^4 + x^3 + x^2 + 1 \quad (\mathtt{0x11D}, \quad \alpha = \mathtt{0x02})$$
 
@@ -4884,7 +4884,7 @@ evaluerer Horner-LFSR-kjernen i `rosetta_d3_circ_gate.sv` syndromvektoren $\math
 | **`C2_INTERPOLATION_DENIED`** | $\mathrm{wt}(e) \ge 2$, eller $S_1^2 \neq S_0 S_2$, eller forkortet lokator $p \in [208..254]$ | **Blank avvisning av interpolasjon:** `c2_interpolation_denied_o = 1`, `omega_authorize_o = 0`, `interlock_kill_n_o = 0` (**`0,00 V DC KILL`**) |
 
 ### 6.2 Sentralspinn Tidsreversert Kvantemetrologi (`SPEC-397`): SATIN og Sommerfugl-Ekko
-I [`csm_satin_butterfly_echo_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/csm_satin_butterfly_echo_gate_engine.py) (`SPEC-397`, inspirert av Kumar & Choudhury 2026, `arXiv:2610.30686v1`, Davis et al. 2016 og Bringewatt et al. 2026) overføres RFM-dobbelpulsen $T_{\text{RFM}}^2 = I$ til et sentralspinn-bad ($S_{\text{cen}}$ koblet til $N$ badespinn via $H_{\text{CSM}} = \Omega S_z + \frac{\tilde{g}}{\sqrt{N}}(S_+ J_- + S_- J_+)$). I det dispersive Schrieffer–Wolff-regimet ($\Omega \gg \tilde{g}\sqrt{N}$) induseres den effektive en-akse-vridningen (OAT) $H_{\text{eff}} \approx \chi_{\text{eff}} J_z^2$ med $\chi_{\text{eff}} = \frac{\tilde{g}^2 S_{\text{cen}}}{2\Omega}$.
+I `csm_satin_butterfly_echo_gate_engine.py` (`SPEC-397`, inspirert av Kumar & Choudhury 2026, `arXiv:2610.30686v1`, Davis et al. 2016 og Bringewatt et al. 2026) overføres RFM-dobbelpulsen $T_{\text{RFM}}^2 = I$ til et sentralspinn-bad ($S_{\text{cen}}$ koblet til $N$ badespinn via $H_{\text{CSM}} = \Omega S_z + \frac{\tilde{g}}{\sqrt{N}}(S_+ J_- + S_- J_+)$). I det dispersive Schrieffer–Wolff-regimet ($\Omega \gg \tilde{g}\sqrt{N}$) induseres den effektive en-akse-vridningen (OAT) $H_{\text{eff}} \approx \chi_{\text{eff}} J_z^2$ med $\chi_{\text{eff}} = \frac{\tilde{g}^2 S_{\text{cen}}}{2\Omega}$.
 * **Involutorisk tidsreversering ($H \mapsto -H$):** Ved å invertere fortegnet på den effektive vridningen ($\Omega \mapsto -\Omega$) og anvende ekko-sekvensen $U_{\text{echo}}(\phi) = U(-H_{\text{eff}}, t)\,R_{\hat{n}}(\phi)\,U(+H_{\text{eff}}, t)$, oppfyller null-fase-returen ($\phi = 0$) den eksakte involusjonen $U_{\text{echo}}(0)|\psi_0\rangle = |\psi_0\rangle$, mens en liten faseperturbasjon $\phi \neq 0$ forsterkes med Heisenberg-skalert kvante-Fisher-informasjon ($F_Q \propto N^2$).
 * **Det metrologiske gaphierarkiet:** Mellom det ideelle Heisenberg-taket og standard kvantegrense ($\text{SQL} = N$) danner de fire protokollene en strengt ordnet kjede for alle $N \ge 4$:
 
@@ -4894,7 +4894,7 @@ $$\mathcal{F}_{\text{HL}} = N^2 \;>\; \mathcal{F}_{\text{OAT}} = \frac{N^2}{2} \
   * **Sommerfugl-ekko (*Butterfly Echo* via kaotisk Haar-scrambling):** Når perturbasjonsaksen $\hat{n}$ er **ukjent**, flettes $K$ tilfeldige $\mathrm{SU}(2)$-rotasjoner $\{\vec{\alpha}_k\}_{k=1}^K$ inn i fremover-banen og reverseres i eksakt omvendt rekkefølge i retur-banen. Dette gjør følsomheten isotrop over hele Bloch-sfæren med $\mathcal{F}_{\text{Butterfly}} = N^2/4$ ($-6{,}02\text{ dB}$ under Heisenberg-grensen), forutsatt at både den kumulative Schrieffer–Wolff-feilen $K\cdot\varepsilon_{\text{SW}} = K\bigl(\frac{2\tilde{g}\sqrt{N}}{\Omega}\bigr)^2$ er begrenset og akse-loggen (`axes_ledger_hash`) er intakt ved tilbakevendingen.
 
 ### 6.3 OT-GKSL Sertifisert Utlesningsvindu og Euler–Poincaré Torsjon (`SPEC-395`)
-I [`ot_gksl_certified_readout_gate_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/ot_gksl_certified_readout_gate_engine.py) (`SPEC-395`, inspirert av Bocquet 2026 og Colombo 2025/2026) lukkes kvantemålingskjeden på $\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ uten å anta et ytre, klassisk mirakel-apparat:
+I `ot_gksl_certified_readout_gate_engine.py` (`SPEC-395`, inspirert av Bocquet 2026 og Colombo 2025/2026) lukkes kvantemålingskjeden på $\mathcal{S} = \mathcal{X}_{\text{phys}} \ltimes \mathcal{H}_{\text{hist}}$ uten å anta et ytre, klassisk mirakel-apparat:
 1. **Euler–Poincaré adjungert torsjon og dobbeltkommutator-kontraksjon:** For selvadjungerte Lindblad-operatorer $L_k = L_k^\dagger$ fremkommer GKSL-dissipatoren fra Euler–Poincaré-reduksjon på et semidirekte produkt med torsjon:
 
 $$\dot{\rho} = -\mathrm{i}[H, \rho] - \frac{1}{2}\sum_k \gamma_k \bigl[L_k, [L_k, \rho]\bigr]$$
@@ -5033,7 +5033,7 @@ Bind X fullfører den klassiske og semiklassiske feltarkitekturen med fire skarp
    gjenopprettes **kvadratisk konvergens** ved å injisere $S_{\theta_k}$ med super-eksponentiell båndbreddevekst $\theta_k = \theta_0^{\kappa^k}$ ($\kappa = \frac{3}{2}$) i hvert Newton-steg:
    $$g_{k+1} = g_k - S_{\theta_k}\bigl[D\mathcal{N}(g_k)\bigr]^{-1}\mathcal{N}(g_k)$$
    Her kompenserer høyfrekvensglattingen $\theta_k^{r_0}$ eksakt for derivasjonstapet $r_0 = 4$, mens det kvadratiske Newton-leddet $\|\mathcal{N}(g_k)\|_{H^s}^2 \propto \theta_k^{-2\alpha}$ dominerer restleddet $(I - S_{\theta_k})$ og driver sekvensen $\{g_k\}$ mot en glatt, fysisk admisjonsmetrikk $g_\infty \in C^\infty(\mathcal{M}) \cap \mathcal{A}$.
-3. **Kerr-horisontenes 3-trinns sikkerhetsforrigling i [`einstein_ky_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/einstein_ky_engine.py):**
+3. **Kerr-horisontenes 3-trinns sikkerhetsforrigling i `einstein_ky_engine.py`:**
    I Boyer–Lindquist-koordinater $(t, r, \theta, \phi)$ med $\Sigma = r^2 + a^2\cos^2\theta$ og $\Delta = r^2 - 2Mr + a^2$ utgjør de tre karakteristiske flatene rundt en roterende Kerr-masse en eksakt mekanisk eskaleringskjede (`KerrTensorFelt` og `EinsteinKYMotor`):
 
 | Horisont / Grenseflate | Eksakt Boyer–Lindquist-ligning | Fysisk / Metrisk Tilstand | Portdom i `einstein_ky_engine.py` |
@@ -5044,7 +5044,7 @@ Bind X fullfører den klassiske og semiklassiske feltarkitekturen med fire skarp
 
 4. **CPTP Hamming-dekoherens via Schurs produktteorem (Teorem 10.3) og PCSE fase-hysterese ($\Delta p \approx 0{,}126$, $27{,}2\sigma$):**
    * **Schurs produktteorem:** Når en kvantetilstand $\rho$ med indeks-kodeord i Hamming-rommet $\{0, 1\}^n$ utsettes for dekoherenskanalen $\mathcal{E}_\gamma(\rho)_{ij} = \mathrm{e}^{-\gamma\,d_H(i, j)}\rho_{ij}$ ($\gamma > 0$), er matrisen $C_{ij} = \mathrm{e}^{-\gamma\,d_H(i,j)} = \bigotimes_{m=1}^n \begin{pmatrix} 1 & \mathrm{e}^{-\gamma} \\ \mathrm{e}^{-\gamma} & 1 \end{pmatrix}$ et $n$-fold Kronecker-produkt av strengt positivt definite $2\times 2$-matriser (egenverdier $1 \pm \mathrm{e}^{-\gamma} > 0$). Etter **Schurs produktteorem** er Hadamard-produktet $\mathcal{E}_\gamma(\rho) = C \circ \rho$ en garantert fullstendig positiv og sporbevarende (**CPTP**) kvantekanal som eksponentielt slukker ikke-diagonale superposisjoner med stor Hamming-avstand.
-   * **Projeksjons-Skranked Schrödinger-Dynamikk (PCSE) og Bell–KY Fase-Hysterese ($\Delta p \approx 0{,}126$):** I [`unified_admissibility_pcse_gravity_engine.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/unified_admissibility_pcse_gravity_engine.py) (`SPEC-212`) utvikler tilstandsvektoren $|\psi(t)\rangle$ seg under den ikke-hermitiske seleksjonslikningen
+   * **Projeksjons-Skranked Schrödinger-Dynamikk (PCSE) og Bell–KY Fase-Hysterese ($\Delta p \approx 0{,}126$):** I `unified_admissibility_pcse_gravity_engine.py` (`SPEC-212`) utvikler tilstandsvektoren $|\psi(t)\rangle$ seg under den ikke-hermitiske seleksjonslikningen
      $$\mathrm{i}\hbar\frac{\partial|\psi\rangle}{\partial t} = H_0|\psi\rangle - \mathrm{i}\hbar\lambda\bigl(I - \Pi_K\bigr)|\psi\rangle, \qquad \mathcal{O}_K(\psi) = \bigl(I - \Pi_K\bigr)|\psi\rangle$$
      Langs en verdenslinje $\gamma: [t_0, t_f] \to \mathcal{H}$ akkumulerer et tilstandsensemble den relasjonelle belastningsmetrikken $D_K(\gamma) = \int_{t_0}^{t_f}\bigl(\alpha\|\ddot{\psi}(t)\|^2 + \beta\dot{Q}_{\text{erase}}(t)\bigr)\mathrm{d}t$, som definerer horisontkjernen $K_\gamma = \exp\bigl(-\lambda D_K(\gamma)\bigr) \in (0, 1]$.
      I et to-arms Mach–Zehnder-interferometer sammenlignes **Bane A** (en direkte geodetisk rotasjon i det indre av $\mathcal{A}$ med $D_K(A) = 0 \implies K_\gamma(A) = 1{,}00$) og **Bane B** (en syklisk høy-forsterket bane som har berørt sikkerhetsgrensen og betalt en kryogenisk Landauer-skatt $Q_{\text{total}}(B) = D_K(B)\,k_B T\ln 2 \approx 4{,}81 \times 10^{-23}\text{ J}$ ved $T = 4{,}12\text{ K}$, slik at $D_K(B) \approx 1{,}22\text{–}1{,}386 \implies K_\gamma(B) \approx 0{,}25$). Begge baner ender i eksakt samme øyeblikkelige tetthetsmatrise $|\psi_A(t_f)\rangle = |\psi_B(t_f)\rangle = |+\rangle$ med Frobenius-avstand $\|\rho_A - \rho_B\|_F < 10^{-16}$.
@@ -5059,7 +5059,7 @@ Bind X fullfører den klassiske og semiklassiske feltarkitekturen med fire skarp
 
 ## 6. Fase 4 i `einstein_ky_engine.py`: Holografisk Sammenfiltring ($\text{ER}=\text{EPR}$), Hawking-Spalting og Page-Kurvens Unitaritet ($\mathrm{Tr}(\rho^2) = 1$)
 
-I [`einstein_ky_engine_phase4.py`](file:///home/sololyset/03_ENGINES/ENGINES/micro_engines/einstein_ky_engine_phase4.py) (verifisert med `30/30 PASS` i [`test_einstein_ky_engine.py`](file:///home/sololyset/03_ENGINES/tests/test_einstein_ky_engine.py) og [`test_einstein_ky_engine_phase4.py`](file:///home/sololyset/03_ENGINES/tests/test_einstein_ky_engine_phase4.py)) løftes Kerr-skranken fra klassisk og semiklassisk relativitet inn i holografisk kvanteinformasjon gjennom to koblede motorer:
+I `einstein_ky_engine_phase4.py` (verifisert med `30/30 PASS` i `test_einstein_ky_engine.py` og `test_einstein_ky_engine_phase4.py`) løftes Kerr-skranken fra klassisk og semiklassisk relativitet inn i holografisk kvanteinformasjon gjennom to koblede motorer:
 
 ### 6.1 $\text{ER}=\text{EPR}$ og Morris–Thorne Ormehullsmetrikken (`EinsteinRosenWormholeFelt`)
 Maldacena og Susskinds $\text{ER}=\text{EPR}$-prinsipp postulerer at enhver maksimal kvantesammenfiltring (et Einstein–Podolsky–Rosen-klokke-par $|\Phi^+\rangle_{AB} = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$) er dual til en ikke-traverserbar Einstein–Rosen-bro ($\text{ER}$) i romtidens topologi.
@@ -5175,7 +5175,7 @@ Samtidig deles tilstandsverifikasjonen i **to ortogonale faser**:
 * **Fase 2 (In-Flight $\Pi_{\text{orth}}$ over $38{,}4\text{ ms}$):** Mens aktuatoren er i bevegelse (for eksempel under en ventilmanøver over $38{,}4\text{ ms}$), overvåker den ortogonale maskinvarekanalen $\Pi_{\text{orth}}$ kontinuerlig at den faktiske fysiske banen følger det forhåndsforseglede sporet med $12{,}5\,\mu\text{s}$ oppløsning.
 
 ### 2.2 Verifisert Monte Carlo-bevis ($8\,000$ kjøringer, `seed=42`)
-I monografiens reproduserbare stresstest (`03_ENGINES/` / $8\,000$ deterministiske Monte Carlo-scenarier med `seed=42` under kombinert nettverksutfall, sensorstøy og pakkeinjeksjon) sammenlignes konvensjonell OT-styring direkte mot den feillukkede OrgelKraft/Infranett-skranken:
+I monografiens reproduserbare stresstest (`L1_ENGINES` / $8\,000$ deterministiske Monte Carlo-scenarier med `seed=42` under kombinert nettverksutfall, sensorstøy og pakkeinjeksjon) sammenlignes konvensjonell OT-styring direkte mot den feillukkede OrgelKraft/Infranett-skranken:
 
 ```text
 +------------------------------------------------------------------------+
@@ -5245,7 +5245,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BIND-XVII-DET-KOGNITIVE-SKJOLDET-2026
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
   JURISDIKSJON            : Katedralen (Bind XVII) <-> Smia (MONOLITH IV // sololys/RTDRA — Vitne #70)
-  L1-MOTOR & VERIFIKASJON : 03_ENGINES/door27_network/src/door27_network/ux_cognitive_shield.py (13/13 PASS)
+  L1-MOTOR & VERIFIKASJON : ux_cognitive_shield.py (13/13 PASS)
   TARSKI-ANKER (ROM/TID)  : 0xFFFA (65 530 B, ΔB_Tarski = 5 B) <-> Δt_Tarski = 30,0 s (D = 0, L > 0)
   EPISTEMISK SKRANKE      : INSPIRED_BY != IMPLEMENTS != PROVES
 ========================================================================================
@@ -5310,7 +5310,7 @@ $$\text{Candidate} \neq \text{Consequence}, \qquad \mathrm{KILL} \succ \mathrm{H
 
 ### 3.1 De fem asymmetriske wetware-slusene i `ux_cognitive_shield.py`
 
-I produksjonsmotoren `03_ENGINES/door27_network/src/door27_network/ux_cognitive_shield.py` håndheves fem ortogonale forsvarsmekanismer:
+I produksjonsmotoren `ux_cognitive_shield.py` håndheves fem ortogonale forsvarsmekanismer:
 
 1. **Sluse 1 — `SignalGatingShield` ($5\sigma$ Admissibilitets-slusen):**  
    Leksikalske markører for panikk og hastverk (`«sperres»`, `«umiddelbart»`, `«2 minutter»`, `«klikk her»`) flagges før de når synsnerven. Mangler avsenderen kryptografisk signatur ($M_1 \dots M_4$), isoleres meldingen i `GREY_BOX_ISOLATED` (`HOLD`), affektivt språk nøytraliseres, og alle hyperlenker deaktiveres (`links_clickable = False`).
@@ -6219,7 +6219,7 @@ COLOPHON, DIGRESSION CANON & EPIGRAPH:
 ## I. Fra Via Fondazza i Bologna til Verkstedbenken i Risør
 
 \begin{center}
-\includegraphics[width=0.58\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_04_via_fondazza_og_strebebuen.jpg}\\[0.3em]
+\includegraphics[width=0.58\textwidth]{BILDER/bw_04_via_fondazza_og_strebebuen.jpg}\\[0.3em]
 {\footnotesize \textit{Omveiens tektonikk: Morandis krukker, steinhoggerens meisel og merke på verkstedbenken, med katedralens utvendige strebebuer (\textrm{flying buttresses}) forankret i grunnfjellet utenfor vinduet.}}
 \end{center}
 
@@ -6516,10 +6516,10 @@ Fordi denne seksdelte syntesen og dens tilhørende konstantmatrise nå tilfredss
 | --- | --- | --- | --- |
 | **I. Ontologisk kuttflate** | Virkelighet innvilges gjennom realiseringsgrammatikken $\mathcal{R} = (\Phi, \Pi_K, \Omega, W)$ | Streng kausalseparasjon: $\Phi$ (vektløse kandidater), $\Pi_K$ (idempotent projeksjon), $\Omega$ (partiell iverksettelse), $W$ (etterfølgende vitne) | `00_PROLOG_OG_AKSIOMER/00_FORORD_MODELL_OG_TERRENG.md`, `MANIFEST.md` |
 | **II. Minuskatalyse og geometriens tvang** | Subtraksjon av ulovlige frihetsgrader fremfor rå makt ($\Pi_K^2 = \Pi_K$) | **18-Crown-6 / KcsA:** $d = 2{,}7\text{ \AA}$, $E_{\text{cell}} = 0{,}998\text{ V DC}$, selektivitet $10^4 : 1$ ($\text{K}^+$ vs. $\text{Na}^+$); **Casimir-sug:** $P_C = 1{,}30\text{ Pa}$; **Klein-Gordon:** ortogonalt førsteordens nåleøye | `01_ONTOLOGI_OG_DET_SUBTRAKTIVE_SINN/01_KAPITTEL_01_SUBTRAKTIV_ONTOLOGI.md`, `02_FORMENS_GRAVITASJON_OG_FYSIKK/02_KAPITTEL_05_DET_GEOMETRISKE_NALEOYET.md` |
-| **III. Domeneskranken og sletteforbudet** | Overgangen fra reversibelt minne ($\text{Rev}^1$, $D_0 \cup D_1$) til irreversibel materie ($\text{Rev}^2$, $D_2$) og WORM-vitne ($D_3$) | Involusjon $F(F(s)) = s$, speilrelasjon $R = 2P - I$; **Landauer-skatt ved $+4{,}0\text{ }^\circ\text{C}$:** $E_L = k_B T \ln 2 \approx 2{,}6523 \times 10^{-21}\text{ J}$; **Curies notatbøker (1898):** ${}^{226}\text{Ra} \to {}^{222}\text{Rn}$; `ANTI_REVERSIBLE_VIOLATION` | `03_ENGINES/ENGINES/konseptuell_granitt_porters/door20_golden_record/engine.py`, `05C_DE_SYV_KOMPENDIENE_08_TIL_14/02_BIND_14_MAXWELL_OG_DEMONENS_PRIS.md` |
-| **IV. Nektelsens grensesnitt og hvilelommen** | Todelt vern mot ytre støy (`CAUSAL_HOLD`) og uavklart overgang (`2,50 V DC HOLD`) | **Alexandrov-diamant ($20\text{ m}$):** $\tau_{\text{RTT}} = 133{,}4256\text{ ns}$, $E_{\text{TDC}} = 8{,}0\,\mu\text{J}$, $\eta_{\text{defense}} = 1{,}25 \times 10^9$; **Sommerfugl-lomme ($A_5$):** $c = +0{,}5525$ ved $2{,}50\text{ V DC}$, $\frac{d}{dt}\text{HOLD} = 0$ | `03_ENGINES/ENGINES/konseptuell_granitt_porters/door21_energi_forsvar/engine.py`, `04_REALITY_FORGE/RealityForge_Godot/scripts/light_bridge.gd` |
-| **V. 400-syklus asymmetrisk tidsbifurkasjon** | Eksakt døgnregnskap og motsatt kausal rekkefølge mellom $\text{OPEN}$ og $\text{KILL}$ | **OrgelKraft:** $\Delta R = 0$ over $141{,}100998\text{ kg}$ ($\le 1\text{ mg}$); **Kobordisme:** $\partial_1\partial_2 = 0$; **Frisch-klokke:** $80\text{ kHz}$ ($12{,}5\,\mu\text{s} \times 400 = 5{,}0\text{ ms}$); **OPEN ($\odot \prec 1$):** $W_{\text{pre}}^2 = W_m \wedge W_h$ før spenning; **KILL ($1 \prec \odot$):** $< 15\text{ ns}$ shunt, $38{,}4\text{ ms}$ fjærretur | `04_REALITY_FORGE/src/rtl/temporal_bifurcation_400c.sv`, `03_ENGINES/ENGINES/micro_engines/hyperbolic_smith_constitutional_gate_engine.py` |
-| **VI. Gödel-grensen og det fysiske luftgapet** | Silisiumets avmakt ved $0{,}00\text{ V DC}$ og `Level 01` mekanisk gjenåpning ved fjellveggen | $\text{Con}(\mathcal{F}) \implies \mathcal{F} \nvdash \text{Con}(\mathcal{F})$, $\text{uid}=0 \implies 0\text{ W}$ over $5{,}0\text{ mm}$ luftgap; **Menneskelig gjeninnkobling ($37{,}0\text{ }^\circ\text{C}$):** $45^\circ$ magnetopuls, $1\,200\text{ N}$ skjærsplint hvis $\Delta_K \neq 0$, $10\,000\text{ J}$ mekanisk fjærarbeid | `03_ENGINES/ENGINES/konseptuell_granitt_porters/door22_kollaps_gjenfodelse/engine.py`, `06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md` |
+| **III. Domeneskranken og sletteforbudet** | Overgangen fra reversibelt minne ($\text{Rev}^1$, $D_0 \cup D_1$) til irreversibel materie ($\text{Rev}^2$, $D_2$) og WORM-vitne ($D_3$) | Involusjon $F(F(s)) = s$, speilrelasjon $R = 2P - I$; **Landauer-skatt ved $+4{,}0\text{ }^\circ\text{C}$:** $E_L = k_B T \ln 2 \approx 2{,}6523 \times 10^{-21}\text{ J}$; **Curies notatbøker (1898):** ${}^{226}\text{Ra} \to {}^{222}\text{Rn}$; `ANTI_REVERSIBLE_VIOLATION` | `ENGINES/konseptuell_granitt_porters/door20_golden_record/engine.py`, `05C_DE_SYV_KOMPENDIENE_08_TIL_14/02_BIND_14_MAXWELL_OG_DEMONENS_PRIS.md` |
+| **IV. Nektelsens grensesnitt og hvilelommen** | Todelt vern mot ytre støy (`CAUSAL_HOLD`) og uavklart overgang (`2,50 V DC HOLD`) | **Alexandrov-diamant ($20\text{ m}$):** $\tau_{\text{RTT}} = 133{,}4256\text{ ns}$, $E_{\text{TDC}} = 8{,}0\,\mu\text{J}$, $\eta_{\text{defense}} = 1{,}25 \times 10^9$; **Sommerfugl-lomme ($A_5$):** $c = +0{,}5525$ ved $2{,}50\text{ V DC}$, $\frac{d}{dt}\text{HOLD} = 0$ | `ENGINES/konseptuell_granitt_porters/door21_energi_forsvar/engine.py`, `scripts/light_bridge.gd` |
+| **V. 400-syklus asymmetrisk tidsbifurkasjon** | Eksakt døgnregnskap og motsatt kausal rekkefølge mellom $\text{OPEN}$ og $\text{KILL}$ | **OrgelKraft:** $\Delta R = 0$ over $141{,}100998\text{ kg}$ ($\le 1\text{ mg}$); **Kobordisme:** $\partial_1\partial_2 = 0$; **Frisch-klokke:** $80\text{ kHz}$ ($12{,}5\,\mu\text{s} \times 400 = 5{,}0\text{ ms}$); **OPEN ($\odot \prec 1$):** $W_{\text{pre}}^2 = W_m \wedge W_h$ før spenning; **KILL ($1 \prec \odot$):** $< 15\text{ ns}$ shunt, $38{,}4\text{ ms}$ fjærretur | `src/rtl/temporal_bifurcation_400c.sv`, `hyperbolic_smith_constitutional_gate_engine.py` |
+| **VI. Gödel-grensen og det fysiske luftgapet** | Silisiumets avmakt ved $0{,}00\text{ V DC}$ og `Level 01` mekanisk gjenåpning ved fjellveggen | $\text{Con}(\mathcal{F}) \implies \mathcal{F} \nvdash \text{Con}(\mathcal{F})$, $\text{uid}=0 \implies 0\text{ W}$ over $5{,}0\text{ mm}$ luftgap; **Menneskelig gjeninnkobling ($37{,}0\text{ }^\circ\text{C}$):** $45^\circ$ magnetopuls, $1\,200\text{ N}$ skjærsplint hvis $\Delta_K \neq 0$, $10\,000\text{ J}$ mekanisk fjærarbeid | `ENGINES/konseptuell_granitt_porters/door22_kollaps_gjenfodelse/engine.py`, `06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md` |
 
 ---
 
@@ -6618,7 +6618,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
 ```
 
 \begin{center}
-\includegraphics[width=0.62\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
+\includegraphics[width=0.62\textwidth]{BILDER/bw_24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
 {\footnotesize \textit{Arrangement i grått, bekblende og uforanderlig vitne (Rue Lhomond 1898 $\to$ Locus Zero 07.11.2026): Marie Skłodowska-Curie i profil etter James McNeill Whistlers komposisjonslov. Det som har krysset terskelen fra kandidatrommet ($\text{Rev}^1$) til materien ($\text{Rev}^2$, ${}^{226}\text{Ra} \to {}^{222}\text{Rn}$), kan aldri rulles tilbake ved et operativsystemkall — det hviler i bly som et evig etterfølgende vitne ($W \in D_3$).}}
 \end{center}
 
@@ -6783,7 +6783,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
 ```
 
 \begin{center}
-\includegraphics[width=0.66\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
+\includegraphics[width=0.66\textwidth]{BILDER/24_whistlers_marie_curie_rue_lhomond.jpg}\\[0.4em]
 {\footnotesize \textit{Arrangement i grått, bekblende og blågrønt radiumlys (Rue Lhomond 42, Paris, 1898 $\to$ Locus Zero, Risør, 7. november 2026): Marie Skłodowska-Curie ved arbeidsbordet, foran blyskrinet og fraksjoneringsskålen med ${}^{226}\text{RaCl}_2$.}}
 \end{center}
 
@@ -6983,7 +6983,7 @@ Når et reelt brudd inntreffer, har maskinen rett til å felle dommen og kutte s
 
 \vspace{1.2em}
 \begin{center}
-\includegraphics[width=0.28\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/marius_portrett.png}\\[0.5em]
+\includegraphics[width=0.28\textwidth]{TILMEGSELV/marius_portrett.png}\\[0.5em]
 {\small \textbf{Marius Egerhei Torjusen} (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)}\\
 {\footnotesize \textit{Systemarkitekt og Uavhengig Forsker · Locus Zero, Risør}}
 \end{center}

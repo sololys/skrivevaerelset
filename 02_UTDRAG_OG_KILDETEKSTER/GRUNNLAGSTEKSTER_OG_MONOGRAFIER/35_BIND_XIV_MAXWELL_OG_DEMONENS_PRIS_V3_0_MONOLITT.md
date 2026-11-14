@@ -1,8 +1,8 @@
 # 35 — Bokhylla Bind XIV: *MAXWELL & DEMONENS PRIS — Elektrodynamisk Admisjon, CFJ-Proca-Birefringens og Casimir-Kuttet* (v3.0-MONOLITT)
 
 **Forfatter:** Marius Egerhei Torjusen (Reismann-punktet Systemer, 2026)  
-**Kilde:** [`07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/14_MAXWELL_ZENODO_KOMPENDIUM/MAXWELL_MONOGRAFI_DEMONENS_PRIS.pdf`](../../07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/14_MAXWELL_ZENODO_KOMPENDIUM/MAXWELL_MONOGRAFI_DEMONENS_PRIS.pdf)  
-**Godot `L1` Motor:** [`04_REALITY_FORGE/RealityForge_Godot/scripts/maxwell_bind_xiv_admissibility_engine.gd`](../../04_REALITY_FORGE/RealityForge_Godot/scripts/maxwell_bind_xiv_admissibility_engine.gd) (`6/6 PASS`)
+**Kilde:** [`MAXWELL_MONOGRAFI_DEMONENS_PRIS.pdf`](../../03_FERDIGE_BOKER_PDF/MAXWELL_MONOGRAFI_DEMONENS_PRIS.pdf)  
+**Godot `L1` Motor:** `maxwell_bind_xiv_admissibility_engine.gd` (`6/6 PASS`)
 
 > **Demarkasjon (`L1`):** Programvaremotorene og de numeriske verifikasjonene er lokalt demonstrert programvare (`L1`). De respekterer grensen $\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$, og bruker append-only hash-kjeder som programvare-vitner, ikke som fysisk WORM-maskinvare.
 

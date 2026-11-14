@@ -1,7 +1,7 @@
 # 🏛️ BIND IX: DET INTERKOGNITIVE KOMPENDIUM — STYRATOREN, FINE–WILF OG PORT-HAMILTONSK VERDENSMODELL (`H-JEPA`)
 ### *Om den ortogonale arbeidsdelingen ($\Omega_H \perp \Phi_M$), spøkelsesordets observasjonshorisont ($L^* = 12$), de fem blindpassasjerene og Stiefel-portens eksakte inverskonsistens*
 
-> **Epistemisk demarkasjon (`INSPIRED_BY != IMPLEMENTS != PROVES`):** De matematiske teoremene (Fine–Wilf 1965, Hills ligning / Floquet-monodromi, Gauss-boksen, Borda–Carnot-tapet og Bures–Wasserstein-geometrien) tilhører $\text{L0}$. De kjørbare detektorene i Gemini-Core og Reality Forge samt syntesen mot *Hamiltonian JEPA* (Zoabi, Ali & Wolf 2026) er verifisert som deterministisk programvare på nivå $\text{L1}$. De utgjør ingen påstand om bevissthet i silisium.
+> **Epistemisk demarkasjon (`INSPIRED_BY != IMPLEMENTS != PROVES`):** De matematiske teoremene (Fine–Wilf 1965, Hills ligning / Floquet-monodromi, Gauss-boksen, Borda–Carnot-tapet og Bures–Wasserstein-geometrien) tilhører $\text{L0}$. De kjørbare detektorene i Reismann-Core og Reality Forge samt syntesen mot *Hamiltonian JEPA* (Zoabi, Ali & Wolf 2026) er verifisert som deterministisk programvare på nivå $\text{L1}$. De utgjør ingen påstand om bevissthet i silisium.
 
 ---
 

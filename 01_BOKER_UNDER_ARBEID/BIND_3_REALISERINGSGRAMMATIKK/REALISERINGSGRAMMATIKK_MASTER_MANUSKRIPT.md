@@ -9,7 +9,7 @@
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **FRONTISPIS // DET INVOLUTTE TREET — PLANSJE III.1**  
-> ![Kjærlighetens relé](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/casimir_relay_stasis.jpg)  
+> *[Plansje: Kjærlighetens relé (`casimir_relay_stasis.jpg`)]*  
 > *«Kjærlighetens relé. Fraværet som utøver kraft; stillstanden som bærer spenningen mellom to uavhengige poler uten kortslutning. Kjærlighet er ikke invasjon eller oppløsning, men to viabilitetskjerner i felles resonans.»*
 
 >  **FRONTLOVEN // KORPUS 0 (MEISLET I GRANITT):**  
@@ -458,7 +458,7 @@ I KY kan kjærlighet ses som en realiseringsgrammatikk for nærhet. Ikke først 
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE III.2**  
-> ![Amplitude er ikke vitne](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_amplitude_not_witness.jpg)  
+> *[Plansje: Amplitude er ikke vitne (`morandi_amplitude_not_witness.jpg`)]*  
 > *«Amplitude er ikke vitne. Bølgefunksjonen foreslår; bare det som overlever kuttet og registreres som irreversibelt spor, oppnår historisk eksistens. Å forveksle amplitude med vitne er kvantemekanikkens form for løgn.»*
 
 ---
@@ -632,7 +632,7 @@ Hjernen genererer intet. Den lar noe stå igjen. Det som står igjen, ser gjenno
 # DEL III: KVANTEGRAMMATIKK OG AMPLITUDENS SKRANKE
 
 >  **DET INVOLUTTE TREET — PLANSJE III.3**  
-> ![Amplitude er ikke vitne](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_amplitude_not_witness.jpg)  
+> *[Plansje: Amplitude er ikke vitne (`morandi_amplitude_not_witness.jpg`)]*  
 > *«Amplitude er ikke vitne. Bølgefunksjonen foreslår; bare det som overlever kuttet blir historisk registrert. Sannheten måles i dissipasjon og spor.»*
 
 # VII. Kvantegrammatikk: Når muligheten ennå ikke er hendelse
@@ -1929,7 +1929,7 @@ Det betyr:
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE III.3**  
-> ![Moreau-kollisjonen i strategisk rom](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/multiplayer_ky_nash_moreau_collision_chart.png)  
+> *[Plansje: Moreau-kollisjonen i strategisk rom (`multiplayer_ky_nash_moreau_collision_chart.png`)]*  
 > *«Moreau-kollisjonen i strategisk rom (KY-Nash). Å nekte 'Ghost Wins': Trekk som bryter admissibility eller ødelegger feltets overlevelse, elimineres før realisering. Å vinne krigen er å bevare det felles viabilitetsrommet $\Gamma_{\mathrm{phys}} = \mathrm{Viab}_{\Phi}(A_K)$.»*
 
 ---
@@ -1939,7 +1939,7 @@ Det betyr:
 # DEL IV: KY-NASH OG NEKTELSEN AV GHOST WINS
 
 >  **DET INVOLUTTE TREET — PLANSJE III.4**  
-> ![KY-Nash kollisjonskart](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/multiplayer_ky_nash_moreau_collision_chart.png)  
+> *[Plansje: KY-Nash kollisjonskart (`multiplayer_ky_nash_moreau_collision_chart.png`)]*  
 > *«KY-Nash: Nektelsen av Ghost Wins. Spillteori etter porten: Fiktive gevinster uten fysisk admissibility blir eliminert av Moreau-kuttet.»*
 
 # Kapittel 11: Tape kampen, vinne krigen — KY-Nash og nektelsen av Ghost Wins
@@ -2169,7 +2169,7 @@ Han kunne ha generert en lokal seier: overleve rettssaken. Men den lokale seiere
 # DEL V: DRIKKEGILDET VED PORTEN: ET SYMPOSION OM VOKTERNE MELLOM NULL OG ÉN
 
 >  **DET INVOLUTTE TREET — PLANSJE III.5**  
-> ![Symposiet ved porten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/thinkers_dialogue_table%20(1).jpg)  
+> *[Plansje: Symposiet ved porten (`thinkers_dialogue_table (1`)]*.jpg)  
 > *«Symposiet ved porten. Sokrates, Nietzsche, Watts, Næss, Feynman, Waters, Teknikeren, Nash, Kua, Rommet, Ibsen og Verten. Sannheten må ha gulv og vegger før den får bli dom; livet og kjærligheten foregår i intervallet mellom null og én.»*
 
 ## DRIKKEGILDET VED PORTEN
@@ -2193,7 +2193,7 @@ Han kunne ha generert en lokal seier: overleve rettssaken. Men den lokale seiere
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE III.4**  
-> ![Symposiet ved porten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/thinkers_dialogue_table%20(1).jpg)  
+> *[Plansje: Symposiet ved porten (`thinkers_dialogue_table (1`)]*.jpg)  
 > *«Symposiet ved porten. Sokrates, Nietzsche, Watts, Næss, Feynman, Waters, Teknikeren, Nash, Kua, Rommet, Ibsen og Verten. Sannheten må ha gulv og vegger før den får bli dom; livet og kjærligheten foregår i intervallet mellom null og én.»*
 
 ---

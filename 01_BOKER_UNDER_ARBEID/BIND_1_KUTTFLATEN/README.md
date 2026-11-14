@@ -36,12 +36,12 @@ HOVEDVERKET // BIND I AV TRILOGIEN:
 
 | Fil | Størrelse / Omfang | Beskrivelse |
 |---|---|---|
-| [`kuttflaten_bok.pdf`](kuttflaten_bok.pdf) | 389 s / 6.1 MB | Komplett, trykkeklar PDF i standard bokformat (155 x 230 mm). |
+| [`kuttflaten_bok.pdf`](../../03_FERDIGE_BOKER_PDF/kuttflaten_bok.pdf) | 389 s / 6.1 MB | Komplett, trykkeklar PDF i standard bokformat (155 x 230 mm). |
 | [`KUTTFLATEN_MASTER_MANUSKRIPT.md`](KUTTFLATEN_MASTER_MANUSKRIPT.md) | 8 205 linjer / 494 KB | Det samlede, kanoniske Markdown-manuskriptet. |
-| [`kuttflaten_bok.tex`](kuttflaten_bok.tex) | 545 KB | LaTeX-kildekode for profesjonell typografisk setting. |
+| `kuttflaten_bok.tex` | 545 KB | LaTeX-kildekode for profesjonell typografisk setting. |
 | [`BAKSIDETEKST_BLURB_KUTTFLATEN.md`](BAKSIDETEKST_BLURB_KUTTFLATEN.md) | 2.6 KB | Forlagstekst, baksidetekst og vaskeseddel. |
-| [`build_kuttflaten_bok.py`](build_kuttflaten_bok.py) | 11 KB | Python-kompileringsskript for generering av LaTeX og PDF. |
-| [`assemble_bind1_clean.py`](assemble_bind1_clean.py) | 6.5 KB | Deterministisk sammenstillingsskript fra kildetekster. |
+| `build_kuttflaten_bok.py` | 11 KB | Python-kompileringsskript for generering av LaTeX og PDF. |
+| `assemble_bind1_clean.py` | 6.5 KB | Deterministisk sammenstillingsskript fra kildetekster. |
 
 ---
 

@@ -286,11 +286,11 @@ $$\Delta p = \big\lvert P(+\lvert\gamma_A) - P(+\lvert\gamma_B) \big\rvert = \fr
 
 La $\mathcal{F} = C^\infty(K, \text{Lor}(K))$ være Fréchet-rommet av glatte Lorentz-metrikker over et kompakt verdensrør $K \subset \mathcal{M}_4$ langs observatørbanen $x^\mu(\tau)$, og definer det skalare krumningsfunksjonalet $\mathcal{J}: \mathcal{F} \to C^\infty([0, T], \mathbb{R}_{\ge 0})$ ved:
 
-$$\mathcal{J}[g](\tau) \equiv \frac{\lvert \nabla_u \Psi_2[g](\tau) \rvert^2}{\lvert \Psi_2[g](\tau) \rvert^{8/3} + \eta_0}$$
+$$\mathcal{J}g (`\tau`) \equiv \frac{\lvert \nabla_u \Psi_2g (`\tau`) \rvert^2}{\lvert \Psi_2g (`\tau`) \rvert^{8/3} + \eta_0}$$
 
-**Teorem A.1 (Fréchet-Derivasjon av Admisjonskjernen $D_{\text{adm}}[g]$).** *Funksjonalet $D_{\text{adm}}[g](\tau) = \exp(-\alpha\mathcal{J}[g](\tau))$ er kontinuerlig Fréchet-deriverbart på det åpne området $\mathcal{U} = \{g \in \mathcal{F} : \lvert\Psi_2[g]\rvert > 0\}$, og dets første Fréchet-deriverte i retning av en metrisk perturbasjon $h_{\mu\nu} = \delta g_{\mu\nu}$ er den lineære operatoren $DD_{\text{adm}}[g]\cdot h$:*
+**Teorem A.1 (Fréchet-Derivasjon av Admisjonskjernen $D_{\text{adm}}[g]$).** *Funksjonalet $D_{\text{adm}}g (`\tau`) = \exp(-\alpha\mathcal{J}g (`\tau`))$ er kontinuerlig Fréchet-deriverbart på det åpne området $\mathcal{U} = \{g \in \mathcal{F} : \lvert\Psi_2[g]\rvert > 0\}$, og dets første Fréchet-deriverte i retning av en metrisk perturbasjon $h_{\mu\nu} = \delta g_{\mu\nu}$ er den lineære operatoren $DD_{\text{adm}}[g]\cdot h$:*
 
-$$DD_{\text{adm}}[g](\tau)\cdot h = -\alpha\,D_{\text{adm}}[g](\tau)\left[ \frac{2\,\text{Re}\big( (\overline{\nabla_u\Psi_2}) \, D(\nabla_u\Psi_2)[g]\cdot h \big)}{\lvert\Psi_2\rvert^{8/3} + \eta_0} - \frac{8}{3}\frac{\lvert\nabla_u\Psi_2\rvert^2\,\lvert\Psi_2\rvert^{2/3}\,\text{Re}\big(\bar{\Psi}_2\, D\Psi_2[g]\cdot h\big)}{\big(\lvert\Psi_2\rvert^{8/3} + \eta_0\big)^2} \right]$$
+$$DD_{\text{adm}}g (`\tau`)\cdot h = -\alpha\,D_{\text{adm}}g (`\tau`)\left[ \frac{2\,\text{Re}\big( (\overline{\nabla_u\Psi_2}) \, D(\nabla_u\Psi_2)[g]\cdot h \big)}{\lvert\Psi_2\rvert^{8/3} + \eta_0} - \frac{8}{3}\frac{\lvert\nabla_u\Psi_2\rvert^2\,\lvert\Psi_2\rvert^{2/3}\,\text{Re}\big(\bar{\Psi}_2\, D\Psi_2[g]\cdot h\big)}{\big(\lvert\Psi_2\rvert^{8/3} + \eta_0\big)^2} \right]$$
 
 *der den lineariserte Weyl-skalaren $D\Psi_2[g]\cdot h$ i Newman–Penrose-tetradet er gitt eksakt ved andreordens kovariante deriverte av $h_{\mu\nu}$:*
 
@@ -298,7 +298,7 @@ $$D\Psi_2[g]\cdot h = \frac{1}{2}\ell^\mu m^\nu \bar{m}^\alpha n^\beta \Big(\nab
 
 Overføringsfunksjonen $\mathcal{T}_{\text{L1}}: \mathcal{F} \to \{0, V_0\}$ som styrer det galvaniske relékuttet i kontrollaget $\mathcal{H}$, er nå entydig definert som komposisjonen av den glatte Fréchet-funksjonalen $D_{\text{adm}}[g]$ og den subdifferensielle komparator-resolventen ved terskel $\tau_{\text{crit}} = e^{-\alpha \mathcal{J}_{\max}} \in (0, 1)$:
 
-$$V_{\text{out}}\big([g]\big)(\tau) = V_0 \cdot \Pi_{[0,1]}\!\left( \frac{D_{\text{adm}}[g](\tau) - \tau_{\text{crit}}}{1 - \tau_{\text{crit}}} \right), \qquad \Omega_{\text{relay}}\big([g]\big) = \begin{cases} V_0 \;\;(\text{OPEN}), & D_{\text{adm}}[g](\tau) \ge \tau_{\text{max}} \\ 0\text{ V}\;\;(\text{HOLD}), & \tau_{\text{crit}} \le D_{\text{adm}}[g](\tau) < \tau_{\text{max}} \\ 0\text{ V}\;\;(\text{KILL, låst}), & D_{\text{adm}}[g](\tau) < \tau_{\text{crit}} \end{cases}$$
+$$V_{\text{out}}\big([g]\big)(\tau) = V_0 \cdot \Pi_{[0,1]}\!\left( \frac{D_{\text{adm}}g (`\tau`) - \tau_{\text{crit}}}{1 - \tau_{\text{crit}}} \right), \qquad \Omega_{\text{relay}}\big([g]\big) = \begin{cases} V_0 \;\;(\text{OPEN}), & D_{\text{adm}}g (`\tau`) \ge \tau_{\text{max}} \\ 0\text{ V}\;\;(\text{HOLD}), & \tau_{\text{crit}} \le D_{\text{adm}}g (`\tau`) < \tau_{\text{max}} \\ 0\text{ V}\;\;(\text{KILL, låst}), & D_{\text{adm}}g (`\tau`) < \tau_{\text{crit}} \end{cases}$$
 
 ### A.2 Renset Strukturell Korrespondansetabell (Kun Matematisk Beviste Overføringer)
 

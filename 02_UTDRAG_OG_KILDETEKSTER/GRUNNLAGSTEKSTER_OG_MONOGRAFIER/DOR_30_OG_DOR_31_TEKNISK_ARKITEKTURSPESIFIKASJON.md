@@ -185,7 +185,7 @@ Dør 31 opprettholder den symbiotiske balansen gjennom ti spesialiserte kontroll
 
 ## 6. Universell Seleksjonslov, $\mathrm{SUSY}^2$ og Meta-Admissibilitet ($\mathrm{KY}^2$)
 
-Dør 31 inverterer det tradisjonelle synet innen reguleringsteori, hvor kontroll oppfattes som en ekstern kraft som tvinger et system mot et dynamisk mål. I Gemini-Core gjelder i stedet prinsippet om at kontroll ikke er vilkårlig styring, men eksistens innenfor tillatt struktur.
+Dør 31 inverterer det tradisjonelle synet innen reguleringsteori, hvor kontroll oppfattes som en ekstern kraft som tvinger et system mot et dynamisk mål. I Reismann-Core gjelder i stedet prinsippet om at kontroll ikke er vilkårlig styring, men eksistens innenfor tillatt struktur.
 
 Dette aksiomet formaliseres gjennom **Den Universelle Seleksjonsloven (*Trilogy Lock*)**:
 
@@ -261,12 +261,12 @@ $$\mathcal{W}^2_{t+1} = \mathcal{H}(H_{\text{prev}} \parallel \Phi \parallel \ta
 
 Mangler denne forhåndssigneringen, nekter porten å åpne, og styrespenningen klemmes til $0.00\,\text{V DC}$.
 
-### Deterministisk `L1`-Verifikasjon i `Gemini-Core`
+### Deterministisk `L1`-Verifikasjon i `Reismann-Core`
 
 Den samlede realiseringsarkitekturen for Dør 30 og Dør 31 er implementert og verifisert i kjørbar Python-programvare på **`L1`-nivå** (lokalt demonstrert programvare):
 
-* **`door30_orchestrator` (`03_ENGINES/door30_orchestrator/`):** Samtlige **20 av 20** enhetstester er bekreftet `PASS` (`0.004s`). Testene verifiserer feillukket oppførsel i samtlige ti organer ($U_1\text{–}U_{10}$), holomorf obstruksjon og spline-latch, Den Epistemiske Lagrangianen med DSR-kollaps, Landauer-regnskap, Poincaré-returdrift og $\text{Witness}^2$ pre-commit.
-* **`door31_symbiotic_machine` (`03_ENGINES/door31_symbiotic_machine/`):** Samtlige **24 av 24** enhetstester er bekreftet `PASS` (`0.010s`). Testene verifiserer *Trilogy Lock*, $\mathrm{SUSY}^2$-terskeldynamikk, $\mathrm{KY}^2$-typeprogresjon med snarveiforbud, HPIS 6-faktor energibarriere, organene $Z_1\text{–}Z_{10}$ og Hotellsymmetriens paringer.
+* **`door30_orchestrator` (`door30_orchestrator/`):** Samtlige **20 av 20** enhetstester er bekreftet `PASS` (`0.004s`). Testene verifiserer feillukket oppførsel i samtlige ti organer ($U_1\text{–}U_{10}$), holomorf obstruksjon og spline-latch, Den Epistemiske Lagrangianen med DSR-kollaps, Landauer-regnskap, Poincaré-returdrift og $\text{Witness}^2$ pre-commit.
+* **`door31_symbiotic_machine` (`door31_symbiotic_machine/`):** Samtlige **24 av 24** enhetstester er bekreftet `PASS` (`0.010s`). Testene verifiserer *Trilogy Lock*, $\mathrm{SUSY}^2$-terskeldynamikk, $\mathrm{KY}^2$-typeprogresjon med snarveiforbud, HPIS 6-faktor energibarriere, organene $Z_1\text{–}Z_{10}$ og Hotellsymmetriens paringer.
 
 I domenesimuleringen *Project Værn Valkyrie / NORKAP-1* (Dokument 118, `L1`-simulert ISAC-modell for $77\text{–}81\,\text{GHz}$) testes samme portlogikk mot euklidsk fasediskriminering: dersom en simulert støykilde injiserer en fasegradient som gir $|\sin\theta| > 1.0$, faller observasjonen inn i det ufysiske området $\mathbb{C} \setminus [-1, 1]$, og `L1`-motoren utløser momentant `JAMMING_KILL` ($0.00\,\text{V DC}$). Tilsvarende utløses `STORM_STASIS` ($0.00\,\text{V DC}$) ved simulert geomagnetisk solstorm ($Kp \ge 7.0$), der stasislåsen holdes lukket inntil miljøet er normalisert og gyldig operatørsignatur foreligger.
 

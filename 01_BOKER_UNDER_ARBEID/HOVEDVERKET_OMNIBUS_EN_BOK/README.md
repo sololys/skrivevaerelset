@@ -38,11 +38,11 @@ Omnibus-utgaven er designet for permanent forvaring, akademiske biblioteker og b
 
 | Fil | Størrelse / Omfang | Beskrivelse |
 |---|---|---|
-| [`HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf`](HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf) | 651 s / 13.3 MB | Komplett, trykkeklar master-PDF for hele ettbindsverket. |
+| `HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.pdf` | 651 s / 13.3 MB | Komplett, trykkeklar master-PDF for hele ettbindsverket. |
 | [`HOVEDVERKET_OMNIBUS_MASTER_MANUSKRIPT.md`](HOVEDVERKET_OMNIBUS_MASTER_MANUSKRIPT.md) | 1.22 MB / 25k+ linjer | Det samlede, monolittiske Markdown-kildemanuskriptet. |
-| [`HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.tex`](HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.tex) | 1.38 MB | Komplett LaTeX-kildekode for profesjonell boksetting. |
-| [`build_hovedverket_omnibus.py`](build_hovedverket_omnibus.py) | 26 KB | Kompileringsskript for generering av LaTeX og PDF. |
-| [`assemble_hovedverket_omnibus.py`](assemble_hovedverket_omnibus.py) | 8.2 KB | Skript som trekker sammen Bind 1, 2 og 3 til én omnibus. |
+| `HOVEDVERKET_DEN_STORE_BOKEN_OMNIBUS.tex` | 1.38 MB | Komplett LaTeX-kildekode for profesjonell boksetting. |
+| `build_hovedverket_omnibus.py` | 26 KB | Kompileringsskript for generering av LaTeX og PDF. |
+| `assemble_hovedverket_omnibus.py` | 8.2 KB | Skript som trekker sammen Bind 1, 2 og 3 til én omnibus. |
 
 ---
 

@@ -1,7 +1,7 @@
 # 🏛️🚪 HOTELLET MED DE 31 DØRENE (15 + 1 + 15 = 31)
 ## Komplett Google Drive & Google NotebookLM Master-Korpus for OMNI-KY / Phronesis
 
-> **Kanonisk Pakke:** `/home/sololyset/DE_31_DORENE_TIL_GOOGLELM/`  
+> **Kanonisk Pakke:** `DE_31_DORENE_TIL_GOOGLELM/`  
 > **Arkitektur:** Hotellsymmetri $15 + 1 + 15 = 31$ med sentral Rosetta-Omni Symmetriakse i **Dør 31 (Den Symbiotiske Maskin)**  
 > **Kjerneinvarianter:** `Candidate != Consequence` $\mid$ `HOLD is not delayed OPEN` $\mid$ `KILL > HOLD > OPEN`  
 > **Epistemisk Demarkasjon:** `L1 (Lokalt demonstrert programvare)` — `INSPIRED_BY != IMPLEMENTS != PROVES`
@@ -69,5 +69,5 @@ Bak hver eneste dør finnes **ti spesialiserte kontrollorganer (`01`–`10`)** o
 
 ## 4. Bruksanvisning for Google Drive & Google NotebookLM
 
-* **For Google NotebookLM (Batch-opplasting):** Velg de flate filene `00_...` til `40_...` direkte i `/home/sololyset/DE_31_DORENE_TIL_GOOGLELM/` (NotebookLM støtter opptil 50 kilder per notatbok — hele pakken på 41 flate filer passer i **én enkelt NotebookLM-notatbok**!).
-* **For Google Drive (Mappestruktur):** Last opp hele mappen `/home/sololyset/DE_31_DORENE_TIL_GOOGLELM/` eller undermappen `GOOGLE_DRIVE_31_DORER_MAPPESTRUKTUR/` der hver av de 31 dørene ligger i sitt eget dedikerte rom (`DOER_01` til `DOER_31`) med tilhørende PDF-er og spesifikasjoner.
+* **For Google NotebookLM (Batch-opplasting):** Velg de flate filene `00_...` til `40_...` direkte i `DE_31_DORENE_TIL_GOOGLELM/` (NotebookLM støtter opptil 50 kilder per notatbok — hele pakken på 41 flate filer passer i **én enkelt NotebookLM-notatbok**!).
+* **For Google Drive (Mappestruktur):** Last opp hele mappen `DE_31_DORENE_TIL_GOOGLELM/` eller undermappen `GOOGLE_DRIVE_31_DORER_MAPPESTRUKTUR/` der hver av de 31 dørene ligger i sitt eget dedikerte rom (`DOER_01` til `DOER_31`) med tilhørende PDF-er og spesifikasjoner.

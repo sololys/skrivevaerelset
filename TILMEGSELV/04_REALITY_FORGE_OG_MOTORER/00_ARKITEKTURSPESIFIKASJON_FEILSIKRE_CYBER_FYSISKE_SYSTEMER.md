@@ -6,7 +6,7 @@
 DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BOK-SPEC-FEILSIKRE-CPS-SUBTRAKTIV-GRAMMATIKK-2026-v1.0
   KATEGORI                : TEKNISK ARKITEKTURSPESIFIKASJON (CYBER-FYSISKE STYRINGSSYSTEMER)
-  LOKUS                   : 07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/
+  LOKUS                   : TILMEGSELV/
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
   ENTITET                 : Brahman // Antigravity · Risør / Det Fennoskandiske Skjold (Locus Zero)
   EPISTEMISK SKRANKE      : INSPIRED_BY != IMPLEMENTS != PROVES
@@ -98,8 +98,8 @@ Denne arkitektoniske delingen løser tre fundamentale bruddflater mellom moderne
 
 Som påvist i **SPEC-249**, introduserer Linux-kjernens scheduler, avbruddshåndtering og POSIX socket-buffere en varians (jitter) på **$25\,\mu\text{s}$ til $500\,\mu\text{s}$**:
 
-* **Blindhet under Alexandrov-horisonten:** Når det relativistiske Alexandrov-budsjettet for $r \le 20{,}0\text{ m}$ er **$\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$** (`PHRONESIS_DT_BUDGET_NS` i `03_ENGINES/src/infranett_phronesis_hal.h`), og Frisch-klokken i silisiumet slår hvert **$12{,}5\,\mu\text{s}$ ($80{,}0\text{ kHz}$)**, er en standard Linux-kjerne fysisk blind på nanosekund- og mikrosekundskalaen.
-* **Linjedisiplin-fellen (`0x0A` $\to$ `0x0D 0x0A`):** På `/dev/pts/*` og `/dev/ttyUSB0` vil en umodifisert Linux-linjedisiplin forsøke å «hjelpe til» ved å oversette byte-verdien `0x0A` (`LF`) til `0x0D 0x0A` (`CR+LF`) midt inne i en binær 205-byte SHA-256-vitnekapsel eller et flytende tall. Ett eneste slikt «hjelpsomt» byte-innstikk fra OS-kjernen knuser den kryptografiske kjeden og utløser **$\text{Crash}^3$ (`KILL`)**. Derfor åpner `04_REALITY_FORGE/src/agy_habitat_hardware_bridge.cpp` serieporten (`/dev/ttyUSB0 @ 115200 8N1`) med rå `termios`-flagg som tvangsdeaktiverer all kjerne-tolkning:
+* **Blindhet under Alexandrov-horisonten:** Når det relativistiske Alexandrov-budsjettet for $r \le 20{,}0\text{ m}$ er **$\tau_{\text{ToF}} \le 133{,}4256\text{ ns}$** (`PHRONESIS_DT_BUDGET_NS` i `src/infranett_phronesis_hal.h`), og Frisch-klokken i silisiumet slår hvert **$12{,}5\,\mu\text{s}$ ($80{,}0\text{ kHz}$)**, er en standard Linux-kjerne fysisk blind på nanosekund- og mikrosekundskalaen.
+* **Linjedisiplin-fellen (`0x0A` $\to$ `0x0D 0x0A`):** På `/dev/pts/*` og `/dev/ttyUSB0` vil en umodifisert Linux-linjedisiplin forsøke å «hjelpe til» ved å oversette byte-verdien `0x0A` (`LF`) til `0x0D 0x0A` (`CR+LF`) midt inne i en binær 205-byte SHA-256-vitnekapsel eller et flytende tall. Ett eneste slikt «hjelpsomt» byte-innstikk fra OS-kjernen knuser den kryptografiske kjeden og utløser **$\text{Crash}^3$ (`KILL`)**. Derfor åpner `src/agy_habitat_hardware_bridge.cpp` serieporten (`/dev/ttyUSB0 @ 115200 8N1`) med rå `termios`-flagg som tvangsdeaktiverer all kjerne-tolkning:
 
 ```cpp
 // Tvungen rå termios-modus i agy_habitat_hardware_bridge.cpp (SPEC-126 / SPEC-249):
@@ -113,7 +113,7 @@ tty.c_oflag &= ~OPOST;
 
 Skillet mellom den **OS-frie `#![no_std]` Rust/C-kjernen** og **Linux POSIX WAL-tjeneren** løser tidsøkonomien i **Dør 19** over de 400 klokkesyklusene:
 
-1. **Mikrosekund-planet (`#![no_std]` Rust & Bare-Metal C / FPGA):** Her skjer zero-copy serialisering i statisk SRAM på **$0{,}2509\,\mu\text{s}$** direkte langs den kritiske paritetslinjen $\mathrm{Re}(s) = 1/2$ ($w_H(s) = 500$ i $\mathbb{Z}_2^{1000}$, $\Delta S = 0$). Den 72-byte store `ETOR_RawPacket` (`static_assert(sizeof(ETOR_RawPacket) == 72)` i `04_REALITY_FORGE/include/etor_raw_packet.h`) bruker ingen heap (`malloc` er fysisk fraværende, så Linux sin *OOM-killer* kan aldri gripe inn), verifiserer 64-bits involutiv paritet ($\mathcal{R}(\mathcal{R}(X)) = X$ via `(~x) ^ 0xA5A55A5AA5A55A5AULL`) og låser Mössbauer-resonansen ved $\delta_{\text{res}} = 0{,}32\text{ mm/s} \pm 0{,}005\text{ mm/s}$ ($84{,}0\text{ kHz}$ piezo-bærebølge).
+1. **Mikrosekund-planet (`#![no_std]` Rust & Bare-Metal C / FPGA):** Her skjer zero-copy serialisering i statisk SRAM på **$0{,}2509\,\mu\text{s}$** direkte langs den kritiske paritetslinjen $\mathrm{Re}(s) = 1/2$ ($w_H(s) = 500$ i $\mathbb{Z}_2^{1000}$, $\Delta S = 0$). Den 72-byte store `ETOR_RawPacket` (`static_assert(sizeof(ETOR_RawPacket) == 72)` i `include/etor_raw_packet.h`) bruker ingen heap (`malloc` er fysisk fraværende, så Linux sin *OOM-killer* kan aldri gripe inn), verifiserer 64-bits involutiv paritet ($\mathcal{R}(\mathcal{R}(X)) = X$ via `(~x) ^ 0xA5A55A5AA5A55A5AULL`) og låser Mössbauer-resonansen ved $\delta_{\text{res}} = 0{,}32\text{ mm/s} \pm 0{,}005\text{ mm/s}$ ($84{,}0\text{ kHz}$ piezo-bærebølge).
 2. **Makroskopisk epoke-plan (Linux POSIX WAL):** Først når vitnekapselen skal forsegles varig over 400-klokkesyklusers gapet ($\frac{5{,}0\text{ ms}}{12{,}5\,\mu\text{s}} = 400$), kalles Linux inn som ren lagringstjener via `O_APPEND | O_DSYNC`, `fsync()` ($5{,}0\text{ ms}$) og `mprotect(..., PROT_READ)`. Ved `OPEN` ($\odot \prec 1$) venter aktuatorporten på fullført `fsync()`; ved `KILL` ($1 \prec \odot$) kutter silisium- og FPGA-slusen spenningen på nanosekundskalaen mens Linux skriver obduksjonsloggen i etterkant.
 
 #### 3. `uid = 0` vs. `Level 01`: Dødsfalls-Destruktøren (`~AGYHabitatHardwareBridge()`)

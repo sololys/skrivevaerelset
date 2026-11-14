@@ -9,7 +9,7 @@
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **FRONTISPIS // DET INVOLUTTE TREET — PLANSJE II.1**  
-> ![Anortositten og kammeret -3400m](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_granitt_anortositt_spektralkammer.jpg)  
+> *[Plansje: Anortositten og kammeret -3400m (`morandi_granitt_anortositt_spektralkammer.jpg`)]*  
 > *«3 400 meter nede i det prekambriske skjoldet. Anortositten som absorberer kontinentets støy: Fjellet dømmer ikke sannhet; det gjør det umulig for simuleringen å late som.»*
 
 >  **FRONTLOVEN // KORPUS 0 (MEISLET I GRANITT):**  
@@ -3220,7 +3220,7 @@ ________________
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Tenkerne med de geometriske formene. Geometriens uavhengige skranke: Variasjonsprinsippet understøttet av Moreau-sweeping; bare de banene som respekterer kjeglen, overlever.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/thinkers_with_geometric_forms.jpg)  
+> *[Plansje: Tenkerne med de geometriske formene. Geometriens uavhengige skranke: Variasjonsprinsippet understøttet av Moreau-sweeping; bare de banene som respekterer kjeglen, overlever. (`thinkers_with_geometric_forms.jpg`)]*  
 > *«Tenkerne med de geometriske formene. Geometriens uavhengige skranke: Variasjonsprinsippet understøttet av Moreau-sweeping; bare de banene som respekterer kjeglen, overlever.»*
 
 ---
@@ -3877,7 +3877,7 @@ ________________
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Kovariant transformasjon under projeksjon. Koordinatfri formulering av skrankene: Romtidens krumning som autorisert deformasjon under retur.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/tensor_kovariant_transformasjon_diagram.png)  
+> *[Plansje: Kovariant transformasjon under projeksjon. Koordinatfri formulering av skrankene: Romtidens krumning som autorisert deformasjon under retur. (`tensor_kovariant_transformasjon_diagram.png`)]*  
 > *«Kovariant transformasjon under projeksjon. Koordinatfri formulering av skrankene: Romtidens krumning som autorisert deformasjon under retur.»*
 
 ---
@@ -6581,7 +6581,7 @@ $$
 ________________
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Casimir-reléet i stasis. Maskinvareankeret i silisium og fjell: Fravær av energi som fysisk holdekraft, galvanisk brudd ved uautorisert overgang.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/casimir_relay_stasis.jpg)  
+> *[Plansje: Casimir-reléet i stasis. Maskinvareankeret i silisium og fjell: Fravær av energi som fysisk holdekraft, galvanisk brudd ved uautorisert overgang. (`casimir_relay_stasis.jpg`)]*  
 > *«Casimir-reléet i stasis. Maskinvareankeret i silisium og fjell: Fravær av energi som fysisk holdekraft, galvanisk brudd ved uautorisert overgang.»*
 
 ---
@@ -10087,7 +10087,7 @@ ________________
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE**  
-> ![Kausalkvartetten og gravitasjonens anker. Den fireleddede demarkasjonen mellom informasjon, energi, liv og masse: Intet teorem kan omgå massens fysiske nærvær.](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/causal_stack_gravity.jpg)  
+> *[Plansje: Kausalkvartetten og gravitasjonens anker. Den fireleddede demarkasjonen mellom informasjon, energi, liv og masse: Intet teorem kan omgå massens fysiske nærvær. (`causal_stack_gravity.jpg`)]*  
 > *«Kausalkvartetten og gravitasjonens anker. Den fireleddede demarkasjonen mellom informasjon, energi, liv og masse: Intet teorem kan omgå massens fysiske nærvær.»*
 
 ---

@@ -1,10 +1,10 @@
-# PORTAL-HEKSADEN: Gemini-Core, BRAHMAN.1, Skriveværelset, Monolitten, Realiseringsgrammatikk og KreativSystems.1 (`00_PORTALEN_STILLASET_OG_SLUSEN.md`)
+# PORTAL-HEKSADEN: Reismann-Core, BRAHMAN.1, Skriveværelset, Monolitten, Realiseringsgrammatikk og KreativSystems.1 (`00_PORTALEN_STILLASET_OG_SLUSEN.md`)
 
 `[ FLIS: 00 (PORTAL-HEKSADEN I–VI) | AKSE: ARKITEKTUR / LYSBRO & LUFTGAP / SKRIVEVÆRELSET / MONOLITTEN / REALISERINGSGRAMMATIKK / SVEISESØMMEN & KULELAGERET | STATUS: LÅST (γ*_00) | TETRADE: L -> A -> J -> D -> Π_K, Ω ]`
 
 ---
 
-### I. GEMINI-CORE: Stillaset mellom skrivebordets hvite støy og havets tyngde ($\gamma_{00,\text{I}}^*$)
+### I. REISMANN-CORE: Stillaset mellom skrivebordets hvite støy og havets tyngde ($\gamma_{00,\text{I}}^*$)
 
 Et kart som strekker seg over tolv sektorer, fem hundre spesifikasjoner og mer enn to og et halvt tusen automatiserte tester, kan ved første blikk forveksles med en festning reist for å stenge verden ute. Likevel hviler hele denne konstruksjonen på den motsatte erkjennelsen: at menneskesinnet ikke tåler det grenseløse trykket fra en friksjonsløs maskinell flom uten fysiske vegger som nekter å gi etter. Mellom skrivebordets hvite støy og havets tyngde utenfor Risør er arkitekturen hogd frem som et stillas. Den er ikke bygget for å erstatte tankens frie sprang, men for å skjerme rommet der en tanke overhodet kan puste før den krever plass i materien.
 
@@ -93,7 +93,7 @@ Porten åpner seg aldri bare fordi tiden går. Først når geometrien består pr
 * **Nedstrøms fuge (`-> Flis 01`):**
   > **`[ FUGE 00 -> 01 ]`** *Fra stillaset, de fem millimeterne kald luft, kalken på gulvet, messingsplinten ved 1 200 newton, dansen gjennom E-TOR-slusen og sveisesømmen utenfor Vinga rettes blikket mot sjøkartet på bordet og kjølen i sundet.*
 * **Portal-Heksadens arkitektoniske dekning (6 portaler $\leftrightarrow$ 6-kolonners sporbarhetslov `Påstand -> Forutsetninger -> Kilde -> Kode@Rev -> Test -> HOLD`):**
-  1. **Del I (`GEMINI-CORE`):** Monorepoets tolv sektorer, fem hundre spesifikasjoner og $2\,500+$ tester ($\text{Stillaset} \to \Phi \to \Pi_K \to \Omega_{\text{HOLD}} \to W_{\text{ext}}$).
+  1. **Del I (`REISMANN-CORE`):** Monorepoets tolv sektorer, fem hundre spesifikasjoner og $2\,500+$ tester ($\text{Stillaset} \to \Phi \to \Pi_K \to \Omega_{\text{HOLD}} \to W_{\text{ext}}$).
   2. **Del II (`BRAHMAN.1`):** De $1\,538$ enhetstestene, Lysbroens invarianter (`d/dt(HOLD) = 0`, eksplisitt evidens-ID, append-only `reset`), $5{,}0\text{ mm}$ luftgap og hånden på bakelittbryteren.
   3. **Del III (`SKRIVEVÆRELSET`):** Tetraden i ren skrivekunst — oppmålingen med kalk i mørket ($L$), glimtet på den andre siden av kløften og Gödels skranke ($A$), pustens lengde og tungens treghet mot tom pynt ($J \to \Pi_K, \Omega$), og planken kilt fast i sporet ($D \to W_{\text{ext}}$).
   4. **Del IV (`MONOLITTEN`):** Alle fysiske konstanter samlet i ren fortelling — $4\,096$ vs. $1$, $2{,}7\text{ \AA}$ kaliumkanal / 18-krone-6 ($10\,000:1$ selektivitet), $2{,}6523\text{ zJ/bit}$ og Marie Curies kladdebøker i Rue Lhomond (1898), $133{,}4256\text{ ns}$ over $20\text{ m}$ ($8\,\mu\text{J}$), $30\text{ s}$ ravfarget `HOLD`, $141{,}100998\text{ kg}$ massebalanse, $400$ klokkeslag ($5\text{ ms}$ $\odot \prec 1$ vs. $1 \prec \odot$), $7{,}3\,^\circ\text{C}$, $1\,200\text{ N}$ messingsplint og $5\text{ byte}$ Gödel-slakk ($256 - 251 = 5\text{ B}$).

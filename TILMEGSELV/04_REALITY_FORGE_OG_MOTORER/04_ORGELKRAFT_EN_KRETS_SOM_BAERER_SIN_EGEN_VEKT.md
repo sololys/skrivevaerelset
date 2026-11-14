@@ -25,7 +25,7 @@ I systemspesifikasjonen **OrgelKraft (`SPEC-PODS-PENTAD-RB-12`)** lukkes dette b
 $$\text{Masse}_{\text{inn}} = \text{Masse}_{\text{ut}} = 141{,}10099788325846\text{ kg} \implies \Delta R = 0$$
 
 \begin{center}
-\includegraphics[width=0.60\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_05_orgelkraft_18_crown_6_grunnfjellet.jpg}\\[0.3em]
+\includegraphics[width=0.60\textwidth]{BILDER/bw_05_orgelkraft_18_crown_6_grunnfjellet.jpg}\\[0.3em]
 {\footnotesize \textit{Orgelet i grunnfjellet (\texttt{SPEC-PODS-PENTAD-RB-12}, $\Delta R = 0$): Kaskadekolonnene boltet i fjellhallen over den passive smeltepluggtanken, med det heksagonale \texttt{18-Crown-6}-selektivitetsfilteret ($2{,}7\text{ \AA}$) i utsnittet.}}
 \end{center}
 

@@ -24,7 +24,7 @@
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE III.4**  
-> ![Symposiet ved porten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/thinkers_dialogue_table%20(1).jpg)  
+> *[Plansje: Symposiet ved porten (`thinkers_dialogue_table (1`)]*.jpg)  
 > *«Symposiet ved porten. Sokrates, Nietzsche, Watts, Næss, Feynman, Waters, Teknikeren, Nash, Kua, Rommet, Ibsen og Verten. Sannheten må ha gulv og vegger før den får bli dom; livet og kjærligheten foregår i intervallet mellom null og én.»*
 
 ---

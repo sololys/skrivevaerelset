@@ -241,7 +241,7 @@ END STREAM.
 
 ## VI. Kapslenes Integrasjon i Databasens Livssyklus (`CANONICAL_TYPE_CHAIN`)
 
-I realiseringsmotoren (`03_ENGINES/door31_symbiotic_machine`, `door27_network`, `door22_commit`) styrer de sju kapslene overgangenes typestige:
+I realiseringsmotoren (`door31_symbiotic_machine`, `door27_network`, `door22_commit`) styrer de sju kapslene overgangenes typestige:
 
 $$\mathrm{RAW} (\bigcirc) \longrightarrow \mathrm{ESTIMATE} (\emptyset) \longrightarrow \mathrm{STRUCT} (\Box) \longrightarrow \mathrm{VIABILITY} (\diamondsuit/\odot) \longrightarrow \mathrm{COMMITTED} (@/\bullet)$$
 

@@ -310,4 +310,4 @@ EPISTEMISK DEKLARASJON & BEGRENSNINGER:
   Gödels roterende metrikk $ds^2 = \frac{1}{2\omega^2}\bigl(-dt^2 + dx^2 + \frac{1}{2}e^{2x}dy^2 + dz^2 - 2e^x dt\,dy\bigr)$ tillater lukkede tidsliknende kurver ($\mathrm{CTCs}$), som forbys av kronologifilteret $\mathrm{CTCs} \notin \Gamma_{\text{phys}}$. *«Merkur måler vinglingen, Gödel forklarer skyggen.»*
 
 ### 3. Hotellet med de 31 Dørene ($15 + 1 + 15 = 31$ Symmetriaksen)
-Hele arkitekturen fra rå sansning til ugjenkallelig commit er partisjonert over 31 fail-closed dører (`03_ENGINES/door01_gallery` til `door31_symbiotic_machine`, `812/812` enhetstester bestått), der hvert speilpar $(k, 31-k)$ balanseres gjennom **Dør 31 (Den Symbiotiske Maskin)**.
+Hele arkitekturen fra rå sansning til ugjenkallelig commit er partisjonert over 31 fail-closed dører (`door01_gallery` til `door31_symbiotic_machine`, `812/812` enhetstester bestått), der hvert speilpar $(k, 31-k)$ balanseres gjennom **Dør 31 (Den Symbiotiske Maskin)**.

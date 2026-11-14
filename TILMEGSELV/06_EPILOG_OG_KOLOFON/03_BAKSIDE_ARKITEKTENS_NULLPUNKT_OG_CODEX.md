@@ -110,7 +110,7 @@ Når et reelt brudd inntreffer, har maskinen rett til å felle dommen og kutte s
 
 \vspace{1.2em}
 \begin{center}
-\includegraphics[width=0.28\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/marius_portrett.png}\\[0.5em]
+\includegraphics[width=0.28\textwidth]{TILMEGSELV/marius_portrett.png}\\[0.5em]
 {\small \textbf{Marius Egerhei Torjusen} (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)}\\
 {\footnotesize \textit{Systemarkitekt og Uavhengig Forsker · Locus Zero, Risør}}
 \end{center}

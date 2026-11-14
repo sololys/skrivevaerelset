@@ -16,7 +16,7 @@ MINIMALIS-AKSIOMET // GRUNNLOV 0:
 ## 1. Den Lokale Reduksjonen
 
 \begin{center}
-\includegraphics[width=0.68\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_01_leirbaalet_og_ambolten.jpg}\\[0.3em]
+\includegraphics[width=0.68\textwidth]{BILDER/bw_01_leirbaalet_og_ambolten.jpg}\\[0.3em]
 {\footnotesize \textit{Verkstedbenken i Risør (Locus Zero): Ambolten, Morandis krukke, det frosne timeglasset, meiselen og den åpne knivbryteren ved $0{,}00\text{ V DC}$ på det fennoskandiske grunnfjellet.}}
 \end{center}
 

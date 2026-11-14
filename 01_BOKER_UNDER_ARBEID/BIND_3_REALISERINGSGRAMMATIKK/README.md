@@ -36,12 +36,12 @@ HOVEDVERKET // BIND III AV TRILOGIEN:
 
 | Fil | Størrelse / Omfang | Beskrivelse |
 |---|---|---|
-| [`realiseringsgrammatikk_bok.pdf`](realiseringsgrammatikk_bok.pdf) | 257 s / 3.0 MB | Komplett, trykkeklar PDF i format 155 x 230 mm. |
+| [`realiseringsgrammatikk_bok.pdf`](../../03_FERDIGE_BOKER_PDF/realiseringsgrammatikk_bok.pdf) | 257 s / 3.0 MB | Komplett, trykkeklar PDF i format 155 x 230 mm. |
 | [`REALISERINGSGRAMMATIKK_MASTER_MANUSKRIPT.md`](REALISERINGSGRAMMATIKK_MASTER_MANUSKRIPT.md) | 5 051 linjer / 358 KB | Det samlede kanoniske kildemanuskriptet. |
-| [`realiseringsgrammatikk_bok.tex`](realiseringsgrammatikk_bok.tex) | 376 KB | LaTeX-kildekode for typografisk boksetting. |
+| `realiseringsgrammatikk_bok.tex` | 376 KB | LaTeX-kildekode for typografisk boksetting. |
 | [`MERKUR_OG_STJERNEKARTET_KOSMISK_ENIGMA.md`](MERKUR_OG_STJERNEKARTET_KOSMISK_ENIGMA.md) | 44 KB | Spesiell traktat om Merkurs residualanomali og kosmisk navigasjon. |
-| [`build_realiseringsgrammatikk_bok.py`](build_realiseringsgrammatikk_bok.py) | 18 KB | Kompileringsskript for generering av LaTeX og PDF. |
-| [`assemble_bind3_clean.py`](assemble_bind3_clean.py) | 6.1 KB | Sammenstillingsskript fra grunnlagstekster. |
+| `build_realiseringsgrammatikk_bok.py` | 18 KB | Kompileringsskript for generering av LaTeX og PDF. |
+| `assemble_bind3_clean.py` | 6.1 KB | Sammenstillingsskript fra grunnlagstekster. |
 
 ---
 

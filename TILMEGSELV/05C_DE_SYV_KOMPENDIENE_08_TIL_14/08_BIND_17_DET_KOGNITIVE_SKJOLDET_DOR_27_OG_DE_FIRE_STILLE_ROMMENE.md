@@ -7,7 +7,7 @@ DOKUMENTSTATUS & KANONISK METADATA:
   DOKUMENT-ID             : BIND-XVII-DET-KOGNITIVE-SKJOLDET-2026
   FORFATTER               : Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637 // WoS: PJT-0190-2026)
   JURISDIKSJON            : Katedralen (Bind XVII) <-> Smia (MONOLITH IV // sololys/RTDRA — Vitne #70)
-  L1-MOTOR & VERIFIKASJON : 03_ENGINES/door27_network/src/door27_network/ux_cognitive_shield.py (13/13 PASS)
+  L1-MOTOR & VERIFIKASJON : ux_cognitive_shield.py (13/13 PASS)
   TARSKI-ANKER (ROM/TID)  : 0xFFFA (65 530 B, ΔB_Tarski = 5 B) <-> Δt_Tarski = 30,0 s (D = 0, L > 0)
   EPISTEMISK SKRANKE      : INSPIRED_BY != IMPLEMENTS != PROVES
 ========================================================================================
@@ -72,7 +72,7 @@ $$\text{Candidate} \neq \text{Consequence}, \qquad \mathrm{KILL} \succ \mathrm{H
 
 ### 3.1 De fem asymmetriske wetware-slusene i `ux_cognitive_shield.py`
 
-I produksjonsmotoren `03_ENGINES/door27_network/src/door27_network/ux_cognitive_shield.py` håndheves fem ortogonale forsvarsmekanismer:
+I produksjonsmotoren `ux_cognitive_shield.py` håndheves fem ortogonale forsvarsmekanismer:
 
 1. **Sluse 1 — `SignalGatingShield` ($5\sigma$ Admissibilitets-slusen):**  
    Leksikalske markører for panikk og hastverk (`«sperres»`, `«umiddelbart»`, `«2 minutter»`, `«klikk her»`) flagges før de når synsnerven. Mangler avsenderen kryptografisk signatur ($M_1 \dots M_4$), isoleres meldingen i `GREY_BOX_ISOLATED` (`HOLD`), affektivt språk nøytraliseres, og alle hyperlenker deaktiveres (`links_clickable = False`).

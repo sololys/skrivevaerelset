@@ -42,7 +42,7 @@ Ingen kandidat kan hoppe over mellomliggende trinn. Ved diskrepans på ethvert t
 ## II. $257:1$-loven og eliminering av kvantiseringsbånd
 
 \begin{center}
-\includegraphics[width=0.72\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_06_pixel_257_til_1_granitt.jpg}\\[0.3em]
+\includegraphics[width=0.72\textwidth]{BILDER/bw_06_pixel_257_til_1_granitt.jpg}\\[0.3em]
 {\footnotesize \textit{Kjerneprøve I ($257:1$-loven i pikselert 1-bits relieff): Grov 8-bits trappetrinnsdiskretisering ($\Delta Q_{8\text{-bit}} = 1/255$, semantisk bånddannelse) til venstre mot 16-bits intervallbevarende oppløsning ($\Delta Q_{16\text{-bit}} = 1/65\,535$, Bayer-dithering og Fennoskandisk granitt) til høyre, atskilt av det galvaniske luftgapet på $5{,}0\text{ mm}$ ved $0{,}00\text{ V DC}$.}}
 \end{center}
 

@@ -1,8 +1,8 @@
 # 34 — Bokhylla Bind X: *EINSTEIN & FELTLIGNINGENE — Non Generatur, Sed Admittitur* (Mpub v3.1)
 
 **Forfatter:** Marius Egerhei Torjusen (Reismann-punktet Systemer, 2026)  
-**Kilde:** [`07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/10_EINSTEIN_ZENODO_KOMPENDIUM/EINSTEIN_MONOGRAFI_NON_GENERATUR_SED_ADMITTITUR.pdf`](../../07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/10_EINSTEIN_ZENODO_KOMPENDIUM/EINSTEIN_MONOGRAFI_NON_GENERATUR_SED_ADMITTITUR.pdf)  
-**Godot `L1` Motor:** [`04_REALITY_FORGE/RealityForge_Godot/scripts/einstein_bind_x_admissibility_engine.gd`](../../04_REALITY_FORGE/RealityForge_Godot/scripts/einstein_bind_x_admissibility_engine.gd) (`6/6 PASS`)
+**Kilde:** [`EINSTEIN_MONOGRAFI_NON_GENERATUR_SED_ADMITTITUR.pdf`](../../03_FERDIGE_BOKER_PDF/EINSTEIN_MONOGRAFI_NON_GENERATUR_SED_ADMITTITUR.pdf)  
+**Godot `L1` Motor:** `einstein_bind_x_admissibility_engine.gd` (`6/6 PASS`)
 
 > **Demarkasjon (`L1`):** Programvaremotorene og de numeriske verifikasjonene er lokalt demonstrert programvare (`L1`). De respekterer grensen $\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$, og bruker append-only hash-kjeder som programvare-vitner, ikke som fysisk WORM-maskinvare.
 
@@ -89,8 +89,8 @@ $$\Delta p = |P(+|\gamma_A) - P(+|\gamma_B)| = \frac{1}{2}e^{-\alpha\bar{d}_H}\l
 
 ## Vedlegg A: Fréchet-Forriglet Isomorfi Mellom Weyl-Kjernen og `L1`-Kuttet ($\mathcal{H}$)
 
-- **Teorem A.1 (Fréchet-derivert for overføringsfunksjonen $\Psi_{B\to A}$):** Enhver komponent i kontrollrommet $\mathcal{H}$ (Nivå A) er bildet av en eksakt, kontinuerlig Fréchet-deriverbar overføringsfunksjon $DD_{\text{adm}}[g](\tau)\cdot h$ fra Lorentz-mangfoldigheten $\mathcal{Y}$ (Nivå B), ned til det galvaniske relékuttet:
-  $$V_{\text{out}}([g])(\tau) = V_0 \cdot \Theta(D_{\text{adm}}[g](\tau) - \tau_{\text{crit}})$$
+- **Teorem A.1 (Fréchet-derivert for overføringsfunksjonen $\Psi_{B\to A}$):** Enhver komponent i kontrollrommet $\mathcal{H}$ (Nivå A) er bildet av en eksakt, kontinuerlig Fréchet-deriverbar overføringsfunksjon $DD_{\text{adm}}g (`\tau`)\cdot h$ fra Lorentz-mangfoldigheten $\mathcal{Y}$ (Nivå B), ned til det galvaniske relékuttet:
+  $$V_{\text{out}}([g])(\tau) = V_0 \cdot \Theta(D_{\text{adm}}g (`\tau`) - \tau_{\text{crit}})$$
 
 
 ---
@@ -231,10 +231,10 @@ $$\Delta p = |P(+|\gamma_A) - P(+|\gamma_B)| = \frac{1}{2}e^{-\alpha\bar{d}_H}\l
 | Lag / Funksjon | Relativistisk Mangfoldighet $\mathcal{Y}$ (Nivå B) | Eksakt Overføringsfunksjon $\Psi_{B\to A}$ | Kontrollrom & Maskinvare $\mathcal{H}$ (Nivå A) |
 | :--- | :--- | :--- | :--- |
 | **Projeksjon** | Moreau-resolvent $\Pi_{\mathcal{A}} = (I + N_{\mathcal{A}})^{-1}$ | $\xi_t = (I - \Pi_{\mathcal{A}})\Phi(y_t) \in N_{\mathcal{A}}(y_{t+1})$ | Metrisk metningsklemme i kontrollsløyfen |
-| **Ustabilitets-sensor** | Weyl-admisjonskjerne $D_{\text{adm}}[g](\tau)$ | Fréchet-derivert $DD_{\text{adm}}[g](\tau)\cdot h$ (Teorem A.1) | Fasederivert feildetektor ($6,8\times$ forsterkning, Dør 10) |
+| **Ustabilitets-sensor** | Weyl-admisjonskjerne $D_{\text{adm}}g (`\tau`)$ | Fréchet-derivert $DD_{\text{adm}}g (`\tau`)\cdot h$ (Teorem A.1) | Fasederivert feildetektor ($6,8\times$ forsterkning, Dør 10) |
 | **Grenseflate** | Kovariant eikonal-port $P_{\mathcal{K}}^{(\epsilon)}(d(x))$ ($\epsilon \ge 2l_P$) | $\Sigma_{\mu\nu}^{\text{irr}} \propto \epsilon^{-2}\mathrm{sech}^4(d/2\epsilon)$ | Glatt barrierefunksjon med båndbredde $\epsilon > 0$ (Dør 13) |
 | **Regulering** | Elliptisk Nash-operator $\mathcal{N}(g) = \Delta_g R = 0$ | Nash–Moser-skjema med glatting $S_{\theta_k}$ i $\mathcal{F} = \bigcap H^s$ | Aktiv `HOLD`-regulering i bufferbeltet $B = (0,1)$ |
-| **Avskjæring** | Subdifferensial / Cauchy-horisont $r_-$ | $V_{\text{out}}([g])(\tau) = V_0\Theta(D_{\text{adm}}[g](\tau) - \tau_{\text{crit}})$ | Galvanisk relékutt til $0,00\text{ V DC}$ (`KILL`) |
+| **Avskjæring** | Subdifferensial / Cauchy-horisont $r_-$ | $V_{\text{out}}([g])(\tau) = V_0\Theta(D_{\text{adm}}g (`\tau`) - \tau_{\text{crit}})$ | Galvanisk relékutt til $0,00\text{ V DC}$ (`KILL`) |
 | **Historielogg** | Skjevt produkt $\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$ | Nedre-triangulær Jakobi: $\partial y_{t+1}/\partial W_t \equiv 0$ | En-veis tilstandslogg uten tilbakevirkning til $\mathcal{Y}$ |
 
 ---

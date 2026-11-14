@@ -13,7 +13,7 @@
 > **Demarkasjon:** `INSPIRED_BY != IMPLEMENTS != PROVES`  
 
 >  **FRONTISPIS // DET INVOLUTTE TREET — PLANSJE I.1**  
-> ![Masten på det ytterste skjær](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/nordic_mast_skerry_1788202914852.jpg)  
+> *[Plansje: Masten på det ytterste skjær (`nordic_mast_skerry_1788202914852.jpg`)]*  
 > *«Masten på det ytterste skjær. Det faste holdepunktet i brenningen: Frihet er ikke fravær av mast; frihet er å være bundet når stormen krever konsekvens.»*
 
 >  **FRONTLOVEN // KORPUS 0 (MEISLET I GRANITT):**  
@@ -511,7 +511,7 @@ Vi bør skrive dette som neste del, rett etter prologen:
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE I.2**  
-> ![Odyssevs bundet til masten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/odysseus_firm_mast_1788199122302.jpg)  
+> *[Plansje: Odyssevs bundet til masten (`odysseus_firm_mast_1788199122302.jpg`)]*  
 > *«Odyssevs bundet til masten. Sirenenes sang er kandidatrommets uendelige lokkerop; tauene er systemets strukturelle HOLD. Uten masten finnes ingen styring, bare skipbrudd under friksjonens fravær.»*
 
 ---
@@ -1031,7 +1031,7 @@ Moden ledelse vet når verden ikke bør flyttes ennå.
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE I.3**  
-> ![Kroppens anortositt-kammer](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_granitt_anortositt_spektralkammer.jpg)  
+> *[Plansje: Kroppens anortositt-kammer (`morandi_granitt_anortositt_spektralkammer.jpg`)]*  
 > *«Kroppens anortositt-kammer. Affektregulering og somatisk motstand: Før en impuls blir motorisk handling, må den bære sin egen mineralitet. Stillheten i bergartens kjerne er kroppens fail-closed vern mot affektiv overoppheting.»*
 
 ---
@@ -1041,7 +1041,7 @@ Moden ledelse vet når verden ikke bør flyttes ennå.
 # DEL II: DET SOMATISKE KUTTET OG KROPPENS ARKITEKTUR
 
 >  **DET INVOLUTTE TREET — PLANSJE I.3**  
-> ![Kroppen som port](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/morandi_hjerne_stilleben.jpg)  
+> *[Plansje: Kroppen som port (`morandi_hjerne_stilleben.jpg`)]*  
 > *«Kroppen som port. Hjernen er ikke en antenne for ubegrenset generering; den er et fail-closed filter: Ingenting kommer inn, noe slutter bare å bli holdt ute.»*
 
 # Selvledelse: Å være leder i eget liv
@@ -1870,7 +1870,7 @@ Jeg husker.
 ---
 
 >  **DET INVOLUTTE TREET — PLANSJE I.4**  
-> ![Punktet og banen](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/the_point_and_the_path.jpg)  
+> *[Plansje: Punktet og banen (`the_point_and_the_path.jpg`)]*  
 > *«Punktet og banen. AI-modellen genererer et uendelig antall diskrete punkter; realiseringsgrammatikken krever en sammenhengende, bærbar bane. Uten kuttflaten forveksles statistisk projeksjon med fysisk tilstedeværelse.»*
 
 ---
@@ -3715,7 +3715,7 @@ Mørk materie: når virkningen er tydeligere enn bæreren I gravitasjonsrommet f
 │ — [ Blad skåret ut ved bokryggen ] —
 
 >  **DET INVOLUTTE TREET — PLANSJE I.5**  
-> ![Merkurs residual](06_RESEARCH/2026-03-24-residual-map.png)  
+> *[Plansje: Merkurs residual (`2026-03-24-residual-map.png`)]*  
 > *«Merkurs residual. Det minimale avviket på 43 buesekunder per århundre som veltet Newtons univers og beviste at virkeligheten nekter å lyve for modellen. Residualet skal verken dyrkes eller drepes; det skal bevitnes: RESIDUAL → WITNESS → REVISION.»*
 
 ---
@@ -3841,7 +3841,7 @@ $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det um
 # DEL IV: DET KOSMISKE SNITTET: MERKURS RESIDUAL
 
 >  **DET INVOLUTTE TREET — PLANSJE I.4**  
-> ![Merkurs avvik og radaren i vinternatten](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/nordic_silence_radar_1788202897113.jpg)  
+> *[Plansje: Merkurs avvik og radaren i vinternatten (`nordic_silence_radar_1788202897113.jpg`)]*  
 > *«Merkurs residual. Det lille avviket som nekter å underkaste seg newtonsk harmoni, og som tvinger frem en dypere geometri. Residualet skal verken dyrkes eller drepes; det skal bevitnes.»*
 
 # Interludium: Merkur ved porten
@@ -5716,14 +5716,14 @@ $$\boxed{\text{Den Ikke-Løgnende Kjernen dømmer ikke sannhet. Den gjør det um
 > Arkitektens Nullpunkt er KY som romlig myte: et anlegg bygget for å gjøre uuttalt grense, overflødig kraft, operatørvilje og post-hoc løgn strukturelt umulig.
 
 ---
-*Forseglet i [`BOKKANDIDATER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md`](./DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md) // Reismann-Core & Torjusen 2026.*
+*Forseglet i [`BOKKANDIDATER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md`](../../02_UTDRAG_OG_KILDETEKSTER/GRUNNLAGSTEKSTER_OG_MONOGRAFIER/DEN_IKKE_LOGNENDE_KJERNEN_KORPUS_0_FRONTLOVEN.md) // Reismann-Core & Torjusen 2026.*
 
 ---
 
 # EPILOG: KANDIDAT ER IKKE KONSEKVENS
 
 >  **DET INVOLUTTE TREET — PLANSJE I.5**  
-> ![Billedhuggerens råd og kuttets form](04_REALITY_FORGE/BILDER_DET_INVOLUTTE_TREET/sculptors_council_architecture_table.jpg)  
+> *[Plansje: Billedhuggerens råd og kuttets form (`sculptors_council_architecture_table.jpg`)]*  
 > *«Billedhuggerens kutt. Å fjerne stein er den eneste måten formen kan oppstå på. Virkeligheten tåler ingen forteller; den krever utelukkende et vitne.»*
 
 ## KANDIDAT ER IKKE KONSEKVENS

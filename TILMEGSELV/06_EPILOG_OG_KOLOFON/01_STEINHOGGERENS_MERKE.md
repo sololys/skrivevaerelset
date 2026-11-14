@@ -17,7 +17,7 @@ COLOPHON, DIGRESSION CANON & EPIGRAPH:
 ## I. Fra Via Fondazza i Bologna til Verkstedbenken i Risør
 
 \begin{center}
-\includegraphics[width=0.58\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_04_via_fondazza_og_strebebuen.jpg}\\[0.3em]
+\includegraphics[width=0.58\textwidth]{BILDER/bw_04_via_fondazza_og_strebebuen.jpg}\\[0.3em]
 {\footnotesize \textit{Omveiens tektonikk: Morandis krukker, steinhoggerens meisel og merke på verkstedbenken, med katedralens utvendige strebebuer (\textrm{flying buttresses}) forankret i grunnfjellet utenfor vinduet.}}
 \end{center}
 

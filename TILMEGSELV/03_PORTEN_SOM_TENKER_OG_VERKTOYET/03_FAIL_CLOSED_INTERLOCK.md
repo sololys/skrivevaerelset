@@ -16,7 +16,7 @@ FAIL-CLOSED INTERLOCK // KONSEKVENSENS SKRANKE:
 ## 1. Den Fysiske Nødvendigheten av 0,00 V DC
 
 \begin{center}
-\includegraphics[width=0.68\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/bw_02_kobberbryteren_5mm_luftgap.jpg}\\[0.3em]
+\includegraphics[width=0.68\textwidth]{BILDER/bw_02_kobberbryteren_5mm_luftgap.jpg}\\[0.3em]
 {\footnotesize \textit{Menneskehånden ved fjellveggen (\texttt{Level 01}) og tverrsnittet av de herdede returfjærene som holder kobberkontaktene $5{,}0\text{ mm}$ fra hverandre ved $0{,}00\text{ V DC}$ (\texttt{GATE :: HOLD / KILL}).}}
 \end{center}
 

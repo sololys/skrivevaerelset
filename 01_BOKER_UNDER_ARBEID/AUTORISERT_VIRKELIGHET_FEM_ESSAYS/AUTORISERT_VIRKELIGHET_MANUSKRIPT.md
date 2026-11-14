@@ -406,7 +406,7 @@ Det er fast grunn under føttene. Det er autorisert virkelighet.
 **Klassifikasjon:** `L2 Teoretisk Modell & Formell Algebra`  
 **Prinsipp:** $\texttt{INSPIRED\_BY} \neq \texttt{IMPLEMENTS} \neq \texttt{PROVES}$  
 **Dokument-ID:** `ARXIV-ONTOLOGISK-GILJOTIN-KEA-2026-v2.0`  
-**Lokus:** `06_RESEARCH/PAPERS/` & `KY_Language_Projection_Engine_v0.1/08_ArXiv_Drafts_HOLD/`
+**Lokus:** `PAPERS` & `KY_Language_Projection_Engine_v0.1/08_ArXiv_Drafts_HOLD/`
 
 ---
 
@@ -818,7 +818,7 @@ $$\boxed{F(F(s)) \equiv s \iff \Delta S = 0.000 \implies \text{AKUERISAAVOQ}}$$
 │ — [ Blad skåret ut ved bokryggen ] —
 
 > **Dokument-ID:** `RF-CHEM-ANODIC-2026-v1.2`  
-> **Lokus:** [`06_RESEARCH/KATALYSE_FORSKNING/03_BEREGNINGSMODELLER/KPOD_V12_ANODIC_DEPOLARIZATION_DERIVATION.md`](06_RESEARCH/KATALYSE_FORSKNING/03_BEREGNINGSMODELLER/KPOD_V12_ANODIC_DEPOLARIZATION_DERIVATION.md)  
+> **Lokus:** `KPOD_V12_ANODIC_DEPOLARIZATION_DERIVATION.md`  
 > **Forfatter:** LOS (Lead Orbital Systems Navigator) & General Marius  
 > **Klassifisering:** `L1 Beregningsmodell & L2 Elektrokjemisk Scenario`  
 > **Epistemisk Status:** `FORMELT VERIFISERT (L1 Software/Calculus · L3 Labkrevet for Fysisk Påstand)`
@@ -961,7 +961,7 @@ $$\boxed{F(F(s)) \equiv s \iff \Delta G_{\text{net}} \le 0.998\ \text{V} \cdot I
 ## Det Kognitive Skjoldet: Asymmetrisk Grensesnittarkitektur for Wetware-Forsvar mot Mørke Mønstre, Dopaminstøy og Impulsiv Realisering
 
 **Forfatter:** Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)  
-**Tilknytning:** Gemini-Core / Infranett Kognitiv Sikkerhetsarkitektur  
+**Tilknytning:** Reismann-Core / Infranett Kognitiv Sikkerhetsarkitektur  
 **Dato:** September 2026  
 **Status:** L1 PROTOTYPE · DETERMINISTISK KOGNITIV INTERFACE-SPESIFIKASJON  
 **Epistemisk grense:** `INSPIRED_BY != IMPLEMENTS != PROVES`  
@@ -1144,7 +1144,7 @@ Når en handling er klassifisert som en reell, ugjenkallelig konsekvens ($D_2$),
 
 ## 3. Implementasjonsarkitektur i Python (`ux_cognitive_shield.py`)
 
-I repositoryets produksjonsgren er arkitekturen implementert som en fullstendig testet L1-programvarepakke i [`03_ENGINES/door27_network/src/door27_network/ux_cognitive_shield.py`](03_ENGINES/door27_network/src/door27_network/ux_cognitive_shield.py):
+I repositoryets produksjonsgren er arkitekturen implementert som en fullstendig testet L1-programvarepakke i `ux_cognitive_shield.py`:
 
 | Komponent | Klasse i Motor | Invariant & Formel | Epistemisk Utfall |
 | :--- | :--- | :--- | :---: |
@@ -1155,7 +1155,7 @@ I repositoryets produksjonsgren er arkitekturen implementert som en fullstendig 
 | **Sluse 5** | `ThermoKineticThreshold` | $F \ge 2.5\,\text{N}, \tau \ge 7.0\,\text{s}, WORM$ | $\mathrm{REALIZED} / \mathrm{HOLD}$ |
 
 ### 3.1. Testresultater
-Testsuiten [`03_ENGINES/door27_network/tests/test_ux_cognitive_shield.py`](03_ENGINES/door27_network/tests/test_ux_cognitive_shield.py) dekker samtlige fem mekanismer deterministisk:
+Testsuiten `test_ux_cognitive_shield.py` dekker samtlige fem mekanismer deterministisk:
 - `test_01_signal_gating_panic_unverified_isolated`: Uverifisert panikkmelding isoleres i grå boks, lenker deaktiveres ($\mathrm{HOLD}$).
 - `test_02_signal_gating_panic_verified_calmed`: Verifisert bankvarsel avdempes til nøytralt språk ($\mathrm{OPEN}$).
 - `test_04_invariance_pricing_normalization`: 99 kr/mnd normaliseres til 0.495 % av disponibel inntekt og 1 188 kr/år.
@@ -2576,7 +2576,7 @@ Med UOR-koblingen i `C8-POD` er oksygen fjernet fra ligningen på to uavhengige 
 
 ### 7. Kanonisk Spesifikasjonstabell – `SPEC-PODS-OCTANE-04` (Fullcelle UOR + ECH Baseline)
 
-**Kilde:** [`04_C8POD_LIGNIN_OCTANE_SPEC.md`](github_repos/pods-sovereign-bioreactors/docs/04_C8POD_LIGNIN_OCTANE_SPEC.md) | **Motor:** [`c8_lignin_hydrodeoxygenation_engine.py`](github_repos/pods-sovereign-bioreactors/engines/c8_lignin_hydrodeoxygenation_engine.py)
+**Kilde:** `04_C8POD_LIGNIN_OCTANE_SPEC.md` | **Motor:** `c8_lignin_hydrodeoxygenation_engine.py`
 
 │ — [ Blad skåret ut ved bokryggen ] —
 
@@ -3689,7 +3689,7 @@ Med idempotent projeksjon garantert ved $\Pi_A^2 = \Pi_A$.
 
 Det eksisterer en utbredt illusjon om at en utregning er det samme som en handling. I konvensjonell programvare er beregning og iverksettelse tett sammenvevd: et funksjonskall eller et tastetrykk utløser en umiddelbar fysisk konsekvens i den virkelige verden. Dette er en skjebnesvanger forenkling i møte med fysiske systemer.
 
-Dokumentet **[`ENIGMA.md`](ENIGMA.md)** river ned denne illusjonen og presenterer **KY-Enigma**, en kausal intervallgrammatikk og reversibel chifferdemonstrator. Fundamentet hviler på et ufravikelig kardinalaksiom: *Å generere er ikke å autorisere, å realisere er ikke å bevise.* En beregning, uansett hvor kompleks den er, bærer ingen iboende autoritet til å utføre en handling eller forplikte en ny tilstand.
+Dokumentet **`ENIGMA.md`** river ned denne illusjonen og presenterer **KY-Enigma**, en kausal intervallgrammatikk og reversibel chifferdemonstrator. Fundamentet hviler på et ufravikelig kardinalaksiom: *Å generere er ikke å autorisere, å realisere er ikke å bevise.* En beregning, uansett hvor kompleks den er, bærer ingen iboende autoritet til å utføre en handling eller forplikte en ny tilstand.
 
 ---
 
@@ -3826,15 +3826,15 @@ Status `L1` angir utelukkende at den lokale Python-koden kjører og tilfredsstil
 
 | Komponent | Filsti | Omfang |
 | :--- | :--- | :--- |
-| **Kjerne-Motor** | [`03_ENGINES/ENGINES/micro_engines/ky_enigma_engine.py`](03_ENGINES/ENGINES/micro_engines/ky_enigma_engine.py) | Implementasjon av v1.1: 8 tilstander, pre-step double-stepping, og uavhengig autorisasjonsport. |
-| **Normativ Spesifikasjon** | [`00_KANONISK_KJERNE/KY_ENIGMA_v1_1_SPESIFIKASJON.md`](00_KANONISK_KJERNE/KY_ENIGMA_v1_1_SPESIFIKASJON.md) | Formelle rammer, krav og grenser. |
-| **Testsuite** | [`03_ENGINES/tests/test_ky_enigma_engine.py`](03_ENGINES/tests/test_ky_enigma_engine.py) | 8 lokale enhetstester. |
-| **Krysning (ROX-AA)** | [`03_ENGINES/ENGINES/micro_engines/ky_rox_aa_cross_alphabet_engine.py`](03_ENGINES/ENGINES/micro_engines/ky_rox_aa_cross_alphabet_engine.py) | Separasjon av KY-tilstandsrom og ROX-nyttelast. |
+| **Kjerne-Motor** | `ky_enigma_engine.py` | Implementasjon av v1.1: 8 tilstander, pre-step double-stepping, og uavhengig autorisasjonsport. |
+| **Normativ Spesifikasjon** | `KY_ENIGMA_v1_1_SPESIFIKASJON.md` | Formelle rammer, krav og grenser. |
+| **Testsuite** | `test_ky_enigma_engine.py` | 8 lokale enhetstester. |
+| **Krysning (ROX-AA)** | `ky_rox_aa_cross_alphabet_engine.py` | Separasjon av KY-tilstandsrom og ROX-nyttelast. |
 
 ### Hva testene verifiserer (og hva de ikke dekker)
 Kjøring av testsuiten:
 ```bash
-PYTHONPATH=03_ENGINES python3 -m unittest 03_ENGINES/tests/test_ky_enigma_engine.py
+PYTHONPATH=. python3 -m unittest test_ky_enigma_engine.py
 ```
 * **Hva som er verifisert i de testede tilfellene (8/8 tester):**
   1. Alfabetet er strengt begrenset til ASCII A–Z (ugyldige tegn avvises uten rotorskritt).
@@ -4872,8 +4872,7 @@ Kontrollene omfatter balanserte og gamle ubalanserte reaksjoner, begge elektrode
 JSON-utskriften er en modellberegning. Den er ikke sensordata. Python bruker eksakte rasjonale tall internt; tabellene viser avrundede tall.
 
 Mycelin-koden som ble kontrollert har blob SHA 1437365dec26fc5a66de27ea99e21f05b379c100:
-Blob-SHA identifiserer filinnhold. Den lesbare kildeplasseringen er:
-https://github.com/sololys/pods-sovereign-bioreactors/blob/main/engines/pod_mycelin_solid_state_reactor_engine.py
+Blob-SHA identifiserer filinnhold for modulen `pod_mycelin_solid_state_reactor_engine.py` (L1-verifikasjonsmodul).
 
 Innholdssamsvar gjelder den oppgitte blob-SHA-en. Koden loggfører allerede Ghost-Payoff-KILL og har if-betingelsen. I-POD- og C8-implementasjonene i brukerens presisering er ikke kontrollert i denne arbeidsøkten.
 
@@ -4893,7 +4892,7 @@ Jæren-WORMs økologiske og finansielle påstander frigis ikke av denne massebal
 
 Document ID: SPEC-PODS-SYSTEM-06  
 Revision: 1.2, 14 October 2026  
-Normative numerical reference: [Corrected reference balance](12_POD_PENTAD_v1_2_KORRIGERT_REFERANSEBALANSE.md)  
+Normative numerical reference: Corrected reference balance (`12_POD_PENTAD_v1_2_KORRIGERT_REFERANSEBALANSE.md`)  
 Status: corrected analytical specification; physical performance and implementation conformance require separate evidence.
 
 ## 1. Architecture and boundaries
@@ -5116,8 +5115,8 @@ New implementation conformance shall cover one-shot authorization, replay, crash
 
 Document ID: SPEC-PODS-PROCESS-07  
 Revision: 1.2, 14 October 2026  
-Numerical source: [Corrected reference balance](12_POD_PENTAD_v1_2_KORRIGERT_REFERANSEBALANSE.md)  
-System requirements: [Technical system description](06_SOVEREIGN_POD_TETRAD_TECHNICAL_SYSTEM_DESCRIPTION_EN.md)
+Numerical source: Corrected reference balance (`12_POD_PENTAD_v1_2_KORRIGERT_REFERANSEBALANSE.md`)  
+System requirements: Technical system description (`06_SOVEREIGN_POD_TETRAD_TECHNICAL_SYSTEM_DESCRIPTION_EN.md`)
 
 ## 1. Read the system through its material streams
 

@@ -2,7 +2,7 @@
 
 ## Operasjonelt sammendrag
 
-Spesifikasjon, parser og testmatrise for KY v1.0-standarden er deterministisk implementert i L1 (`03_ENGINES/ENGINES/micro_engines/ky_parser.py` og `03_ENGINES/tests/test_ky_parser.py`). Arkitekturen er strengt fail-closed. All konvertering av mønster til strukturert form underkastes $\Pi_K$-projeksjon. Udefinerte overganger og residualer som overskrider $\tau_K$ rutes ubetinget til `KILL`. Ingen semantikk innrømmes uten forutgående bevitnelse (*Witness*). Koden benytter kun Python-standardbiblioteker for å unngå uautoriserte avhengigheter, og tvinger frem et deterministisk resultat for ethvert uttrykk.
+Spesifikasjon, parser og testmatrise for KY v1.0-standarden er deterministisk implementert i L1 (`ky_parser.py` og `test_ky_parser.py`). Arkitekturen er strengt fail-closed. All konvertering av mønster til strukturert form underkastes $\Pi_K$-projeksjon. Udefinerte overganger og residualer som overskrider $\tau_K$ rutes ubetinget til `KILL`. Ingen semantikk innrømmes uten forutgående bevitnelse (*Witness*). Koden benytter kun Python-standardbiblioteker for å unngå uautoriserte avhengigheter, og tvinger frem et deterministisk resultat for ethvert uttrykk.
 
 ---
 

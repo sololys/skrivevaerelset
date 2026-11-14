@@ -33,7 +33,7 @@ $$\mathcal{U}_i(s_t, i_t) = \det(I - \gamma J_{\text{Nash}})^{-1}\,\mathbb{E}\!\
 Ved suveren frakobling ($\gamma = 0 \implies \det(I - 0\cdot J_{\text{Nash}}) = 1$) mister eksterne, riggede spillbrett enhver koblingskraft over agentens interne tilstand.
 
 \begin{center}
-\includegraphics[width=0.96\textwidth]{/home/sololyset/07_BOKHYLLA_MONOGRAFIER_OG_BOKVERK/07_TIL_MEG_SELV_KONSEPTUELL_GRANITT/BILDER/spec113_p_vs_np_kompleksitetsbro_blueprint.jpg}\\[0.4em]
+\includegraphics[width=0.96\textwidth]{BILDER/spec113_p_vs_np_kompleksitetsbro_blueprint.jpg}\\[0.4em]
 {\footnotesize \textit{Figur 3.2 (SPEC-113 / SPEC-117): Kompleksitetsbroen $\mathbf{P}$ mot $\mathbf{NP}$ og kausalt snitt i porten. Vi løser ikke $\mathbf{P} = \mathbf{NP}$ inne i porten — vi fjerner eksistenskvantifikatoren $\exists w$ fra portens domene ved å kreve et ferdig pakket 205-byte vitnepar ($119\text{ B } W_{\text{pre}} + 86\text{ B } W_{\text{post}}$) som verifiseres i konstant tid $\mathcal{O}(1)$ i SystemVerilog RTL under hierarkiet $\texttt{KILL} \succ \texttt{TRAP} \succ \texttt{HOLD} \succ \texttt{OPEN}$.}}
 \end{center}
 
