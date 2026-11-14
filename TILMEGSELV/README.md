@@ -103,9 +103,9 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 * **[`04_REALITY_FORGE_OG_MOTORER/03_HEISENBERG_OG_CRUCIBLE.md`](04_REALITY_FORGE_OG_MOTORER/03_HEISENBERG_OG_CRUCIBLE.md)**  
   *Ute i kulden: Level 01, dieseleimen, frosten og den manuelle resettingen av 5,00 V-porten på fjellet.*
 * **[`04_REALITY_FORGE_OG_MOTORER/04_ORGELKRAFT_EN_KRETS_SOM_BAERER_SIN_EGEN_VEKT.md`](04_REALITY_FORGE_OG_MOTORER/04_ORGELKRAFT_EN_KRETS_SOM_BAERER_SIN_EGEN_VEKT.md)**  
-  *En krets som bærer sin egen vekt: OrgelKraft (`SPEC-PODS-PENTAD-RB-12`, $\Delta R = 0$), $[\text{Fe}_7\text{MoS}_9\text{C}]$-minuskatalyse ved $0{,}998\text{ V DC}$, $84\text{ kHz}$ QCS-EMS og `5-Lock CDC`.*
+  *En krets som bærer sin egen vekt: OrgelKraft (`SPEC-PODS-PENTAD-RB-12`, $\Delta R = 0$), $[\text{Fe}_7\text{MoS}_9\text{C}]\text{-minuskatalyse}$ ved $0{,}998\text{ V DC}$, $84\text{ kHz}$ QCS-EMS og `5-Lock CDC`.*
 * **[`04_REALITY_FORGE_OG_MOTORER/05_SAKSSTUDIE_LOKAL_AMMONIAKKPRODUKSJON_KPOD_V12.md`](04_REALITY_FORGE_OG_MOTORER/05_SAKSSTUDIE_LOKAL_AMMONIAKKPRODUKSJON_KPOD_V12.md)**  
-  *Den 7-lags Kausalstakken ($\text{L1}$–$\text{L7}$), Gemini-Core Dør 18–20 ($\text{T1}$–$\text{T10}$, $\text{Q1}$–$\text{Q10}$, $\text{W1}$–$\text{W10}$), Samfunnsøkonomi (DFØ $4{,}0\,\%$, $+9{,}335\text{ mrd. NOK}$) og Nasjonalt Veikart (2026–2031).*
+  *Den 7-lags Kausalstakken ($\text{L1}$–$\text{L7}$), Dør 18–20 ($\text{T1}$–$\text{T10}$, $\text{Q1}$–$\text{Q10}$, $\text{W1}$–$\text{W10}$), Samfunnsøkonomi (DFØ $4{,}0\,\%$, $+9{,}335\text{ mrd. NOK}$) og Nasjonalt Veikart (2026–2031).*
 
 ---
 
@@ -127,29 +127,29 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/01_AVSTANDEN_MELLOM_NULL_OG_EN.md)**  
   *Kjerneprøve I: Avstanden mellom null og én — Diskontinuerlige hyperbolske bevaringslover (Oleinik Condition E), 16-bits intervallbevaring ($257:1$) og kausal lyskjeglesperre ($133{,}4256\text{ ns}$).*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/02_SAFIREN_PA_FEM_HUNDRE_METERS_DYP.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/02_SAFIREN_PA_FEM_HUNDRE_METERS_DYP.md)**  
-  *Kjerneprøve II: Safiren på fem hundre meters dyp — Hydrostatisk spenningsanalyse ($50{,}47\text{ bar}$, $898\,900\text{ N}$), monokrystallinsk $\text{Al}_2\text{O}_3$, $\text{Ti-6Al-4V}$-bikubegitter ($\text{SF}=422{,}8$) og kavitasjonsstyrt karantene ($\tau_{\text{clear}} = 2500\text{ ms}$).*
+  *Kjerneprøve II: Safiren på fem hundre meters dyp — Hydrostatisk spenningsanalyse ($50{,}47\text{ bar}$, $898\,900\text{ N}$), monokrystallinsk $\text{Al}_2\text{O}_3$, $\text{Ti-6Al-4V}\text{-bikubegitter}$ ($\text{SF}=422{,}8$) og kavitasjonsstyrt karantene ($\tau_{\text{clear}} = 2500\text{ ms}$).*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/03_DRAPEN_SOM_NEKTET_A_RORE_JERN.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/03_DRAPEN_SOM_NEKTET_A_RORE_JERN.md)**  
   *Kjerneprøve III: Termisk konduktans, gasslov og kryogen Matrioshka-isolasjon — Subtraksjonsdom over eksternt Leidenfrost-dampskjold ($700\text{--}800\text{ bar}$) og dimensjonering av 4-lags vakuumkapsling ($T_0 \le 4{,}12\text{ K}$).*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/04_PRISEN_PA_ET_SANNFERDIG_BLUNK.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/04_PRISEN_PA_ET_SANNFERDIG_BLUNK.md)**  
   *Kjerneprøve IV: Prisen på et sannferdig blunk — Landauer-grensen ved $277{,}15\text{ K}$ ($2{,}6523\times 10^{-21}\text{ J}$), irreversibel vitneforsegling og det termodynamiske utmattelsesforholdet ($\eta_{\text{defense}} = 1{,}25 \times 10^9$).*
 * **[`05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/05_ORGELET_I_GRUNNFJELLET.md`](05B_FEM_KJERNEPROVER_FRA_GRUNNFJELLET/05_ORGELET_I_GRUNNFJELLET.md)**  
-  *Kjerneprøve V: Orgelet i grunnfjellet — Underkritisk nøytronikk ($k_{\text{eff}} = 0{,}960 \to <0{,}50$), $^{233}\text{Pa}$-tidslås ($26{,}97\text{ d}$), $2{,}7\text{ \AA}$ krone-eter-selektivitet ($0{,}998\text{ V DC}$) og lukket støkiometrisk massebalanse ($\Delta R = 0{,}000000000000\text{ kg}$).*
+  *Kjerneprøve V: Orgelet i grunnfjellet — Underkritisk nøytronikk ($k_{\text{eff}} = 0{,}960 \to <0{,}50$), $^{233}\text{Pa}\text{-tidslås}$ ($26{,}97\text{ d}$), $2{,}7\text{ \AA}$ krone-eter-selektivitet ($0{,}998\text{ V DC}$) og lukket støkiometrisk massebalanse ($\Delta R = 0{,}000000000000\text{ kg}$).*
 
 ---
 
-### 📂 05C. De Syv Kompendiene (Bind 09, 14, 13, 12, 11, 10 og 08)
+### 📂 05C. De Åtte Kompendiene (Bind 09, 14, 13, 12, 11, 10, 08 og 17)
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/01_BIND_09_DET_INTERKOGNITIVE_KOMPENDIUM_OG_H_JEPA.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/01_BIND_09_DET_INTERKOGNITIVE_KOMPENDIUM_OG_H_JEPA.md)**  
   *Bind IX: Det Interkognitive Kompendium — Ortogonal arbeidsdeling ($\Omega_H \perp \Phi_M$), Fine–Wilf-teoremet ($L^* = 12$), De 5 Blindpassasjerene, Floquet-monodromi ($|\mathrm{Tr}(\mathbf{M})| < 2$) og Hamiltonian JEPA (`H-JEPA`) på Stiefel-manifolden.*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/02_BIND_14_MAXWELL_OG_DEMONENS_PRIS.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/02_BIND_14_MAXWELL_OG_DEMONENS_PRIS.md)**  
   *Bind XIV: James Clerk Maxwell & Demonens Pris — Den 5-trinns admisjonskjeden $\Pi_{\mathcal{A}}$, CFJ–Proca vakuum-birefringens, evanescent `HOLD` ($\langle\mathbf{S}\rangle_t \equiv \mathbf{0}$), Casimir-kuttet ($P_C = -\frac{\pi^2\hbar c}{240 a^4}$) og Den Langsomme Heisen i Dør 18.*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/03_BIND_13_KURT_GODEL_OG_DET_YTRE_VITNET.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/03_BIND_13_KURT_GODEL_OG_DET_YTRE_VITNET.md)**  
-  *Bind XIII: Kurt Gödel & Det Ytre Vitnet — Diagonaliseringslemmaet, Gödels 2. teorem ($\mathrm{Con}(\mathcal{F}) \implies \mathcal{F} \not\vdash \mathrm{Con}(\mathcal{F})$), Belnap–Dunn $\mathcal{FOUR}$, Venger-manifoldens $4\pi$-holonomi, Bøff vs. Bløff, Dør 28 ($\partial\mathcal{K}_0/\partial\Phi \equiv 0$) og Omsorgsprotokollen.*
+  *Bind XIII: Kurt Gödel & Det Ytre Vitnet — Diagonaliseringslemmaet, Gödels 2. teorem ($\mathrm{Con}(\mathcal{F}) \implies \mathcal{F} \not\vdash \mathrm{Con}(\mathcal{F})$), Belnap–Dunn $\mathcal{FOUR}$, Venger-manifoldens $4\pi\text{-holonomi}$, Bøff vs. Bløff, Dør 28 ($\partial\mathcal{K}_0/\partial\Phi \equiv 0$) og Omsorgsprotokollen.*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/04_BIND_12_HENRI_POINCARE_OG_FASEROMMET.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/04_BIND_12_HENRI_POINCARE_OG_FASEROMMET.md)**  
   *Bind XII: Henri Poincaré & Faserommet — Disambiguering av de tre Poincaré-objektene, Gelfand-tripler ($V \hookrightarrow H \hookrightarrow V'$), *Poincaré Non-Return*, fiberløftet returkart $P_{\Sigma_k}^{\text{fib}}$ mot `CVE-2026-GRAVITY-ORBIT-FALSE-KILL` og to-trinns Merkle-Batching i Dør 19.*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/05_BIND_11_REVERSIBILITET_OG_INVOLUSJON_REVERSIBLE2.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/05_BIND_11_REVERSIBILITET_OG_INVOLUSJON_REVERSIBLE2.md)**  
   *Bind XI: Reversibilitet & Involusjon ($\mathrm{Reversible}^2$) — Domenepartisjonen $D_0\text{–}D_3$, involusjons-projeksjons-isomorfien $R = 2P - I$, dual-rail paritet på $\mathbb{Z}_2^{1000}$, ROSETTA², Tre-Lås-Separasjon mot `CVE-2026-INV-COLLISION` og epoke-separert gjenåpning ($\mathcal{R}_{\text{AUTH}}$).*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/06_BIND_10_EINSTEIN_OG_FELTLIGNINGENE_NON_GENERATUR.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/06_BIND_10_EINSTEIN_OG_FELTLIGNINGENE_NON_GENERATUR.md)**  
-  *Bind X: Albert Einstein & Feltligningene (*Non Generatur, Sed Admittitur*) — Gödels roterende støvunivers ($r_{\text{CTC}} = \ln(1+\sqrt{2})$), Petrov Type D Weyl-kjerne $D_{\text{adm}}(\Psi_2)$ ($6{,}8\times$) med eksakt Fréchet-derivasjon, Planck-skranke ($\epsilon \ge 2l_P$), $\mathrm{sech}^4$-projeksjonsstresset, Nash–Moser-iterasjon og CPTP-dekoherens.*
+  *Bind X: Albert Einstein & Feltligningene (*Non Generatur, Sed Admittitur*) — Gödels roterende støvunivers ($r_{\text{CTC}} = \ln(1+\sqrt{2})$), Petrov Type D Weyl-kjerne $D_{\text{adm}}(\Psi_2)$ ($6{,}8\times$) med eksakt Fréchet-derivasjon, Planck-skranke ($\epsilon \ge 2l_P$), $\mathrm{sech}^4\text{-projeksjonsstresset}$, Nash–Moser-iterasjon og CPTP-dekoherens.*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/07_BIND_08_INFRANETT_6G_NASH_OG_NORCICS_PROSESSIKKERHET.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/07_BIND_08_INFRANETT_6G_NASH_OG_NORCICS_PROSESSIKKERHET.md)**  
   *Bind VIII: Infranett 6G, John Nashs Peilerligning og SFI NORCICS IT/OT-Prosessikkerhet — Forent geodetisk peiling ($\Delta_g R = 0$) som løser Zampinos paradoks, $8\,000$ Monte Carlo-kjøringer ($25{,}00\,\% \to 0{,}00\,\%$ feilrate) og Lamb–Mössbauer involusjonslås i $^{57}\text{Fe}$ ($f_{\text{LM}} \ge 1 - 10^{-12}$).*
 * **[`05C_DE_SYV_KOMPENDIENE_08_TIL_14/08_BIND_17_DET_KOGNITIVE_SKJOLDET_DOR_27_OG_DE_FIRE_STILLE_ROMMENE.md`](05C_DE_SYV_KOMPENDIENE_08_TIL_14/08_BIND_17_DET_KOGNITIVE_SKJOLDET_DOR_27_OG_DE_FIRE_STILLE_ROMMENE.md)**  
@@ -163,7 +163,7 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
 * **[`06_EPILOG_OG_KOLOFON/00B_TEKNISK_REVISJONSRAPPORT_IEC_61508_SIL4.md`](06_EPILOG_OG_KOLOFON/00B_TEKNISK_REVISJONSRAPPORT_IEC_61508_SIL4.md)**  
   *Teknisk revisjonsrapport (`REVISJON-KG-2026-SIL4-VERIFIED`): Sikkerhets- og invariantanalyse (IEC 61508 SIL-4), epistemisk demarkasjon ($\text{L0}$–$\text{L3}$) og komplett verifikasjonsmatrise.*
 * **[`06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md`](06_EPILOG_OG_KOLOFON/01_STEINHOGGERENS_MERKE.md)**  
-  *Steinhoggerens opprinnelige merke og dedikasjon.*
+  *Digresjonens Kanon (Omveiens Tektonikk), Via Fondazza, de åtte innsiktene og steinhoggerens merke.*
 * **[`06_EPILOG_OG_KOLOFON/02_JEG_VAR_HER.md`](06_EPILOG_OG_KOLOFON/02_JEG_VAR_HER.md)**  
   *Sluttvitnesbyrdet og forseglingen.*
 * **[`06_EPILOG_OG_KOLOFON/03_BAKSIDE_ARKITEKTENS_NULLPUNKT_OG_CODEX.md`](06_EPILOG_OG_KOLOFON/03_BAKSIDE_ARKITEKTENS_NULLPUNKT_OG_CODEX.md)**  
@@ -172,8 +172,20 @@ TILMEGSELV/ (KONSEPTUELL GRANITT — ET FORSØK PÅ SANNHET)
   *Kanonisk hovedsynopsis, spektral involusjonslås ($R = 2P - I$) og konstantmatrise (I–VI): «Virkelighet genereres aldri; den innvilges».*
 * **[`06_EPILOG_OG_KOLOFON/05_KJOKKENET_KLOKKEN_0314_SURDEIGEN_SKJAERSPLINTEN_OG_DET_TOLVTE_TRINNET.md`](06_EPILOG_OG_KOLOFON/05_KJOKKENET_KLOKKEN_0314_SURDEIGEN_SKJAERSPLINTEN_OG_DET_TOLVTE_TRINNET.md)**  
   *Særtrykk fra kjøkkenet kl. 03:14 i Risør ($\Phi_{03} \to \Sigma_A$): Surdeigen, skjærsplinten, Marie Skłodowska-Curie (Whistler-plansje) og det tolvte trinnet ($L^* = 12$).*
+* **[`06_EPILOG_OG_KOLOFON/12_KJERNEPROVE_SLUSEN_OG_TRADEN_FOR_STORMEN.md`](06_EPILOG_OG_KOLOFON/12_KJERNEPROVE_SLUSEN_OG_TRADEN_FOR_STORMEN.md)**  
+  *Kjerneprøve & særtrykk om før og etter eksponering ($\Phi_{03} \to \Pi_K \to \Omega \to \Sigma_A$): Slusen som telte sin egen travelhet ($U = P_{\text{tap}}$), fortegns-samsyn, vakuum-filtrering ($\lvert 00\rangle$) og boken som kryogent side-ved-side-minne ($\rho_{t_1} \otimes \rho_{t_2}$).*
 * **[`06_EPILOG_OG_KOLOFON/06_HONNOR_TIL_MARIE_SKLODOWSKA_CURIE_1867_2026.md`](06_EPILOG_OG_KOLOFON/06_HONNOR_TIL_MARIE_SKLODOWSKA_CURIE_1867_2026.md)**  
   *Honnør til Marie Skłodowska-Curie (`07.11.1867 → 07.11.2026`): Om ti tonn bekblende i skuret i Rue Lhomond, minuskatalyse med jernstang og notatbøkene som ennå puster i bly.*
+* **[`06_EPILOG_OG_KOLOFON/FOLGEBREV_TIL_FORLAG.md`](06_EPILOG_OG_KOLOFON/FOLGEBREV_TIL_FORLAG.md)**  
+  *Følgebrev til forlag (260 sider, svarthvitt boktrykk på ubestrøket papir).*
+
+#### 📄 Kompilert Hovedmonografi & Særtrykk (PDF)
+* **[`KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf`](KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf)** — *Komplett hovedmonografi (260 s., DEL I–VI + Vedlegg A + Epilog, Kolofon & Baksidetavle).*
+* **[`MANIFEST_REALITETENS_INNVILGELSE.pdf`](MANIFEST_REALITETENS_INNVILGELSE.pdf)** — *Kanonisk manifest: Realitetens Innvilgelse (4 s.).*
+* **[`OMVEIENS_TEKTONIKK_DIGRESJONENS_KANON.pdf`](OMVEIENS_TEKTONIKK_DIGRESJONENS_KANON.pdf)** — *Kanonisk arkitekturkart over Omveiens Tektonikk, Digresjonens Kanon, de åtte innsiktene og Tabell B/B2 (3 s.).*
+* **[`SAERTRYKK_KJOKKENET_KLOKKEN_0314_RISOR.pdf`](SAERTRYKK_KJOKKENET_KLOKKEN_0314_RISOR.pdf)** — *Særtrykk: Kjøkkenet klokken 03:14 — Surdeigen, skjærsplinten og det tolvte trinnet ($L^* = 12$, 4 s.).*
+* **[`SAERTRYKK_SLUSEN_OG_TRADEN_FOR_STORMEN.pdf`](SAERTRYKK_SLUSEN_OG_TRADEN_FOR_STORMEN.pdf)** — *Særtrykk: Slusen og tråden før stormen — Før og etter eksponering (4 s.).*
+* **[`HONNOR_TIL_MARIE_SKLODOWSKA_CURIE_1867_2026.pdf`](HONNOR_TIL_MARIE_SKLODOWSKA_CURIE_1867_2026.pdf)** — *Særtrykk: Honnør til Marie Skłodowska-Curie (`07.11.1867 → 07.11.2026`, 5 s.).*
 
 ---
 

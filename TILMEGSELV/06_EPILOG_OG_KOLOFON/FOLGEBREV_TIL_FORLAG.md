@@ -2,7 +2,7 @@
 
 **Til:** Redaksjonen for sakprosa  
 **Fra:** Marius Egerhei Torjusen (Risør)  
-**Vedlegg:** Manuskriptet *Konseptuell granitt — Et forsøk på sannhet (Til meg selv)* (171 sider, illustrert i svarthvitt)
+**Vedlegg:** Manuskriptet *Konseptuell granitt — Et forsøk på sannhet (Til meg selv)* (260 sider, illustrert i svarthvitt)
 
 ---
 
@@ -10,7 +10,7 @@
 
 Til sakprosaredaksjonen,
 
-Jeg oversender med dette det ferdige manuskriptet til sakprosaboken ***Konseptuell granitt — Et forsøk på sannhet (Til meg selv)*** (171 sider, illustrert med åtte originale blyant- og kobberstikk-arbeider i rent svarthvitt for fargeløst boktrykk).
+Jeg oversender med dette det ferdige manuskriptet til sakprosaboken ***Konseptuell granitt — Et forsøk på sannhet (Til meg selv)*** (260 sider, illustrert med åtte originale blyant- og kobberstikk-arbeider i rent svarthvitt for fargeløst boktrykk).
 
 ### Hva boken handler om — og hvorfor den mangler i bokhylla
 
@@ -44,7 +44,7 @@ Jeg bor og arbeider i Risør. Som dyslektiker har jeg hele livet tenkt i tredime
 ### Tekniske data for manuskriptet
 
 * **Tittel:** *Konseptuell granitt — Et forsøk på sannhet (Til meg selv)*
-* **Omfang:** 171 A4-sider (8 deler / kamre, komplett med saksstudier, fem kjerneprøver og formell sikkerhetsmatrise)
+* **Omfang:** 260 A4-sider (9 kamre, komplett med saksstudier, kjerneprøver, åtte kompendiebind og formell sikkerhetsmatrise)
 * **Illustrasjoner:** 8 originale svarthvitt blyant- og etsningsillustrasjoner, spesielt utformet for fargeløst trykk på ubestrøket, syrefritt papir (ISO 9706)
 * **Status:** Komplett, gjennomarbeidet manuskript klar til redaksjonell vurdering
 
