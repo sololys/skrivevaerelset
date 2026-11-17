@@ -1,7 +1,7 @@
 # REVERSIBILITET & INVOLUSJON // REVERSIBLE²
 ## En Monografi om Lokal Involusjon ($\text{Rev}^1$), Domenegrensen mot Konsekvens ($\text{Rev}^2$) og Epoke-Separert Gjenåpning
 
-**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0002-9877-5664`)  
+**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0006-0431-6637`)  
 **Arkitektonisk Komposisjon:** Skjevt Produkt ($\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$) — Sammenhengende Norsk Hovedverk ($\mathcal{Y}$) + Lukket Teknisk Vitnevedlegg ($\mathcal{H}$)  
 **Utgave:** `v3.0-MONOLITT`  
 **Dato:** 23. oktober 2026  

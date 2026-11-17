@@ -1,6 +1,6 @@
 # Begrepsforklaring: Fine–Wilf-teoremet og elimineringsmekanismen for spøkelsesmønstre
 
-**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0002-9877-5664`)  
+**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0006-0431-6637`)  
 **Kanonisk Lokus:** `RADIKAL_DESTILLERING/INTERKOGNITIV_MAPPE/19_BEGREPSFORKLARING_FINE_WILF_OG_SPOKELSESMONSTRE.md`  
 **Epistemisk Demarkasjon (`AGENTS.md`):** `L0 Matematisk Teorem (Fine & Wilf, 1965)` $\land$ `L1 Deterministisk Portlogikk` (`INSPIRED_BY != IMPLEMENTS != PROVES`)
 

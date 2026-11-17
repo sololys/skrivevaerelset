@@ -1,7 +1,7 @@
 # KURT GÖDEL & DET YTRE VITNET // UFULLSTENDIGHETENS FYSISKE ANKER
 ## En Monografi om Gödels Andre Teorem, Topologisk Paradoks-Absorpsjon i Venger-Manifolden og Epistemisk Suverenitet
 
-**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0002-9877-5664`)  
+**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0006-0431-6637`)  
 **Arkitektonisk Komposisjon:** Skjevt Produkt ($\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$) — Sammenhengende Norsk Hovedverk ($\mathcal{Y}$) + Lukket Teknisk Vitnevedlegg ($\mathcal{H}$)  
 **Utgave:** `v3.0-MONOLITT`  
 **Dato:** 23. oktober 2026  

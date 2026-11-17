@@ -1,6 +1,6 @@
 # Informasjon er Fysisk: Landauer-prinsippet, Termodynamisk Entropi og Grensene for Silisium og Sinn
 
-**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0002-9877-5664`)  
+**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0006-0431-6637`)  
 **Kanonisk Lokus:** `RADIKAL_DESTILLERING/INTERKOGNITIV_MAPPE/20_BEGREPSFORKLARING_INFORMASJON_ER_FYSISK_LANDAUER_SILISIUM_OG_SINN.md`  
 **Epistemisk Demarkasjon (`AGENTS.md`):** `L0 Statistisk Fysikk (Landauer, 1961)` $\land$ `L1 Kognitiv & Systemisk Hygiene` (`INSPIRED_BY != IMPLEMENTS != PROVES`)
 

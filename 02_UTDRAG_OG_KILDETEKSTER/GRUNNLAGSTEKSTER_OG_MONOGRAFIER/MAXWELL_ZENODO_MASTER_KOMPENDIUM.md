@@ -1,7 +1,7 @@
 # MAXWELL & DEMONENS PRIS // ELEKTRODYNAMISK ADMISJON OG DET SUBTRAKTIVE VAKUUMET
 ## En Monografi om Poynting-Dissipasjon, CFJ–Proca-Birefringens, Casimir-Kuttet og Termodynamisk Bæreevne
 
-**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0002-9877-5664`)  
+**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0006-0431-6637`)  
 **Arkitektonisk Komposisjon:** Skjevt Produkt ($\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$) — Sammenhengende Norsk Hovedverk ($\mathcal{Y}$) + Lukket Teknisk Vitnevedlegg ($\mathcal{H}$)  
 **Utgave:** `v3.0-MONOLITT` (0 % kryss-volum-duplisering mot Bind X)  
 **Dato:** 23. oktober 2026  

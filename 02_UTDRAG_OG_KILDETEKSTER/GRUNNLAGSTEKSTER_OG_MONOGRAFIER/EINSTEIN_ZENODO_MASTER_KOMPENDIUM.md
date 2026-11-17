@@ -1,7 +1,7 @@
 # EINSTEIN & FELTLIGNINGENE // NON GENERATUR, SED ADMITTITUR
 ## En Monografi om Det Epistemiske Kuttet, Krumningens Metriske Pris og Nash–Moser-Regulering i Fréchet-Rom
 
-**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0002-9877-5664`)  
+**Forfatter:** Marius Egerhei Torjusen (ORCID: `0009-0006-0431-6637`)  
 **Arkitektonisk Komposisjon:** Skjevt Produkt ($\mathcal{S}_{\text{tot}} = \mathcal{Y} \times \mathcal{H}$) — Klinisk Matematisk-Fysisk Hovedverk ($\mathcal{Y}$) + Fréchet-Forriglet Teknisk Vitnevedlegg ($\mathcal{H}$)  
 **Utgave:** `v3.1-M_PUB` (KDI-Sanert: 0 anekdoter, 0 epilog-ornamentikk, lukket kausal clutch og eksakt overføringsfunksjon i $\mathcal{H}$)  
 **Dato:** 24. oktober 2026  
