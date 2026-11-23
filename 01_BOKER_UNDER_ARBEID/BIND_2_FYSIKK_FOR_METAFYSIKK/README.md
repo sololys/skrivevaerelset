@@ -41,6 +41,7 @@ HOVEDVERKET // BIND II AV TRILOGIEN:
 | `litisk_kybernetikk_leksikon.tex` | 560 KB | LaTeX-kildekode for to-spalters akademisk praktsetting. |
 | [`00_LEKSIKON_MODULINDEKS.md`](00_LEKSIKON_MODULINDEKS.md) | 19 KB | Komplett modulindeks over samtlige 44 leksikonmoduler. |
 | [`FYSIKK_FOR_METAFYSIKK_BOK_1.md`](FYSIKK_FOR_METAFYSIKK_BOK_1.md) | 502 KB | Det opprinnelige grunnlagsmanuskriptet (Fysikk for metafysikk). |
+| [`ADMISSIBILITY_CONSTRAINED_REALIZATION_V02_OG_ARKITEKTENS_NULLPUNKT.md`](ADMISSIBILITY_CONSTRAINED_REALIZATION_V02_OG_ARKITEKTENS_NULLPUNKT.md) | v0.2 konsolidert | Strammet formell kjerne ($\mathcal{R} \subseteq \mathcal{F} \subseteq \Gamma$), $\pi$-kapittel, måleutvidelse & *Arkitektens Nullpunkt / Codex*. |
 | `build_litisk_kybernetikk_leksikon.py` | 17 KB | Kompileringsskript for generering av leksikon-PDF. |
 | `assemble_bind2_clean.py` | 24 KB | Sammenstillingsskript for kildetekster og moduler. |
 
