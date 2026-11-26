@@ -2,7 +2,7 @@
 ### *Skreddersydde systemprompter for «Konseptuell granitt — Et forsøk på sannhet (Til meg selv)»*
 
 **Kilde som lastes opp i NotebookLM:**
-* [`KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf`](../03_FERDIGE_BOKER_PDF/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) (`102 sider`, SHA-256: `16a24bdf7cd5432731276447cadba63a8ab1cb2f30be4119233b25ea34050fac`)
+* [`KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf`](../03_FERDIGE_BOKER_PDF/KONSEPTUELL_GRANITT_ET_FORSOK_PA_SANNHET.pdf) (`260 sider`, SHA-256: `e3d49d466212cff631cb793583e779bd4833d5240c7236c6bb3629150cd03668`)
 * Eventuelt også [`MASTER_MANUSKRIPT_SAMLET.md`](MASTER_MANUSKRIPT_SAMLET.md) for rå LaTeX-likninger og tabeller.
 
 ---
