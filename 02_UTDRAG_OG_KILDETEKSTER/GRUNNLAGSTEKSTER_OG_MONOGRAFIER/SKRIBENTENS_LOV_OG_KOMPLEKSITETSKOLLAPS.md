@@ -35,8 +35,6 @@ Slik arbeider jeg her ved bordet:
 
 ### DEL II: Ambolten // Kompleksitetskollaps ($\mathcal{NP} \xrightarrow{\;\Pi_K\;} \vert{}\mathcal{A}(\partial K)\vert{} \le 1$)
 
-![IEEE Architecture: Kompleksitetskollaps og Skribentens Lov](../../morandi/ieee_kompleksitetskollaps_skribentens_lov_diagram.png)
-
 #### 1. Feilslutningen om rommet
 Moderne beregning forveksler frihet med volum. Man tror at et system er intelligent fordi det kan holde millioner av mulige baner åpne i samme øyeblikk ($\Phi : x_t \mapsto \mathcal{C}_{x_t}$).
 
